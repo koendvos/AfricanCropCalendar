@@ -1,0 +1,21 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,ea_id,str8,0,%8s,,Unique Enumeration Area Code
+4,region,byte,1,%8.0g,ihs_region,IHS4 2016 Region location
+5,district,int,1,%8.0g,district,IHS4 2016 District Location
+6,reside,byte,1,%8.0g,reside,IHS4 2016 Rural Residence
+7,interviewDate,str10,0,%10s,,Interview Date
+8,hh_wgt,float,1,%9.0g,,Household Sampling Weight
+9,hh_a02a,byte,1,%8.0g,,TA CODE
+10,hh_a03,str3,0,%3s,,EA CODE
+11,hh_a06,str4,0,%4s,,PLEASE RECORD THE HOUSEHOLD ID
+12,hh_a11,byte,1,%8.0g,hh_replacement,Does this HH replace another sample HH?
+13,hh_a13,byte,1,%8.0g,repl,Why was originally selected HH replaced?
+14,hh_a22,int,1,%8.0g,,supervisor
+15,hh_a23,byte,1,%8.0g,,enumerator
+16,hh_g09,byte,1,%8.0g,hh_g09,"Over the past one week (7 days), did any people that you did nonlist as househol"
+17,hh_m00,byte,1,%8.0g,hh_m0a,"A. Did your household own or rent any farm implements, machinery and/or structur"
+18,hh_o0a,byte,1,%8.0g,hh_o,..Any children who are 15 years..do not live in this HH?
+19,hh_s01,byte,1,%8.0g,hh_s01,..did you or anyone else in this HH borrow on credit...?
+20,hh_w01,byte,1,%8.0g,hh_w01,"Over the past two years, did any member of the household die..."

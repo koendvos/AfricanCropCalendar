@@ -1,0 +1,11 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,fs_f0b,byte,1,%15.0g,FS_F0B,COST ID
+6,fs_f0c,str14,0,%14s,,COST ITEM
+7,fs_f04,byte,1,%8.0g,FS_F04,Did your household have any costs for [COST ITEM] in relation to your fish tradi
+8,fs_f05,long,1,%12.0g,,How much did your household have to pay for [COST ITEM] on a weekly basis during
+9,fs_f06,byte,1,%8.0g,FS_F06,ENUMERATOR: REFER TO MODULE B: FISHERIES CALENDAR. IS THE ANSWER TO QUESTION 2 '
+10,fs_f07,byte,1,%8.0g,FS_F07,Did you or anyone in your household do any fishing or fish trading during the la

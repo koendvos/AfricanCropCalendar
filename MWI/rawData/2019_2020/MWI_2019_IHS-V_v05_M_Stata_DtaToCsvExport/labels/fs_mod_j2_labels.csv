@@ -1,0 +1,7 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Unique Household Identification IHS5
+3,CostsID,byte,1,%15.0f,CostsID,Cost ID
+4,fs_j04a,byte,1,%9.0g,fs_j04a,..any costs for [ITEM] in relation..fish trading activities during last LOW seas
+5,fs_j04b,str12,0,%12s,,Any Other Cost
+6,fs_j05,long,1,%6.0f,,Amt your HH have to pay for [ITEM] on a weekly basis during the last LOW season?

@@ -1,0 +1,12 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrance Sequence for O/S Merge
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,com_cb01,byte,1,%8.0g,,ID CODE
+4,com_cb03,byte,1,%8.0g,COM_CB03,SEX
+5,com_cb04,byte,1,%8.0g,,How old are you?
+6,com_cb05a,byte,1,%50.0g,COM_CB05A,What position do you currently have in this community? (1ST)
+7,com_cb05b,byte,1,%50.0g,COM_CB05B,What position do you currently have in this community? (2ND)
+8,com_cb05_1,byte,1,%8.0g,,For how many years have you held this position?
+9,com_cb06,byte,1,%8.0g,,For how many years have you lived in this community?
+10,com_cb07,byte,1,%17.0g,COM_CB07,What is the highest educational qualification attained?
+11,com_cb08,byte,1,%8.0g,COM_CB08,What language do you speak at home?

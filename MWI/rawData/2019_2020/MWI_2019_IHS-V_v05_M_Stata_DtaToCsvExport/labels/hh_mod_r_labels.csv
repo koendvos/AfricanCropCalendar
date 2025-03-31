@@ -1,0 +1,24 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,hh_r0a,int,1,%46.0g,hh_r0a,SOURCE CODE
+4,hh_r01,byte,1,%6.0f,hh_r_other,Received
+5,hh_r01_101,str65,0,%65s,,Free Maize (Specify)
+6,hh_r01_102,str60,0,%60s,,Free Food (other than Maize) (Specify))
+7,hh_r01_111,str53,0,%53s,,Direct Cash Transfers from Government (Mtukula Pakhoma) SPECIFY
+8,hh_r01_112,str59,0,%59s,,"Direct Cash Transfers from others (Development Partners, NGOs). SPECIFY"
+9,hh_r01_specify,str95,0,%95s,,Specify
+10,hh_r02a,long,1,%6.0f,,"In the last 12 months, what was the total assistance received from PROGRAM? (CAS"
+11,hh_r02b,long,1,%6.0f,,"In the last 12 months, what was the total assistance received from PROGRAM? (IN-"
+12,hh_r02c,double,1,%6.2f,,"In the last 12 months, what was the total assistance received from PROGRAM? (MAI"
+13,hh_r03,byte,1,%6.0f,hh_r03,Was the assistance given to...
+14,hh_r04a,byte,1,%6.0f,,Which HH members received this assistance in the last 12 months? (ID 1)
+15,hh_r04b,byte,1,%10.0g,,Which HH members received this assistance in the last 12 months? (ID 2)
+16,hh_r04c,byte,1,%10.0g,,Which HH members received this assistance in the last 12 months? (ID 3)
+17,hh_r04d,byte,1,%10.0g,,Which HH members received this assistance in the last 12 months? (ID 4)
+18,hh_r04e,byte,1,%10.0g,,Which HH members received this assistance in the last 12 months? (ID 5)
+19,hh_r05a,byte,1,%6.0f,,Who in your HH controld/decides on the use of assistance from [PROG] (ID 1)
+20,hh_r05b,byte,1,%10.0g,,Who in your HH controld/decides on the use of assistance from [PROG] (ID 2)
+21,hh_r06,int,1,%6.0f,,"In the last 12 months, for how many months did your household receive assistance"
+22,hh_r07a,byte,1,%6.0f,hh_r7a,When was the last time your household received this assistance? MONTH
+23,hh_r07b,int,1,%6.0f,,When was the last time your household received this assistance?  YEAR

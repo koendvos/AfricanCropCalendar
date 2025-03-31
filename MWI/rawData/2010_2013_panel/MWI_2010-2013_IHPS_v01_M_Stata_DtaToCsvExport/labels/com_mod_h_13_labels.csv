@@ -1,0 +1,31 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrance Sequence for O/S Merge
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,com_ch0b,int,1,%56.0g,COM_CH0B,CODE
+4,com_ch01,byte,1,%8.0g,COM_CH01,"Since 2010, have any of the community members ever approached the village headma"
+5,com_ch02,byte,1,%8.0g,COM_CH02,"Since 2010, have the village headman or other village leader or political leader"
+6,com_ch03,byte,1,%8.0g,COM_CH03,ENUMERATOR: IS THE ANSWER 'YES' TO EITHER QUESTION CH1 OR QUESTION CH2?
+7,com_ch04,byte,1,%8.0g,COM_CH04,"Since 2010, did the community members (besides village headman and other local/p"
+8,com_ch05,byte,1,%34.0g,COM_CH05,Under whose leadership was the meeting(s) organized?
+9,com_ch06,byte,1,%8.0g,COM_CH06,Was the meeting(s) successful in determining the steps that were needed to be ta
+10,com_ch07a,byte,1,%8.0g,COM_CH07A,"To address the need for [ITEM], did the community…[mobilize manpower among commu"
+11,com_ch07b,byte,1,%8.0g,COM_CH07B,"To address the need for [ITEM], did the community…[mobilize financial resources"
+12,com_ch07c,byte,1,%8.0g,COM_CH07C,"To address the need for [ITEM], did the community…[submit a proposal to be funde"
+13,com_ch07d,byte,1,%8.0g,COM_CH07D,"To address the need for [ITEM], did the community…[seek resources through tradit"
+14,com_ch07e,byte,1,%8.0g,COM_CH07E,"To address the need for [ITEM], did the community…[seek resources through the ci"
+15,com_ch07f,byte,1,%8.0g,COM_CH07F,"To address the need for [ITEM], did the community…[seek resources through the re"
+16,com_ch07h,byte,1,%8.0g,COM_CH07H,"To address the need for [ITEM], did the community…[seek resources through an NGO"
+17,com_ch07i,byte,1,%8.0g,COM_CH07I,"To address the need for [ITEM], did the community…[Other (Specify)/Numeric]"
+18,com_ch08,byte,1,%8.0g,COM_CH08,"ENUMERATOR: DID THE COMMUNITY TAKE ANY ACTION TO ADDRESS NEED FOR [ITEM], AS REP"
+19,com_ch09,byte,1,%34.0g,COM_CH09,Was the need for [ITEM] addressed?
+20,com_ch09_1a,byte,1,%34.0g,COM_CH09_1A,What was/will be the source of the funds for [ITEM]? (1ST)
+21,com_ch09_1b,byte,1,%34.0g,COM_CH09_1B,What was/will be the source of the funds for [ITEM]? (2ND)
+22,com_ch09_1c,byte,1,%34.0g,COM_CH09_1C,What was/will be the source of the funds for [ITEM]? (3RD)
+23,com_ch10,long,1,%12.0g,,What was/will be the total funding for [ITEM]?(MK)
+24,com_ch11,long,1,%12.0g,,What was/will be the total amount of money contributed by community members?(MK)
+25,com_ch12,byte,1,%15.0g,COM_CH12,How were/will be the contributions raised?
+26,com_ch13a,byte,1,%8.0g,COM_CH13A,"To address the need for [ITEM], did the community members…[serve in the project"
+27,com_ch13b,byte,1,%8.0g,COM_CH13B,"To address the need for [ITEM], did the community members…[provide material inpu"
+28,com_ch13c,byte,1,%8.0g,COM_CH13C,"To address the need for [ITEM], did the community members…[supply any other in-k"
+29,com_ch14,byte,1,%21.0g,COM_CH14,Who chose the members of the [ITEM] project committee?
+30,com_ch15,byte,1,%8.0g,COM_CH15,Was the need for [ITEM]/ Is the need for [ITEM] going to be addressed without ne

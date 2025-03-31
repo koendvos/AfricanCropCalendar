@@ -1,0 +1,7 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,y2_hhid,str8,0,%9s,,Unique HH Identifier
+2,ag_c00,str3,0,%9s,,Plot ID
+3,dist_hh,double,1,%10.0g,,Plot Distance in (KMs) to HH
+4,slope,byte,1,%10.0g,,Plot Slope (percent)
+5,elevation,int,1,%10.0g,,Plot Elevation (m)
+6,twi,byte,1,%10.0g,,Plot Potential Wetness Index

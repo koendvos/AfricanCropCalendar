@@ -1,0 +1,69 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_f01,byte,1,%20.0g,HH_F01,"Do you own or are purchasing this house, is it provided to you by an employer, d"
+6,hh_f02,long,1,%12.0g,,If you sold this dwelling today how much would you receive for it?
+7,hh_f03a,long,1,%12.0g,,Estimate the rent you could receive if you rented this dwelling (MWK)?
+8,hh_f03b,byte,1,%8.0g,HH_F03B,Estimate the rent you could receive if you rented this dwelling (time unit)?
+9,hh_f04a,long,1,%12.0g,,How much do you pay to rent this dwelling (MWK)?
+10,hh_f04b,byte,1,%8.0g,HH_F04B,How much do you pay to rent this dwelling (time unit)?
+11,hh_f05,int,1,%10.0g,HH_F05,How many years ago was this house built? How old is it?
+12,hh_f06,byte,1,%14.0g,HH_F06,WHAT GENERAL TYPE OF CONSTRUCTION MATERIAL ARE USED FOR THE DWELLING?
+13,hh_f07,byte,1,%15.0g,HH_F07,THE OUTER WALLS OF THE MAIN DWELLING OF THE HOUSEHOLD ARE PREDOMINANTLY MADE OF
+14,hh_f08,byte,1,%16.0g,HH_F08,THE ROOF OF THE MAIN DWELLINGIS PREDOMINANTLY MADE OF WHAT MATERIAL?
+15,hh_f09,byte,1,%15.0g,HH_F09,THE FLOOR OF THE MAIN DWELLING IS PREDOMINANTLY MADE OF WHAT MATERIAL?
+16,hh_f10,byte,1,%8.0g,,How many separate rooms do the members of your household occupy?
+17,hh_f11,byte,1,%24.0g,HH_F11,What is your main source of lighting fuel?
+18,hh_f12,byte,1,%18.0g,HH_F12,What is your main source of cooking fuel?
+19,hh_f13,byte,1,%8.0g,HH_F13,Do you ever use firewood for fuel?
+20,hh_f14,byte,1,%8.0g,HH_F14,Do you ever collect firewood?
+21,hh_f15,byte,1,%27.0g,HH_F15,Where do you go to collect firewood?
+22,hh_f16a,int,1,%9.0g,,How long does it take you to walk from dwelling to where you usually go to colle
+23,hh_f16b,byte,1,%8.0g,HH_F16B,How long does it take you to walk from dwelling to where you usually go to colle
+24,hh_f17,byte,1,%14.0g,HH_F17,"Of the firewood you used in the past week, how much of it did you purchase?"
+25,hh_f18,int,1,%12.0g,,"What is the total value of the firewood you used in the past week, whether gathe"
+26,hh_f19,byte,1,%8.0g,HH_F19,Do you have electricity working in your dwelling?
+27,hh_f20a,byte,1,%15.0g,HH_F20A,"In the event of a black out, what source of energy do you use for lighting?"
+28,hh_f20b,byte,1,%15.0g,HH_F20B,"In the event of a black out, what source of energy do you use for cooking?"
+29,hh_f21,byte,1,%8.0g,HH_F21,Do you get your electricity via ESCOM?
+30,hh_f22,byte,1,%14.0g,HH_F22,"Following your application to get electricity, how many weeks did you have to wa"
+31,hh_f22a,byte,1,%14.0g,HH_F22A,"Following your application to get electricity, how many weeks did you have to wa"
+32,hh_f22b,byte,1,%8.0g,HH_F22B,"Following your application to get electricity, how many weeks did you have to wa"
+33,hh_f23,byte,1,%8.0g,HH_F23,Did you have to pay an unofficial fee to get a connection?
+34,hh_f24,byte,1,%21.0g,HH_F24,"In the last 12 months, how frequently did you experience blackouts in your area?"
+35,hh_f25,long,1,%12.0g,HH_F25,How much did you last pay for electricity?
+36,hh_f26a,byte,1,%9.0g,,To what length of time does this cost of electricity refer (Time amount)?
+37,hh_f26b,byte,1,%8.0g,HH_F26B,To what length of time does this cost of electricity refer (Time unit)?
+38,hh_f27,byte,1,%8.0g,HH_F27,"Although you do not have electricity in your dwelling, does your village / neigh"
+39,hh_f28,byte,1,%8.0g,HH_F28,ENUMERATOR: IS THE DWELLING OWNED BY THE HOUSEHOLD ACCORDING TO F01?
+40,hh_f29,byte,1,%37.0g,HH_F29,What is the main reason for your household not to have access to electricity?
+41,hh_f30,byte,1,%8.0g,,How many weeks have you been waiting for?
+42,hh_f34,byte,1,%8.0g,,How many working cell phones in total does your household own?
+43,hh_f35,long,1,%12.0g,,Estimate the total cost for cell phone service for all household members last mo
+44,hh_f36,byte,1,%27.0g,HH_F36,What was your main source of drinking water?
+45,hh_f37,long,1,%12.0g,,What was the total cost of drinking water for your household last month?
+46,hh_f38a,int,1,%11.0g,HH_F38A,How long does it take you to walk (ONE WAY) to the main water source from your d
+47,hh_f38b,byte,1,%8.0g,HH_F38B,How long does it take you to walk (ONE WAY) to the main water source from your d
+48,hh_f39,byte,1,%17.0g,HH_F39,Do you use the main water source…
+49,hh_f40,byte,1,%27.0g,HH_F40,What is your main source of drinking water in the other season?
+50,hh_f41,byte,1,%29.0g,HH_F41,What kind of toilet facility does your household use?
+51,hh_f42,byte,1,%22.0g,HH_F42,Is this toilet facility for the use of :
+52,hh_f43,byte,1,%19.0g,HH_F43,What kind of rubbish disposal facilities does your household use?
+53,hh_f44,byte,1,%8.0g,HH_F44,Do any members of your household sleep under a bed net to protect against mosqui
+54,hh_f45,byte,1,%41.0g,HH_F45,Has/have the bed net(s) ever been dipped in insecticide against mosquitoes in th
+55,hh_f46,byte,1,%8.0g,HH_F46,ENUMERATOR: DOES THIS HOUSEHOLD HAVE ANY CHILDREN BELOW 5 YEARS OF AGE?
+56,hh_f47,byte,1,%35.0g,HH_F47,Do the children under 5 in the household sleep under a bed net at those times of
+57,hh_f48,byte,1,%8.0g,,"Do you or anyone else in your household have a bank account, either with a comme"
+58,hh_f49,byte,1,%8.0g,,ENUMERATOR: RECORD THE HOUSEHOLD ROSTER ID ON THE RESPONDENT
+59,hh_f50,byte,1,%8.0g,HH_F50,"Does any other member of your household, ..., currently have an account at a ban"
+60,hh_f51a,byte,1,%8.0g,,"ENUMERATOR: RECORD THE HOUSEHOLD ROATER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDI"
+61,hh_f51b,byte,1,%8.0g,,"ENUMERATOR: RECORD THE HOUSEHOLD ROATER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDI"
+62,hh_f51c,byte,1,%8.0g,,"ENUMERATOR: RECORD THE HOUSEHOLD ROATER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDI"
+63,hh_f52,byte,1,%8.0g,HH_F52,"In the past year, have you used an account at a bank, credit union, etc. of some"
+64,hh_f53,byte,1,%8.0g,,ENUMERATOR: RECORD THE HOUSEHOLD RAOSTER ID OF THE RESPONDENT
+65,hh_f54,byte,1,%8.0g,HH_F54,"In the past year, has any member of your household used an account at a bank, cr"
+66,hh_f55a,byte,1,%8.0g,,"ENUMERATOR: RECORD THE HOUSEHOLD ROSTER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDI"
+67,hh_f55b,byte,1,%8.0g,,"ENUMERATOR: RECORD THE HOUSEHOLD ROSTER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDI"
+68,hh_f55c,byte,1,%8.0g,,"ENUMERATOR: RECORD THE HOUSEHOLD ROSTER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDI"

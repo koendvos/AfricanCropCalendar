@@ -1,0 +1,9 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,ag_nr00,str3,0,%9s,,Network Roster ID
+6,ag_nr02,byte,1,%32.0g,AG_U02,Code
+7,ag_nr02_os,str30,0,%30s,,Code (Other Specify)
+8,ag_nr03,byte,1,%30.0g,AG_U03,Location

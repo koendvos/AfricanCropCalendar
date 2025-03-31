@@ -1,0 +1,13 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_g08a,byte,1,%8.0g,,"..past one week (7 days),how many days..consume any Cereals,Grains & Cereal Pdts"
+4,hh_g08b,byte,1,%8.0g,,"..past one week (7 days), how many days..consume any Roots, Tubers & Plantains"
+5,hh_g08c,byte,1,%8.0g,,"..past one week (7 days), how many days...consume any Nuts and Pulses"
+6,hh_g08d,byte,1,%8.0g,,"..past one week (7 days), how many days...consume any Vegetables"
+7,hh_g08e,byte,1,%8.0g,,"..past one week (7 days), how many days...consume any Meat, Fish & Animal Pdts"
+8,hh_g08f,byte,1,%8.0g,,"..past one week (7 days), how many days...consume any Fruits"
+9,hh_g08g,byte,1,%8.0g,,"..past one week (7 days), how many days...consume any Milk/Milk Products"
+10,hh_g08h,byte,1,%8.0g,,"..past one week (7 days), how many days...consume any Fats/Oil"
+11,hh_g08i,byte,1,%8.0g,,"..past one week (7 days), how many days...consume any Sugar/Sugar Products/Honey"
+12,hh_g08j,byte,1,%8.0g,,"..past one week (7 days), how many days...consume any Spices/Condiments"

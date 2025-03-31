@@ -1,0 +1,9 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_e01,byte,1,%8.0g,AG_E01,Did you or anyone in your household obtain any input coupons during the 2012/201
+6,ag_e0b,byte,1,%8.0g,,HH Roster ID Code
+7,ag_e0c,byte,1,%18.0g,AG_E0C,Coupon Type
+8,ag_e0d,byte,1,%8.0g,,Number Received

@@ -1,0 +1,73 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,ag_f0a,byte,1,%8.0g,AG_F0A,Did you or anyone in HH cultivate any plots during [RS]?
+5,ag_f0c,byte,1,%8.0g,AG_F0C,Input Code
+6,ag_f0c_os,str10,0,%10s,,Input Code (Other Specify)
+7,ag_f01a,float,1,%9.0g,,Enumerator: refer to A-G module D: fill this column with the sum of each input a
+8,ag_f01b,byte,1,%8.0g,AG_F01B,Enumerator: refer to A-G module D: fill this column with the sum of each input a
+9,ag_f01b_os,str11,0,%11s,,Enumerator: refer to A-G module D: fill this column... (Unit) (Other Specify)
+10,ag_f02,byte,1,%8.0g,AG_F02,Enumerator: ask the farmer whether these figures correspond to the amount of eac
+11,ag_f03,byte,1,%8.0g,AG_F03,During[RS]did all of this [INPUT] come from purchases by using coupons/vouchers?
+12,ag_f04,byte,1,%8.0g,AG_F04,Did you purchase any[INPUT]w/out coupons/vouchers/purchase any[INPUT]on credit?
+13,ag_f05,byte,1,%8.0g,,ENUMERATOR: IS THIS A CROSS - SECTIONAL HOUSEHOLD?
+14,ag_f06a,str3,0,%3s,,Source of[INPUT]you purchased w/out coupons/vouchers/purchased credit?(ID #1)
+15,ag_f06b,str3,0,%3s,,Source of[INPUT]you purchased w/out coupons/vouchers/purchased credit?(ID #2)
+16,ag_f07a,float,1,%9.0g,,How much of[INPUT]was purchased w/out coupons/vouchers or purchased on credit(Q)
+17,ag_f07b,byte,1,%8.0g,,How much of[INPUT]was purchased w/out coupons/vouchers or purchased on credit(U)
+18,ag_f07b_os,str7,0,%7s,,How much of[INPUT]was purchased w/out coupons/vouchers or purchased...(U)(O/S)
+19,ag_f08,byte,1,%8.0g,,Main mode used to transport[INPUT]purchased on credit or w/out coupons/vouchers?
+20,ag_f08_os,str37,0,%37s,,Main mode used to transport[INPUT]purchased on credit or w/out...?(O/S)
+21,ag_f09,int,1,%8.0g,,How much did you pay for transportation to acquire all of the[INPUT]?
+22,ag_f10,long,1,%12.0g,,Value of all [INPUT] purchased w/out coupons/vouchers or purchased on credit?
+23,ag_f11,byte,1,%8.0g,,How did you finance this [INPUT] purchase?
+24,ag_f12,int,1,%8.0g,,How much did you pay up-front for this [INPUT] purchase?
+25,ag_f13,long,1,%12.0g,,How much did you repay/will you repay?
+26,ag_f14a,str3,0,%3s,,What was the source of credit for this [INPUT] purchase? (ID #1)
+27,ag_f14b,str1,0,%1s,,What was the source of credit for this [INPUT] purchase? (ID #2)
+28,ag_f15,str3,0,%3s,,1st source of[INPUT]you purchased w/out coupons/vouchers/purchased credit?
+29,ag_f16a,float,1,%9.0g,,Amount purchased w/out coupons/vouchers or purchased on credit(1st source)-QUANT
+30,ag_f16b,byte,1,%8.0g,AG_F06B,Amount purchased w/out coupons/vouchers or purchased on credit(1st source)-UNIT
+31,ag_f16b_os,str6,0,%6s,,How much of the [INPUT] was purchased without coupons... (Unit) (Other Specify)
+32,ag_f17,byte,1,%8.0g,AG_F07,Main mode used to transport[INPUT]purchased on credit or w/out coupons/vouchers?
+33,ag_f17_os,str28,0,%28s,,Main mode used to transport[INPUT]purchased on credit or w/out...?(1ST)(O/S)
+34,ag_f18,long,1,%12.0g,,How much did you pay for transportation to acquire this [INPUT]?(1ST)
+35,ag_f19,long,1,%12.0g,,What was the value of[INPUT]purchased on credit or w/out coupons/vouchers(1st)?
+36,ag_f20,byte,1,%8.0g,AG_F10,How did you finance this [INPUT] purchase from [FIRST SOURCE]?
+37,ag_f21,long,1,%12.0g,,How much did you pay up-front for this [INPUT] purchase?
+38,ag_f22,long,1,%12.0g,,How much did you repay/will you repay?
+39,ag_f23,str3,0,%3s,,What was the source of credit for this [INPUT] purchase?
+40,ag_f24,byte,1,%8.0g,AG_F14,2nd source from whom you purchased[INPUT]w/out coupons/vouchers or on credit?
+41,ag_f25,str3,0,%3s,,2nd Source of[INPUT]purchased w/out coupons/vouchers or purchased on credit
+42,ag_f26a,byte,1,%8.0g,,Amount purchased w/out coupons/vouchers or purchased on credit(2nd source)-QUANT
+43,ag_f26b,byte,1,%8.0g,AG_F16B,Amount purchased w/out coupons/vouchers or purchased on credit(2nd source)-UNIT
+44,ag_f26b_os,byte,1,%8.0g,,Amount purchased w/out coupons/vouchers or purchased...-UNIT(O/S)
+45,ag_f27,byte,1,%8.0g,AG_F17,Main mode used to transport[INPUT]purchased on credit or w/out coupons/vouchers?
+46,ag_f27_os,byte,1,%8.0g,,Main mode used to transport[INPUT]purchased on credit...?(O/S)
+47,ag_f28,int,1,%8.0g,,How much did you pay for transportation to acquire this [INPUT]?(2ND)
+48,ag_f29,int,1,%8.0g,,What was the value of[INPUT]purchased on credit or w/out coupons/vouchers(2nd so
+49,ag_f30,byte,1,%8.0g,AG_F20,How did you finance this [INPUT] purchase from [SECOND SOURCE]?
+50,ag_f31,int,1,%8.0g,,How much did you pay up-front for this [INPUT] purchase?
+51,ag_f32,int,1,%8.0g,,How much did you repay/will you repay?
+52,ag_f33,str3,0,%3s,,What was the source of credit for this [INPUT] purchase?
+53,ag_f34,byte,1,%8.0g,AG_F24,3rd source from whom you purchased[INPUT]w/out coupons/vouchers or on credit?
+54,ag_f35,str3,0,%3s,,3rd Source of[INPUT]purchased w/out coupons/vouchers or purchased on credit
+55,ag_f36a,byte,1,%8.0g,,Amount purchased w/out coupons/vouchers or purchased on credit(3rd source)-QUANT
+56,ag_f36b,byte,1,%8.0g,AG_F26B,Amount purchased w/out coupons/vouchers or purchased on credit(3rd source)-UNIT
+57,ag_f36b_os,byte,1,%8.0g,,Amount purchased w/out coupons/vouchers or purchased...-UNIT(O/S)
+58,ag_f37,byte,1,%8.0g,AG_F27,Did you receive any of the[INPUT]for free during the[RS]?
+59,ag_f38a,float,1,%9.0g,,How much of[INPUT]did you receive in total for free during[RS](QUANT)?
+60,ag_f38b,byte,1,%8.0g,AG_F28B,How much of[INPUT]did you receive in total for free during[RS](UNIT)?
+61,ag_f38b_os,str9,0,%9s,,How much of[INPUT]did you receive in total for free during[RS](UNIT)(O/S)?
+62,ag_f39a,str3,0,%3s,,"During[RS],from whom did you receive most of the[INPUT]for free(1st)?"
+63,ag_f39b,str3,0,%3s,,"During[RS],from whom did you receive most of the[INPUT]for free(2nd)?"
+64,ag_f40,int,1,%8.0g,,Total payment for transportation to acquire all of[INPUT]received for free?
+65,ag_f41,byte,1,%8.0g,AG_F31,Was any of the[INPUT]used during the[RS]left over from a previous season?
+66,ag_f42a,float,1,%9.0g,,How much of[INPUT]used during[RS]was left over from a previous season(QUANT)?
+67,ag_f42b,byte,1,%8.0g,AG_F32B,How much of[INPUT]used during[RS]was left over from a previous season(UNIT)?
+68,ag_f42b_os,byte,1,%8.0g,,How much of[INPUT]used during[RS]was left over...(UNIT)(O/S)?
+69,ag_f43,byte,1,%8.0g,AG_F33,Use any ORGANIC FERTILIZER out of own-production or own animals during [RS]?
+70,ag_f44a,float,1,%9.0g,,How much ORG FERT was used out of own-production or own animals during[RS]?(Q)
+71,ag_f44b,byte,1,%8.0g,AG_F34B,How much ORG FERT was used out of own-production or own animals during[RS]?(U)
+72,ag_f44b_os,str10,0,%10s,,How much ORG FERT was used out of own-production or own animals...?(U)(O/S)

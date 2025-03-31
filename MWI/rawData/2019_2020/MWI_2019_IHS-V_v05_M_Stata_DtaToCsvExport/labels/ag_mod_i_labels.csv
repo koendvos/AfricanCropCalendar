@@ -1,0 +1,71 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,crop_code,byte,1,%6.0f,ag_H_seed_roster__id,Id in ag_H_seed_roster
+4,ag_i01,byte,1,%6.0f,ag_i01,Did you  sell  any of the harvested[CROP]?
+5,ag_i01_1,byte,1,%6.0f,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID
+6,ag_i02a,long,1,%6.0f,,How much of the harvested[CROP] was  sold in total ?
+7,ag_i02b,byte,1,%6.0f,ag_i02b,UNIT
+8,ag_i02b_oth,str14,0,%14s,,SPECIFY UNIT
+9,ag_i02c,byte,1,%6.0f,ag_i02c,S/U
+10,ag_i03,long,1,%6.0f,,What was the  total value  of  all [CROP] sales?
+11,ag_i05a,byte,1,%6.0f,,Who/What were the main buyers/outlets for your [CROP] sales? (ID CODE #1)
+12,ag_i05b,byte,1,%6.0f,,Who/What were the main buyers/outlets for your [CROP] sales? (ID CODE #2)
+13,ag_i06a,byte,1,%6.0f,,Who in you HH kept/decided what to do with these earning? (ID CODE #1)
+14,ag_i06b,byte,1,%6.0f,,Who in you HH kept/decided what to do with these earning? (ID CODE #2)
+15,ag_i06c,byte,1,%6.0f,,Who in you HH kept/decided what to do with these earning? (ID CODE #3)
+16,ag_i07a,byte,1,%6.0f,ag_i07a,When was most of the[CROP] sold?
+17,ag_i07b,int,1,%6.0f,,YEAR <br><br>(4-DIGIT)
+18,ag_i08,long,1,%6.0f,,Approximately how many transactions took place while selling [CROP]?
+19,ag_i09,byte,1,%6.0f,ag_i09,What was the main mode of transportation associated with all [CROP]?
+20,ag_i09_oth,str51,0,%9s,,Specify the  main mode of transportation .
+21,ag_i10,long,1,%6.0f,,What was the total cost of transportation associated with all [CROP]?
+22,ag_i30a,double,1,%6.2f,,How much of the harvested [CROP] during [RS] was consumed by the HH?
+23,ag_i30b,byte,1,%6.0f,ag_i30b,UNIT
+24,ag_i30b_oth,str20,0,%20s,,Specify unit
+25,ag_i31a,double,1,%6.2f,,Amt of harvested [CROP] during [RS] given as a gifts/reimbursements for land/lab
+26,ag_i31b,byte,1,%6.0f,ag_i31b,UNIT
+27,ag_i31b_oth,str21,0,%9s,,SPECIFY UNIT
+28,ag_i31c,byte,1,%6.0f,ag_131c,S/U
+29,ag_i32a,double,1,%6.2f,,Amt of [CROP] given as reimbursements for inputs borrowed/acquired on credit. (Q
+30,ag_i32b,byte,1,%6.0f,ag_i32b,UNIT
+31,ag_i32b_oth,str7,0,%9s,,SPECIFY UNIT
+32,ag_i32c,byte,1,%6.0f,ag_i32c,S/U
+33,ag_i33a,double,1,%6.2f,,Amt of harvested [CROP] used for animal feed? (Q)
+34,ag_i33b,byte,1,%6.0f,ag_i33b,UNIT
+35,ag_i33b_oth,str6,0,%9s,,SPECIFY UNIT
+36,ag_i33c,byte,1,%6.0f,ag_i33c,S/U
+37,ag_i34a,double,1,%6.2f,,Amt [CROP] used as input for [CROP] by-products that HH sold for cash/in-kind G/
+38,ag_i34b,byte,1,%6.0f,ag_i34b,UNIT
+39,ag_i34b_oth,str12,0,%12s,,SPECIFY UNIT
+40,ag_i34c,byte,1,%6.0f,ag_i34c,S/U
+41,ag_i35a,double,1,%6.2f,,Amt of harvested [CROP] saved for seed. (Q)
+42,ag_i35b,byte,1,%6.0f,ag_i35b,UNIT
+43,ag_i35b_oth,str22,0,%22s,,SPECIFY UNIT
+44,ag_i35c,byte,1,%6.0f,ag_i35c,S/U
+45,ag_i36a,double,1,%6.2f,,"Amt of [CROP] lost to rotting, insectes, rodents, theft in port-harvest period."
+46,ag_i36b,byte,1,%6.0f,ag_i36b,OPTION 1 UNIT
+47,ag_i36b_oth,str18,0,%18s,,SPECIFY UNIT
+48,ag_i36c,byte,1,%6.0f,ag_i36c,OPTION 1 S/U
+49,ag_i36d,byte,1,%6.0f,,OPTION 2 PERCENTAGE
+50,ag_i37a,float,1,%15.0g,reason_loss,What was the reason for loss? (1ST)
+51,ag_i37b,float,1,%15.0g,reason_loss,What was the reason for loss? (2ND)
+52,ag_i37_oth,str50,0,%50s,,Specify the  reason  for loss.
+53,ag_i38,byte,1,%6.0f,ag_i38,Do you have any of the harvested[CROP]  in storage  now
+54,ag_i39,byte,1,%6.0f,ag_i39,What is your  main method  of storage for this crop?
+55,ag_i39_oth,str35,0,%35s,,Specify your main method of storage for this crop.
+56,ag_i40a,int,1,%6.0f,,Amt of harvested [CROP] bring stored by HH. (Q)
+57,ag_i40b,byte,1,%6.0f,ag_i40b,UNIT
+58,ag_i40b_oth,str26,0,%26s,,SPECIFY UNIT
+59,ag_i40c,byte,1,%6.0f,ag_i40c,S/U
+60,ag_i41a,float,1,%17.0g,actions,What did you do to protect the stored [CROP]? (1ST)
+61,ag_i41b,float,1,%17.0g,actions,What did you do to protect the stored [CROP]? (2ND)
+62,ag_i41c,byte,1,%6.0f,ag_i41a,Did you pesticides to protect the stored crop during the reference rainy season?
+63,ag_i41_oth,str45,0,%45s,,Specify what you do to  protect  the stored[CROP].
+64,ag_i41_1,byte,1,%6.0f,ag_i41_1,What is the main type of pesticide used?
+65,ag_i41_1_oth,str35,0,%35s,,Please specify other type of pesticide used?
+66,ag_i41_2,byte,1,%6.0f,ag_i41_2,Where did you get most of the pesticide from?
+67,ag_i41_3,byte,1,%6.0f,ag_i41_3,"According to you, how effective is the pesticide used?"
+68,ag_i42a,float,1,%29.0g,purpose,"When you store [CROP], what is usually the main purpose for storing it? (1ST)"
+69,ag_i42b,float,1,%29.0g,purpose,"When you store [CROP], what is usually the main purpose for storing it? (2ND)"
+70,ag_i42_oth,str51,0,%51s,,Specify what is usually the  main purpose  for storing the crop.

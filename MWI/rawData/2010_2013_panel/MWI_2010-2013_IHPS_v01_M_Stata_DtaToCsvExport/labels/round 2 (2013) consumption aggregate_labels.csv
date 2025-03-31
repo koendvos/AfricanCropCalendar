@@ -1,0 +1,117 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,round,float,1,%9.0g,,1 = IHS3 2 = IHPS
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+4,HHID,int,1,%8.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+5,ea_id,str8,0,%9s,,Baseline EA Identifier
+6,region,byte,1,%8.0g,region,Region
+7,urban,byte,1,%9.0g,urban,Urban/rural
+8,district,int,1,%13.0g,district,District
+9,strata,byte,1,%14.0g,STRATUM,Baseline Stratum - Region x Urban/Rural
+10,hhweight,float,1,%9.0g,,Sampling weights round 2
+11,hhweightR1,float,1,%9.0g,,Baseline Sampling Weight
+12,hhsize,byte,1,%9.0g,,Household size (for consumption)
+13,adulteq,double,1,%9.0g,,Adult equivalents in the household (for consumption)
+14,intmonth,byte,1,%9.0g,,Month of interview (for consumption)
+15,intyear,int,1,%9.0g,,Year of interview (for consumption)
+16,panel,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+17,interview_status,byte,1,%24.0g,stat,Household Interview Status
+18,price_indexL,float,1,%9.0g,,Laspeyres monthly Spatial and Temporal Price Index (Base National March 2013)
+19,rexpagg,float,1,%9.0g,,"Total real annual consumption per household - 2013 Prices, Spatially & Temporall"
+20,pcrexpagg,float,1,%9.0g,,"Total real annual consumption per capita        - 2013 Prices, Spatially & Tempo"
+21,absolute_povline,float,1,%9.0g,,Absolute Poverty Line - 2013 Prices
+22,extreme_povline,float,1,%9.0g,,Ultra Poverty Line    - 2013 Prices
+23,poor,float,1,%9.0g,,=1 if 2013 Total real annual consumption per capita < Absolute poverty line
+24,epoor,float,1,%9.0g,,=1 if 2013 Total real annual consumption per capita < Extreme  poverty line
+25,rexp_cat01,float,1,%9.0g,,"Food/Bev, real annual consumption"
+26,rexp_cat02,float,1,%9.0g,,"Alc/Tobacco, real annual consumption"
+27,rexp_cat03,float,1,%9.0g,,"Clothing/Footwear, real annual consumption"
+28,rexp_cat04,float,1,%9.0g,,"Housing/Utilities, real annual consumption"
+29,rexp_cat05,float,1,%9.0g,,"Furnishings, real annual consumption"
+30,rexp_cat06,float,1,%9.0g,,"Health, real annual consumption"
+31,rexp_cat07,float,1,%9.0g,,"Transport, real annual consumption"
+32,rexp_cat08,float,1,%9.0g,,"Communication, real annual consumption"
+33,rexp_cat09,float,1,%9.0g,,"Recreation, real annual consumption"
+34,rexp_cat10,float,1,%9.0g,,"Education, real annual consumption"
+35,rexp_cat11,float,1,%9.0g,,"Hotels and restaurants, real annual consumption"
+36,rexp_cat12,float,1,%9.0g,,"Misc goods & services, real annual consumption"
+37,pcrexp_cat01,float,1,%9.0g,,rexp_cat01 per capita
+38,pcrexp_cat02,float,1,%9.0g,,rexp_cat02 per capita
+39,pcrexp_cat03,float,1,%9.0g,,rexp_cat03 per capita
+40,pcrexp_cat04,float,1,%9.0g,,rexp_cat04 per capita
+41,pcrexp_cat05,float,1,%9.0g,,rexp_cat05 per capita
+42,pcrexp_cat06,float,1,%9.0g,,rexp_cat06 per capita
+43,pcrexp_cat07,float,1,%9.0g,,rexp_cat07 per capita
+44,pcrexp_cat08,float,1,%9.0g,,rexp_cat08 per capita
+45,pcrexp_cat09,float,1,%9.0g,,rexp_cat09 per capita
+46,pcrexp_cat10,float,1,%9.0g,,rexp_cat10 per capita
+47,pcrexp_cat11,float,1,%9.0g,,rexp_cat11 per capita
+48,pcrexp_cat12,float,1,%9.0g,,rexp_cat12 per capita
+49,rexp_cat011,float,1,%9.0g,,"Food, real annual consumption"
+50,rexp_cat012,float,1,%9.0g,,"Beverage, real annual consumption"
+51,rexp_cat021,float,1,%9.0g,,"Alcohol, real annual consumption"
+52,rexp_cat022,float,1,%9.0g,,"Tobacco, real annual consumption"
+53,rexp_cat031,float,1,%9.0g,,"Clothing, real annual consumption"
+54,rexp_cat032,float,1,%9.0g,,"Footwear, real annual consumption"
+55,rexp_cat041,float,1,%9.0g,,"Actual rents for housing, real annual consumption"
+56,rexp_cat042,float,1,%9.0g,,"Estimated rents for housing, real annual consumption"
+57,rexp_cat044,float,1,%9.0g,,"Water supply, real annual consumption"
+58,rexp_cat045,float,1,%9.0g,,"Electricity, gas, other fuels, real annual consumption"
+59,rexp_cat051,float,1,%9.0g,,"Decorations, carpets, real annual consumption"
+60,rexp_cat052,float,1,%9.0g,,"Household textiles, real annual consumption"
+61,rexp_cat053,float,1,%9.0g,,"Appliances, real annual consumption"
+62,rexp_cat054,float,1,%9.0g,,"Dishes, real annual consumption"
+63,rexp_cat055,float,1,%9.0g,,"Tools/equipment for home, real annual consumption"
+64,rexp_cat056,float,1,%9.0g,,"Routine Home maintenance, real annual consumption"
+65,rexp_cat061,float,1,%9.0g,,"Health drugs, real annual consumption"
+66,rexp_cat062,float,1,%9.0g,,"Health out-patient, real annual consumption"
+67,rexp_cat063,float,1,%9.0g,,"Health hospitalization, real annual consumption"
+68,rexp_cat071,float,1,%9.0g,,"Vehicles, real annual consumption"
+69,rexp_cat072,float,1,%9.0g,,"Operation of vehicles, real annual consumption"
+70,rexp_cat073,float,1,%9.0g,,"Transport, real annual consumption"
+71,rexp_cat081,float,1,%9.0g,,"Postal services, real annual consumption"
+72,rexp_cat083,float,1,%9.0g,,"Phone and fax services, real annual consumption"
+73,rexp_cat091,float,1,%9.0g,,"Audio-visual, real annual consumption"
+74,rexp_cat092,float,1,%9.0g,,"Major durables for rec, real annual consumption"
+75,rexp_cat093,float,1,%9.0g,,"Other recreational items, pets, real annual consumption"
+76,rexp_cat094,float,1,%9.0g,,"Recreational services, real annual consumption"
+77,rexp_cat095,float,1,%9.0g,,"Newspapers, books, stationery, real annual consumption"
+78,rexp_cat101,float,1,%9.0g,,"Education, real annual consumption"
+79,rexp_cat111,float,1,%9.0g,,"Vendors/Cafes/Restaurants, real annual consumption"
+80,rexp_cat112,float,1,%9.0g,,"Accommodation services, real annual consumption"
+81,rexp_cat121,float,1,%9.0g,,"Personal care, real annual consumption"
+82,rexp_cat123,float,1,%9.0g,,"Personal effects, real annual consumption"
+83,pcrexp_cat011,float,1,%9.0g,,rexp_cat011 per capita
+84,pcrexp_cat012,float,1,%9.0g,,rexp_cat012 per capita
+85,pcrexp_cat021,float,1,%9.0g,,rexp_cat021 per capita
+86,pcrexp_cat022,float,1,%9.0g,,rexp_cat022 per capita
+87,pcrexp_cat031,float,1,%9.0g,,rexp_cat031 per capita
+88,pcrexp_cat032,float,1,%9.0g,,rexp_cat032 per capita
+89,pcrexp_cat041,float,1,%9.0g,,rexp_cat041 per capita
+90,pcrexp_cat042,float,1,%9.0g,,rexp_cat042 per capita
+91,pcrexp_cat044,float,1,%9.0g,,rexp_cat044 per capita
+92,pcrexp_cat045,float,1,%9.0g,,rexp_cat045 per capita
+93,pcrexp_cat051,float,1,%9.0g,,rexp_cat051 per capita
+94,pcrexp_cat052,float,1,%9.0g,,rexp_cat052 per capita
+95,pcrexp_cat053,float,1,%9.0g,,rexp_cat053 per capita
+96,pcrexp_cat054,float,1,%9.0g,,rexp_cat054 per capita
+97,pcrexp_cat055,float,1,%9.0g,,rexp_cat055 per capita
+98,pcrexp_cat056,float,1,%9.0g,,rexp_cat056 per capita
+99,pcrexp_cat061,float,1,%9.0g,,rexp_cat061 per capita
+100,pcrexp_cat062,float,1,%9.0g,,rexp_cat062 per capita
+101,pcrexp_cat063,float,1,%9.0g,,rexp_cat063 per capita
+102,pcrexp_cat071,float,1,%9.0g,,rexp_cat071 per capita
+103,pcrexp_cat072,float,1,%9.0g,,rexp_cat072 per capita
+104,pcrexp_cat073,float,1,%9.0g,,rexp_cat073 per capita
+105,pcrexp_cat081,float,1,%9.0g,,rexp_cat081 per capita
+106,pcrexp_cat083,float,1,%9.0g,,rexp_cat083 per capita
+107,pcrexp_cat091,float,1,%9.0g,,rexp_cat091 per capita
+108,pcrexp_cat092,float,1,%9.0g,,rexp_cat092 per capita
+109,pcrexp_cat093,float,1,%9.0g,,rexp_cat093 per capita
+110,pcrexp_cat094,float,1,%9.0g,,rexp_cat094 per capita
+111,pcrexp_cat095,float,1,%9.0g,,rexp_cat095 per capita
+112,pcrexp_cat101,float,1,%9.0g,,rexp_cat101 per capita
+113,pcrexp_cat111,float,1,%9.0g,,rexp_cat111 per capita
+114,pcrexp_cat112,float,1,%9.0g,,rexp_cat112 per capita
+115,pcrexp_cat121,float,1,%9.0g,,rexp_cat121 per capita
+116,pcrexp_cat123,float,1,%9.0g,,rexp_cat123 per capita

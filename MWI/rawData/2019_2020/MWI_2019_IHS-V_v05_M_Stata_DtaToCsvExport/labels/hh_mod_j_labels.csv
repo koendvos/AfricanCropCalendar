@@ -1,0 +1,6 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,hh_j01,byte,1,%6.0f,hh_j01,Purchased Item?
+4,hh_j02,int,1,%60.0g,item3,Item Code
+5,hh_j03,long,1,%6.0f,,How much did you pay in total?

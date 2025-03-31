@@ -1,0 +1,185 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%4s,,Garden ID
+4,plotid,str3,0,%3s,,Plot ID
+5,ag_k01,byte,1,%8.0g,ag_k1a,ENUMERATOR: WAS THIS [PLOT] ON A RAINY SEASON GARDEN?
+6,ag_k01b,str1,0,%1s,,"IF YES, SELECT THE GARDEN FROM THE LIST BELOW."
+7,ag_k02,byte,1,%8.0g,,"HH decisions makers on crops to be planted,input use & timing of actvs on plot"
+8,ag_k02_1,byte,1,%8.0g,ag_k2_1,Are there other household members that the primary decision maker consults
+9,ag_k02_2a,byte,1,%8.0g,,Who are the other decision makers on the plot (ID #1)
+10,ag_k02_2b,byte,1,%8.0g,,Who are the other decision makers on the plot (ID #2)
+11,ag_k03,byte,1,%8.0g,,ENUMERATOR: RECORD THE ID OF THE RESPONDENT.
+12,ag_k21a,byte,1,%8.0g,crops,What crops were planted on this[PLOT]during the[RS]?(1st)
+13,ag_k21b,byte,1,%8.0g,crops,What crops were planted on this[PLOT]during the[RS]?(2nd)
+14,ag_k21c,byte,1,%8.0g,crops,What crops were planted on this[PLOT]during the[RS]?(3rd)
+15,ag_k21d,byte,1,%8.0g,crops,What crops were planted on this[PLOT]during the[RS]?(4th)
+16,ag_k21e,byte,1,%8.0g,crops,What crops were planted on this[PLOT]during the[RS]?(5th)
+17,ag_k21_oth,str15,0,%15s,,SPECIFY CROPS
+18,ag_k22,byte,1,%8.0g,ag_k22,What is the predominant soil type of this [PLOT]?
+19,ag_k22_oth,str15,0,%15s,,Specify the predominant soil type of this [PLOT].
+20,ag_k23,byte,1,%8.0g,ag_k23,What is the soil quality of [PLOT]?
+21,ag_k24,byte,1,%8.0g,ag_k24,How would you rate the extent of erosion on this plot (%rostertitle%
+22,ag_k25_oth,str10,0,%10s,,Specify the causes of these erosion problems.
+23,ag_k25a,byte,1,%8.0g,erosion,What are the causes of these erosion problems? (1st)
+24,ag_k25b,byte,1,%8.0g,erosion,What are the causes of these erosion problems? (2nd)
+25,ag_k26a,byte,1,%8.0g,control,What type of erosion control/water harvesting facilities are on this[PLOT]?(1st)
+26,ag_k26b,byte,1,%8.0g,control,What type of erosion control/water harvesting facilities are on this[PLOT]?(2nd)
+27,ag_k26_oth,str22,0,%22s,,Specify the type of erosion control/water harvesting facilities
+28,ag_k26_1a,byte,1,%8.0g,ag_k26_1a,When was the investment in [STRUCTURE] made?FIRST STRUCTURE
+29,ag_k26_1b,byte,1,%8.0g,ag_k26_1b,When was the investment in [STRUCTURE] made?SECOND STRUCTURE
+30,ag_k26_2a,byte,1,%8.0g,reasons,Reasons for not investing in erosion control/water harvesting facilities (1st)
+31,ag_k26_2b,byte,1,%8.0g,reasons,Reasons for not investing in erosion control/water harvesting facilities (2nd)
+32,ag_k26_2_oth,strL,0,%34s,,Reasons for not investing in erosion control/water harvesting facilities (Other)
+33,ag_k27,byte,1,%8.0g,ag_k27,What is the slope of this [PLOT]?
+34,ag_k28,byte,1,%8.0g,ag_k28,Is this [PLOT] swamp/wetland ?
+35,ag_k29a,byte,1,%8.0g,irrigation,"What systems of irrigation, if any, are on this [PLOT]? (Type 1)"
+36,ag_k29b,byte,1,%8.0g,irrigation,"What systems of irrigation, if any, are on this [PLOT]? (Type 2)"
+37,ag_k29_oth,strL,0,%40s,,Specify the system of irrigation on this [PLOT].
+38,ag_k30,byte,1,%8.0g,ag_k30,What is the method of obtaining water for this [PLOT]?
+39,ag_k30_oth,strL,0,%35s,,Specify the method of obtaining water for this [PLOT].
+40,ag_k31,byte,1,%8.0g,ag_k31,What is the source of water on this [PLOT]?
+41,ag_k31_oth,str24,0,%24s,,Specify the source of water on this [PLOT].
+42,ag_k33,int,1,%8.0g,,What was the most recent year in which this [PLOT] was left fallow?(YEAR)
+43,ag_k34,int,1,%8.0g,, For how many years was it left fallow? NUMBER OF YEARS
+44,ag_k35a,byte,1,%8.0g,fallowReason,Reason Why was this [PLOT] left fallow? (1st)
+45,ag_k35b,byte,1,%8.0g,fallowReason,Reason Why was this [PLOT] left fallow? (2nd)
+46,ag_k35_oth,str26,0,%26s,,Specify why this [PLOT] left fallow.
+47,ag_k36,byte,1,%8.0g,ag_k36,ENUMERATOR: WAS THIS PLOT CULTIVATED DURING THE [REFERENCE DIMBA SEASON]?
+48,ag_k36_1a,byte,1,%8.0g,ag_k36_1a,In what month did you finish planting this [PLOT]?
+49,ag_k36_1b,byte,1,%8.0g,ag_k36_1b,Did you finish planting this [PLOT] in the first or second half of the month?
+50,ag_k37,byte,1,%8.0g,ag_k37,Did you use any organic fertilizer on this [PLOT] during the [RS]
+51,ag_k38a,int,1,%8.0g,,How much organic fertilizer did you apply to this [PLOT]
+52,ag_k38b,byte,1,%8.0g,ag_k38b,unit
+53,ag_k38b_oth,str24,0,%24s,,SPECIFY THE UNIT
+54,ag_k39,byte,1,%8.0g,ag_k39,Did you use any inorganic fertilizer on this [PLOT] during the [RS]?
+55,ag_k40,byte,1,%8.0g,ag_k40,Did you apply a second application of inorganic fertilizer to this p
+56,ag_k40_1,byte,1,%8.0g,,How many complete weedings did you do on this [PLOT]?
+57,ag_k40_2,byte,1,%8.0g,,How many weeks after planting did you finish the 1st weeding on this plot
+58,ag_k40a,byte,1,%8.0g,ag_k40a,How much inorganic fertilizer did you apply to this [PLOT]
+59,ag_k40a_oth,str16,0,%16s,,Specify the type of inorganic fertilizer FIRST APPL
+60,ag_k40b,int,1,%8.0g,,FIRST APPLICATION QUANTITY
+61,ag_k40c,byte,1,%8.0g,ag_k40c,FIRST APPLICATION UNIT
+62,ag_k40c_oth,str24,0,%24s,,SPECIFY FIRST APPLICATION UNIT
+63,ag_k40d,byte,1,%8.0g,,ENUMERATOR:  TOTAL KGs
+64,ag_k40e,byte,1,%8.0g,,How many weeks after planting did you finish 1st fertilizer appl.. on [PLOT]
+65,ag_k40f,byte,1,%8.0g,ag_k40f,How much inorganic fertilizer did you apply to this [PLOT]
+66,ag_k40f_oth,str16,0,%16s,,Specify the type of inorganic fertilizer. SECOND APP
+67,ag_k40g,byte,1,%8.0g,,SECOND  APPLICATION QUANTITY
+68,ag_k40h,byte,1,%8.0g,ag_k40h,SECOND APPLICATION UNIT
+69,ag_k40h_oth,str24,0,%24s,,SPECIFY SECOND APPLICATION UNIT
+70,ag_k40i,byte,1,%8.0g,,ENUMERATOR:  TOTAL KGs
+71,ag_k41,byte,1,%8.0g,ag_k41,Did you use any pesticides/ herbicides on this [PLOT] during the [RS]?
+72,ag_k42a,byte,1,%8.0g,ag_k42a,ow much <u>pesticides/ herbicides</u> did you apply to this [PLOT]?
+73,ag_k42a_oth,str15,0,%15s,,K42a_oth. Specify the type of pesticides/ herbicides.  FIRST  T
+74,ag_k42b,int,1,%8.0g,,quantity
+75,ag_k42c,byte,1,%8.0g,ag_k42c,unit
+76,ag_k42c_oth,str9,0,%9s,,SPECIFY UNIT
+77,ag_k42d,byte,1,%8.0g,ag_k42d,Did you apply another type of  pesticides/ herbicides to this plot
+78,ag_k42e,byte,1,%8.0g,ag_k42e,How much pesticides/ herbicides did you apply to this [PLOT]
+79,ag_k42e_oth,str23,0,%23s,,Specify the type of pesticides/ herbicides.  SECOND T
+80,ag_k42f,int,1,%8.0g,,quantity
+81,ag_k42g,byte,1,%8.0g,ag_k42g,unit
+82,ag_k42g_oth,str21,0,%21s,,SPECIFY UNIT
+83,ag_k43a1,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for l"
+84,ag_k43b1,byte,1,%8.0g,,How many weeks did each household member work?
+85,ag_k43c1,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+86,ag_k43d1,int,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+87,ag_k43a2,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for l"
+88,ag_k43b2,byte,1,%8.0g,,How many weeks did each household member work?
+89,ag_k43c2,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+90,ag_k43d2,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+91,ag_k43a3,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for l"
+92,ag_k43b3,byte,1,%8.0g,,How many weeks did each household member work?
+93,ag_k43c3,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+94,ag_k43d3,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+95,ag_k43a4,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for l"
+96,ag_k43b4,byte,1,%8.0g,,How many weeks did each household member work?
+97,ag_k43c4,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+98,ag_k43d4,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+99,ag_k43a5,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for l"
+100,ag_k43b5,byte,1,%8.0g,,How many weeks did each household member work?
+101,ag_k43c5,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+102,ag_k43d5,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+103,ag_k43a6,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for l"
+104,ag_k43b6,byte,1,%8.0g,,How many weeks did each household member work?
+105,ag_k43c6,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+106,ag_k43d6,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+107,ag_k43a7,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for l"
+108,ag_k43b7,byte,1,%8.0g,,How many weeks did each household member work?
+109,ag_k43c7,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+110,ag_k43d7,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+111,ag_k44a1,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for w"
+112,ag_k44b1,byte,1,%8.0g,,How many weeks did each household member work?
+113,ag_k44c1,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+114,ag_k44d1,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+115,ag_k44a2,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for w"
+116,ag_k44b2,byte,1,%8.0g,,How many weeks did each household member work?
+117,ag_k44c2,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+118,ag_k44d2,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+119,ag_k44a3,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for w"
+120,ag_k44b3,byte,1,%8.0g,,How many weeks did each household member work?
+121,ag_k44c3,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+122,ag_k44d3,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+123,ag_k44a4,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for w"
+124,ag_k44b4,byte,1,%8.0g,,How many weeks did each household member work?
+125,ag_k44c4,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+126,ag_k44d4,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+127,ag_k44a5,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for w"
+128,ag_k44b5,byte,1,%8.0g,,How many weeks did each household member work?
+129,ag_k44c5,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+130,ag_k44d5,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+131,ag_k44a6,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for w"
+132,ag_k44b6,byte,1,%8.0g,,How many weeks did each household member work?
+133,ag_k44c6,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+134,ag_k44d6,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+135,ag_k44a7,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for w"
+136,ag_k44b7,byte,1,%8.0g,,How many weeks did each household member work?
+137,ag_k44c7,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+138,ag_k44d7,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+139,ag_k45a1,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for h"
+140,ag_k45b1,byte,1,%8.0g,,How many weeks did each household member work?
+141,ag_k45c1,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+142,ag_k45d1,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+143,ag_k45a2,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for h"
+144,ag_k45b2,byte,1,%8.0g,,How many weeks did each household member work?
+145,ag_k45c2,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+146,ag_k45d2,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+147,ag_k45a3,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for h"
+148,ag_k45b3,byte,1,%8.0g,,How many weeks did each household member work?
+149,ag_k45c3,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+150,ag_k45d3,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+151,ag_k45a4,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for h"
+152,ag_k45b4,byte,1,%8.0g,,How many weeks did each household member work?
+153,ag_k45c4,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+154,ag_k45d4,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+155,ag_k45a5,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for h"
+156,ag_k45b5,byte,1,%8.0g,,How many weeks did each household member work?
+157,ag_k45c5,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+158,ag_k45d5,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+159,ag_k45a6,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for h"
+160,ag_k45b6,byte,1,%8.0g,,How many weeks did each household member work?
+161,ag_k45c6,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+162,ag_k45d6,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+163,ag_k45a7,byte,1,%8.0g,,"During the DS, please list the household member that worked on this [PLOT] for h"
+164,ag_k45b7,byte,1,%8.0g,,How many weeks did each household member work?
+165,ag_k45c7,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work?"
+166,ag_k45d7,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work?"
+167,ag_k46a1,long,1,%12.0g,,"During the [DS], how many days did you hire men for  all  activities on this [PL"
+168,ag_k46b1,int,1,%8.0g,,What was the average daily wage paid to men for any non-harvest activity?
+169,ag_k46a2,long,1,%12.0g,,"During the [DS], how many days did you hire women for any and all non-harvest ac"
+170,ag_k46b2,int,1,%8.0g,,What was the average daily wage paid to women for any non-harvest activity?
+171,ag_k46a3,long,1,%12.0g,,"During the [DS], how many days did you hire children for any and all non-harvest"
+172,ag_k46b3,int,1,%8.0g,,What was the average daily wage paid to children for any non-harvest activity?
+173,ag_k46c,long,1,%12.0g,,Crop Type
+174,ag_k46c_oth,str20,0,%20s,,Crop Type (Other)
+175,ag_k46d,byte,1,%8.0g,,How much total did you give to all workers hired for any and all non-harvest act
+176,ag_k46e,byte,1,%8.0g,,Unit
+177,ag_k46e_oth,str19,0,%19s,,Unit (Other)
+178,ag_k46f,byte,1,%8.0g,,S/U
+179,ag_k47a,byte,1,%8.0g,,# days men from other HHs worked on[PLOT]for any and all non-harvest activities
+180,ag_k47b,byte,1,%8.0g,,# days women from other HHs worked on[PLOT]for any & all non-harvest activities
+181,ag_k47c,byte,1,%8.0g,,# days children from other HHs worked on[PLOT]for any & all non-harvest activ..
+182,ag_k48a,byte,1,%8.0g,,HH exchange/free labor came from to work for any/all non-harvest activities(#1)
+183,ag_k48b,byte,1,%8.0g,,HH exchange/free labor came from to work for any/all non-harvest activities(#2)
+184,ag_k48c,byte,1,%8.0g,,HH exchange/free labor came from to work for any/all non-harvest activities(#3)

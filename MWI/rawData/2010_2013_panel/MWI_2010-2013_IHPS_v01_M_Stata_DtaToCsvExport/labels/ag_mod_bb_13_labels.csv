@@ -1,0 +1,31 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_b23,byte,1,%8.0g,,ENUMERATOR: DID THE HOUSEHOLD PLANT ANY MAIZE VARIETY DURING THE 2011/2012 RAINY
+6,ag_b24a,int,1,%12.0g,,How much MAIZE GRAIN or MAIZE FLOUR did you buy between the end of harvest perio
+7,ag_b24b,byte,1,%15.0g,AG_B31B,How much MAIZE GRAIN or MAIZE FLOUR did you buy between the end of harvest perio
+8,ag_b24c,byte,1,%14.0g,AG_B31C,How much MAIZE GRAIN or MAIZE FLOUR did you buy between the end of harvest perio
+9,ag_b25a,int,1,%12.0g,,How much MAIZE GRAIN or MAIZE FLOUR did you buy in the period of October 2012-Ja
+10,ag_b25b,byte,1,%15.0g,AG_B32B,How much MAIZE GRAIN or MAIZE FLOUR did you buy in the period of October 2011-Ja
+11,ag_b25c,byte,1,%14.0g,AG_B32C,How much MAIZE GRAIN or MAIZE FLOUR did you buy in the period of October 2011-Ja
+12,ag_b25_1,byte,1,%8.0g,AG_B33,Did you plant any Maize variety during the 2012/2013 rainy season?
+13,ag_b26,byte,1,%8.0g,AG_B34,Did you complete Maize harvest for 2012/2013 rainy season?
+14,ag_b27a,int,1,%12.0g,,How much MAIZE GRAIN or MAIZE FLOUR did you buy since the end of January 2013 un
+15,ag_b27b,byte,1,%15.0g,AG_B35B,How much MAIZE GRAIN or MAIZE FLOUR did you buy since the end of January 2013 un
+16,ag_b27c,byte,1,%14.0g,AG_B35C,How much MAIZE GRAIN or MAIZE FLOUR did you buy since the end of January 2013 un
+17,ag_b28a,int,1,%12.0g,,How much MAIZE GRAIN or MAIZE FLOUR did you buy since the end of January 2013? (
+18,ag_b28b,byte,1,%15.0g,AG_B36B,How much MAIZE GRAIN or MAIZE FLOUR did you buy since the end of January 2013? (
+19,ag_b28c,byte,1,%14.0g,AG_B36C,How much MAIZE GRAIN or MAIZE FLOUR did you buy since the end of January 2013? (
+20,ag_b29a,int,1,%12.0g,,How much MAIZE GRAIN or MAIZE FLOUR are you planning to buy from now until the 2
+21,ag_b29b,byte,1,%15.0g,AG_B37B,How much MAIZE GRAIN or MAIZE FLOUR are you planning to buy from now until the 2
+22,ag_b29c,byte,1,%14.0g,AG_B37C,How much MAIZE GRAIN or MAIZE FLOUR are you planning to buy from now until the 2
+23,ag_b30a,int,1,%12.0g,,How much MAIZE GRAIN or MAIZE FLOUR did you buy since the end of January 2013? (
+24,ag_b30b,byte,1,%15.0g,AG_B38B,How much MAIZE GRAIN or MAIZE FLOUR did you buy since the end of January 2013? (
+25,ag_b30c,byte,1,%14.0g,AG_B38C,How much MAIZE GRAIN or MAIZE FLOUR did you buy since the end of January 2013? (
+26,ag_b31a,byte,1,%20.0g,AG_B39A,In which cropping season of the past 5 seasons have you grown tobacco? (2010/201
+27,ag_b31b,byte,1,%20.0g,AG_B39B,In which cropping season of the past 5 seasons have you grown tobacco? (2009/201
+28,ag_b31c,byte,1,%20.0g,AG_B39C,In which cropping season of the past 5 seasons have you grown tobacco? (2008/200
+29,ag_b31d,byte,1,%20.0g,AG_B39D,In which cropping season of the past 5 seasons have you grown tobacco? (2007/200
+30,ag_b31e,byte,1,%20.0g,AG_B39E,In which cropping season of the past 5 seasons have you grown tobacco? (2006/200

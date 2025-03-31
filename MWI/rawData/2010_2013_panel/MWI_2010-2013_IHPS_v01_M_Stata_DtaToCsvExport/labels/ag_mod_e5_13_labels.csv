@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_e30_00,byte,1,%28.0g,AG_E30_00,Person Code
+6,ag_e30a,byte,1,%23.0g,AG_E30A,Were the following people [...] involved and how important were they in allocati
+7,ag_e30b,byte,1,%23.0g,AG_E30B,Were the following people [...] involved and how important were they in allocati
+8,ag_e30c,byte,1,%23.0g,AG_E30C,Were the following people [...] involved and how important were they in allocati
+9,ag_e30d,byte,1,%23.0g,AG_E30D,Were the following people [...] involved and how important were they in allocati

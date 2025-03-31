@@ -1,0 +1,29 @@
+country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,dataset_doi
+Uganda,2015-16,hhID,HHID,Household number,0,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plotID,plotID,Plot identifier,0.021942335542195112,NA,"plotID may not be unique, not all rows in the original dataset are unique",UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plot_area_reported_localUnit,"a4aq7, a4bq7",total area of plot planted,1.5096326853030237,0.06337135614702154,sometimes 0.000,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,crop_area_share,"a4aq9, a4bq9","what percentage of the plot area was under this crop?, approximately what percentage of the plot area was under this crop?",27.182165269671305,26.58184654382373,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,planting_month,"a4aq9_1, a4bq9_1",Month crop planted,12.97669723965419,1.369796236716389,"Values recorded as 99, which were used for the answer >>Don't know<< to the question in which month the crop was planted in the source data, were converted to missing values",UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,planting_year,"a4aq9_2, a4bq9_2",Year crop planted ,2.8261728178347303,1.4185434337525593,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,fieldID,parcelID,Parcel identifier,0,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plot_area_reported_ha,NA,NA,1.5096326853030237,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,localUnit_area,NA,NA,1.5096326853030237,NA,"acres, according to The Uganda National Panel Survey 2015/16: Agriculture & Livestock Questionnaire",UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,crop,cropID,"Crop name, Crop_code2:crop name",0,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_month_begin,"a5aq6e, a5bq6e",in what month did the harvest begin?,16.952648439899942,0.7786655809455952,up to month 26,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_year_begin,"a5aq6e_1, a5bq6e_1",in what year did the harvest begin?,16.29876684074253,0.01526795256756069,year 216 included,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_month_end,"a5aq6f, a5bq6f",in what month did the harvest end?,17.119410190020627,0.972059646801364,up to month 26,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_year_end,"a5aq6f_1, a5bq6f_1",in what year did the harvest end?,16.29876684074253,0.01526795256756069,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,season,NA,NA,0,NA,two visits approximately six months apart based on the two cropping seasons,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm1,district_name,L1name ,1.4964672839777067,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm2,subcounty_name,L2name ,1.4964672839777067,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm3,parish_name,L3name,1.4964672839777067,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm4,village_name,L4name,1.4964672839777067,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,lat,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,lon,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,GPS_level,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plot_area_measured_ha,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_month,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_year,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,dataset_name,NA,NA,0,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,country,NA,NA,0,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,dataset_doi,NA,NA,0,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12

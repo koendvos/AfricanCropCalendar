@@ -1,0 +1,29 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,ag_p0a,byte,1,%8.0g,U0A,"Did you or anyone in your household own any tree or permanent crop, such as, cas"
+7,ag_p0b,str2,0,%9s,,PLOT ID
+8,ag_p0d,byte,1,%22.0g,U0D,TREE/PERMANENT CROP CODE
+9,ag_p0d_os,str11,0,%11s,,Tree/Permanent Crop Code (Other Specify)
+10,ag_p01,byte,1,%10.0g,U01,Is[TREE/PERM CROP]cultivated in a plantation or scattered in field?
+11,ag_p02a,float,1,%9.0g,,What is the area of the plantation?(AREA)
+12,ag_p02b,byte,1,%15.0g,U02B,What is the area of the plantation?(UNIT)
+13,ag_p02b_os,str1,0,%9s,,What is the area of the plantation?(UNIT/SPECIFY)
+14,ag_p03,int,1,%8.0g,,How many plants/trees for the[TREE/PERM CROP]do you own on this[PLOT]?
+15,ag_p04,int,1,%8.0g,,In what year were most of these plants/trees planted?
+16,ag_p05,int,1,%8.0g,,How many plants/trees were planted during the last 12 months?
+17,ag_p06a,byte,1,%9.0g,U06A,What was the last completed production period for[TREE/PERM CROP]?(START MONTH)
+18,ag_p06b,int,1,%8.0g,,What was the last completed production period for[TREE/PERM CROP]?(START YEAR)
+19,ag_p06c,byte,1,%9.0g,U06C,What was the last completed production period for[TREE/PERM CROP]?(END MONTH)
+20,ag_p06d,int,1,%8.0g,,What was the last completed production period for[TREE/PERM CROP]?(END YEAR)
+21,ag_p07,byte,1,%8.0g,U07,Were there any losses of[TREE/PERM CROP]before harvest?
+22,ag_p08a,byte,1,%19.0g,U08A,Why were there losses before the harvest? (1ST CAUSE)
+23,ag_p08a_os,str39,0,%39s,,Why were there losses before the harvest? (1ST CAUSE/SPECIFY)
+24,ag_p08b,byte,1,%19.0g,U08B,Why were there losses before the harvest? (2ND CAUSE)
+25,ag_p08b_os,str31,0,%31s,,Why were there losses before the harvest? (2ND CAUSE/SPECIFY)
+26,ag_p09a,float,1,%9.0g,,How much[TREE/PERM CROP]did you harvest during the last 12 mnths?(Q)
+27,ag_p09b,byte,1,%15.0g,U09B,How much[TREE/PERM CROP]did you harvest during the last 12 mnths?(U)
+28,ag_p09b_os,str13,0,%13s,,How much[TREE/PERM CROP]did you harvest during the last 12 mnths?(O/S)

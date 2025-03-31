@@ -1,0 +1,17 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrance Sequence for O/S Merge
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,ca01,int,1,%13.0g,CA01,DISTRICT CODE
+4,ca02,byte,1,%8.0g,,"TA,STA OR URBAN WARD"
+5,com_ca06,int,1,%8.0g,,FIELD SUPERVISOR CODE
+6,com_ca07a,byte,1,%8.0g,,DAY OF INTERVIEW
+7,com_ca07b,byte,1,%8.0g,,MONTH OF INTERVIEW
+8,com_ca07c,int,1,%8.0g,,YEAR OF INTERVIEW
+9,com_ca12,int,1,%8.0g,,DATA ENTRY CLERK CODE
+10,com_ca13a,byte,1,%8.0g,,DAY OF DATA ENTRY
+11,com_ca13b,byte,1,%8.0g,,MONTH OF DATA ENTRY
+12,com_ca13c,int,1,%8.0g,,YEAR OF DATA ENTRY
+13,com_ca15,int,1,%8.0g,,DATA VALIDATION CLERK CODE
+14,com_ca16a,byte,1,%8.0g,,DAY OF DATA VALIDATION
+15,com_ca16b,byte,1,%8.0g,,MONTH OF DATA VALIDATION
+16,com_ca16c,int,1,%8.0g,,YEAR OF DATA VALIDATION

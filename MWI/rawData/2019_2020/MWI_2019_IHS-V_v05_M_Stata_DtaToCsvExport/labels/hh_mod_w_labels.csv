@@ -1,0 +1,22 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,hh_w01,byte,1,%6.0f,hh_w01,"Over the past 2 years, did any member of your HH die, including any infants?"
+4,hh_w02,byte,1,%6.0f,,Serial ID
+5,hh_w04,byte,1,%6.0f,hh_w04,Deceased's Relationship to Head of Household
+6,hh_w05,byte,1,%6.0f,hh_w05,Sex
+7,hh_w06a,int,1,%6.0f,,Age at Death
+8,hh_w06b,byte,1,%6.0f,,MONTHS
+9,hh_w08,byte,1,%6.0f,hh_w08,W08. What kind of work did [NAME] do for most of his/her life?
+10,hh_w08_oth,str60,0,%60s,,Specify the other kind of work that [NAME] did most of his/her life
+11,hh_w09,byte,1,%6.0f,hh_w09,"W09. Did [NAME] die of old age, an illness, or of some other cause?"
+12,hh_w10,byte,1,%6.0f,hh_w10,W10. What was the non-illness cause of [NAME]'s death?
+13,hh_w10_oth,str33,0,%33s,,"Please, specify Other"
+14,hh_w11a,float,1,%9.0g,,What was the illness that caused [NAME] death? (Illness 1)
+15,hh_w11b,float,1,%9.0g,,What was the illness that caused [NAME] death? (Illness 2)
+16,hh_w11_oth,str70,0,%70s,,"Please, specify Other"
+17,hh_w12a,int,1,%6.0f,,For how long was [NAME's] suffering from this illness before he/she died?
+18,hh_w12b,byte,1,%6.0f,hh_w12b,UNIT
+19,hh_w13,byte,1,%6.0f,hh_w13,"Was this cause of death diagnosed, or is this only your own perception?"
+20,hh_w14,byte,1,%6.0f,hh_w14,"After this person died, did you or members of your house-hold lose any land"
+21,hh_w15,long,1,%6.0f,,What was the value of the land or assets lost?

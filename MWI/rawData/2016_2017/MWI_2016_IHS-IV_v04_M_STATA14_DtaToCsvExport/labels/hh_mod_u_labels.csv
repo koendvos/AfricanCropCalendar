@@ -1,0 +1,14 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_u0a,int,1,%8.0g,shocks,shocks
+4,hh_u01,byte,1,%8.0g,hh_u01,"..last 12 months, was your HH affected negatively by any of the following shocks"
+5,hh_u02,byte,1,%8.0g,hh_u02,Rank the three most significant shocks you experienced
+6,hh_u03a,byte,1,%8.0g,hh_u03a,"As a result of this [SHOCK], did your income..."
+7,hh_u03b,byte,1,%8.0g,hh_u03b,"As a result of this [SHOCK], did your assets..."
+8,hh_u03c,byte,1,%8.0g,hh_u03c,"As a result of this [SHOCK], did your food production..."
+9,hh_u03d,byte,1,%8.0g,hh_u03d,"As a result of this [SHOCK], did your food stocks..."
+10,hh_u03e,byte,1,%8.0g,hh_u03e,"As a result of this [SHOCK], did your food purchases..."
+11,hh_u04a,byte,1,%8.0g,response,Interventions to try to regain your former welfare level (1)?
+12,hh_u04b,byte,1,%8.0g,response,Interventions to try to regain your former welfare level (2)?
+13,hh_u04c,byte,1,%8.0g,response,Interventions to try to regain your former welfare level (3)?

@@ -1,0 +1,24 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,fs_f0a,byte,1,%8.0g,,Roster Number
+6,fs_f00,byte,1,%8.0g,FS_F00,ENUMERATOR: CHECK MODULE C. WERE ANY HOUSEHOLD MEMBERS ENGAGED IN FISH TRADING I
+7,fs_f01,byte,1,%15.0g,FS_F01,Please list up to five main species of fish that you or any member of your house
+8,fs_f02a,int,1,%9.0g,,"During the last HIGH fishing season, how much [FISH SPECIES] did you purchase on"
+9,fs_f02b,byte,1,%15.0g,FS_F02B,"During the last HIGH fishing season, how much [FISH SPECIES] did you purchase on"
+10,fs_f02c,byte,1,%15.0g,FS_F02C,"During the last HIGH fishing season, how much [FISH SPECIES] did you purchase on"
+11,fs_f02d,long,1,%12.0g,,"During the last HIGH fishing season, how much [FISH SPECIES] did you purchase on"
+12,fs_f02e,int,1,%9.0g,,"During the last HIGH fishing season, how much [FISH SPECIES] did you purchase on"
+13,fs_f02f,byte,1,%15.0g,FS_F02F,"During the last HIGH fishing season, how much [FISH SPECIES] did you purchase on"
+14,fs_f02g,byte,1,%15.0g,FS_F02G,"During the last HIGH fishing season, how much [FISH SPECIES] did you purchase on"
+15,fs_f02h,long,1,%12.0g,,"During the last HIGH fishing season, how much [FISH SPECIES] did you purchase on"
+16,fs_f03a,float,1,%9.0g,,"During the last HIGH fishing season, how much [FISH SPECIES] did you sell on ave"
+17,fs_f03b,byte,1,%15.0g,FS_F03B,"During the last HIGH fishing season, how much [FISH SPECIES] did you sell on ave"
+18,fs_f03c,byte,1,%15.0g,FS_F03C,"During the last HIGH fishing season, how much [FISH SPECIES] did you sell on ave"
+19,fs_f03d,long,1,%12.0g,,"During the last HIGH fishing season, how much [FISH SPECIES] did you sell on ave"
+20,fs_f03e,int,1,%9.0g,,"During the last HIGH fishing season, how much [FISH SPECIES] did you sell on ave"
+21,fs_f03f,byte,1,%15.0g,FS_F03F,"During the last HIGH fishing season, how much [FISH SPECIES] did you sell on ave"
+22,fs_f03g,byte,1,%15.0g,FS_F03G,"During the last HIGH fishing season, how much [FISH SPECIES] did you sell on ave"
+23,fs_f03h,long,1,%12.0g,,"During the last HIGH fishing season, how much [FISH SPECIES] did you sell on ave"

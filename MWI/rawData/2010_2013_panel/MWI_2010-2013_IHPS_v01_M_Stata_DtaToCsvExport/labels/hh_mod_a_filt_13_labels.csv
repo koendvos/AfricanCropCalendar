@@ -1,0 +1,94 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,HHID,int,1,%8.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+4,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+5,ea_id,str8,0,%9s,,Baseline EA Identifier
+6,stratum,byte,1,%14.0g,STRATUM,Baseline Stratum - Region x Urban/Rural
+7,baseline_rural,byte,1,%8.0g,reside1,Baseline Rural/Urban Identifier
+8,panelweight,float,1,%9.0g,,panel weight 2013
+9,hh_wgt,float,1,%9.0g,,Baseline Sampling Weight
+10,region,byte,1,%8.0g,reg,IHPS 2013 Region Location
+11,district,int,1,%13.0g,dist,IHPS 2013 District Location
+12,reside,byte,1,%9.0g,res,IHPS 2013 Rural Residence
+13,dist_to_IHS3location,float,1,%8.0g,,Household Distance to IHS3 Location
+14,hhsize,byte,1,%9.0g,,Household Size in 2013
+15,interview_status,byte,1,%24.0g,stat,Household Interview Status
+16,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+17,hh_a05,byte,1,%19.0g,HH_A05,Is this household
+18,hh_a06,byte,1,%26.0g,TRACKING,Location of Household
+19,hh_a07a,byte,1,%8.0g,,IHS3 Roster ID of Tracking Target
+20,hh_a10a,byte,1,%8.0g,,TA
+21,hh_a10b,str25,0,%25s,,TA Name
+22,hh_a16,byte,1,%39.0g,HH_A16,Visit 1 - Weather condition at measurement
+23,hh_a21,int,1,%9.0g,,Visit 1 - Enumerator Code
+24,hh_a23a_1,byte,1,%8.0g,,Visit 1 - Interview Date (Day) (Attempt 1)
+25,hh_a23a_2,byte,1,%9.0g,HH_A23A_2,Visit 1 - Interview Date (Month) (Attempt 1)
+26,hh_a23a_3,int,1,%8.0g,,Visit 1 - Interview Date (Year) (Attempt 1)
+27,hh_a23a_4,byte,1,%8.0g,,Visit 1 - Time Interview Start (Hour) (Attempt 1)
+28,hh_a23a_5,byte,1,%8.0g,,Visit 1 - Time Interview Start (Minute) (Attempt 1)
+29,hh_a23a_6,byte,1,%8.0g,,Visit 1 - Time Interview End (Hour) (Attempt 1)
+30,hh_a23a_7,byte,1,%8.0g,,Visit 1 - Time Interview End (Minute) (Attempt 1)
+31,hh_a23a_8,str20,0,%20s,,Visit 1 - Modules Complete (Attempt 1)
+32,hh_a23b_1,byte,1,%8.0g,,Visit 1 - Interview Date (Day) (Attempt 2)
+33,hh_a23b_2,byte,1,%9.0g,HH_A23B_2,Visit 1 - Interview Date (Month) (Attempt 2)
+34,hh_a23b_3,int,1,%8.0g,,Visit 1 - Interview Date (Year) (Attempt 2)
+35,hh_a23b_4,byte,1,%8.0g,,Visit 1 - Time Interview Start (Hour) (Attempt 2)
+36,hh_a23b_5,byte,1,%8.0g,,Visit 1 - Time Interview Start (Minute) (Attempt 2)
+37,hh_a23b_6,byte,1,%8.0g,,Visit 1 - Time Interview End (Hour) (Attempt 2)
+38,hh_a23b_7,byte,1,%8.0g,,Visit 1 - Time Interview End (Minute) (Attempt 2)
+39,hh_a23b_8,str19,0,%19s,,Visit 1 - Modules Complete (Attempt 2)
+40,hh_a23c_1,byte,1,%8.0g,,Visit 1 - Interview Date (Day) (Attempt 3)
+41,hh_a23c_2,byte,1,%9.0g,HH_A23C_2,Visit 1 - Interview Date (Month) (Attempt 3)
+42,hh_a23c_3,int,1,%8.0g,,Visit 1 - Interview Date (Year) (Attempt 3)
+43,hh_a23c_4,byte,1,%8.0g,,Visit 1 - Time Interview Start (Hour) (Attempt 3)
+44,hh_a23c_5,byte,1,%8.0g,,Visit 1 - Time Interview Start (Minute) (Attempt 3)
+45,hh_a23c_6,byte,1,%8.0g,,Visit 1 - Time Interview End (Hour) (Attempt 1)
+46,hh_a23c_7,byte,1,%8.0g,,Visit 1 - Time Interview End (Minute) (Attempt 1)
+47,hh_a23c_8,str3,0,%9s,,Visit 1 - Modules Complete (Attempt 3)
+48,hh_a24,int,1,%9.0g,,Visit 1 - Field Supervisor's Code
+49,hh_a26a,byte,1,%8.0g,,Visit 1 - Questionnaire Inspection Date (Day)
+50,hh_a26b,byte,1,%9.0g,HH_A26B,Visit 1 - Questionnaire Inspection Date (Month)
+51,hh_a26c,int,1,%8.0g,,Visit 1 - Questionnaire Inspection Date (Year)
+52,hh_a27,int,1,%9.0g,,Visit 1 - Data Entry Clerk Code
+53,hh_a29a,byte,1,%8.0g,,Visit 1 - Data Entry Date (Day)
+54,hh_a29b,byte,1,%9.0g,HH_A29B,Visit 1 - Data Entry Date (Month)
+55,hh_a29c,int,1,%8.0g,,Visit 1 - Data Entry Date (Year)
+56,hh_a30,byte,1,%8.0g,HH_A30,Visit 2 - Is the household in the same dwelling as in visit 1?
+57,hh_a33,byte,1,%39.0g,HH_A33,Visit 2 - Weather conditon at measurement
+58,hh_a35,int,1,%9.0g,,Visit 2 - Enumerator Code
+59,hh_a37a_1,byte,1,%8.0g,,Visit 2 - Interview Date (Day) (Attempt 1)
+60,hh_a37a_2,byte,1,%9.0g,HH_A37A_2,Visit 2 - Interview Date (Month) (Attempt 1)
+61,hh_a37a_3,int,1,%8.0g,,Visit 2 - Interview Date (Year) (Attempt 1)
+62,hh_a37a_4,byte,1,%8.0g,,Visit 2 - Time Interview Start (Hour) (Attempt 1)
+63,hh_a37a_5,byte,1,%8.0g,,Visit 2 - Time Interview Start (Minute) (Attempt 1)
+64,hh_a37a_6,byte,1,%8.0g,,Visit 2 - Time Interview End (Hour) (Attempt 1)
+65,hh_a37a_7,byte,1,%8.0g,,Visit 2 - Time Interview End (Minute) (Attempt 1)
+66,hh_a37a_8,str19,0,%19s,,Visit 2 - Modules Completed (Attempt 1)
+67,hh_a37b_1,byte,1,%8.0g,,Visit 2 - Interview Date (Day) (Attempt 2)
+68,hh_a37b_2,byte,1,%9.0g,HH_A37B_2,Visit 2 - Interview Date (Month) (Attempt 2)
+69,hh_a37b_3,int,1,%8.0g,,Visit 2 - Interview Date (Year) (Attempt 2)
+70,hh_a37b_4,byte,1,%8.0g,,Visit 2 - Time Interview Start (Hour) (Attempt 2)
+71,hh_a37b_5,byte,1,%8.0g,,Visit 2 - Time Interview Start (Minute) (Attempt 2)
+72,hh_a37b_6,byte,1,%8.0g,,Visit 2 - Time Interview End (Hour) (Attempt 2)
+73,hh_a37b_7,byte,1,%8.0g,,Visit 2 - Time Interview End (Minute) (Attempt 2)
+74,hh_a37b_8,str10,0,%10s,,Visit 2 - Modules Completed (Attempt 2)
+75,hh_a38,int,1,%9.0g,,Visit 2 - Field Supervisor's Code
+76,hh_a40a,byte,1,%8.0g,,Visit 2 - Questionnaire Inspection Date (Day)
+77,hh_a40b,byte,1,%9.0g,HH_A40B,Visit 2 - Questionnaire Inspection Date (Month)
+78,hh_a40c,int,1,%8.0g,,Visit 2 - Questionnaire Inspection Date (Year)
+79,hh_a41,int,1,%9.0g,,Visit 2 - Data Entry Clerk Code
+80,hh_a43,int,1,%10.0g,,Visit 2 - Data Entry Date - Stata Internal Form (SIF)
+81,hh_a43a,byte,1,%8.0g,,Visit 2 - Data Entry Date (Day)
+82,hh_a43b,byte,1,%9.0g,HH_A43B,Visit 2 - Data Entry Date (Month)
+83,hh_a43c,int,1,%8.0g,,Visit 2 - Data Entry Date (Year)
+84,hh_a44,int,1,%9.0g,,Data Validation Clerk Code
+85,hh_a46a,byte,1,%8.0g,,Data Validation Date (Day)
+86,hh_a46b,byte,1,%9.0g,HH_A46B,Data Validation Date (Month)
+87,hh_a46c,int,1,%8.0g,,Data Validation Date (Year)
+88,hh_g00_1,byte,1,%8.0g,,Who in the household is most knowledgable about food consumed in the household?
+89,hh_g00_2,byte,1,%8.0g,,Who in the household is reporting information on food consumption in this module
+90,hh_g09,byte,1,%8.0g,HH_G09,"Over the past one week (7 days), did any people that you did not list as househo"
+91,hh_m00,byte,1,%8.0g,HH_M00,"Did your household own or rent any farm implements, machinery and/or structures,"
+92,hh_o00,byte,1,%8.0g,HH_O00,Does the household head or spouse have any biological sons and/or daughters who
+93,hh_s01,byte,1,%8.0g,HH_S01,"Over the past 12 months, did you or anyone else in this household borrow on cred"

@@ -1,0 +1,86 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%4s,,Garden ID
+4,ag_b202,byte,1,%8.0g,,ENUMERATOR: RECORD THE ID OF THE RESPONDENT.
+5,ag_b203,byte,1,%8.0g,ag_b_2_03,How did your household acquire this garden ([GARDEN])?
+6,ag_b203_oth,str27,0,%27s,,Please specify other way your household acquired this garden (%rostertitle%)
+7,ag_b203_1a,byte,1,%8.0g,,From whom outside the HH did you acquire [GARDEN]? (#ID 1)
+8,ag_b203_1b,byte,1,%8.0g,,From whom outside the HH did you acquire [GARDEN]? (#ID 2)
+9,ag_b203_2,int,1,%8.0g,,In which year was this [GARDEN] acquired?
+10,ag_b204a__0,byte,1,%8.0g,,Who in this household owns [GARDEN]? (#ID 1)
+11,ag_b204a__1,byte,1,%8.0g,,Who in this household owns [GARDEN]? (#ID 2)
+12,ag_b204a__2,byte,1,%8.0g,,Who in this household owns [GARDEN]? (#ID 3)
+13,ag_b204a__3,byte,1,%8.0g,,Who in this household owns [GARDEN]? (#ID 4)
+14,ag_b204b,byte,1,%8.0g,ag_2_04b, Is there anyone OUTSIDE the household that owns [GARDEN]?
+15,ag_b204b__0,byte,1,%8.0g,,Who outside this household owns [GARDEN]? (#ID 1)
+16,ag_b204b__1,byte,1,%8.0g,,Who outside this household owns [GARDEN]? (#ID 2)
+17,ag_b204_1,byte,1,%8.0g,ag_b_2_04_1,Does your HH currently have a title or ownership document for this [GARDEN]?
+18,ag_b204_1oth,str18,0,%18s,,"Please, specify Other title or ownership document for this %rostertitle%"
+19,ag_b204_2a_1,byte,1,%8.0g,ag_b_2_04_2a_1,ENUMERATOR: WAS RESPONDENT ABLE TO PROVIDE DOCUMENTATION?
+20,ag_b204_2a__0,byte,1,%8.0g,,Who in HH is listed on the title/ownership doc. of [GARDEN]? (#ID 1)
+21,ag_b204_2a__1,byte,1,%8.0g,,Who in HH is listed on the title/ownership doc. of [GARDEN]? (#ID 2)
+22,ag_b204_2a__2,byte,1,%8.0g,,Who in HH is listed on the title/ownership doc. of [GARDEN]? (#ID 3)
+23,ag_b204_2a__3,byte,1,%8.0g,,Who in HH is listed on the title/ownership doc. of [GARDEN]? (#ID 4)
+24,ag_b204_2filter,byte,1,%8.0g,ag_b_2_04_2filter,Is there anyone OUTSIDE of this household who is listed on ownership doc
+25,ag_b204_2b__0,byte,1,%8.0g,,Who outside HH is listed on title/ownership document of [GARDEN]? (#ID 1)
+26,ag_b204_2b__1,byte,1,%8.0g,,Who outside HH is listed on title/ownership document of [GARDEN]? (#ID 2)
+27,ag_b204_3,byte,1,%8.0g,ag_b204_3,..HH currently have an informal doc that certifies your ownership rights to this
+28,ag_b204_3_oth,str26,0,%26s,,"Please, specify the other informal document that certifies your ownership rights"
+29,ag_b204_3_1,byte,1,%8.0g,ag_b_2_04_3_1,ENUMERATOR: WAS RESPONDENT ABLE TO PROVIDE DOCUMENTATION?
+30,ag_b204_4a__0,byte,1,%8.0g,,..HH is listed on this informal document as owner of this [GARDEN]? (#ID 1)
+31,ag_b204_4a__1,byte,1,%8.0g,,..HH is listed on this informal document as owner of this [GARDEN]? (#ID 2)
+32,ag_b204_4a__2,byte,1,%8.0g,,..HH is listed on this informal document as owner of this [GARDEN]? (#ID 3)
+33,ag_b204_4a__3,byte,1,%8.0g,,Wh..HH is listed on this informal document as owner of this [GARDEN]? (#ID 4)
+34,ag_b204_4b_filter,byte,1,%8.0g,ag_b_2_04filter,..anyone OUTSIDE the HH listed on this informal doc. as owner of this [GARDEN]?
+35,ag_b204_4b__0,byte,1,%8.0g,,..HH is listed on this informal document as owner of this [GARDEN]? (#ID 1)
+36,ag_b204_4b__1,byte,1,%8.0g,,..HH is listed on this informal document as owner of this [GARDEN]? (#ID 2)
+37,ag_b204_5,byte,1,%8.0g,ag_b_2_04_5,Does anyone in the household have the right to sell this [GARDEN]
+38,ag_b204_6a__0,byte,1,%8.0g,,Who in HH can decide whether to sell this [GARDEN]? (#ID 1)
+39,ag_b204_6a__1,byte,1,%8.0g,,Who in HH can decide whether to sell this [GARDEN]? (#ID 2)
+40,ag_b204_6a__2,byte,1,%8.0g,,Who in HH can decide whether to sell this [GARDEN]? (#ID 3)
+41,ag_b204_6a__3,byte,1,%8.0g,,Who in HH can decide whether to sell this [GARDEN]? (#ID 4)
+42,ag_b204_6b_filter,byte,1,%8.0g,ag_b_2_04fiter,B_2_04_6filter. Is there anyone <u>OUTSIDE the household</u> who can decide whet
+43,ag_b204_6b__0,byte,1,%8.0g,,Who outside HH can decide whether to sell this [GARDEN]? (#ID 1)
+44,ag_b204_6b__1,byte,1,%8.0g,,Who outside HH can decide whether to sell this [GARDEN]? (#ID 2)
+45,ag_b204_7,byte,1,%8.0g,ag_b_2_04_7,Does anyone have the right to bequeath this [GARDEN]?
+46,ag_b204_8a__0,byte,1,%8.0g,,Who in HH can decide whether to bequeath this [GARDEN]? (#ID 1)
+47,ag_b204_8a__1,byte,1,%8.0g,,Who in HH can decide whether to bequeath this [GARDEN]? (#ID 2)
+48,ag_b204_8a__2,byte,1,%8.0g,,Who in HH can decide whether to bequeath this [GARDEN]? (#ID 3)
+49,ag_b204_8a__3,byte,1,%8.0g,,Who in HH can decide whether to bequeath this [GARDEN]? (#ID 4)
+50,ag_b204_8filter,byte,1,%8.0g,ag_b_04_8filter,s there anyone OUTSIDE the household who can decide whether to bequeauth
+51,ag_b204_8b__0,byte,1,%8.0g,,Who outside HH can decide whether to bequeath this [GARDEN]? (#ID 1)
+52,ag_b204_8b__1,byte,1,%8.0g,,Who outside HH can decide whether to bequeath this [GARDEN]? (#ID 1)
+53,ag_b204_9,byte,1,%8.0g,ag_b_2_04_9,..ever been concerned that somebody might dispute your ownership of[GARDEN]?
+54,ag_b205,long,1,%12.0g,,"...sell this [GARDEN] today, how much could you sell it for?"
+55,ag_b206,long,1,%12.0g,,"..rent out this [GARDEN] today for 12 months, how much could you rent it for?"
+56,ag_b206a,byte,1,%8.0g,ag_b_2_06a,"If [GARDEN] were to be sold/rented out today,..other HH member decide how money"
+57,ag_b206b__0,byte,1,%8.0g,,"..parcel were to be sold/rented out, who in HH would decide how money is used?"
+58,ag_b206b__1,byte,1,%8.0g,,"..parcel were to be sold/rented out, who in HH would decide how money is used?"
+59,ag_b206b__2,byte,1,%8.0g,,"..parcel were to be sold/rented out, who in HH would decide how money is used?"
+60,ag_b206b__3,byte,1,%8.0g,,"..parcel were to be sold/rented out, who in HH would decide how money is used?"
+61,ag_b206c,byte,1,%8.0g,ag_b_2_06c,..anyone outside the HH who would decide how money is used..parcel were to be so
+62,ag_b206d__0,byte,1,%8.0g,,"..parcel were to be sold/rented out, who out HH would decide how money is used?"
+63,ag_b206d__1,byte,1,%8.0g,,"..parcel were to be sold/rented out, who out HH would decide how money is used?"
+64,ag_b208a,byte,1,%8.0g,ag_b_2_08a, CROP TYPE
+65,ag_b208a_oth,str20,0,%20s,,Specify the crops planted
+66,ag_b208b,int,1,%8.0g,,"How much output from this [GARDEN] did you give as rent, if any.."
+67,ag_b208c,byte,1,%8.0g,ag_b_2_08c,unit
+68,ag_b208c_oth,str3,0,%3s,,Please specify the other unit of output given as rent
+69,ag_b208d,byte,1,%8.0g,ag_b_2_08d,SHELLED / UNSHELLED
+70,ag_b209a,long,1,%12.0g,,How much did you pay the owner for the use of [GARDEN] in the [RS]? (CASH)
+71,ag_b209b,long,1,%12.0g,,How much did you pay the owner for the use of [GARDEN] in the [RS]? (IN-KIND)
+72,ag_b212,byte,1,%8.0g,ag_b_2_12,What period of time did this payment cover?
+73,ag_b212_oth,str7,0,%7s,,Please specify other period of payment
+74,ag_b213__0,byte,1,%8.0g,,Who outside HH owns [GARDEN]? (#ID 1)
+75,ag_b213__1,byte,1,%8.0g,,Who outside HH owns [GARDEN]? (#ID 2)
+76,ag_b214,byte,1,%8.0g,ag_b_2_14,"During the [RS], usage status of garden"
+77,ag_b214_oth,strL,0,%43s,,Please specify Other cultivation status of the garden
+78,ag_b216a,byte,1,%8.0g,ag_b_2_16a,"How much output from this [GARDEN] did you receive as rent, if any, in the [RS]?"
+79,ag_b216a_oth,str1,0,%1s,,Specify the crops planted.
+80,ag_b216b,int,1,%8.0g,,quantity
+81,ag_b216c,byte,1,%8.0g,ag_b_2_16c,unit
+82,ag_b216c_oth,str6,0,%6s,,Please specify the other  unit of output received as rent
+83,ag_b216d,byte,1,%8.0g,ag_b_2_16d,SHELLED / UNSHELLED
+84,ag_b217a,long,1,%12.0g,,How much did you receive from renting out this [GARDEN] in the [RS]?
+85,ag_b217b,long,1,%12.0g,,IN-KIND (MK)

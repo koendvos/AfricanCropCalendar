@@ -1,0 +1,8 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,ag_r25,long,1,%12.0g,,...total on hired labor for all types of livestock owned
+4,ag_r26,long,1,%12.0g,,...total on animal feed for all types of livestock owned
+5,ag_r27,long,1,%12.0g,,...total on medicine and vaccinations for all types of livestock owned
+6,ag_r28,int,1,%8.0g,,"...total on other veterinary services, including dipping, deworming and artifici"
+7,ag_r29,long,1,%12.0g,,"...total on housing equipment, feeding utensils/any other input for all types of"

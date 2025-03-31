@@ -1,0 +1,22 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,Unique HH Identifier
+3,visit,byte,1,%9.0g,,Panel Visit
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,fs_b01_01,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+6,fs_b01_02,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+7,fs_b01_03,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+8,fs_b01_04,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+9,fs_b01_05,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+10,fs_b01_06,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+11,fs_b01_07,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+12,fs_b01_08,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+13,fs_b01_09,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+14,fs_b01_10,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+15,fs_b01_11,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+16,fs_b01_12,str1,0,%9s,,"Enumerator: record status of each month as H (high), L (low) or N (no fishing)"
+17,fs_b02,byte,1,%8.0g,FS_B02,"Enumerator: for the months that any fishing took place in the community, was the"
+18,fs_f06,byte,1,%8.0g,FS_F06,Enumerator: refer to module b: fisheries calendar. Is the answer to question 2 '
+19,fs_f07,byte,1,%8.0g,FS_F07,Did you or anyone in your household do any fishing or fish trading during the la
+20,fs_j06,byte,1,%8.0g,FS_J06,Enumerator: refer to module b: fisheries calendar. Is the answer to question 2 '
+21,fs_j07,byte,1,%8.0g,FS_J07,Did you or anyone in your household do any fishing or fish trading during the la

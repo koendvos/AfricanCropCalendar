@@ -1,0 +1,6 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%8s,,Unique EA Identifier
+2,com_ca01,int,1,%8.0g,ca1,district
+3,com_ca02,byte,1,%8.0g,,"TA, STA or URBAN WARD"
+4,com_ca06,int,1,%8.0g,,Enumerator Code
+5,InterviewDate,str10,0,%10s,,Interview Start Date

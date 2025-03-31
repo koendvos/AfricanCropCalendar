@@ -1,0 +1,43 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str13,0,%13s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,PID,str6,0,%9s,,Assigned Unique Serial Number for IHS3 Baseline and IHPS New Members
+6,id_code,byte,1,%9.0g,,Household Member ID Code
+7,ea_id,str8,0,%9s,,Unique EA Identifier
+8,hh_b01,byte,1,%8.0g,,ID CODE
+9,hh_b03,byte,1,%8.0g,HH_B03,Sex
+10,hh_b04,byte,1,%29.0g,HH_B04,Relationship to Head
+11,hh_b04_os,str1,0,%9s,,Relationship to Head (Other Specify)
+12,hh_b05a,int,1,%8.0g,,How old is [NAME] (years)?
+13,hh_b05b,byte,1,%8.0g,,How old is [NAME} (months)?
+14,hh_b06a,byte,1,%8.0g,,When was [NAME] born (month)?
+15,hh_b06b,int,1,%8.0g,,When was [NAME] born (year)?
+16,hh_b07,byte,1,%8.0g,,For how many months during the past 12 months  (since MONTH/YR) has [....] been
+17,hh_b08,byte,1,%8.0g,,How many days did [NAME] eat in this household in the past 7 days?
+18,hh_b09,byte,1,%43.0g,HH_B09,Where was [NAME] born?
+19,hh_b10b,int,1,%30.0g,HH_B10B,In which district/country was [NAME] born (Code)?
+20,hh_b11,byte,1,%8.0g,HH_B11,Has [NAME] always lived in this village or urban location?
+21,hh_b12,byte,1,%10.0g,HH_B12,"How long is it since [NAME] came to stay here, in this village or urban location"
+22,hh_b13,byte,1,%26.0g,HH_B13,What was the main reason that [NAME] moved here?
+23,hh_b13_os,str48,0,%48s,,What was the main reason that [NAME] moved here? (Other Specify)
+24,hh_b14,byte,1,%44.0g,HH_B14,Where did [NAME] move from?
+25,hh_b15b,int,1,%30.0g,HH_B15B,From which district/country did [NAME] move from (Code)?
+26,hh_b16,byte,1,%17.0g,HH_B16,Where is  [NAME]'s father?
+27,hh_b17,byte,1,%10.0g,HH_B17,What was [NAME]'s age when his/her father died?
+28,hh_b18,byte,1,%23.0g,HH_B18,What was the highest educational qualification acquired by [NAME]'s  father?
+29,hh_b19,byte,1,%17.0g,HH_B19,Where is [NAME]'s  mother?
+30,hh_b20,byte,1,%10.0g,HH_B20,What was [NAME]'s age when his/her mother died?
+31,hh_b21,byte,1,%23.0g,HH_B21,What was the highest educational qualification acquired by [NAME]'s mother?
+32,hh_b22,byte,1,%8.0g,HH_B22,Which language do you speak at home?
+33,hh_b23,byte,1,%14.0g,HH_B23,"What religion, if any, does [NAME] practice"
+34,hh_b24,byte,1,%39.0g,HH_B24,What is [NAME]'s present marital status?
+35,hh_b25,byte,1,%8.0g,HH_B25,Does your spouse live in this household now?
+36,hh_b26a,byte,1,%8.0g,,First spouse
+37,hh_b26b,byte,1,%8.0g,,Second wife
+38,hh_b26c,byte,1,%8.0g,,Third wife
+39,hh_b26d,byte,1,%8.0g,,Fourth wife
+40,hh_b27,byte,1,%8.0g,HH_B27,Does [NAME] have a spouse living outside of this household now?
+41,hh_b28,byte,1,%8.0g,,How many spouses does [NAME] have who are residing else-where?
+42,status,byte,1,%8.0g,HH2_STATUS,Visit 2 Status

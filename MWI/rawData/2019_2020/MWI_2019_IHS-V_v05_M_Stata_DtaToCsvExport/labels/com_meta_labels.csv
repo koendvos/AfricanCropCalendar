@@ -1,0 +1,58 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%9s,,Unique EA Identifier
+2,module_cb_startdate,str10,0,%9s,,ENUMERATOR: RECORD START DATE &amp; TIME FOR MODULE CB:
+3,module_cb_startHr,byte,1,%6.0f,,HOUR
+4,module_cb_startMin,byte,1,%6.0f,,MINUTES
+5,module_cb_endHr,byte,1,%6.0f,,ENUMERATOR: RECORD END TIME FOR MODULE CB: 
+
+HOUR
+6,module_cb_endMin,byte,1,%6.0f,,MINUTES
+7,module_cc_startdate,str10,0,%9s,,ENUMERATOR: RECORD START DATE &amp; TIME FOR MODULE CC:
+8,module_cc_startHr,byte,1,%6.0f,,HOUR
+9,module_cc_startMin,byte,1,%6.0f,,MINUTES
+10,module_cc_endHr,byte,1,%6.0f,,ENUMERATOR: RECORD END TIME FOR MODULE CC: 
+
+HOUR
+11,module_cc_endMin,byte,1,%6.0f,,MINUTES
+12,module_ce_startdate,str10,0,%9s,,ENUMERATOR: RECORD START DATE &amp; TIME FOR MODULE CE:
+13,module_ce_startHr,byte,1,%6.0f,,HOUR
+14,module_ce_startMin,byte,1,%6.0f,,MINUTES
+15,module_ce_endHr,byte,1,%6.0f,,ENUMERATOR: RECORD END TIME FOR MODULE CE: 
+
+HOUR
+16,module_ce_endMin,byte,1,%6.0f,,MINUTES
+17,module_cf_startdate,str10,0,%9s,,ENUMERATOR: RECORD START DATE &amp; TIME FOR MODULE CF:
+18,module_cf_startHr,byte,1,%6.0f,,HOUR
+19,module_cf_startMin,byte,1,%6.0f,,MINUTES
+20,module_cf_endHr,byte,1,%6.0f,,ENUMERATOR: RECORD END TIME FOR MODULE CF: 
+
+HOUR
+21,module_cf_endMin,byte,1,%6.0f,,MINUTES
+22,module_cg_startdate,str10,0,%9s,,ENUMERATOR: RECORD START DATE &amp; TIME FOR MODULE CG:
+23,module_cg_startHr,byte,1,%6.0f,,HOUR
+24,module_cg_startMin,byte,1,%6.0f,,MINUTES
+25,module_cg_endHr,byte,1,%6.0f,,ENUMERATOR: RECORD END TIME FOR MODULE CG: 
+
+HOUR
+26,module_cg_endMin,byte,1,%6.0f,,MINUTES
+27,module_ch_startdate,str10,0,%9s,,ENUMERATOR: RECORD START DATE &amp; TIME FOR MODULE CH:
+28,module_ch_startHr,byte,1,%6.0f,,HOUR
+29,module_ch_startMin,byte,1,%6.0f,,MINUTES
+30,module_ch_endHr,byte,1,%6.0f,,ENUMERATOR: RECORD END TIME FOR MODULE CH: 
+
+HOUR
+31,module_ch_endMin,byte,1,%6.0f,,MINUTES
+32,module_ci_startdate,str10,0,%9s,,ENUMERATOR: RECORD START DATE &amp; TIME FOR MODULE CI:
+33,module_ci_startHr,byte,1,%6.0f,,HOUR
+34,module_ci_startMin,byte,1,%6.0f,,MINUTES
+35,module_ci_endHr,byte,1,%6.0f,,ENUMERATOR: RECORD END TIME FOR MODULE CI: 
+
+HOUR
+36,module_ci_endMin,byte,1,%6.0f,,MINUTES
+37,module_cj_startdate,str10,0,%9s,,ENUMERATOR: RECORD START DATE &amp; TIME FOR MODULE CJ:
+38,module_cj_startHr,byte,1,%6.0f,,HOUR
+39,module_cj_startMin,byte,1,%6.0f,,MINUTES
+40,module_cj_endHr,byte,1,%6.0f,,ENUMERATOR: RECORD END TIME FOR MODULE CJ: 
+
+HOUR
+41,module_cj_endMin,byte,1,%6.0f,,MINUTES

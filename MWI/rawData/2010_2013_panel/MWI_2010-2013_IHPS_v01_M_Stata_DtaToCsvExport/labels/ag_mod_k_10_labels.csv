@@ -1,0 +1,175 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,ag_k0a,str2,0,%9s,,PLOT ID
+7,ag_k01,byte,1,%8.0g,O0B,ENUMERATOR: DID YOU ALREADY LIST THIS PLOT IN AG-MODULE D?
+8,ag_k02,byte,1,%8.0g,,"Who in HH makes decisions re crops planted,input use,timing of cropping activiti"
+9,ag_k03,byte,1,%8.0g,,ENUMERATOR: Record the ID of the respondent.
+10,ag_k04,byte,1,%27.0g,O03A,How did your household acquire this [PLOT]?
+11,ag_k04_os,str17,0,%17s,,How did your household acquire this [PLOT]?(Other Specify)
+12,ag_k05a,byte,1,%8.0g,,Who in this household owns this [PLOT]?(ID CODE #1)
+13,ag_k05b,byte,1,%8.0g,,Who in this household owns this [PLOT]?(ID CODE #2)
+14,ag_k06,long,1,%12.0g,,"If you were to sell this[PLOT]today,how much could you sell it for?"
+15,ag_k07,long,1,%12.0g,,"If you were to rent out this[PLOT]for 12 months,how much could you rent it for?"
+16,ag_k11a,byte,1,%24.0g,O07A,How much output from[PLOT]will you give as rent in[RS]?(TYPE)
+17,ag_k11b,byte,1,%9.0g,,How much output from[PLOT]will you give as rent in[RS]?(QUANT)
+18,ag_k11c,byte,1,%15.0g,O07C,How much output from[PLOT]will you give as rent in[RS]?(UNIT)
+19,ag_k11c_os,byte,1,%9.0g,,How much output from[PLOT]will you give...?(UNIT)(O/S)
+20,ag_k11d,byte,1,%12.0g,O07D,How much output from[PLOT]will you give as rent in[RS]?(S/U)
+21,ag_k12a,int,1,%12.0g,,How much did you already pay the owner for the use of[PLOT]in the[RS]?(CASH)
+22,ag_k12b,byte,1,%12.0g,,How much did you already pay the owner for the use of[PLOT]in the[RS]?(IN-KIND)
+23,ag_k12c,int,1,%12.0g,,How much do you still have to pay the owner for the use of[PLOT]in the[RS]?(CASH
+24,ag_k12d,byte,1,%12.0g,,How much do you still have to pay the owner for the use of[PLOT]...?(IN-KIND)
+25,ag_k13,byte,1,%33.0g,O09A,What period of time did this payment cover?
+26,ag_k13_os,str40,0,%40s,,What period of time did this payment cover?(Other Specify)
+27,ag_k14a,str3,0,%9s,,Who owns this [PLOT]?(ID CODE #1)
+28,ag_k14b,str3,0,%9s,,Who owns this [PLOT]?(ID CODE #2)
+29,ag_k15,byte,1,%17.0g,O11A,During the [RS] was this [PLOT]...?
+30,ag_k15_os,str24,0,%24s,,During the [RS] was this [PLOT]...?(Other Specify)
+31,ag_k19a,byte,1,%24.0g,O12A,How much output from[PLOT]will you receive as rent in[RS]?(TYPE)
+32,ag_k19b,byte,1,%9.0g,,How much output from[PLOT]will you receive as rent in[RS]?(QUANT)
+33,ag_k19c,byte,1,%15.0g,O12C,How much output from[PLOT]will you receive as rent in[RS]?(UNIT)
+34,ag_k19c_os,byte,1,%9.0g,,How much output from[PLOT]will you receive...?(UNIT)(O/S)
+35,ag_k19d,byte,1,%10.0g,O12D,How much output from[PLOT]will you receive as rent in[RS]?(S/U)
+36,ag_k20a,int,1,%12.0g,,How much did you receive from renting out this[PLOT]in the[RS]?(CASH)
+37,ag_k20b,byte,1,%12.0g,,How much did you receive from renting out this[PLOT]in the[RS]?(IN-KIND)
+38,ag_k20c,byte,1,%12.0g,,How much will you receive from renting out this[PLOT]in the[RS]?(CASH)
+39,ag_k20d,byte,1,%12.0g,,How much will you receive from renting out this[PLOT]in the[RS]?(IN-KIND)
+40,ag_k21a,byte,1,%24.0g,O14A,What crops were planted on this[PLOT]during the[RS]?(1st)
+41,ag_k21a_os,str15,0,%15s,,What crops were planted on this[PLOT]during the[RS]?(1st)(O/S)
+42,ag_k21b,byte,1,%24.0g,O14B,What crops were planted on this[PLOT]during the[RS]?(2nd)
+43,ag_k21b_os,str11,0,%11s,,What crops were planted on this[PLOT]during the[RS]?(2nd)(O/S)
+44,ag_k21c,byte,1,%24.0g,O14C,What crops were planted on this[PLOT]during the[RS]?(3rd)
+45,ag_k21c_os,byte,1,%9.0g,,What crops were planted on this[PLOT]...?(3rd)(O/S)
+46,ag_k21d,byte,1,%24.0g,O14D,What crops were planted on this[PLOT]during the[RS]?(4th)
+47,ag_k21d_os,str6,0,%9s,,What crops were planted on this[PLOT]during the[RS]?(4th)(O/S)
+48,ag_k21e,byte,1,%24.0g,O14E,What crops were planted on this[PLOT]during the[RS]?(5th)
+49,ag_k21e_os,byte,1,%9.0g,,What crops were planted on this[PLOT]...?(5th)(O/S)
+50,ag_k22,byte,1,%51.0g,O15A,What is the predominant soil type of this [PLOT]?
+51,ag_k22_os,str16,0,%16s,,What is the predominant soil type of this [PLOT]?(Other Specify)
+52,ag_k23,byte,1,%8.0g,O16,What is the soil quality of [PLOT]?
+53,ag_k24,byte,1,%10.0g,O17,How would you rate the extent of erosion on this [PLOT]?
+54,ag_k25a,byte,1,%15.0g,O18A,What are the causes of these erosion problems? (1st)
+55,ag_k25a_os,str18,0,%18s,,What are the causes of these erosion problems?(1st)(Other Specify)
+56,ag_k25b,byte,1,%15.0g,O18B,What are the causes of these erosion problems? (2nd)
+57,ag_k25b_os,str1,0,%9s,,What are the causes of these erosion problems?(2nd)(Other Specify)
+58,ag_k26a,byte,1,%21.0g,O19A,What type of erosion control/water harvesting facilities are on this[PLOT]?(1st)
+59,ag_k26a_os,str22,0,%22s,,What type of erosion control/water harvesting facilities are on this[PLOT]?(O/S)
+60,ag_k26b,byte,1,%21.0g,O19B,What type of erosion control/water harvesting facilities are on this[PLOT]?(2nd)
+61,ag_k26b_os,byte,1,%9.0g,,What type of erosion control/water harvesting facilities...?(2nd)(O/S)
+62,ag_k27,byte,1,%14.0g,O20,What is the slope of this [PLOT]?
+63,ag_k28,byte,1,%8.0g,O21,Is this [PLOT] swamp/wetland?
+64,ag_k29a,byte,1,%21.0g,O22A,What systems of irrigation are on this [PLOT]? (1st)
+65,ag_k29a_os,str43,0,%43s,,What systems of irrigation are on this [PLOT]? (1st)(Other Specify)
+66,ag_k29b,byte,1,%21.0g,O22B,What systems of irrigation are on this [PLOT]? (2nd)
+67,ag_k29b_os,str17,0,%17s,,What systems of irrigation are on this [PLOT]? (2nd)(Other Specify)
+68,ag_k30,byte,1,%15.0g,O23A,What is the method of obtaining water for this [PLOT]?
+69,ag_k30_os,str48,0,%48s,,What is the method of obtaining water for this[PLOT]?(Other Specify)
+70,ag_k31,byte,1,%15.0g,O24A,What is the source of water on this [PLOT]?
+71,ag_k31_os,str22,0,%22s,,What is the source of water on this [PLOT]?(Other Specify)
+72,ag_k32,byte,1,%8.0g,O25,"ENUM:Refer to #14,was this plot left fallow during the[RS]?"
+73,ag_k33,int,1,%8.0g,,What was the most recent year in which this [PLOT] was left fallow?(YEAR)
+74,ag_k34,byte,1,%8.0g,,For how many years was it left fallow?(NUMBER OF YEARS)
+75,ag_k35a,byte,1,%25.0g,O28A,Why was this[PLOT]left fallow?(1st)
+76,ag_k35a_os,str36,0,%36s,,Why was this[PLOT]left fallow?(1st)(Other Specify)
+77,ag_k35b,byte,1,%25.0g,O28B,Why was this[PLOT]left fallow?(2nd)
+78,ag_k35b_os,byte,1,%9.0g,,Why was this[PLOT]left fallow?(2nd)(O/S)
+79,ag_k36,byte,1,%8.0g,O29,Was this[PLOT]cultivated (refer to Q#14) or rented in (refer to Q#3)?
+80,ag_k37,byte,1,%8.0g,O30,Did you use any organic fertilizer on this[PLOT]during the[RS]?
+81,ag_k38a,float,1,%9.0g,,How much organic fertilizer did you apply to this[PLOT]?(QUANT)
+82,ag_k38b,byte,1,%15.0g,O31B,How much organic fertilizer did you apply to this[PLOT]?(UNIT)
+83,ag_k38b_os,str9,0,%9s,,How much organic fertilizer did you apply to this[PLOT]?(UNIT)(O/S)
+84,ag_k39,byte,1,%8.0g,O32,Did you use any inorganic fertilizer on this[PLOT]during the[RS]?
+85,ag_k40a,byte,1,%26.0g,O33A,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?1st(TYPE)
+86,ag_k40a_os,str15,0,%15s,,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?1st(O/S)
+87,ag_k40b,float,1,%9.0g,,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?1st(QUANT)
+88,ag_k40c,byte,1,%15.0g,O33C,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?(UNIT)
+89,ag_k40c_os,byte,1,%9.0g,,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?(UNIT)
+90,ag_k40d,int,1,%8.0g,,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?1st(KGS)
+91,ag_k40e,byte,1,%9.0g,O33E,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?1st(MONTH)
+92,ag_k40f,byte,1,%26.0g,O33F,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?2nd(TYPE)
+93,ag_k40f_os,str8,0,%9s,,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?2nd(O/S)
+94,ag_k40g,float,1,%9.0g,,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?2nd(QUANT)
+95,ag_k40h,byte,1,%15.0g,O33H,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?2nd(UNIT)
+96,ag_k40h_os,byte,1,%9.0g,,How much inorganic fertilizer did you apply to this[PLOT]...?2nd(UNIT)(O/S)
+97,ag_k40i,int,1,%8.0g,,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?2nd(KGS)
+98,ag_k40j,byte,1,%9.0g,O33J,How much inorganic fertilizer did you apply to this[PLOT]during[RS]?2nd(MONTH)
+99,ag_k41,byte,1,%8.0g,O34,Did you use any pesticides/herbicides on this[PLOT]during the[RS]?
+100,ag_k42a,byte,1,%34.0g,O35A,How much pesticides/herbicides did you apply to this[PLOT]?(TYPE #1)
+101,ag_k42a_os,str14,0,%14s,,How much pesticides/herbicides did you apply to this[PLOT]?(TYPE #1 O/S)
+102,ag_k42b,float,1,%9.0g,,How much pesticides/herbicides did you apply to this[PLOT]?(QUANTITY #1)
+103,ag_k42c,byte,1,%14.0g,O35C,How much pesticides/herbicides did you apply to this[PLOT]?(UNIT #1)
+104,ag_k42c_os,byte,1,%9.0g,,How much pesticides/herbicides did you apply to this[PLOT]?(UNIT #1)(O/S)
+105,ag_k42d,byte,1,%34.0g,O35D,How much pesticides/herbicides did you apply to this[PLOT]?(TYPE #2)
+106,ag_k42d_os,str4,0,%9s,,How much pesticides/herbicides did you apply to this[PLOT]?(TYPE #2 O/S)
+107,ag_k42e,int,1,%9.0g,,How much pesticides/herbicides did you apply to this[PLOT]?(QUANTITY #2)
+108,ag_k42f,byte,1,%14.0g,O35F,How much pesticides/herbicides did you apply to this[PLOT]?(UNIT #2)
+109,ag_k42f_os,byte,1,%9.0g,,How much pesticides/herbicides did you apply to this[PLOT]?(UNIT #2)(O/S)
+110,ag_k43a,byte,1,%8.0g,,List HH members that worked on[PLOT]for land prep/planting during[RS](ID CODE #1
+111,ag_k43b,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #1)
+112,ag_k43c,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #1)"
+113,ag_k43d,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #1)"
+114,ag_k43e,byte,1,%8.0g,,List HH members that worked on[PLOT]for land prep/planting during[RS](ID CODE #2
+115,ag_k43f,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #2)
+116,ag_k43g,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #2)"
+117,ag_k43h,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #2)"
+118,ag_k43i,byte,1,%8.0g,,List HH members that worked on[PLOT]for land prep/planting during[RS](ID CODE #3
+119,ag_k43j,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #3)
+120,ag_k43k,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #3)"
+121,ag_k43l,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #3)"
+122,ag_k43m,byte,1,%8.0g,,List HH members that worked on[PLOT]for land prep/planting during[RS](ID CODE #4
+123,ag_k43n,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #4)
+124,ag_k43o,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #4)"
+125,ag_k43p,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #4)"
+126,ag_k44a,byte,1,%8.0g,,List HH members that did weeding/fertilizing/other non-harvest activity](ID #1)
+127,ag_k44b,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #1)
+128,ag_k44c,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #1)"
+129,ag_k44d,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #1)"
+130,ag_k44e,byte,1,%8.0g,,List HH members that did weeding/fertilizing/other non-harvest activity](ID #2)
+131,ag_k44f,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #2)
+132,ag_k44g,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #2)"
+133,ag_k44h,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #2)"
+134,ag_k44i,byte,1,%8.0g,,List HH members that did weeding/fertilizing/other non-harvest activity](ID #3)
+135,ag_k44j,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #3)
+136,ag_k44k,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #3)"
+137,ag_k44l,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #3)"
+138,ag_k44m,byte,1,%8.0g,,List HH members that did weeding/fertilizing/other non-harvest activity](ID #4)
+139,ag_k44n,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #4)
+140,ag_k44o,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #4)"
+141,ag_k44p,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #4)"
+142,ag_k45a,byte,1,%8.0g,,List HH members that worked on[PLOT]for harvesting during[RS](ID CODE #1)
+143,ag_k45b,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #1)
+144,ag_k45c,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #1)"
+145,ag_k45d,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #1)"
+146,ag_k45e,byte,1,%8.0g,,List HH members that worked on[PLOT]for harvesting during[RS](ID CODE #2)
+147,ag_k45f,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #2)
+148,ag_k45g,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #2)"
+149,ag_k45h,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #2)"
+150,ag_k45i,byte,1,%8.0g,,List HH members that worked on[PLOT]for harvesting during[RS](ID CODE #3)
+151,ag_k45j,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #3)
+152,ag_k45k,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #3)"
+153,ag_k45l,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #3)"
+154,ag_k45m,byte,1,%8.0g,,List HH members that worked on[PLOT]for harvesting during[RS](ID CODE #4)
+155,ag_k45n,byte,1,%8.0g,,How many weeks did each HH member work? (ID CODE #4)
+156,ag_k45o,byte,1,%8.0g,,"During those weeks,how many days did each HH member work per week?(ID CODE #4)"
+157,ag_k45p,byte,1,%8.0g,,"During those days,how many hours did each HH member work per day?(ID CODE #4)"
+158,ag_k46a,byte,1,%8.0g,,# days HH hired men to work on[PLOT]for any and all types of activities
+159,ag_k46b,int,1,%12.0g,,Avg daily wage for men hired to work on[PLOT]for any and all types of activities
+160,ag_k46c,byte,1,%8.0g,,# days HH hired women to work on[PLOT]for any and all types of activities
+161,ag_k46d,int,1,%12.0g,,Avg daily wage for women hired to work for any and all types of activities
+162,ag_k46e,byte,1,%8.0g,,# days HH hired children(<15)to work on[PLOT]for any and all types of activities
+163,ag_k46f,int,1,%12.0g,,Avg daily wage for children(<15)hired to work for any and all types of activitie
+164,ag_k46g,byte,1,%24.0g,O39G,Total crop given to all workers hired for any and all types of activities(TYPE)
+165,ag_k46h,byte,1,%9.0g,,Total crop given to all workers hired for any and all types of activities(QUANT)
+166,ag_k46i,byte,1,%15.0g,O39I,Total crop given to all workers hired for any and all types of activities(UNIT)
+167,ag_k46i_os,byte,1,%9.0g,,Total crop given to all workers hired for any and all types of activities(UNIT)(
+168,ag_k46j,byte,1,%14.0g,O39J,Total crop given to all workers hired for any and all types of activities(S/U)
+169,ag_k47a,byte,1,%8.0g,,# days men from other HHs worked on[PLOT]for any and all non-harvest activities
+170,ag_k47b,byte,1,%8.0g,,# days women from other HHs worked for any and all non-harvest activities
+171,ag_k47c,byte,1,%8.0g,,# days children(<15)from other HHs worked for any and all non-harvest activities
+172,ag_k48a,str3,0,%9s,,HH exchange/free labor came from to work for any/all non-harvest activities(#1)
+173,ag_k48b,str3,0,%9s,,HH exchange/free labor came from to work for any/all non-harvest activities(#2)
+174,ag_k48c,str3,0,%9s,,HH exchange/free labor came from to work for any/all non-harvest activities(#3)

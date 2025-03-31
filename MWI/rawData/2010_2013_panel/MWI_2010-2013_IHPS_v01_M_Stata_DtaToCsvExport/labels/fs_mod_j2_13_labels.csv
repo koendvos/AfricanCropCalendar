@@ -1,0 +1,9 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,fs_j0b,byte,1,%15.0g,FS_J0B,COST ID
+6,fs_j0c,str14,0,%14s,,COST ITEM
+7,fs_j04,byte,1,%8.0g,FS_J04,Did your household have any costs for [COST ITEM] in relation to your fish tradi
+8,fs_j05,int,1,%12.0g,,How much did your household have to pay for [COST ITEM] on a weekly basis during

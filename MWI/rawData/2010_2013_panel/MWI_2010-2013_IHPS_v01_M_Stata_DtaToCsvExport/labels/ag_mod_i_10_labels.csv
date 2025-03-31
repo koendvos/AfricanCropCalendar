@@ -1,0 +1,94 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,ag_i0b,byte,1,%24.0g,M0B,CROP CODE
+7,ag_i0b_os,str14,0,%14s,,Crop Code (Other Specify)
+8,ag_i01,byte,1,%8.0g,M01,Did you sell any of the harvested [CROP]?
+9,ag_i02a,float,1,%9.0g,,How much of the harvested[CROP]was sold in total?(QUANTITY)
+10,ag_i02b,byte,1,%15.0g,M02B,How much of the harvested[CROP]was sold in total?(UNIT)
+11,ag_i02b_os,str10,0,%10s,,How much of the harvested [CROP] was sold in total? (UNIT) (Other Specify)
+12,ag_i02c,byte,1,%14.0g,M02C,How much of the harvested[CROP]was sold in total?(S/U)
+13,ag_i03,long,1,%12.0g,,What was the total value of [CROP] sales?
+14,ag_i11,str3,0,%9s,,Who/What was the[LARGEST BUYER/OUTLET]for your[CROP]sales?
+15,ag_i12a,float,1,%9.0g,,How much of the harvested[CROP]was sold to[LARGEST BUYER/OUTLET]?(QUANT)
+16,ag_i12b,byte,1,%15.0g,M05B,How much of the harvested[CROP]was sold to[LARGEST BUYER/OUTLET]?(UNIT)
+17,ag_i12b_os,str7,0,%9s,,How much of the harvested [CROP] was sold to... (Unit) (Other Specify)
+18,ag_i12c,byte,1,%14.0g,M05C,How much of the harvested[CROP]was sold to[LARGEST BUYER/OUTLET]?(S/U)
+19,ag_i13,long,1,%12.0g,,What was the total value of [CROP]sales to [LARGEST BUYER/OUTLET]?
+20,ag_i14a,byte,1,%8.0g,,Who in your HH kept decided what to do with these earnings? (ID CODE #1)
+21,ag_i14b,byte,1,%8.0g,,Who in your HH kept decided what to do with these earnings? (ID CODE #2)
+22,ag_i15a,byte,1,%9.0g,M08,When was most of the [CROP] sold? (MONTH)
+23,ag_i15b,int,1,%8.0g,,When was most of the [CROP] sold? (YEAR)
+24,ag_i16,byte,1,%8.0g,,How many transactions took place while selling[CROP]to[LARGEST BUYER/OUTLET]?
+25,ag_i17,byte,1,%24.0g,M10A,What was main mode of transportation associated w/[CROP]sales to [LARGEST BUYER]
+26,ag_i17_os,str25,0,%25s,,What was the amin mode of transportation associated with... (Other Specify)
+27,ag_i18,long,1,%12.0g,,Total cost of transportation associated w/[CROP]sales to [LARGEST BUYER]?
+28,ag_i19,byte,1,%8.0g,M12,Was there another buyer/outlet to whom you sold[CROP]during [RS]?
+29,ag_i20,str3,0,%9s,,Who/What was the[2ND LARGEST BUYER/OUTLET]for your[CROP]sales?
+30,ag_i21a,int,1,%9.0g,,How much of the harvested[CROP]was sold to[2ND LARGEST BUYER/OUTLET]?(QUANT)
+31,ag_i21b,byte,1,%15.0g,M14B,How much of the harvested[CROP]was sold to[2ND LARGEST BUYER/OUTLET]?(UNIT)
+32,ag_i21b_os,byte,1,%9.0g,,How much of the harvested[CROP]was sold to...?(UNIT)(O/S)
+33,ag_i21c,byte,1,%14.0g,M14C,How much of the harvested[CROP]was sold to[2ND LARGEST BUYER/OUTLET]?(S/U)
+34,ag_i22,int,1,%12.0g,,What was the total value of [CROP]sales to [2ND LARGEST BUYER/OUTLET]?
+35,ag_i23a,byte,1,%8.0g,,Who in your HH kept decided what to do with these earnings? (ID CODE #1)
+36,ag_i23b,byte,1,%8.0g,,Who in your HH kept decided what to do with these earnings? (ID CODE #2)
+37,ag_i24a,byte,1,%9.0g,M17A,When was most of the [CROP] sold? (MONTH)
+38,ag_i24b,int,1,%9.0g,M17B,When was most of the [CROP] sold? (YEAR)
+39,ag_i25,byte,1,%8.0g,,How many transactions took place while selling[CROP]to[2ND LARGEST BUYER/OUTLET]
+40,ag_i26,byte,1,%24.0g,M19A,Main mode of transportation associated w/[CROP]sales to [2ND LARGEST BUYER]?
+41,ag_i26_os,byte,1,%9.0g,,Main mode of transportation associated w/[CROP]sales to...?(O/S)
+42,ag_i27,int,1,%12.0g,,Total cost of transportation associated w/[CROP]sales to [2ND LARGEST BUYER]?
+43,ag_i28,byte,1,%8.0g,M21,Was there another buyer/outlet to whom you sold[CROP]during [RS]?
+44,ag_i29,str1,0,%9s,,Who/What was the[3RD LARGEST BUYER/OUTLET]for your[CROP]sales?
+45,ag_i30a,byte,1,%9.0g,,How much of the harvested[CROP]was sold to[3RD LARGEST BUYER/OUTLET]?(QUANT)
+46,ag_i30b,byte,1,%15.0g,M23B,How much of the harvested[CROP]was sold to[3RD LARGEST BUYER/OUTLET]?(UNIT)
+47,ag_i30b_os,byte,1,%9.0g,,How much of the harvested[CROP]was sold to...?(UNIT)(O/S)
+48,ag_i30c,byte,1,%14.0g,M23C,How much of the harvested[CROP]was sold to[3RD LARGEST BUYER/OUTLET]?(S/U)
+49,ag_i31a,float,1,%9.0g,,Amt of harvested[CROP]during[RS]given as gifts/reimbursements for land/labor?(Q)
+50,ag_i31b,byte,1,%15.0g,M24B,Amt of harvested[CROP]during[RS]given as gifts/reimbursements for land/labor?(U)
+51,ag_i31b_os,str13,0,%13s,,Amt of harvested[CROP]during[RS]given as gifts/reimbursements for land/labor(U/S
+52,ag_i31c,byte,1,%14.0g,M24C,Amt of harvested[CROP]during[RS]given as gifts/reimbursements for land/labor(S/U
+53,ag_i32a,float,1,%9.0g,,Amt of [CROP]given as reimbursements for inputs borrowed/acquired on credit?(Q)
+54,ag_i32b,byte,1,%15.0g,M25F,Amt of [CROP]given as reimbursements for inputs borrowed/acquired on credit?(U)
+55,ag_i32b_os,byte,1,%9.0g,,Amt of [CROP]given as reimbursements for inputs...?(U)(O/S)
+56,ag_i32c,byte,1,%14.0g,M25H,Amt of [CROP]given as reimbursements for inputs borrowed/acquired on credit?(S/U
+57,ag_i33a,int,1,%9.0g,,Amt of harvested[CROP]used for animal feed?(QUANT)
+58,ag_i33b,byte,1,%15.0g,M26F,Amt of harvested[CROP]used for animal feed?(UNIT)
+59,ag_i33b_os,byte,1,%9.0g,,Amt of harvested[CROP]used for animal feed?(UNIT)(O/S)
+60,ag_i33c,byte,1,%14.0g,M26H,Amt of harvested[CROP]used for animal feed?(S/U)
+61,ag_i34a,float,1,%9.0g,,Amt[CROP]used as input for[CROP]by-products that HH sold for cash/in-kind G/S(Q)
+62,ag_i34b,byte,1,%15.0g,M27B,Amt[CROP]used as input for[CROP]by-products that HH sold for cash/in-kind G/S(U)
+63,ag_i34b_os,byte,1,%9.0g,,Amt[CROP]used as input for[CROP]by-products that HH sold for...(U)(O/S)
+64,ag_i34c,byte,1,%14.0g,M27C,Amt[CROP]used as input for[CROP]by-products HH sold for cash/in-kind G/S(S/U)
+65,ag_i35a,float,1,%9.0g,,Amt of harvested[CROP]saved for seed?(QUANT)
+66,ag_i35b,byte,1,%15.0g,M28B,Amt of harvested[CROP]saved for seed?(UNIT)
+67,ag_i35b_os,str38,0,%38s,,Amt of harvested[CROP]saved for seed?(UNIT/SPECIFY)
+68,ag_i35c,byte,1,%14.0g,M28C,Amt of harvested[CROP]saved for seed?(S/U)
+69,ag_i36a,float,1,%9.0g,,"Amt of[CROP]lost to rotting,insects,rodents,theft in post-harvest period?(Q)"
+70,ag_i36b,byte,1,%15.0g,M29B,"Amt of[CROP]lost to rotting,insects,rodents,theft in post-harvest period?(U)"
+71,ag_i36b_os,str37,0,%37s,,How much of the harvested [CROP] during the 2009/2010... (Unti) (Other Specify)
+72,ag_i36c,byte,1,%14.0g,M29C,"Amt of[CROP]lost to rotting,insects,rodents,theft in post-harvest period?(S/U)"
+73,ag_i36d,int,1,%8.0g,,"Amt of[CROP]lost to rotting,insects,rodents,theft in post-harvest period?(U/OS)"
+74,ag_i36e,byte,1,%8.0g,,"Amt of[CROP]lost to rotting,insects,rodents,theft in post-harvest period?(%)"
+75,ag_i37a,byte,1,%13.0g,M30A,What was the reason for loss?(1ST)
+76,ag_i37a_os,str35,0,%35s,,What was the reason for loss?(1ST OTHER SPECIFY)
+77,ag_i37b,byte,1,%13.0g,M30B,What was the reason for loss?(2ND)
+78,ag_i37b_os,str39,0,%39s,,What was the reason for loss?(2ND OTHER SPECIFY)
+79,ag_i38,byte,1,%8.0g,M31,Do you have any of the harvested[CROP]in storage now?
+80,ag_i39,byte,1,%19.0g,M32A,What is your main method of storage for this crop?
+81,ag_i39_os,str19,0,%19s,,What is your main method of storage for this crop?(OTHER/SPECIFY)
+82,ag_i40a,float,1,%9.0g,,Amt of harvested[CROP]being stored by HH?(QUANT)
+83,ag_i40b,byte,1,%15.0g,M33B,Amt of harvested[CROP]being stored by HH?(UNIT)
+84,ag_i40b_os,str17,0,%17s,,Amt of harvested[CROP]being stored by HH?(UNIT/SPECIFY)
+85,ag_i40c,byte,1,%14.0g,M33C,Amt of harvested[CROP]being stored by HH?(S/U)
+86,ag_i41a,byte,1,%17.0g,M34A,What did you do to protect the stored [CROP]?(1ST)
+87,ag_i41a_os,str48,0,%48s,,What did you do to protect the stored [CROP]?(1ST OTHER SPECIFY)
+88,ag_i41b,byte,1,%17.0g,M34B,What did you do to protect the stored [CROP]?(2ND)
+89,ag_i41b_os,str14,0,%14s,,What did you do to protect the stored [CROP]?(2ND OTHER SPECIFY)
+90,ag_i42a,byte,1,%25.0g,M35A,"When you store[CROP],what is usually the main purpose for storing it?(1ST)"
+91,ag_i42a_os,str16,0,%16s,,"When you store[CROP],what is usually the main purpose for storing it?(1ST O/S)"
+92,ag_i42b,byte,1,%25.0g,M35B,"When you store[CROP],what is usually the main purpose for storing it?(2ND)"
+93,ag_i42b_os,str33,0,%33s,,"When you store[CROP],what is usually the main purpose for storing it?(2ND O/S)"

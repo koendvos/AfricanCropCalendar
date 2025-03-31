@@ -1,0 +1,26 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,fs_h14a,byte,1,%8.0g,,How many fishing men did you hire during the last LOW season?
+4,fs_h14b,byte,1,%8.0g,,How many weeks each labourers worked for you during last LOW season
+5,fs_h14c,byte,1,%8.0g,,How many fishing children did you hire during the last LOW season?
+6,fs_h14d,byte,1,%8.0g,,How many weeks each of these laborers worked for you during last LOW season
+7,fs_h15,byte,1,%8.0g,fs_h15,Did you pay these workers a fixed wage?
+8,fs_h16a,long,1,%12.0g,,What was each of the workers paid per week?
+9,fs_h16b,int,1,%8.0g,,What was each of the workers paid per week?
+10,fs_h17,byte,1,%8.0g,fs_h17,....did you pay these hired workers with fish as a share of the boat catch?
+11,fs_h18a,byte,1,%8.0g,,..quantity of fish did you pay to each hired workers..last LOW fishing season?
+12,fs_h18b,byte,1,%8.0g,fs_h18b,Identify type of packaging for the fish
+13,fs_h18c,str17,0,%17s,,Specify other fish form of packaging to pay adult hired labour.
+14,fs_h18d,byte,1,%8.0g,,"On average per week, what quantity of fish did you pay to ea"
+15,fs_h18e,byte,1,%8.0g,fs_h18e,Identify type of packaging for the fish
+16,fs_h18f,str18,0,%18s,,Specify other fish form of packaging to pay child hired labour.
+17,fs_h19,byte,1,%8.0g,fs_h19,..did you pay these hired workers with cash as a share of the boat revenue?
+18,fs_h20a,long,1,%12.0g,,..amt of the boat revenue did you pay to each hired worker..last LOW fishing sea
+19,fs_h20b,byte,1,%8.0g,,..amt of the boat revenue did you pay to each hired worker..last LOW fishing sea
+20,fs_h21a,int,1,%8.0g,,"..LOW fishing season, did you pay the hired workers any other in kind benefit?"
+21,fs_h21b,int,1,%8.0g,,"..LOW fishing season, did you pay the hired workers any other in kind benefit?"
+22,fs_h22,byte,1,%8.0g,fs_h22,..other types of costs related to fishing activities..last LOW fishing season?
+23,fs_h23,strL,0,%49s,,Describe what these costs were for?
+24,fs_h24a,int,1,%8.0g,,What were the total costs during the LOW season?
+25,fs_h24b,byte,1,%8.0g,fs_h24b,unit

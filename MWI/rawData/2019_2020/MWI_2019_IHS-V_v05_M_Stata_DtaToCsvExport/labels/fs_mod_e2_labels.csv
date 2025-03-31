@@ -1,0 +1,7 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Unique Household Identification IHS5
+3,Rented_Out_GearID,byte,1,%30.0f,gear,Rented Out Gear Id
+4,fs_e14,byte,1,%9.0g,fs_e14,"..last HIGH fishing season,did your HH rent out any [GEAR] to other fishers?"
+5,fs_e15,int,1,%6.0f,,How many [GEAR] did your HH rent out during the last HIGH fishing season?
+6,fs_e16,long,1,%6.0f,,Amt your HH receive for renting out [GEAR]..during last HIGH fishing season?

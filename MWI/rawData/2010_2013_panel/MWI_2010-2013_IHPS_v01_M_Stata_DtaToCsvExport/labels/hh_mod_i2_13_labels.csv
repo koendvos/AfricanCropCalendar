@@ -1,0 +1,8 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_i04,byte,1,%8.0g,HH_I04,Purchased item?
+6,hh_i05,int,1,%44.0g,HH_I05,Item Code
+7,hh_i06,long,1,%12.0g,,How much did you pay in total?

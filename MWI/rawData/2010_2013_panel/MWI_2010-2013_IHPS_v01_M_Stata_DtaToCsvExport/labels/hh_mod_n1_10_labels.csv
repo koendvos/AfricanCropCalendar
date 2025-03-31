@@ -1,0 +1,16 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,hh_n0a,byte,1,%8.0g,HH_N0A,"Over the past 12 months, has anyone in your household operated any non-agricultu"
+7,hh_n0b,byte,1,%8.0g,HH_N0B,Enumerator:  is there a '1' for any of the questions HH_N01 through HH_N08?
+8,hh_n01,byte,1,%8.0g,HH_N01,Owned a non-agricultural business or provided a non-agricultural service from ho
+9,hh_n02,byte,1,%8.0g,HH_N02,"Processed and sold any agricultural by-products, including flour, starch, juice,"
+10,hh_n03,byte,1,%8.0g,HH_N03,Owned a trading business on a street or in a market?
+11,hh_n04,byte,1,%8.0g,HH_N04,"Offered any service or sold anything on a street or in a market, including firew"
+12,hh_n05,byte,1,%8.0g,HH_N05,Owned a professional office or offered professional services from home as a doct
+13,hh_n06,byte,1,%8.0g,HH_N06,Drove a household-owned taxi or pick-up truck to provide transportation or movin
+14,hh_n07,byte,1,%8.0g,HH_N07,Owned a bar or restaurant?
+15,hh_n08,byte,1,%8.0g,HH_N08,"Owned any other non-agricultural business, even if it is a small business run fr"

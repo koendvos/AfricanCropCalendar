@@ -1,0 +1,14 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,visit,byte,1,%9.0g,,Panel Visit
+6,ag_c0a,byte,1,%9.0g,AG_B0A,"Enumerator: refer to the household questionnaire, module x. What was the last co"
+7,ag_c00,str3,0,%9s,,Plot ID
+8,ag_c01,byte,1,%8.0g,AG_C01,"During the [RS],did you or any HH member own any land or cultivate any land?"
+9,ag_c02,str25,0,%25s,,Plot Name
+10,ag_c04a,float,1,%9.0g,,What is the area of this [PLOT]? (Area)
+11,ag_c04b,byte,1,%15.0g,AG_C04B,What is the area of this [PLOT]? (Unit)
+12,ag_c04c,float,1,%9.0g,,What is the area of this [PLOT]? (Area in Acres)
+13,ag_c05d_os,str43,0,%43s,,Reason GPS not taken

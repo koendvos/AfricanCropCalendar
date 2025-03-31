@@ -1,0 +1,45 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,ag_f0a,byte,1,%8.0g,ag_f_a,Did you or anyone in HH cultivate plots in [RS]
+4,ag_f0c,byte,1,%8.0g,input,INPUT TYPE
+5,ag_f01a,int,1,%8.0g,,"ENUMERATOR: FOR ORGANIC FERTILIZER (MANURE), ENTER THE TOTAL QUANTITY, AS"
+6,ag_f01b,byte,1,%8.0g,ag_f01b,unit
+7,ag_f01b_oth,str25,0,%25s,,SPECIFY UNIT
+8,ag_f02,byte,1,%8.0g,ag_f02,ENUMERATOR:ASK THE FARMER WHETHER THE FIGURES FROM QUESTION 1 CORRES
+9,ag_f03,byte,1,%8.0g,ag_f03, During[RS]did all of this [INPUT] come from purchases by using coupons / vouche
+10,ag_f04,byte,1,%8.0g,ag_f04,Did you purchase any[INPUT]w/out coupons/vouchers/purchase any[INPUT]on credit?
+11,ag_f06a,byte,1,%8.0g,,First Source of[INPUT] you purchased without coupons/vouchers/purchased credit?
+12,ag_f06b,byte,1,%8.0g,,Second Source of[INPUT] you purchased without coupons/vouchers/purchased credit?
+13,ag_f07a,int,1,%8.0g,,Amt purchased without coupons/vouchers or purchased on credit during the(RS) (Q)
+14,ag_f07b,byte,1,%8.0g,ag_f07b,Amt purchased without coupons/vouchers or purchased on credit during the(RS) (U)
+15,ag_f07b_oth,str24,0,%24s,,How much of[INPUT]was purchased w/out coupons/vouchers or purchased...(U)(O/S)
+16,ag_f07b_oth_1,str13,0,%13s,,SPECIFY UNIT
+17,ag_f07b_oth_2,str29,0,%29s,,SPECIFY UNIT
+18,ag_f08,byte,1,%8.0g,ag_f08,Main mode used to transport[INPUT]purchased on credit or w/out coupons/vouchers?
+19,ag_f08_oth,str7,0,%7s,,Specify the main mode of transportation
+20,ag_f08_oth_1,str10,0,%10s,,Specify the main mode of transportation
+21,ag_f09,long,1,%12.0g,,How much did you pay for transportation to acquire all of the[INPUT]?
+22,ag_f10,long,1,%12.0g,,Value of all [INPUT] purchased w/out coupons/vouchers or purchased on credit?
+23,ag_f11,byte,1,%8.0g,ag_f11,How did you finance this [INPUT] purchase?
+24,ag_f12,long,1,%12.0g,,How much did you pay up-front for this [INPUT] purchase
+25,ag_f13,long,1,%12.0g,,How much did you repay/will you repay?
+26,ag_f14a,long,1,%12.0g,,What was the source of credit for this [INPUT] purchase? (ID #1)
+27,ag_f14b,byte,1,%8.0g,,What was the source of credit for this [INPUT] purchase? (ID #2)
+28,ag_f37,byte,1,%8.0g,ag_f37,Did you receive any of the[INPUT] for free during the[RS]?
+29,ag_f38a,int,1,%8.0g,,How much of[INPUT]did you receive in total for free during[RS](QUANT)?
+30,ag_f38b,byte,1,%8.0g,ag_f38b,How much of[INPUT]did you receive in total for free during[RS](UNIT)?
+31,ag_f38b_oth,str24,0,%24s,,How much of[INPUT]did you receive in total for free during[RS](UNIT)(O/S)?
+32,ag_f39a,byte,1,%8.0g,,"During[RS],from whom did you receive most of the[INPUT]for free(1st)?"
+33,ag_f39b,byte,1,%8.0g,,"During[RS],from whom did you receive most of the[INPUT]for free(2nd)?"
+34,ag_f40,long,1,%12.0g,,Total payment for transportation to acquire all of[INPUT]received for free
+35,ag_f41,byte,1,%8.0g,ag_f41,Was any of the[INPUT]used during the[RS]left over from a previous season
+36,ag_f42a,int,1,%8.0g,,How much of[INPUT]used during[RS]was left over from a previous season(QUANT)?
+37,ag_f42b,byte,1,%8.0g,ag_f42b,How much of[INPUT]used during[RS]was left over from a previous season(UNIT)?
+38,ag_f42b_oth,str1,0,%1s,,How much of[INPUT]used during[RS]was left over...(UNIT)(O/S)?
+39,ag_f43,byte,1,%8.0g,ag_f43,Use any ORGANIC FERTILIZER out of own-production or own animals during [RS]?
+40,ag_f44a,int,1,%8.0g,,How much ORG FERT was used out of own-production or own animals during[RS]?(Q)
+41,ag_f44b,byte,1,%8.0g,ag_f44b,How much ORG FERT was used out of own-production or own animals during[RS]?(U)
+42,ag_f44b_oth,str24,0,%24s,,How much ORG FERT was used out of own-production or own animals...?(U)(O/S)
+43,ag_f_inorganic_fertilizer_oth,str25,0,%25s,,SPECIFY THE OTHER TYPE OF INORGANIC FERTILIZER
+44,ag_f_pesticides_oth,str25,0,%25s,,SPECIFY THE OTHER TYPE OF PESTICIDES/HERBICIDES

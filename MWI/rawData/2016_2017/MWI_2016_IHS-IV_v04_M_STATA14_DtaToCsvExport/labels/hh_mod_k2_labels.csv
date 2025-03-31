@@ -1,0 +1,7 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_k01,byte,1,%8.0g,hh_k01,Purchased Item?
+4,hh_k02,int,1,%8.0g,hh_k02,Item Code
+5,hh_k03,long,1,%12.0g,,What was the estimated total value of [ITEM] consumed?
+6,hh_k04,long,1,%12.0g,,What was the cost of that which you purchased?

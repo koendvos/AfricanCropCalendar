@@ -1,0 +1,17 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,Unique HH Identifier
+3,visit,byte,1,%9.0g,,Panel Visit
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,fs_d0c,byte,1,%15.0g,FS_D0C,Boat/Engine ID
+6,fs_d07,byte,1,%8.0g,FS_D07,Did your household use any [BOAT \ENGINE] during the last HIGH fishing season?
+7,fs_d08,byte,1,%8.0g,,How many [BOAT/ ENGINE] were operated during the last HIGH fishing season?
+8,fs_d09,byte,1,%8.0g,,How many of [BOAT/  ENGINE] are owned to your household?
+9,fs_d10,long,1,%12.0g,,If you or any household member engaged in fishing had to purchase a [BOAT / ENGI
+10,fs_d11,byte,1,%8.0g,,How many units of [BOAT/ENGINE] did you or any member of the household purchase
+11,fs_d12,long,1,%12.0g,,How much did your household pay to rent [BOAT/ ENGINE] for use in the last HIGH
+12,fs_d13,int,1,%12.0g,,"What have been  the costs of fuel, oil and maintenance (altogether) per week for"
+13,fs_d14a,byte,1,%8.0g,,How many fishing men and/or children did you hire during the last HIGH fishing s
+14,fs_d14b,byte,1,%8.0g,,How many weeks did each of these labourers work for you during the last HIGH fis
+15,fs_d14c,byte,1,%8.0g,,How many fishing men and/or children did you hire during the last HIGH fishing s
+16,fs_d14d,byte,1,%8.0g,,How many weeks did each of these labourers work for you during the last HIGH fis

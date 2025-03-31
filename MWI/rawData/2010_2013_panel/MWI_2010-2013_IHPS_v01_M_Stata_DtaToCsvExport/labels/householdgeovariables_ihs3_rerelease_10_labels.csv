@@ -1,0 +1,117 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,lat_modified,float,1,%8.0g,,EA Latitude Modified
+4,lon_modified,float,1,%8.0g,,EA Longitude Modified
+5,dist_road,float,1,%8.0g,,HH Distance in (KMs) to Nearest Road
+6,dist_popcenter,float,1,%8.0g,,"HH Distance in (KMs) to Nearest Population Center with +20,000"
+7,dist_admarc,float,1,%8.0g,,HH Distance in (KMs) to Nearest ADMARC Outlet
+8,dist_auction,float,1,%8.0g,,HH Distance in (KMs) to Nearest Tobacco Auction Floor
+9,dist_boma,float,1,%8.0g,,HH Distance in (KMs) to the Boma of Current District of Residence
+10,dist_borderpost,float,1,%8.0g,,HH Distance in (KMs) to Nearest Border Crossing
+11,af_bio_1,float,1,%10.0g,,Annual Mean Temperature (°C * 10)
+12,af_bio_2,float,1,%10.0g,,Mean Diurnal Range (Mean of monthly (max temp - min temp))
+13,af_bio_3,float,1,%10.0g,,Isothermality (bio_2/bio_7) (* 100)
+14,af_bio_4,float,1,%10.0g,,Temperature Seasonality (standard deviation *100)
+15,af_bio_5,float,1,%10.0g,,Max Temperature of Warmest Month (°C * 10)
+16,af_bio_6,float,1,%10.0g,,Min Temperature of Coldest Month (°C * 10)
+17,af_bio_7,float,1,%10.0g,,Temperature Annual Range (bio_5-bio_6)
+18,af_bio_8,float,1,%10.0g,,Mean Temperature of Wettest Quarter (°C * 10)
+19,af_bio_9,float,1,%10.0g,,Mean Temperature of Driest Quarter (°C * 10)
+20,af_bio_10,float,1,%10.0g,,Mean Temperature of Warmest Quarter (°C * 10)
+21,af_bio_11,float,1,%10.0g,,Mean Temperature of Coldest Quarter (°C * 10)
+22,af_bio_12,float,1,%10.0g,,Annual Precipitation (mm)
+23,af_bio_13,float,1,%10.0g,,Precipitation of Wettest Month (mm)
+24,af_bio_14,float,1,%10.0g,,Precipitation of Driest Month (mm)
+25,af_bio_15,float,1,%10.0g,,Precipitation Seasonality (Coefficient of Variation)
+26,af_bio_16,float,1,%10.0g,,Precipitation of Wettest Quarter
+27,fsrad3_agpct,float,1,%8.0g,,Majority landcover class within approx 1 km buffer
+28,fsrad3_lcmaj,int,1,%91.0g,fs_lab,Percent agriculture within approx 1 km buffer
+29,ssa_aez09,int,1,%24.0g,ssa_lab,Agro-ecological Zones
+30,afmnslp_pct,float,1,%8.0g,,Slope (percent)
+31,srtm_eaf,float,1,%10.0g,,Elevation (m)
+32,twi_mwi,float,1,%10.0g,,Potential Wetness Index
+33,srtm_eaf_5_15,byte,1,%27.0g,srtm_lab,Terrain Roughness
+34,sq1,byte,1,%23.0g,sq1_lab,Nutrient availability
+35,sq2,byte,1,%23.0g,sq1_lab,Nutrient retention capacity
+36,sq3,byte,1,%23.0g,sq1_lab,Rooting conditions
+37,sq4,byte,1,%23.0g,sq1_lab,Oxygen availability to roots
+38,sq5,byte,1,%23.0g,sq1_lab,Excess salts
+39,sq6,byte,1,%23.0g,sq1_lab,Toxicity
+40,sq7,byte,1,%23.0g,sq1_lab,Workability (constraining field management)
+41,anntot_avg,float,1,%8.0g,,Avg 12-month total rainfall(mm) for July-June
+42,wetq_avg,float,1,%8.0g,,Avg total rainfall in wettest quarter(mm) within 12-month periods from July-June
+43,wetq_avgstart,float,1,%8.0g,,"Avg start of wettest quarter in dekads 1-36, where first week of July =1"
+44,h2009_tot,float,1,%8.0g,,"12-month total rainfall (mm) in July-June, starting July 2009"
+45,h2009_wetq,float,1,%8.0g,,Total rainfall in wettest quarter (mm) within 12-month period starting July 2009
+46,h2009_wetqstart,float,1,%8.0g,,"Start of wettest quarter in dekads 1-36, where first week of July 2009 =1"
+47,h2010_tot,float,1,%8.0g,,"12-month total rainfall (mm) in July-June, starting July 2010"
+48,h2010_wetq,float,1,%8.0g,,Total rainfall in wettest quarter(mm) within 12-month periods starting July 2010
+49,h2010_wetqstart,float,1,%8.0g,,"Start of wettest quarter in dekads 1-36, where first week of July 2010 =1"
+50,eviarea_avg,float,1,%8.0g,,Avg change in greenness(integral of daily EVI values)w/in primary growing season
+51,grn_avg,int,1,%8.0g,,"Avg onset of greenness increase in day of year 1-356,where 7/1=1,avg by district"
+52,sen_avg,int,1,%8.0g,,"Avg onset of greenness decrease in day of year 1-356,where 7/1=1,avg by district"
+53,h2009_area,float,1,%8.0g,,"Total change in greenness w/in primary growing season for 7/08-6/09,avg by dist"
+54,h2009_grn,int,1,%8.0g,,"Onset of greenness increase in day of year 1-356,starting 7/1/08,avg by district"
+55,h2009_sen,int,1,%8.0g,,"Onset of greenness decrease in day of year 1-356,starting 7/1/08,avg by district"
+56,h2010_area,float,1,%8.0g,,"Total change in greenness w/in primary growing season for 7/09-6/10,avg by dist"
+57,h2010_grn,int,1,%8.0g,,"Onset of greenness increase in day of year 1-356,starting 7/1/09,avg by district"
+58,h2010_sen,int,1,%8.0g,,"Onset of greenness decrease in day of year 1-356,starting 7/1/09,avg by district"
+59,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+60,reside,byte,1,%8.0g,reside1,Baseline Rural/Urban Identifier
+61,stratum,byte,1,%14.0g,STRATUM,Baseline Stratum - Region x Urban/Rural
+62,hh_wgt,float,1,%9.0g,,Baseline Sampling Weight
+63,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+64,hh_a01,int,1,%13.0g,HH_A01,DISTRICT
+65,hh_a02,byte,1,%8.0g,,TA
+66,hh_a02b,int,1,%22.0g,HH_A02B,DIS+TA
+67,hh_a11,byte,1,%8.0g,HH_A11,Does this HH replace another sample HH chosen for the survey?
+68,hh_a13,byte,1,%46.0g,HH_A13,Why was originally selected HH replaced?
+69,hh_a22_1,int,1,%8.0g,,Enumerator Code (Visit 1)
+70,hh_a22_2,int,1,%8.0g,,Enumerator Code (Visit 2)
+71,hh_a23_1,int,1,%d,,Interview Date [MDY] (Visit 1)
+72,hh_a23a_1,byte,1,%10.0g,,Day of Interview (Visit 1)
+73,hh_a23b_1,byte,1,%10.0g,,Month of Interview (Visit 1)
+74,hh_a23c_1,int,1,%10.0g,,Year of Interview (Visit 1)
+75,hh_a23_2,int,1,%d,,Interview Date [MDY] (Visit 2)
+76,hh_a23a_2,byte,1,%10.0g,,Day of Interview (Visit 2)
+77,hh_a23b_2,byte,1,%10.0g,,Month of Interview (Visit 2)
+78,hh_a23c_2,int,1,%10.0g,,Year of Interivew (Visit 2)
+79,hh_a25_1,int,1,%8.0g,,Field Supervisor Code (Visit 1)
+80,hh_a25_2,int,1,%8.0g,,Field Supervisor Code (Visit 2)
+81,hh_a26_1,int,1,%d,,Field Supervisor Qx Inspection [MDY] (Visit 1)
+82,hh_a26a_1,byte,1,%10.0g,,Day of Questionnaire Inspection (Visit 1)
+83,hh_a26b_1,byte,1,%10.0g,,Month of Questionnaire Inspection (Visit 1)
+84,hh_a26c_1,int,1,%10.0g,,Year of Questionnaire Inspection (Visit 1)
+85,hh_a26_2,int,1,%d,,Field Supervisor Qx Inspection [MDY] (Visit 2)
+86,hh_a26a_2,byte,1,%10.0g,,Day of Questionnaire Inspection (Visit 2)
+87,hh_a26b_2,byte,1,%10.0g,,Month of Questionnaire Inspection (Visit 2)
+88,hh_a26c_2,int,1,%10.0g,,Year of Questionnaire Inspection (Visit 2)
+89,hh_a31_1,int,1,%8.0g,,Data Entry Clerk Code (Visit 1)
+90,hh_a31_2,int,1,%8.0g,,Data Entry Clerk Code (Visit 2)
+91,hh_a32_1,int,1,%d,,1st Data Entry Date [MDY] (Visit 1)
+92,hh_a32a_1,byte,1,%10.0g,,Day of Data Entry (Visit 1)
+93,hh_a32b_1,byte,1,%10.0g,,Month of Data Entry (Visit 1)
+94,hh_a32c_1,int,1,%10.0g,,Year of Data Entry (Visit 1)
+95,hh_a32_2,long,1,%d,,1st Data Entry Date [MDY] (Visit 2)
+96,hh_a32a_2,byte,1,%10.0g,,Day of Data Entry (Visit 2)
+97,hh_a32b_2,byte,1,%10.0g,,Month of Data Entry (Visit 2)
+98,hh_a32c_2,int,1,%10.0g,,Year of Data Entry (Visit 2)
+99,hh_a34_1,byte,1,%8.0g,,Data Validation Clerk Code (Visit 1)
+100,hh_a34_2,byte,1,%8.0g,,Data Validation Clerk Code (Visit 2)
+101,hh_a35_1,int,1,%d,,Validation Entry Data [MDY] (Visit 1)
+102,hh_a35a_1,byte,1,%10.0g,,Day of Data Validation (Visit 1)
+103,hh_a35b_1,byte,1,%10.0g,,Month of Data Validation (Visit 1)
+104,hh_a35c_1,int,1,%10.0g,,Year of Data Validation (Visit 1)
+105,hh_a35_2,int,1,%d,,Validation Entry Data [MDY] (Visit 2)
+106,hh_a35a_2,byte,1,%10.0g,,Day of Data Validation (Visit 2)
+107,hh_a35b_2,byte,1,%10.0g,,Month of Data Validation (Visit 2)
+108,hh_a35c_2,int,1,%10.0g,,Year of Data Validation (Visit 2)
+109,hh_g09,byte,1,%8.0g,HH_G09,"Over the past one week (7 days), did any people that you did not list as househo"
+110,hh_m00,byte,1,%8.0g,HH_M00,"Did your household own or rent any farm implements, machinery and/or structures,"
+111,hh_o00,byte,1,%8.0g,HH_O00,Does the household head or spouse have any biological sons and/or daughters who
+112,hh_s01,byte,1,%8.0g,HH_S01,"Over the past 12 months, did you or anyone else in this household borrow on cred"
+113,hh_w01,byte,1,%8.0g,HH_W01,"Over the past two years, did any member of your household die, including any inf"
+114,int_outcome_1,byte,1,%12.0g,INT_OUTCOME,Interview Outcome (Visit 1)
+115,int_outcome_2,byte,1,%12.0g,INT_OUTCOME,Interview Outcome (Visit 2)
+116,_merge,byte,1,%32.0g,__MERGE,

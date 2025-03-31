@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,ag_r00,byte,1,%8.0g,AG_I00,Did you or anyone in your household own any livestock in the last 12 months?
+5,ag_r27,long,1,%12.0g,,Amt HH spent in total on...hired labor for all types of livestock owned by HH
+6,ag_r28,long,1,%12.0g,,...animal feed for all types of livestock owned by HH
+7,ag_r29,int,1,%8.0g,,...medicine & vaccinations for all types of livestock owned by HH
+8,ag_r30,int,1,%8.0g,,"..other veterinary services incl. dipping,deworming&artificial insemination"
+9,ag_r31,int,1,%8.0g,,..housing equipment/feeding utensils/any other input for all types of livestock

@@ -1,0 +1,13 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_p0a,int,1,%73.0g,HH_P0A,SOURCE CODE
+6,hh_p01,byte,1,%8.0g,HH_P01,"During the last 12 months, did you or any members of your household receive [SOU"
+7,hh_p02,long,1,%10.0g,,How much [SOURCE] did your household receive in total during the last 12 months?
+8,hh_p03a,long,1,%10.0g,,How much of the total [SOURCE] came from...? (Rural Locations)
+9,hh_p03b,long,1,%10.0g,,How much of the total [SOURCE] came from...? (Urban Locations)
+10,hh_p03c,long,1,%10.0g,,How much of the total [SOURCE] came from...? (International Locations)
+11,hh_p04a,byte,1,%8.0g,,Who in your household kept/decided what to do with these earnings? (1st)
+12,hh_p04b,byte,1,%8.0g,,Who in your household kept/decided what to do with these earnings? (2nd)

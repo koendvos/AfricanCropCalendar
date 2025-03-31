@@ -1,0 +1,12 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,Boats_EnginesID,byte,1,%8.0g,boats_engines,Boat Engines ID
+4,fs_h07a,byte,1,%8.0g,fs_h07a,..any member of your HH involved in fishing activities..last LOW season use any
+5,fs_h07b,str4,0,%4s,,Please specify the other boat or engine that you used.
+6,fs_h08,byte,1,%8.0g,,How many [BOAT/EMGINES] were operated by your HH during the last LOW fishing sea
+7,fs_h09,byte,1,%8.0g,,How many units of [BOATS/ENGINES] are owned by your household?
+8,fs_h10,long,1,%12.0g,,had to purchase a [BOATS/ENGINES] how much would you have paid during the last L
+9,fs_h11,long,1,%12.0g,,How many units of [BOATS/ENGINES] did you or any member of your household purcha
+10,fs_h12,long,1,%12.0g,, How much did your household pay to rent [BOATS/ENGINES] for use in the last LOW
+11,fs_h13,long,1,%12.0g,,"total costs of fuel, oil and maintenance per week for [BOATS/ENGINES] operated"

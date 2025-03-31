@@ -1,0 +1,23 @@
+,,country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,,dataset_doi
+hhID,,Niger,2011-2012,hhID,hid,Household identifier,,,,ecvmasection00_p1_en.csv,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s524
+adm1,,Niger,2011-2012,adm1,ms00q10,Region,,,,ecvmasection00_p1_en.csv,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s525
+adm2,,Niger,2011-2012,adm2,ms00q11,Departement,,,,ecvmasection00_p1_en.csv,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s526
+latitude,,Niger,2011-2012,latitude,LAT_DD_MOD,EA Latitude (WGS84) Modified,,,,NER_EA_Offsets,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s527
+longitude,,Niger,2011-2012,longitude,LON_DD_MOD,EA Longitude (WGS84) Modified,,,,NER_EA_Offsets,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s528
+GPS_level,,Niger,2011-2013,GPS_level,,,,,coordinates of the grappe (cluster),,,
+fieldID,,Niger,2011-2012,fieldID,as02bq01,Field number,,,,ecvmaas2b_p1_en.csv,,
+plotNbr,,Niger,2011-2012,,as02bq03,Parcel number,,,could be remove as it is sometimes duplicated while the id number is not,ecvmaas2b_p1_en.csv,,
+plotID,,Niger,2011-2012,plotID,as01qn,id number,,,in case parcel number is wrong,ecvmaas2b_p1_en.csv,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s528
+cropID,,Niger,2011-2012,cropID,as02bq06,Crop code,,,the source code,ecvmaas2b_p1_en.csv,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s529
+plot_area_reported_ha,,Niger,2011-2012,plot_area_reported_ha,,,,,converted from m2 to Ha,ecvmaas2b_p1_en.csv,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s530
+plot_area_reported_localUnit,,Niger,2011-2012,plot_area_reported_localUnit,as02bq08,How much area was given to the cultivation of each crop?(square meters),,,,ecvmaas2b_p1_en.csv,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s531
+localUnit_area,,Niger,2011-2012,localUnit_area,as02bq08,,,,,ecvmaas2b_p1_en.csv,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s532
+planting_month,,Niger,2011-2012,planting_month,as02bq11,In which month did you plant this produce for the first time this season?,,,,ecvmaas2b_p1_en.csv,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s530
+crop,,Niger,2011-2012,crop,as02bq06,Crop code,,,the actual souce value,ecvmaas2b_p1_en.csv,NER_2011_ECVMA_V01_M,https://doi.org/10.48529/bp16-s531
+planting_year,,Niger,2011-2012,planting_year,NA,NA,NA,,missing,,,
+harvesting_month,,Niger,2011-2012,harvesting_month,NA,NA,NA,,missing,,,
+harvesting_year,,Niger,2011-2012,harvesting_year,NA,NA,NA,,missing,,,
+crop_area_share,,Niger,2011-2012,crop_area_share,,,,,missing,,,
+plot_area_measured_ha,,Niger,2011-2012,plot_area_measured_ha,,,,,missing,,,
+source,,Niger,2011-2012,source,NA,NA,NA,,,,,
+country,,Niger,2011-2012,country,NA,NA,NA,,,,,

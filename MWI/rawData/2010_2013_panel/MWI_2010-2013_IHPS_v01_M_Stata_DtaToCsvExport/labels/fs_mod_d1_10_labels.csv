@@ -1,0 +1,13 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,Unique HH Identifier
+3,visit,byte,1,%9.0g,,Panel Visit
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,fs_d0a,byte,1,%28.0g,FS_D0A,Gear ID
+6,fs_d0a_os,str13,0,%13s,,Gear ID (Other Specify)
+7,fs_d01,byte,1,%8.0g,FS_D01,Did any household member involved in fishing activities during the last HIGH fis
+8,fs_d02,int,1,%8.0g,,How many [FISHING GEAR] were operated during the last HIGH fishing season?
+9,fs_d03,int,1,%8.0g,,How many [FISHING GEAR] are owned by your household?
+10,fs_d04,long,1,%12.0g,,If you or any household member engaged in fishing had to purchase a [FISHING GEA
+11,fs_d05,int,1,%8.0g,,How many units of [FISHING GEAR] did you or any member of your household purchas
+12,fs_d06,long,1,%12.0g,,How much did your household pay to rent [GEAR] for use in the last HIGH season?

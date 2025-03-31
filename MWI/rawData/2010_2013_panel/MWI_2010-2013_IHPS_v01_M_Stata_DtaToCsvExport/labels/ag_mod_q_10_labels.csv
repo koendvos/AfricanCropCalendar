@@ -1,0 +1,86 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,ag_q0b,byte,1,%22.0g,V0B,TREE/PERMANENT CROP CODE
+7,ag_q0b_os,str11,0,%11s,,Tree/Permanent Crop Code (Other Specify)
+8,ag_q01,byte,1,%8.0g,V01,Did you sell any of the harvested [TREE/PERM CROP]during the last 12 months?
+9,ag_q02a,float,1,%9.0g,,How much of the harvested[TREE/PERM CROP]was sold in total?(QUANTITY)
+10,ag_q02b,byte,1,%15.0g,V02B,How much of the harvested[TREE/PERM CROP]was sold in total?(UNIT)
+11,ag_q02b_os,str11,0,%11s,,How much of the harvested [TREE/PERMANENT CROP] was sold in total... (Unit) (Oth
+12,ag_q03,long,1,%12.0g,,What was the total value of [TREE/PERM CROP] sales?
+13,ag_q11,str3,0,%9s,,Who/What was the[LARGEST BUYER/OUTLET]for your[TREE/PERM CROP]sales?
+14,ag_q12a,float,1,%9.0g,,How much of the harvested[TREE/PERM CROP]was sold to[LARGEST BUYER/OUTLET]?(Q)
+15,ag_q12b,byte,1,%15.0g,V05B,How much of the harvested[TREE/PERM CROP]was sold to[LARGEST BUYER/OUTLET]?(U)
+16,ag_q12b_os,str11,0,%11s,,How much of the harvested[TREE/PERM CROP]was sold to[LARGEST BUYER/OUTLET]?O/S
+17,ag_q13,long,1,%12.0g,,What was the total value of [TREE/PERM CROP]sales to [LARGEST BUYER/OUTLET]?
+18,ag_q14a,byte,1,%8.0g,,Who in your HH kept decided what to do with these earnings? (ID CODE #1)
+19,ag_q14b,byte,1,%8.0g,,Who in your HH kept decided what to do with these earnings? (ID CODE #2)
+20,ag_q15a,byte,1,%9.0g,V08A,When was most of the [TREE/PERM CROP] sold? (MONTH)
+21,ag_q15b,int,1,%8.0g,,When was most of the [TREE/PERM CROP] sold? (YEAR)
+22,ag_q16,byte,1,%8.0g,,How many transactions took place while selling[TREE/PERM CROP]to[LARGEST BUYER]?
+23,ag_q17,byte,1,%24.0g,V10A,Main mode of transport associated w/[TREE/PERM CROP]sales to [LARGEST BUYER]?
+24,ag_q17_os,str1,0,%9s,,Main mode of transport associated w/[TREE/PERM CROP]sales to [LARGEST BUYER]?(O/
+25,ag_q18,int,1,%12.0g,,Total cost of transport associated w/[TREE/PERM CROP]sales to [LARGEST BUYER]?
+26,ag_q19,byte,1,%8.0g,V12,Was there another buyer/outlet to whom you sold[TREE/PERM CROP]during [RS]?
+27,ag_q20,str3,0,%9s,,Who/What was the[2ND LARGEST BUYER/OUTLET]for your[TREE/PERM CROP]sales?
+28,ag_q21a,byte,1,%9.0g,,Amt of harvested[TREE/PERM CROP]sold to[2ND LARGEST BUYER/OUTLET]?(QUANT)
+29,ag_q21b,byte,1,%15.0g,V14B,Amt of harvested[TREE/PERM CROP]sold to[2ND LARGEST BUYER/OUTLET]?(UNIT)
+30,ag_q21b_os,byte,1,%9.0g,,Amt of harvested[TREE/PERM CROP]sold to[2ND LARGEST BUYER/OUTLET]?(UNIT)(O/S)
+31,ag_q21c,str1,0,%9s,,Amt of harvested[TREE/PERM CROP]sold to[2ND LARGEST BUYER/OUTLET]?(S/U)
+32,ag_q22,int,1,%12.0g,,What was the total value of [TREE/PERM CROP]sales to [2ND LARGEST BUYER/OUTLET]?
+33,ag_q23a,byte,1,%8.0g,,Who in your HH kept decided what to do with these earnings? (ID CODE #1)
+34,ag_q23b,byte,1,%8.0g,,Who in your HH kept decided what to do with these earnings? (ID CODE #2)
+35,ag_q24a,byte,1,%9.0g,V17A,When was most of the [TREE/PERM CROP] sold? (MONTH)
+36,ag_q24b,int,1,%9.0g,V17B,When was most of the [TREE/PERM CROP] sold? (YEAR)
+37,ag_q25,byte,1,%8.0g,,# of transactions took place while selling[TREE/PERM CROP]to[2ND LARGEST BUYER]?
+38,ag_q26,byte,1,%24.0g,V19A,Main mode of transportation associated w/[TREE/PERM CROP]sales to[2ND LB]?
+39,ag_q26_os,str1,0,%9s,,Main mode of transportation associated w/[TREE/PERM CROP]sales to[2ND LB]?O/S)
+40,ag_q27,byte,1,%12.0g,,Total cost of transportation associated w/[TREE/PERM CROP]sales to [2ND LB]?
+41,ag_q28,byte,1,%8.0g,V21,Was there another buyer/outlet to whom you sold[TREE/PERM CROP]during [RS]?
+42,ag_q29,str3,0,%9s,,Who/What was the[3RD LARGEST BUYER/OUTLET]for your[TREE/PERM CROP]sales?
+43,ag_q30a,byte,1,%9.0g,,Amt of harvested[T/PC]sold to[3RD LARGEST BUYER/OUTLET]?(QUANT)
+44,ag_q30b,byte,1,%15.0g,V23B,Amt of harvested[T/PC]sold to[3RD LARGEST BUYER/OUTLET]?(UNIT)
+45,ag_q30b_os,byte,1,%9.0g,,Amt of harvested[T/PC]sold to[3RD LARGEST BUYER/OUTLET]?(UNIT)(O/S)
+46,ag_q30c,byte,1,%14.0g,V23D,Amt of harvested[T/PC]sold to[3RD LARGEST BUYER/OUTLET]?(S/U)
+47,ag_q31a,float,1,%9.0g,,Amt of harvested[T/PC]given as gifts/reimbursements for land/labor?(Q)
+48,ag_q31b,byte,1,%15.0g,V24B,Amt of harvested[T/PC]given as gifts/reimbursements for land/labor?(U)
+49,ag_q31b_os,str17,0,%17s,,Amt of harvested[T/PC]given as gifts/reimbursements for land/labor?O/S
+50,ag_q31c,byte,1,%14.0g,V24D,Amt of harvested[T/PC]given as gifts/reimbursements for land/labor(S/U)
+51,ag_q32a,float,1,%9.0g,,Amt of[T/PC]given as reimbursements for inputs borrowed/acquired on credit?(Q)
+52,ag_q32b,byte,1,%15.0g,V25B,Amt of[T/PC]given as reimbursements for inputs borrowed/acquired on credit?(U)
+53,ag_q32b_os,str6,0,%9s,,Amt of[T/PC]given as reimbursements for inputs borrowed/acquired on credit?(U)(O
+54,ag_q32c,str1,0,%9s,,Amt of[T/PC]given as reimbursements for inputs borrowed/acquired on credit?(S/U)
+55,ag_q33a,int,1,%9.0g,,Amt[T/PC]used as input for[T/PC]by-products that HH sold in market(Q)
+56,ag_q33b,byte,1,%15.0g,V26B,Amt[T/PC]used as input for[T/PC]by-products that HH sold in market(U)
+57,ag_q33b_os,str1,0,%9s,,Amt[T/PC]used as input for[T/PC]by-products that HH sold in market(U)(O/S)
+58,ag_q34a,float,1,%9.0g,,Amt of harvested[T/PC]saved for seed?(QUANT)
+59,ag_q34b,byte,1,%15.0g,V27B,Amt of harvested[T/PC]saved for seed?(UNIT)(O/S)
+60,ag_q34b_os,str18,0,%18s,,How much of the harvested [TREE/PERMANENT CROP] during... (Unit) (Other Specify)
+61,ag_q34c,byte,1,%9.0g,,Amt of harvested[T/PC]saved for seed?(S/U)
+62,ag_q35a,float,1,%9.0g,,"Amt of[TREE/PC]lost to rotting,insects,rodents,theft in post-harvest period?(Q)"
+63,ag_q35b,byte,1,%15.0g,V28B,"Amt of[TREE/PC]lost to rotting,insects,rodents,theft in post-harvest period?(U)"
+64,ag_q35b_os,str5,0,%9s,,"Amt of[TREE/PC]lost to rotting,insects,rodents,theft in post-harvest period?O/S"
+65,ag_q35c,byte,1,%9.0g,,"Amt of[TREE/PC]lost to rotting,insects,rodents,theft in post-harvest period?(S/U"
+66,ag_q35d,byte,1,%8.0g,,"Amt of[TREE/PC]lost to rotting,insects,rodents,theft in post-harvest period?(%)"
+67,ag_q36a,byte,1,%14.0g,V29A,What was the reason for loss?(1ST)
+68,ag_q36a_os,str39,0,%39s,,What was the reason for loss?(1ST OTHER SPECIFY)
+69,ag_q36b,byte,1,%14.0g,V29B,What was the reason for loss?(2ND)
+70,ag_q36b_os,str15,0,%15s,,What was the reason for loss?(2ND OTHER SPECIFY)
+71,ag_q37,byte,1,%8.0g,V30,Do you have any of the harvested[TREE/PERM CROP]in storage now?
+72,ag_q38,byte,1,%19.0g,V31A,What is your main method of storage for this crop?
+73,ag_q38_os,str17,0,%17s,,What is your main method of storage for this crop?(OTHER/SPECIFY)
+74,ag_q39a,float,1,%9.0g,,Amt of harvested[TREE/PERM CROP]being stored by HH?(QUANT)
+75,ag_q39b,byte,1,%15.0g,V32B,Amt of harvested[TREE/PERM CROP]being stored by HH?(UNIT)
+76,ag_q39b_os,str8,0,%9s,,Amt of harvested[TREE/PERM CROP]being stored by HH?(U)(O/S)
+77,ag_q39c,byte,1,%9.0g,,Amt of harvested[TREE/PERM CROP]being stored by HH?(S/U)
+78,ag_q40a,byte,1,%17.0g,V33A,What did you do to protect the stored [TREE/PERM CROP]?(1ST)
+79,ag_q40a_os,str13,0,%13s,,What did you do to protect the stored [TREE/PERM CROP]?(1ST OTHER SPECIFY)
+80,ag_q40b,byte,1,%17.0g,V33B,What did you do to protect the stored [TREE/PERM CROP]?(2ND)
+81,ag_q40b_os,str6,0,%9s,,What did you do to protect the stored [TREE/PERM CROP]?(2ND OTHER SPECIFY)
+82,ag_q41a,byte,1,%30.0g,V34A,"When you store[TREE/PERM CROP],what is the main purpose for storing it?(1ST)"
+83,ag_q41a_os,str36,0,%36s,,"When you store[TREE/PERM CROP],what is the main purpose for storing it?(1ST O/S)"
+84,ag_q41b,byte,1,%30.0g,V34B,"When you store[TREE/PERM CROP],what is the main purpose for storing it?(2ND)"
+85,ag_q41b_os,str34,0,%34s,,"When you store[TREE?PERM CROP],what is the main purpose for storing it?(2ND)(O/S"

@@ -1,0 +1,7 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,ag_e01,byte,1,%8.0g,ag_e01,Did you or anyone in your HH obtain any input coupons during the [RS]?
+4,ag_e0b,byte,1,%8.0g,,HH Roster ID Code
+5,ag_e0c,byte,1,%8.0g,coupon,Coupon type
+6,ag_e0d,byte,1,%8.0g,,Number of coupons received

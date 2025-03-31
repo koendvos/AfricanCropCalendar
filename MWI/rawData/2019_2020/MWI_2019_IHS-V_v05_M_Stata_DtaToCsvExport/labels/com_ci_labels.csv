@@ -1,0 +1,34 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%9s,,Unique EA Identifier
+2,com_ci0b,int,1,%23.0g,resource,RESOURCE
+3,com_ci01,byte,1,%6.0f,yesno,Does the community own any communal[RESOURCE]?
+4,com_ci0b_oth,str22,0,%22s,,"Please, specify Other"
+5,com_ci02,byte,1,%6.0f,ci2,Is the community able to determine independently the rules of access and us
+6,com_ci03,byte,1,%6.0f,ci3,Is the communal [RESOURCE] recognized by the Traditional Authority?
+7,com_ci04,byte,1,%6.0f,ci4,Is the communal [RESOURCE] challenged or disputed by neighboring village
+8,com_ci05,byte,1,%6.0f,ci5,Is the communal [RESOURCE] sometimes used by outsiders or neighboring vi
+9,com_ci06,byte,1,%6.0f,ci6,Does the community have any specific exclusion mechanism targeted at keepin
+10,com_ci07a,byte,1,%37.0g,exclusion,exlude outsiders using communal[RESOURCE] w/out consulting headman?(1ST WAY)
+11,com_ci07a_oth,str48,0,%48s,,..from using communal[RESOURCE] without consulting headman?(OTHER WAY)
+12,com_ci07b,byte,1,%37.0g,exclusion,exlude outsiders using communal[RESOURCE] w/out consulting headman?(2ND WAY)
+13,com_ci07b_oth,str33,0,%33s,,..from using communal[RESOURCE] without consulting headman?(OTHER WAY)
+14,com_ci07c,byte,1,%37.0g,exclusion,exlude outsiders using communal[RESOURCE] w/out consulting headman?(3RD WAY)
+15,com_ci07c_oth,str1,0,%9s,,..from using communal[RESOURCE] without consulting headman?(OTHER WAY)
+16,com_ci08a,byte,1,%46.0g,restriction,..restrictions on community members..access and use of communal [RESOURCE](1ST)
+17,com_ci08a_oth,str44,0,%44s,,..from using communal[RESOURCE] without consulting headman?(OTHER WAY)
+18,com_ci08b,byte,1,%46.0g,restriction,..restrictions on community members..access and use of communal [RESOURCE](2ND)
+19,com_ci08b_oth,str94,0,%94s,,..from using communal[RESOURCE] without consulting headman?(OTHER WAY)
+20,com_ci08c,byte,1,%46.0g,restriction,..restrictions on community members..access and use of communal [RESOURCE](3RD)
+21,com_ci08c_oth,str111,0,%111s,,..from using communal[RESOURCE] without consulting headman?(OTHER WAY)
+22,com_ci09a,byte,1,%37.0g,compliance,..community ensure..compliance with use rules for [RESOURCE]1ST?
+23,com_ci09a_oth,str38,0,%38s,,..community ensure..compliance with use rules for [RESOURCE](OTHER)?
+24,com_ci09b,byte,1,%37.0g,compliance,..community ensure..compliance with use rules for [RESOURCE]2ND?
+25,com_ci09b_oth,str52,0,%52s,,..community ensure..compliance with use rules for [RESOURCE](OTHER)?
+26,com_ci09c,byte,1,%37.0g,compliance,..community ensure..compliance with use rules for [RESOURCE]3RD?
+27,com_ci09c_oth,str1,0,%9s,,..community ensure..compliance with use rules for [RESOURCE](OTHER)?
+28,com_ci010,byte,1,%6.0f,ci10,"In general, how effective are community policies to ensure compliance conc"
+29,com_ci011,byte,1,%6.0f,ci11,"Since 2016, has government taken over any communal [RESOURCE]?"
+30,com_ci012,byte,1,%6.0f,ci12,What was the reason for the government takeover?
+31,com_ci12_oth,str19,0,%9s,,Please specify the other reason for government takeover
+32,com_ci013,byte,1,%6.0f,ci13,"Since 2016, has a neighboring village taken over any communal [RESOURCE]"
+33,com_ci014,byte,1,%6.0f,ci14,...lose rights to previously communal[RESOURCE] following a mediated dispute?

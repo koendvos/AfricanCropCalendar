@@ -1,0 +1,38 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%8s,,Unique EA Identifier
+2,com_cf01,byte,1,%8.0g,COM_CF01,Do any households farm crops or keep livestock in this community?
+3,com_cf02,byte,1,%8.0g,COM_CF02,"In most years, when do you expect that most people will plant their maize?"
+4,com_cf03,byte,1,%8.0g,COM_CF03,"In most years, when do you expect that most people will harvest their maize?"
+5,com_cf04,byte,1,%8.0g,COM_CF04,"For growing maize in the last completed rainy season, the amount of rain was..."
+6,com_cf05,byte,1,%8.0g,COM_CF05,"For growing maize in the last completed rainy season, the rains began . . ."
+7,com_cf06,byte,1,%8.0g,COM_CF06,"For growing maize in the last completed rainy season, the rains ended . . ."
+8,com_cf07,byte,1,%8.0g,COM_CF07,Does an Assistant Ag Extension Development Officer live in this community?
+9,com_cf08a,int,1,%8.0g,,Distance to office/residence of Assist. Ag Extension Development Officer?(NUM)
+10,com_cf08b,byte,1,%8.0g,COM_CF08B,Distance to office/residence of Assist. Ag Extension Development Officer?(UNIT)
+11,com_cf09,byte,1,%8.0g,COM_CF09,Is there an irrigation scheme in this community?
+12,com_cf10,int,1,%8.0g,,How many farmers from the community in total farm in the irrigation scheme?
+13,com_cf11,byte,1,%8.0g,,How many sellers of fertilizer are there in the community?
+14,com_cf12,byte,1,%8.0g,,How many sellers of hybrid maize seed are there in the community?
+15,com_cf13,byte,1,%8.0g,COM_CF13,Is there a local warehouse community members can use to store crops prior sale?
+16,com_cf14a,byte,1,%8.0g,COM_CF14A,Compared to 5 yrs ago...do farmers find in comm or nearby[fertilizer seeds]
+17,com_cf14b,byte,1,%8.0g,COM_CF14B,...do farmers find in comm or nearby[hybrid maize seed sellers]
+18,com_cf14c,byte,1,%8.0g,COM_CF14C,...do farmers find in comm or nearby[maize buyers]
+19,com_cf14d,byte,1,%8.0g,COM_CF14D,...do farmers find in comm or nearby[tobacco buyers]
+20,com_cf14e,byte,1,%8.0g,COM_CF14E,...do farmers find in comm or nearby[legume & pulse buyers]
+21,com_cf15a,byte,1,%8.0g,COM_CF15A,..are ag extension services provided by AAED&MofA for[advice on growing maize]..
+22,com_cf15b,byte,1,%8.0g,COM_CF15B,..are ag extension services provided by AAED&MofA for[advice on growing tobacco]
+23,com_cf15c,byte,1,%8.0g,COM_CF15C,..are ag extension services provided by AAED&MofA for[advice on other crops]..
+24,com_cf15d,byte,1,%8.0g,COM_CF15D,..are ag extension services provided by AAED&MofA for[advice on agric. credit]..
+25,com_cf15e,byte,1,%8.0g,COM_CF15E,..are ag extension services provided by AAED&MofA for[advice on raising livestoc
+26,com_cf16a,byte,1,%8.0g,COM_CF16A,"Compared to 5 yrs ago,have conditions for...[maize yields]...become...?"
+27,com_cf16b,byte,1,%8.0g,COM_CF16B,...[revenue from cash crops]...?
+28,com_cf16c,byte,1,%8.0g,COM_CF16C,...[availability of ag credit]...?
+29,com_cf16d,byte,1,%8.0g,COM_CF16D,...[ability of farmers to repay their loans]...?
+30,com_cf16e,byte,1,%8.0g,COM_CF16E,...[rev from raising livestock]...?
+31,com_cf16f,byte,1,%8.0g,COM_CF16F,...[availability of pasture for livestock]...?
+32,com_cf16g,byte,1,%8.0g,COM_CF16G,...[theft of livestock]...?
+33,com_cf16h,byte,1,%8.0g,COM_CF16H,...[degree of soil erosion on cropland]...?
+34,com_cf16i,byte,1,%8.0g,COM_CF16I,...[non-ag local income earning opps]...?
+35,com_cf17a,byte,1,%8.0g,COM_CF17A,Do comm residents pay village headman when they[purchase land]?
+36,com_cf17b,byte,1,%8.0g,COM_CF17B,Do comm residents pay village headman when they[sell land]?
+37,com_cf17c,byte,1,%8.0g,COM_CF17C,Do comm res pay village headman when they[are granted access to communal land]?

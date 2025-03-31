@@ -1,0 +1,32 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,Fish_SpeciesID,byte,1,%8.0g,,Fish Species ID
+4,fs_j01,byte,1,%8.0g,species,..list up to 5 main species of fish that..your household sold as part of your fi
+5,fs_j01_oth,strL,0,%35s,,Please specify the other fish species.
+6,fs_j02a,long,1,%12.0g,,"..last HIGH fishing season, how much [FISH SPECIES] did you or any purchase"
+7,fs_j02b,byte,1,%8.0g,fs_j02b,Identify form of packaging for [FISH SPECIES].
+8,fs_j02c,str25,0,%25s,,Specify other form of packaging.
+9,fs_j02d,byte,1,%8.0g,fs_j02d,Identify form of processing for [FISH SPECIES].
+10,fs_j02e,byte,1,%8.0g,,Specify other form of processing.
+11,fs_j02f,long,1,%12.0g,,"During the weeks of operation,..average price per packaging unit"
+12,fs_02filter,byte,1,%8.0g,fs_02filter,Was there any other form of processing of the fish?
+13,fs_j02h,byte,1,%8.0g,,"..last HIGH fishing season,Amt [FISH SPECIES] did you or any purchase"
+14,fs_j02i,byte,1,%8.0g,fs_j02i,Identify form of packaging for [FISH SPECIES].
+15,fs_j02j,byte,1,%8.0g,,Specify other type of packaging.
+16,fs_j02k,byte,1,%8.0g,fs_j02k,Identify form of processing for [FISH SPECIES].
+17,fs_j02l,byte,1,%8.0g,,Specify other form of processing.
+18,fs_j02m,long,1,%12.0g,,"During the weeks of operation,..average price per packaging unit"
+19,fs_j03a,long,1,%12.0g,,"..last HIGH fishing season, how much [FISH SPECIES] did you or any member of sel"
+20,fs_j03b,byte,1,%8.0g,fs_j03b,Identify type of packaging for [FISH SPECIES].
+21,fs_j03c,str25,0,%25s,,Specify other type of packaging.
+22,fs_j03d,byte,1,%8.0g,fs_j03d,Identify form of processing for [FISH SPECIES].
+23,fs_j03e,str21,0,%21s,,Specify other form of processing.
+24,fs_j03f,long,1,%12.0g,,"During the weeks of operation,..average price per packaging unit"
+25,fs_j03filter,byte,1,%8.0g,fs_j03filter,Was there any other form of processing of the fish?
+26,fs_j03g,byte,1,%8.0g,,"..last HIGH fishing season, Amt [FISH SPECIES] did you or any member of sell"
+27,fs_j03h,byte,1,%8.0g,fs_j03h,Identify type of packaging for [FISH SPECIES].
+28,fs_j03i,str22,0,%22s,,Specify other type of packaging.
+29,fs_j03j,byte,1,%8.0g,fs_j03j,Identify form of processing for [FISH SPECIES].
+30,fs_j03k,byte,1,%8.0g,,Specify other form of processing.
+31,fs_j03l,long,1,%12.0g,,"During the weeks of operation,..average price per packaging unit"

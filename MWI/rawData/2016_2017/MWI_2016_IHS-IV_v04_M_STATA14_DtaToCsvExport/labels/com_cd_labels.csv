@@ -1,0 +1,100 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%8s,,Unique EA Identifier
+2,com_cd01,byte,1,%8.0g,cd1,WHAT IS THE TYPE OF MAIN ACCESS ROAD SURFACE IN THIS COMMUNITY?
+3,com_cd02a,int,1,%8.0g,,How far is it to the nearest tar/ asphalt road? NUMBER
+4,com_cd02b,byte,1,%8.0g,cd2b,unit
+5,com_cd03,byte,1,%8.0g,cd3,Do vehicles pass on the main road in this community throughout the year?
+6,com_cd04,byte,1,%8.0g,,"..past 12 months, how many months was the main road passable by a mini-bus?"
+7,com_cd05,byte,1,%8.0g,,"..past 12 months, how many months was the main road passable by a lorry?"
+8,com_cd06,byte,1,%8.0g,cd6,"Do public buses, mini-buses, or regular matola stop in this community?"
+9,com_cd07a,int,1,%8.0g,,How far is it to the nearest bus stage? NUMBER
+10,com_cd07b,byte,1,%8.0g,cd7b,unit
+11,com_cd08a,byte,1,%8.0g,,"..past 12 months, how many months was the main road passable by a lorry?"
+12,com_cd08b,byte,1,%8.0g,cd8b,unit
+13,com_cd09,byte,1,%8.0g,cd9,IS THE COMMUNITY IN A DISTRICT BOMA?
+14,com_cd10a,int,1,%8.0g,,How far is it to the nearest district boma? NUMBER
+15,com_cd10b,byte,1,%8.0g,cd10b,unit
+16,com_cd11,long,1,%12.0g,,..total fare cost to go by regular matola from here or the nearest matola stage
+17,com_cd12,byte,1,%8.0g,cd12,IS THE COMMUNITY IN A MAJOR URBAN CENTRE?
+18,com_cd13a,int,1,%8.0g,,"How far is it to the nearest major urban centre - Mzuzu, Lilongwe, Zomba, or Bla"
+19,com_cd13b,byte,1,%8.0g,cd13b,unit
+20,com_cd13c,byte,1,%8.0g,cd13c,center
+21,com_cd14,int,1,%8.0g,,..total fare to go by regular matola from here or the nearest matola stage to th
+22,com_cd15,byte,1,%8.0g,cd15,Is there a daily market in this community?
+23,com_cd16,int,1,%8.0g,,What is the distance to the nearest daily market? NUMBER
+24,com_cd16b,byte,1,%8.0g,cd16b,unit
+25,com_cd17,byte,1,%8.0g,cd17,CD17. Is there a larger weekly market in this community?
+26,com_cd18a,int,1,%8.0g,,CD18. What is the distance to the nearest larger weekly market?
+
+NUMBER
+27,com_cd18b,byte,1,%8.0g,cd18b,unit
+28,com_cd19,byte,1,%8.0g,cd19,Is there a permanent ADMARC market in this community?
+29,com_cd20a,int,1,%8.0g,,What is the distance to the nearest permanent ADMARC market? NUMBER
+30,com_cd20b,byte,1,%8.0g,cd20b,unit
+31,com_cd21,byte,1,%8.0g,cd21,Is there a post office in this community?
+32,com_cd22a,int,1,%8.0g,,What is the distance to the nearest post office? NUMBER
+33,com_cd22b,byte,1,%8.0g,cd22b,unit
+34,com_cd23,byte,1,%8.0g,cd23,"Is there a place to make a telephone call in this community - e.g., a publ"
+35,com_cd24a,int,1,%8.0g,,What is the distance to the nearest place where one can make a telephone call?
+36,com_cd24b,byte,1,%8.0g,cd24b,unit
+37,com_cd25,int,1,%8.0g,,How many churches (congregations) are there in this community?
+38,com_cd26,byte,1,%8.0g,,How many mosques are there in this community?
+39,com_cd27a,int,1,%8.0g,,..distance to the nearest government primary school serving this community?
+40,com_cd27b,byte,1,%8.0g,cd27b,unit
+41,com_cd28,int,1,%8.0g,,"At the nearest government primary school, how many teachers are there?"
+42,com_cd29,long,1,%12.0g,,"..nearest gov't primary school, # pupils are there who are regularly in attendan"
+43,com_cd30,byte,1,%8.0g,cd30,"..nearest gov't primary school, are all of the class-rooms built of brick with i"
+44,com_cd31,byte,1,%8.0g,,# classes do not meet in classrooms built of brick with iron sheet roofs/other p
+45,com_cd32,byte,1,%8.0g,cd32,Are there any school feeding programmes at government primary schools in this co
+46,com_cd33,byte,1,%8.0g,cd33,What proportion of the primary school children in this community receive food un
+47,com_cd34,byte,1,%8.0g,cd34,Is the food given already cooked and is eaten at school; or is it given as ratio
+48,com_cd35,byte,1,%8.0g,cd35,Is the nearest government primary school electrified?
+49,com_cd36a,int,1,%8.0g,,What is the distance to the <u>nearest government secondary school serving this
+50,com_cd36b,byte,1,%8.0g,cd36b,unit
+51,com_cd37,int,1,%8.0g,,"At the nearest government secondary school, how many teachers are there?"
+52,com_cd38,int,1,%8.0g,,"At the nearest gov't sec. school, how many pupils are there who are regularly in"
+53,com_cd39,byte,1,%8.0g,cd39,Is the nearest government secondary school electrified?
+54,com_cd40a,int,1,%8.0g,,What is the distance to the nearest community day secondary school serving this
+55,com_cd40b,byte,1,%8.0g,cd40b,unit
+56,com_cd41,int,1,%8.0g,,"At the nearest community day secondary school, how many teachers are there?"
+57,com_cd42,long,1,%12.0g,,"At the nearest community day secondary school, how many pupils are there who are"
+58,com_cd43,byte,1,%8.0g,cd43,Is the nearest community day secondary school electrified?
+59,com_cd44,int,1,%8.0g,,# primary schools run by religious organizations are there in this community?
+60,com_cd45,byte,1,%8.0g,,# secondary schools run by religious organizations are there in this community?
+61,com_cd46,byte,1,%8.0g,,How many private primary schools are there in this community?
+62,com_cd47,byte,1,%8.0g,,How many private secondary schools are there in this community?
+63,com_cd48,byte,1,%8.0g,cd48,"Is there a place in this community,to purchase common medicines such as pain kil"
+64,com_cd49a,int,1,%8.0g,,..distance to the nearest place where one can purchase common medicines
+65,com_cd49b,byte,1,%8.0g,cd49b,unit
+66,com_cd50,byte,1,%8.0g,cd50,Is there a health clinic (Chipatala) in this community?
+67,com_cd50b,byte,1,%8.0g,cd50b,unit
+68,com_cd51a,int,1,%8.0g,,..distance to the nearest place where there is a health clinic (Chipatala)?
+69,com_cd51b,byte,1,%8.0g,cd51b,unit
+70,com_cd52,byte,1,%8.0g,cd52,"Is there a nurse, midwife or medical assistant permanently working at this healt"
+71,com_cd53,byte,1,%8.0g,cd53,Is this health facilityâ€¦
+72,com_cd54,byte,1,%8.0g,cd54,Is this health facility electrified?
+73,com_cd55,byte,1,%8.0g,cd55,Is there a village health clinic in this community?
+74,com_cd56,byte,1,%8.0g,cd56,Does the village health clinic have a Health Surveillance Assistant (HSA)?
+75,com_cd57,byte,1,%8.0g,cd57,Is the HSAâ€¦
+76,com_cd58,byte,1,%8.0g,cd58,Does the HSA live in this community?
+77,com_cd59,byte,1,%8.0g,cd59,Does the HSA have a drug box?
+78,com_cd60a,int,1,%8.0g,,..distance to the nearest health facility where there is a medic doctor/clinical
+79,com_cd61,byte,1,%8.0g,cd61,Is the nearest doctor at a . .
+80,com_cd62,byte,1,%8.0g,cd62,..this community providing insecticide-treated mosquito bed nets free or at low
+81,com_cd63,int,1,%8.0g,,What is the cost of these treated bed nets (SINGLE BED SIZE)? MK
+82,com_cd64,byte,1,%8.0g,cd64,..any groups working..provide support and care to people who are chronically ill
+83,com_cd65a,byte,1,%8.0g,yesno,What sort of support do they provide? Do they provide::Medical care & medi
+84,com_cd65b,byte,1,%8.0g,yesno,What sort of support do they provide? Do they provide::Cash grants
+85,com_cd65c,byte,1,%8.0g,yesno,What sort of support do they provide? Do they provide::Food or other in-ki
+86,com_cd65d,byte,1,%8.0g,yesno,What sort of support do they provide? Do they provide::Mental & spiritual
+87,com_cd65e,byte,1,%8.0g,yesno,What sort of support do they provide? Do they provide::Support & care for
+88,com_cd65_oth,strL,0,%45s,,Please specify the other support provided.
+89,com_cd66,byte,1,%8.0g,cd66,"Is there a commercial bank in this community (NBM, Savings Bank, Stanbic?"
+90,com_cd67a,int,1,%8.0g,,..distance to the nearest place where there is a commercial bank?
+91,com_cd67b,byte,1,%8.0g,cd67b,unit
+92,com_cd68,byte,1,%8.0g,cd68,"Is there a microfinance institution in this community (SACCO, FINCA, etc.)"
+93,com_cd69a,int,1,%8.0g,,..distance to the nearest place where there is a microfinance institution?
+94,com_cd69b,byte,1,%8.0g,cd69b,unit
+95,com_cd70,byte,1,%8.0g,cd70,Is a resident of this..the MP for the constituency of which this community is a
+96,com_cd71,byte,1,%8.0g,cd71,Did the MP for this area visit..past 3 months to speak and listen to people?
+97,com_cd65f,byte,1,%8.0g,yesno,What sort of support do they provide? Do they provide::Other (specify)

@@ -1,0 +1,7 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,Id,byte,1,%6.0f,,Network Id
+4,ag_nr02,byte,1,%6.0f,ag_net_2,Code
+5,ag_nr02_oth,str37,0,%37s,,Specify Code
+6,ag_nr03,byte,1,%6.0f,ag_net_3,Location

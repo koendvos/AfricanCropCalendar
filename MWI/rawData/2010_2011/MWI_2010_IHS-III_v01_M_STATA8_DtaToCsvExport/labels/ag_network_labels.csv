@@ -1,0 +1,7 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,ea_id,str8,0,%8s,,Unique EA Identifier
+3,ag_nr00,str3,0,%3s,,Network Roster ID
+4,ag_nr02,byte,1,%8.0g,AG_U02,Code
+5,ag_nr02_os,str30,0,%30s,,Code (Other Specify)
+6,ag_nr03,byte,1,%8.0g,AG_U03,Location

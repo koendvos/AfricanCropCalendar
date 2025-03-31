@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_e29_00,byte,1,%18.0g,AG_E29_00,Coupon Code
+6,ag_e29a,byte,1,%8.0g,AG_E29A,Were the following methods [...] used in allocating & distributing [COUPON] in 2
+7,ag_e29b,byte,1,%8.0g,AG_E29B,Were the following methods [...] used in allocating & distributing [COUPON] in 2
+8,ag_e29c,byte,1,%8.0g,AG_E29C,Were the following methods [...] used in allocating & distributing [COUPON] in 2
+9,ag_e29d,byte,1,%8.0g,AG_E29D,Were the following methods [...] used in allocating & distributing [COUPON] in 2

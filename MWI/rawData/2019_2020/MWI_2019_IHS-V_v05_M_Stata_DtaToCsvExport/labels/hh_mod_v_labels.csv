@@ -1,0 +1,17 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%36s,,Survey Solutions Unique HH Identifier
+3,PID,byte,1,%6.0f,,Id in hhroster
+4,hh_v02,str1,0,%9s,,PUT AN 'X' FOR ALL INDIVIDUALS OLDER THAN EXACTLY 5 YEARS
+5,hh_v03,byte,1,%6.0f,,RECORD THE ID OF THE MOTHER / GUARDIAN OF THE CHILD IN THE HOUSEHOLD
+6,hh_v05,byte,1,%6.0f,hh_v05,Was [Name] measure?
+7,hh_v06,byte,1,%6.0f,hh_v06,Why not?
+8,hh_v06_oth,str264,0,%264s,,Please specify the other reason why [NAME] was not measured
+9,hh_v08,double,1,%6.2f,,Weight of Child
+10,hh_v09,double,1,%6.2f,,Height/Length of Child
+11,hh_v10,byte,1,%6.0f,hh_v10,Height/Length Measured with child standing or laying down?
+12,hh_v11,byte,1,%6.0f,hh_v11,"Was the measurement of the child done in a normal manner, or was..."
+13,hh_v12,byte,1,%6.0f,hh_v12,Ask of Mother/Guardian:Does the child participate in a nutrition programm
+14,hh_v13,byte,1,%6.0f,hh_v13,Ask of Mother/Guardian:Does the child participate in an under-five clinic?
+15,hh_v14,byte,1,%6.0f,hh_v14,Did child appear to have oedema (Swelling that is not normal)?
+16,hh_v16,byte,1,%6.0f,hh_v16,"..given measles vaccination injections/MMR,a shot in the arm at 9 months/older?"

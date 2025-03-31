@@ -1,0 +1,29 @@
+country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,dataset_doi
+Uganda,2019-20,hhID,hhid,Unique household identifier in 2019/20/ Unique 32-character long identifier of the interview,0,0,"hhid was changed again since 2018/19, the old ones are available in the raw data",UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plotID,pltid,Plot identifier,0,0,may not be unique,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plot_area_reported_localUnit,"s4aq07, s4bq07",7.What was the total area of %rostertitle% planted?,0.39626897518746573,0.40483553556367724,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,crop_area_share,"s4aq09, s4bq09",9. Approximately what percentage of the plot area was under this %rostertitle%?,47.1499116015363,45.18976665729547,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,planting_month,"s4aq09_1, s4bq09_1",9.1. What month was the crop planted?,0.085350240809608,0.11807703120607253,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,planting_year,"s4aq09_2, s4bq09_2",9.2. What year was the crop planted?(YYYY),0.05486801194903372,0.06184987348889513,value 9998 for planting year,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,fieldID,parcelID,Parcel identifier,0,0,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plot_area_reported_ha,NA,NA,0.39626897518746573,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,localUnit_area,NA,NA,0.39626897518746573,NA,according to The Uganda National Panel Survey 2019/20 Agriculture Questionnaire,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,crop,cropID,Id in crop_code,0,0,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_month_begin,"s5aq06e_1, s5bq06e_1","6e. Month harvest began (2018, full harvest, condition1)",18.179601292446502,19.330896823165588,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_year_begin,"s5aq06e_1_1, s5bq06e_1_1","6e1. Year harvest began (2018, full harvest, condition1)",18.179601292446502,19.330896823165588,range 20 to 2819,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_month_end,"s5aq06f_1, s5bq06f_1","6f. Month harvest ended (2018, full harvest, condition1)",18.173504846674387,19.325274107393874,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_year_end,"s5aq06f_1_1, s5bq06f_1_1","6f1. Year harvest ended (2018, full harvest, condition1)",18.185697738218618,19.336519538937306,range 24 to 2819,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,season,NA,NA,0,NA,two visits approximately six months apart based on the two cropping seasons,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm1,district,District Name,0.02438578308845943,0.03227888960619754,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm2,s1aq03a,3. Sub-County/Division/Town Council,0.02438578308845943,0.03227888960619754,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm3,s1aq04a,4. Parish/Ward,0.02438578308845943,0.03227888960619754,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,lat,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,lon,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,GPS_level,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plot_area_measured_ha,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_month,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_year,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm4,NA,NA,100,NA,no village name,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,dataset_name,NA,NA,0,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,country,NA,NA,0,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,dataset_doi,NA,NA,0,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196

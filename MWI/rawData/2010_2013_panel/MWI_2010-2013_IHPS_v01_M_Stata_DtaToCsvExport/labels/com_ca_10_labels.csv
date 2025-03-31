@@ -1,0 +1,22 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%9s,,Unique EA Identifier
+2,com_ca01,int,1,%13.0g,CA01,DISTRICT
+3,com_ca02,byte,1,%8.0g,,TA
+4,com_ca06,int,1,%8.0g,,Field Supervisor Code
+5,com_ca07,int,1,%d,,Interview Date [MDY]
+6,com_ca07a,byte,1,%10.0g,,Day of Interview
+7,com_ca07b,byte,1,%10.0g,,Month of Interview
+8,com_ca07c,int,1,%10.0g,,Year of Interview
+9,com_ca12,int,1,%8.0g,,Data Entry Clerk Code
+10,com_ca13,int,1,%d,,Data Entry Date [MDY]
+11,com_ca13a,byte,1,%10.0g,,Day of Data Entry
+12,com_ca13b,byte,1,%10.0g,,Month of Data Entry
+13,com_ca13c,int,1,%10.0g,,Year of Data Entry
+14,com_ca17,byte,1,%8.0g,COM_CA17,Do the children in this community typically wear neat clothing?
+15,com_ca18,byte,1,%8.0g,COM_CA18,Do the children under 10 in this comminuity typically wear shoes?
+16,com_ca19,byte,1,%8.0g,COM_CA19,Do the adults in this community typically wear neat clothing?
+17,com_ca20,byte,1,%8.0g,COM_CA20,Do the adults in this community typically wear shoes?
+18,com_ca21,byte,1,%8.0g,COM_CA21,Do the houses in this community typically have glass in their windows?
+19,com_ca22,byte,1,%8.0g,COM_CA22,Are the house surroundings in this community swept clean?
+20,com_ca23,byte,1,%26.0g,COM_CA23,What material is most commonly used for the outside walls of houses?
+21,com_ca24,byte,1,%16.0g,COM_CA24,What material is most commonly used for the roofs of the houses?

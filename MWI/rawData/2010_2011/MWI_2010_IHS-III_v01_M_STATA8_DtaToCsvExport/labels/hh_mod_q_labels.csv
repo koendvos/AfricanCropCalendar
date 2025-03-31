@@ -1,0 +1,12 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,hh_q0a,int,1,%8.0g,HH_Q0A,Source Code
+5,hh_q0b,str32,0,%32s,,Source
+6,hh_q01,byte,1,%8.0g,HH_Q01,"During the last 12 months, did you or any members of your household give any [IT"
+7,hh_q02a,long,1,%12.0g,,How much of the total [ITEM] given away was destined to rural locations?
+8,hh_q02b,long,1,%12.0g,,How much of the total [ITEM] given away was destined to urban locations?
+9,hh_q02c,long,1,%12.0g,,How much of the total [ITEM] given away was destined to international locations?
+10,hh_q03a,byte,1,%8.0g,,1st in the household decided on the allocation of [ITEM] given away to individua
+11,hh_q03b,byte,1,%8.0g,,2nd in the household decided on the allocation of [ITEM] given away to individua

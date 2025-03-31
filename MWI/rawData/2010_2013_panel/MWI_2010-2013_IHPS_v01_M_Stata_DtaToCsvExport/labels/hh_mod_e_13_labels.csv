@@ -1,0 +1,113 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,PID,str9,0,%9s,,Assigned Unique Serial Number for IHS3 Baseline and IHPS New Members
+4,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+5,interview_status,byte,1,%24.0g,stat,Household Interview Status
+6,hh_e01,byte,1,%11.0g,HH_E01,ID CODE
+7,hh_e02,str1,0,%9s,,PUT AN  'X' FOR ALL INDIVIDUALS WHO ARE AGED BELOW 5 YEARS
+8,hh_e03,byte,1,%8.0g,HH_E03,IS THE RESPONDENT REPORTING FOR HIM/HERSELF?
+9,hh_e04,byte,1,%8.0g,,WHO IS RESPONDING ON BEHALF OF [NAME]?
+10,hh_e05,float,1,%9.0g,,How many hrs did you spend yesterday collecting water?
+11,hh_e06,float,1,%9.0g,,How many hours did you spend yesterday collecting firewood (or other fuel materi
+12,hh_e06_1,byte,1,%8.0g,HH_E06_1,"In the last 12 months,did you work on household agricultural activities (includi"
+13,hh_e06_2,byte,1,%8.0g,HH_E06_2,"In the last 12 months,did you run a non-farm business of any size for yourself o"
+14,hh_e06_3,byte,1,%8.0g,HH_E06_3,"In the last 12 months,did you help in any kind of non-farm business run by this"
+15,hh_e06_4,byte,1,%8.0g,HH_E06_4,"In the last 12 months,did you work as an employee for a wage,salary,commission,o"
+16,hh_e06_5,byte,1,%8.0g,HH_E06_5,"In the last 12 months,did you engage in an unpaid apprenticeship for anyone that"
+17,hh_e06_6,byte,1,%8.0g,HH_E06_6,"In the last 12 months,did you engage in casual,part time or ganyu labour,even if"
+18,hh_e06_7,byte,1,%8.0g,HH_E06_7,CHECK:QE06_1 - QE06_6:IS THE ANSWER TO AT LEAST ONE QUESTION A 'YES'?
+19,hh_e06_8a,byte,1,%31.0g,HH_E06_8A,in what type of economic activity did you spend most of your time in the last 12
+20,hh_e06_8b,byte,1,%31.0g,HH_E06_8B,in what type of economic activity did you spend most of your time in the last 12
+21,hh_e07,float,1,%9.0g,,How many hours in the last seven days did you spend on household agricultural ac
+22,hh_e08,float,1,%9.0g,,How many hours in the last seven days did you run or do any kind of non-agricult
+23,hh_e09,byte,1,%9.0g,,How many hours in the last seven days did you help in any of the household's non
+24,hh_e10,float,1,%9.0g,,"How many hours in the last seven days did you engage in casual, part-time or gan"
+25,hh_e11,int,1,%9.0g,,"How many hours in the last seven days did you do any work for a wage, salary, co"
+26,hh_e12,byte,1,%9.0g,,How many hours in the last seven days did you engage in unpaid apprenticeship fo
+27,hh_e13,byte,1,%8.0g,HH_E13,"ENUMERATOR: REVIEW QUESTIONS HH_E07 TO HH_E12. DID THIS PERSON , [NAME], WORK FO"
+28,hh_e13_1a,byte,1,%31.0g,HH_E13_1A,In what type of economic activity did you spend most of your time in the last 7
+29,hh_e13_1b,byte,1,%31.0g,HH_E13_1B,In what type of economic activity did you spend most of your time in the last 7
+30,hh_e14,byte,1,%8.0g,HH_E14,"Even though you did not do any activities in the last seven days,do you have a j"
+31,hh_e15,byte,1,%27.0g,HH_E15,What is the main reason you did not work at this actvity during the last seven d
+32,hh_e16,byte,1,%8.0g,HH_E16,In the past four weeks have you taken any action to look for any kind of work or
+33,hh_e17,byte,1,%8.0g,HH_E17,"If you were offered a job, would you be willing to accept the job?"
+34,hh_e18,byte,1,%8.0g,HH_E18,ENUMERATOR:CHECK QUESTION E06_4.DID THE RESPONDENT REPORT YES TO THIS QUESTION?
+35,hh_e19a,str25,0,%25s,,Describe your main wage job over the past 12 months
+36,hh_e19b,byte,1,%85.0g,occ_code,Code of your main wage job over the past 12 months
+37,hh_e20a,str25,0,%25s,,Describe what kind of trade or business your main wage job over the past 12 mont
+38,hh_e20b,byte,1,%31.0g,HH_E20B,Code of trade or business your main wage job over the past 12 months is connecte
+39,hh_e21,byte,1,%35.0g,HH_E21,Is your employer for your main wage job over  the last 12 months ...
+40,hh_e21_1,byte,1,%43.0g,HH_E21_1,What type of position do you hold?
+41,hh_e21_2,byte,1,%8.0g,HH_E21_2,Does this wage job have a contract?
+42,hh_e21_3,byte,1,%8.0g,HH_E21_3,Are you enrolled in a pension scheme for this wage job?
+43,hh_e21_4,byte,1,%8.0g,HH_E21_4,Are you enrolled in a health insurance plan with this wage job?
+44,hh_e22,byte,1,%8.0g,,"In how many months over the last 12 months, did you work at this job?"
+45,hh_e23,byte,1,%8.0g,,"During these months, approximately how many weeks per month did you work at this"
+46,hh_e24,int,1,%9.0g,,"During these weeks, approximately how many hours per week did you work at this j"
+47,hh_e24_1,int,1,%8.0g,,"During the last 7 days,approximately how many hours did you work at this wage jo"
+48,hh_e25,long,1,%12.0g,,How much was your last payment for wages and salary?
+49,hh_e26a,byte,1,%9.0g,,What period of time do each of your salary payment cover? number of time units
+50,hh_e26b,byte,1,%8.0g,HH_E26B,What period of time do each of your salary payment cover?  units
+51,hh_e26_1a,byte,1,%8.0g,,Who in the household controls/decides on the use of your salary payment?
+52,hh_e26_1b,byte,1,%8.0g,,Who in the household controls/decides on the use of your salary payment?
+53,hh_e27,long,1,%12.0g,,"How much do you usually receive in allowances or gratuities, including in-kind p"
+54,hh_e28a,byte,1,%9.0g,,Over what period of time are you reporting your allowances and gratuity payments
+55,hh_e28b,byte,1,%8.0g,HH_E28B,Over what period of time are you reporting your allowances and gratuity payments
+56,hh_e28_1a,byte,1,%8.0g,,Who in the household controls/decides on the use of your allowances or gratuitie
+57,hh_e28_1b,byte,1,%8.0g,,Who in the household controls/decides on the use of your allowances or gratuitie
+58,hh_e29,byte,1,%8.0g,HH_E29,Is this wage job considered an apprenticeship?
+59,hh_e30,byte,1,%8.0g,HH_E30,Have you made any payments to your employer for your apprenticeship?
+60,hh_e31,long,1,%12.0g,,How much in total have you paid over the past 12 months for your apprenticeship?
+61,hh_e32,byte,1,%8.0g,HH_E32,"At any time in the past 12 months, were you employed for a second wage job inclu"
+62,hh_e33a,str25,0,%25s,,Describe your secondary wage job over the past 12 months
+63,hh_e33b,byte,1,%85.0g,occ_code,Code of your secondary wage job over the past 12 months
+64,hh_e34a,str25,0,%25s,,Describe what kind of trade or business your secondary wage job over the past 12
+65,hh_e34b,byte,1,%31.0g,HH_E34B,Code of trade or business your secondary wage job over the past 12 months is con
+66,hh_e35,byte,1,%35.0g,HH_E35,Is your employer for your secondary wage job over the last 12 months ...
+67,hh_e35_1,byte,1,%43.0g,HH_E35_1,What type of position do you hold?
+68,hh_e35_2,byte,1,%8.0g,HH_E35_2,Does this wage job have a contract
+69,hh_e35_3,byte,1,%8.0g,HH_E35_3,Are you enrolled in a pension scheme for this wage job?
+70,hh_e35_4,byte,1,%8.0g,HH_E35_4,Are you enrolled in a health insurance plan with this wage job?
+71,hh_e36,byte,1,%8.0g,,"In how many months over the last 12 months, did you work at this job?"
+72,hh_e37,byte,1,%8.0g,,"During these months, approximately how many weeks per month did you work at this"
+73,hh_e38,byte,1,%9.0g,,"During these weeks, approximately how many hours per week did you work at this j"
+74,hh_e38_1,byte,1,%8.0g,,"During the last 7 days,approximately how many hours did you work at this wage jo"
+75,hh_e39,long,1,%12.0g,,How much was your last payment for wages and salary?
+76,hh_e40a,byte,1,%9.0g,,What period of time do each of your salary payment cover? number of time units
+77,hh_e40b,byte,1,%8.0g,HH_E40B,What period of time do each of your salary payment cover? units
+78,hh_e40_1a,byte,1,%8.0g,,Who in the household controls/decides on the use of your salary payments?
+79,hh_e40_1b,byte,1,%8.0g,,Who in the household controls/decides on the use of your salary payments?
+80,hh_e41,long,1,%12.0g,,"How much do you usually receive in allowances or gratuities, including in-kind p"
+81,hh_e42a,byte,1,%9.0g,,Over what period of time are you reporting your allowances and gratuity payments
+82,hh_e42b,byte,1,%8.0g,HH_E42B,Over what period of time are you reporting your allowances and gratuity payments
+83,hh_e42_1a,byte,1,%8.0g,,Who in the household controls/decides on the use of your allowances or gratuitie
+84,hh_e42_1b,byte,1,%8.0g,,Who in the household controls/decides on the use of your allowances or gratuitie
+85,hh_e43,byte,1,%8.0g,HH_E43,Is this wage job considered an apprenticeship?
+86,hh_e44,byte,1,%8.0g,HH_E44,Have you made any payments to your employer to for your apprenticeship?
+87,hh_e45,byte,1,%12.0g,,How much in total have you paid over the past 12 months for your apprenticeship?
+88,hh_e46,byte,1,%8.0g,HH_E46,ENUMERATOR: CHECK QUESTION E06_5.DID THE RESPONDENT REPORT YES TO THIS QUESTION?
+89,hh_e47a,str25,0,%25s,,Describe your unpaid apprenticeship over the last 12 months?
+90,hh_e47b,byte,1,%85.0g,occ_code,Code Describe your unpaid apprenticeship over the last 12 months?
+91,hh_e48a,str25,0,%25s,,Describe what kind of trade or business your unpaid apprenticeship over the last
+92,hh_e48b,byte,1,%31.0g,HH_E48B,Code of trade or business your unpaid apprenticeship over the last 12 months is
+93,hh_e49,byte,1,%35.0g,HH_E49,Is your employer for your unpaid apprenticeship over the last 12 months…
+94,hh_e50,byte,1,%8.0g,,"In how many months over the last 12 months, did you work at this unpaid apprenti"
+95,hh_e51,byte,1,%8.0g,,"During these months, approximately how many weeks per month did you work at this"
+96,hh_e52,byte,1,%9.0g,,"During these weeks, approximately how many hours per week did you work at this u"
+97,hh_e52_1,byte,1,%8.0g,,"During the last 7 days,approximately how many hours did you work at this unpaid"
+98,hh_e53,byte,1,%8.0g,HH_E53,Have you made any payments to your employer for your unpaid apprenticeship?
+99,hh_e54,long,1,%12.0g,,How much in total have you paid over the last 12 months for your unpaid apprenti
+100,hh_e55,byte,1,%8.0g,HH_E55,ENUMERATOR:CHECK QUESTION E06_6.DID THE RESPONDENT REPORT YES TO THIS QUESTION?
+101,hh_e56,byte,1,%8.0g,,"In how many months over the last 12 months, did you do ganyu labour?"
+102,hh_e57,byte,1,%12.0g,,"During these months, approximately how many weeks per month did you do ganyu lab"
+103,hh_e58,byte,1,%8.0g,,"During these weeks, approximately how many days per week did you do ganyu labour"
+104,hh_e59,long,1,%12.0g,,"What was the average daily wage, in cash or in kind, that you received for the d"
+105,hh_e59_1a,byte,1,%8.0g,,Who in the household controls/decides on the use of your ganyu earnings?
+106,hh_e59_1b,byte,1,%8.0g,,Who in the household controls/decides on the use of your ganyu earnings?
+107,hh_e60,byte,1,%8.0g,HH_E60,"At any time over the last 12 months, did you work for other households,free of c"
+108,hh_e61,byte,1,%8.0g,,"Over the last 12 months, for how many households in total did you work as exchan"
+109,hh_e62,byte,1,%8.0g,,Among the households for whom you worked as exchange laborer or to assist for no
+110,hh_e63,byte,1,%8.0g,,Among the households for whom you worked as exchange laborer or to assist for no
+111,hh_e64,byte,1,%8.0g,HH_E64,Was the household of the village headman among the households for whom you worke
+112,hh_e65,byte,1,%8.0g,,"Over the last 12 months, for how many days in total did you work for other house"

@@ -1,0 +1,33 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%4s,,Garden ID
+4,plotid,str3,0,%3s,,Plot ID
+5,ag_p0_crops,strL,0,%38s,,"FOR EACH PLOT, LIST ALL TREE/PERMANENT CROPS HARVESTED BY HH IN LAST 12MONTHS"
+6,ag_p0a,int,1,%8.0g,ag_p0a,What is the primary variety of [TREE/PERM CROP] being cultivated on this [PLOT]?
+7,ag_p0aoth,strL,0,%50s,,Please Specify the other type of variety
+8,ag_p0c,int,1,%8.0g,ag_p00,TREE/PERMANENT CROP CODE
+9,ag_p0c_oth,str15,0,%15s,,Tree/Permanent Crop Code (Other Specify)
+10,ag_p01,byte,1,%8.0g,ag_p01,Is[TREE/PERM CROP]cultivated in a plantation or scattered in field?
+11,ag_p02a,double,1,%12.0g,,What is the area of the plantation?
+12,ag_p02b,byte,1,%8.0g,ag_p02b,unit
+13,ag_p02b_oth,str8,0,%8s,,Specify UNIT
+14,ag_p03,int,1,%8.0g,,How many plants/trees for the[TREE/PERM CROP]do you own on this[PLOT]?
+15,ag_p04,int,1,%8.0g,,In what year were most of these plants/ trees planted?
+16,ag_p05,long,1,%12.0g,,How many plants/ trees were planted during the last 12 months?
+17,ag_p05_1,int,1,%8.0g,ag_p05_1,What is the primary variety of %ag_p00% being cultivated on this [PLOT]?
+18,ag_p05_1b,strL,0,%51s,,Please specify other variety
+19,ag_p06a,byte,1,%8.0g,ag_p06a,What was the last completed production period for the tree/permanent crop
+20,ag_p06b,int,1,%8.0g,,BEGIN YEAR (4-DIGIT)
+21,ag_p06c,byte,1,%8.0g,ag_p06c, END MONTH
+22,ag_p06d,int,1,%8.0g,,END YEAR (4-DIGIT)
+23,ag_p07,byte,1,%8.0g,ag_p07,Were there any losses of[TREE/PERM CROP]before harvest?
+24,ag_p08a,byte,1,%8.0g,reason_loss,Why were there losses before the harvest? (1ST CAUSE)
+25,ag_p08b,byte,1,%8.0g,reason_loss,Why were there losses before the harvest? (2ND CAUSE)
+26,ag_p08_oth,str30,0,%30s,,Specify why were there losses before the harvest.
+27,ag_p08_1,byte,1,%8.0g,ag_p08_1,What was the main disease affecting the plants in the [PLOT]?
+28,ag_p08_1oth,str19,0,%19s,,Please specify the main disease affecting the plants in the [PLOT]?
+29,ag_p09a,long,1,%12.0g,,How much[TREE/PERM CROP]did you harvest during the last 12 mnths?(Q)
+30,ag_p09b,byte,1,%8.0g,ag_p09b,How much[TREE/PERM CROP]did you harvest during the last 12 mnths?(U)
+31,ag_p09b_oth,str25,0,%25s,,How much[TREE/PERM CROP]did you harvest during the last 12 mnths?(O/S)
+32,ag_p09_1,byte,1,%8.0g,ag_p09_1,What was the condition of [TREE/PERM CROP]?

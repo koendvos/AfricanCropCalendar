@@ -1,0 +1,14 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_q0a,int,1,%8.0g,gifts,SOURCE CODE
+4,hh_q01,byte,1,%8.0g,hh_q01,Gave out?
+5,hh_q02a,long,1,%12.0g,,How much of the [ITEM] given away was destined to rural areas
+6,hh_q02b,long,1,%12.0g,,How much of the [ITEM] given away was destined to urban areas
+7,hh_q02c,long,1,%12.0g,,How much of the [ITEM] given away was destined to other countries
+8,hh_q02_1,byte,1,%8.0g,hh_q03_1,"If Cash was sent to another country, did any of it go through other means"
+9,hh_q02_2,byte,1,%8.0g,hh_q03_2,In what currency was the cash?
+10,hh_q02_2oth,str20,0,%20s,,Please Specify the other type of currency.
+11,hh_q02_3,long,1,%12.0g,,Amt sent through other means other than the bank during the last 12 months?
+12,hh_q03a,byte,1,%8.0g,,..HH decided on the allocation of gifts given away...the last 12 months? (ID 1)
+13,hh_q03b,byte,1,%8.0g,,..HH decided on the allocation of gifts given away...the last 12 months? (ID 2)

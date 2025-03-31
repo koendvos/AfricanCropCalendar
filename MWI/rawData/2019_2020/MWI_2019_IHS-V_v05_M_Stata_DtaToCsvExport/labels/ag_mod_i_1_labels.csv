@@ -1,0 +1,12 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,crop_code,byte,1,%6.0f,,Crop Code
+4,PID,byte,1,%6.0f,,ID Code
+5,ag_i00b,int,1,%6.0f,,How many weeks did [PERSON] work? WEEKS
+6,ag_i00c,int,1,%6.0f,,"During those weeks, approximately how many days did [PERSON] work per week?"
+7,ag_i00d,long,1,%6.0f,,"During those days, approximately how many hours did [PERSON] work per day?"
+8,ag_i00e1,byte,1,%6.0f,,Which activities was [PERSON] involved in: SHELLING/ THRESHING/PEELING
+9,ag_i00e2,byte,1,%6.0f,,Which activities was [PERSON] involved in: DRYING
+10,ag_i00e3,byte,1,%6.0f,,Which activities was [PERSON] involved in: CLEANING
+11,ag_i00e4,byte,1,%6.0f,,Which activities was [PERSON] involved in: PROCESSING

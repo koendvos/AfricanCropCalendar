@@ -1,0 +1,79 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,fs_a_start,str1,0,%9s,,FS Module A Start Stamp
+6,fs_a_end,str17,0,%17s,,FS Module A End Stamp
+7,fs_b_start,str17,0,%17s,,FS Module B Start Stamp
+8,fs_b_end,str17,0,%17s,,FS Module B End Stamp
+9,fs_b_start_day,byte,1,%8.0g,,FS Module B Start Date (Day)
+10,fs_b_start_month,byte,1,%8.0g,,FS Module B Start Date (Month)
+11,fs_b_start_hour,byte,1,%8.0g,,FS Module B Start Time (Hour)
+12,fs_b_start_minute,byte,1,%8.0g,,FS Module B Start Time (Minute)
+13,fs_b_end_hour,byte,1,%8.0g,,FS Module B End Time (Hour)
+14,fs_b_end_minute,byte,1,%8.0g,,FS Module B End Time (Minute)
+15,fs_c_start,str17,0,%17s,,FS Module C Start Stamp
+16,fs_c_end,str17,0,%17s,,FS Module C End Stamp
+17,fs_c_start_day,byte,1,%8.0g,,FS Module C Start Date (Day)
+18,fs_c_start_month,byte,1,%9.0g,FS_C_START_MONTH,FS Module C Start Date (Month)
+19,fs_c_start_hour,byte,1,%8.0g,,FS Module C Start Time (Hour)
+20,fs_c_start_minute,byte,1,%8.0g,,FS Module C Start Time (Minute)
+21,fs_c_end_hour,byte,1,%8.0g,,FS Module C End Time (Hour)
+22,fs_c_end_minute,byte,1,%8.0g,,FS Module C End Time (Minute)
+23,fs_d_start,str17,0,%17s,,FS Module D Start Stamp
+24,fs_d_end,str17,0,%17s,,FS Module D End Stamp
+25,fs_d_start_day,byte,1,%8.0g,,FS Module D Start Date (Day)
+26,fs_d_start_month,byte,1,%9.0g,FS_D_START_MONTH,FS Module D Start Date (Month)
+27,fs_d_start_hour,byte,1,%8.0g,,FS Module D Start Time (Hour)
+28,fs_d_start_minute,byte,1,%8.0g,,FS Module D Start Time (Minute)
+29,fs_d_end_hour,byte,1,%8.0g,,FS Module D End Time (Hour)
+30,fs_d_end_minute,byte,1,%8.0g,,FS Module D End Time (Minute)
+31,fs_e_start,str17,0,%17s,,FS Module E Start Stamp
+32,fs_e_end,str17,0,%17s,,FS Module E End Stamp
+33,fs_e_start_day,byte,1,%8.0g,,FS Module E Start Date (Day)
+34,fs_e_start_month,byte,1,%9.0g,FS_E_START_MONTH,FS Module E Start Date (Month)
+35,fs_e_start_hour,byte,1,%8.0g,,FS Module E Start Time (Hour)
+36,fs_e_start_minute,byte,1,%8.0g,,FS Module E Start Time (Minute)
+37,fs_e_end_hour,byte,1,%8.0g,,FS Module E End Time (Hour)
+38,fs_e_end_minute,byte,1,%8.0g,,FS Module E End Time (Minute)
+39,fs_f_start,str17,0,%17s,,FS Module F Start Stamp
+40,fs_f_end,str17,0,%17s,,FS Module F End Stamp
+41,fs_f_start_day,byte,1,%8.0g,,FS Module F Start Date (Day)
+42,fs_f_start_month,byte,1,%9.0g,FS_F_START_MONTH,FS Module F Start Date (Month)
+43,fs_f_start_hour,byte,1,%8.0g,,FS Module F Start Time (Hour)
+44,fs_f_start_minute,byte,1,%8.0g,,FS Module F Start Time (Minute)
+45,fs_f_end_hour,byte,1,%8.0g,,FS Module F End Time (Hour)
+46,fs_f_end_minute,byte,1,%8.0g,,FS Module F End Time (Minute)
+47,fs_g_start,str17,0,%17s,,FS Module G Start Stamp
+48,fs_g_end,str17,0,%17s,,FS Module G End Stamp
+49,fs_g_start_day,byte,1,%8.0g,,FS Module G Start Date (Day)
+50,fs_g_start_month,byte,1,%9.0g,FS_G_START_MONTH,FS Module G Start Date (Month)
+51,fs_g_start_hour,byte,1,%8.0g,,FS Module G Start Time (Hour)
+52,fs_g_start_minute,byte,1,%8.0g,,FS Module G Start Time (Minute)
+53,fs_g_end_hour,byte,1,%8.0g,,FS Module G End Time (Hour)
+54,fs_g_end_minute,byte,1,%8.0g,,FS Module G End Time (Minute)
+55,fs_h_start,str17,0,%17s,,FS Module H Start Stamp
+56,fs_h_end,str17,0,%17s,,FS Module H End Stamp
+57,fs_h_start_day,byte,1,%8.0g,,FS Module H Start Date (Day)
+58,fs_h_start_month,byte,1,%9.0g,FS_H_START_MONTH,FS Module H Start Date (Month)
+59,fs_h_start_hour,byte,1,%8.0g,,FS Module H Start Time (Hour)
+60,fs_h_start_minute,byte,1,%8.0g,,FS Module H Start Time (Minute)
+61,fs_h_end_hour,byte,1,%8.0g,,FS Module H End Time (Hour)
+62,fs_h_end_minute,byte,1,%8.0g,,FS Module H End Time (Minute)
+63,fs_i_start,str17,0,%17s,,FS Module I Start Stamp
+64,fs_i_end,str17,0,%17s,,FS Module I End Stamp
+65,fs_i_start_day,byte,1,%8.0g,,FS Module I Start Date (Day)
+66,fs_i_start_month,byte,1,%9.0g,FS_I_START_MONTH,FS Module I Start Date (Month)
+67,fs_i_start_hour,byte,1,%8.0g,,FS Module I Start Time (Hour)
+68,fs_i_start_minute,byte,1,%8.0g,,FS Module I Start Time (Minute)
+69,fs_i_end_hour,byte,1,%8.0g,,FS Module I End Time (Hour)
+70,fs_i_end_minute,byte,1,%8.0g,,FS Module I End Time (Minute)
+71,fs_j_start,str17,0,%17s,,FS Module J Start Stamp
+72,fs_j_end,str17,0,%17s,,FS Module J End Stamp
+73,fs_j_start_day,byte,1,%8.0g,,FS Module J Start Date (Day)
+74,fs_j_start_month,byte,1,%9.0g,FS_J_START_MONTH,FS Module J Start Date (Month)
+75,fs_j_start_hour,byte,1,%8.0g,,FS Module J Start Time (Hour)
+76,fs_j_start_minute,byte,1,%8.0g,,FS Module J Start Time (Minute)
+77,fs_j_end_hour,byte,1,%8.0g,,FS Module J End Time (Hour)
+78,fs_j_end_minute,byte,1,%8.0g,,FS Module J End Time (Minute)

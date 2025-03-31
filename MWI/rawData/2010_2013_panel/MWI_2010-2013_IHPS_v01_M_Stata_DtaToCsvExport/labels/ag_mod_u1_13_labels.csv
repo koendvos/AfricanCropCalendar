@@ -1,0 +1,12 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_u100a,byte,1,%8.0g,,ATTITUDES CODE
+6,ag_u100b,str25,0,%25s,,ATTITUDES DESCRIPTION
+7,ag_u101,str1,0,%9s,,How strongly do you agree with each attitude? (STRONGLY AGREE)
+8,ag_u102,str1,0,%9s,,How strongly do you agree with each attitude? (AGREE)
+9,ag_u103,str1,0,%9s,,How strongly do you agree with each attitude? (NEITHER AGREE OR DISAGREE)
+10,ag_u104,str1,0,%9s,,How strongly do you agree with each attitude? (DISAGREE)
+11,ag_u105,str1,0,%9s,,How strongly do you agree with each attitude? (DISAGREE STRONGLY)

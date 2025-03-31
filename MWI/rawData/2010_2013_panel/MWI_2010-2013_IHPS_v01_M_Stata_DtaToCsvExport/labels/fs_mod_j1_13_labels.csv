@@ -1,0 +1,24 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,fs_j0a,byte,1,%8.0g,,Roster Number
+6,fs_j00,byte,1,%8.0g,FS_J00,ENUMERATOR: CHECK MODULE G. WERE ANY HOUSEHOLD MEMBERS ENGAGED IN FISH TRADING I
+7,fs_j01,byte,1,%15.0g,FS_J01,Please list up to five main species of fish that you or any member of your house
+8,fs_j02a,int,1,%9.0g,,"During the last LOW fishing season, how much [FISH SPECIES] did you purchase on"
+9,fs_j02b,byte,1,%15.0g,FS_J02B,"During the last LOW fishing season, how much [FISH SPECIES] did you purchase on"
+10,fs_j02c,byte,1,%15.0g,FS_J02C,"During the last LOW fishing season, how much [FISH SPECIES] did you purchase on"
+11,fs_j02d,int,1,%12.0g,,"During the last LOW fishing season, how much [FISH SPECIES] did you purchase on"
+12,fs_j02e,byte,1,%9.0g,,"During the last LOW fishing season, how much [FISH SPECIES] did you purchase on"
+13,fs_j02f,byte,1,%15.0g,FS_J02F,"During the last LOW fishing season, how much [FISH SPECIES] did you purchase on"
+14,fs_j02g,byte,1,%15.0g,FS_J02G,"During the last LOW fishing season, how much [FISH SPECIES] did you purchase on"
+15,fs_j02h,int,1,%12.0g,,"During the last LOW fishing season, how much [FISH SPECIES] did you purchase on"
+16,fs_j03a,float,1,%9.0g,,"During the last LOW fishing season, how much [FISH SPECIES] did you sell on aver"
+17,fs_j03b,byte,1,%15.0g,FS_J03B,"During the last LOW fishing season, how much [FISH SPECIES] did you sell on aver"
+18,fs_j03c,byte,1,%15.0g,FS_J03C,"During the last LOW fishing season, how much [FISH SPECIES] did you sell on aver"
+19,fs_j03d,int,1,%12.0g,,"During the last LOW fishing season, how much [FISH SPECIES] did you sell on aver"
+20,fs_j03e,byte,1,%9.0g,,"During the last LOW fishing season, how much [FISH SPECIES] did you sell on aver"
+21,fs_j03f,byte,1,%15.0g,FS_J03F,"During the last LOW fishing season, how much [FISH SPECIES] did you sell on aver"
+22,fs_j03g,byte,1,%15.0g,FS_J03G,"During the last LOW fishing season, how much [FISH SPECIES] did you sell on aver"
+23,fs_j03h,int,1,%12.0g,,"During the last LOW fishing season, how much [FISH SPECIES] did you sell on aver"

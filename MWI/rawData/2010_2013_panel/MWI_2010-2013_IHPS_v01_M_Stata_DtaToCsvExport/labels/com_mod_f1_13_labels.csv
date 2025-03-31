@@ -1,0 +1,32 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrance Sequence for O/S Merge
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,com_cf01,byte,1,%8.0g,COM_CF01,Do any households farm crops or keep livestock in this community?
+4,com_cf02,byte,1,%12.0g,COM_CF02,"In this community in most years, in which half of which month do most people nor"
+5,com_cf03,byte,1,%12.0g,COM_CF03,"In this community in most years, in which half of which month do most people nor"
+6,com_cf03_1,byte,1,%8.0g,COM_CF03_1,"In most years,what propotion of cropland is burned post harvest?"
+7,com_cf03_2,byte,1,%65.0g,COM_CF03_2,Which system best describes the use of cropland post harvest?
+8,com_cf07,byte,1,%8.0g,COM_CF07,Does an Assist. Agricultural Extension Development Officer live in this communit
+9,com_cf08a,int,1,%8.0g,,What is the distance to the office / residence of the nearest Assist. Agricultur
+10,com_cf08b,byte,1,%8.0g,COM_CF08B,What is the distance to the office / residence of the nearest Assist. Agricultur
+11,com_cf09,byte,1,%8.0g,COM_CF09,Is there an irrigation scheme in this commun-ity?
+12,com_cf10,int,1,%8.0g,,How many farmers from the commun-ity in total farm in the irrigation scheme?(NUM
+13,com_cf11,byte,1,%8.0g,,How many sellers of fertilizer are there in the commun-ity?(NUMBER)
+14,com_cf12,byte,1,%8.0g,,How many sellers of hybrid maize seed are there in the commun-ity?(NUMBER)
+15,com_cf13,byte,1,%8.0g,COM_CF13,Is there a local warehouse that the community members could use to store crops p
+16,com_cf17a,byte,1,%29.0g,COM_CF17A,Are community residents expected to pay the village headman when they [purchase
+17,com_cf17b,byte,1,%29.0g,COM_CF17B,Are community residents expected to pay the village headman when they [sell land
+18,com_cf17c,byte,1,%29.0g,COM_CF17C,Are community residents expected to pay the village headman when they [are grant
+19,com_cf18a,int,1,%12.0g,,"Among households that own land, what is the average landholding size?"
+20,com_cf18b,byte,1,%8.0g,COM_CF18B,"Among households that own land, what is the average landholding size?"
+21,com_cf19a,int,1,%12.0g,,"Among households that own land, what is the smallest landholding size?"
+22,com_cf19b,byte,1,%8.0g,COM_CF19B,"Among households that own land, what is the smallest landholding size?"
+23,com_cf20a,int,1,%12.0g,,"Among households that own land, what is the largest landholding size?"
+24,com_cf20b,byte,1,%8.0g,COM_CF20B,"Among households that own land, what is the largest landholding size?"
+25,com_cf21,int,1,%12.0g,,ENUMERATOR: RECORD NUMBER OF HOUSEHOLDS IN COMMUNITY FROM MODULE CC QUESTION 3.
+26,com_cf22,int,1,%12.0g,,About how many households in the community practice zero tillage?
+27,com_cf23,int,1,%12.0g,,About how many households in the community sow seeds in planting pits?
+28,com_cf24,int,1,%12.0g,,About how many households in the community have earth or stone bunds?
+29,com_cf25,int,1,%12.0g,,About how many households in the community have terraces?
+30,com_cf26,int,1,%12.0g,,About how many households in the community practice agro-forestry?
+31,com_cf27,int,1,%12.0g,,About how many households in the community plant legume cover crops?

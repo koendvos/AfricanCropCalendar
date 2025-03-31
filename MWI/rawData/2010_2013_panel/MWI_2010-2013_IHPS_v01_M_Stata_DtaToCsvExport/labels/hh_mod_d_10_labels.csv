@@ -1,0 +1,72 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,PID,str6,0,%9s,,Assigned Unique Serial Number for IHS3 Baseline and IHPS New Members
+6,id_code,byte,1,%9.0g,,Household Member ID Code
+7,ea_id,str8,0,%9s,,Unique EA Identifier
+8,hh_d01,byte,1,%11.0g,HH_D01,ID CODE
+9,hh_d02,byte,1,%17.0g,HH_D02,Self-reported or reported by another household member?
+10,hh_d03,byte,1,%8.0g,,Who is reporting the information for the individual?
+11,hh_d04,byte,1,%8.0g,HH_D04,During the past 2 weeks have you suffered from an illness or injury?
+12,hh_d05a,byte,1,%31.0g,HH_D05A,What was the illness or injury (Problem 1)?
+13,hh_d05a_os,str33,0,%33s,,What was the illness or injury (Problem 1)? (Other Specify)
+14,hh_d05b,byte,1,%31.0g,HH_D05B,What was the illness or injury (Problem 2)?
+15,hh_d05b_os,str23,0,%23s,,What was the illness or injury (Problem 2)? (Other Specify)
+16,hh_d06a,byte,1,%60.0g,HH_D06A,Who diagnosed the illness (Problem 1)?
+17,hh_d06a_os,str20,0,%20s,,Who diagnosed the illness (Problem 1)? (Other Specify)
+18,hh_d06b,byte,1,%60.0g,HH_D06B,Who diagnosed the illness (Problem 2)?
+19,hh_d06b_os,str1,0,%9s,,Who diagnosed the illness (Problem 2)? (Other Specify)
+20,hh_d07a,byte,1,%43.0g,HH_D07A,What action did you take to find relief for illness (Problem 1)?
+21,hh_d07a_os,str39,0,%39s,,What action did you take to find relief for illness (Problem 1)? (Other Specify)
+22,hh_d07b,byte,1,%43.0g,HH_D07B,What action did you take to find relief for illness (Problem 2)?
+23,hh_d07b_os,str11,0,%11s,,What action did you take to find relief for illness (Problem 2)? (Other Specify)
+24,hh_d08,byte,1,%8.0g,,During the past 2 weeks did you have to stop your normal activities because of t
+25,hh_d09,byte,1,%8.0g,,During the past 2 weeks did anyone else in the household have to stop their norm
+26,hh_d10,long,1,%12.0g,,How much in total did you spend in the past 4 weeks for all illnesses and injuri
+27,hh_d11,int,1,%12.0g,,How much in total did you spend in the past 4 weeks for medical care not related
+28,hh_d12,int,1,%12.0g,,How much in total did you spend in the past 4 weeks for non-prescription medicin
+29,hh_d13,byte,1,%8.0g,HH_D13,"During the last 12 months, were you hospital-ized or had an overnight stay(s) in"
+30,hh_d14,long,1,%12.0g,,What was the total cost of your hospital-ization(s) or overnight stay(s) in a me
+31,hh_d15,long,1,%12.0g,,How much in to tal did you spend to travel to the medical facility for overnight
+32,hh_d16,long,1,%12.0g,,How much did you spend on food during overnight stay(s) at the medical facility
+33,hh_d17,byte,1,%8.0g,HH_D17,Did you or other members of your household have to borrow money or sell assets i
+34,hh_d18,byte,1,%8.0g,HH_D18,"During the last 12 months, did you stay over-night(s) at a traditional healer's"
+35,hh_d19,int,1,%12.0g,,What was the total cost of your stay(s) at the traditional healer's or faith hea
+36,hh_d20,int,1,%12.0g,,How much in total did you spend in the past 4 weeks for all illnesses and injuri
+37,hh_d21,int,1,%12.0g,,How much in total did you spend in the past 4 weeks for medical care not related
+38,hh_d22,byte,1,%8.0g,HH_D22,Did you or other members of your household have to borrow money or sell assets i
+39,hh_d23,byte,1,%8.0g,HH_D23,Enumerator: is this person [NAME] less than  5 years of age?
+40,hh_d24,byte,1,%30.0g,HH_D24,"Do you have difficulty seeing, even if he/she is wearing glasses?"
+41,hh_d25,byte,1,%30.0g,HH_D25,"Do you have difficulty hearing, even if he/she is wearing a hearing aid?"
+42,hh_d26,byte,1,%30.0g,HH_D26,Do you have difficulty walking or climbing steps?
+43,hh_d27,byte,1,%30.0g,HH_D27,Do you have difficulty remembering or concentrating?
+44,hh_d28,byte,1,%30.0g,HH_D28,Do you [NAME] have difficulty (with self care such as) washing all over or dress
+45,hh_d29,byte,1,%30.0g,HH_D29,"Using your usual language, do you have difficulty communicating; for example und"
+46,hh_d30,byte,1,%8.0g,HH_D30,Enumerator: check questions HH_D24 through HH_D29. Did the respondent have any d
+47,hh_d31a,byte,1,%44.0g,HH_D31A,Does this difficulty reduce the amount of work you can do at home?
+48,hh_d31b,byte,1,%44.0g,HH_D31B,Does this difficulty reduce the amount of work you can do at school?
+49,hh_d31c,byte,1,%44.0g,HH_D31C,Does this difficulty reduce the amount of work you can do at work?
+50,hh_d32,byte,1,%39.0g,HH_D32,"During the past 12 months, what measures are taken to improve your performance i"
+51,hh_d32_os,str22,0,%22s,,"During the past 12 months, what measures are taken to improve your performance i"
+52,hh_d33,byte,1,%8.0g,HH_D33,Do you suffer from a chronic illness?
+53,hh_d34a,byte,1,%21.0g,HH_D34A,What illness do you suffer from (illness 1)?
+54,hh_d34a_os,str32,0,%32s,,What illness do you suffer from (illness 1)? (Other Specify)
+55,hh_d34b,byte,1,%21.0g,HH_D34B,What illness do you suffer from (illness 2)?
+56,hh_d34b_os,str25,0,%25s,,What illness do you suffer from (illness 2)? (Other Specify)
+57,hh_d35a,byte,1,%8.0g,,How long have you suffered from this illness (years)?
+58,hh_d35b,byte,1,%8.0g,,How long have you suffered from this illness (months)?
+59,hh_d36a,byte,1,%60.0g,HH_D36A,Who diagnosed illness 1?
+60,hh_d36a_os,str1,0,%9s,,Who diagnosed illness 1? (Other Specify)
+61,hh_d36b,byte,1,%60.0g,HH_D36B,Who diagnosed illness 2?
+62,hh_d37,byte,1,%8.0g,HH_D37,"Is this person, [NAME], less than 15 years old?"
+63,hh_d38,byte,1,%25.0g,HH_D38,What did you have for breakfast yesterday?
+64,hh_d38_os,str25,0,%25s,,What did you have for breakfast yesterday? (Other Specify)
+65,hh_d39,byte,1,%8.0g,HH_D39,"Is this person, [NAME], a woman aged 12 to 49 years?"
+66,hh_d40,byte,1,%8.0g,HH_D40,"In the past 24 months, did you give birth to a child, even if born dead?"
+67,hh_d41,byte,1,%8.0g,HH_D41,Regularly go to a health clinic when you were pregnant with your last child?
+68,hh_d42,byte,1,%25.0g,HH_D42,Where did you deliver your last child born in the last 24 months?
+69,hh_d42_os,str32,0,%32s,,Where did you deliver your last child born in the last 24 months? (Other Specify
+70,hh_d43,byte,1,%23.0g,HH_D43,Who assisted in delivering this child?
+71,hh_d43_os,str25,0,%25s,,Who assisted in delivering this child? (Other Specify)

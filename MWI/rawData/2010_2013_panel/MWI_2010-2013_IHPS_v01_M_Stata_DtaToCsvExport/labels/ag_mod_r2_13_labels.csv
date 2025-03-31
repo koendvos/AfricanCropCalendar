@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_r27,long,1,%12.0g,,"During the last 12 months, how much did your household spend in total on hired l"
+6,ag_r28,long,1,%12.0g,,"During the last 12 months, how much did your household spend in total on animal"
+7,ag_r29,long,1,%12.0g,,"During the last 12 months, how much did your household spend in total on medicin"
+8,ag_r30,long,1,%12.0g,,"During the last 12 months, how much did your household spend in total on other v"
+9,ag_r31,long,1,%12.0g,,"During the last 12 months, how much did your household spend in total on housing"

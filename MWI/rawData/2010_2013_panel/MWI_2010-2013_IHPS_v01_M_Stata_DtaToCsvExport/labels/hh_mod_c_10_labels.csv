@@ -1,0 +1,46 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,PID,str6,0,%9s,,Assigned Unique Serial Number for IHS3 Baseline and IHPS New Members
+6,id_code,byte,1,%9.0g,,Household Member ID Code
+7,ea_id,str8,0,%9s,,Unique EA Identifier
+8,hh_c01,byte,1,%11.0g,HH_C01,ID CODE
+9,hh_c02,str1,0,%9s,,Put an 'X' for all individuals who are aged below 5 years
+10,hh_c03,byte,1,%17.0g,HH_C03,Is the information self-reported or is it being provided by another household me
+11,hh_c04,byte,1,%8.0g,,Who is reporting the information for the individual?
+12,hh_c05a,byte,1,%8.0g,HH_C05A,Are you able to read and write in Chichewa?
+13,hh_c05b,byte,1,%8.0g,HH_C05B,Are you able to read and write in English?
+14,hh_c06,byte,1,%8.0g,HH_C06,Have you ever attended school?
+15,hh_c07a,byte,1,%32.0g,HH_C07A,What was the reason you never attended school (1st reason)?
+16,hh_c07a_os,str47,0,%47s,,What was the reason you never attended school (1st reason) (Other Specify)
+17,hh_c07b,byte,1,%32.0g,HH_C07B,What was the reason you never attended school (2nd reason)?
+18,hh_c07b_os,str32,0,%32s,,What was the reason you never attended school (2nd reason) (Other Specify)
+19,hh_c08,byte,1,%18.0g,HH_C08,What class are you in or what was the highest class level you ever attended?
+20,hh_c09,byte,1,%16.0g,HH_C09,What is the highest educational qualification you have acquired?
+21,hh_c10,byte,1,%8.0g,,How old were you when you started school?
+22,hh_c11,byte,1,%8.0g,HH_C11,Did you attend school in the last completed academic year?
+23,hh_c12,byte,1,%18.0g,HH_C12,What class were you in during the last completed academic year?
+24,hh_c13,byte,1,%8.0g,HH_C13,"Are you currently attending school or, if school is not now in session, did you"
+25,hh_c14,byte,1,%31.0g,HH_C14,Why did you not continue your education?
+26,hh_c14_os,str47,0,%47s,,Why did you not continue your education? (Other Specify)
+27,hh_c15,int,1,%8.0g,,In which calendar year did you last attend school?
+28,hh_c16,byte,1,%22.0g,HH_C16,What type of school do you attend?
+29,hh_c17,byte,1,%11.0g,HH_C17,Are you a day scholar or a boarder at the school?
+30,hh_c18,byte,1,%11.0g,HH_C18,How do you get to school each day?
+31,hh_c19a,float,1,%9.0g,,How long does it usually take you to get to school by this means of transport (t
+32,hh_c19b,byte,1,%8.0g,HH_C19B,How long does it usually take you to get to school by this means of transport (u
+33,hh_c20,byte,1,%8.0g,HH_C20,"At any time in the past 12 months, did you ever temporarily withdraw from school"
+34,hh_c21,byte,1,%31.0g,HH_C21,What was the main reason you temporarily withdrew from school?
+35,hh_c21_os,str40,0,%40s,,What was the main reason you temporarily withdrew from school? (Other Specify)
+36,hh_c22a,long,1,%12.0g,,"Tuition, including any extra tuition fees"
+37,hh_c22b,long,1,%12.0g,,Expenditures on after school programs & tutoring
+38,hh_c22c,long,1,%12.0g,,School books and other materials
+39,hh_c22d,long,1,%12.0g,,School uniform clothing
+40,hh_c22e,long,1,%12.0g,,Boarding fees
+41,hh_c22f,long,1,%12.0g,,Contribution for school building or maintainance
+42,hh_c22g,long,1,%12.0g,,Transport
+43,hh_c22h,long,1,%12.0g,,Parent association & other school related fees
+44,hh_c22i,long,1,%12.0g,,Other
+45,hh_c22j,long,1,%12.0g,,TOTAL

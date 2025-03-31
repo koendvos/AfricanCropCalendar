@@ -1,0 +1,143 @@
+item_name,item_code,cal_100g,edible_p
+Maize ufa mgaiwa (normal flour),101,364,100
+Maize ufa refined (fine flour),102,362,100
+Maize ufa madeya (bran flour),103,224,100
+Maize grain (not as ufa),104,345,100
+Green maize,105,108,40
+Rice,106,335,100
+Finger millet,107,333,93
+Sorghum,108,333,93
+Pearl millet,109,333,93
+Wheat flour,110,364,100
+Bread,111,270,100
+"Buns, scones",112,238,100
+Biscuits,113,365,100
+"Spaghetti, macaroni, pasta",114,370,100
+Breakfast cereal,115,370,100
+Infant feeding cereals,116,370,100
+Other cereals,117,370,100
+Cassava tubers,201,140,74
+Cassava flour,202,344,100
+White sweet potato,203,105,79
+Orange sweet potato,204,105,79
+Irish potato,205,79,75
+Potato crisps,206,540,86
+"Plantain, cooking banana",207,92,65
+Cocoyam (masimbi),208,118,84
+Other roots and tubers,209,110,76
+"Bean, white",301,320,100
+"Bean, brown",302,320,100
+Pigeon pea (nandolo),303,343,100
+Groundnut flour,305,428,100
+Soyabean flour,306,441,100
+Ground bean,307,567,100
+Cowpea (khobwe),308,340,100
+Macademia nuts,309,570,70
+Other pulses,310,320,100
+Groundnut (Shelled),311,,
+Groundnut Dried (Unshelled),312,,
+Groundnut Fresh (Unshelled),313,,
+Onion,401,38,90
+Cabbage,402,25,80
+Tanaposi rape,403,22,80
+Nkwani,404,19,41
+Chinese cabbage,405,13,72
+Other cultivated green leafy vegetable,406,36,72
+Gathered wild green leaves,407,26,80
+Tomato,408,21,91
+Cucumber,409,13,97
+Pumpkin,410,26,70
+Okra / Therere,411,33,86
+Tinned vegetables,412,36,100
+Mushrooms,413,27,100
+Other vegetable,414,36,80
+Eggs,501,150,88
+Beef,504,188,80
+Goat,505,170,74
+Pork,506,250,75
+Mutton,507,269,85
+Chicken,508,213,69
+"Other poultry-guinea fowl, doves",509,213,69
+"Small animal- rabbit, mice",510,390,69
+"Termites, other insect",511,188,80
+Tinned meat or fish,512,208,100
+Fish soup/sauce,514,,
+Other meat fish and animal product,515,210,80
+Mango,601,58,64
+Banana,602,92,64
+"Citrus, naartje, orange, etc.",603,44,75
+Pineapple,604,48,67
+Papaya,605,39,67
+Guava,606,46,81
+Avocado,607,161,74
+"Wild fruit (masau, mlambe, etc.)",608,58,94
+Apple,609,60,92
+Other fruits,610,53,75
+Fresh milk,701,79,100
+Powdered milk,702,495,100
+Margarine,703,745,100
+Butter,704,717,100
+Chambiko - soured milk,705,208,100
+Yoghurt,706,65,100
+Cheese,707,390,100
+Infant feeding formula,708,435,100
+Other milk and milk products,709,390,100
+Sugar,801,375,100
+Sugar cane,802,400,40
+Cooking oil,803,900,100
+Other fats and oil,804,884,100
+Salt,810,0,100
+Spices,811,300,100
+"Yeast, baking powder, bicarbonate of so",812,105,100
+Tomato sauce (bottle),813,30,100
+"Hot sauce (nali, etc.)",814,255,100
+"Jam, jelly, honey",815,278,100
+"Sweets, candy, chocolates",816,375,100
+Honey,817,304,100
+Other spices/ miscellaneous,818,300,100
+Maize - boiled or roasted,820,108,40
+Chips (vendor),821,540,100
+Cassava - boiled (vendor),822,320,100
+Eggs - boiled (vendor),823,150,88
+Chicken (vendor),824,213,69
+Meat (vendor),825,188,80
+Fish (vendor),826,230,100
+"Mandazi, doughnut (vendor)",827,400,100
+Samosa (vendor),828,170,100
+Meat eaten at restaurant,829,188,80
+Other cooked foods,830,201,90
+Boiled Sweet potatoes,831,,
+Roasted sweet potatoes,832,,
+Boiled groundnuts,833,,
+Roasted groundnuts,834,,
+Popcorn,835,,
+Zikondamoyo/Nkate,836,,
+Kalongonda (Mucuna),837,,
+Tea (leaves),901,256,100
+Coffee (powder),902,328,100
+"Cocoa, milo",903,350,100
+Squash (sobo drink concentrate),904,162,100
+Fruit juice,905,45,100
+Freezes (flavoured ice),906,45,100
+"Soft drinks (coca cola, fanta)",907,45,100
+Chibuku/ Napolo,908,44,100
+Bottled water,909,0,100
+Maheu,910,44,100
+Bottled/ canned beer,911,41,100
+Local sweet beer (thobwa),912,44,100
+Traditional beer (masese),913,44,100
+Wine or commercial liquor,914,70,100
+Locally brewed liquor,915,231,100
+Other beverages,916,44,100
+Sun Dried fish (Large Variety),5021,,
+Sun Dried fish (Medium Variety),5022,,
+Sun Dried fish (Small Variety),5023,,
+Fresh fish (Large Variety),5031,,
+Fresh fish (Medium Variety),5032,,
+Fresh fish (Small Variety),5033,,
+Smoked fish (Large Variety),5121,,
+Smoked fish (Medium Variety),5122,,
+Smoked fish (Small Variety),5123,,
+Fresh fish,503,230,100
+Dried fish,502,255,100
+Groundnut,304,570,70

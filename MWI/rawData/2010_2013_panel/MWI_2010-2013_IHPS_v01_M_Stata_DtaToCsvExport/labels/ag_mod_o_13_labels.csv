@@ -1,0 +1,71 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_o0b,byte,1,%25.0g,AG_S0B,CROP CODE
+6,ag_o0_1,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID.
+7,ag_o01,byte,1,%8.0g,AG_S01,Did you sell any of the harvested [CROP]?
+8,ag_o02a,int,1,%12.0g,,How much of the harvested [CROP] was sold in total? (QUANTITY)
+9,ag_o02b,byte,1,%15.0g,AG_S02B,How much of the harvested [CROP] was sold in total? (UNIT)
+10,ag_o02c,byte,1,%14.0g,AG_S02C,How much of the harvested [CROP] was sold in total? (S/U)
+11,ag_o03,long,1,%12.0g,,What was the total value of all [CROP] sales?
+12,ag_o11,str3,0,%9s,,Who/What was the [LARGEST BUYER/OUTLET] for your [CROP] sales?
+13,ag_o12a,float,1,%9.0g,,How much of the harvested [CROP] was sold to [LARGEST BUYER/OUTLET]? (QUANTITY)
+14,ag_o12b,byte,1,%15.0g,AG_S05B,How much of the harvested [CROP] was sold to [LARGEST BUYER/OUTLET]? (UNIT)
+15,ag_o12c,byte,1,%14.0g,AG_S05C,How much of the harvested [CROP] was sold to [LARGEST BUYER/OUTLET]? (S/U)
+16,ag_o12_1a,byte,1,%8.0g,,Who in your household is responsible for negotiating the sale of [CROP] to the [
+17,ag_o12_1b,byte,1,%8.0g,,Who in your household is responsible for negotiating the sale of [CROP] to the [
+18,ag_o13,long,1,%12.0g,,What was the total value of [CROP] sales to [LARGEST BUYER/OUTLET]?
+19,ag_o14a,byte,1,%8.0g,,Who in your household kept/decided what to do with these earnings? (ID CODE 1)
+20,ag_o14b,byte,1,%8.0g,,Who in your household kept/decided what to do with these earnings? (ID CODE 2)
+21,ag_o15a,byte,1,%9.0g,AG_S08A,When was most of the [CROP] sold to [LARGEST BUYER/OUTLET]? (Month)
+22,ag_o15b,int,1,%8.0g,,When was most of the [CROP] sold to [LARGEST BUYER/OUTLET]? (Year)
+23,ag_o16,byte,1,%8.0g,,Approximately how many transactions took place while selling [CROP] to [LARGEST
+24,ag_o17,byte,1,%24.0g,AG_S10,What was the main mode of transportation associated with [CROP] sales to [LARGES
+25,ag_o18,int,1,%12.0g,,What was the total cost of transportation associated with the [CROP] sales to [L
+26,ag_o19,byte,1,%8.0g,AG_S12,Was there another buyer/outlet to whom you sold [CROP] during the 2013 dry (dimb
+27,ag_o20,str3,0,%9s,,Who/What was the [SECOND LARGEST BUYER/OUTLET] for your [CROP] sales?
+28,ag_o21a,byte,1,%9.0g,,How much of the harvested [CROP] was sold to [SECOND LARGEST BUYER/OUTLET]? (QUA
+29,ag_o21b,byte,1,%15.0g,AG_S14B,How much of the harvested [CROP] was sold to [SECOND LARGEST BUYER/OUTLET]? (UNI
+30,ag_o21c,byte,1,%14.0g,AG_S14C,How much of the harvested [CROP] was sold to [SECOND LARGEST BUYER/OUTLET]? (S/U
+31,ag_o21_1a,byte,1,%8.0g,,Who in your household is responsible for negotiating the sale of [CROP] to the [
+32,ag_o21_1b,byte,1,%8.0g,,Who in your household is responsible for negotiating the sale of [CROP] to the [
+33,ag_o22,int,1,%12.0g,,What was the total value of all [CROP] sales to [SECOND LARGEST BUYER/OUTLET]?
+34,ag_o23a,byte,1,%8.0g,,Who in your household kept/decided what to do with these earnings? (ID CODE 1)
+35,ag_o23b,byte,1,%8.0g,,Who in your household kept/decided what to do with these earnings? (ID CODE 2)
+36,ag_o24a,byte,1,%9.0g,AG_S17A,When was most of the [CROP] sold to [SECOND LARGEST BUYER/OUTLET]? (Month)
+37,ag_o24b,int,1,%8.0g,,When was most of the [CROP] sold to [SECOND LARGEST BUYER/OUTLET]? (Year)
+38,ag_o25,byte,1,%8.0g,,Approximately how many transactions took place while selling [CROP] to [SECOND L
+39,ag_o26,byte,1,%24.0g,AG_S19,What was the main mode of transportation associated with [CROP] sales to [SECOND
+40,ag_o27,byte,1,%12.0g,,What was the total cost of transportation associated with the [CROP] sales to [S
+41,ag_o31a,float,1,%9.0g,,How much of the harvested [CROP] during the 2013 dry (dimba) season was given ou
+42,ag_o31b,byte,1,%15.0g,AG_S24B,How much of the harvested [CROP] during the 2013 dry (dimba) season was given ou
+43,ag_o31c,byte,1,%14.0g,AG_S24C,How much of the harvested [CROP] during the 2013 dry (dimba) season was given ou
+44,ag_o32a,int,1,%9.0g,,How much of the harvested [CROP] during the 2013 dry (dimba) season was given ou
+45,ag_o32b,byte,1,%15.0g,AG_S25B,How much of the harvested [CROP] during the 2013 dry (dimba) season was given ou
+46,ag_o32c,byte,1,%14.0g,AG_S25C,How much of the harvested [CROP] during the 2013 dry (dimba) season was given ou
+47,ag_o33a,byte,1,%9.0g,,How much of the harvested [CROP] during the 2013 dry (dimba) season  was used fo
+48,ag_o33b,byte,1,%15.0g,AG_S26B,How much of the harvested [CROP] during the 2013 dry (dimba) season  was used fo
+49,ag_o33c,byte,1,%14.0g,AG_S26C,How much of the harvested [CROP] during the 2013 dry (dimba) season  was used fo
+50,ag_o34a,float,1,%9.0g,,How much of the harvested [CROP] during the [LAST COMPLETED DRY (DIMBA) SEASON]
+51,ag_o34b,byte,1,%15.0g,AG_S27B,How much of the harvested [CROP] during the [LAST COMPLETED DRY (DIMBA) SEASON]
+52,ag_o34c,byte,1,%14.0g,AG_S27C,How much of the harvested [CROP] during the [LAST COMPLETED DRY (DIMBA) SEASON]
+53,ag_o35a,float,1,%9.0g,,How much of the harvested [CROP] during the 2013 dry (dimba) season was saved fo
+54,ag_o35b,byte,1,%15.0g,AG_S28B,How much of the harvested [CROP] during the 2013 dry (dimba) season was saved fo
+55,ag_o35c,byte,1,%14.0g,AG_S28C,How much of the harvested [CROP] during the 2013 dry (dimba) season  was saved f
+56,ag_o36a,float,1,%9.0g,,How much of the the harvested [CROP] during the 2013 dry (dimba) season was lost
+57,ag_o36b,byte,1,%15.0g,AG_S29B,How much of the the harvested [CROP] during the 2013 dry (dimba) season  was los
+58,ag_o36c,byte,1,%14.0g,AG_S29C,How much of the the harvested [CROP] during the 2013 dry (dimba) season  was los
+59,ag_o36d,byte,1,%8.0g,,How much of the the harvested [CROP] during the 2013 dry (dimba) season  was los
+60,ag_o37a,byte,1,%15.0g,AG_S30A,What was the reason for loss? (1ST)
+61,ag_o37b,byte,1,%15.0g,AG_S30B,What was the reason for loss? (2ND)
+62,ag_o38,byte,1,%8.0g,AG_S31,Do you have any of the harvested [CROP] in storage now?
+63,ag_o39,byte,1,%19.0g,AG_S32,What is your main method of storage for this crop?
+64,ag_o40a,float,1,%9.0g,,How much of the harvested [CROP] during the 2013 dry (dimba) season  is being st
+65,ag_o40b,byte,1,%15.0g,AG_S33B,How much of the harvested [CROP] during the 2013 dry (dimba) season  is being st
+66,ag_o40c,byte,1,%14.0g,AG_S33C,How much of the harvested [CROP] during the 2013 dry (dimba) season  is being st
+67,ag_o41a,byte,1,%17.0g,AG_S34A,What did you do to protect the stored [CROP]? (1ST)
+68,ag_o41b,byte,1,%17.0g,AG_S34B,What did you do to protect the stored [CROP]? (2ND)
+69,ag_o42a,byte,1,%25.0g,AG_S35A,"In general, when you store [CROP], what is usually the main purpose for storing"
+70,ag_o42b,byte,1,%25.0g,AG_S35B,"In general, when you store [CROP], what is usually the main purpose for storing"

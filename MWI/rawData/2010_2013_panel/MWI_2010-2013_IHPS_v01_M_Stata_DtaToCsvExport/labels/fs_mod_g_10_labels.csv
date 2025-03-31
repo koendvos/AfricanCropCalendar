@@ -1,0 +1,18 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,Unique HH Identifier
+3,visit,byte,1,%9.0g,,Panel Visit
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,fs_g00,byte,1,%8.0g,,HH ROSTER ID CODE
+6,fs_g01a,byte,1,%8.0g,,How many weeks was [NAME] a full-time fisher during the last LOW fishing season?
+7,fs_g01b,byte,1,%8.0g,,"During those weeks, approximately how many days did [NAME] fish per week?"
+8,fs_g01c,byte,1,%9.0g,,"During those days, approximately how many hours did [NAME] fish per day?"
+9,fs_g02a,byte,1,%8.0g,,How many weeks was [NAME] a part-time fisher during the last LOW fishing season?
+10,fs_g02b,byte,1,%8.0g,,"During those weeks, approximately how many days did [NAME] part-time fish per we"
+11,fs_g02c,byte,1,%9.0g,,"During those days, approximately how many hours did [NAME] part-time fish per da"
+12,fs_g03a,byte,1,%8.0g,,How many weeks did [NAME] engage in fish processing during the last LOW fishing
+13,fs_g03b,byte,1,%8.0g,,"During those weeks, approximately how many days per week did [NAME] process fish"
+14,fs_g03c,byte,1,%9.0g,,"During those days, approximately how many hours per day did [NAME] process fish?"
+15,fs_g04a,byte,1,%8.0g,,How many weeks did [NAME] engage in fish trading during the last LOW fishing sea
+16,fs_g04b,byte,1,%8.0g,,"During those weeks, approximately how many days per week did [NAME] trade fish?"
+17,fs_g04c,byte,1,%9.0g,,"During those days, approximately how many hours per day did [NAME] trade fish?"

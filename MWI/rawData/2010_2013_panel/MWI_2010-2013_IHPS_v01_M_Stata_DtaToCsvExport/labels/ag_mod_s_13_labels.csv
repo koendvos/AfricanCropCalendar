@@ -1,0 +1,25 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_s0a,int,1,%16.0g,AG_J0A,PRODUCT CODE
+6,ag_s01,byte,1,%8.0g,AG_J01,Did your household produce any [PRODUCT] during the last 12 months?
+7,ag_s02,byte,1,%8.0g,,"During the last 12 months, for how many months did your household produce any [P"
+8,ag_s03a,float,1,%9.0g,,"During these months, what was the average quantity of [PRODUCT] produced per mon"
+9,ag_s03b,byte,1,%15.0g,AG_J03B,"During these months, what was the average quantity of [PRODUCT] produced per mon"
+10,ag_s04,byte,1,%8.0g,AG_J04,Did you sell any of the [PRODUCT] that you produced in the last 12 months?
+11,ag_s05a,int,1,%9.0g,,How much of the [PRODUCT] produced did you sell in the last 12 months? (QUANTITY
+12,ag_s05b,byte,1,%15.0g,AG_J05B,How much of the [PRODUCT] produced did you sell in the last 12 months? (UNIT)
+13,ag_s06,long,1,%12.0g,,What was the total value of sales of [PRODUCT] in the last 12 months?
+14,ag_s07a,byte,1,%8.0g,,Who in your household kept/decided what to do with the earnings from [PRODUCT]?
+15,ag_s07b,byte,1,%8.0g,,Who in your household kept/decided what to do with the earnings from [PRODUCT]?
+16,ag_s08,str3,0,%9s,,To whom did you sell most [PRODUCT] that you sold?
+17,ag_s09a,float,1,%9.0g,,How much of the PRODUCT] produced did your household consume in the last 12 mont
+18,ag_s09b,byte,1,%15.0g,AG_J09B,How much of the PRODUCT] produced did your household consume in the last 12 mont
+19,ag_s10a,int,1,%9.0g,,How much of the [PRODUCT] produced did you give out in the last 12 months as gif
+20,ag_s10b,byte,1,%15.0g,AG_J10B,How much of the [PRODUCT] produced did you give out in the last 12 months as gif
+21,ag_s11a,byte,1,%9.0g,,How much of the [PRODUCT] produced did you give out in the last 12 months as rei
+22,ag_s11b,byte,1,%15.0g,AG_J11B,How much of the [PRODUCT] produced did you give out in the last 12 months as rei
+23,ag_s12,byte,1,%8.0g,AG_J12,"Did you incur any expenses, such as labor costs, additional inputs, transport, e"
+24,ag_s13,int,1,%12.0g,,What was the total value of these additional expenses?

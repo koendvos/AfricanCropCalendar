@@ -1,0 +1,29 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_g00_1,byte,1,%8.0g,,Who in the household is most knowledgeable about food consumed in the HH
+4,hh_g00_2,byte,1,%8.0g,,Who in the household is reporting information on food consumption in this househ
+5,hh_g01,byte,1,%8.0g,hh_g01,Did you or others in your household consume...
+6,hh_g01_oth,strL,0,%44s,,Other Specified Item
+7,hh_g02,int,1,%8.0g,hh_g02,Item
+8,hh_g03a,double,1,%12.0g,,How much in total did your household consume in the past week? Quantity
+9,hh_g03b,str3,0,%3s,,unit
+10,hh_g03b_label,byte,1,%8.0g,hh_g03b,unit
+11,hh_g03b_oth,str21,0,%21s,,Specify the UNIT for how much in total did your household consume in the househo
+12,hh_g03c,byte,1,%8.0g,hh_g03c,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM. REFER TO PHOTO AID.
+13,hh_g04a,double,1,%12.0g,,How much came from purchases? QUANTITY
+14,hh_g04b,str3,0,%3s,,unit
+15,hh_g04b_label,byte,1,%8.0g,hh_g04b,unit
+16,hh_g04b_oth,str21,0,%21s,,Specify the UNIT for how much in total did your household consume in the househo
+17,hh_g04c,byte,1,%8.0g,hh_g04c,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM. REFER TO PHOTO AID.
+18,hh_g05,long,1,%12.0g,,How much did you spend? MK
+19,hh_g06a,double,1,%12.0g,,How much came from own-production? QUANTITY
+20,hh_g06b,str3,0,%3s,,unit
+21,hh_g06b_label,byte,1,%8.0g,hh_g06b,unit
+22,hh_g06b_oth,str18,0,%18s,,Specify the UNIT for how much in total did your household consume in the househo
+23,hh_g06c,byte,1,%8.0g,hh_g06c,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM. REFER TO PHOTO AID.
+24,hh_g07a,double,1,%12.0g,,How much came from gifts and other sources?
+25,hh_g07b,str3,0,%3s,,unit
+26,hh_g07b_label,byte,1,%8.0g,hh_g07b,unit
+27,hh_g07b_oth,str18,0,%18s,,Specify the UNIT for how much in total did your household consume in the househo
+28,hh_g07c,byte,1,%8.0g,hh_g07c,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM. REFER TO PHOTO AID.

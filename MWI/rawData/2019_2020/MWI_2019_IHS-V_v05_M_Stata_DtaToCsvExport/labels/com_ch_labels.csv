@@ -1,0 +1,34 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%9s,,Unique EA Identifier
+2,com_ch0b,int,1,%6.0f,communityNeeds__id,Item Code
+3,com_ch01,byte,1,%6.0f,ch1,"Since 2016, have any of the community members ever approached the village head"
+4,com_ch02,byte,1,%6.0f,ch2,"Since 2016, have the village headman..organized..discuss how to address a need f"
+5,com_ch04,byte,1,%6.0f,ch4,"Since 2016, did the community members (besides village headman and other lo"
+6,com_ch05,byte,1,%6.0f,ch5,Under whose leadership was the meeting(s) organized?
+7,com_ch05_oth,str33,0,%33s,,"Please, specify under whose Other leadership was the meeting organized"
+8,com_ch06,byte,1,%6.0f,ch6,Was the meeting(s) successful in determining the steps that were needed to
+9,com_ch07a,byte,1,%6.0f,ch07,"To address the need for [ITEM],…:Mobilize Manpower"
+10,com_ch07b,byte,1,%6.0f,ch07,"To address the need for [ITEM],…:Mobilize Financia"
+11,com_ch07c,byte,1,%6.0f,ch07,"To address the need for [ITEM],…:Submit a Proposal"
+12,com_ch07d,byte,1,%6.0f,ch07,"To address the need for [ITEM],…:Seek Resources Through traditional authority"
+13,com_ch07e,byte,1,%6.0f,ch07,"To address the need for [ITEM],…:Seek Resources Through City/District Commission"
+14,com_ch07f,byte,1,%6.0f,ch07,"To address the need for [ITEM],…:Seek Resources Through Relevant MP"
+15,com_ch07h,byte,1,%6.0f,ch07,"To address the need for [ITEM],…:Seek resources through NGO/Religious"
+16,com_ch07i,byte,1,%6.0f,,"To address the need for [ITEM],…:Other (Specify)"
+17,com_ch07_oth,str68,0,%9s,,Please specify the other action the community took to address %rosterti
+18,com_ch09,byte,1,%6.0f,ch9,Was the need for [ITEM] addressed?
+19,com_ch09_1a,byte,1,%34.0g,source,What was/will be the source of the funds for %rostertitle%?(1ST)
+20,com_ch09_1b,byte,1,%34.0g,source,What was/will be the source of the funds for %rostertitle%?(2ND)
+21,com_ch09_1c,byte,1,%34.0g,source,What was/will be the source of the funds for %rostertitle%?(3RD)
+22,com_ch09_1_oth,str34,0,%34s,,"Please, specify Other"
+23,com_ch10,long,1,%6.0f,,What was/will be the total funding for [ITEM]? MK
+24,com_ch11,long,1,%6.0f,,What was/will be the total amount of money contributed by community member
+25,com_ch12,byte,1,%6.0f,ch12, How were/will be the contributions raised?
+26,com_ch12_oth,str40,0,%40s,,Specify other way contributions were raised
+27,com_ch13a,byte,1,%6.0f,ch07," To address the need for [ITEM], did the community members…:Serve in"
+28,com_ch13b,byte,1,%6.0f,ch07," To address the need for [ITEM], did the community members…:Provide"
+29,com_ch13c,byte,1,%6.0f,ch07,"To address the need for [ITEM], did the community members…:Supply a"
+30,com_ch13_oth,str46,0,%46s,,Specify other in-kind contribution
+31,com_ch14,byte,1,%6.0f,ch14,Who chose the members of the [ITEM] project committee?
+32,com_ch14_oth,str26,0,%26s,,Specify other person who chose members of the project committee.
+33,com_ch15,byte,1,%6.0f,ch15,Was the need for [ITEM] Is the need for [ITEM] going to be a

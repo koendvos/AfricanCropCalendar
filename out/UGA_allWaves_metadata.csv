@@ -1,0 +1,85 @@
+country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,dataset_doi
+Uganda,2019-20,hhID,hhid,Unique household identifier in 2019/20/ Unique 32-character long identifier of the interview,0,0,"hhid was changed again since 2018/19, the old ones are available in the raw data",UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plotID,pltid,Plot identifier,0,0,may not be unique,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plot_area_reported_localUnit,"s4aq07, s4bq07",7.What was the total area of %rostertitle% planted?,0.39626897518746573,0.4048355355636773,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,crop_area_share,"s4aq09, s4bq09",9. Approximately what percentage of the plot area was under this %rostertitle%?,47.1499116015363,45.18976665729547,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,planting_month,"s4aq09_1, s4bq09_1",9.1. What month was the crop planted?,0.085350240809608,0.11807703120607252,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,planting_year,"s4aq09_2, s4bq09_2",9.2. What year was the crop planted?(YYYY),0.05486801194903372,0.06184987348889513,9998 as planting year,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,fieldID,parcelID,Parcel identifier,0,0,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plot_area_reported_ha,NA,NA,0.39626897518746573,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,localUnit_area,NA,NA,0.39626897518746573,NA,according to questionnaire,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,crop,cropID,Id in crop_code,0,0,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_month_begin,"s5aq06e_1, s5bq06e_1","6e. Month harvest began (2018, full harvest, condition1)",18.179601292446502,19.330896823165588,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_year_begin,"s5aq06e_1_1, s5bq06e_1_1","6e1. Year harvest began (2018, full harvest, condition1)",18.179601292446502,19.330896823165588,range 20 to 2819,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_month_end,"s5aq06f_1, s5bq06f_1","6f. Month harvest ended (2018, full harvest, condition1)",18.173504846674387,19.325274107393874,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_year_end,"s5aq06f_1_1, s5bq06f_1_1","6f1. Year harvest ended (2018, full harvest, condition1)",18.185697738218614,19.336519538937303,range 24 to 2819,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,season,NA,NA,0,NA,two visits,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm1,district,District Name,0.02438578308845943,0.03227888960619754,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm2,s1aq03a,3. Sub-County/Division/Town Council,0.02438578308845943,0.03227888960619754,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm3,s1aq04a,4. Parish/Ward,0.02438578308845943,0.03227888960619754,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,lat,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,lon,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,GPS_level,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plot_area_measured_ha,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_month,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_year,NA,NA,100,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm4,NA,NA,100,NA,no village name,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,dataset_name,NA,NA,0,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,country,NA,NA,0,NA,NA,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,dataset_doi,NA,NA,0,NA,ADDITIONAL COMMENT: warnings in R code: funs() was deprecated in dplyr 0.8.0.; One or more parsing issues (harvest_month/year_begin/end),UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2015-16,hhID,HHID,Household number,0,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plotID,plotID,Plot identifier,0.02194233554219511,NA,"plotID may not be unique, not all rows in the original dataset are unique",UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plot_area_reported_localUnit,"a4aq7, a4bq7",total area of plot planted,1.5096326853030235,0.06337135614702154,sometimes 0.000,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,crop_area_share,"a4aq9, a4bq9","what percentage of the plot area was under this crop?, approximately what percentage of the plot area was under this crop?",27.182165269671305,26.58184654382373,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,planting_month,"a4aq9_1, a4bq9_1",Month crop planted,2.7603458112081447,1.369796236716389,implausible planting month: 99,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,planting_year,"a4aq9_2, a4bq9_2",Year crop planted,2.8261728178347303,1.418543433752559,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,fieldID,parcelID,Parcel identifier,0,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plot_area_reported_ha,NA,NA,1.5096326853030235,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,localUnit_area,NA,NA,1.5096326853030235,NA,"acres, according to questionnaire",UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,crop,cropID,"Crop name, Crop_code2:crop name",0,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_month_begin,"a5aq6e, a5bq6e",in what month did the harvest begin?,16.952648439899942,0.7786655809455952,up to month 26,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_year_begin,"a5aq6e_1, a5bq6e_1",in what year did the harvest begin?,16.29876684074253,0.01526795256756069,year 216 included,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_month_end,"a5aq6f, a5bq6f",in what month did the harvest end?,17.119410190020627,0.972059646801364,up to month 26,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_year_end,"a5aq6f_1, a5bq6f_1",in what year did the harvest end?,16.29876684074253,0.01526795256756069,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,season,NA,NA,0,NA,two visits,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm1,district_name,L1name,1.496467283977707,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm2,subcounty_name,L2name,1.496467283977707,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm3,parish_name,L3name,1.496467283977707,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm4,village_name,L4name,1.496467283977707,0,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,lat,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,lon,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,GPS_level,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plot_area_measured_ha,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_month,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_year,NA,NA,100,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,dataset_name,NA,NA,0,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,country,NA,NA,0,NA,NA,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,dataset_doi,NA,NA,0,NA,"ADDITIONAL COMMENT: warnings in R code: funs() was deprecated in dplyr 0.8.0., Detected an unexpected many-to-many relationship between `x` and `y`",UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2018-19,hhID,hhid,Unique household identifier in 2018/19/ InterviewId,0,0,"hhid was changed since 2016, both are available in the raw data",UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plotID,pltid,Plot identifier,0,0,plotID may not be unique,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plot_area_reported_localUnit,"s4aq07, s4bq07",7.What was the total area of %rostertitle% planted?,1.1422769386978042,0.9028347749226592,sometimes 0.00,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,crop_area_share,"s4aq09, s4bq09",9. Approximately what percentage of the plot area was under this %rostertitle%?,30.955705038710494,31.308794747143125,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,planting_month,"s4aq09_1, s4bq09_1",9.1. What month was the crop planted?,1.6372636121335196,2.1402866342572135,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,planting_year,"s4aq09_2, s4bq09_2",9.2. What year was the crop planted?(YYYY),1.5293819012565046,2.032956626049624,range: 2 to 20186,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,fieldID,parcelID,Parcel identifier,0,0,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plot_area_reported_ha,NA,NA,1.1422769386978042,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,localUnit_area,NA,NA,1.1422769386978042,NA,according to questionnaire,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,crop,cropID,Roster instance identifier,0,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_month_begin,"s5aq06e_1, s5bq06e_1",6e. In what month did the harvest begin?,12.152557431146084,0.04931661265323376,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_year_begin,"s5aq06e_1_1, s5bq06e_1_1",6e_1. In what year did the harvest begin? (YY),12.152557431146084,0.04931661265323376,range: 0 to 20186,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_month_end,"s5aq06f_1, s5bq06f_1","6f. In what month did the harvest end?,",12.222363244066504,0.1268141468226011,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_year_end,"s5aq06f_1_1, s5bq06f_1_1",6f_1. In what year did the harvest end? (YY),12.228709227059271,0.1338593772016345,range: 201 to 2818,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,season,NA,NA,0,NA,two visits,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm1,district_2018/ distirct_name,District name,0.9328594999365402,0,different label in study documentation and .csv file,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm2,subcounty_2018/ subcounty_name,Sub country name,0.9328594999365402,0,different label in study documentation and .csv file,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm3,parish_2018/ parish_name,Parish Code,0.9328594999365402,0,different label in study documentation and .csv file,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm4,village/ ???,NA,0.9328594999365402,0,label non existent in study documentary,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,lat,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,lon,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,GPS_level,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plot_area_measured_ha,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_month,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_year,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,dataset_name,NA,NA,0,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,country,NA,NA,0,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,dataset_doi,NA,NA,0,NA,ADDITIONAL COMMENT: warnings in R code: funs() was deprecated in dplyr 0.8.0.; One or more parsing issues (harvest_month/year_begin/end),UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774

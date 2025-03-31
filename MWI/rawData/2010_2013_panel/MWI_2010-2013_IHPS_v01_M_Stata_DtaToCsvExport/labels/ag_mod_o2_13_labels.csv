@@ -1,0 +1,15 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_o01,byte,1,%8.0g,AG_T01,Were there any additional plots that you may have cultivated with tree/permanent
+6,ag_o00,str3,0,%9s,,Plot ID
+7,ag_o02,str24,0,%24s,,Plot Name
+8,ag_o03_2,str4,0,%9s,,ENUMERATOR: RECORD THE 2012/13 GARDEN ID OF THE GARDEN THAT THE PLOT IS A PART O
+9,ag_o04a,float,1,%9.0g,,What is the area of this [PLOT]? (Area)
+10,ag_o04b,byte,1,%15.0g,AG_T04B,What is the area of this [PLOT]? (Unit)
+11,ag_o04c,float,1,%9.0g,,What is the area of this [PLOT]? (Area in Acres)
+12,ag_o05e,byte,1,%17.0g,AG_T05E,REASON DID NOT RECORD GPS COORDINATES
+13,ag_o06,byte,1,%8.0g,,ENUMERATOR: RECORD NUMBER OF SATELLITES GPS TRACKED TO CAPTURE PLOT COORDINATES
+14,ag_o07,byte,1,%37.0g,AG_T07,ENUMERATOR: RECORD THE WEATHER CONDITIONS AT TIME OF MEASUREMENT

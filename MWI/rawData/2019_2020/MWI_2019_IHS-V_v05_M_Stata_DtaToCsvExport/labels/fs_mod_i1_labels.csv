@@ -1,0 +1,60 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Unique Household Identification IHS5
+3,fs_i02,byte,1,%10.0g,species,list up to 5 main species of fish that..HH have landed as a fisher during the la
+4,fs_i01,byte,1,%6.0f,fs_i01,ENUMERATOR: CHECK MODULE C WERE ANY HOUSEHOLD MEMBER
+5,fs_i02_Oth,str7,0,%9s,,Specify other fish species that you or any member of your household have l
+6,fs_i03,byte,1,%6.0f,,How many weeks have you or any member your household landed %rostert
+7,fs_i04a,int,1,%6.0f,,"How much [FISH SPECIES]  did you, other members of your household and/or any"
+8,fs_i04b,byte,1,%6.0f,fs_i04b,Identify type of packaging for [FISH SPECIES] .
+9,fs_i_04c,str13,0,%13s,,Specify other type of packaging.
+10,fs_i04d,byte,1,%6.0f,fs_i04d,Identify form of processing for the [FISH SPECIES] .
+11,fs_i04e,str4,0,%9s,,Specify other form of processing.
+12,fs_i04f,byte,1,%6.0f,fs_i04f,Was there any other form of processing of the fish?
+13,fs_i04g,byte,1,%6.0f,,"How much [FISH SPECIES]  did you, other members of your household and/or any"
+14,fs_i04h,byte,1,%6.0f,fs_i04h,Identify form of packaging for the [FISH SPECIES] .
+15,fs_i04i,str1,0,%9s,,Specify other form of packaging.
+16,fs_i04j,byte,1,%6.0f,fs_i04j,Identify form of processing for [FISH SPECIES] .
+17,fs_i04k,str1,0,%9s,,Specify other form of processing.
+18,fs_i05a,str9,0,%9s,,"ENUMERATOR: FOR EACH SPECIES, MULTIPLY  THE AMOUNT  LANDED / WEEK B"
+19,fs_i05b,byte,1,%6.0f,,PROCESSING TYPE 2:
+20,fs_i06a,int,1,%6.0f,,"How much [FISH SPECIES]  did you, other members of your household and/or any"
+21,fs_i06b,byte,1,%6.0f,fs_i06b,Identify form of packaging for [FISH SPECIES] .
+22,fs_i06c,str13,0,%13s,,Specify other form of packaging.
+23,fs_i06d,byte,1,%6.0f,fs_i06d,Identify form of processing for [FISH SPECIES] .
+24,fs_i06e,str4,0,%9s,,Specify other form of processing.
+25,fs_i06f,byte,1,%6.0f,,"How much [FISH SPECIES]  did you, other members of your household and/or any"
+26,fs_i06g,byte,1,%6.0f,fs_i06g,Identify form of packaging for [FISH SPECIES] .
+27,fs_i06h,str1,0,%9s,,Specify other form of packaging.
+28,fs_i06i,byte,1,%6.0f,fs_i06i,Identify form of processing for [FISH SPECIES] .
+29,fs_i06j,str1,0,%9s,,Specify other form of processing.
+30,fs_i07a,byte,1,%6.0f,fs_i07a,ENUMERATOR: ARE THE FIGURES  IN QUESTIONS 5 AND 6 CONSISTENT?
+31,fs_i07b,str1,0,%9s,,INDICATE  BELOW THE REASON FOR THE DISCREPANCY BETWEEN  THE TWO CATCH ESTI
+32,fs_i08a,long,1,%6.0f,,How much [FISH SPECIES]  did you and/or other members of your household sell
+33,fs_i08b,byte,1,%6.0f,fs_i08b,Identify type of packaging for [FISH SPECIES] .
+34,fs_i08c,str13,0,%13s,,Specify other type of packaging.
+35,fs_i08d,byte,1,%6.0f,fs_i08d,Identify form of processing for [FISH SPECIES] .
+36,fs_i08e,str8,0,%9s,,Specify other form of processing.
+37,fs_i08f,long,1,%6.0f,,"During the weeks of operation, what was the average price per packaging un"
+38,fs_i08g,byte,1,%6.0f,,"How much [FISH SPECIES]  did you, other members of your household and/or any"
+39,fs_i08h,byte,1,%6.0f,fs_i08h,Identify type of packaging for [FISH SPECIES] .
+40,fs_i08i,str1,0,%9s,,Specify other type of packaging.
+41,fs_i08j,byte,1,%6.0f,fs_i08j,Identify form of processing for [FISH SPECIES] .
+42,fs_i08k,str1,0,%9s,,Specify other form of processing.
+43,fs_i08l,int,1,%6.0f,,"During the weeks of operation, what was the average price per packaging un"
+44,fs_i09,byte,1,%6.0f,,For how many weeks  did you sell  [FISH SPECIES]  during the last LOW fishin
+45,fs_i10a,byte,1,%6.0f,fs_i10a,ENUMERATOR: IS THE NUMBER OF WEEKS IN QUESTION  9 DIFFERENT FROM THE
+46,fs_i10b,str36,0,%36s,,PLEASE SPECIFY THE REASON FOR DISCREPANCY BETWEEN THE TWO NUMBERS.
+47,fs_i11a,int,1,%6.0f,,How much [FISH SPECIES]  caught by you and/or other members of your househol
+48,fs_i11b,byte,1,%6.0f,fs_i11b,Identify type of packaging for [FISH SPECIES] .
+49,fs_i11c,str13,0,%13s,,Specify other type of packaging.
+50,fs_i11d,byte,1,%6.0f,fs_i11d,Identify form of processing for [FISH SPECIES] .
+51,fs_i11e,str1,0,%9s,,Specify other form of processing.
+52,fs_i11f,byte,1,%6.0f,,How much [FISH SPECIES]  caught by you and/or other members of your househol
+53,fs_i11g,byte,1,%6.0f,fs_i11g,Identify type of packaging for [FISH SPECIES] .
+54,fs_i11h,str1,0,%9s,,Specify other type of packaging.
+55,fs_i11i,byte,1,%6.0f,fs_i11i,Identify form of processing for [FISH SPECIES] .
+56,fs_i11j,str1,0,%9s,,Specify other form of processing.
+57,fs_i12,byte,1,%6.0f,fs_i12,"Overall, during the last LOW fishing season, what share of the tota"
+58,fs_i13a,byte,1,%6.0f,fs_i13a,"ENUMERATOR: FOR EACH SPECIES,  THE AMOUNT  LANDED / WEEK SHOULD BE"
+59,fs_i13b,str1,0,%9s,,PLEASE INDICATE  BELOW THE REASON FOR THE DISCREPANCY BETWEEN THE TWO CATC

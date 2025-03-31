@@ -1,0 +1,14 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_n01,byte,1,%8.0g,HH_N01,Owned a non-agricultural business or provided a non-agricultural service from ho
+6,hh_n02,byte,1,%8.0g,HH_N02,"Processed and sold any agricultural by-products, including flour, starch, juice,"
+7,hh_n03,byte,1,%8.0g,HH_N03,Owned a trading business on a street or in a market?
+8,hh_n04,byte,1,%8.0g,HH_N04,"Offered any service or sold anything on a street or in a market, including firew"
+9,hh_n05,byte,1,%8.0g,HH_N05,Owned a professional office or offered professional services from home as a doct
+10,hh_n06,byte,1,%8.0g,HH_N06,Driven a household-owned taxi or pick-up truck to provide transportation or movi
+11,hh_n07,byte,1,%8.0g,HH_N07,Owned a bar or restaurant?
+12,hh_n08,byte,1,%8.0g,HH_N08,"Owned any other non-agricultural business, even if it is a small business run fr"
+13,hh_n0b,byte,1,%8.0g,HH_N0B,ENUMERATOR: IS THERE A '1' FOR ANY OF THE QUESTIONS 'N01' THROUGH 'N08'?

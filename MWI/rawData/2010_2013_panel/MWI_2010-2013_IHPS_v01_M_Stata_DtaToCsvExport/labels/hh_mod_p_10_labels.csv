@@ -1,0 +1,15 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,hh_p0a,int,1,%60.0g,HH_P0A,Source Code
+7,hh_p0a_os,str39,0,%39s,,Source Code (Other Specify)
+8,hh_p01,byte,1,%8.0g,HH_P01,"During the last 12 months, did you or any members of your household receive [SOU"
+9,hh_p02,long,1,%12.0g,,How much [SOURCE] did your household receive in total during the last 12 months?
+10,hh_p03a,long,1,%12.0g,,How much of the total [SOURCE] came from rural locations?
+11,hh_p03b,long,1,%12.0g,,How much of the total [SOURCE] came from urban locations?
+12,hh_p03c,long,1,%12.0g,,How much of the total [SOURCE] came from international locations?
+13,hh_p04a,byte,1,%8.0g,,1st in the household kept/decide what to do with these earnings
+14,hh_p04b,byte,1,%8.0g,,2nd in the household kept/decide what to do with these earnings

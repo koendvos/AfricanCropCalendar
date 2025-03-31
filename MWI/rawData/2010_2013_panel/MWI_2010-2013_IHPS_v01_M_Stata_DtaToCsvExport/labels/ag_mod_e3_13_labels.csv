@@ -1,0 +1,14 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_e27a,byte,1,%8.0g,AG_E27A,Did your household have access to subsidy fertilizer in 2008/09
+6,ag_e27b,byte,1,%8.0g,AG_E27B,Did your household have access to subsidy fertilizer in 2009/10
+7,ag_e27c,byte,1,%8.0g,AG_E27C,Did your household have access to subsidy fertilizer in 2010/11
+8,ag_e27d,byte,1,%8.0g,AG_E27D,Did your household have access to subsidy fertilizer in 2011/12
+9,ag_e27e,byte,1,%8.0g,AG_E27A,Did your household have access to subsidy maize in 2008/09
+10,ag_e27f,byte,1,%8.0g,AG_E27B,Did your household have access to subsidy maize in 2009/10
+11,ag_e27g,byte,1,%8.0g,AG_E27C,Did your household have access to subsidy maize in 2010/11
+12,ag_e27h,byte,1,%8.0g,AG_E27D,Did your household have access to subsidy maize in 2011/12
+13,ag_e28,byte,1,%8.0g,AG_E28,"Did any members of this village obtain any fertilizer, maize, or flexi seed inpu"

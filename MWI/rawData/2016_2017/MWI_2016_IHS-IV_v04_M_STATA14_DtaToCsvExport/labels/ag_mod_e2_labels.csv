@@ -1,0 +1,53 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,ag_e01,byte,1,%8.0g,ag_e01,Did you or anyone in your HH obtain any input coupons during the [RS]?
+4,ag_e0e,int,1,%8.0g,,Coupon Id
+5,ag_e0g,byte,1,%8.0g,,HH Roster ID Code
+6,ag_e01_1,byte,1,%8.0g,coupon,Coupon Type
+7,ag_e02,byte,1,%8.0g,,From whom did [NAME] obtain the coupon?
+8,ag_e03,byte,1,%8.0g,ag_e03,Did [NAME] have to pay any money to get the [COUPON]?
+9,ag_e04,int,1,%8.0g,,How much did [NAME] pay to get the [COUPON]?
+10,ag_e05a,byte,1,%8.0g,ag_e05a,When did [NAME] obtain the [COUPON]?
+11,ag_e05b,int,1,%8.0g,,YEAR (4-DIGIT)
+12,ag_e06,byte,1,%8.0g,ag_e06,Did [NAME] redeem [COUPON] for inputs?
+13,ag_e07,byte,1,%8.0g,ag_e07,What type of input did [NAME] purchase with [COUPON]?
+14,ag_e08_1a,byte,1,%8.0g,ag_e08_1a,When did [NAME] redeem the [COUPON]?
+15,ag_e08_1b,int,1,%8.0g,,YEAR (4-DIGIT)
+16,ag_e08_2a,byte,1,%8.0g,,How.. to wait at ADMARC/OTHER INPUT SUPPLIER to redeem the [COUPON]?
+17,ag_e08_2b,byte,1,%8.0g,ag_e08_2b,TIME UNIT
+18,ag_e08a,int,1,%8.0g,,What was the quantity of input purchased with [COUPON]?
+19,ag_e08b,byte,1,%8.0g,ag_e08b,unit
+20,ag_e08b_oth,str1,0,%1s,,SPECIFY UNIT
+21,ag_e09,byte,1,%8.0g,ag_e09,Was any of the input purchased with [COUPON] exchanged with a fellow farmer
+22,ag_e10a,int,1,%8.0g,,How much of the input purchased with [COUPON] was exchanged for another? I
+23,ag_e10b,byte,1,%8.0g,ag_e10b,INPUT GIVEN  UNIT
+24,ag_e10b_oth,str24,0,%24s,,SPECIFY UNIT
+25,ag_e10c,byte,1,%8.0g,ag_e10c,INPUT RECEIVED  TYPE
+26,ag_e10c_oth,str17,0,%17s,,SPECIFY TYPE OF INPUT RECEIVED
+27,ag_e10d,byte,1,%8.0g,,INPUT RECEIVED   QUANTITY
+28,ag_e10e,byte,1,%8.0g,ag_e10e,INPUT RECEIVED  UNIT
+29,ag_e10e_oth,str24,0,%24s,,SPECIFY UNIT
+30,ag_e11,byte,1,%8.0g,ag_e11,..input purchased with [COUPON] shared with a fellow farmer for nothing in retur
+31,ag_e11_1,byte,1,%8.0g,ag_e11_1,Who proposed the sharing arrangement?
+32,ag_e11_1_oth,str8,0,%8s,,Specify who proposed the sharing arrangement.
+33,ag_e12a,int,1,%8.0g,,..input purchased with [COUPON] was shared with a fellow farmer for nothing in r
+34,ag_e12b,byte,1,%8.0g,ag_e12b,INPUT SHARED  UNIT
+35,ag_e12b_oth,str12,0,%12s,,SPECIFY UNIT
+36,ag_e13,byte,1,%8.0g,ag_e13,...main mode of transportation used to bring back the input..purchased with the
+37,ag_e13_1,byte,1,%8.0g,ag_e13_1,Was any other coupon redeemed during the same trip as referred to in the previou
+38,ag_e13_2,strL,0,%60s,,Which [COUPONS] were redeemed?
+39,ag_e13_oth,str14,0,%14s,,Specify the main mode of transportation used
+40,ag_e14,int,1,%8.0g,,Amt[NAME]paid for transportation to acquire the input purchased w/[TYPE]coupons?
+41,ag_e15,int,1,%8.0g,,How much was paid while redeeming the [COUPON] for inputs?
+42,ag_e15_1,int,1,%8.0g,,How much did [MEMBER] pay in bribes/other side payments while redeeming [COUPON]
+43,ag_e16,byte,1,%8.0g,,From whom did[NAME]purchase the inputs by redeeming[TYPE]coupons?
+44,ag_e18,byte,1,%8.0g,ag_e18,Did[NAME]sell any[TYPE]coupons that[NAME]obtained during the[RS]?
+45,ag_e20,int,1,%8.0g,,How much did [NAME] receive from the sale of the [COUPON]?
+46,ag_e21,byte,1,%8.0g,,To whom did [NAME] sell the [COUPON]?
+47,ag_e22,byte,1,%8.0g,ag_e22,Did[NAME]give away any[TYPE]coupons obtained during the[RS]to non-HH for free?
+48,ag_e24,byte,1,%8.0g,ag_e24,Was the [COUPON] lost or stolen?
+49,ag_e26a,byte,1,%8.0g,ag_e26,Why did [NAME] not redeem all [TYPE] coupons that [NAME] received? (1ST)
+50,ag_e26b,byte,1,%8.0g,ag_e26,Why did [NAME] not redeem all [TYPE] coupons that [NAME] received? (2ND)
+51,ag_e26_oth,str1,0,%1s,,Specify why [NAME] did not redeem the [COUPON].
+52,coupon_id,int,1,%8.0g,,

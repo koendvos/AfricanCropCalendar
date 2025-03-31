@@ -1,0 +1,42 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,fs_i0a,byte,1,%8.0g,,FISH CAUGHT ID
+6,fs_i01,byte,1,%8.0g,FS_I01,ENUMERATOR: CHECK MODULE G. WERE ANY HOUSEHOLD MEMBERS ENGAGED IN FISHING (Q1 or
+7,fs_i02,byte,1,%15.0g,FS_I02,Please list up to five main species of fish that you or any member of your house
+8,fs_i03,byte,1,%8.0g,,How many weeks have you or any member your household landed [FISH SPECIES] durin
+9,fs_i04a,int,1,%9.0g,,How much [FISH SPECIES] did you catch on average per week during the last LOW fi
+10,fs_i04b,byte,1,%15.0g,FS_I04B,How much [FISH SPECIES] did you catch on average per week during the last LOW fi
+11,fs_i04c,byte,1,%15.0g,FS_I04C,How much [FISH SPECIES] did you catch on average per week during the last LOW fi
+12,fs_i04d,byte,1,%9.0g,,How much [FISH SPECIES] did you catch on average per week during the last LOW fi
+13,fs_i04e,byte,1,%15.0g,FS_I04E,How much [FISH SPECIES] did you catch on average per week during the last LOW fi
+14,fs_i04f,byte,1,%15.0g,FS_I04F,How much [FISH SPECIES] did you catch on average per week during the last LOW fi
+15,fs_i05a,int,1,%12.0g,,ENUMERATOR: MULTIPLY THE AMOUNT LANDED / WEEK BY THE TOTAL NUMBER OF WEEKS OF FI
+16,fs_i05b,byte,1,%12.0g,,ENUMERATOR: MULTIPLY THE AMOUNT LANDED / WEEK BY THE TOTAL NUMBER OF WEEKS OF FI
+17,fs_i06a,int,1,%9.0g,,How much [FISH SPECIES] did you catch in TOTAL during the last LOW fishing seaso
+18,fs_i06b,byte,1,%15.0g,FS_I06B,How much [FISH SPECIES] did you catch in TOTAL during the last LOW fishing seaso
+19,fs_i06c,byte,1,%15.0g,FS_I06C,How much [FISH SPECIES] did you catch in TOTAL during the last LOW fishing seaso
+20,fs_i06d,byte,1,%9.0g,,How much [FISH SPECIES] did you catch in TOTAL during the last LOW fishing seaso
+21,fs_i06e,byte,1,%15.0g,FS_I06E,How much [FISH SPECIES] did you catch in TOTAL during the last LOW fishing seaso
+22,fs_i06f,byte,1,%15.0g,FS_I06F,How much [FISH SPECIES] did you catch in TOTAL during the last LOW fishing seaso
+23,fs_i07,byte,1,%29.0g,FS_I07,ENUMERATOR: ARE THE FIGURES IN QUESTIONS 5 AND 6 CONSISTENT?
+24,fs_i08a,int,1,%9.0g,,How much [FISH SPECIES] did you sell on average per week during the last LOW fis
+25,fs_i08b,byte,1,%15.0g,FS_I08B,How much [FISH SPECIES] did you sell on average per week during the last LOW fis
+26,fs_i08c,byte,1,%15.0g,FS_I08C,How much [FISH SPECIES] did you sell on average per week during the last LOW fis
+27,fs_i08d,long,1,%12.0g,,How much [FISH SPECIES] did you sell on average per week during the last LOW fis
+28,fs_i08e,byte,1,%9.0g,,How much [FISH SPECIES] did you sell on average per week during the last LOW fis
+29,fs_i08f,byte,1,%15.0g,FS_I08F,How much [FISH SPECIES] did you sell on average per week during the last LOW fis
+30,fs_i08g,byte,1,%15.0g,FS_I08G,How much [FISH SPECIES] did you sell on average per week during the last LOW fis
+31,fs_i08h,byte,1,%12.0g,,How much [FISH SPECIES] did you sell on average per week during the last LOW fis
+32,fs_i09,byte,1,%8.0g,,For how many weeks did you sell [FISH SPECIES] during the last LOW fishing seaso
+33,fs_i10,byte,1,%8.0g,FS_I10,Enumerator: IS THE NUMBER OF WEEKS IN QUESTION 9 DIFFERENT FROM THE NUMBER OF WE
+34,fs_i11a,byte,1,%9.0g,,How much [FISH SPECIES] caught by you during the last LOW fishing season were ke
+35,fs_i11b,byte,1,%15.0g,FS_I11B,How much [FISH SPECIES] caught by you during the last LOW fishing season were ke
+36,fs_i11c,byte,1,%15.0g,FS_I11C,How much [FISH SPECIES] caught by you during the last LOW fishing season were ke
+37,fs_i11d,byte,1,%9.0g,,How much [FISH SPECIES] caught by you during the last LOW fishing season were ke
+38,fs_i11e,byte,1,%15.0g,FS_I11E,How much [FISH SPECIES] caught by you during the last LOW fishing season were ke
+39,fs_i11f,byte,1,%15.0g,FS_I11F,How much [FISH SPECIES] caught by you during the last LOW fishing season were ke
+40,fs_i12,byte,1,%11.0g,FS_I12,"Overall, during the last LOW fishing season, how much [FISH SPECIES] do you keep"
+41,fs_i13,byte,1,%29.0g,FS_I13,"ENUMERATOR: FOR EACH SPECIES, THE AMOUNT LANDED / WEEK SHOULD BE APPROXIMATELY E"

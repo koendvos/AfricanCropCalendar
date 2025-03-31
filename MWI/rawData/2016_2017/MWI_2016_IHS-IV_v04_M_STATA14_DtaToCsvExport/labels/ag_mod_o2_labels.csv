@@ -1,0 +1,19 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%4s,,Garden ID
+4,plotid,str3,0,%3s,,Plot ID
+5,ag_o01,byte,1,%8.0g,ag_o_2_01,DID YOU OR ANYONE IN YOUR HH PRODUCE ANY TREE/PERM CROPS IN THE LAST 12 MONTHS?
+6,ag_o01a,byte,1,%8.0g,ag_o_2_1,WAS THIS PLOT PART OF........
+7,ag_o03_2a,str4,0,%4s,,RECORD THE RAINY SEASON GARDEN THAT THE PLOT IS A PART OF.
+8,ag_o03_2b,str4,0,%4s,,RECORD DIMBA SEASON GARDEN THAT THE PLOT IS A PART OF.
+9,ag_o03_2c,str4,0,%4s,,RECORD TREE/PERMANENT GARDEN THAT THE PLOT IS A PART OF.
+10,ag_o04a,double,1,%12.0g,, What is the area of this [PLOT]?
+11,ag_o04b,byte,1,%8.0g,ag_o_2_4b,unit
+12,ag_o04b_oth,str10,0,%10s,,SPECIFY UNIT
+13,ag_o04c,double,1,%12.0g,,What is the area of this [PLOT]?  [GPS]
+14,ag_o05e,byte,1,%8.0g,ag_o_2_05c,"IF YOU DID NOT RECORD THE GPS COORDINATES, PLEASE SPECIFY REASON."
+15,ag_o05e_oth,strL,0,%34s,,PLEASE SPECIFY REASON YOU DID NOT RECORD THE GPS COORDINATES
+16,ag_o06,byte,1,%8.0g,,Number of satelittes tracked to capture plot coordinates
+17,ag_o06a,byte,1,%8.0g,,ENUMERATOR: RECORD GPS ACCURACY
+18,ag_o07,byte,1,%8.0g,ag_o_2_07,ENUMERATOR: RECORD THE WEATHER CONDITIONS AT TIME OF MEASUREMENT:

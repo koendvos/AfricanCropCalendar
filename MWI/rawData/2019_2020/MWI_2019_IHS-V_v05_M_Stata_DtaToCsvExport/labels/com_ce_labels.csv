@@ -1,0 +1,32 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%9s,,Unique EA Identifier
+2,com_ce01a,byte,1,%43.0g,activities,..activities that are important sources of employment for individuals..?(1st)
+3,com_ce01b,byte,1,%43.0g,activities,..activities that are important sources of employment for individuals..?(2nd)
+4,com_ce01c,byte,1,%43.0g,activities,..activities that are important sources of employment for individuals..?(3rd)
+5,com_ce01a_oth,str32,0,%32s,,Specify other sources of employement
+6,com_ce01b_oth,str32,0,%32s,,Specify other sources of employement
+7,com_ce01c_oth,str32,0,%32s,,Specify other sources of employement
+8,com_ce02,byte,1,%6.0f,ce2,Do people..leave temporarily during certain times of the year to look for work?
+9,com_ce03,byte,1,%6.0f,ce3,What share of house-holds..have members leaving temporarily to look for work?
+10,com_ce04,byte,1,%6.0f,ce4,Where do most of them go?
+11,com_ce05a,byte,1,%43.0g,work,What type of work do they look for? (1st Type)
+12,com_ce05b,byte,1,%43.0g,work,What type of work do they look for? (2nd Type)
+13,com_ce05a_oth,str88,0,%88s,,Specify other type of work that people look for
+14,com_ce05b_oth,str88,0,%88s,,Specify other type of work that people look for
+15,com_ce06,byte,1,%6.0f,ce6,Do people come..during certain times of the year to look for work?
+16,com_ce07,byte,1,%6.0f,ce7,Where do most of them come from?
+17,com_ce08_1,int,1,%6.0f,,What is the daily ganyu wage for an adult male labourer?
+18,com_ce08_2,int,1,%6.0f,,What is the daily ganyu wage for an adult female labourer?
+19,com_ce08a,byte,1,%43.0g,work,What type of work do they look for? (1st Type)
+20,com_ce08b,byte,1,%43.0g,work,What type of work do they look for? (2nd Type)
+21,com_ce08a_oth,str54,0,%54s,,Specify other type of work people look for
+22,com_ce08b_oth,str54,0,%54s,,Specify other type of work people look for
+23,com_ce09,byte,1,%6.0f,ce9,Is there a MASAF programme..which hires residents who are in need of work?
+24,com_ce10,int,1,%6.0f,,What is the wage rate on the MASAF project for an adult male labourer? MK
+25,com_ce11a,int,1,%6.0f,,What period of time does this wage refer to?NUMBER
+26,com_ce11b,byte,1,%6.0f,ce11b,TIME UNIT
+27,com_ce12,byte,1,%6.0f,ce12,What share of adult males in this community work for the MASAF project?
+28,com_ce13,int,1,%6.0f,,What is the wage rate on the MASAF project for an adult female labourer?
+29,com_ce14a,int,1,%6.0f,,What period of time does this wage refer to?NUMBER
+30,com_ce14b,byte,1,%6.0f,ce14b,TIME UNIT
+31,com_ce15,byte,1,%6.0f,ce15,What share of adult females in this community work for the MASAF project?

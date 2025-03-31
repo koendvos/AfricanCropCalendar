@@ -1,0 +1,21 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_m00,byte,1,%8.0g,hh_m0a,"A. Did your household own or rent any farm implements, machinery and/or structur"
+4,hh_m0b,int,1,%8.0g,Id,Item Code
+5,hh_m0b_oth,str30,0,%30s,,"Please, specify what Other Machinery"
+6,hh_m0c,byte,1,%8.0g,hh_m0,Purchased Item?
+7,hh_m01,byte,1,%8.0g,,How many [ITEM] does your household currently own?
+8,hh_m02,double,1,%12.0g,,What is the age of the [ITEM]?
+9,hh_m03,long,1,%12.0g,,"If you wanted to sell one of this [ITEM] today, how much would you recieve"
+10,hh_m04,byte,1,%8.0g,hh_m04,Did your household buy any [ITEM] during the last 12 months?
+11,hh_m05,byte,1,%8.0g,,How many [ITEM] did your household buy?
+12,hh_m06,long,1,%12.0g,,What was the value of these?
+13,hh_m08,byte,1,%8.0g,,How many [ITEM] did your household build during the last 12 months?
+14,hh_m09,long,1,%12.0g,,How much did it cost to build [ITEM]?
+15,hh_m10,byte,1,%8.0g,hh_m10,Did your household use the [ITEM] during the last 12 months?
+16,hh_m11,byte,1,%8.0g,hh_m11,What was the main reason for not using the [ITEM]?
+17,hh_m11_oth,strL,0,%112s,,"Please, specify the main reason for not using [ITEM]."
+18,hh_m12,byte,1,%8.0g,hh_m12,Did your household rent or borrow any [ITEM] during the last 12 months
+19,hh_m13,byte,1,%8.0g,,How many [ITEM] did your household rent or borrow during the last 12 months
+20,hh_m14,long,1,%12.0g,,How much did your HH pay to rent or borrow [ITEM] during the last 12 months

@@ -1,0 +1,63 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,crop_code,byte,1,%8.0g,crop_complete,Consistent CC across Modules
+4,ag_i01,byte,1,%8.0g,ag_i01,Did you  sell  any of the harvested[CROP]?
+5,ag_i01_1,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID
+6,ag_i02a,int,1,%8.0g,,How much of the harvested[CROP] was  sold in total ?
+7,ag_i02b,byte,1,%8.0g,ag_i02b,unit
+8,ag_i02b_oth,str15,0,%15s,,SPECIFY UNIT
+9,ag_i02c,byte,1,%8.0g,ag_i02c,S/U
+10,ag_i03,long,1,%12.0g,,What was the  total value  of  all [CROP] sales?
+11,ag_i05a,byte,1,%8.0g,,Who/What were the main buyers/outlets for your[CROP]sales?(ID CODE #1)
+12,ag_i05b,byte,1,%8.0g,,Who/What were the main buyers/outlets for your[CROP]sales?(ID CODE #2)
+13,ag_i06a,byte,1,%8.0g,,Who in your HH kept/decided what to do with these earning?(ID CODE #1)
+14,ag_i06b,byte,1,%8.0g,,Who in your HH kept/decided what to do with these earning?(ID CODE #2)
+15,ag_i06c,byte,1,%8.0g,,Who in your HH kept/decided what to do with these earning?(ID CODE #3)
+16,ag_i07a,byte,1,%8.0g,ag_i07a,When was most of the[CROP] sold?
+17,ag_i07b,int,1,%8.0g,,YEAR <br><br>(4-DIGIT)
+18,ag_i08,int,1,%8.0g,,Approximately how many transactions took place while selling [CROP]?
+19,ag_i09,byte,1,%8.0g,ag_i09,What was the main mode of transportation associated with all [CROP] sales?
+20,ag_i09_oth,str11,0,%11s,,Specify the  main mode of transportation .
+21,ag_i10,long,1,%12.0g,,What was the total cost of transportation associated with all [CROP] sales?
+22,ag_i31a,double,1,%12.0g,,Amt of harvested[CROP]during[RS]given as gifts/reimbursements for land/labor?(Q)
+23,ag_i31b,byte,1,%8.0g,ag_i31b,unit
+24,ag_i31b_oth,str24,0,%24s,,SPECIFY UNIT
+25,ag_i31c,byte,1,%8.0g,ag_131c,S/U
+26,ag_i32a,int,1,%8.0g,,Amt of [CROP]given as reimbursements for inputs borrowed/acquired on credit?(Q)
+27,ag_i32b,byte,1,%8.0g,ag_i32b,unit
+28,ag_i32b_oth,str13,0,%13s,,SPECIFY UNIT
+29,ag_i32c,byte,1,%8.0g,ag_i32c,S/U
+30,ag_i33a,float,1,%9.0g,,Amt of harvested[CROP]used for animal feed?(QUANT)
+31,ag_i33b,byte,1,%8.0g,ag_i33b,unit
+32,ag_i33b_oth,str13,0,%13s,,SPECIFY UNIT
+33,ag_i33c,byte,1,%8.0g,ag_i33c,S/U
+34,ag_i34a,float,1,%9.0g,,Amt[CROP]used as input for[CROP]by-products that HH sold for cash/in-kind G/S(Q)
+35,ag_i34b,byte,1,%8.0g,ag_i34b,unit
+36,ag_i34b_oth,str13,0,%13s,,SPECIFY UNIT
+37,ag_i34c,byte,1,%8.0g,ag_i34c,S/U
+38,ag_i35a,double,1,%12.0g,,Amt of harvested[CROP]saved for seed?(QUANT)
+39,ag_i35b,byte,1,%8.0g,ag_i35b,unit
+40,ag_i35b_oth,str24,0,%24s,,SPECIFY UNIT
+41,ag_i35c,byte,1,%8.0g,ag_i35c,S/U
+42,ag_i36a,double,1,%12.0g,,"Amt of[CROP]lost to rotting,insects,rodents,theft in post-harvest period?(Q)"
+43,ag_i36b,byte,1,%8.0g,ag_i36b,OPTION 1 >UNIT
+44,ag_i36b_oth,str24,0,%24s,,SPECIFY UNIT
+45,ag_i36c,byte,1,%8.0g,ag_i36c,OPTION 1 S/U
+46,ag_i36d,byte,1,%8.0g,,OPTION 2 PERCENTAGE
+47,ag_i37a,byte,1,%8.0g,ag_i37,What was the reason for loss?(1ST)
+48,ag_i37b,byte,1,%8.0g,ag_i37,What was the reason for loss?(2ND)
+49,ag_i37_oth,strL,0,%42s,,Specify the  reason  for loss.
+50,ag_i38,byte,1,%8.0g,ag_i38,Do you have any of the harvested[CROP]  in storage  now
+51,ag_i39,byte,1,%8.0g,ag_i39,What is your  main method  of storage for this crop?
+52,ag_i39_oth,str22,0,%22s,,Specify your main method of storage for this crop.
+53,ag_i40a,int,1,%8.0g,,Amt of harvested[CROP]being stored by HH?(QUANT)
+54,ag_i40b,byte,1,%8.0g,ag_i40b,unit
+55,ag_i40b_oth,str13,0,%13s,,SPECIFY UNIT
+56,ag_i40c,byte,1,%8.0g,ag_i40c,S/U
+57,ag_i41_oth,str20,0,%20s,,Specify what you do to  protect  the stored[CROP].
+58,ag_i41a,byte,1,%8.0g,actions,What did you do to protect the stored [CROP]?(1ST)
+59,ag_i41b,byte,1,%8.0g,actions,What did you do to protect the stored [CROP]?(2ND)
+60,ag_i42a,byte,1,%8.0g,purpose,"When you store[CROP],what is usually the main purpose for storing it?(1ST)"
+61,ag_i42b,byte,1,%8.0g,purpose,"When you store[CROP],what is usually the main purpose for storing it?(2ND)"
+62,ag_i42_oth,str28,0,%28s,,Specify what is usually the  main purpose  for storing the crop.

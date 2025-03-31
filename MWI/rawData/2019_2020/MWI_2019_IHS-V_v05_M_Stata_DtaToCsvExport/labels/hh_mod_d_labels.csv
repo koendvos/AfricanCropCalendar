@@ -1,0 +1,61 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%36s,,Survey Solutions Unique HH Identifier
+3,PID,byte,1,%6.0f,,Person ID on HH Roster
+4,hh_d02,byte,1,%6.0f,hh_d02,IS THE INFORMATION SELF REPORTED OR IS IT BEING PROVIDED BY ANOTHER HH MEMBER?
+5,hh_d03,byte,1,%6.0f,,WHO IS REPORTING THE INFORMATION FOR THE INDIVIDUAL? LIST FROM HH
+6,hh_d04,byte,1,%6.0f,hh_d04, During the past 2 weeks has [NAME] suffered from an illness or injury
+7,hh_d05a,float,1,%28.0g,hh_d05,Illness 1
+8,hh_d05b,float,1,%28.0g,hh_d05,Illness 2
+9,hh_d05_oth,str50,0,%50s,,Specify other illness or injury suffered in the past 2 weeks.
+10,hh_d06a,byte,1,%6.0f,hh_d06a,Who diagnosed the first illness?
+11,hh_d06a_oth,str20,0,%20s,,Specify who diagnosed the first illness.
+12,hh_d06b,byte,1,%6.0f,hh_d06b,Who diagnosed the second illness?
+13,hh_d06b_oth,str1,0,%9s,,Specify diagnosed the second illness.
+14,hh_d07a,byte,1,%6.0f,hh_d07a,What action did [NAME] take to find relief for his/her 1st Illness
+15,hh_d07a_oth,str86,0,%86s,,Specify the action [NAME] took to find relief for first illness.
+16,hh_d07b,byte,1,%6.0f,hh_d07b,What action did [NAME] take to find relief for his/her 2nd Illness
+17,hh_d07b_oth,str58,0,%58s,,Specify the action [NAME] took to find relief for second illness.
+18,hh_d08,byte,1,%6.0f,,"During past 2 weeks, days [NAME] had to stop normal activities due to illness"
+19,hh_d09,byte,1,%6.0f,,"..2 weeks, for how many days..HH have to stop normal activities to care for [NAM"
+20,hh_d10,long,1,%6.0f,,Amt [NAME] spent in the past 4 weeks  for all illnesses and injuries?
+21,hh_d11,long,1,%6.0f,,Amt in total did [NAME]spent...for medical care not related to an illness?
+22,hh_d12,long,1,%6.0f,,Amt in total did [NAME]spent..for nonprescription medicines?
+23,hh_d12_1,long,1,%6.0f,,How much in total did [NAME] spend..for medical insurance?
+24,hh_d13,byte,1,%6.0f,hh_d13,"..12 months, was [NAME] hospitalized/had an overnight stay in a medical facility"
+25,hh_d14,long,1,%6.0f,,..total cost of [NAME] hospitalization/overnight stay(s)..last 12 months?
+26,hh_d15,long,1,%6.0f,,How much in total did [NAME] spend to travel to the next medical facility
+27,hh_d16,long,1,%6.0f,,Amt[NAME] spent on food during overnight stay(s) at the medical facility..
+28,hh_d17,byte,1,%6.0f,hh_d17,Did [NAME]..HH have to borrow money or sell assets in order to pay..?
+29,hh_d18,byte,1,%6.0f,hh_d18,"..last 12 months,did [NAME] stay overnight at a traditional healer's..dwelling?"
+30,hh_d19,long,1,%6.0f,,..total cost of [NAME] stay(s) at the traditional healer's..dwelling..
+31,hh_d20,int,1,%6.0f,,total amt[NAME] spent on travel to traditional healer's..overnight stay(s)..
+32,hh_d21,long,1,%6.0f,,Amt[NAME] spent on food during overnight stay(s) at the traditional healer's..dw
+33,hh_d22,byte,1,%6.0f,hh_d22,Did [NAME] or other members of the HH have to borrow money or sell assets in ord
+34,hh_d24,byte,1,%6.0f,hh_d24,Does [NAME] have difficulty seeing even if you wear glasses?
+35,hh_d25,byte,1,%6.0f,hh_d25,Does [NAME] have difficulty hearing even if you wear hearing aids
+36,hh_d26,byte,1,%6.0f,hh_d26,Does [NAME] have difficulty walking or climbing steps
+37,hh_d27,byte,1,%6.0f,hh_d27,Does [NAME] have difficulty remebering or concentrating
+38,hh_d28,byte,1,%6.0f,hh_d28,Does [NAME] have difficulty with self care such as washing all over...
+39,hh_d29,byte,1,%6.0f,hh_d29,Does [NAME] have difficulty speaking?
+40,hh_d31,byte,1,%6.0f,hh_d31,Does this difficulty reduce the amount of work [NAME] can do ta home
+41,hh_d32,float,1,%28.0g,hh_d32,"During the past 12 months, what measures were taken to improves [NAME]'s ..."
+42,hh_d32oth,str94,0,%94s,,Specify other measure that was taken to improve your performance in activities?
+43,hh_d33,byte,1,%6.0f,hh_d33,Does [NAME] suffer from a chronic illness?
+44,hh_d34_oth,str93,0,%93s,,Specify the chronic illness [NAME]'s suffer from.
+45,hh_d34a,float,1,%25.0g,hh_d34,What chronic illness does [NAME] suffer from? (ILLNESS 1)
+46,hh_d34b,float,1,%25.0g,hh_d34,What chronic illness does [NAME] suffer from? (ILLNESS 2)
+47,hh_d35a,byte,1,%6.0f,,How long has [NAME] suffered from this illness (these illnesses)?
+48,hh_d35b,byte,1,%6.0f,,How long has [NAME] suffered from this illness (these illnesses)?
+49,hh_d36a,byte,1,%6.0f,hh_d36a,Who diagnosed the first illness?
+50,hh_d36a_oth,str23,0,%23s,,Who diagnosed the second illness?
+51,hh_d36b,byte,1,%6.0f,hh_d36b,Who diagnosed the second illness?
+52,hh_d36b_oth,str1,0,%9s,,Specify who diagnosed the second illness.
+53,hh_d38,byte,1,%6.0f,hh_d38,What did [NAME] have for breakfast yesterday?
+54,hh_d38_oth,str65,0,%65s,,"Please, specify Other"
+55,hh_d45,byte,1,%6.0f,hh_d45,Where was this child delivered?
+56,hh_d45_oth,str42,0,%42s,,Specify where this child was delivered.
+57,hh_d46,byte,1,%6.0f,hh_d46,Who assisted in delivering this child?
+58,hh_d46_oth,str49,0,%49s,,Specify who assisted in delivering this child.
+59,hh_d47,byte,1,%6.0f,hh_d47,During the past 12 months did you or any other person in the family above 6...
+60,hh_d48,long,1,%6.0f,,How much did you pay for this vaccination?

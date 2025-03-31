@@ -1,0 +1,7 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,region,float,1,%6.0f,A01A,IHS Region
+2,crop_code,float,1,%21.0g,crops,Crop Item Code
+3,unit_name,str14,0,%14s,,Unit Name
+4,unit_code,str2,0,%9s,,Unit Code
+5,conversion,float,1,%9.0g,,KG-Equivalent Weight For Region-Crop-Unit-Condition Combo
+6,collectionround,byte,1,%31.0g,comp,Round in Which Conversion Factor Was Collected

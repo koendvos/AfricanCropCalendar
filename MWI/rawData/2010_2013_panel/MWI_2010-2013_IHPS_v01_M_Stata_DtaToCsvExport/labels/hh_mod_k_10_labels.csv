@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,hh_k01,byte,1,%8.0g,HH_K01,Purchased item?
+7,hh_k02,int,1,%66.0g,HH_K02,Item Code
+8,hh_k03,long,1,%12.0g,,How much did you pay in total?
+9,hh_k04,int,1,%12.0g,,What was the cost of that which you purchased

@@ -1,0 +1,13 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Unique Household Identification IHS5
+3,Fishing_GearID,byte,1,%28.0f,fishing_gear,Fishing Gear ID
+4,fs_h01a,byte,1,%9.0g,fs_h01a,any HH member involved in fishing..last LOW season use any of this FISHING GEAR?
+5,fs_h01b,str19,0,%19s,,Please specify the other fishing gear that you used.
+6,fs_h02,int,1,%6.0f,,How many [FISHING GEAR] were operated by your HH during last LOW season?
+7,fs_h03,int,1,%6.0f,,How many [FISHING GEAR] are owned by your household?
+8,fs_h04,long,1,%6.0f,,"..had to purchase a [FISHING GEAR],Amt would you've paid during last LOW season?"
+9,fs_hfilter,byte,1,%6.0f,fs_hfilter,..member of your HH purchase [FISHING GEAR] during last LOW fishing season?
+10,fs_h05,long,1,%6.0f,,..Units of [FISHING GEAR] did your HH purchase during last LOW fishing season?
+11,fs_hfilter6,byte,1,%6.0f,fs_hfilter6,Did your household pay to rent [FISHING GEAR] for use in the last LOW season?
+12,fs_h06,int,1,%6.0f,,Amt household paid to rent [FISHING GEAR] for use in the last LOW season?

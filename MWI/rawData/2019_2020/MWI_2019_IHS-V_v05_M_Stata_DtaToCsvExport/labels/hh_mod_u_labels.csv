@@ -1,0 +1,18 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,hh_u0a,int,1,%101.0g,shocks,SHOCKS
+4,hh_u01,byte,1,%6.0f,hh_u01,"...last 3 Years, was your HH affected negatively by any of the following shocks"
+5,hh_u01b,str125,0,%125s,,U01b. Specify other shocks
+6,hh_u01_1,long,1,%6.0f,,How many times did this [SHOCK] occur in this household in the last 3 years?
+7,hh_u01_2a,byte,1,%6.0f,hh_u01_2a,When was the LAST TIME this [SHOCK] last happened? MONTH
+8,hh_u01_2b,int,1,%6.0f,hh_u01_2b,When was the LAST TIME this [SHOCK] last happened? YEAR
+9,hh_u02,byte,1,%18.0f,hh_u02,Rank the three most significant shocks you experienced
+10,hh_u03a,byte,1,%6.0f,hh_u03a,"As a result of this [SHOCK], did your income..."
+11,hh_u03b,byte,1,%6.0f,hh_u03b,"As a result of this [SHOCK], did your assets..."
+12,hh_u03c,byte,1,%6.0f,hh_u03c,"As a result of this [SHOCK], did your food production..."
+13,hh_u03d,byte,1,%6.0f,hh_u03d,"As a result of this [SHOCK], did your food stocks..."
+14,hh_u03e,byte,1,%6.0f,hh_u03e,"As a result of this [SHOCK], did your food purchases..."
+15,hh_u04a,byte,1,%164.0g,response,Interventions to try to regain your former welfare level (1)?
+16,hh_u04b,byte,1,%164.0g,response,Interventions to try to regain your former welfare level (2)?
+17,hh_u04c,byte,1,%164.0g,response,Interventions to try to regain your former welfare level (3)?

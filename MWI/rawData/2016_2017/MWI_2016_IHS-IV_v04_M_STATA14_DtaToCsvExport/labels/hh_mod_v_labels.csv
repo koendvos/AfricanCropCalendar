@@ -1,0 +1,17 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,pid,byte,1,%8.0g,,ID Code
+4,hh_v02,str1,0,%1s,,PUT AN 'X' FOR ALL INDIVIDUALS AGED UNDER SIX MONTHS OR OLDER THAN EXACTLY 5 YEA
+5,hh_v03,byte,1,%8.0g,,RECORD THE ID OF THE MOTHER / GUARDIAN OF THE CHILD IN THE HOUSEHOLD
+6,hh_v05,byte,1,%8.0g,hh_v05,WAS [NAME] MEASURED?
+7,hh_v06,byte,1,%8.0g,hh_v06,WHY NOT?
+8,hh_v06_oth,str30,0,%30s,,Please specify the other reason why [NAME] was not measured
+9,hh_v08,double,1,%12.0g,,WEIGHT OF CHILD
+10,hh_v09,double,1,%12.0g,,HEIGHT / LENGTH OF CHILD
+11,hh_v10,byte,1,%8.0g,hh_v10,HEIGHT / LENGTH MEASURED WITH CHILD STANDING OR LYING DOWN?
+12,hh_v11,byte,1,%8.0g,hh_v11,"WAS THE MEASUREMENT OF THE CHILD DONE IN A NORMAL MANNER, OR WAS MEASUREMENT DIF"
+13,hh_v12,byte,1,%8.0g,hh_v12,ASK OF MOTHER / GUARDIAN:Does the child participate in a nutrition programm
+14,hh_v13,byte,1,%8.0g,hh_v13,ASK OF MOTHER/ GUARDIAN:Does the child participate in an under-five clinic?
+15,hh_v14,byte,1,%8.0g,hh_v14,DID CHILD APPEAR TO HAVE OEDEMA (SWELLING THAT IS NOT NORMAL)?
+16,hh_v16,byte,1,%8.0g,hh_v16,"..given measles vaccination injections/MMR,a shot in the arm at 9 months/older?"

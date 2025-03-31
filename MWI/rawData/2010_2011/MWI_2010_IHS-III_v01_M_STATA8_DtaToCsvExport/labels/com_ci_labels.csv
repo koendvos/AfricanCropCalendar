@@ -1,0 +1,34 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%8s,,Unique EA Identifier
+2,com_ci0b,int,1,%8.0g,COM_CI0B,code
+3,com_ci0b_os,str21,0,%21s,,Resource Code (Specify)
+4,com_ci01,byte,1,%8.0g,COM_CI01,Does the community own any communal [RESOURCE]?
+5,com_ci02,byte,1,%8.0g,COM_CI02,Can comm independently determine rules of access & use of its communal [RESOURCE
+6,com_ci03,byte,1,%8.0g,COM_CI03,Is the communal [RESOURCE] recognized by the Traditional Authority?
+7,com_ci04,byte,1,%8.0g,COM_CI04,Is the communal[RESOURCE]challenged or disputed by neighboring villages/estates
+8,com_ci05,byte,1,%8.0g,COM_CI05,Is it ever used by outsiders/neighboring villagers w/out consent of village head
+9,com_ci06,byte,1,%8.0g,COM_CI06,Is there a specific exclusion mechanism for keeping outsiders from using[RESOURC
+10,com_ci07a,byte,1,%8.0g,COM_CI07A,How do you exclude outsiders from using[RES]w/out consent of village head?(1ST)
+11,com_ci07a_os,str32,0,%32s,,How do you exclude outsiders from using[RES]w/out consent of village head?(1ST/S
+12,com_ci07b,byte,1,%8.0g,COM_CI07C,How do you exclude outsiders from using[RES]w/out consent of village head?(2ND)
+13,com_ci07b_os,str17,0,%17s,,How do you exclude outsiders from using[RES]w/out consent of village head?(2ND/S
+14,com_ci07c,byte,1,%8.0g,COM_CI07E,How do you exclude outsiders from using[RES]w/out consent of village head?(3RD)
+15,com_ci07c_os,str16,0,%16s,,How do you exclude outsiders from using[RES]w/out consent of village head?(3RD/S
+16,com_ci08a,byte,1,%8.0g,COM_CI08A,What restrictions does comm have re:access and use of communal[RESOURCE](1ST)
+17,com_ci08a_os,str27,0,%27s,,What restrictions does comm have re:access and use of communal[RESOURCE]?(1St/SP
+18,com_ci08b,byte,1,%8.0g,COM_CI08C,What restrictions does comm have re:access and use of communal[RESOURCE]?(2ND)
+19,com_ci08b_os,str22,0,%22s,,What restrictions does comm have re:access and use of communal[RESOURCE]?(2ND/SP
+20,com_ci08c,byte,1,%8.0g,COM_CI08E,What restrictions does comm have re:access and use of communal[RESOURCE]?(3RD)
+21,com_ci08c_os,str23,0,%23s,,What restrictions does comm have re:access and use of communal[RESOURCE]?(3RD/SP
+22,com_ci09a,byte,1,%8.0g,COM_CI09A,How does comm ensure among its members compliance w/rules for[RESOURCE]?(1ST)
+23,com_ci09a_os,str31,0,%31s,,How does comm ensure among its members compliance w/rules for[RESOURCE]?(1ST/SP)
+24,com_ci09b,byte,1,%8.0g,COM_CI09C,How does comm ensure among its members compliance w/rules for[RESOURCE]?(2ND)
+25,com_ci09b_os,str9,0,%9s,,How does comm ensure among its members compliance w/rules for[RESOURCE]?(2ND/SP)
+26,com_ci09c,byte,1,%8.0g,COM_CI09E,How does comm ensure among its members compliance w/rules for[RESOURCE]?(3RD)
+27,com_ci09c_os,str1,0,%1s,,How does comm ensure among its members compliance w/rules for[RESOURCE]?(3RD/SP)
+28,com_ci10,byte,1,%8.0g,COM_CI10,How effective are comm policies ensuring compliance w/use rules for[RESOURCE]?
+29,com_ci11,byte,1,%8.0g,COM_CI11,"In the past 5 years, has government taken over any communal [RESOURCE] ?"
+30,com_ci12,byte,1,%8.0g,COM_CI12A,What was the reason for the government takeover?
+31,com_ci12_os,str28,0,%28s,,What was the reason for the government takeover?(OTHER SPECIFY)
+32,com_ci13,byte,1,%8.0g,COM_CI13,"In the past 5 yrs,has a neighboring village taken over any communal[RESOURCE]?"
+33,com_ci14,byte,1,%8.0g,COM_CI14,Did comm lose rights to previously communal[RESOURCE]after a mediated dispute?

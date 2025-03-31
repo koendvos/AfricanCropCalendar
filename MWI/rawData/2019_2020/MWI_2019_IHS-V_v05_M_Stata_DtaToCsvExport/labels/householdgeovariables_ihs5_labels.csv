@@ -1,0 +1,45 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,ea_id,str8,0,%9s,,Unique Enumeration Area Code
+3,dist_road,float,1,%9.0g,,HH Distance in (KMs) to Nearest Major Road
+4,dist_agmrkt,float,1,%9.0g,,HH Distance in (KMs) to Nearest Agricultural Market
+5,dist_auction,float,1,%9.0g,,HH Distance in (KMs) to Nearest Tobacco Auction Floor
+6,dist_admarc,float,1,%9.0g,,HH Distance in (KMs) to Nearest ADMARC Outlet
+7,dist_border,float,1,%9.0g,,HH Distance in (KMs) to Nearest Land Border Crossing
+8,dist_popcenter,float,1,%9.0g,,"HH Distance in (KMs) to Nearest Population Center with +20,000"
+9,dist_boma,float,1,%9.0g,,HH Distance in (KMs) to the Boma of Current District of Residence
+10,ssa_aez09,int,1,%24.0g,ssa_lab,Agro-ecological Zones
+11,twi_mwi,byte,1,%8.0g,,Potential Wetness Index
+12,sq1,byte,1,%23.0g,sq1_lab,Nutrient availability
+13,sq2,byte,1,%23.0g,sq1_lab,Nutrient retention capacity
+14,sq3,byte,1,%23.0g,sq1_lab,Rooting conditions
+15,sq4,byte,1,%23.0g,sq1_lab,Oxygen availability to roots
+16,sq5,byte,1,%23.0g,sq1_lab,Excess salts
+17,sq6,byte,1,%23.0g,sq1_lab,Toxicity
+18,sq7,byte,1,%23.0g,sq1_lab,Workability (constraining field management)
+19,af_bio_1_x,int,1,%8.0g,,Annual Mean Temperature (degC * 10)
+20,af_bio_8_x,int,1,%8.0g,,Mean Temperature of Wettest Quarter (degC * 10)
+21,af_bio_12_x,int,1,%8.0g,,Annual Precipitation (mm)
+22,af_bio_13_x,int,1,%8.0g,,Precipitation of Wettest Month (mm)
+23,af_bio_16_x,int,1,%8.0g,,Precipitation of Wettest Quarter
+24,afmnslp_pct,byte,1,%8.0g,,Slope (percent)
+25,srtm_1k,int,1,%8.0g,,Elevation (m)
+26,popdensity,int,1,%8.0g,,2018 Population density per km2
+27,cropshare,byte,1,%8.0g,,2018 Percent cropland in local area
+28,h2018_tot,int,1,%8.0g,,12-month total rainfall (mm) ending June 2018
+29,h2018_wetQstart,byte,1,%8.0g,,"Start of wettest quarter in dekads 1-36, where first dekad of July 2017 =1"
+30,h2018_wetQ,int,1,%8.0g,,Total rainfall in wettest quarter of 12-month period ending June 2018
+31,h2019_tot,int,1,%8.0g,,12-month total rainfall (mm) ending June 2019
+32,h2019_wetQstart,byte,1,%8.0g,,"Start of wettest quarter in dekads 1-36, where first dekad of July 2018 =1"
+33,h2019_wetQ,int,1,%8.0g,,Total rainfall in wettest quarter of 12-month period ending June 2019
+34,anntot_avg,int,1,%8.0g,,Avg 12-month total rainfall(mm) for July-June
+35,wetQ_avgstart,byte,1,%8.0g,,"Avg start of wettest quarter in dekads 1-36, where first week of July =1"
+36,wetQ_avg,int,1,%8.0g,,Avg total rainfall in wettest quarter(mm) within 12-month periods from July-June
+37,h2018_ndvi_avg,float,1,%9.0g,,Average NDVI value in primary growing season ending in 2018
+38,h2018_ndvi_max,float,1,%9.0g,,Maximum dekadal NDVI value in primary growing season ending in 2018
+39,h2019_ndvi_avg,float,1,%9.0g,,Average NDVI value in primary growing season ending in 2019
+40,h2019_ndvi_max,float,1,%9.0g,,Maximum dekadal NDVI value in primary growing season ending in 2019
+41,ndvi_avg,float,1,%9.0g,,Long-term average NDVI value in primary growing season (highest quarter)
+42,ndvi_max,float,1,%9.0g,,Long-term maximum dekadal NDVI value in primary growing season (highest quarter)
+43,ea_lat_mod,float,1,%9.0g,,Latitude Modified
+44,ea_lon_mod,float,1,%9.0g,,Longitude Modified

@@ -1,0 +1,7 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%8s,,Unique EA Identifier
+2,com_cg35,byte,1,%8.0g,COM_CG35,Events that made people []
+3,com_cg35a,byte,1,%8.0g,COM_CG35C,Describe important events in community
+4,com_cg35a_os,str35,0,%35s,,Describe important events in community (Other Specify)
+5,com_cg36,int,1,%8.0g,,In what year did this event occur?
+6,com_cg37,byte,1,%8.0g,COM_CG37,What share of the community was affected?

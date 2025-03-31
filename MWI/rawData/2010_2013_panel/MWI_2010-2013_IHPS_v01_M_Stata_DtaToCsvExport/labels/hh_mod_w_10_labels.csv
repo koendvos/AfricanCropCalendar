@@ -1,0 +1,26 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,hh_w01,byte,1,%8.0g,HH_W01,"Over the past two years, did any member of your household die, including any inf"
+7,hh_w02,byte,1,%8.0g,,Serial number
+8,hh_w04,byte,1,%29.0g,HH_W04,Deceased relationship to head of household
+9,hh_w05,byte,1,%8.0g,HH_W05,Sex
+10,hh_w06a,int,1,%8.0g,,Age at death (years)
+11,hh_w06b,byte,1,%8.0g,,Age at death (months)
+12,hh_w07,byte,1,%8.0g,HH_W07,"According to HH_W06, was the deceased under 12 years old when he/she died?"
+13,hh_w08,byte,1,%34.0g,HH_W08,What kind of work did [NAME] do for most of his/her life?
+14,hh_w09,byte,1,%11.0g,HH_W09,"Did [NAME] die of old age, an illness, or of some other cause?"
+15,hh_w10,byte,1,%27.0g,HH_W10,What was the [NON-ILLNESS] cause of [NAME]'s death?
+16,hh_w10_os,str29,0,%29s,,What was the [NON-ILLNESS] cause of [NAME]'s death? (Other Specify)
+17,hh_w11a,byte,1,%28.0g,HH_W11A,1st illness that caused [NAME]'s death?
+18,hh_w11b,byte,1,%28.0g,HH_W11B,2nd illness that caused [NAME]'s death?
+19,hh_w12a,byte,1,%8.0g,,For how long was [NAME] suffering from this illness before he/she died (time amo
+20,hh_w12b,byte,1,%8.0g,HH_W12B,For how long was [NAME] suffering from this illness before he/she died (unit)?
+21,hh_w13,byte,1,%21.0g,HH_W13,"Was this cause of death diagnosed, or is this only your own perception?"
+22,hh_w14,byte,1,%8.0g,HH_W14,"After this person died, did you or members of your house-hold lose any land or o"
+23,hh_w15,long,1,%12.0g,,What was the value of the land or assets lost?
+24,id_code,byte,1,%10.0g,,IHS3 Baseline id_code as in IHS3 Public Data
+25,PID,str6,0,%9s,,Assigned Unique Serial Number for IHS3 Baseline and IHPS New Members

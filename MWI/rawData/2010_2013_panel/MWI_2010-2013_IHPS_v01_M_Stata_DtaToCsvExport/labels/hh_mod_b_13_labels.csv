@@ -1,0 +1,48 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,PID,str9,0,%9s,,Assigned Unique Serial Number for IHS3 Baseline and IHPS New Members
+4,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+5,interview_status,byte,1,%24.0g,stat,Household Interview Status
+6,hhmember,byte,1,%9.0g,,Dummy Variable = 1 if Individual is Considered a Household Member in 2013
+7,baselinemember,byte,1,%9.0g,,Dummy Variable = 1 if Individual was Surveyed in Baseline
+8,hhsize,byte,1,%9.0g,,Household Size in 2013
+9,baselinemembercount,byte,1,%9.0g,,Number of Baseline Individuals in 2013
+10,individualmover,byte,1,%9.0g,,Dummy Variable = 1 if Individual moved to a different IHS3 HH in 2013
+11,moverbasehh,str4,0,%9s,,Base HHID of ind'l if individualmover==1
+12,hh_b01,byte,1,%10.0g,,ID CODE
+13,hh_b03,byte,1,%8.0g,HH_B03,SEX
+14,hh_b04,byte,1,%29.0g,HH_B04,RELATIONSHIP TO HEAD
+15,hh_b05a,int,1,%8.0g,,How old is [NAME]? (years) (Visit 1)
+16,hh_b05b,byte,1,%8.0g,,How old is [NAME]? (months) (Visit 1)
+17,hh_b06a,byte,1,%9.0g,HH_B06A,When was [NAME] born? (month)
+18,hh_b06b,int,1,%8.0g,,When was [NAME] born? (year)
+19,hh_b06_1,int,1,%10.0g,,"IF THIS MEMBER WAS PRESENT AT LAST SURVEY, ENTER Y1 ROSTER IF NUMBER FROM TRACKI"
+20,hh_b06_2,byte,1,%8.0g,,Status of household member at Visit 2
+21,hh_b06_3a,int,1,%8.0g,,How old is [NAME]? (years) (Visit 2)
+22,hh_b06_3b,byte,1,%8.0g,,How old is [NAME]? (months) (Visit 2)
+23,hh_b07,byte,1,%8.0g,,For how many months during the past 12 months  (since MONTH/YR) has [....] been
+24,hh_b08,byte,1,%8.0g,,How many days did [NAME] eat in this household in the past 7 days?
+25,hh_b09,byte,1,%43.0g,HH_B09,Where was [NAME] born?
+26,hh_b10a,str17,0,%17s,,In which district/country was [NAME] born (Descr)?
+27,hh_b10b,int,1,%30.0g,HH_B10B,In which district/country was [NAME] born (Code)?
+28,hh_b11,byte,1,%8.0g,HH_B11,Has [NAME] always lived in this village or urban location?
+29,hh_b12,byte,1,%10.0g,HH_B12,"How long is it since [NAME] came to stay here, in this village or urban location"
+30,hh_b13,byte,1,%26.0g,HH_B13,What was the main reason that [NAME] moved here?
+31,hh_b14,byte,1,%44.0g,HH_B14,Where did [NAME] move from?
+32,hh_b15a,str16,0,%16s,,From which district/country did [NAME] move from (Descr)?
+33,hh_b15b,int,1,%30.0g,HH_B15B,From which district/country did [NAME] move from (Code)?
+34,hh_b16,byte,1,%17.0g,HH_B16,Where is [NAME]'s father?
+35,hh_b19,byte,1,%17.0g,HH_B19,Where is [NAME]'s mother?
+36,hh_b22,byte,1,%8.0g,HH_B22,Which language do you speak at home?
+37,hh_b22_2,byte,1,%8.0g,HH_B22_2,ENUMERATOR: IS THE PERSON [NAME] AGED 5 YEARS OR OLDER?
+38,hh_b22_3,byte,1,%26.0g,HH_B22_3,What is the highest education qualification acquired by [NAME]?
+39,hh_b22_4,byte,1,%8.0g,HH_B22_4,ENUMERATOR: IS THIS PERSON [NAME] AGED 12 YEARS OR OLDER?
+40,hh_b23,byte,1,%14.0g,HH_B23,"What religion, if any, does [NAME] practice"
+41,hh_b24,byte,1,%39.0g,HH_B24,What is [NAME]'s present marital status?
+42,hh_b25,byte,1,%8.0g,HH_B25,Does your spouse live in this household now?
+43,hh_b26a,byte,1,%8.0g,,First spouse
+44,hh_b26b,byte,1,%8.0g,,Second wife
+45,hh_b26c,byte,1,%8.0g,,Third wife
+46,hh_b27,byte,1,%8.0g,HH_B27,Does [NAME] have a spouse living outside of this household now?
+47,hh_b28,byte,1,%8.0g,,How many spouses does [NAME] have who are residing else-where?

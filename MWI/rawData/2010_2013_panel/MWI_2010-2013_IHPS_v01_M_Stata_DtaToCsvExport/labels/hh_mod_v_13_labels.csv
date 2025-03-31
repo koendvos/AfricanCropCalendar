@@ -1,0 +1,21 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,PID,str9,0,%9s,,Assigned Unique Serial Number for IHS3 Baseline and IHPS New Members
+4,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+5,interview_status,byte,1,%24.0g,stat,Household Interview Status
+6,hh_v01,byte,1,%8.0g,,ID CODE
+7,hh_v02,str1,0,%9s,,PUT AN 'X' FOR ALL INDIVIDUALS WHO ARE AGED UNDER SIX MONTHS OR OLDER THAN EXACT
+8,hh_v03,byte,1,%8.0g,,RECORD THE ID OF THE MOTHER / GUARDIAN OF THE CHILD IN THE HOUSEHOLD
+9,hh_v04a,byte,1,%8.0g,,How old is [name]? (Years)
+10,hh_v04b,byte,1,%8.0g,,How old is [name]? (Months)
+11,hh_v05,byte,1,%23.0g,HH_V05,WAS [NAME] MEASURED?
+12,hh_v06,byte,1,%32.0g,HH_V06,WHY WAS [NAME] NOT MEASURED?
+13,hh_v07,byte,1,%8.0g,HH_V07,IS THE ANSWER TO V05 'NO'?
+14,hh_v08,float,1,%9.0g,,WEIGHT OF CHILD
+15,hh_v09,float,1,%9.0g,,HEIGHT / LENGTH OF CHILD
+16,hh_v10,byte,1,%14.0g,HH_V10,HEIGHT / LENGTH MEASURED WITH CHILD STANDING OR LYING DOWN
+17,hh_v11,byte,1,%9.0g,HH_V11,"WAS THE MEASUREMENT OF THE CHILD DONE IN A NORMAL MANNER, OR WAS MEASUREMENT DIF"
+18,hh_v12,byte,1,%8.0g,HH_V12,Does the child participate in a nutrition program?
+19,hh_v13,byte,1,%8.0g,HH_V13,Does the child participate in an underfive clinic?
+20,hh_v14,byte,1,%8.0g,HH_V14,DID THE CHILD APPEAR TO HAVE OEDEMA (SWELLING THAT IS NOT NORMAL?

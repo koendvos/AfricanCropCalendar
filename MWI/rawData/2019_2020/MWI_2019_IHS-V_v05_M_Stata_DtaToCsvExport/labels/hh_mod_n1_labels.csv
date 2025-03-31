@@ -1,0 +1,11 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,hh_n01,byte,1,%6.0f,hh_n01,..12 months..your HH owned a non-agric business/provided a non-agric service fro
+4,hh_n02,byte,1,%6.0f,hh_n02,..12 months..your HH processed and sold...?
+5,hh_n03,byte,1,%6.0f,hh_n03,..12 months..your HH owned a trading business on a street/market??
+6,hh_n04,byte,1,%6.0f,hh_n04,..12 months..your HH offered any service or sold anything on a street/market
+7,hh_n05,byte,1,%6.0f,hh_n05,..12 months..your HH owned a professional office/offered prof.. service from hom
+8,hh_n06,byte,1,%6.0f,hh_n06,..12 months..your HH driven a HH-owned taxi/pick-up truck as a service?
+9,hh_n07,byte,1,%6.0f,hh_n07,..12 months..your HH owned a bar or restaurant?
+10,hh_n08,byte,1,%6.0f,hh_n08,..12 months..your HH owned any other non-agricultural business..?

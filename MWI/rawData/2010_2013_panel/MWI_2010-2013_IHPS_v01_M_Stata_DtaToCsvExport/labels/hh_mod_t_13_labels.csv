@@ -1,0 +1,33 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_t01,byte,1,%45.0g,HH_T01,"Concerning your household's food consumption, over the past months which of the"
+6,hh_t02,byte,1,%45.0g,HH_T02,Concerning your housing which of the following is true?
+7,hh_t03,byte,1,%45.0g,HH_T03,"Concerning your household's clothing, which of the following is true?"
+8,hh_t04,byte,1,%45.0g,HH_T04,Concerning the standard of health care you receive for household members which o
+9,hh_t05,byte,1,%8.0g,,On which step are you today?
+10,hh_t06,byte,1,%8.0g,,On which step are most of your neighbors today?
+11,hh_t07,byte,1,%8.0g,,On which step are most of your friends today?
+12,hh_t08,byte,1,%63.0g,HH_T08,Which of the following is true?  Your current income ...
+13,hh_t09,byte,1,%8.0g,,How many changes of clothes do you (HH head) own?
+14,hh_t10,byte,1,%20.0g,HH_T10,What do you (HH head) sleep on?
+15,hh_t11,byte,1,%24.0g,HH_T11,What do you (HH head) sleep under in the cold season (July)?
+16,hh_t12,byte,1,%24.0g,HH_T12,What do you (HH head) sleep under in the hot season (October)?
+17,hh_t13,byte,1,%8.0g,HH_T13,"During the last 12 months, were you worried that your household would run out of"
+18,hh_t14,byte,1,%8.0g,HH_T14,"During the last 12 months, did your household run out of food because of lack of"
+19,hh_t15,byte,1,%8.0g,HH_T15,"During the last 12 months, did your household lack enough money or other resourc"
+20,hh_t16,byte,1,%8.0g,HH_T16,"Durnig the last 12 months, did you have to consume a diet based on only a few ki"
+21,hh_t17,byte,1,%8.0g,HH_T17,"Durnig the last 12 months, did you not eat breakfast, luch or dinner because of"
+22,hh_t18,byte,1,%8.0g,HH_T18,"Durnig the last 12 months, did you eat less than you thought you should because"
+23,hh_t19,byte,1,%8.0g,HH_T19,"Durnig the last 12 months, did you feel hungry but didn't eat becasue of lack of"
+24,hh_t20,byte,1,%8.0g,HH_T20,"Durnig the last 12 months, did you eat only one meal in a day or go without eati"
+25,hh_t21,byte,1,%8.0g,HH_T21,ENUMERATOR: DOES THIS HOUSEHOLD HAVE ANY MEMBERS LESS THAN 15 YEARS OLD
+26,hh_t22,byte,1,%8.0g,HH_T22,"Durnig the last 12 months, did any child, <15 years old, in your housheold not e"
+27,hh_t23,byte,1,%8.0g,HH_T23,"During the last 12 months, did any child, <15, in your household have to consume"
+28,hh_t24,byte,1,%8.0g,HH_T24,"During the last 12 months, did any child in your household not eat breakfast lun"
+29,hh_t25,byte,1,%8.0g,HH_T25,"During the last 12 months, did any child, <15, in your household eat less than y"
+30,hh_t26,byte,1,%8.0g,HH_T26,"During the last 12 months, did you have to serve less food to any child, <15, in"
+31,hh_t27,byte,1,%8.0g,HH_T27,"During the last 12 months, did any child, <15, in your household feel hungry but"
+32,hh_t28,byte,1,%8.0g,HH_T28,"During the last 12 months, did any child in your household eat only one meal in"

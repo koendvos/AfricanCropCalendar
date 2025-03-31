@@ -1,0 +1,31 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_m0a,byte,1,%8.0g,AG_Q0A,Did you or anyone in your household plant any crops during the 2013 dry (dimba)
+6,ag_m00,str3,0,%9s,,Plot ID
+7,ag_m0b,str21,0,%21s,,CROP NAME
+8,ag_m0c,byte,1,%25.0g,AG_Q0C,CROP CODE
+9,ag_m0d,byte,1,%8.0g,,ENUMERATOR: RECORD THE PRIMARY RESPONDENT ID
+10,ag_m01,byte,1,%11.0g,AG_Q01,What type of crop stand was on the [PLOT]?
+11,ag_m02,byte,1,%8.0g,AG_Q02,Was the [CROP] planted in the entire area of the plot?
+12,ag_m03,byte,1,%13.0g,AG_Q03,"Approximately, how much of the [PLOT] is under [CROP]?"
+13,ag_m04a,float,1,%9.0g,,How much seed did you plant for the [CROP] on this [PLOT] during the 2013 dry (d
+14,ag_m04b,byte,1,%15.0g,AG_Q04B,How much seed did you plant for the [CROP] on this [PLOT] during the 2013 dry (d
+15,ag_m05a,byte,1,%9.0g,AG_Q05A,When did you plant the seeds for the [CROP] on this [PLOT] during the 2013 dry (
+16,ag_m05b,int,1,%8.0g,,When did you plant the seeds for the [CROP] on this [PLOT] during the 2013 dry (
+17,ag_m07,byte,1,%8.0g,AG_Q06,Have you completed the harvest of the [CROP] from this [PLOT]?
+18,ag_m08a,int,1,%12.0g,,How much [CROP] will you have harvested in total from this [PLOT] by end of the
+19,ag_m08b,byte,1,%15.0g,AG_Q07B,How much [CROP] will you have harvested in total from this [PLOT] by the end of
+20,ag_m08c,byte,1,%14.0g,AG_Q07C,How much [CROP] will you have harvested in total from this [PLOT] by the end of
+21,ag_m09,byte,1,%8.0g,AG_Q08,Was the area harvested less than the area planted?
+22,ag_m10a,byte,1,%19.0g,AG_Q09A,Why was the area harvested less than the area planted?
+23,ag_m10b,byte,1,%19.0g,AG_Q09B,Why was the area harvested less than the area planted?
+24,ag_m11a,float,1,%9.0g,,How much [CROP] did you harvest from this [PLOT] during the 2013 dry (dimba) sea
+25,ag_m11b,byte,1,%15.0g,AG_Q10B,How much [CROP] did you harvest from this [PLOT] during the 2013 dry (dimba) sea
+26,ag_m11c,byte,1,%14.0g,AG_Q10C,How much [CROP] did you harvest from this [PLOT] during the 2013 dry (dimba) sea
+27,ag_m12a,byte,1,%9.0g,AG_Q11A,What were the months when the harvest started and ended?
+28,ag_m12b,byte,1,%9.0g,AG_Q11B,What were the months when the harvest started and ended?
+29,ag_m13a,byte,1,%8.0g,,Who in the household makes the decision concerning the use of the [CROP] output
+30,ag_m13b,byte,1,%8.0g,,Who in the household makes the decision concerning the use of the [CROP] output

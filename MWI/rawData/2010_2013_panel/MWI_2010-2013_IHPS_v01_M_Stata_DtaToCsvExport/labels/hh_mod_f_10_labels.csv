@@ -1,0 +1,71 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,hh_f01,byte,1,%20.0g,HH_F01,"Do you own or are you purchasing this house, is it provided to you by an employe"
+7,hh_f02,long,1,%12.0g,,If you sold this dwelling today how much would you receive for it?
+8,hh_f03a,long,1,%12.0g,,Estimate the rent you could receive if you rented this dwelling (amount)?
+9,hh_f03b,byte,1,%8.0g,HH_F03B,Estimate the rent you could receive if you rented this dwelling (time unit)?
+10,hh_f04a,long,1,%12.0g,,How much do you pay to rent this dwelling (amount)?
+11,hh_f04b,byte,1,%8.0g,HH_F04B,How much do you pay to rent this dwelling (time unit)?
+12,hh_f05,int,1,%10.0g,HH_F05,How many years ago was this house built? How old is it?
+13,hh_f06,byte,1,%14.0g,HH_F06,What general type of construction materials are used for the dwelling?
+14,hh_f07,byte,1,%15.0g,HH_F07,The outer walls of the main dwelling of the household are predominantly made of
+15,hh_f07_os,str31,0,%31s,,Outer walls of main dwelling (Other Speficy)
+16,hh_f08,byte,1,%16.0g,HH_F08,The roof of the main dwelling is predominantly made of what material?
+17,hh_f08_os,str18,0,%18s,,Roof of main dwelling (Other Specify)
+18,hh_f09,byte,1,%15.0g,HH_F09,The floor of the main dwelling is predominantly made of what material?
+19,hh_f09_os,str32,0,%32s,,Floor of main dwelling (Other Specify)
+20,hh_f10,byte,1,%8.0g,,How many separate rooms do the members of your household occupy?
+21,hh_f11,byte,1,%18.0g,HH_F11,What is your main source of lighting fuel?
+22,hh_f11_os,str21,0,%21s,,What is your main source of lighting fuel? (Other Specify)
+23,hh_f12,byte,1,%18.0g,HH_F12,What is your main source of cooking fuel?
+24,hh_f12_os,str23,0,%23s,,What is your main source of cooking fuel? (Other Specify)
+25,hh_f13,byte,1,%8.0g,HH_F13,Do you ever use firewood for fuel?
+26,hh_f14,byte,1,%8.0g,HH_F14,Do you ever collect firewood?
+27,hh_f15,byte,1,%27.0g,HH_F15,Where do you go to collect firewood?
+28,hh_f15_os,str28,0,%28s,,Where do you go to collect firewood? (Other Specify)
+29,hh_f16a,float,1,%9.0g,,How long does it take you to walk from dwelling to where you usually go to colle
+30,hh_f16b,byte,1,%8.0g,HH_F16B,How long does it take you to walk from dwelling to where you usually go to colle
+31,hh_f17,byte,1,%14.0g,HH_F17,"Of the firewood you used in the past week, how much of it did you purchase?"
+32,hh_f18,int,1,%12.0g,,"What is the total value of the firewood you used in the past week, whether gathe"
+33,hh_f19,byte,1,%8.0g,HH_F19,Do you have electricity working in your dwelling?
+34,hh_f20a,byte,1,%15.0g,HH_F20A,"In the event of a black out, what source of energy do you use for Lighting?"
+35,hh_f20a_os,str37,0,%37s,,"In the event of a black out, what source of energy do you use for Lighting? (Oth"
+36,hh_f20b,byte,1,%14.0g,HH_F20B,"In the event of a black out, what source of energy do you use for Cooking?"
+37,hh_f20b_os,str33,0,%33s,,"In the event of a black out, what source of energy do you use for Cooking? (Othe"
+38,hh_f21,byte,1,%8.0g,HH_F21,Do you get your electricity via ESCOM?
+39,hh_f22,byte,1,%14.0g,HH_F22,"Following your application to get electricity, how many weeks did you have to wa"
+40,hh_f23,byte,1,%8.0g,HH_F23,Did you have to pay an unofficial fee to get a connection?
+41,hh_f24,byte,1,%21.0g,HH_F24,"In the last 12 months, how frequently did you experience blackouts in your area?"
+42,hh_f25,long,1,%12.0g,HH_F25,How much did you last pay for electricity?
+43,hh_f26a,byte,1,%9.0g,,To what length of time does this cost of electricity refer (Time amount)?
+44,hh_f26b,byte,1,%8.0g,HH_F26B,To what length of time does this cost of electricity refer (Time unit)?
+45,hh_f27,byte,1,%8.0g,HH_F27,"Although you do not have electricity in your dwelling, does your village / neigh"
+46,hh_f28,byte,1,%8.0g,HH_F28,Enumerator: is the dwelling owned by the household according to HH_F01?
+47,hh_f29,byte,1,%37.0g,HH_F29,What is the main reason for your household not to have access to electricity?
+48,hh_f30,byte,1,%8.0g,,How many weeks have you been waiting for?
+49,hh_f31,byte,1,%8.0g,HH_F31,Is there a MTL telephone in working condition in the dwelling unit?
+50,hh_f32,long,1,%12.0g,,What was the total cost for MTL telephone service in the household over the last
+51,hh_f33a,byte,1,%9.0g,,To what length of time does this MTL telephone cost refer (Time amount)?
+52,hh_f33b,byte,1,%8.0g,HH_F33B,To what length of time does this MTL telephone cost refer (Time unit)?
+53,hh_f34,byte,1,%8.0g,,How many working cell phones in total does your household own?
+54,hh_f35,long,1,%12.0g,,Estimate the total cost for cell phone service for all household members last mo
+55,hh_f36,byte,1,%27.0g,HH_F36,What was your main source of drinking water?
+56,hh_f36_os,str44,0,%44s,,What was your main source of drinking water? (Other Specify)
+57,hh_f37,long,1,%12.0g,,What was the total cost of drinking water for your house-hold last month?
+58,hh_f38a,float,1,%11.0g,HH_F38A,How long does it take you to walk (ONE WAY) to the main water source from your d
+59,hh_f38b,byte,1,%8.0g,HH_F38B,How long does it take you to walk (ONE WAY) to the main water source from your d
+60,hh_f39,byte,1,%17.0g,HH_F39,Do you use the main water source…
+61,hh_f40,byte,1,%27.0g,HH_F40,What is your main source of drinking water in the other season?
+62,hh_f41,byte,1,%29.0g,HH_F41,What kind of toilet facility does your household use?
+63,hh_f41_os,str17,0,%17s,,What kind of toilet facility does your household use? (Other Specify)
+64,hh_f42,byte,1,%22.0g,HH_F42,Is this toilet facility for the use of :
+65,hh_f43,byte,1,%19.0g,HH_F43,What kind of rubbish disposal facilities does your household use
+66,hh_f43_os,str25,0,%25s,,What kind of rubbish disposal facilities does your household use? (Other Specify
+67,hh_f44,byte,1,%8.0g,HH_F44,Do any members of your household sleep under a bed net to protect against mosqui
+68,hh_f45,byte,1,%41.0g,HH_F45,Has/have the bed nets ever been dipped in insecticide against mosquitoes in the
+69,hh_f46,byte,1,%8.0g,HH_F46,Enumerator: does this household have any children below 5 years of age?
+70,hh_f47,byte,1,%35.0g,HH_F47,Do the children under 5 in the household sleep under a bed net at those times of

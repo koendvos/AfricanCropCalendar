@@ -1,0 +1,17 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%4s,,Garden ID
+4,ag_b100,strL,0,%47s,,GARDENS you or anyone in your HH owned/cultivated during the [RS]
+5,ag_b102,strL,0,%61s,,GARDEN (MUNDA) NAME
+6,ag_b103_2,byte,1,%8.0g,,RECORD THE NUMBER OF PLOTS CONT AINED IN THIS GARDEN (MUNDA).
+7,ag_b103_2a,byte,1,%8.0g,ag_b_1_3_2a,Is this GARDEN the same piece of land on which the dwelling is located
+8,ag_b104a,double,1,%12.0g,,What is the area of this [GARDEN]?
+9,ag_b104b,byte,1,%8.0g,ag_b_1_4b,unit
+10,ag_b104b_oth,str15,0,%15s,,Specify the unit for the area of this %rostertitle% [GARDEN].
+11,ag_b104a2,double,1,%12.0g,,What is the area of this [GARDEN]?ENUMERATOR: MEASURE THE AREA
+12,ag_b105e,byte,1,%8.0g,ag_b_1_05c,"IF YOU DID NOT RECORD THE GPS COORDINATES, PLEASE SPECIFY REASON."
+13,ag_b105e_oth,strL,0,%41s,,PLEASE SPECIFY REASON YOU DID NOT RECORD THE GPS COORDINATES
+14,ag_b106,long,1,%12.0g,,RECORD NUMBER OF SATELLITES GPS TRACKED TO CAPTURE COORDINATES
+15,ag_b106a,byte,1,%8.0g,,ENUMERATOR: RECORD GPS ACCURACY
+16,ag_b107,byte,1,%8.0g,ag_b_1_07,RECORD THE WEATHER CONDITIONS AT TIME OF MEASUREMENT

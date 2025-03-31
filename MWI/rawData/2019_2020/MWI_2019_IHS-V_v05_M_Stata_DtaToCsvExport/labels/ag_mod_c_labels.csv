@@ -1,0 +1,14 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%9s,,Garden ID
+4,plotid,str3,0,%9s,,Plot ID
+5,ag_c04a,double,1,%6.2f,,Self Reported Area of Plot
+6,ag_c04b,byte,1,%6.0f,ag_c04b,Units of Self Reprted Area
+7,ag_c04b_oth,str7,0,%9s,,Other specified units of area reported
+8,ag_c04c,double,1,%6.2f,,Area of Plot Measured with GPS
+9,ag_c05e,byte,1,%6.0f,ag_c05c,"If you did not record the GPS coordiates, please specify reason."
+10,ag_c05e_oth,str320,0,%320s,,Please specify reason you did not record the GPS coordinates.
+11,ag_c06,int,1,%6.0f,,Enumerator: Record number of satellites GPS racked to capture plot coordina..
+12,ag_c06_1,byte,1,%6.0f,,ENUMERATOR: RECORD GPS ACCURACY
+13,ag_c07,byte,1,%6.0f,ag_c07,Enumerator: Record the weather conditions at time of measurement.

@@ -1,0 +1,19 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_s12,byte,1,%8.0g,hh_s12,"During last 12 months, did you try to borrow from someone outside the household"
+4,hh_s13a,byte,1,%8.0g,source,Who turned you down when you tried to borrow? (1ST PARTY)
+5,hh_s13b,byte,1,%8.0g,source,Who turned you down when you tried to borrow? (2ND PARTY)
+6,hh_s13_oth,str18,0,%18s,,Specify who turned you down.
+7,hh_s14,byte,1,%8.0g,hh_s14,What was the main reason for trying to obtain the loan?
+8,hh_s14_oth,strL,0,%32s,,Specify the main reason for trying to obtain the loan.
+9,hh_s15,byte,1,%8.0g,hh_s15,Are you awaiting word on a loan that you applied for during the last 12 months
+10,hh_s16a,byte,1,%8.0g,source,From whom or which institution are you awaiting word on a loan? (1st)
+11,hh_s16b,byte,1,%8.0g,source,From whom or which institution are you awaiting word on a loan? (2nd)
+12,hh_s16_oth,str18,0,%18s,,Specify from whom or which institution are you awaiting word on a loan.
+13,hh_s17,byte,1,%8.0g,hh_s17,What was the main reason for trying to obtain the loan?
+14,hh_s17_oth,str22,0,%22s,,Specify the main reason for trying to obtain the loan.
+15,hh_s18,byte,1,%8.0g,s,"ENUMERATOR: WAS THE ANSWER TO QUESTIONS S01, S12 AND S15 ALWAYS 'NO'?"
+16,hh_s19a,byte,1,%8.0g,reasons,Why did you not attempt to borrow in the last 12months? (1ST REASON)
+17,hh_s19b,byte,1,%8.0g,reasons,Why did you not attempt to borrow in the last 12months? (2ND REASON)
+18,hh_s19_oth,strL,0,%40s,,Specify why you did not attempt to borrow in the last 12months

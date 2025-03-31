@@ -1,0 +1,33 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/datadisk2/Scientific/Study_PhD/07_papers/LSMS_cropSeasons/LSMS_MWI_raw/exportStataToCsv_Linux_LOGFILE.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}17 May 2023, 20:47:06
+{txt}
+{com}. 
+. 
+. // if confirmdir is not yet installed, run: ssc install confirmdir
+. 
+. 
+. **************************************************************************************************************************************
+. **************************************************************************************************************************************
+. **************************************************************************************************************************************
+. **************************************************************************************************************************************
+. 
+. *******************************************************************
+. *******************************************************************
+. 
+. ***** Country & survey wave: *****
+. ***** Malawi 2004_2005 *****
+. // cd to folder of input dta-files
+. cd "`path'/LSMS_MWI_raw/2004_2005/MWI_2004_IHS-II_v01_M_Stata8"
+{err}unable to change to /datadisk2/Scientific/Study_PhD/07_papers/LSMS_cropSeasons/LSMS_MWI_raw/LSMS_MWI_raw/2004_2005/MWI_2004_IHS-II_v01_M_Stata8
+{txt}{search r(170), local:r(170);}
+
+end of do-file
+
+{search r(170), local:r(170);}
+
+
+{com}. exit, clear

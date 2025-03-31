@@ -1,0 +1,36 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%9s,,Unique EA Identifier
+2,com_cg01,byte,1,%14.0g,COM_CG01,Access to transportation
+3,com_cg02,byte,1,%14.0g,COM_CG02,Availability of soap
+4,com_cg03,byte,1,%14.0g,COM_CG03,Availability of cooking oil
+5,com_cg04,byte,1,%14.0g,COM_CG04,Availability of commercially manufactured goods
+6,com_cg05,byte,1,%14.0g,COM_CG05,Availability of electricity
+7,com_cg06,byte,1,%14.0g,COM_CG06,Availability of firewood
+8,com_cg07,byte,1,%14.0g,COM_CG07,Availability of charcoal
+9,com_cg08,byte,1,%14.0g,COM_CG08,Availability of paraffin
+10,com_cg09,byte,1,%14.0g,COM_CG09,"Availability of staple foods (maize, cassava)"
+11,com_cg10,byte,1,%14.0g,COM_CG10,Availability of staple foods in market
+12,com_cg11,byte,1,%14.0g,COM_CG11,Availability of health care in general
+13,com_cg12,byte,1,%14.0g,COM_CG12,Medical care for pregnant women
+14,com_cg13,byte,1,%14.0g,COM_CG13,Availability of vaccinations for children
+15,com_cg14,byte,1,%14.0g,COM_CG14,General knowledge on avoiding HIV infection
+16,com_cg15,byte,1,%14.0g,COM_CG15,General knowledge on treating malaria
+17,com_cg16,byte,1,%14.0g,COM_CG16,General knowledge on treating diarrhea
+18,com_cg17,byte,1,%14.0g,COM_CG17,Availability of water from protected sources
+19,com_cg18,byte,1,%14.0g,COM_CG18,Use of improved water drainage facilities
+20,com_cg19,byte,1,%14.0g,COM_CG19,Use of improved trash disposal facilities
+21,com_cg20,byte,1,%14.0g,COM_CG20,Use of improved toilet facilities
+22,com_cg21,byte,1,%14.0g,COM_CG21,Quality of education at primary school
+23,com_cg22,byte,1,%14.0g,COM_CG22,Quality of education at secondary school
+24,com_cg23,byte,1,%14.0g,COM_CG23,Access to non-agricultural business credit sources
+25,com_cg24,byte,1,%14.0g,COM_CG24,Police services
+26,com_cg25,byte,1,%14.0g,COM_CG25,Robbery
+27,com_cg26,byte,1,%14.0g,COM_CG26,Violence
+28,com_cg27,byte,1,%14.0g,COM_CG27,Development action by local government officials
+29,com_cg28,byte,1,%14.0g,COM_CG28,Corruption of government officials
+30,com_cg29,byte,1,%14.0g,COM_CG29,Witchcraft or accusations of witchcraft
+31,com_cg30,byte,1,%14.0g,COM_CG30,Level of trust in the community
+32,com_cg31,byte,1,%14.0g,COM_CG31,Willingness of members to help others in the community
+33,com_cg32,byte,1,%14.0g,COM_CG32,Willingness of community to make contributions to communities
+34,com_cg33,byte,1,%14.0g,COM_CG33,Number of self-help community initiatives
+35,com_cg34,int,1,%8.0g,,Number of poor households

@@ -1,0 +1,8 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_t0a,int,1,%29.0g,AG_W0A,CODE
+6,ag_t01,byte,1,%8.0g,AG_W01,"During the 2013 rainy season, did you or anyone in your household receive any ad"
+7,ag_t02,byte,1,%38.0g,AG_W02,What was the main source of the advice on [TOPIC]? (SOURCE)

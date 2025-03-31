@@ -1,0 +1,14 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%4s,,GARDEN ID
+4,ag_o101,byte,1,%8.0g,ag_o_1_1,..AnyOther gardens you've owned/cultivated with tree/perm crops in last 12months
+5,ag_o104a,double,1,%12.0g,,What is the area of this garden ([GARDEN])? AREA
+6,ag_o104a2,double,1,%12.0g,,Area of garden measured using GPS by Enumerator
+7,ag_o104b,byte,1,%8.0g,ag_o_1_4b,unit
+8,ag_o104b_oth,str15,0,%15s,,SPECIFY UNIT
+9,ag_o105e,byte,1,%8.0g,ag_o_1_05c,"IF YOU DID NOT RECORD THE GPS COORDINATES, PLEASE SPECIFY REASON."
+10,ag_o105e_oth,str29,0,%29s,,PLEASE SPECIFY REASON YOU DID NOT RECORD THE GPS COORDINATES
+11,ag_o106,byte,1,%8.0g,,Number Of Satellites GPS tracked to record plot coordinates
+12,ag_o106a,byte,1,%8.0g,,ENUMERATOR: RECORD GPS ACCURACY
+13,ag_o107,byte,1,%8.0g,ag_o_1_07,ENUMERATOR: RECORD THE WEATHER CONDITIONS AT TIME OF MEASUREMENT:

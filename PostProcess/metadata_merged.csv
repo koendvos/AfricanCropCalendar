@@ -1,0 +1,516 @@
+country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,dataset_doi
+Ethiopia,2011-12,hhID,household_id,Household ID unique,0.0,0.0,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,fieldID,parcel_id,Parcel ID,0.0,0.0,"not based on fieldID, but on parcelID",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plotID,field_id,Field ID,0.0,0.0,"plot_ID may not be unique, based on fieldID",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,crop,crop_name,Crop Name,11.116840572676535,0.0,crop_name and crop_id don't match,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",65.38461538461539,61.07377971825221,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),25.6855132249454,16.434150833987108,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),25.84020868721184,16.60811133472047,range: 0 - 8000,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_month_begin,ph_s9q13_a,What were the months when the harvest started and ended? (Start Month),87.84882310118903,48.30967741935484,"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), values up to 23",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_month_end,ph_s9q13_b,What were the months when the harvest started and ended? (End Month),87.95195340936665,48.7483870967742,"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), values up to 23",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm1,region,Region,0.0,0.0,no region 14,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm2,zonename,Zone Name,16.910337296772628,17.48551272360796,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm3,woredaname,Woreda Name,25.47318611987382,27.05971277399849,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,lat,LAT_DD_MOD,EA Latitude (WGS84) Modified,0.3033244358165494,0.0,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,lon,LON_DD_MOD,EA Longitude (WGS84) Modified,0.3033244358165494,0.0,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,GPS_level,,,0.3033244358165494,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plot_area_reported_localUnit,pp_s3q02_d,What is the area of [Field]? (Total Area),11.45656394079107,1.0179547228727557,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),11.45049745207474,0.9992193598750976,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plot_area_measured_ha,pp_s3q05_c,GPS measured area of [Field] (Total Square Meters),26.35282698374181,18.4512099921936,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plot_area_reported_ha,,,37.59099733074496,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,season,,,100.0,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_month,,,100.0,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_year,,,100.0,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_year_begin,,,100.0,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_year_end,,,100.0,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm4,,,100.0,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,dataset_name,,,0.0,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,country,,,0.0,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,dataset_doi,,,0.0,,,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2013-14,hhID,household_id2,Unique HH ID in wave 2,0.0,0.0,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,fieldID,parcel_id,Parcel ID,0.0,0.0,"not based on fieldID, but on parcelID",ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,plotID,field_id,Field ID,0.0,0.0,"plot_ID may not be unique, based on fieldID",ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,crop,"pp_s4q01_a, ph_s9q0d",Crop Name,0.9016633573125874,0.0,crop_name and crop_id don't match,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",59.92968978874386,59.54415954415955,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),27.86042121024706,27.699011228422997,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),27.88646202923082,27.725825372884195,year 2204 included,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_month_begin,ph_s9q07_a,What were the months when the harvest started ?,12.981348263402884,11.43141153081511,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_month_end,ph_s9q07_b,What were the months when the harvest ended?,13.12131766544058,11.573889993373095,"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), some months are 0",ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,adm1,region,Region Name,0.2669183945835096,0.0,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,adm2,zonename,Zone Name,15.640766902119072,28.03116685670848,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,adm3,woredaname,Woreda Name,24.465349435239737,43.48156594450779,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,lat,lat_dd_mod,lat_dd_mod,0.0,0.1134859088329865,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,lon,lon_dd_mod,lon_dd_mod,0.0,0.1134859088329865,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,GPS_level,,,0.0,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,plot_area_reported_localUnit,pp_s3q02_a,What is the area of [Field]? (Area),1.995377754630383,0.3559899840106193,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),2.005143061749292,0.3559899840106193,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,plot_area_measured_ha,pp_s3q05_a,Area of [Field] (Square Meters),5.315582175059406,6.199656077473074,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,plot_area_reported_ha,,,43.05523908726929,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,season,,,100.0,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_month,,,100.0,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_year,,,100.0,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_year_begin,,,100.0,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_year_end,,,100.0,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,adm4,,,100.0,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,dataset_name,,,0.0,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,country,,,0.0,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,dataset_doi,,,0.0,,,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2015-16,hhID,household_id2,Unique HH ID in wave 2,0.0032628556512659,0.0,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,fieldID,parcel_id,Parcel ID,0.0,0.0,"not based on fieldID, but on parcelID",ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plotID,field_id,Field ID,0.0,0.0,"plot_ID may not be unique, based on fieldID",ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,crop,"pp_s4q01_a, crop_name",Crop Name,1.0016966849386582,0.0,crop_name and crop_id don't match,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",60.74784651527017,60.35727233776078,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),47.50065257113025,46.96944728255496,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),47.51370399373532,46.98263076365314,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_month_begin,ph_s9q07_a,What were the months when the harvest started ?,15.3876272513704,14.50432029549502,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_month_end,ph_s9q07_b,What were the months when the harvest ended?,15.3876272513704,14.50432029549502,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm1,region,Region Name,0.6329939963456017,0.0,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm2,zonename,Zone Name,13.713782302270946,26.96810658054098,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm3,woredaname,Woreda Name,21.69799008091882,41.74404521598708,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,lat,lat_dd_mod,EA Latitude (WGS84) Modified,0.6329939963456017,0.0,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,lon,lon_dd_mod,EA Longitude (WGS84) Modified,0.6329939963456017,0.0,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,GPS_level,,,0.6329939963456017,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plot_area_reported_localUnit,pp_s3q02_a,What is the area of [Field]? (Area),1.093056643174106,0.0540459390481909,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),1.132210910989298,0.1170995346044137,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plot_area_measured_ha,pp_s3q05_a,Area of [Field] (Square Meters),2.411250326285565,2.251914127007957,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plot_area_reported_ha,,,52.11433046202036,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,season,,,100.0,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_month,,,100.0,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_year,,,100.0,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_year_begin,,,100.0,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_year_end,,,100.0,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm4,,,100.0,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,dataset_name,,,0.0,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,country,,,0.0,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,dataset_doi,,,0.0,,,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2018-19,hhID,household_id,Unique Household Indentifier,0.0,0.0,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,fieldID,parcel_id,Unique Parcel Identifier,0.0,0.0,"not based on fieldID, but on parcelID",ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plotID,field_id,Unique Field Identifier,0.0,0.0,"plot_ID may not be unique, based on fieldID",ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,crop,"s4q01b, s9q00b","1b.CROP CODE, 1.Crop code",0.0,0.0,"white cumin and white lumin may be the same crop, crop_name and crop_id don't match",ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,crop_area_share,s4q03,"3.Approximately, how much of [FIELD] was planted with [CROP]?",64.2332334097455,64.02175841069,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,planting_month,s4q13a,13_a.When did you plant the seeds for the [Crop] on [FIELD]? (Month),33.23340974548874,32.83864482942116,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,planting_year,s4q13b,13_b.When did you plant the seeds for the [Crop] on [FIELD]? (Year),33.23340974548874,32.83864482942116,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_month_begin,s9q08a,8a.What was the month when the harvesting of [CROP] on [FIELD] started?,39.887145124316696,36.88984881209503,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_month_end,s9q08b,8b.What was the month when the harvesting of [CROP] on [FIELD] ended?,39.887145124316696,36.88984881209503,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm1,region,Region,3.1387762299418096,0.0,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm2,zonename,Zone Name,31.052724387233297,48.655834564254064,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm3,woredaname,Woreda Name,64.53888203138777,82.3781388478582,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,lat,lat_mod,Latitude Modified,0.1645800270381473,2.4544385655496765,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,lon,lon_mod,Longitude Modified,0.1645800270381473,2.4544385655496765,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,GPS_level,,,0.1645800270381473,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plot_area_reported_localUnit,s3q02a,2a.ASK HOLDER: What is the area of [FIELD]?,4.808087932757303,0.0051708981850147,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,localUnit_area,s3q02b,2b. Unit of measurement,4.808087932757303,0.0051708981850147,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plot_area_measured_ha,s3q08,8.RECORD AREA OF THE FIELD USING GPS.,5.090225121965556,0.5067480221314442,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plot_area_reported_ha,,,51.55469346969964,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,season,,,100.0,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_month,,,100.0,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_year,,,100.0,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_year_begin,,,100.0,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_year_end,,,100.0,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm4,,,100.0,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,dataset_name,,,0.0,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,country,,,0.0,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,dataset_doi,,,0.0,,,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Mali,2014-2015,hhID,"grappe, menage","Grappe, Ménage",0.0,0.0,"paste of grappe and menage ""G_M""",MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,lat,lat_dd_mod,GPS Latitude Modified,0.0,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,lon,lon_dd_mod,GPS Longitude Modified,0.0,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,GPS_level,type,Type de questionnaire,0.0,0.0,"set to 3 based on ""type""",MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,country,,,0.0,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,adm1,s0aq01,Région,0.0,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,adm2,s0aq02,Cercle,0.3098141,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,adm3,s0aq03,Commune,0.0,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,adm4,,,0.0,0.0,not present in dataset,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,fieldID,"s1cq01,s1bq01",Numéro du bloc,0.0,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,plotID,"s1cq02,s1bq02",Numéro de la parcelle,0.0,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,crop,s1cq03,Code de la culture,0.1399161,0.1701021,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,season,,,0.0,0.0,not present in dataset,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,plot_area_reported_ha,s1bq10,Superficie de la parcelle (en HA) selon le paysan,0.119928,10.0641955,value 99 is indicated as NoData,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,plot_area_measured_ha,s1bq05a,Superficie de la parcelle (en hectare) selon les mesures GPS,0.119928,5.715469,value 99 is indicated as NoData,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,plot_area_reported_localUnit,,,0.0,0.0,not present in dataset,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,localUnit_area,,,0.0,0.0,not present in dataset,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,crop_area_share,s1cq06,Pourcentage de la superficie occupée par cette culture,88.2470518,90.8244947,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,planting_month,s1cq11b,Mois de début de sémis ou de repiquage pour la culture,0.0,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,harvest_month,,,4.1075355,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,harvest_month_begin,s3aq04b,Mois de début de récolte de la culture,4.6272237,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,harvest_month_end,s3aq07b,Mois de fin de récolte de la culture,6.6660004,4.3121561,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,planting_year,,,4.6272237,0.0,calculated by considering the harvest month + year,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,harvest_year,,,4.6272237,0.0,,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,harvest_year_begin,,,4.6272237,0.0,calculated based on survey date and reported planting month,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2014-2015,harvest_year_end,,,4.6272237,0.0,calculated based on survey date and reported planting month,MLI_2014_EACI_v03_M,https://doi.org/10.48529/qqam-mn86
+Mali,2017-2018,hhID,"grappe, exploitation","Grappe, Exploitation",0.0,0.0,combination of both grappe and exploitation,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,lat,lat_dd_mod,GPS Latitude Modified,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,lon,lon_dd_mod,GPS Longitude Modified,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,GPS_level,,,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,country,,,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,adm1,s0q01,Région,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,adm2,s0q02,Cercle,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,adm3,s0q03,Commune,0.1283697,0.6436234,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,adm4,,,0.0,0.0,not present in dataset,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,fieldID,"s11bq01,s11cq01",Numéro du bloc,0.0,0.0,different variables indicating bloc ID,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,plotID,"s11bq02, s11cq02",Numéro de la parcelle dans le bloc,0.0,0.0,different variables indicating parcelle ID,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,crop,s11cq03,Code de la culture,0.0,0.0490657,based on crop code description,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,season,,,0.0,0.0,not present in dataset,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,plot_area_reported_ha,s11bq11b,Unité de mesure de la superficie de la parcelle par le paysan,1.4160783,1.4804124,converted m to hectares - accounted for crop_area_share,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,plot_area_measured_ha,s11bq07,Superficie de la parcelle en ha selon les mesures GPS,1.4241014,1.7319588,accounted for crop_area_share,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,plot_area_reported_localUnit,,,0.0,0.0,not present in dataset,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,localUnit_area,,,0.0,0.0,not present in dataset,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,crop_area_share,s11cq07,Pourcentage de la superficie occupée par la culture sur la parcelle,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,planting_month,s11cq14b,Date de commencement du semis ou repiquage pour la culture-Mois,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,harvest_month,,,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,harvest_month_begin,s7fq05b,Date de début de la récolte de la culture-Mois,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,harvest_month_end,s7fq12b,Date de fin de la recolte de la culture-Mois,4.7657253,4.8166169,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,planting_year,,,0.0,0.0,calculated by considering the harvest month + year,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,harvest_year,,,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,harvest_year_begin,s7fq05c,Date de début de la récolte de la culture-Année,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Mali,2017-2018,harvest_year_end,s7fq12c,Date de fin de la recolte de la culture-Année,0.0,0.0,,MLI_2017_EAC-I_v03_M,https://doi.org/10.48529/0v50-h966
+Malawi,2013,GPS_level,,,,,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,adm1,region,IHPS 2013 Region Location,0.0,0.0,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,adm2,district,IHPS 2013 District Location,0.0,0.0,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,adm3,,,,,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,adm4,,,,,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,country,,,,,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,crop,ag_g0b; ag_m0c; ag_p0c,CROP CODE; TREE/PERMANENT CROP CODE,24.462890625,24.462890625,"Crop names were harmonized for spelling. Crop names in Chichewa for which the English translation was known, were converted to their English name.",MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,crop_area_share,ag_g03; ag_m03,"Approximately, how much of the [PLOT] is under [CROP]?",92.69748263888889,91.3764629855676,"The percentage of plot area cultivated by a crop was assumed as: 12.5 % if indicated ""less than 1/4"", 25 % if indicated ""1/4"", 37.5 % if indicated ""less than 1/2"", 50 % if indicated ""1/2"", 62.5 % if indicated ""less than 3/4"", 75 % if indicated ""3/4"", 87.5 % if indicated ""more than 3/4"", 100 % if indicated as fully occupied by a single crop. For many plots, any indication on whether the crop was fully cultivated by a single crop is missing: Whenever a plot is not intercropped and not indicated as only partially being cropped, then we assume that the plot is fully under the target crop.",MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,dataset_doi,,,,,"Of the Malawian panel dataset ""MWI_2010-2013_IHPS_v01_M"", which includes data for both the 2010 and 2013 survey waves, we exclusively considered data from the 2013 survey wave. Data for the 2010 survey wave was instead sourced separately from the cross-sectional dataset “MWI_2010_IHS-III_v01_M”. For the 2013 survey wave, no cross-sectional dataset is available.",MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,dataset_name,,,,,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,fieldID,ag_c03_2; ag_o03_2,2012/2013 GARDEN ID OF THE GARDEN THAT THE PLOT IS A PART OF.; ENUMERATOR: RECORD THE 2012/13 GARDEN ID OF THE GARDEN THAT THE PLOT IS A PART O,31.260850694444443,18.57707509881423,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,harvest_month,,,,,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,harvest_month_begin,ag_g12a; ag_m12a; ag_p06a,What were the months when the harvest started and ended? (START); What were the months when the harvest started and ended?; What was the last completed production period for the [TREE / PERMANENT CROP? (B,32.96983506944444,32.96983506944444,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,harvest_month_end,ag_g12b; ag_m12b; ag_p06c,What were the months when the harvest started and ended? (END); What were the months when the harvest started and ended?; What was the last completed production period for the [TREE / PERMANENT CROP? (E,33.04578993055556,33.04578993055556,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,harvest_year,,,,,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,harvest_year_begin,ag_p06b,What was the last completed production period for the [TREE / PERMANENT CROP? (B,85.36241319444444,40.11098779134295,"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,harvest_year_end,ag_p06d,What was the last completed production period for the [TREE / PERMANENT CROP? (E,85.37326388888889,40.15538290788013,"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,hhID,case_id,IHS3 Baseline case_id as in IHS3 Public Data,0.0,0.0,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,lat,lat_dd_mod,,0.0,0.0,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,localUnit_area,ag_c04b; ag_j05b; ag_o04b,What is the area of this [PLOT]? (UNIT),26.81206597222222,33.628961907531256,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,lon,lon_dd_mod,,0.0,0.0,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,planting_month,ag_g05a; ag_m05a,When did you plant the seeds for the [CROP] on this [PLOT] during the 2012/2013 rainy season? (Month); When did you plant the seeds for the [CROP] on this [PLOT] during the 2013 dry (dimba) season? (Month),39.2578125,19.609391828821717,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,planting_year,ag_g05b; ag_m05b; ag_p04,When did you plant the seeds for the [CROP] on this [PLOT] during the 2012/2013 rainy season? (YEAR 4-DIGIT); When did you plant the seeds for the [CROP] on this [PLOT] during the 2013 dry (dimba) season? (YEAR 4-DIGIT),26.61675347222222,26.61675347222222,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,plotID,ag_c00; ag_g00; ag_j00; ag_m00; ag_o00; ag_p00,Plot ID,24.462890625,27.485398285075185,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,plot_area_measured_ha,ag_c04c; ag_j05c; ag_o04c,What is the area of this [PLOT]? (GPS AREA IN ACRES); What is the area of this [PLOT]? (Area in Acres); What is the area of this [PLOT]? (Area in Acres),29.931640625,36.85664437336435,"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,plot_area_reported_ha,ag_c04a; ag_j05a; ag_o04a,What is the area of this [PLOT]? (AREA),26.81206597222222,33.43995347484734,"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,plot_area_reported_localUnit,ag_c04a; ag_j05a; ag_o04a,What is the area of this [PLOT]? (AREA),26.61675347222222,33.43995347484734,,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2013,season,,,,,The type of season (major vs minor) has been identified based on the seasonal focus of the respective sections of the survey questionnaire. The IHS contains separate questionnaire sections for the major and minor growing season.,MWI_2010-2013_IHPS_v01_M,https://doi.org/10.48529/4q9f-2288
+Malawi,2010,GPS_level,,,,,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,adm1,,,,,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,adm2,hh_a01,district,0.0,0.0,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,adm3,,,,,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,adm4,,,,,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,country,,,,,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,crop,ag_g0d; ag_m0d; ag_p0d,CROP CODE; TREE/PERMANENT CROP CODE,31.24866926039913,31.24866926039913,"Crop names were harmonized for spelling. Crop names in Chichewa for which the English translation was known, were converted to their English name.",MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,crop_area_share,ag_g03; ag_m03,"Approximately, how much of the [PLOT] is under [CROP]?; Approximately how much of the [PLOT] is under [CROP]?",95.22482240675144,93.78258203005213,"The percentage of plot area cultivated by a crop was assumed as: 12.5 % if indicated ""less than 1/4"", 25 % if indicated ""1/4"", 37.5 % if indicated ""less than 1/2"", 50 % if indicated ""1/2"", 62.5 % if indicated ""less than 3/4"", 75 % if indicated ""3/4"", 87.5 % if indicated ""more than 3/4"", 100 % if indicated as fully occupied by a single crop. For many plots, any indication on whether the crop was fully cultivated by a single crop is missing: Whenever a plot is not intercropped and not indicated as only partially being cropped, then we assume that the plot is fully under the target crop.",MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,dataset_doi,,,,,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,dataset_name,,,,,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,fieldID,,,,,The 2010 survey wave of the IHS did not record any field-identifiers but exclusively used plot-identifiers.,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,harvest_month,,,,,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,harvest_month_begin,ag_g12a; ag_m12a; ag_p06a,What were the months when the harvest started and ended? (START); What was the last completed production period for[TREE/PERM CROP]?(START MONTH),32.74103323461665,32.74103323461665,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,harvest_month_end,ag_g12b; ag_m12b; ag_p06c,What were the months when the harvest started and ended? (END); What was the last completed production period for[TREE/PERM CROP]?(END MONTH),32.79910187174574,32.79910187174574,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,harvest_year,,,,,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,harvest_year_begin,ag_p06b,What was the last completed production period for[TREE/PERM CROP]?(START YEAR),88.84888604997774,54.02601548160562,"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,harvest_year_end,ag_p06d,What was the last completed production period for[TREE/PERM CROP]?(END YEAR),88.84888604997774,54.02601548160562,"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,hhID,case_id,Unique HH Identifier,0.0,0.0,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,lat,lat_modified,EA Latitude Modified,0.0,0.0,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,localUnit_area,ag_c04b; ag_j05b; ag_p02b,What is the area of this [PLOT]? (Unit); What is the area of this [PLOT]? (FARMER ESTIMATION/UNIT); What is the area of the plantation?(UNIT),40.84160811412423,49.18528314362632,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,lon,lon_modified,EA Longitude Modified,0.0,0.0,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,planting_month,ag_g05a; ag_m05a,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(MONTH),43.065636916168245,24.833895533067565,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,planting_year,ag_g05b; ag_m05b; ag_p04,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(YEAR); In what year were most of these plants/trees planted?,35.22830652497919,35.22830652497919,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,plotID,ag_c00; ag_g0b; ag_j00; ag_m0b; ag_p0b,Plot ID,31.21576369935931,31.30292839784973,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,plot_area_measured_ha,ag_c04c; ag_j05c,What is the area of this [PLOT]? (Area in Acres); What is the area of this [PLOT]? (GPS MEASURE/AREA IN ACRES),41.505526198633454,34.06003689418078,"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,plot_area_reported_ha,ag_c04a; ag_j05a; ag_p02a,What is the area of this [PLOT]? (Area); What is the area of this [PLOT]? (FARMER ESTIMATION/AREA); What is the area of the plantation?(AREA),40.85709308402532,49.10499220705616,"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,plot_area_reported_localUnit,ag_c04a; ag_j05a; ag_p02a,What is the area of this [PLOT]? (Area); What is the area of this [PLOT]? (FARMER ESTIMATION/AREA); What is the area of the plantation?(AREA),40.76031202214351,49.10499220705616,,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2010,season,,,,,The type of season (major vs minor) has been identified based on the seasonal focus of the respective sections of the survey questionnaire. The IHS contains separate questionnaire sections for the major and minor growing season.,MWI_2010_IHS-III_v01_M,https://doi.org/10.48529/w1jq-qh85
+Malawi,2016,GPS_level,,,,,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,adm1,region,IHS4 2016 Region location,0.0,0.0,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,adm2,district,IHS4 2016 District Location,0.0,0.0,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,adm3,,,,,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,adm4,,,,,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,country,,,,,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,crop,crop_code_collapsed; crop_code; ag_p0_crops,"Collapsed CC maize,gn,tob,rice; Crop ID; FOR EACH PLOT, LIST ALL TREE/PERMANENT CROPS HARVESTED BY HH IN LAST 12MONTHS",2.5502318392581143,2.3022291694984367,"Crop names were harmonized for spelling. Crop names in Chichewa for which the English translation was known, were converted to their English name.",MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,crop_area_share,ag_g03; ag_m03,"Approximately, how much of the [PLOT] is under [CROP]?; Approximately, how much of the [PLOT] is under crop [CROP]?",39.27975270479134,30.09359763692658,"The percentage of plot area cultivated by a crop was assumed as: 12.5 % if indicated ""less than 1/4"", 25 % if indicated ""1/4"", 37.5 % if indicated ""less than 1/2"", 50 % if indicated ""1/2"", 62.5 % if indicated ""less than 3/4"", 75 % if indicated ""3/4"", 87.5 % if indicated ""more than 3/4"", 100 % if indicated as fully occupied by a single crop. For many plots, any indication on whether the crop was fully cultivated by a single crop is missing: Whenever a plot is not intercropped and not indicated as only partially being cropped, then we assume that the plot is fully under the target crop.",MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,dataset_doi,,,,,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,dataset_name,,,,,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,fieldID,gardenid,Garden ID,0.071097372488408,0.0873843581998822,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,harvest_month,,,,,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,harvest_month_begin,ag_g12a; ag_m12a; ag_p06a,What months did the harvest start?;  What were the months when the harvest started and ended? (START); What was the last completed production period for the tree/permanent crop,3.5950540958268933,3.5950540958268933,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,harvest_month_end,ag_g12b; ag_m12b; ag_p06c,What months did the harvest end?; What were the months when the harvest started and ended? (END);  END MONTH,3.58887171561051,3.58887171561051,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,harvest_year,,,,,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,harvest_year_begin,ag_p06b,BEGIN YEAR (4-DIGIT),87.65996908809892,6.092684074335451,"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,harvest_year_end,ag_p06d,END YEAR (4-DIGIT),87.66306027820711,6.116207951070336,"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,hhID,case_id,Unique Household Identifier,0.0,0.0,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,lat,lat_modified,GPS Latitude Modified,0.0123647604327666,0.0241021932995902,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,localUnit_area,ag_c04b; ag_j05b; ag_o04b,Units of Area Reported; unit; unit,4.868624420401855,3.711004879010399,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,lon,lon_modified,GPS Longitude Modified,0.0123647604327666,0.0241021932995902,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,planting_month,ag_g05a; ag_m05a,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(MONTH),15.236476043276662,2.4128972561301114,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,planting_year,ag_g05b; ag_m05b; ag_p04,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(YEAR);  YEAR (4 DIGIT); In what year were most of these plants/ trees planted?,4.476043276661515,4.476043276661515,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,plotID,plotid,Plot ID,1.891808346213292,1.3430595923329725,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,plot_area_measured_ha,ag_c04c; ag_j05c; ag_o04c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE; What is the area of this [PLOT]?  [GPS],13.894899536321484,14.513823862796311,"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,plot_area_reported_ha,ag_c04a; ag_j05a; ag_o04a,Self Reported Area of Plot; What is the <u>area</u> of this plot (%rostertitle%)? ENUMERATOR: ASK THE;  What is the area of this [PLOT]?,4.942812982998454,3.627223892366074,"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,plot_area_reported_localUnit,ag_c04a; ag_j05a; ag_o04a,Self Reported Area of Plot; What is the <u>area</u> of this plot (%rostertitle%)? ENUMERATOR: ASK THE;  What is the area of this [PLOT]?,4.800618238021638,3.627223892366074,,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2016,season,,,,,The type of season (major vs minor) has been identified based on the seasonal focus of the respective sections of the survey questionnaire. The IHS contains separate questionnaire sections for the major and minor growing season.,MWI_2016_IHS-IV_v04_M,https://doi.org/10.48529/g2p9-9r19
+Malawi,2019,GPS_level,,,,,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,adm1,region,IHS5 2019 Region location,0.0,0.0,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,adm2,district,IHS5 2019 District Location,0.0,0.0,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,adm3,,,,,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,adm4,,,,,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,country,,,,,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,crop,crop_code; ag_p0_crops,"Crop ID; FOR EACH PLOT, LIST ALL TREE/PERMANENT CROPS HARVESTED BY HH IN LAST 12MONTHS",0.2579967579168474,0.0753441859403182,"Crop names were harmonized for spelling. Crop names in Chichewa for which the English translation was known, were converted to their English name.",MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,crop_area_share,ag_g03; ag_m03,"Approximately, how much of the [PLOT] is under [CROP]?; Approximately how much of the [PLOT] is under [CROP]?",38.01684969976484,24.39146660725227,"The percentage of plot area cultivated by a crop was assumed as: 12.5 % if indicated ""less than 1/4"", 25 % if indicated ""1/4"", 37.5 % if indicated ""less than 1/2"", 50 % if indicated ""1/2"", 62.5 % if indicated ""less than 3/4"", 75 % if indicated ""3/4"", 87.5 % if indicated ""more than 3/4"", 100 % if indicated as fully occupied by a single crop. For many plots, any indication on whether the crop was fully cultivated by a single crop is missing: Whenever a plot is not intercropped and not indicated as only partially being cropped, then we assume that the plot is fully under the target crop.",MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,dataset_doi,,,,,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,dataset_name,,,,,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,fieldID,gardenid,Garden ID,0.0593620858923719,0.0374197633919576,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,harvest_month,,,,,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,harvest_month_begin,ag_g12a; ag_m12a; ag_p06a,What months did the harvest start?; What were the months when the harvest started and ended? (START); What was the last completed production period for the tree/permanent crop,0.7762734309002489,0.7762734309002489,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,harvest_month_end,ag_g12b; ag_m12b; ag_p06c,What months did the harvest end?; What were the months when the harvest started and ended? (END); END MONTH,0.7785565880499554,0.7785565880499554,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,harvest_year,,,,,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,harvest_year_begin,ag_p06b,BEGIN YEAR (4-DIGIT),82.02470376035983,0.253389078930698,"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,harvest_year_end,ag_p06d,END YEAR (4-DIGIT),82.02470376035983,0.253389078930698,"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,hhID,case_id,Unique Household Identifier,0.0,0.0,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,lat,ea_lat_mod,Latitude Modified,0.8721660311879267,0.0699667657862515,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,localUnit_area,ag_c04b; ag_j05b; ag_o04b,Units of Self Reprted Area; UNIT; UNIT,1.0023059887212038,0.8760658801541875,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,lon,ea_lon_mod,Longitude Modified,0.8721660311879267,0.0699667657862515,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,planting_month,ag_g05a; ag_m05a,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(MONTH),18.123701454371105,0.1253272433576561,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,planting_year,ag_g05b; ag_m05b; ag_p04,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(YEAR); YEAR; In what year were most of these plants/ trees planted?,2.068540377634193,2.068540377634193,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,plotID,plotid,Plot ID,0.0593620858923719,0.0374197633919576,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,plot_area_measured_ha,ag_c04c; ag_j05c; ag_o04c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE; What is the area of this [PLOT]?  [GPS],7.54583437978036,7.541953821594051,"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,plot_area_reported_ha,ag_c04a; ag_j05a; ag_o04a,Self Reported Area of Plot; What is the <u>area</u> of this plot (%rostertitle%)? ENUMERATOR: ASK THE; What is the area of this [PLOT]?,1.089065960410055,0.8916403846902621,"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,plot_area_reported_localUnit,ag_c04a; ag_j05a; ag_o04a,Self Reported Area of Plot; What is the <u>area</u> of this plot (%rostertitle%)? ENUMERATOR: ASK THE; What is the area of this [PLOT]?,1.0251375602182695,0.8916403846902621,,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Malawi,2019,season,,,,,The type of season (major vs minor) has been identified based on the seasonal focus of the respective sections of the survey questionnaire. The IHS contains separate questionnaire sections for the major and minor growing season.,MWI_2019_IHS-V_v05_M,https://doi.org/10.48529/yqn3-zv74
+Uganda,2011-2012,hhID,HHID,HH identifier,0.0,0.0,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r373
+Uganda,2011-2012,plotID,plotID,plot name,0.0,0.02,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r374
+Uganda,2011-2012,plot_area_reported_localUnit,"a4aq7,a4bq7",What was the total area of plot planted,2.38,0.14,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r375
+Uganda,2011-2012,localUnit_area,,,2.33,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r376
+Uganda,2011-2012,plot_area_reported_ha,,,2.38,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r377
+Uganda,2011-2012,crop_area_share,"a4aq9,a4bq9",What percentage of the plot area was under this crop,2.33,43.92,100 if pure stand,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r378
+Uganda,2011-2012,planting_month,"Crop_Planted_Month,Crop_Planted_Month2",month crop planted,2.33,3.54,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r379
+Uganda,2011-2012,planting_year,"Crop_Planted_Year,Crop_Planted_Year",year crop planted,3.5,5.76,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r380
+Uganda,2011-2012,crop,cropID,Crop Name,0.0,0.0,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r381
+Uganda,2011-2012,harvest_month_begin,"a5aq6e, a5bq6e",In what month did the harvest begin,80.0,36.37,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r382
+Uganda,2011-2012,harvest_month_end,"a5aq6f, a5bq6f",In what month did the harvest end,80.0,49.83,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r383
+Uganda,2011-2012,harvest_year_begin,,,100.0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r384
+Uganda,2011-2012,harvest_year_end,,,100.0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r385
+Uganda,2011-2012,season,,,0.0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r386
+Uganda,2011-2012,adm1,h1aq1,District,8.97,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r387
+Uganda,2011-2012,adm2,h1aq2,County/Municipality,9.03,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r388
+Uganda,2011-2012,adm3,h1aq3,"Sub-county/Division,Town Council",9.97,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r389
+Uganda,2011-2012,adm4,h1aq4,Parish/Ward,9.16,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r390
+Uganda,2011-2012,latitude,lat_mod,"latitude in degrees, modified (wgs84)",6.39,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r391
+Uganda,2011-2012,longitude,lon_mod,"longitude in degrees, modified (wgs84)",6.39,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r392
+Uganda,2011-2012,GPS_level,source,location type used in generating modified coordinates,6.39,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r393
+Uganda,2011-2012,plot_area_measured,,,100.0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r394
+Uganda,2011-2012,harvest_month,,,100.0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r395
+Uganda,2011-2012,harvest_year,,,100.0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r396
+Uganda,2011-2012,source,,,0.0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r397
+Uganda,2011-2012,country,,,0.0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r398
+Uganda,2013-2014,hhID,HHID,household ID,0.0,0.0,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h654
+Uganda,2013-2014,plotID,plotID,plot identifier,0.02,0.032,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h655
+Uganda,2013-2014,plot_area_reported_localUnit,a4aq7,Total area of plot planted,8.94,0.07,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h656
+Uganda,2013-2014,localUnit_area,,,0.0,,acres,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h657
+Uganda,2013-2014,plot_area_reported_ha,,,8.94,48.9,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h658
+Uganda,2013-2014,crop_area_share,,,30.19,25.14,100 if pure stand,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h659
+Uganda,2013-2014,planting_month,a4aq9_1,Month crop planted,8.89,0.4,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h660
+Uganda,2013-2014,planting_year,a4aq9_2,Year crop planted,8.95,0.46,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h661
+Uganda,2013-2014,crop,cropID,Crop Name,0.0,48.9,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h662
+Uganda,2013-2014,harvest_month_begin,a5aq6e,in what month did harvest begin,26.38,25.51,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h663
+Uganda,2013-2014,harvest_month_end,a5aq6f,in what month did harvest end,26.38,25.66,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h664
+Uganda,2013-2014,harvest_year_begin,a5aq6e_1,in what year did harvest begin,26.38,18.68,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h665
+Uganda,2013-2014,harvest_year_end,a5aq6f_1,in what year did harvest end,26.38,18.63,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h666
+Uganda,2013-2014,season,,,0.0,,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h667
+Uganda,2013-2014,adm1,region,Region,0.0,0.0,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h668
+Uganda,2013-2014,adm2,district_name,L1_name,0.0,0.0,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h669
+Uganda,2013-2014,adm3,subcounty_name,L2_name,0.0,0.0,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h670
+Uganda,2013-2014,adm4,parish_name,L3_name,0.0,0.0,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h671
+Uganda,2013-2014,latitude,,,100.0,,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h672
+Uganda,2013-2014,longitude,,,100.0,,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h673
+Uganda,2013-2014,GPS_level,,,100.0,,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h674
+Uganda,2013-2014,plot_area_measured,,,100.0,,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h675
+Uganda,2013-2014,harvest_month,,,100.0,,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h676
+Uganda,2013-2014,harvest_year,,,100.0,,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h677
+Uganda,2013-2014,source,,,0.0,,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h678
+Uganda,2013-2014,country,,,0.0,,,UGA_2013_UNPS_v02_M,https://doi.org/10.48529/c1c4-h679
+Uganda,2019-20,hhID,hhid,Unique household identifier in 2019/20/ Unique 32-character long identifier of the interview,0.0,0.0,"hhid was changed again since 2018/19, the old ones are available in the raw data",UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plotID,pltid,Plot identifier,0.0,0.0,may not be unique,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plot_area_reported_localUnit,"s4aq07, s4bq07",7.What was the total area of %rostertitle% planted?,0.3962689751874657,0.4048355355636773,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,crop_area_share,"s4aq09, s4bq09",9. Approximately what percentage of the plot area was under this %rostertitle%?,47.1499116015363,45.18976665729547,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,planting_month,"s4aq09_1, s4bq09_1",9.1. What month was the crop planted?,0.085350240809608,0.1180770312060725,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,planting_year,"s4aq09_2, s4bq09_2",9.2. What year was the crop planted?(YYYY),0.0548680119490337,0.0618498734888951,9998 as planting year,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,fieldID,parcelID,Parcel identifier,0.0,0.0,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plot_area_reported_ha,,,0.3962689751874657,,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,localUnit_area,,,0.3962689751874657,,according to questionnaire,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,crop,cropID,Id in crop_code,0.0,0.0,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_month_begin,"s5aq06e_1, s5bq06e_1","6e. Month harvest began (2018, full harvest, condition1)",18.179601292446502,19.330896823165588,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_year_begin,"s5aq06e_1_1, s5bq06e_1_1","6e1. Year harvest began (2018, full harvest, condition1)",18.179601292446502,19.330896823165588,range 20 to 2819,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_month_end,"s5aq06f_1, s5bq06f_1","6f. Month harvest ended (2018, full harvest, condition1)",18.173504846674387,19.325274107393877,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_year_end,"s5aq06f_1_1, s5bq06f_1_1","6f1. Year harvest ended (2018, full harvest, condition1)",18.18569773821861,19.336519538937303,range 24 to 2819,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,season,,,0.0,,two visits,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm1,district,District Name,0.0243857830884594,0.0322788896061975,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm2,s1aq03a,3. Sub-County/Division/Town Council,0.0243857830884594,0.0322788896061975,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm3,s1aq04a,4. Parish/Ward,0.0243857830884594,0.0322788896061975,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,lat,,,100.0,,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,lon,,,100.0,,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,GPS_level,,,100.0,,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,plot_area_measured_ha,,,100.0,,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_month,,,100.0,,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,harvest_year,,,100.0,,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,adm4,,,100.0,,no village name,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,dataset_name,,,0.0,,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,country,,,0.0,,,UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2019-20,dataset_doi,,,0.0,,ADDITIONAL COMMENT: warnings in R code: funs() was deprecated in dplyr 0.8.0.; One or more parsing issues (harvest_month/year_begin/end),UGA_2019_UNPS_v03_M,https://doi.org/10.48529/nqzx-f196
+Uganda,2015-16,hhID,HHID,Household number,0.0,0.0,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plotID,plotID,Plot identifier,0.0219423355421951,,"plotID may not be unique, not all rows in the original dataset are unique",UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plot_area_reported_localUnit,"a4aq7, a4bq7",total area of plot planted,1.5096326853030235,0.0633713561470215,sometimes 0.000,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,crop_area_share,"a4aq9, a4bq9","what percentage of the plot area was under this crop?, approximately what percentage of the plot area was under this crop?",27.182165269671305,26.58184654382373,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,planting_month,"a4aq9_1, a4bq9_1",Month crop planted,2.7603458112081447,1.369796236716389,implausible planting month: 99,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,planting_year,"a4aq9_2, a4bq9_2",Year crop planted,2.8261728178347303,1.418543433752559,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,fieldID,parcelID,Parcel identifier,0.0,0.0,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plot_area_reported_ha,,,1.5096326853030235,,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,localUnit_area,,,1.5096326853030235,,"acres, according to questionnaire",UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,crop,cropID,"Crop name, Crop_code2:crop name",0.0,,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_month_begin,"a5aq6e, a5bq6e",in what month did the harvest begin?,16.952648439899942,0.7786655809455952,up to month 26,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_year_begin,"a5aq6e_1, a5bq6e_1",in what year did the harvest begin?,16.29876684074253,0.0152679525675606,year 216 included,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_month_end,"a5aq6f, a5bq6f",in what month did the harvest end?,17.119410190020627,0.972059646801364,up to month 26,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_year_end,"a5aq6f_1, a5bq6f_1",in what year did the harvest end?,16.29876684074253,0.0152679525675606,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,season,,,0.0,,two visits,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm1,district_name,L1name,1.496467283977707,0.0,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm2,subcounty_name,L2name,1.496467283977707,0.0,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm3,parish_name,L3name,1.496467283977707,0.0,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,adm4,village_name,L4name,1.496467283977707,0.0,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,lat,,,100.0,,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,lon,,,100.0,,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,GPS_level,,,100.0,,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,plot_area_measured_ha,,,100.0,,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_month,,,100.0,,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,harvest_year,,,100.0,,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,dataset_name,,,0.0,,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,country,,,0.0,,,UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2015-16,dataset_doi,,,0.0,,"ADDITIONAL COMMENT: warnings in R code: funs() was deprecated in dplyr 0.8.0., Detected an unexpected many-to-many relationship between `x` and `y`",UGA_2015_UNPS_v02_M,https://doi.org/10.48529/hm2z-2k12
+Uganda,2018-19,hhID,hhid,Unique household identifier in 2018/19/ InterviewId,0.0,0.0,"hhid was changed since 2016, both are available in the raw data",UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plotID,pltid,Plot identifier,0.0,0.0,plotID may not be unique,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plot_area_reported_localUnit,"s4aq07, s4bq07",7.What was the total area of %rostertitle% planted?,1.1422769386978042,0.9028347749226592,sometimes 0.00,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,crop_area_share,"s4aq09, s4bq09",9. Approximately what percentage of the plot area was under this %rostertitle%?,30.95570503871049,31.308794747143125,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,planting_month,"s4aq09_1, s4bq09_1",9.1. What month was the crop planted?,1.6372636121335196,2.140286634257213,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,planting_year,"s4aq09_2, s4bq09_2",9.2. What year was the crop planted?(YYYY),1.5293819012565046,2.032956626049624,range: 2 to 20186,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,fieldID,parcelID,Parcel identifier,0.0,0.0,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plot_area_reported_ha,,,1.1422769386978042,,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,localUnit_area,,,1.1422769386978042,,according to questionnaire,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,crop,cropID,Roster instance identifier,0.0,,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_month_begin,"s5aq06e_1, s5bq06e_1",6e. In what month did the harvest begin?,12.152557431146084,0.0493166126532337,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_year_begin,"s5aq06e_1_1, s5bq06e_1_1",6e_1. In what year did the harvest begin? (YY),12.152557431146084,0.0493166126532337,range: 0 to 20186,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_month_end,"s5aq06f_1, s5bq06f_1","6f. In what month did the harvest end?,",12.222363244066504,0.1268141468226011,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_year_end,"s5aq06f_1_1, s5bq06f_1_1",6f_1. In what year did the harvest end? (YY),12.228709227059271,0.1338593772016345,range: 201 to 2818,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,season,,,0.0,,two visits,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm1,district_2018/ distirct_name,District name,0.9328594999365402,0.0,different label in study documentation and .csv file,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm2,subcounty_2018/ subcounty_name,Sub country name,0.9328594999365402,0.0,different label in study documentation and .csv file,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm3,parish_2018/ parish_name,Parish Code,0.9328594999365402,0.0,different label in study documentation and .csv file,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm4,village/ ???,,0.9328594999365402,0.0,label non existent in study documentary,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,lat,,,100.0,,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,lon,,,100.0,,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,GPS_level,,,100.0,,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plot_area_measured_ha,,,100.0,,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_month,,,100.0,,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_year,,,100.0,,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,dataset_name,,,0.0,,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,country,,,0.0,,,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,dataset_doi,,,0.0,,ADDITIONAL COMMENT: warnings in R code: funs() was deprecated in dplyr 0.8.0.; One or more parsing issues (harvest_month/year_begin/end),UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Nigeria,2015,wave,,,,,The wave indicates the first year of the respective GHS data-collection that typically extended into the subsequent calendar year.,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,country,,,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,adm1,zone,Zone code,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,adm2,state,State code,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,adm3,lga,LGA code,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,adm4,ea,EA CODE,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,lat,lat_dd_mod,Latitude Modified,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,lon,lon_dd_mod,Longitude Modified,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,GPS_level,,,,,EA centroid,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,hhID,hhid,hhid,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,plotID,plotid,"Id in ""plot_roster""",,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,crop,cropcode,Id in Sec11f_crops,,,Code is available to combine crops into simpler categories but not used to generate the current dataset,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,season,,,,,Only one agricultural season is tracked in Nigeria,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,plot_area_measured_ha,s11aq4c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,plot_area_reported_ha,,,,,Generated from WB conversion table,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,plot_area_reported_localUnit,s11aq4b,What is the unit of [PLOT],,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,localUnit_area,s11aq4aa,What is the area of [PLOT]?,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,crop_area_share,sa3iq5c,,,,"Generated from farmer-reported area planted for tree/permanet crops, including cassava (see s11fq4a/sa3iq5a) when proportion of area planted was not available. Note that the sum of reported area planted for multiple crops sometimes is greater than the plot area; code is available to rescale to plot area ",NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,planting_year,s11fq3_2,When did you plant the seeds for [CROP] on [PLOT]? (YEAR),,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,planting_month,s11fq3_1,When was most of the [CROP] seeds palnted on [PLOT] this agricultural season?,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,harvest_year_begin,sa3iq4a2,When did household start the harvest of [CROP] from [PLOT]? (YEAR),,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,harvest_month_begin,sa3iq4a1,When did household start the harvest of [CROP] from [PLOT]? (MONTH),,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,harvest_year_end,sa3iq6c2,When did your household complete harvest of [CROP] from [PLOT]? (YEAR),,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,harvest_month_end,sa3iq6c1,When did your household complete harvest of [CROP] from [PLOT]? (MONTH),,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,harvest_year,,,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,harvest_month,,,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,dataset_name,,,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2015,dataset_doi,,,,,,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133
+Nigeria,2018,wave,,,,,The wave indicates the first year of the respective GHS data-collection that typically extended into the subsequent calendar year.,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,country,,,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,adm1,zone,Zone code,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,adm2,state,State code,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,adm3,lga,LGA code,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,adm4,ea,EA CODE,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,lat,lat_dd_mod,Latitude Modified,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,lon,lon_dd_mod,Longitude Modified,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,GPS_level,,,,,EA centroid,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,hhID,hhid,hhid,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,plotID,plotid,"Id in ""plot_roster""",,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,crop,cropcode,Id in Sec11f_crops,,,Code is available to combine crops into simpler categories but not used to generate the current dataset,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,season,,,,,"Only one agricultural season is tracked in Nigeria; labeled as ""main season""",NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,plot_area_measured_ha,s11aq4c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,plot_area_reported_ha,,,,,Generated from WB conversion table,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,plot_area_reported_localUnit,s11aq4b,What is the unit of [PLOT],,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,localUnit_area,s11aq4aa,What is the area of [PLOT]?,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,crop_area_share,s11fq1/s11fq4,"Approximately what percent of [PLOT] is planted with [CROP]?/Approximately, what percent of [PLOT] was planted with [TREE/PERMANENT CROP]?",,,Note that the sum of areas planted frequently adds up to more than the total measured or reported area of the plot; code is availble to rescale these areas down to the plot area,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,planting_year,s11fq3_2,When did you plant the seeds for [CROP] on [PLOT]? (YEAR),,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,planting_month,s11fq3_1,When was most of the [CROP] seeds palnted on [PLOT] this agricultural season?,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,harvest_year_begin,sa3iq4a2,When did household start the harvest of [CROP] from [PLOT]? (YEAR),,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,harvest_month_begin,sa3iq4a1,When did household start the harvest of [CROP] from [PLOT]? (MONTH),,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,harvest_year_end,sa3iq6c2,When did your household complete harvest of [CROP] from [PLOT]? (YEAR),,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,harvest_month_end,sa3iq6c1,When did your household complete harvest of [CROP] from [PLOT]? (MONTH),,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,harvest_year,,,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,harvest_month,,,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,dataset_name,,,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Nigeria,2018,dataset_doi,,,,,,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47
+Niger,2011-2012,hhID,hid,Household identifier,,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,adm1,ms00q10,Region,,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,adm2,ms00q11,Departement,,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,lat,LAT_DD_MOD,EA Latitude (WGS84) Modified,,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,lon,LON_DD_MOD,EA Longitude (WGS84) Modified,,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2013,GPS_level,,,,,coordinates of the grappe (cluster),NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,fieldID,as02bq01,Field number,,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,plotID,as01qn,id number,,,in case parcel number is wrong,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,cropID,as02bq06,Crop code,,,the source code,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,plot_area_reported_ha,,,,,converted from m2 to Ha,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,plot_area_reported_localUnit,as02bq08,How much area was given to the cultivation of each crop?(square meters),,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,localUnit_area,as02bq08,,,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,planting_month,as02bq11,In which month did you plant this produce for the first time this season?,,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,crop,as02bq06,Crop code,,,the actual souce value,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,planting_year,,,,,missing,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,harvesting_month,,,,,missing,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,harvesting_year,,,,,missing,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,crop_area_share,,,,,missing,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,plot_area_measured_ha,,,,,missing,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,source,,,,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2011-2012,country,,,,,,NER_2011_ECVMA_v01_M,https://doi.org/10.48529/bp16-s524
+Niger,2014-2015,hhID,"grappe, exploitation","grappe, exploitation",0.0,0.0,combination of both grappe and exploitation,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,lat,LAT_DD_MOD,EA Latitude (WGS84 Modified),0.0,0.0,taken from earlier wave (NER_2011_ECVMA_v01_M),NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,lon,LON_DD_MOD,EA Longirude (WGS84 Modified),0.0,0.0,taken from earlier wave (NER_2011_ECVMA_v01_M),NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,GPS_level,,,0.0,0.0,"set to 3, as coordinates are at community level",NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,country,,,0.0,0.0,set to Niger,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,adm1,MS00Q10,Region,0.0,0.0,"region code, modified to region name using lookup data (see wave documentation report)",NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,adm2,MS00Q11,Département,0.0,0.0,"department code, modified to department name using lookup table (see wave report)",NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,adm3,MS00Q12,Commune/Canton,0.0,82.93425,"community code, modified to commune name using lookup table",NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,adm4,,,100.0,0.0,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,fieldID,AS01Q01,Numéro du champ,0.0,0.1005484,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,plotID,AS01Q03,Numéro de la Parcelle,0.0,0.0,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,crop,"AS02BQ06, CULTURE",Code culture,1.72,0.0,based on crop code description,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,season,AS02EQ04,Cette parcelle est exploitée pendant la saison des pluies,18.2,0.0,based on indication of plot being cultivated in the rainy season,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,plot_area_reported_ha,AS02BQ08,Surface cultivée consacrée à chaque culture,1.71974,0.0,"although the variable indicates the area dedicated to each crop (surface consacrée à chaque culture), the areas were often similar between crops and equal in terms of magnitude as the GPS-measured area. Hence, this area is considered to be the reported plot area rather than the crop-specific area.",NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,plot_area_measured_ha,AS01Q07,Superficie de la parcelle GPS (en mètre carré),9.89,0.0,converted from m² to ha,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,plot_area_reported_localUnit,,,100.0,0.0,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,localUnit_area,,,100.0,0.0,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,crop_area_share,"AS02BQ08, AS01Q07",,3.628734,0.0,determined by the dedicated crop area to the total in each plot. Remark: the areas of each crop are often similar within the same plot - hence this is likely an indication of the plot area rather than the crop-specific area. ,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,planting_month,AS02BQ11,Mois au cours duquel vous avez planté ce produit pour la première fois cette saison,1.71974,1.8,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,harvest_month,,,100.0,0.0,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,harvest_month_begin,AS02EQ06A,Mois de début de la récolte,23.89533,0.0,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,harvest_month_end,AS02EQ06B,Mois de fin de la récolte,24.0023,8.0,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,planting_year,,,0.0,0.0,based on planting_month,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,harvest_year,,,100.0,0.0,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,harvest_year_begin,,,23.89533,0.0,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96
+Niger,2014-2015,harvest_year_end,,,24.0023,0.0,,NER_2014_ECVMA-II_v02_M,https://doi.org/10.48529/3xnb-sd96

@@ -1,0 +1,18 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_t0c,byte,1,%38.0g,AG_W0C,CODE
+6,ag_t0e,str1,0,%9s,,MARK WITH 'X' ALL SOURCES IDENTIFIED IN THE PREVIOUS PAGE
+7,ag_t05a,byte,1,%8.0g,,Who in your household received advice/information through [SOURCE] during the la
+8,ag_t05b,byte,1,%8.0g,,Who in your household received advice/information through [SOURCE] during the la
+9,ag_t05c,byte,1,%8.0g,,Who in your household received advice/information through [SOURCE] during the la
+10,ag_t05d,byte,1,%8.0g,,Who in your household received advice/information through [SOURCE] during the la
+11,ag_t06a,byte,1,%8.0g,,How many times did someone from [SOURCE] visit your farm during the last 12 mont
+12,ag_t06b,byte,1,%8.0g,,How many of these visits were solicited? (Number of solicited visits)
+13,ag_t07,byte,1,%8.0g,,How many times did you or any member of your household visit or meet with the [S
+14,ag_t08,byte,1,%8.0g,,How many times did you or any member of your household attend [SOURCE] in the la
+15,ag_t09,byte,1,%8.0g,AG_W07,Did you or any member of your household pay anything in order to receive any typ
+16,ag_t10,int,1,%12.0g,,How much in total did your household pay to receive advice/information from [SOU
+17,ag_t11,byte,1,%15.0g,AG_W09,"On average, how useful was the advice/information received from [SOURCE]?"

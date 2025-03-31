@@ -1,0 +1,58 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%36s,,Survey Solutions Unique HH Identifier
+3,PID,byte,1,%6.0f,,Person ID
+4,hh_c03,byte,1,%6.0f,hh_c03,IS THE INFORMATION SELF-REPORTED OR IS IT BEING PROVIDED BY ANOTHER HH MEMBER
+5,hh_c04,byte,1,%6.0f,,WHO IS REPORTING THE INFORMATION FOR THE INDIVIDUAL? LIST FROM HH
+6,hh_c05_1,byte,1,%6.0f,hh_c05_1,Can [NAME] read a short text in any language?
+7,hh_c05_2a,float,1,%11.0g,lang,What language can [NAME] read a short text in? (1st)
+8,hh_c05_2b,float,1,%11.0g,lang,What language can [NAME] read a short text in? (1st)
+9,hh_c05_2_oth,str18,0,%18s,,Please specify other language.
+10,hh_c05_3,byte,1,%6.0f,hh_c05_3,Can [NAME] write a short note in any language
+11,hh_c05_4_oth,str15,0,%15s,,Please specify other language.
+12,hh_c05_4a,float,1,%9.0g,,What language can [NAME] write a short note in? (1)
+13,hh_c05_4b,float,1,%9.0g,,What language can [NAME] write a short note in? (2)
+14,hh_c05_5,byte,1,%6.0f,hh_c05_5,Can [NAME] do simple addition and substraction?
+15,hh_c06,byte,1,%6.0f,hh_c06,Has [NAME] ever attended school?
+16,hh_c07a,float,1,%32.0g,hh_c07,What was the reason [NAME] never attended school? (1ST REASON)
+17,hh_c07b,float,1,%32.0g,hh_c07,What was the reason [NAME] never attended school? (2ND REASON)
+18,hh_c07_oth,str126,0,%126s,,Specify the reason [NAME] never attended school.
+19,hh_c08,byte,1,%6.0f,hh_c08,What class is [NAME] in or what was the highest class level [NAME] ever attended
+20,hh_c09,byte,1,%6.0f,hh_c09,What is the highest educational qualification [NAME] has acquired
+21,hh_c10,int,1,%6.0f,,How old was [NAME] when he/she started school? YEARS
+22,hh_c11,byte,1,%6.0f,hh_c11,Did [NAME] attend school in the last completed academic year?
+23,hh_c12,byte,1,%6.0f,hh_c12,What class was [NAME] in during the last completed academic year?
+24,hh_c13,byte,1,%6.0f,hh_c13,"Are you currently attending school or, if school is not now in session, did you"
+25,hh_c14,byte,1,%6.0f,hh_c14,Why did [NAME] not continue his/her education?
+26,hh_c14_oth,str154,0,%154s,,Specify why [NAME] did not continue his/her education.
+27,hh_c15,int,1,%6.0f,,In which calendar year did [NAME] last attend school?
+28,hh_c16,byte,1,%6.0f,hh_c16,What type of school does [NAME] attend?
+29,hh_c17,byte,1,%6.0f,hh_c17,Is [NAME] a day scholar or a boarder at the school?
+30,hh_c18,byte,1,%6.0f,hh_c18,How does [NAME] get to school each day?
+31,hh_c18_oth,str106,0,%106s,,Specify how [NAME] gets to school each day.
+32,hh_c19a,byte,1,%6.0f,,How long does it usually take [NAME] to get to school by this means
+33,hh_c19b,byte,1,%6.0f,hh_c19b,How long does it usually take [NAME] to get to school by this means
+34,hh_c20,byte,1,%6.0f,hh_c20,"At any time in the past 12 months, did you ever temporarily withdraw from school"
+35,hh_c21,byte,1,%6.0f,hh_c21,What was the main reason [NAME] temporarily withdrew from school?
+36,hh_c21_oth,str106,0,%106s,,Specify the main reason rostertitle temporarily withdrew from school.
+37,hh_c22a,long,1,%6.0f,,"Tuition, including any extra tuition fees"
+38,hh_c22b,long,1,%6.0f,, Expenditures on after school programs & tutoring
+39,hh_c22c,long,1,%6.0f,,School books and other materials
+40,hh_c22d,long,1,%6.0f,,School uniform clothing
+41,hh_c22e,long,1,%6.0f,,Boarding fees
+42,hh_c22f,long,1,%6.0f,,Contribution for school building or maintainance
+43,hh_c22g,long,1,%6.0f,,Transport
+44,hh_c22h,long,1,%6.0f,,Parent association & other school related fees
+45,hh_c22i,long,1,%6.0f,,Other
+46,hh_c22j,long,1,%6.0f,,TOTAL
+47,hh_c22k,long,1,%6.0f,,How much was spent on other (specify) in the last 12 months?
+48,hh_c22l,long,1,%6.0f,,How much was spent in TOTAL in the last 12 months?
+49,hh_c23a_1,byte,1,%6.0f,,Who pays for the major part of these expenses in C22?
+50,hh_c23a_2,byte,1,%6.0f,,Who pays for the major part of these expenses in C22?
+51,hh_c23a_3,byte,1,%6.0f,,Who pays for the major part of these expenses in C22?
+52,hh_c23b_1,byte,1,%6.0f,,Who pays for the major part of these expenses in C22? (Outside HH)
+53,hh_c23b_2,byte,1,%6.0f,,Who pays for the major part of these expenses in C22? (Outside HH)
+54,hh_c23filter,byte,1,%6.0f,hh_c23filter,Does the person that pays the major part of the expenses in c22a-c22j stay outsi
+55,hh_c23filtera,byte,1,%6.0f,hh_c23filtera,Does the person that pays the major part of the expenses in c22a-c22j stay insid
+56,hh_c24,byte,1,%6.0f,hh_c24,Have you used a computer?
+57,hh_c25,byte,1,%6.0f,hh_c25,Would you feel comfortable using a computer again?

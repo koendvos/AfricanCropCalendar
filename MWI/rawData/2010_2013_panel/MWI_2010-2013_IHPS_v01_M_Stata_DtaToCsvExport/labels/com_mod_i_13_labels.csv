@@ -1,0 +1,24 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrance Sequence for O/S Merge
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,com_ci0b,int,1,%23.0g,COM_CI0B,CODE
+4,com_ci01,byte,1,%8.0g,COM_CI01,Does the community own any communal
+5,com_ci02,byte,1,%8.0g,COM_CI02,Is the community able to determine independently the rules of access and use of
+6,com_ci03,byte,1,%8.0g,COM_CI03,Is the communal [RESOURCE] recognized by the Traditional Authority?
+7,com_ci04,byte,1,%8.0g,COM_CI04,Is the communal [RESOURCE]  challenged or disputed by neighboring villages or es
+8,com_ci05,byte,1,%8.0g,COM_CI05,Is the communal [RESOURCE]  sometimes used by outsiders or neighboring villagers
+9,com_ci06,byte,1,%8.0g,COM_CI06,Does the community have any specific exclusion mechanism targeted at keeping out
+10,com_ci07a,byte,1,%37.0g,COM_CI07A,How does the community manage to exclude outsiders from using communal [RESOURCE
+11,com_ci07b,byte,1,%37.0g,COM_CI07B,How does the community manage to exclude outsiders from using communal [RESOURCE
+12,com_ci07c,byte,1,%37.0g,COM_CI07C,How does the community manage to exclude outsiders from using communal [RESOURCE
+13,com_ci08a,byte,1,%46.0g,COM_CI08A,What forms of restriction does the community place on its members regarding acce
+14,com_ci08b,byte,1,%46.0g,COM_CI08B,What forms of restriction does the community place on its members regarding acce
+15,com_ci08c,byte,1,%46.0g,COM_CI08C,What forms of restriction does the community place on its members regarding acce
+16,com_ci09a,byte,1,%33.0g,COM_CI09A,How does community ensure among its members complicance with use rules for commu
+17,com_ci09b,byte,1,%33.0g,COM_CI09B,How does community ensure among its members complicance with use rules for commu
+18,com_ci09c,byte,1,%33.0g,COM_CI09C,How does community ensure among its members complicance with use rules for commu
+19,com_ci10,byte,1,%18.0g,COM_CI10,"In general, how effective are community policies to ensure compliance concerning"
+20,com_ci11,byte,1,%8.0g,COM_CI11,"In the past 5 years, has government taken over any communal [RESOURCE] ?"
+21,com_ci12,byte,1,%31.0g,COM_CI12,What was the reason for the government takeover?
+22,com_ci13,byte,1,%8.0g,COM_CI13,"In the past 5 years, has a neigh-boring village taken over any communal [RESOURC"
+23,com_ci14,byte,1,%8.0g,COM_CI14,Did the community lose rights to previously communal [RESOUR-CE] following a med

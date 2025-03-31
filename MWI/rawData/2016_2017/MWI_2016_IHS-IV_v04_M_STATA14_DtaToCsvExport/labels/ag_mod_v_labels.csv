@@ -1,0 +1,30 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,ag_v01,str2,0,%2s,,Land Tenure ID
+4,ag_v0a,byte,1,%8.0g,ag_v0a,Do you or anyone in your HH currently own any gardens (both agric & non-agric)?
+5,gardenid,str4,0,%4s,,Roster Garden ID
+6,ag_v02,byte,1,%8.0g,ag_v02,Have you ever had any land disputes or disagreement with anyone over this?
+7,ag_v02_1,int,1,%8.0g,,In what year was the most recent dispute or disagreement over this [GARDEN]?
+8,ag_v03,byte,1,%8.0g,ag_v03,What was the nature of the most recent dispute or agreement over this [GARDEN]?
+9,ag_v03oth,strL,0,%49s,,specify the nature of the most recent dispute or agreement over this [GARDEN]?
+10,ag_v04,byte,1,%8.0g,ag_v04,With whom was the most recent dispute or disagreement over this [GARDEN]?
+11,ag_v04oth,str29,0,%29s,,specify with whom the most recent dispute or disagreement over this [GARDEN] was
+12,ag_v05,byte,1,%8.0g,ag_v05,..first went for arbitration..recent dispute/disagreement over this [GARDEN]?
+13,ag_v06,byte,1,%8.0g,ag_v06,..choose this level/office...recent dispute/disagreement over this [GARDEN]?
+14,ag_v07,byte,1,%8.0g,ag_v07,Is the most recent dispute or disagreement resolved?
+15,ag_v08,byte,1,%8.0g,ag_v08,Who resolved the most recent dispute or disagreement over this [GARDEN]?
+16,ag_v08oth,str21,0,%21s,,Specify who resolved the most recent dispute or disagreement?
+17,ag_v09,byte,1,%8.0g,ag_v09,..satisfied w resolution of the most recent dispute/disagreement over[GARDEN]?
+18,ag_v10,long,1,%12.0g,,Amt the HH spent in solving the most recent dispute or disagreement on [GARDEN]?
+19,ag_v11,byte,1,%8.0g,ag_v11,Likeliness for disagreement over ownership rights to this[GARDEN] in next 5years
+20,ag_v12,byte,1,%8.0g,ag_v12,What is the main concern?
+21,ag_v12oth,strL,0,%124s,,Please specify the other concern.
+22,ag_v13,byte,1,%8.0g,ag_v13,With whom will be the disagreement?
+23,ag_v13oth,strL,0,%33s,,Please specify whom will be the disagreement?
+24,ag_v14,byte,1,%8.0g,ag_v14,Likeliness for possessing this [GARDEN] in ten years?
+25,ag_v15,byte,1,%8.0g,ag_v15,..what is the main agent(s)/source(s) of tenure insecurity on this [GARDEN]?
+26,ag_v15oth,strL,0,%32s,,"If tenure insecure, please specify the main agent(s)/source(s) of tenure"
+27,ag_v16,byte,1,%8.0g,ag_v16,What action can you take to protect yourself from loss of this...
+28,ag_v16oth,strL,0,%45s,,specify action you can take to protect yourself from loss of this [GARDEN]?
+29,ag_v17,byte,1,%8.0g,ag_v17,"In case your [GARDEN] is taken, do you expect compenstion for the land loss?"

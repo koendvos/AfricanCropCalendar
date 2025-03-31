@@ -1,0 +1,44 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,hh_h01,byte,1,%8.0g,HH_H01,"In the past 7 days, did you worry that your household would not have enough food"
+5,hh_h02a,byte,1,%8.0g,,"In the past 7 days, how many days have you or someone in your household had to:"
+6,hh_h02b,byte,1,%8.0g,,"In the past 7 days, how many days have you or someone in your household had to:"
+7,hh_h02c,byte,1,%8.0g,,"In the past 7 days, how many days have you or someone in your household had to:"
+8,hh_h02d,byte,1,%8.0g,,"In the past 7 days, how many days have you or someone in your household had to:"
+9,hh_h02e,byte,1,%8.0g,,"In the past 7 days, how many days have you or someone in your household had to:"
+10,hh_h03a,byte,1,%8.0g,,"How many meals, including breakfast are taken per day in your household? A. Adul"
+11,hh_h03b,byte,1,%8.0g,,"How many meals, including breakfast are taken per day in your household? B. Chil"
+12,hh_h04,byte,1,%8.0g,HH_H04,"In the last 12 months, have you been faced with a situation when you did not hav"
+13,hh_h05a_01,str1,0,%1s,,When did you experience this incident? (March 2009)
+14,hh_h05a_02,str1,0,%1s,,When did you experience this incident? (April 2009)
+15,hh_h05a_03,str1,0,%1s,,When did you experience this incident? (May 2009)
+16,hh_h05a_04,str1,0,%1s,,When did you experience this incident? (June 2009)
+17,hh_h05a_05,str1,0,%1s,,When did you experience this incident? (July 2009)
+18,hh_h05a_06,str1,0,%1s,,When did you experience this incident? (August 2009)
+19,hh_h05a_07,str1,0,%1s,,When did you experience this incident? (September 2009)
+20,hh_h05a_08,str1,0,%1s,,When did you experience this incident? (October 2009)
+21,hh_h05a_09,str1,0,%1s,,When did you experience this incident? (November 2009)
+22,hh_h05a_10,str1,0,%1s,,When did you experience this incident? (December 2009)
+23,hh_h05b_01,str1,0,%1s,,When did you experience this incident? (January 2010)
+24,hh_h05b_02,str1,0,%1s,,When did you experience this incident? (February 2010)
+25,hh_h05b_03,str1,0,%1s,,When did you experience this incident? (March 2010)
+26,hh_h05b_04,str1,0,%1s,,When did you experience this incident? (April 2010)
+27,hh_h05b_05,str1,0,%1s,,When did you experience this incident? (May 2010)
+28,hh_h05b_06,str1,0,%1s,,When did you experience this incident? (June 2010)
+29,hh_h05b_07,str1,0,%1s,,When did you experience this incident? (July 2010)
+30,hh_h05b_08,str1,0,%1s,,When did you experience this incident? (August 2010)
+31,hh_h05b_09,str1,0,%1s,,When did you experience this incident? (September 2010)
+32,hh_h05b_10,str1,0,%1s,,When did you experience this incident? (October 2010)
+33,hh_h05b_11,str1,0,%1s,,When did you experience this incident? (November 2010)
+34,hh_h05b_12,str1,0,%1s,,When did you experience this incident? (December 2010)
+35,hh_h05b_13,str1,0,%1s,,When did you experience this incident? (January 2011)
+36,hh_h05b_14,str1,0,%1s,,When did you experience this incident? (Febraury 2011)
+37,hh_h05b_15,str1,0,%1s,,When did you experience this incident? (March 2011)
+38,hh_h06a,byte,1,%8.0g,HH_H06A,What was the cause of this situation? (1ST)
+39,hh_h06a_os,str48,0,%48s,,What was the cause of this situation? (1st) (Other Specify)
+40,hh_h06b,byte,1,%8.0g,HH_H06B,What was the cause of this situation? (2ND)
+41,hh_h06b_os,str45,0,%45s,,What was the cause of this situation? (2nd) (Other Specify)
+42,hh_h06c,byte,1,%8.0g,HH_H06C,What was the cause of this situation? (3RD)
+43,hh_h06c_os,str39,0,%39s,,What was the cause of this situation? (3rd) (Other Specify)

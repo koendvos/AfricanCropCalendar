@@ -1,0 +1,41 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,crop_code,byte,1,%6.0f,ag_H_seed_roster__id,Crop Code
+4,ag_h0b_oth,str30,0,%30s,,SPECIFY OTHER
+5,ag_h01a,double,1,%6.2f,,"ENUMERATOR: REFER TO AG-MODULE G, QUESTION 4.   FOR EACH TYPE OF SE"
+6,ag_h01b,byte,1,%6.0f,ag_h01b,UNIT
+7,ag_h01b_oth,str28,0,%28s,,Please Specify the Other Unit.
+8,ag_h02,byte,1,%6.0f,ag_h02,FIGURES FROM QUESTION 1 CORRESPOND TO AMOUNT OF EACH TYPE OF SEED USED DURING TH
+9,ag_h03,byte,1,%6.0f,ag_h03,During [RS] did all of the [SEED] come from purchases by using coupons/vouchers?
+10,ag_h04,byte,1,%6.0f,ag_h04,Did you purchase any [SEED] w/out coupons/vouchers/purchased any [SEED] on credi
+11,ag_h06a,byte,1,%6.0f,,Source of [SEED] you purchased w/out coupons/vouchers/purchased credit? (ID #1)
+12,ag_h06b,byte,1,%6.0f,,Source of [SEED] you purchased w/out coupons/vouchers/purchased credit? (ID #2)
+13,ag_h07a,double,1,%6.0f,,How much of [SEED] was purchased w/out coupons/vouchers/purchased on credit? (Q)
+14,ag_h07b,byte,1,%6.0f,ag_h07b,How much of [SEED] was purchased w/out coupons/vouchers/purchased on credit? (U)
+15,ag_h07b_oth,str23,0,%23s,,SPECIFY UNIT
+16,ag_h07_1a,byte,1,%6.0f,,Who in your household paid for the purchased? (1st)
+17,ag_h07_1b,byte,1,%6.0f,,Who in your household paid for the purchased? (2nd)
+18,ag_h08,byte,1,%6.0f,ag_h08,Main mode of transport [SEED] purchased on credit or w/out coupons/vouchers
+19,ag_h08_oth,str70,0,%70s,,Specify the main mode of transportation.
+20,ag_h09,long,1,%6.0f,,How much did you pay for transportation to acquire all of the [SEED]?
+21,ag_h10,long,1,%6.0f,,Value of all [SEED] purchased w/out coupons/vouchers or purchased on credit?
+22,ag_h11,byte,1,%6.0f,ag_h11,How did you  finance  this seed (%rostertitle%) purchase?
+23,ag_h12,long,1,%6.0f,,How much did you pay up-front for this [SEED] purchase?
+24,ag_h13,long,1,%6.0f,,How much did you  repay /will you repay?
+25,ag_h14a,byte,1,%6.0f,,What was the source of credit for the [SEED] purchase? (ID CODE #1)
+26,ag_h14b,byte,1,%6.0f,,What was the source of credit for the [SEED] purchase? (ID CODE #2)
+27,ag_h37,byte,1,%6.0f,ag_h37,Did you receive any of the [SEED] for free during the [RS]?
+28,ag_h38a,double,1,%6.0f,,How much of [SEED] did you receive in total for free during [RS]? (Q)
+29,ag_h38b,byte,1,%6.0f,ag_h38b,How much of [SEED] did you receive in total for free during [RS]? (U)
+30,ag_h38b_oth,str22,0,%22s,,SPECIFY UNIT
+31,ag_h39a,byte,1,%6.0f,,"During [RS], from whom did you receive most of the [SEED] for free (1st)?"
+32,ag_h39b,byte,1,%6.0f,,"During [RS], from whom did you receive most of the [SEED] for free (2nd)?"
+33,ag_h39_1,byte,1,%6.0f,ag_h39_1,What was the main mode of transportation used to bring back the [SEED]?
+34,ag_h39_1_oth,str63,0,%63s,,Please specify other mode of transportation
+35,ag_h40,int,1,%6.0f,,Total payment for transportation to acquire all of [SEED] received for free.
+36,ag_h41,byte,1,%6.0f,ag_h41,Was any of the [SEED] used during the [RS] left over from a previous season?
+37,ag_h42a,double,1,%6.0f,,How much of [SEED] used during the [RS] was left over from a previous season? (Q
+38,ag_h42b,byte,1,%6.0f,ag_h42b,How much of [SEED] used during the [RS] was left over from a previous season? (U
+39,ag_h42b_oth,str22,0,%22s,,Specify other unit.
+40,ag_h43,byte,1,%6.0f,ag_h43,Why did you choose to use this [SEED]?

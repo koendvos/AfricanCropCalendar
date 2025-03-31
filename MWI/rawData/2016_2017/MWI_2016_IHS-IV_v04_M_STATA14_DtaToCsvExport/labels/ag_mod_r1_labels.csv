@@ -1,0 +1,51 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,ag_r00,byte,1,%8.0g,ag_r00,A. Did you or anyone in your household own any livestock in the last 12 months?
+4,ag_r0a,int,1,%8.0g,livestock,LIVESTOCK CODE
+5,ag_r01,byte,1,%8.0g,ag_r00,Did you own [LIVESTOCK]?
+6,ag_r01_oth,str13,0,%13s,,Specify the other type of livestock.
+7,ag_r01_1a,byte,1,%8.0g,purpose,What are the household's major purposes for owning/keeping (Reason 1)
+8,ag_r01_1b,byte,1,%8.0g,purpose,What are the household's major purposes for owning/keeping (Reason 2)
+9,ag_r01_1_oth,str30,0,%30s,,Specify the other purpose for owning/keeping [LIVESTOCK].
+10,ag_r02,int,1,%8.0g,,How many [LIVESTOCK] are owned by your HH now (present at your farm or away)?
+11,ag_r02_1,byte,1,%8.0g,,How many of the [LIVESTOCK] owned are local?
+12,ag_r02_2,byte,1,%8.0g,ag_r02_2,What is the main breed of the local [LIVESTOCK]?
+13,ag_r02_2_oth,str19,0,%19s,,Specify the main breed of the local [LIVESTOCK].
+14,ag_r03,byte,1,%8.0g,,How many of the [LIVESTOCK] owned are improved/exotic?
+15,ag_r03_2,byte,1,%8.0g,ag_r03_2,What is the main breed of the improved/ exotic [LIVESTOCK]?
+16,ag_r03_2_oth,str11,0,%11s,,Specify the main breed of the improved/ exotic [LIVESTOCK].
+17,ag_r04,long,1,%12.0g,,"...sell one of the [LIVESTOCK] today, how much would you receive from the sale?"
+18,ag_r05a,byte,1,%8.0g,,Who in your household owns? HHID 1
+19,ag_r05b,byte,1,%8.0g,,Who in your household owns? HHID 2
+20,ag_r06a,byte,1,%8.0g,,Who in your household is responsible for feeding/caring for livestock? HHID 1
+21,ag_r06b,byte,1,%8.0g,,Who in your household is responsible for feeding/caring for livestock? HHID 2
+22,ag_r07,long,1,%12.0g,,How many [LIVESTOCK] did your household own exactly 12 months ago?
+23,ag_r08,long,1,%12.0g,,"During the last 12 months, how many [LIVESTOCK] were born?"
+24,ag_r09_1,long,1,%12.0g,,...how many [LIVESTOCK] did your HH receive as gifts/payment for services render
+25,ag_r10,long,1,%12.0g,,"During the last 12 months, how many [LIVESTOCK] did your household buy"
+26,ag_r11,long,1,%12.0g,,...what was the total value of[LIVESTOCK]purchases?
+27,ag_r12a,byte,1,%8.0g,,From Whom did your HH purchase? NWID 1
+28,ag_r12b,byte,1,%8.0g,,From Whom did your HH purchase? NWID 2
+29,ag_r14,int,1,%8.0g,,...how many[LIVESTOCK]did HH give away as gifts or payment for services rendered
+30,ag_r15,int,1,%8.0g,,"During the last 12 months, how many [LIVESTOCK] got lost or stolen?"
+31,ag_r16,long,1,%12.0g,,"During the last 12 months, how many have you sold alive?"
+32,ag_r17,long,1,%12.0g,, ...what was the total value of[LIVESTOCK]sales?
+33,ag_r18a,byte,1,%8.0g,,To Whom did you HH sell? NWID 1
+34,ag_r18b,byte,1,%8.0g,,To Whom did you HH sell? NWID 2
+35,ag_r19,long,1,%12.0g,,...how many[LIVESTOCK]did your HH slaughter for sales or consumption?
+36,ag_r20,byte,1,%8.0g,ag_r20,"During the last 12 months, did any [LIVESTOCK] from any disease or injury?"
+37,ag_r21a,byte,1,%8.0g,ag_r21a,...main disease/injury [LIVESTOCK] suffered from?
+38,ag_r21b,byte,1,%8.0g,,How many [LIVESTOCK] were lost to this disease/injury?
+39,ag_r21_oth,str17,0,%17s,,Specify the main disease/injury [LIVESTOCK] suffered from.
+40,ag_r21_1,byte,1,%8.0g,ag_r21_1,Was the animal treated?
+41,ag_r21_2a,byte,1,%8.0g,,Who in the HH treated the animal? HHID 1
+42,ag_r21_2b,byte,1,%8.0g,,Who in the HH treated the animal? HHID 2
+43,ag_r22,int,1,%8.0g,,How many of your [LIVESTOCK] are currently vaccinated?
+44,ag_r23a,byte,1,%8.0g,,Who provided the vaccination services? NWID 1
+45,ag_r23b,byte,1,%8.0g,,Who provided the vaccination services? NWID 2
+46,ag_r23_1,byte,1,%8.0g,ag_r23_1,..anyone from within the HH who provided vaccination services for [LIVESTOCK]?
+47,ag_r23_2,byte,1,%8.0g,vaccine,What was the name of the vaccine?
+48,ag_r23_2oth,str27,0,%27s,,Please specify the other type of vaccine
+49,ag_r24,byte,1,%8.0g,ag_r24,Against which main disease did your household vaccinate [LIVESTOCK]
+50,ag_r24_oth,str22,0,%22s,,Specify against which main disease did your household vaccinate

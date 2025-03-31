@@ -1,0 +1,6 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,PID,str6,0,%9s,,Assigned Unique Serial Number for IHS3 Baseline and IHPS New Members
+2,eligible_tracking,float,1,%9.0g,,= 1 if Individual is Eligible for Tracking in 2013 Based on Age & Relation to HH
+3,status,float,1,%30.0g,st,Individual Tracking Status in 2013
+4,whynotfound,float,1,%38.0g,loc,Reason for Not Being Found in 2013
+5,specialcase,float,1,%43.0g,spec,Explanation for Special Case

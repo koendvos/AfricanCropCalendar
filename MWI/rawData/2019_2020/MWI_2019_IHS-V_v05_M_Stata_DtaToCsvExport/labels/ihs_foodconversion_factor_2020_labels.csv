@@ -1,0 +1,9 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,region,float,1,%6.0f,A01A,IHS Region
+2,item_name,str51,0,%51s,,Food Item Name
+3,item_code,int,1,%10.0g,,Food Item Code
+4,unit_name,str25,0,%25s,,Unit Name
+5,Otherunit,str24,0,%24s,,Other unit
+6,unit_code,str3,0,%9s,,Unit Code
+7,factor,double,1,%12.2f,,2019 Factor
+8,source,float,1,%61.0g,source,Source of the Conversion Factor

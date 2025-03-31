@@ -1,0 +1,21 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_r0a,int,1,%84.0g,HH_R0A,PROGRAM CODE
+6,hh_r01,byte,1,%8.0g,,"In the last 12 months, has any memberof your household received cash, food, or o"
+7,hh_r02a,long,1,%12.0g,,"In the last 12 months, what was the total assistance receivedfrom [PROGRAMME]? ("
+8,hh_r02b,long,1,%12.0g,,"In the last 12 months, what was the total assistance receivedfrom [PROGRAMME]? ("
+9,hh_r02c,int,1,%8.0g,,"In the last 12 months, what was the total assistance receivedfrom [PROGRAMME]? ("
+10,hh_r03,byte,1,%8.0g,,Was the assistance given to...
+11,hh_r04a,byte,1,%8.0g,,Which household members received this assistance in the last 12 months? (1st)
+12,hh_r04b,byte,1,%8.0g,,Which household members received this assistance in the last 12 months? (2nd)
+13,hh_r04c,byte,1,%8.0g,,Which household members received this assistance in the last 12 months? (3rd)
+14,hh_r04d,byte,1,%8.0g,,Which household members received this assistance in the last 12 months? (4th)
+15,hh_r04e,byte,1,%8.0g,,Which household members received this assistance in the last 12 months? (5th)
+16,hh_r05a,byte,1,%8.0g,,Who is your household controls / decides on the use of assistance form [PROGRAMM
+17,hh_r05b,byte,1,%8.0g,,Who is your household controls / decides on the use of assistance form [PROGRAMM
+18,hh_r06,byte,1,%8.0g,,"In the last 12 months, for how many months did your household receive assistance"
+19,hh_r07a,byte,1,%8.0g,,When was the last time your household received this assistance (Month)
+20,hh_r07b,int,1,%8.0g,,When was the last time your household received this assistance (Year)

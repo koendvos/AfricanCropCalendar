@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Unique Household Identification IHS5
+3,hh_x02,byte,1,%6.0f,hh_x02,ENUMERATOR: WHAT WAS THE LAST COMPLETED RAINY SEASON?
+4,hh_x03,byte,1,%6.0f,hh_x03,Did you or anyone in your household own or cultivates a plot during the last com
+5,hh_x04,byte,1,%6.0f,hh_x04,ENUMERATOR: WHAT WAS THE LAST COMPLETED DIMBA SEASO?
+6,hh_x05,byte,1,%6.0f,hh_x05,Did anyone in your household cultivated a plot during (dimba) season
+7,hh_x06,byte,1,%6.0f,hh_x06,"Did anyone in your household harvest any cassave, tea, coffee, or any"
+8,hh_x07,byte,1,%6.0f,hh_x07,Did you or anyone in your household own any livestock in the last 12 months
+9,hh_x09,byte,1,%6.0f,hh_x09,Did anyone in this household do any fishing or fish trading on the...

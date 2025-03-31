@@ -1,0 +1,28 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,ag_s0a,int,1,%16.0g,product,LIVESTOCK PRODUCT CODE
+4,ag_s01,byte,1,%6.0f,yes_no,Did your household produce any [PRODUCT] during the last 12 months?
+5,ag_s02,byte,1,%6.0f,,"During the last 12 months, how many months did your HH produce any [PRODUCT]?"
+6,ag_s03a,long,1,%6.0f,,"During this time, what was the average quantity of [PRODUCT] produced? (QUANT/MO"
+7,ag_s03b,byte,1,%6.0f,ag_s03b,UNIT
+8,ag_s03b_oth,str16,0,%16s,,SPECIFY UNIT
+9,ag_s04,byte,1,%6.0f,ag_s04,Did you sell any of the [PRODUCT] that you produced in the last 12 months?
+10,ag_s05a,long,1,%6.0f,,How much of the [PRODUCT] produced did you sell in the last 12 months?
+11,ag_s05b,byte,1,%6.0f,ag_s05b,UNIT
+12,ag_s05b_oth,str13,0,%13s,,SPECIFY UNIT
+13,ag_s06,long,1,%6.0f,,What was the total value of sales of [PRODUCT] in the last 12 months?
+14,ag_s07a,byte,1,%6.0f,,Who in the household kept/decided what to do with the earnings? HHID 1
+15,ag_s07b,byte,1,%6.0f,,Who in the household kept/decided what to do with the earnings? HHID 2
+16,ag_s08,byte,1,%6.0f,,To whom did you sell most [PRODUCT] that you sold?
+17,ag_s09a,long,1,%6.0f,,How much of the [PRODUCT] produced did.. HH consume in the last 12 months? (QUAN
+18,ag_s09b,byte,1,%6.0f,ag_s09b,UNIT
+19,ag_s09b_oth,str27,0,%27s,,SPECIFY UNIT
+20,ag_s10a,int,1,%6.0f,,"...HH give out as reimbursements for land, labor, and other services? (QUANT)"
+21,ag_s10b,byte,1,%6.0f,ag_s10b,UNIT
+22,ag_s10b_oth,str13,0,%13s,,SPECIFY UNIT
+23,ag_s11a,int,1,%6.0f,,...HH give out as reimbursements for inputs borrowed or acquired on credit? (QUA
+24,ag_s11b,byte,1,%6.0f,ag_s11b,UNIT
+25,ag_s11b_oth,str1,0,%9s,,SPECIFY UNIT
+26,ag_s12,byte,1,%6.0f,ag_s12,"Incur any expenses (labor costs, add' input, transport) in production of [PRODUC"
+27,ag_s13,long,1,%6.0f,,What was the total value of these additional expenses?

@@ -1,0 +1,5 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,item_name,str39,0,%39s,,Item Desription
+2,item_code,int,1,%9.0g,,Food_Item Code
+3,cal_100g,int,1,%8.0g,,Calories per 100g
+4,edible_p,byte,1,%8.0g,,Edible Portion

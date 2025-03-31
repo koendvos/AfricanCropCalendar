@@ -1,0 +1,45 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,PID,str9,0,%9s,,Assigned Unique Serial Number for IHS3 Baseline and IHPS New Members
+4,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+5,interview_status,byte,1,%24.0g,stat,Household Interview Status
+6,hh_d01,byte,1,%8.0g,,ID CODE
+7,hh_d02,byte,1,%17.0g,HH_D02,IS THIS INFORMATION SELF-REPORTED OR IS IT BEING PROVIDED BY ANOTHER HOUSEHOLD M
+8,hh_d03,byte,1,%8.0g,,WHO IS REPORTING THE INFORMATION FOR THE INDIVIDUAL?
+9,hh_d04,byte,1,%8.0g,HH_D04,During the past 2 weeks have you suffered from an illness or injury?
+10,hh_d05a,byte,1,%32.0g,HH_D05A,What was the illness or injury? (Problem 1)
+11,hh_d05b,byte,1,%32.0g,HH_D05B,What was the illness or injury? (Problem 2)
+12,hh_d06a,byte,1,%60.0g,HH_D06A,Who diagnosed the illness? (Problem 1)
+13,hh_d06b,byte,1,%60.0g,HH_D06B,Who diagnosed the illness? (Problem 2)
+14,hh_d07a,byte,1,%47.0g,HH_D07A,What action did you take to find relief for illness? (Problem 1)
+15,hh_d07b,byte,1,%47.0g,HH_D07B,What action did you take to find relief for illness? (Problem 2)
+16,hh_d08,byte,1,%8.0g,,During the past 2 weeks did you have to stop your normal activities because of t
+17,hh_d09,byte,1,%8.0g,,During the past 2 weeks did anyone else in the household have to stop their norm
+18,hh_d10,long,1,%12.0g,,How much in total did you spend in the past 4 weeks for all illnesses and injuri
+19,hh_d11,int,1,%12.0g,,How much in total did you spend in the past 4 weeks for medical care not related
+20,hh_d12,int,1,%12.0g,,How much in total did you spend in the past 4 weeks for non-prescription medicin
+21,hh_d13,byte,1,%8.0g,HH_D13,"During the last 12 months, were you hospital-ized or had an overnight stay(s) in"
+22,hh_d14,long,1,%12.0g,,What was the total cost of your hospitalization(s) or overnight stay(s) in a med
+23,hh_d15,long,1,%12.0g,,How much in total did you spend to travel to the medical facility for overnight
+24,hh_d16,long,1,%12.0g,,How much did you spend on food during overnight stay(s) at the medical facility
+25,hh_d17,byte,1,%8.0g,HH_D17,Did you or other members of your household have to borrow money or sell assets i
+26,hh_d18,byte,1,%8.0g,HH_D18,"During the last 12 months, did you stay over-night(s) at a traditional healer's"
+27,hh_d19,int,1,%12.0g,,What was the total cost of your stay(s) at the traditional healer's or faith hea
+28,hh_d20,int,1,%12.0g,,How much in total did you spend to travel to the traditional healer's or faith h
+29,hh_d21,int,1,%12.0g,,How much did you spend on food during overnight stay(s) at the traditional heale
+30,hh_d22,byte,1,%8.0g,HH_D22,Did you or other members of your household have to borrow money or sell assets i
+31,hh_d33,byte,1,%8.0g,HH_D33,Do you suffer from a chronic illness?
+32,hh_d34a,byte,1,%23.0g,HH_D34A,What chronic illness do you suffer from (illness 1)?
+33,hh_d34b,byte,1,%23.0g,HH_D34B,What chronic illness do you suffer from (illness 2)?
+34,hh_d35a,byte,1,%8.0g,,How long have you suffered from this illness (years)?
+35,hh_d35b,byte,1,%8.0g,,How long have you suffered from this illness (months)?
+36,hh_d36a,byte,1,%60.0g,HH_D36A,Who diagnosed illness 1?
+37,hh_d36b,byte,1,%60.0g,HH_D36B,Who diagnosed illness 2?
+38,hh_d37,byte,1,%8.0g,HH_D37,"IS THIS PERSON, [NAME], LESS THAN 15 YEARS OLD?"
+39,hh_d38,byte,1,%29.0g,HH_D38,What did you have for breakfast yesterday?
+40,hh_d39,byte,1,%8.0g,HH_D39,"IS THIS PERSON, [NAME], A WOMAN AGED 12 TO 49 YEARS?"
+41,hh_d40,byte,1,%8.0g,HH_D40,"In the past 24 months, did you give birth to a child, even if born dead?"
+42,hh_d41,byte,1,%8.0g,HH_D41,Did you regularly go to a health clinic when you were pregnant with your last ch
+43,hh_d42,byte,1,%27.0g,HH_D42,Where did you deliver your last child born in the last 24 months?
+44,hh_d43,byte,1,%24.0g,HH_D43,Who assisted in delivering this child?

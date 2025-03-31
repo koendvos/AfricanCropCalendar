@@ -1,0 +1,858 @@
+region,crop_code,unit_name,unit_code,condition,conversion,collectionround
+North,MAIZE LOCAL,OX-CART,12,S: Shelled,468,Collected in Only 2016
+Central,MAIZE LOCAL,OX-CART,12,S: Shelled,468,Collected in Only 2016
+South,MAIZE LOCAL,OX-CART,12,S: Shelled,468,Collected in Only 2016
+North,MAIZE LOCAL,OX-CART,12,U: Unshelled,388.44,Collected in Only 2016
+Central,MAIZE LOCAL,OX-CART,12,U: Unshelled,682,Collected In Both 2016 and 2019
+South,MAIZE LOCAL,OX-CART,12,U: Unshelled,388.44,Collected in Only 2016
+North,MAIZE LOCAL,PAIL (MEDIUM),14,S: Shelled,10,Collected in Only 2019
+Central,MAIZE LOCAL,PAIL (MEDIUM),14,S: Shelled,8.0450001,Collected in Only 2019
+South,MAIZE LOCAL,PAIL (MEDIUM),14,S: Shelled,8.9379997,Collected in Only 2019
+North,MAIZE LOCAL,50 KG BAG,2,S: Shelled,51.599998,Collected In Both 2016 and 2019
+Central,MAIZE LOCAL,50 KG BAG,2,S: Shelled,50,Collected In Both 2016 and 2019
+South,MAIZE LOCAL,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+North,MAIZE LOCAL,50 KG BAG,2,U: Unshelled,46.064999,Collected in Only 2016
+Central,MAIZE LOCAL,50 KG BAG,2,U: Unshelled,44.232082,Collected in Only 2016
+South,MAIZE LOCAL,50 KG BAG,2,U: Unshelled,44.274353,Collected in Only 2016
+North,MAIZE LOCAL,90 KG BAG,3,S: Shelled,99.900002,Collected in Only 2016
+Central,MAIZE LOCAL,90 KG BAG,3,S: Shelled,95.925003,Collected in Only 2016
+South,MAIZE LOCAL,90 KG BAG,3,S: Shelled,96.01667,Collected in Only 2016
+North,MAIZE LOCAL,90 KG BAG,3,U: Unshelled,82.917,Collected in Only 2016
+Central,MAIZE LOCAL,90 KG BAG,3,U: Unshelled,79.617752,Collected in Only 2016
+South,MAIZE LOCAL,90 KG BAG,3,U: Unshelled,79.693832,Collected in Only 2016
+North,MAIZE LOCAL,PAIL (SMALL),4,S: Shelled,4.4449997,Collected In Both 2016 and 2019
+Central,MAIZE LOCAL,PAIL (SMALL),4,S: Shelled,5.29,Collected In Both 2016 and 2019
+South,MAIZE LOCAL,PAIL (SMALL),4,S: Shelled,5.25,Collected In Both 2016 and 2019
+Central,MAIZE LOCAL,PAIL (SMALL),4,U: Unshelled,3.8301039,Collected in Only 2016
+North,MAIZE LOCAL,PAIL (LARGE),5,S: Shelled,18.700001,Collected In Both 2016 and 2019
+Central,MAIZE LOCAL,PAIL (LARGE),5,S: Shelled,16.684999,Collected In Both 2016 and 2019
+South,MAIZE LOCAL,PAIL (LARGE),5,S: Shelled,18,Collected In Both 2016 and 2019
+North,MAIZE LOCAL,PAIL (LARGE),5,U: Unshelled,14.981501,Collected in Only 2016
+Central,MAIZE LOCAL,PAIL (LARGE),5,U: Unshelled,14.386667,Collected in Only 2016
+South,MAIZE LOCAL,PAIL (LARGE),5,U: Unshelled,14.7325,Collected in Only 2016
+North,MAIZE COMPOSITE/OPV,OX-CART,12,S: Shelled,468,Collected in Only 2016
+Central,MAIZE COMPOSITE/OPV,OX-CART,12,S: Shelled,468,Collected in Only 2016
+South,MAIZE COMPOSITE/OPV,OX-CART,12,S: Shelled,468,Collected in Only 2016
+North,MAIZE COMPOSITE/OPV,OX-CART,12,U: Unshelled,388.44,Collected in Only 2016
+Central,MAIZE COMPOSITE/OPV,OX-CART,12,U: Unshelled,682,Collected In Both 2016 and 2019
+South,MAIZE COMPOSITE/OPV,OX-CART,12,U: Unshelled,388.44,Collected in Only 2016
+North,MAIZE COMPOSITE/OPV,PAIL (MEDIUM),14,S: Shelled,10,Collected in Only 2019
+Central,MAIZE COMPOSITE/OPV,PAIL (MEDIUM),14,S: Shelled,8.0450001,Collected in Only 2019
+South,MAIZE COMPOSITE/OPV,PAIL (MEDIUM),14,S: Shelled,8.9379997,Collected in Only 2019
+North,MAIZE COMPOSITE/OPV,50 KG BAG,2,S: Shelled,51.599998,Collected In Both 2016 and 2019
+Central,MAIZE COMPOSITE/OPV,50 KG BAG,2,S: Shelled,50,Collected In Both 2016 and 2019
+South,MAIZE COMPOSITE/OPV,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+North,MAIZE COMPOSITE/OPV,50 KG BAG,2,U: Unshelled,46.064999,Collected in Only 2016
+Central,MAIZE COMPOSITE/OPV,50 KG BAG,2,U: Unshelled,44.232082,Collected in Only 2016
+South,MAIZE COMPOSITE/OPV,50 KG BAG,2,U: Unshelled,44.274353,Collected in Only 2016
+North,MAIZE COMPOSITE/OPV,90 KG BAG,3,S: Shelled,99.900002,Collected in Only 2016
+Central,MAIZE COMPOSITE/OPV,90 KG BAG,3,S: Shelled,95.925003,Collected in Only 2016
+South,MAIZE COMPOSITE/OPV,90 KG BAG,3,S: Shelled,96.01667,Collected in Only 2016
+North,MAIZE COMPOSITE/OPV,90 KG BAG,3,U: Unshelled,82.917,Collected in Only 2016
+Central,MAIZE COMPOSITE/OPV,90 KG BAG,3,U: Unshelled,79.617752,Collected in Only 2016
+South,MAIZE COMPOSITE/OPV,90 KG BAG,3,U: Unshelled,79.693832,Collected in Only 2016
+North,MAIZE COMPOSITE/OPV,PAIL (SMALL),4,S: Shelled,4.4449997,Collected In Both 2016 and 2019
+Central,MAIZE COMPOSITE/OPV,PAIL (SMALL),4,S: Shelled,5.29,Collected In Both 2016 and 2019
+South,MAIZE COMPOSITE/OPV,PAIL (SMALL),4,S: Shelled,5.25,Collected In Both 2016 and 2019
+Central,MAIZE COMPOSITE/OPV,PAIL (SMALL),4,U: Unshelled,3.8301039,Collected in Only 2016
+North,MAIZE COMPOSITE/OPV,PAIL (LARGE),5,S: Shelled,18.700001,Collected In Both 2016 and 2019
+Central,MAIZE COMPOSITE/OPV,PAIL (LARGE),5,S: Shelled,16.684999,Collected In Both 2016 and 2019
+South,MAIZE COMPOSITE/OPV,PAIL (LARGE),5,S: Shelled,18,Collected In Both 2016 and 2019
+North,MAIZE COMPOSITE/OPV,PAIL (LARGE),5,U: Unshelled,14.981501,Collected in Only 2016
+Central,MAIZE COMPOSITE/OPV,PAIL (LARGE),5,U: Unshelled,14.386667,Collected in Only 2016
+South,MAIZE COMPOSITE/OPV,PAIL (LARGE),5,U: Unshelled,14.7325,Collected in Only 2016
+North,MAIZE HYBRID,OX-CART,12,S: Shelled,468,Collected in Only 2016
+Central,MAIZE HYBRID,OX-CART,12,S: Shelled,468,Collected in Only 2016
+South,MAIZE HYBRID,OX-CART,12,S: Shelled,468,Collected in Only 2016
+North,MAIZE HYBRID,OX-CART,12,U: Unshelled,388.44,Collected in Only 2016
+Central,MAIZE HYBRID,OX-CART,12,U: Unshelled,682,Collected In Both 2016 and 2019
+South,MAIZE HYBRID,OX-CART,12,U: Unshelled,388.44,Collected in Only 2016
+North,MAIZE HYBRID,PAIL (MEDIUM),14,S: Shelled,10,Collected in Only 2019
+Central,MAIZE HYBRID,PAIL (MEDIUM),14,S: Shelled,8.0450001,Collected in Only 2019
+South,MAIZE HYBRID,PAIL (MEDIUM),14,S: Shelled,8.9379997,Collected in Only 2019
+North,MAIZE HYBRID,50 KG BAG,2,S: Shelled,51.599998,Collected In Both 2016 and 2019
+Central,MAIZE HYBRID,50 KG BAG,2,S: Shelled,50,Collected In Both 2016 and 2019
+South,MAIZE HYBRID,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+North,MAIZE HYBRID,50 KG BAG,2,U: Unshelled,46.064999,Collected in Only 2016
+Central,MAIZE HYBRID,50 KG BAG,2,U: Unshelled,44.232082,Collected in Only 2016
+South,MAIZE HYBRID,50 KG BAG,2,U: Unshelled,44.274353,Collected in Only 2016
+North,MAIZE HYBRID,90 KG BAG,3,S: Shelled,99.900002,Collected in Only 2016
+Central,MAIZE HYBRID,90 KG BAG,3,S: Shelled,95.925003,Collected in Only 2016
+South,MAIZE HYBRID,90 KG BAG,3,S: Shelled,96.01667,Collected in Only 2016
+North,MAIZE HYBRID,90 KG BAG,3,U: Unshelled,82.917,Collected in Only 2016
+Central,MAIZE HYBRID,90 KG BAG,3,U: Unshelled,79.617752,Collected in Only 2016
+South,MAIZE HYBRID,90 KG BAG,3,U: Unshelled,79.693832,Collected in Only 2016
+North,MAIZE HYBRID,PAIL (SMALL),4,S: Shelled,4.4449997,Collected In Both 2016 and 2019
+Central,MAIZE HYBRID,PAIL (SMALL),4,S: Shelled,5.29,Collected In Both 2016 and 2019
+South,MAIZE HYBRID,PAIL (SMALL),4,S: Shelled,5.25,Collected In Both 2016 and 2019
+Central,MAIZE HYBRID,PAIL (SMALL),4,U: Unshelled,3.8301039,Collected in Only 2016
+North,MAIZE HYBRID,PAIL (LARGE),5,S: Shelled,18.700001,Collected In Both 2016 and 2019
+Central,MAIZE HYBRID,PAIL (LARGE),5,S: Shelled,16.684999,Collected In Both 2016 and 2019
+South,MAIZE HYBRID,PAIL (LARGE),5,S: Shelled,18,Collected In Both 2016 and 2019
+North,MAIZE HYBRID,PAIL (LARGE),5,U: Unshelled,14.981501,Collected in Only 2016
+Central,MAIZE HYBRID,PAIL (LARGE),5,U: Unshelled,14.386667,Collected in Only 2016
+South,MAIZE HYBRID,PAIL (LARGE),5,U: Unshelled,14.7325,Collected in Only 2016
+North,MAIZE HYBRID RECYCLED,OX-CART,12,S: Shelled,468,Collected in Only 2016
+Central,MAIZE HYBRID RECYCLED,OX-CART,12,S: Shelled,468,Collected in Only 2016
+South,MAIZE HYBRID RECYCLED,OX-CART,12,S: Shelled,468,Collected in Only 2016
+North,MAIZE HYBRID RECYCLED,OX-CART,12,U: Unshelled,388.44,Collected in Only 2016
+Central,MAIZE HYBRID RECYCLED,OX-CART,12,U: Unshelled,682,Collected In Both 2016 and 2019
+South,MAIZE HYBRID RECYCLED,OX-CART,12,U: Unshelled,388.44,Collected in Only 2016
+North,MAIZE HYBRID RECYCLED,PAIL (MEDIUM),14,S: Shelled,10,Collected in Only 2019
+Central,MAIZE HYBRID RECYCLED,PAIL (MEDIUM),14,S: Shelled,8.0450001,Collected in Only 2019
+South,MAIZE HYBRID RECYCLED,PAIL (MEDIUM),14,S: Shelled,8.9379997,Collected in Only 2019
+North,MAIZE HYBRID RECYCLED,50 KG BAG,2,S: Shelled,51.599998,Collected In Both 2016 and 2019
+Central,MAIZE HYBRID RECYCLED,50 KG BAG,2,S: Shelled,50,Collected In Both 2016 and 2019
+South,MAIZE HYBRID RECYCLED,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+North,MAIZE HYBRID RECYCLED,50 KG BAG,2,U: Unshelled,46.064999,Collected in Only 2016
+Central,MAIZE HYBRID RECYCLED,50 KG BAG,2,U: Unshelled,44.232082,Collected in Only 2016
+South,MAIZE HYBRID RECYCLED,50 KG BAG,2,U: Unshelled,44.274353,Collected in Only 2016
+North,MAIZE HYBRID RECYCLED,90 KG BAG,3,S: Shelled,99.900002,Collected in Only 2016
+Central,MAIZE HYBRID RECYCLED,90 KG BAG,3,S: Shelled,95.925003,Collected in Only 2016
+South,MAIZE HYBRID RECYCLED,90 KG BAG,3,S: Shelled,96.01667,Collected in Only 2016
+North,MAIZE HYBRID RECYCLED,90 KG BAG,3,U: Unshelled,82.917,Collected in Only 2016
+Central,MAIZE HYBRID RECYCLED,90 KG BAG,3,U: Unshelled,79.617752,Collected in Only 2016
+South,MAIZE HYBRID RECYCLED,90 KG BAG,3,U: Unshelled,79.693832,Collected in Only 2016
+North,MAIZE HYBRID RECYCLED,PAIL (SMALL),4,S: Shelled,4.4449997,Collected In Both 2016 and 2019
+Central,MAIZE HYBRID RECYCLED,PAIL (SMALL),4,S: Shelled,5.29,Collected In Both 2016 and 2019
+South,MAIZE HYBRID RECYCLED,PAIL (SMALL),4,S: Shelled,5.25,Collected In Both 2016 and 2019
+Central,MAIZE HYBRID RECYCLED,PAIL (SMALL),4,U: Unshelled,3.8301039,Collected in Only 2016
+North,MAIZE HYBRID RECYCLED,PAIL (LARGE),5,S: Shelled,18.700001,Collected In Both 2016 and 2019
+Central,MAIZE HYBRID RECYCLED,PAIL (LARGE),5,S: Shelled,16.684999,Collected In Both 2016 and 2019
+South,MAIZE HYBRID RECYCLED,PAIL (LARGE),5,S: Shelled,18,Collected In Both 2016 and 2019
+North,MAIZE HYBRID RECYCLED,PAIL (LARGE),5,U: Unshelled,14.981501,Collected in Only 2016
+Central,MAIZE HYBRID RECYCLED,PAIL (LARGE),5,U: Unshelled,14.386667,Collected in Only 2016
+South,MAIZE HYBRID RECYCLED,PAIL (LARGE),5,U: Unshelled,14.7325,Collected in Only 2016
+North,TOBACCO BURLEY,BALE,10,Not Applicable,100,Collected in Only 2016
+Central,TOBACCO BURLEY,BALE,10,Not Applicable,100,Collected in Only 2016
+South,TOBACCO BURLEY,BALE,10,Not Applicable,100,Collected in Only 2016
+North,TOBACCO BURLEY,50 KG BAG,2,Not Applicable,20,Collected in Only 2016
+Central,TOBACCO BURLEY,50 KG BAG,2,Not Applicable,20,Collected in Only 2016
+South,TOBACCO BURLEY,50 KG BAG,2,Not Applicable,20,Collected in Only 2016
+North,TOBACCO BURLEY,90 KG BAG,3,Not Applicable,36,Collected in Only 2016
+Central,TOBACCO BURLEY,90 KG BAG,3,Not Applicable,36,Collected in Only 2016
+South,TOBACCO BURLEY,90 KG BAG,3,Not Applicable,36,Collected in Only 2016
+North,GROUNDNUT CHALIMBANA,PAIL (MEDIUM),14,S: Shelled,8.3219995,Collected in Only 2019
+Central,GROUNDNUT CHALIMBANA,PAIL (MEDIUM),14,S: Shelled,6.48,Collected in Only 2019
+South,GROUNDNUT CHALIMBANA,PAIL (MEDIUM),14,S: Shelled,7.1009998,Collected in Only 2019
+North,GROUNDNUT CHALIMBANA,PAIL (MEDIUM),14,U: Unshelled,4.599,Collected in Only 2019
+Central,GROUNDNUT CHALIMBANA,PAIL (MEDIUM),14,U: Unshelled,3.4400001,Collected in Only 2019
+South,GROUNDNUT CHALIMBANA,PAIL (MEDIUM),14,U: Unshelled,3.3340001,Collected in Only 2019
+North,GROUNDNUT CHALIMBANA,50 KG BAG,2,S: Shelled,43,Collected In Both 2016 and 2019
+Central,GROUNDNUT CHALIMBANA,50 KG BAG,2,S: Shelled,49.625,Collected In Both 2016 and 2019
+South,GROUNDNUT CHALIMBANA,50 KG BAG,2,S: Shelled,50,Collected In Both 2016 and 2019
+North,GROUNDNUT CHALIMBANA,50 KG BAG,2,U: Unshelled,23.9,Collected In Both 2016 and 2019
+Central,GROUNDNUT CHALIMBANA,50 KG BAG,2,U: Unshelled,24.97625,Collected In Both 2016 and 2019
+South,GROUNDNUT CHALIMBANA,50 KG BAG,2,U: Unshelled,22,Collected In Both 2016 and 2019
+North,GROUNDNUT CHALIMBANA,90 KG BAG,3,S: Shelled,70.799995,Collected in Only 2016
+Central,GROUNDNUT CHALIMBANA,90 KG BAG,3,S: Shelled,73.200005,Collected in Only 2016
+South,GROUNDNUT CHALIMBANA,90 KG BAG,3,S: Shelled,74.790001,Collected in Only 2016
+North,GROUNDNUT CHALIMBANA,90 KG BAG,3,U: Unshelled,48.851997,Collected in Only 2016
+Central,GROUNDNUT CHALIMBANA,90 KG BAG,3,U: Unshelled,50.508003,Collected in Only 2016
+South,GROUNDNUT CHALIMBANA,90 KG BAG,3,U: Unshelled,51.605099,Collected in Only 2016
+North,GROUNDNUT CHALIMBANA,PAIL (SMALL),4,S: Shelled,4.0999999,Collected in Only 2019
+Central,GROUNDNUT CHALIMBANA,PAIL (SMALL),4,S: Shelled,4.3299999,Collected in Only 2019
+South,GROUNDNUT CHALIMBANA,PAIL (SMALL),4,S: Shelled,4.0960002,Collected in Only 2019
+North,GROUNDNUT CHALIMBANA,PAIL (SMALL),4,U: Unshelled,2.2,Collected in Only 2019
+Central,GROUNDNUT CHALIMBANA,PAIL (SMALL),4,U: Unshelled,2.135,Collected in Only 2019
+South,GROUNDNUT CHALIMBANA,PAIL (SMALL),4,U: Unshelled,2.0120001,Collected in Only 2019
+North,GROUNDNUT CHALIMBANA,PAIL (LARGE),5,S: Shelled,16.650002,Collected In Both 2016 and 2019
+Central,GROUNDNUT CHALIMBANA,PAIL (LARGE),5,S: Shelled,13.7,Collected In Both 2016 and 2019
+South,GROUNDNUT CHALIMBANA,PAIL (LARGE),5,S: Shelled,14.46,Collected In Both 2016 and 2019
+North,GROUNDNUT CHALIMBANA,PAIL (LARGE),5,U: Unshelled,10.2,Collected In Both 2016 and 2019
+Central,GROUNDNUT CHALIMBANA,PAIL (LARGE),5,U: Unshelled,7.6125002,Collected In Both 2016 and 2019
+South,GROUNDNUT CHALIMBANA,PAIL (LARGE),5,U: Unshelled,6.4320002,Collected In Both 2016 and 2019
+North,GROUNDNUT CG7,PAIL (MEDIUM),14,S: Shelled,8.3219995,Collected in Only 2019
+Central,GROUNDNUT CG7,PAIL (MEDIUM),14,S: Shelled,6.48,Collected in Only 2019
+South,GROUNDNUT CG7,PAIL (MEDIUM),14,S: Shelled,7.1009998,Collected in Only 2019
+North,GROUNDNUT CG7,PAIL (MEDIUM),14,U: Unshelled,4.599,Collected in Only 2019
+Central,GROUNDNUT CG7,PAIL (MEDIUM),14,U: Unshelled,3.4400001,Collected in Only 2019
+South,GROUNDNUT CG7,PAIL (MEDIUM),14,U: Unshelled,3.3340001,Collected in Only 2019
+North,GROUNDNUT CG7,50 KG BAG,2,S: Shelled,43,Collected In Both 2016 and 2019
+Central,GROUNDNUT CG7,50 KG BAG,2,S: Shelled,49.625,Collected In Both 2016 and 2019
+South,GROUNDNUT CG7,50 KG BAG,2,S: Shelled,50,Collected In Both 2016 and 2019
+North,GROUNDNUT CG7,50 KG BAG,2,U: Unshelled,23.9,Collected In Both 2016 and 2019
+Central,GROUNDNUT CG7,50 KG BAG,2,U: Unshelled,24.97625,Collected In Both 2016 and 2019
+South,GROUNDNUT CG7,50 KG BAG,2,U: Unshelled,22,Collected In Both 2016 and 2019
+North,GROUNDNUT CG7,90 KG BAG,3,S: Shelled,70.799995,Collected in Only 2016
+Central,GROUNDNUT CG7,90 KG BAG,3,S: Shelled,73.200005,Collected in Only 2016
+South,GROUNDNUT CG7,90 KG BAG,3,S: Shelled,74.790001,Collected in Only 2016
+North,GROUNDNUT CG7,90 KG BAG,3,U: Unshelled,48.851997,Collected in Only 2016
+Central,GROUNDNUT CG7,90 KG BAG,3,U: Unshelled,50.508003,Collected in Only 2016
+South,GROUNDNUT CG7,90 KG BAG,3,U: Unshelled,51.605099,Collected in Only 2016
+North,GROUNDNUT CG7,PAIL (SMALL),4,S: Shelled,4.0999999,Collected in Only 2019
+Central,GROUNDNUT CG7,PAIL (SMALL),4,S: Shelled,4.3299999,Collected in Only 2019
+South,GROUNDNUT CG7,PAIL (SMALL),4,S: Shelled,4.0960002,Collected in Only 2019
+North,GROUNDNUT CG7,PAIL (SMALL),4,U: Unshelled,2.2,Collected in Only 2019
+Central,GROUNDNUT CG7,PAIL (SMALL),4,U: Unshelled,2.135,Collected in Only 2019
+South,GROUNDNUT CG7,PAIL (SMALL),4,U: Unshelled,2.0120001,Collected in Only 2019
+North,GROUNDNUT CG7,PAIL (LARGE),5,S: Shelled,16.650002,Collected In Both 2016 and 2019
+Central,GROUNDNUT CG7,PAIL (LARGE),5,S: Shelled,13.7,Collected In Both 2016 and 2019
+South,GROUNDNUT CG7,PAIL (LARGE),5,S: Shelled,14.46,Collected In Both 2016 and 2019
+North,GROUNDNUT CG7,PAIL (LARGE),5,U: Unshelled,10.2,Collected In Both 2016 and 2019
+Central,GROUNDNUT CG7,PAIL (LARGE),5,U: Unshelled,7.6125002,Collected In Both 2016 and 2019
+South,GROUNDNUT CG7,PAIL (LARGE),5,U: Unshelled,6.4320002,Collected In Both 2016 and 2019
+North,GROUNDNUT MANI-PINTAR,PAIL (MEDIUM),14,S: Shelled,8.3219995,Collected in Only 2019
+Central,GROUNDNUT MANI-PINTAR,PAIL (MEDIUM),14,S: Shelled,6.48,Collected in Only 2019
+South,GROUNDNUT MANI-PINTAR,PAIL (MEDIUM),14,S: Shelled,7.1009998,Collected in Only 2019
+North,GROUNDNUT MANI-PINTAR,PAIL (MEDIUM),14,U: Unshelled,4.599,Collected in Only 2019
+Central,GROUNDNUT MANI-PINTAR,PAIL (MEDIUM),14,U: Unshelled,3.4400001,Collected in Only 2019
+South,GROUNDNUT MANI-PINTAR,PAIL (MEDIUM),14,U: Unshelled,3.3340001,Collected in Only 2019
+North,GROUNDNUT MANI-PINTAR,50 KG BAG,2,S: Shelled,43,Collected In Both 2016 and 2019
+Central,GROUNDNUT MANI-PINTAR,50 KG BAG,2,S: Shelled,49.625,Collected In Both 2016 and 2019
+South,GROUNDNUT MANI-PINTAR,50 KG BAG,2,S: Shelled,50,Collected In Both 2016 and 2019
+North,GROUNDNUT MANI-PINTAR,50 KG BAG,2,U: Unshelled,23.9,Collected In Both 2016 and 2019
+Central,GROUNDNUT MANI-PINTAR,50 KG BAG,2,U: Unshelled,24.97625,Collected In Both 2016 and 2019
+South,GROUNDNUT MANI-PINTAR,50 KG BAG,2,U: Unshelled,22,Collected In Both 2016 and 2019
+North,GROUNDNUT MANI-PINTAR,90 KG BAG,3,S: Shelled,70.799995,Collected in Only 2016
+Central,GROUNDNUT MANI-PINTAR,90 KG BAG,3,S: Shelled,73.200005,Collected in Only 2016
+South,GROUNDNUT MANI-PINTAR,90 KG BAG,3,S: Shelled,74.790001,Collected in Only 2016
+North,GROUNDNUT MANI-PINTAR,90 KG BAG,3,U: Unshelled,48.851997,Collected in Only 2016
+Central,GROUNDNUT MANI-PINTAR,90 KG BAG,3,U: Unshelled,50.508003,Collected in Only 2016
+South,GROUNDNUT MANI-PINTAR,90 KG BAG,3,U: Unshelled,51.605099,Collected in Only 2016
+North,GROUNDNUT MANI-PINTAR,PAIL (SMALL),4,S: Shelled,4.0999999,Collected in Only 2019
+Central,GROUNDNUT MANI-PINTAR,PAIL (SMALL),4,S: Shelled,4.3299999,Collected in Only 2019
+South,GROUNDNUT MANI-PINTAR,PAIL (SMALL),4,S: Shelled,4.0960002,Collected in Only 2019
+North,GROUNDNUT MANI-PINTAR,PAIL (SMALL),4,U: Unshelled,2.2,Collected in Only 2019
+Central,GROUNDNUT MANI-PINTAR,PAIL (SMALL),4,U: Unshelled,2.135,Collected in Only 2019
+South,GROUNDNUT MANI-PINTAR,PAIL (SMALL),4,U: Unshelled,2.0120001,Collected in Only 2019
+North,GROUNDNUT MANI-PINTAR,PAIL (LARGE),5,S: Shelled,16.650002,Collected In Both 2016 and 2019
+Central,GROUNDNUT MANI-PINTAR,PAIL (LARGE),5,S: Shelled,13.7,Collected In Both 2016 and 2019
+South,GROUNDNUT MANI-PINTAR,PAIL (LARGE),5,S: Shelled,14.46,Collected In Both 2016 and 2019
+North,GROUNDNUT MANI-PINTAR,PAIL (LARGE),5,U: Unshelled,10.2,Collected In Both 2016 and 2019
+Central,GROUNDNUT MANI-PINTAR,PAIL (LARGE),5,U: Unshelled,7.6125002,Collected In Both 2016 and 2019
+South,GROUNDNUT MANI-PINTAR,PAIL (LARGE),5,U: Unshelled,6.4320002,Collected In Both 2016 and 2019
+North,GROUNDNUT MAWANGA,PAIL (MEDIUM),14,S: Shelled,8.3219995,Collected in Only 2019
+Central,GROUNDNUT MAWANGA,PAIL (MEDIUM),14,S: Shelled,6.48,Collected in Only 2019
+South,GROUNDNUT MAWANGA,PAIL (MEDIUM),14,S: Shelled,7.1009998,Collected in Only 2019
+North,GROUNDNUT MAWANGA,PAIL (MEDIUM),14,U: Unshelled,4.599,Collected in Only 2019
+Central,GROUNDNUT MAWANGA,PAIL (MEDIUM),14,U: Unshelled,3.4400001,Collected in Only 2019
+South,GROUNDNUT MAWANGA,PAIL (MEDIUM),14,U: Unshelled,3.3340001,Collected in Only 2019
+North,GROUNDNUT MAWANGA,50 KG BAG,2,S: Shelled,43,Collected In Both 2016 and 2019
+Central,GROUNDNUT MAWANGA,50 KG BAG,2,S: Shelled,49.625,Collected In Both 2016 and 2019
+South,GROUNDNUT MAWANGA,50 KG BAG,2,S: Shelled,50,Collected In Both 2016 and 2019
+North,GROUNDNUT MAWANGA,50 KG BAG,2,U: Unshelled,23.9,Collected In Both 2016 and 2019
+Central,GROUNDNUT MAWANGA,50 KG BAG,2,U: Unshelled,24.97625,Collected In Both 2016 and 2019
+South,GROUNDNUT MAWANGA,50 KG BAG,2,U: Unshelled,22,Collected In Both 2016 and 2019
+North,GROUNDNUT MAWANGA,90 KG BAG,3,S: Shelled,70.799995,Collected in Only 2016
+Central,GROUNDNUT MAWANGA,90 KG BAG,3,S: Shelled,73.200005,Collected in Only 2016
+South,GROUNDNUT MAWANGA,90 KG BAG,3,S: Shelled,74.790001,Collected in Only 2016
+North,GROUNDNUT MAWANGA,90 KG BAG,3,U: Unshelled,48.851997,Collected in Only 2016
+Central,GROUNDNUT MAWANGA,90 KG BAG,3,U: Unshelled,50.508003,Collected in Only 2016
+South,GROUNDNUT MAWANGA,90 KG BAG,3,U: Unshelled,51.605099,Collected in Only 2016
+North,GROUNDNUT MAWANGA,PAIL (SMALL),4,S: Shelled,4.0999999,Collected in Only 2019
+Central,GROUNDNUT MAWANGA,PAIL (SMALL),4,S: Shelled,4.3299999,Collected in Only 2019
+South,GROUNDNUT MAWANGA,PAIL (SMALL),4,S: Shelled,4.0960002,Collected in Only 2019
+North,GROUNDNUT MAWANGA,PAIL (SMALL),4,U: Unshelled,2.2,Collected in Only 2019
+Central,GROUNDNUT MAWANGA,PAIL (SMALL),4,U: Unshelled,2.135,Collected in Only 2019
+South,GROUNDNUT MAWANGA,PAIL (SMALL),4,U: Unshelled,2.0120001,Collected in Only 2019
+North,GROUNDNUT MAWANGA,PAIL (LARGE),5,S: Shelled,16.650002,Collected In Both 2016 and 2019
+Central,GROUNDNUT MAWANGA,PAIL (LARGE),5,S: Shelled,13.7,Collected In Both 2016 and 2019
+South,GROUNDNUT MAWANGA,PAIL (LARGE),5,S: Shelled,14.46,Collected In Both 2016 and 2019
+North,GROUNDNUT MAWANGA,PAIL (LARGE),5,U: Unshelled,10.2,Collected In Both 2016 and 2019
+Central,GROUNDNUT MAWANGA,PAIL (LARGE),5,U: Unshelled,7.6125002,Collected In Both 2016 and 2019
+South,GROUNDNUT MAWANGA,PAIL (LARGE),5,U: Unshelled,6.4320002,Collected In Both 2016 and 2019
+North,GROUNDNUT JL24,PAIL (MEDIUM),14,S: Shelled,8.3219995,Collected in Only 2019
+Central,GROUNDNUT JL24,PAIL (MEDIUM),14,S: Shelled,6.48,Collected in Only 2019
+South,GROUNDNUT JL24,PAIL (MEDIUM),14,S: Shelled,7.1009998,Collected in Only 2019
+North,GROUNDNUT JL24,PAIL (MEDIUM),14,U: Unshelled,4.599,Collected in Only 2019
+Central,GROUNDNUT JL24,PAIL (MEDIUM),14,U: Unshelled,3.4400001,Collected in Only 2019
+South,GROUNDNUT JL24,PAIL (MEDIUM),14,U: Unshelled,3.3340001,Collected in Only 2019
+North,GROUNDNUT JL24,50 KG BAG,2,S: Shelled,43,Collected In Both 2016 and 2019
+Central,GROUNDNUT JL24,50 KG BAG,2,S: Shelled,49.625,Collected In Both 2016 and 2019
+South,GROUNDNUT JL24,50 KG BAG,2,S: Shelled,50,Collected In Both 2016 and 2019
+North,GROUNDNUT JL24,50 KG BAG,2,U: Unshelled,23.9,Collected In Both 2016 and 2019
+Central,GROUNDNUT JL24,50 KG BAG,2,U: Unshelled,24.97625,Collected In Both 2016 and 2019
+South,GROUNDNUT JL24,50 KG BAG,2,U: Unshelled,22,Collected In Both 2016 and 2019
+North,GROUNDNUT JL24,90 KG BAG,3,S: Shelled,70.799995,Collected in Only 2016
+Central,GROUNDNUT JL24,90 KG BAG,3,S: Shelled,73.200005,Collected in Only 2016
+South,GROUNDNUT JL24,90 KG BAG,3,S: Shelled,74.790001,Collected in Only 2016
+North,GROUNDNUT JL24,90 KG BAG,3,U: Unshelled,48.851997,Collected in Only 2016
+Central,GROUNDNUT JL24,90 KG BAG,3,U: Unshelled,50.508003,Collected in Only 2016
+South,GROUNDNUT JL24,90 KG BAG,3,U: Unshelled,51.605099,Collected in Only 2016
+North,GROUNDNUT JL24,PAIL (SMALL),4,S: Shelled,4.0999999,Collected in Only 2019
+Central,GROUNDNUT JL24,PAIL (SMALL),4,S: Shelled,4.3299999,Collected in Only 2019
+South,GROUNDNUT JL24,PAIL (SMALL),4,S: Shelled,4.0960002,Collected in Only 2019
+North,GROUNDNUT JL24,PAIL (SMALL),4,U: Unshelled,2.2,Collected in Only 2019
+Central,GROUNDNUT JL24,PAIL (SMALL),4,U: Unshelled,2.135,Collected in Only 2019
+South,GROUNDNUT JL24,PAIL (SMALL),4,U: Unshelled,2.0120001,Collected in Only 2019
+North,GROUNDNUT JL24,PAIL (LARGE),5,S: Shelled,16.650002,Collected In Both 2016 and 2019
+Central,GROUNDNUT JL24,PAIL (LARGE),5,S: Shelled,13.7,Collected In Both 2016 and 2019
+South,GROUNDNUT JL24,PAIL (LARGE),5,S: Shelled,14.46,Collected In Both 2016 and 2019
+North,GROUNDNUT JL24,PAIL (LARGE),5,U: Unshelled,10.2,Collected In Both 2016 and 2019
+Central,GROUNDNUT JL24,PAIL (LARGE),5,U: Unshelled,7.6125002,Collected In Both 2016 and 2019
+South,GROUNDNUT JL24,PAIL (LARGE),5,U: Unshelled,6.4320002,Collected In Both 2016 and 2019
+North,OTHER GROUNDNUT (SPECIFY),50 KG BAG,2,S: Shelled,39.333332,Collected in Only 2016
+Central,OTHER GROUNDNUT (SPECIFY),50 KG BAG,2,S: Shelled,40.666668,Collected in Only 2016
+South,OTHER GROUNDNUT (SPECIFY),50 KG BAG,2,S: Shelled,41.549999,Collected in Only 2016
+North,OTHER GROUNDNUT (SPECIFY),50 KG BAG,2,U: Unshelled,27.139999,Collected in Only 2016
+Central,OTHER GROUNDNUT (SPECIFY),50 KG BAG,2,U: Unshelled,28.060001,Collected in Only 2016
+South,OTHER GROUNDNUT (SPECIFY),50 KG BAG,2,U: Unshelled,28.669498,Collected in Only 2016
+North,OTHER GROUNDNUT (SPECIFY),90 KG BAG,3,S: Shelled,70.799995,Collected in Only 2016
+Central,OTHER GROUNDNUT (SPECIFY),90 KG BAG,3,S: Shelled,73.200005,Collected in Only 2016
+South,OTHER GROUNDNUT (SPECIFY),90 KG BAG,3,S: Shelled,74.790001,Collected in Only 2016
+North,OTHER GROUNDNUT (SPECIFY),90 KG BAG,3,U: Unshelled,48.851997,Collected in Only 2016
+Central,OTHER GROUNDNUT (SPECIFY),90 KG BAG,3,U: Unshelled,50.508003,Collected in Only 2016
+South,OTHER GROUNDNUT (SPECIFY),90 KG BAG,3,U: Unshelled,51.605099,Collected in Only 2016
+North,OTHER GROUNDNUT (SPECIFY),PAIL (LARGE),5,S: Shelled,15.266666,Collected in Only 2016
+Central,OTHER GROUNDNUT (SPECIFY),PAIL (LARGE),5,S: Shelled,13.833333,Collected in Only 2016
+South,OTHER GROUNDNUT (SPECIFY),PAIL (LARGE),5,S: Shelled,14.020833,Collected in Only 2016
+North,OTHER GROUNDNUT (SPECIFY),PAIL (LARGE),5,U: Unshelled,10.533999,Collected in Only 2016
+Central,OTHER GROUNDNUT (SPECIFY),PAIL (LARGE),5,U: Unshelled,9.5450001,Collected in Only 2016
+South,OTHER GROUNDNUT (SPECIFY),PAIL (LARGE),5,U: Unshelled,9.6743746,Collected in Only 2016
+North,RICE LOCAL,PAIL (MEDIUM),14,S: Shelled,10.12,Collected in Only 2019
+Central,RICE LOCAL,PAIL (MEDIUM),14,S: Shelled,8.4469995,Collected in Only 2019
+South,RICE LOCAL,PAIL (MEDIUM),14,S: Shelled,9.4799995,Collected in Only 2019
+North,RICE LOCAL,PAIL (MEDIUM),14,U: Unshelled,6.414,Collected in Only 2019
+Central,RICE LOCAL,PAIL (MEDIUM),14,U: Unshelled,6.2880001,Collected in Only 2019
+South,RICE LOCAL,PAIL (MEDIUM),14,U: Unshelled,7.0074997,Collected in Only 2019
+North,RICE LOCAL,50 KG BAG,2,S: Shelled,52.75,Collected In Both 2016 and 2019
+Central,RICE LOCAL,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+South,RICE LOCAL,50 KG BAG,2,S: Shelled,58,Collected In Both 2016 and 2019
+North,RICE LOCAL,50 KG BAG,2,U: Unshelled,34.540001,Collected In Both 2016 and 2019
+Central,RICE LOCAL,50 KG BAG,2,U: Unshelled,29.040001,Collected In Both 2016 and 2019
+South,RICE LOCAL,50 KG BAG,2,U: Unshelled,31.698336,Collected In Both 2016 and 2019
+North,RICE LOCAL,90 KG BAG,3,S: Shelled,94.199997,Collected in Only 2016
+North,RICE LOCAL,90 KG BAG,3,U: Unshelled,62.172001,Collected in Only 2016
+Central,RICE LOCAL,90 KG BAG,3,U: Unshelled,52.272003,Collected in Only 2016
+South,RICE LOCAL,90 KG BAG,3,U: Unshelled,57.057003,Collected in Only 2016
+North,RICE LOCAL,PAIL (SMALL),4,S: Shelled,4.4064999,Collected in Only 2019
+Central,RICE LOCAL,PAIL (SMALL),4,S: Shelled,5.5714998,Collected in Only 2019
+South,RICE LOCAL,PAIL (SMALL),4,S: Shelled,5.52,Collected in Only 2019
+North,RICE LOCAL,PAIL (SMALL),4,U: Unshelled,3.4000001,Collected in Only 2019
+Central,RICE LOCAL,PAIL (SMALL),4,U: Unshelled,4.1999998,Collected in Only 2019
+South,RICE LOCAL,PAIL (SMALL),4,U: Unshelled,4.086,Collected in Only 2019
+North,RICE LOCAL,PAIL (LARGE),5,S: Shelled,19,Collected In Both 2016 and 2019
+Central,RICE LOCAL,PAIL (LARGE),5,S: Shelled,17.35,Collected In Both 2016 and 2019
+South,RICE LOCAL,PAIL (LARGE),5,S: Shelled,18.985001,Collected In Both 2016 and 2019
+North,RICE LOCAL,PAIL (LARGE),5,U: Unshelled,12.2,Collected In Both 2016 and 2019
+Central,RICE LOCAL,PAIL (LARGE),5,U: Unshelled,13.135,Collected In Both 2016 and 2019
+South,RICE LOCAL,PAIL (LARGE),5,U: Unshelled,14,Collected in Only 2019
+North,RICE FAYA,PAIL (MEDIUM),14,S: Shelled,10.12,Collected in Only 2019
+Central,RICE FAYA,PAIL (MEDIUM),14,S: Shelled,8.4469995,Collected in Only 2019
+South,RICE FAYA,PAIL (MEDIUM),14,S: Shelled,9.4799995,Collected in Only 2019
+North,RICE FAYA,PAIL (MEDIUM),14,U: Unshelled,6.414,Collected in Only 2019
+Central,RICE FAYA,PAIL (MEDIUM),14,U: Unshelled,6.2880001,Collected in Only 2019
+South,RICE FAYA,PAIL (MEDIUM),14,U: Unshelled,7.0074997,Collected in Only 2019
+North,RICE FAYA,50 KG BAG,2,S: Shelled,52.75,Collected In Both 2016 and 2019
+Central,RICE FAYA,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+South,RICE FAYA,50 KG BAG,2,S: Shelled,58,Collected In Both 2016 and 2019
+North,RICE FAYA,50 KG BAG,2,U: Unshelled,36.549999,Collected In Both 2016 and 2019
+Central,RICE FAYA,50 KG BAG,2,U: Unshelled,49,Collected In Both 2016 and 2019
+South,RICE FAYA,50 KG BAG,2,U: Unshelled,52,Collected In Both 2016 and 2019
+North,RICE FAYA,90 KG BAG,3,S: Shelled,94.199997,Collected in Only 2016
+North,RICE FAYA,90 KG BAG,3,U: Unshelled,62.172001,Collected in Only 2016
+Central,RICE FAYA,90 KG BAG,3,U: Unshelled,52.272003,Collected in Only 2016
+South,RICE FAYA,90 KG BAG,3,U: Unshelled,57.057003,Collected in Only 2016
+North,RICE FAYA,PAIL (SMALL),4,S: Shelled,4.4064999,Collected in Only 2019
+Central,RICE FAYA,PAIL (SMALL),4,S: Shelled,5.5714998,Collected in Only 2019
+South,RICE FAYA,PAIL (SMALL),4,S: Shelled,5.52,Collected in Only 2019
+North,RICE FAYA,PAIL (SMALL),4,U: Unshelled,3.4000001,Collected in Only 2019
+Central,RICE FAYA,PAIL (SMALL),4,U: Unshelled,4.1999998,Collected in Only 2019
+South,RICE FAYA,PAIL (SMALL),4,U: Unshelled,4.086,Collected in Only 2019
+North,RICE FAYA,PAIL (LARGE),5,S: Shelled,19,Collected In Both 2016 and 2019
+Central,RICE FAYA,PAIL (LARGE),5,S: Shelled,17.35,Collected In Both 2016 and 2019
+South,RICE FAYA,PAIL (LARGE),5,S: Shelled,18.985001,Collected In Both 2016 and 2019
+North,RICE FAYA,PAIL (LARGE),5,U: Unshelled,12.2,Collected In Both 2016 and 2019
+Central,RICE FAYA,PAIL (LARGE),5,U: Unshelled,13.135,Collected In Both 2016 and 2019
+South,RICE FAYA,PAIL (LARGE),5,U: Unshelled,14,Collected in Only 2019
+North,RICE PUSA,PAIL (MEDIUM),14,S: Shelled,10.12,Collected in Only 2019
+Central,RICE PUSA,PAIL (MEDIUM),14,S: Shelled,8.4469995,Collected in Only 2019
+South,RICE PUSA,PAIL (MEDIUM),14,S: Shelled,9.4799995,Collected in Only 2019
+North,RICE PUSA,PAIL (MEDIUM),14,U: Unshelled,6.414,Collected in Only 2019
+Central,RICE PUSA,PAIL (MEDIUM),14,U: Unshelled,6.2880001,Collected in Only 2019
+South,RICE PUSA,PAIL (MEDIUM),14,U: Unshelled,7.0074997,Collected in Only 2019
+North,RICE PUSA,50 KG BAG,2,S: Shelled,52.75,Collected In Both 2016 and 2019
+Central,RICE PUSA,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+South,RICE PUSA,50 KG BAG,2,S: Shelled,58,Collected In Both 2016 and 2019
+North,RICE PUSA,50 KG BAG,2,U: Unshelled,36.549999,Collected In Both 2016 and 2019
+Central,RICE PUSA,50 KG BAG,2,U: Unshelled,49,Collected In Both 2016 and 2019
+South,RICE PUSA,50 KG BAG,2,U: Unshelled,52,Collected In Both 2016 and 2019
+North,RICE PUSA,90 KG BAG,3,S: Shelled,94.199997,Collected in Only 2016
+North,RICE PUSA,90 KG BAG,3,U: Unshelled,62.172001,Collected in Only 2016
+Central,RICE PUSA,90 KG BAG,3,U: Unshelled,52.272003,Collected in Only 2016
+South,RICE PUSA,90 KG BAG,3,U: Unshelled,57.057003,Collected in Only 2016
+North,RICE PUSA,PAIL (SMALL),4,S: Shelled,4.4064999,Collected in Only 2019
+Central,RICE PUSA,PAIL (SMALL),4,S: Shelled,5.5714998,Collected in Only 2019
+South,RICE PUSA,PAIL (SMALL),4,S: Shelled,5.52,Collected in Only 2019
+North,RICE PUSA,PAIL (SMALL),4,U: Unshelled,3.4000001,Collected in Only 2019
+Central,RICE PUSA,PAIL (SMALL),4,U: Unshelled,4.1999998,Collected in Only 2019
+South,RICE PUSA,PAIL (SMALL),4,U: Unshelled,4.086,Collected in Only 2019
+North,RICE PUSA,PAIL (LARGE),5,S: Shelled,19,Collected In Both 2016 and 2019
+Central,RICE PUSA,PAIL (LARGE),5,S: Shelled,17.35,Collected In Both 2016 and 2019
+South,RICE PUSA,PAIL (LARGE),5,S: Shelled,18.985001,Collected In Both 2016 and 2019
+North,RICE PUSA,PAIL (LARGE),5,U: Unshelled,12.2,Collected In Both 2016 and 2019
+Central,RICE PUSA,PAIL (LARGE),5,U: Unshelled,13.135,Collected In Both 2016 and 2019
+South,RICE PUSA,PAIL (LARGE),5,U: Unshelled,14,Collected in Only 2019
+North,RICE TCG10,PAIL (MEDIUM),14,S: Shelled,10.12,Collected in Only 2019
+Central,RICE TCG10,PAIL (MEDIUM),14,S: Shelled,8.4469995,Collected in Only 2019
+South,RICE TCG10,PAIL (MEDIUM),14,S: Shelled,9.4799995,Collected in Only 2019
+North,RICE TCG10,PAIL (MEDIUM),14,U: Unshelled,6.414,Collected in Only 2019
+Central,RICE TCG10,PAIL (MEDIUM),14,U: Unshelled,6.2880001,Collected in Only 2019
+South,RICE TCG10,PAIL (MEDIUM),14,U: Unshelled,7.0074997,Collected in Only 2019
+North,RICE TCG10,50 KG BAG,2,S: Shelled,52.75,Collected In Both 2016 and 2019
+Central,RICE TCG10,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+South,RICE TCG10,50 KG BAG,2,S: Shelled,58,Collected In Both 2016 and 2019
+North,RICE TCG10,50 KG BAG,2,U: Unshelled,36.549999,Collected In Both 2016 and 2019
+Central,RICE TCG10,50 KG BAG,2,U: Unshelled,49,Collected In Both 2016 and 2019
+South,RICE TCG10,50 KG BAG,2,U: Unshelled,52,Collected In Both 2016 and 2019
+North,RICE TCG10,90 KG BAG,3,S: Shelled,94.199997,Collected in Only 2016
+North,RICE TCG10,90 KG BAG,3,U: Unshelled,62.172001,Collected in Only 2016
+Central,RICE TCG10,90 KG BAG,3,U: Unshelled,52.272003,Collected in Only 2016
+South,RICE TCG10,90 KG BAG,3,U: Unshelled,57.057003,Collected in Only 2016
+North,RICE TCG10,PAIL (SMALL),4,S: Shelled,4.4064999,Collected in Only 2019
+Central,RICE TCG10,PAIL (SMALL),4,S: Shelled,5.5714998,Collected in Only 2019
+South,RICE TCG10,PAIL (SMALL),4,S: Shelled,5.52,Collected in Only 2019
+North,RICE TCG10,PAIL (SMALL),4,U: Unshelled,3.4000001,Collected in Only 2019
+Central,RICE TCG10,PAIL (SMALL),4,U: Unshelled,4.1999998,Collected in Only 2019
+South,RICE TCG10,PAIL (SMALL),4,U: Unshelled,4.086,Collected in Only 2019
+North,RICE TCG10,PAIL (LARGE),5,S: Shelled,19,Collected In Both 2016 and 2019
+Central,RICE TCG10,PAIL (LARGE),5,S: Shelled,17.35,Collected In Both 2016 and 2019
+South,RICE TCG10,PAIL (LARGE),5,S: Shelled,18.985001,Collected In Both 2016 and 2019
+North,RICE TCG10,PAIL (LARGE),5,U: Unshelled,12.2,Collected In Both 2016 and 2019
+Central,RICE TCG10,PAIL (LARGE),5,U: Unshelled,13.135,Collected In Both 2016 and 2019
+South,RICE TCG10,PAIL (LARGE),5,U: Unshelled,14,Collected in Only 2019
+North,RICE IET4094 (SENGA),PAIL (MEDIUM),14,S: Shelled,10.12,Collected in Only 2019
+Central,RICE IET4094 (SENGA),PAIL (MEDIUM),14,S: Shelled,8.4469995,Collected in Only 2019
+South,RICE IET4094 (SENGA),PAIL (MEDIUM),14,S: Shelled,9.4799995,Collected in Only 2019
+North,RICE IET4094 (SENGA),PAIL (MEDIUM),14,U: Unshelled,6.414,Collected in Only 2019
+Central,RICE IET4094 (SENGA),PAIL (MEDIUM),14,U: Unshelled,6.2880001,Collected in Only 2019
+South,RICE IET4094 (SENGA),PAIL (MEDIUM),14,U: Unshelled,7.0074997,Collected in Only 2019
+North,RICE IET4094 (SENGA),50 KG BAG,2,S: Shelled,52.75,Collected In Both 2016 and 2019
+Central,RICE IET4094 (SENGA),50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+South,RICE IET4094 (SENGA),50 KG BAG,2,S: Shelled,58,Collected In Both 2016 and 2019
+North,RICE IET4094 (SENGA),50 KG BAG,2,U: Unshelled,36.549999,Collected In Both 2016 and 2019
+Central,RICE IET4094 (SENGA),50 KG BAG,2,U: Unshelled,49,Collected In Both 2016 and 2019
+South,RICE IET4094 (SENGA),50 KG BAG,2,U: Unshelled,52,Collected In Both 2016 and 2019
+North,RICE IET4094 (SENGA),90 KG BAG,3,S: Shelled,94.199997,Collected in Only 2016
+North,RICE IET4094 (SENGA),90 KG BAG,3,U: Unshelled,62.172001,Collected in Only 2016
+Central,RICE IET4094 (SENGA),90 KG BAG,3,U: Unshelled,52.272003,Collected in Only 2016
+South,RICE IET4094 (SENGA),90 KG BAG,3,U: Unshelled,57.057003,Collected in Only 2016
+North,RICE IET4094 (SENGA),PAIL (SMALL),4,S: Shelled,4.4064999,Collected in Only 2019
+Central,RICE IET4094 (SENGA),PAIL (SMALL),4,S: Shelled,5.5714998,Collected in Only 2019
+South,RICE IET4094 (SENGA),PAIL (SMALL),4,S: Shelled,5.52,Collected in Only 2019
+North,RICE IET4094 (SENGA),PAIL (SMALL),4,U: Unshelled,3.4000001,Collected in Only 2019
+Central,RICE IET4094 (SENGA),PAIL (SMALL),4,U: Unshelled,4.1999998,Collected in Only 2019
+South,RICE IET4094 (SENGA),PAIL (SMALL),4,U: Unshelled,4.086,Collected in Only 2019
+North,RICE IET4094 (SENGA),PAIL (LARGE),5,S: Shelled,19,Collected In Both 2016 and 2019
+Central,RICE IET4094 (SENGA),PAIL (LARGE),5,S: Shelled,17.35,Collected In Both 2016 and 2019
+South,RICE IET4094 (SENGA),PAIL (LARGE),5,S: Shelled,18.985001,Collected In Both 2016 and 2019
+North,RICE IET4094 (SENGA),PAIL (LARGE),5,U: Unshelled,12.2,Collected In Both 2016 and 2019
+Central,RICE IET4094 (SENGA),PAIL (LARGE),5,U: Unshelled,13.135,Collected In Both 2016 and 2019
+South,RICE IET4094 (SENGA),PAIL (LARGE),5,U: Unshelled,14,Collected in Only 2019
+North,RICE WAMBONE,PAIL (MEDIUM),14,S: Shelled,10.12,Collected in Only 2019
+Central,RICE WAMBONE,PAIL (MEDIUM),14,S: Shelled,8.4469995,Collected in Only 2019
+South,RICE WAMBONE,PAIL (MEDIUM),14,S: Shelled,9.4799995,Collected in Only 2019
+North,RICE WAMBONE,PAIL (MEDIUM),14,U: Unshelled,6.414,Collected in Only 2019
+Central,RICE WAMBONE,PAIL (MEDIUM),14,U: Unshelled,6.2880001,Collected in Only 2019
+South,RICE WAMBONE,PAIL (MEDIUM),14,U: Unshelled,7.0074997,Collected in Only 2019
+North,RICE WAMBONE,50 KG BAG,2,S: Shelled,52.75,Collected In Both 2016 and 2019
+Central,RICE WAMBONE,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+South,RICE WAMBONE,50 KG BAG,2,S: Shelled,58,Collected In Both 2016 and 2019
+North,RICE WAMBONE,50 KG BAG,2,U: Unshelled,36.549999,Collected In Both 2016 and 2019
+Central,RICE WAMBONE,50 KG BAG,2,U: Unshelled,49,Collected In Both 2016 and 2019
+South,RICE WAMBONE,50 KG BAG,2,U: Unshelled,52,Collected In Both 2016 and 2019
+North,RICE WAMBONE,90 KG BAG,3,S: Shelled,94.199997,Collected in Only 2016
+North,RICE WAMBONE,90 KG BAG,3,U: Unshelled,62.172001,Collected in Only 2016
+Central,RICE WAMBONE,90 KG BAG,3,U: Unshelled,52.272003,Collected in Only 2016
+South,RICE WAMBONE,90 KG BAG,3,U: Unshelled,57.057003,Collected in Only 2016
+North,RICE WAMBONE,PAIL (SMALL),4,S: Shelled,4.4064999,Collected in Only 2019
+Central,RICE WAMBONE,PAIL (SMALL),4,S: Shelled,5.5714998,Collected in Only 2019
+South,RICE WAMBONE,PAIL (SMALL),4,S: Shelled,5.52,Collected in Only 2019
+North,RICE WAMBONE,PAIL (SMALL),4,U: Unshelled,3.4000001,Collected in Only 2019
+Central,RICE WAMBONE,PAIL (SMALL),4,U: Unshelled,4.1999998,Collected in Only 2019
+South,RICE WAMBONE,PAIL (SMALL),4,U: Unshelled,4.086,Collected in Only 2019
+North,RICE WAMBONE,PAIL (LARGE),5,S: Shelled,19,Collected In Both 2016 and 2019
+Central,RICE WAMBONE,PAIL (LARGE),5,S: Shelled,17.35,Collected In Both 2016 and 2019
+South,RICE WAMBONE,PAIL (LARGE),5,S: Shelled,18.985001,Collected In Both 2016 and 2019
+North,RICE WAMBONE,PAIL (LARGE),5,U: Unshelled,12.2,Collected In Both 2016 and 2019
+Central,RICE WAMBONE,PAIL (LARGE),5,U: Unshelled,13.135,Collected In Both 2016 and 2019
+South,RICE WAMBONE,PAIL (LARGE),5,U: Unshelled,14,Collected in Only 2019
+North,RICE KILOMBERO,PAIL (MEDIUM),14,S: Shelled,10.12,Collected in Only 2019
+Central,RICE KILOMBERO,PAIL (MEDIUM),14,S: Shelled,8.4469995,Collected in Only 2019
+South,RICE KILOMBERO,PAIL (MEDIUM),14,S: Shelled,9.4799995,Collected in Only 2019
+North,RICE KILOMBERO,PAIL (MEDIUM),14,U: Unshelled,6.414,Collected in Only 2019
+Central,RICE KILOMBERO,PAIL (MEDIUM),14,U: Unshelled,6.2880001,Collected in Only 2019
+South,RICE KILOMBERO,PAIL (MEDIUM),14,U: Unshelled,7.0074997,Collected in Only 2019
+North,RICE KILOMBERO,50 KG BAG,2,S: Shelled,52.75,Collected In Both 2016 and 2019
+Central,RICE KILOMBERO,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+South,RICE KILOMBERO,50 KG BAG,2,S: Shelled,58,Collected In Both 2016 and 2019
+North,RICE KILOMBERO,50 KG BAG,2,U: Unshelled,36.549999,Collected In Both 2016 and 2019
+Central,RICE KILOMBERO,50 KG BAG,2,U: Unshelled,49,Collected In Both 2016 and 2019
+South,RICE KILOMBERO,50 KG BAG,2,U: Unshelled,52,Collected In Both 2016 and 2019
+North,RICE KILOMBERO,90 KG BAG,3,S: Shelled,94.199997,Collected in Only 2016
+North,RICE KILOMBERO,90 KG BAG,3,U: Unshelled,62.172001,Collected in Only 2016
+Central,RICE KILOMBERO,90 KG BAG,3,U: Unshelled,52.272003,Collected in Only 2016
+South,RICE KILOMBERO,90 KG BAG,3,U: Unshelled,57.057003,Collected in Only 2016
+North,RICE KILOMBERO,PAIL (SMALL),4,S: Shelled,4.4064999,Collected in Only 2019
+Central,RICE KILOMBERO,PAIL (SMALL),4,S: Shelled,5.5714998,Collected in Only 2019
+South,RICE KILOMBERO,PAIL (SMALL),4,S: Shelled,5.52,Collected in Only 2019
+North,RICE KILOMBERO,PAIL (SMALL),4,U: Unshelled,3.4000001,Collected in Only 2019
+Central,RICE KILOMBERO,PAIL (SMALL),4,U: Unshelled,4.1999998,Collected in Only 2019
+South,RICE KILOMBERO,PAIL (SMALL),4,U: Unshelled,4.086,Collected in Only 2019
+North,RICE KILOMBERO,PAIL (LARGE),5,S: Shelled,19,Collected In Both 2016 and 2019
+Central,RICE KILOMBERO,PAIL (LARGE),5,S: Shelled,17.35,Collected In Both 2016 and 2019
+South,RICE KILOMBERO,PAIL (LARGE),5,S: Shelled,18.985001,Collected In Both 2016 and 2019
+North,RICE KILOMBERO,PAIL (LARGE),5,U: Unshelled,12.2,Collected In Both 2016 and 2019
+Central,RICE KILOMBERO,PAIL (LARGE),5,U: Unshelled,13.135,Collected In Both 2016 and 2019
+South,RICE KILOMBERO,PAIL (LARGE),5,U: Unshelled,14,Collected in Only 2019
+North,RICE ITA,PAIL (MEDIUM),14,S: Shelled,10.12,Collected in Only 2019
+Central,RICE ITA,PAIL (MEDIUM),14,S: Shelled,8.4469995,Collected in Only 2019
+South,RICE ITA,PAIL (MEDIUM),14,S: Shelled,9.4799995,Collected in Only 2019
+North,RICE ITA,PAIL (MEDIUM),14,U: Unshelled,6.414,Collected in Only 2019
+Central,RICE ITA,PAIL (MEDIUM),14,U: Unshelled,6.2880001,Collected in Only 2019
+South,RICE ITA,PAIL (MEDIUM),14,U: Unshelled,7.0074997,Collected in Only 2019
+North,RICE ITA,50 KG BAG,2,S: Shelled,52.75,Collected In Both 2016 and 2019
+Central,RICE ITA,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+South,RICE ITA,50 KG BAG,2,S: Shelled,58,Collected In Both 2016 and 2019
+North,RICE ITA,50 KG BAG,2,U: Unshelled,36.549999,Collected In Both 2016 and 2019
+Central,RICE ITA,50 KG BAG,2,U: Unshelled,49,Collected In Both 2016 and 2019
+South,RICE ITA,50 KG BAG,2,U: Unshelled,52,Collected In Both 2016 and 2019
+North,RICE ITA,90 KG BAG,3,S: Shelled,94.199997,Collected in Only 2016
+North,RICE ITA,90 KG BAG,3,U: Unshelled,62.172001,Collected in Only 2016
+Central,RICE ITA,90 KG BAG,3,U: Unshelled,52.272003,Collected in Only 2016
+South,RICE ITA,90 KG BAG,3,U: Unshelled,57.057003,Collected in Only 2016
+North,RICE ITA,PAIL (SMALL),4,S: Shelled,4.4064999,Collected in Only 2019
+Central,RICE ITA,PAIL (SMALL),4,S: Shelled,5.5714998,Collected in Only 2019
+South,RICE ITA,PAIL (SMALL),4,S: Shelled,5.52,Collected in Only 2019
+North,RICE ITA,PAIL (SMALL),4,U: Unshelled,3.4000001,Collected in Only 2019
+Central,RICE ITA,PAIL (SMALL),4,U: Unshelled,4.1999998,Collected in Only 2019
+South,RICE ITA,PAIL (SMALL),4,U: Unshelled,4.086,Collected in Only 2019
+North,RICE ITA,PAIL (LARGE),5,S: Shelled,19,Collected In Both 2016 and 2019
+Central,RICE ITA,PAIL (LARGE),5,S: Shelled,17.35,Collected In Both 2016 and 2019
+South,RICE ITA,PAIL (LARGE),5,S: Shelled,18.985001,Collected In Both 2016 and 2019
+North,RICE ITA,PAIL (LARGE),5,U: Unshelled,12.2,Collected In Both 2016 and 2019
+Central,RICE ITA,PAIL (LARGE),5,U: Unshelled,13.135,Collected In Both 2016 and 2019
+South,RICE ITA,PAIL (LARGE),5,U: Unshelled,14,Collected in Only 2019
+North,RICE MTUPATUPA,PAIL (MEDIUM),14,S: Shelled,10.12,Collected in Only 2019
+Central,RICE MTUPATUPA,PAIL (MEDIUM),14,S: Shelled,8.4469995,Collected in Only 2019
+South,RICE MTUPATUPA,PAIL (MEDIUM),14,S: Shelled,9.4799995,Collected in Only 2019
+North,RICE MTUPATUPA,PAIL (MEDIUM),14,U: Unshelled,6.414,Collected in Only 2019
+Central,RICE MTUPATUPA,PAIL (MEDIUM),14,U: Unshelled,6.2880001,Collected in Only 2019
+South,RICE MTUPATUPA,PAIL (MEDIUM),14,U: Unshelled,7.0074997,Collected in Only 2019
+North,RICE MTUPATUPA,50 KG BAG,2,S: Shelled,52.75,Collected In Both 2016 and 2019
+Central,RICE MTUPATUPA,50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+South,RICE MTUPATUPA,50 KG BAG,2,S: Shelled,58,Collected In Both 2016 and 2019
+North,RICE MTUPATUPA,50 KG BAG,2,U: Unshelled,36.549999,Collected In Both 2016 and 2019
+Central,RICE MTUPATUPA,50 KG BAG,2,U: Unshelled,49,Collected In Both 2016 and 2019
+South,RICE MTUPATUPA,50 KG BAG,2,U: Unshelled,52,Collected In Both 2016 and 2019
+North,RICE MTUPATUPA,90 KG BAG,3,S: Shelled,94.199997,Collected in Only 2016
+North,RICE MTUPATUPA,90 KG BAG,3,U: Unshelled,62.172001,Collected in Only 2016
+Central,RICE MTUPATUPA,90 KG BAG,3,U: Unshelled,52.272003,Collected in Only 2016
+South,RICE MTUPATUPA,90 KG BAG,3,U: Unshelled,57.057003,Collected in Only 2016
+North,RICE MTUPATUPA,PAIL (SMALL),4,S: Shelled,4.4064999,Collected in Only 2019
+Central,RICE MTUPATUPA,PAIL (SMALL),4,S: Shelled,5.5714998,Collected in Only 2019
+South,RICE MTUPATUPA,PAIL (SMALL),4,S: Shelled,5.52,Collected in Only 2019
+North,RICE MTUPATUPA,PAIL (SMALL),4,U: Unshelled,3.4000001,Collected in Only 2019
+Central,RICE MTUPATUPA,PAIL (SMALL),4,U: Unshelled,4.1999998,Collected in Only 2019
+South,RICE MTUPATUPA,PAIL (SMALL),4,U: Unshelled,4.086,Collected in Only 2019
+North,RICE MTUPATUPA,PAIL (LARGE),5,S: Shelled,19,Collected In Both 2016 and 2019
+Central,RICE MTUPATUPA,PAIL (LARGE),5,S: Shelled,17.35,Collected In Both 2016 and 2019
+South,RICE MTUPATUPA,PAIL (LARGE),5,S: Shelled,18.985001,Collected In Both 2016 and 2019
+North,RICE MTUPATUPA,PAIL (LARGE),5,U: Unshelled,12.2,Collected In Both 2016 and 2019
+Central,RICE MTUPATUPA,PAIL (LARGE),5,U: Unshelled,13.135,Collected In Both 2016 and 2019
+South,RICE MTUPATUPA,PAIL (LARGE),5,U: Unshelled,14,Collected in Only 2019
+North,OTHER RICE (SPECIFY),50 KG BAG,2,S: Shelled,52.333332,Collected in Only 2016
+Central,OTHER RICE (SPECIFY),50 KG BAG,2,S: Shelled,44,Collected in Only 2016
+South,OTHER RICE (SPECIFY),50 KG BAG,2,S: Shelled,48.027779,Collected in Only 2016
+North,OTHER RICE (SPECIFY),50 KG BAG,2,U: Unshelled,34.540001,Collected in Only 2016
+Central,OTHER RICE (SPECIFY),50 KG BAG,2,U: Unshelled,29.040001,Collected in Only 2016
+South,OTHER RICE (SPECIFY),50 KG BAG,2,U: Unshelled,31.698336,Collected in Only 2016
+North,OTHER RICE (SPECIFY),90 KG BAG,3,S: Shelled,94.199997,Collected in Only 2016
+North,OTHER RICE (SPECIFY),90 KG BAG,3,U: Unshelled,62.172001,Collected in Only 2016
+Central,OTHER RICE (SPECIFY),90 KG BAG,3,U: Unshelled,52.272003,Collected in Only 2016
+South,OTHER RICE (SPECIFY),90 KG BAG,3,U: Unshelled,57.057003,Collected in Only 2016
+North,OTHER RICE (SPECIFY),PAIL (LARGE),5,S: Shelled,18.700001,Collected in Only 2016
+Central,OTHER RICE (SPECIFY),PAIL (LARGE),5,S: Shelled,15.722222,Collected in Only 2016
+South,OTHER RICE (SPECIFY),PAIL (LARGE),5,S: Shelled,15.805555,Collected in Only 2016
+North,OTHER RICE (SPECIFY),PAIL (LARGE),5,U: Unshelled,12.342001,Collected in Only 2016
+Central,OTHER RICE (SPECIFY),PAIL (LARGE),5,U: Unshelled,10.376667,Collected in Only 2016
+North,GROUND BEAN(NZAMA),PAIL (MEDIUM),14,S: Shelled,10,Collected in Only 2019
+Central,GROUND BEAN(NZAMA),PAIL (MEDIUM),14,S: Shelled,7.915,Collected in Only 2019
+South,GROUND BEAN(NZAMA),PAIL (MEDIUM),14,S: Shelled,9.0600004,Collected in Only 2019
+North,GROUND BEAN(NZAMA),50 KG BAG,2,S: Shelled,51.5,Collected in Only 2019
+Central,GROUND BEAN(NZAMA),50 KG BAG,2,S: Shelled,48,Collected In Both 2016 and 2019
+South,GROUND BEAN(NZAMA),50 KG BAG,2,S: Shelled,52.5,Collected In Both 2016 and 2019
+Central,GROUND BEAN(NZAMA),50 KG BAG,2,U: Unshelled,18.809999,Collected in Only 2016
+North,GROUND BEAN(NZAMA),PAIL (SMALL),4,S: Shelled,4.3909998,Collected in Only 2019
+Central,GROUND BEAN(NZAMA),PAIL (SMALL),4,S: Shelled,5.2449999,Collected in Only 2019
+South,GROUND BEAN(NZAMA),PAIL (SMALL),4,S: Shelled,5.3839998,Collected in Only 2019
+North,GROUND BEAN(NZAMA),PAIL (LARGE),5,S: Shelled,18.938999,Collected In Both 2016 and 2019
+Central,GROUND BEAN(NZAMA),PAIL (LARGE),5,S: Shelled,16.5,Collected In Both 2016 and 2019
+South,GROUND BEAN(NZAMA),PAIL (LARGE),5,S: Shelled,18,Collected In Both 2016 and 2019
+North,GROUND BEAN(NZAMA),PAIL (LARGE),5,U: Unshelled,7.146111,Collected in Only 2016
+North,SWEET POTATO,BASKET (DENGU),11,Not Applicable,9.8999996,Collected in Only 2016
+Central,SWEET POTATO,BASKET (DENGU),11,Not Applicable,9.8999996,Collected in Only 2016
+South,SWEET POTATO,BASKET (DENGU),11,Not Applicable,9.8999996,Collected in Only 2016
+North,SWEET POTATO,OX-CART,12,Not Applicable,365.39999,Collected in Only 2016
+Central,SWEET POTATO,OX-CART,12,Not Applicable,365.39999,Collected in Only 2016
+South,SWEET POTATO,OX-CART,12,Not Applicable,365.39999,Collected in Only 2016
+North,SWEET POTATO,PAIL (MEDIUM),14,Not Applicable,9.2199993,Collected in Only 2019
+Central,SWEET POTATO,PAIL (MEDIUM),14,Not Applicable,7.0714998,Collected in Only 2019
+South,SWEET POTATO,PAIL (MEDIUM),14,Not Applicable,7.3579998,Collected in Only 2019
+North,SWEET POTATO,50 KG BAG,2,Not Applicable,56,Collected In Both 2016 and 2019
+Central,SWEET POTATO,50 KG BAG,2,Not Applicable,56,Collected In Both 2016 and 2019
+South,SWEET POTATO,50 KG BAG,2,Not Applicable,63.400002,Collected In Both 2016 and 2019
+Central,SWEET POTATO,90 KG BAG,3,Not Applicable,80.614281,Collected in Only 2016
+South,SWEET POTATO,90 KG BAG,3,Not Applicable,87.412498,Collected in Only 2016
+North,SWEET POTATO,PAIL (SMALL),4,Not Applicable,4.3733335,Collected in Only 2016
+Central,SWEET POTATO,PAIL (SMALL),4,Not Applicable,4.1954169,Collected in Only 2016
+South,SWEET POTATO,PAIL (SMALL),4,Not Applicable,5.6472225,Collected in Only 2016
+North,SWEET POTATO,PAIL (LARGE),5,Not Applicable,20.6,Collected In Both 2016 and 2019
+Central,SWEET POTATO,PAIL (LARGE),5,Not Applicable,15.2,Collected In Both 2016 and 2019
+South,SWEET POTATO,PAIL (LARGE),5,Not Applicable,15,Collected In Both 2016 and 2019
+North,IRISH [MALAWI] POTATO,BASKET (DENGU),11,Not Applicable,8.7700005,Collected in Only 2016
+Central,IRISH [MALAWI] POTATO,BASKET (DENGU),11,Not Applicable,8.7700005,Collected in Only 2016
+Central,IRISH [MALAWI] POTATO,OX-CART,12,Not Applicable,358,Collected in Only 2016
+North,IRISH [MALAWI] POTATO,PAIL (MEDIUM),14,Not Applicable,9.9940004,Collected in Only 2019
+Central,IRISH [MALAWI] POTATO,PAIL (MEDIUM),14,Not Applicable,7.5809999,Collected in Only 2019
+South,IRISH [MALAWI] POTATO,PAIL (MEDIUM),14,Not Applicable,8.2465,Collected in Only 2019
+North,IRISH [MALAWI] POTATO,50 KG BAG,2,Not Applicable,53.449997,Collected In Both 2016 and 2019
+Central,IRISH [MALAWI] POTATO,50 KG BAG,2,Not Applicable,54.88625,Collected In Both 2016 and 2019
+South,IRISH [MALAWI] POTATO,50 KG BAG,2,Not Applicable,57,Collected In Both 2016 and 2019
+Central,IRISH [MALAWI] POTATO,90 KG BAG,3,Not Applicable,80.099998,Collected in Only 2016
+South,IRISH [MALAWI] POTATO,90 KG BAG,3,Not Applicable,85.5,Collected in Only 2016
+North,IRISH [MALAWI] POTATO,PAIL (LARGE),5,Not Applicable,19,Collected In Both 2016 and 2019
+Central,IRISH [MALAWI] POTATO,PAIL (LARGE),5,Not Applicable,15.565001,Collected In Both 2016 and 2019
+South,IRISH [MALAWI] POTATO,PAIL (LARGE),5,Not Applicable,16,Collected In Both 2016 and 2019
+North,WHEAT,PAIL (MEDIUM),14,U: Unshelled,9,Collected in Only 2019
+Central,WHEAT,PAIL (MEDIUM),14,U: Unshelled,7.7750001,Collected in Only 2019
+South,WHEAT,PAIL (MEDIUM),14,U: Unshelled,9.276,Collected in Only 2019
+North,WHEAT,PAIL (LARGE),5,U: Unshelled,17,Collected in Only 2019
+Central,WHEAT,PAIL (LARGE),5,U: Unshelled,16.559999,Collected in Only 2019
+South,WHEAT,PAIL (LARGE),5,U: Unshelled,17,Collected in Only 2019
+North,FINGER MILLET(MAWERE),PAIL (MEDIUM),14,S: Shelled,8.6310005,Collected in Only 2019
+Central,FINGER MILLET(MAWERE),PAIL (MEDIUM),14,S: Shelled,7.7084999,Collected in Only 2019
+South,FINGER MILLET(MAWERE),PAIL (MEDIUM),14,S: Shelled,8.8739996,Collected in Only 2019
+Central,FINGER MILLET(MAWERE),PAIL (MEDIUM),14,U: Unshelled,7.6500001,Collected in Only 2019
+North,FINGER MILLET(MAWERE),50 KG BAG,2,S: Shelled,45.799999,Collected in Only 2019
+Central,FINGER MILLET(MAWERE),50 KG BAG,2,S: Shelled,50,Collected in Only 2019
+South,FINGER MILLET(MAWERE),50 KG BAG,2,S: Shelled,58,Collected in Only 2019
+Central,FINGER MILLET(MAWERE),50 KG BAG,2,U: Unshelled,47.235001,Collected in Only 2019
+North,FINGER MILLET(MAWERE),50 KG BAG,2,Not Applicable,52.333332,Collected in Only 2016
+Central,FINGER MILLET(MAWERE),50 KG BAG,2,Not Applicable,52.333332,Collected in Only 2016
+South,FINGER MILLET(MAWERE),50 KG BAG,2,Not Applicable,52.333332,Collected in Only 2016
+Central,FINGER MILLET(MAWERE),90 KG BAG,3,Not Applicable,94.199997,Collected in Only 2016
+North,FINGER MILLET(MAWERE),PAIL (SMALL),4,S: Shelled,4.2189999,Collected in Only 2019
+Central,FINGER MILLET(MAWERE),PAIL (SMALL),4,S: Shelled,5.0900002,Collected in Only 2019
+South,FINGER MILLET(MAWERE),PAIL (SMALL),4,S: Shelled,5.1220002,Collected in Only 2019
+Central,FINGER MILLET(MAWERE),PAIL (SMALL),4,U: Unshelled,4.3049998,Collected in Only 2019
+South,FINGER MILLET(MAWERE),PAIL (SMALL),4,U: Unshelled,5.6599998,Collected in Only 2019
+North,FINGER MILLET(MAWERE),PAIL (SMALL),4,Not Applicable,4.2533331,Collected in Only 2016
+Central,FINGER MILLET(MAWERE),PAIL (SMALL),4,Not Applicable,4.6950002,Collected in Only 2016
+South,FINGER MILLET(MAWERE),PAIL (SMALL),4,Not Applicable,4.4741669,Collected in Only 2016
+North,FINGER MILLET(MAWERE),PAIL (LARGE),5,S: Shelled,17,Collected in Only 2019
+Central,FINGER MILLET(MAWERE),PAIL (LARGE),5,S: Shelled,16.1875,Collected in Only 2019
+South,FINGER MILLET(MAWERE),PAIL (LARGE),5,S: Shelled,17.880001,Collected in Only 2019
+Central,FINGER MILLET(MAWERE),PAIL (LARGE),5,U: Unshelled,16.745001,Collected in Only 2019
+North,FINGER MILLET(MAWERE),PAIL (LARGE),5,Not Applicable,17.208332,Collected in Only 2016
+Central,FINGER MILLET(MAWERE),PAIL (LARGE),5,Not Applicable,18,Collected in Only 2016
+South,FINGER MILLET(MAWERE),PAIL (LARGE),5,Not Applicable,17.604166,Collected in Only 2016
+North,SORGHUM,PAIL (MEDIUM),14,S: Shelled,8.2060003,Collected in Only 2019
+Central,SORGHUM,PAIL (MEDIUM),14,S: Shelled,7.7474999,Collected in Only 2019
+South,SORGHUM,PAIL (MEDIUM),14,S: Shelled,9.4530001,Collected in Only 2019
+North,SORGHUM,50 KG BAG,2,S: Shelled,44.25,Collected in Only 2019
+Central,SORGHUM,50 KG BAG,2,S: Shelled,50,Collected in Only 2019
+South,SORGHUM,50 KG BAG,2,S: Shelled,54,Collected in Only 2019
+Central,SORGHUM,50 KG BAG,2,Not Applicable,52,Collected in Only 2016
+South,SORGHUM,50 KG BAG,2,Not Applicable,52,Collected in Only 2016
+South,SORGHUM,90 KG BAG,3,Not Applicable,93.599998,Collected in Only 2016
+North,SORGHUM,PAIL (SMALL),4,S: Shelled,4.2360001,Collected in Only 2019
+Central,SORGHUM,PAIL (SMALL),4,S: Shelled,5.1550002,Collected in Only 2019
+South,SORGHUM,PAIL (SMALL),4,S: Shelled,5.4640002,Collected in Only 2019
+South,SORGHUM,PAIL (SMALL),4,Not Applicable,4.5492859,Collected in Only 2016
+North,SORGHUM,PAIL (LARGE),5,S: Shelled,16.879999,Collected in Only 2019
+Central,SORGHUM,PAIL (LARGE),5,S: Shelled,16.200001,Collected in Only 2019
+South,SORGHUM,PAIL (LARGE),5,S: Shelled,18,Collected in Only 2019
+South,SORGHUM,PAIL (LARGE),5,Not Applicable,17.583334,Collected in Only 2016
+South,PEARL MILLET(MCHEWERE),50 KG BAG,2,S: Shelled,51,Collected in Only 2019
+Central,PEARL MILLET(MCHEWERE),50 KG BAG,2,Not Applicable,59.200001,Collected in Only 2016
+South,PEARL MILLET(MCHEWERE),50 KG BAG,2,Not Applicable,59.200001,Collected in Only 2016
+South,PEARL MILLET(MCHEWERE),90 KG BAG,3,Not Applicable,106.56,Collected in Only 2016
+South,PEARL MILLET(MCHEWERE),PAIL (LARGE),5,S: Shelled,17.573999,Collected in Only 2019
+North,BEANS,KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+Central,BEANS,KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+South,BEANS,KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+North,BEANS,PAIL (MEDIUM),14,S: Shelled,10.3,Collected in Only 2019
+Central,BEANS,PAIL (MEDIUM),14,S: Shelled,7.9650002,Collected in Only 2019
+South,BEANS,PAIL (MEDIUM),14,S: Shelled,9.0299997,Collected in Only 2019
+North,BEANS,50 KG BAG,2,S: Shelled,53,Collected In Both 2016 and 2019
+Central,BEANS,50 KG BAG,2,S: Shelled,56.333336,Collected In Both 2016 and 2019
+South,BEANS,50 KG BAG,2,S: Shelled,55.785713,Collected In Both 2016 and 2019
+North,BEANS,50 KG BAG,2,U: Unshelled,20.139999,Collected in Only 2016
+Central,BEANS,50 KG BAG,2,U: Unshelled,21.406668,Collected in Only 2016
+South,BEANS,50 KG BAG,2,U: Unshelled,21.19857,Collected in Only 2016
+North,BEANS,PAIL (SMALL),4,S: Shelled,4.4000001,Collected In Both 2016 and 2019
+Central,BEANS,PAIL (SMALL),4,S: Shelled,5.2600002,Collected In Both 2016 and 2019
+South,BEANS,PAIL (SMALL),4,S: Shelled,5.2580004,Collected In Both 2016 and 2019
+Central,BEANS,PAIL (SMALL),4,U: Unshelled,1.6565624,Collected in Only 2016
+North,BEANS,PAIL (LARGE),5,S: Shelled,18.6,Collected In Both 2016 and 2019
+Central,BEANS,PAIL (LARGE),5,S: Shelled,16.75,Collected In Both 2016 and 2019
+South,BEANS,PAIL (LARGE),5,S: Shelled,18,Collected In Both 2016 and 2019
+North,BEANS,PAIL (LARGE),5,U: Unshelled,6.8780003,Collected in Only 2016
+Central,BEANS,PAIL (LARGE),5,U: Unshelled,6.4029999,Collected in Only 2016
+North,SOYABEAN,KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+Central,SOYABEAN,KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+South,SOYABEAN,KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+North,SOYABEAN,PAIL (MEDIUM),14,S: Shelled,9.6199999,Collected in Only 2019
+Central,SOYABEAN,PAIL (MEDIUM),14,S: Shelled,7.605,Collected in Only 2019
+South,SOYABEAN,PAIL (MEDIUM),14,S: Shelled,8.6300001,Collected in Only 2019
+North,SOYABEAN,50 KG BAG,2,S: Shelled,51.599998,Collected In Both 2016 and 2019
+Central,SOYABEAN,50 KG BAG,2,S: Shelled,50,Collected In Both 2016 and 2019
+South,SOYABEAN,50 KG BAG,2,S: Shelled,53.5,Collected In Both 2016 and 2019
+North,SOYABEAN,50 KG BAG,2,U: Unshelled,22.514999,Collected in Only 2016
+Central,SOYABEAN,50 KG BAG,2,U: Unshelled,22.514999,Collected in Only 2016
+South,SOYABEAN,50 KG BAG,2,U: Unshelled,22.514999,Collected in Only 2016
+Central,SOYABEAN,90 KG BAG,3,S: Shelled,106.65,Collected in Only 2016
+North,SOYABEAN,PAIL (SMALL),4,S: Shelled,4.336,Collected In Both 2016 and 2019
+Central,SOYABEAN,PAIL (SMALL),4,S: Shelled,5.0337496,Collected In Both 2016 and 2019
+South,SOYABEAN,PAIL (SMALL),4,S: Shelled,5.059,Collected in Only 2019
+Central,SOYABEAN,PAIL (SMALL),4,U: Unshelled,1.6297251,Collected in Only 2016
+North,SOYABEAN,PAIL (LARGE),5,S: Shelled,18.25,Collected In Both 2016 and 2019
+Central,SOYABEAN,PAIL (LARGE),5,S: Shelled,16.1,Collected In Both 2016 and 2019
+South,SOYABEAN,PAIL (LARGE),5,S: Shelled,17,Collected In Both 2016 and 2019
+Central,SOYABEAN,PAIL (LARGE),5,U: Unshelled,6.5074997,Collected in Only 2016
+North,PIGEONPEA(NANDOLO),KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+Central,PIGEONPEA(NANDOLO),KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+South,PIGEONPEA(NANDOLO),KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+North,PIGEONPEA(NANDOLO),PAIL (MEDIUM),14,S: Shelled,10.38,Collected in Only 2019
+Central,PIGEONPEA(NANDOLO),PAIL (MEDIUM),14,S: Shelled,8.0649996,Collected in Only 2019
+South,PIGEONPEA(NANDOLO),PAIL (MEDIUM),14,S: Shelled,9.3590002,Collected in Only 2019
+North,PIGEONPEA(NANDOLO),50 KG BAG,2,S: Shelled,51,Collected In Both 2016 and 2019
+Central,PIGEONPEA(NANDOLO),50 KG BAG,2,S: Shelled,51.75,Collected In Both 2016 and 2019
+South,PIGEONPEA(NANDOLO),50 KG BAG,2,S: Shelled,54.5,Collected In Both 2016 and 2019
+Central,PIGEONPEA(NANDOLO),50 KG BAG,2,U: Unshelled,38.43,Collected in Only 2016
+South,PIGEONPEA(NANDOLO),50 KG BAG,2,U: Unshelled,38.086876,Collected in Only 2016
+South,PIGEONPEA(NANDOLO),90 KG BAG,3,S: Shelled,112.3875,Collected in Only 2016
+North,PIGEONPEA(NANDOLO),PAIL (SMALL),4,S: Shelled,4.3660002,Collected in Only 2019
+Central,PIGEONPEA(NANDOLO),PAIL (SMALL),4,S: Shelled,5.2224998,Collected in Only 2019
+South,PIGEONPEA(NANDOLO),PAIL (SMALL),4,S: Shelled,5.4060001,Collected In Both 2016 and 2019
+Central,PIGEONPEA(NANDOLO),PAIL (SMALL),4,U: Unshelled,2.6657,Collected in Only 2016
+South,PIGEONPEA(NANDOLO),PAIL (SMALL),4,U: Unshelled,2.7482758,Collected in Only 2016
+North,PIGEONPEA(NANDOLO),PAIL (LARGE),5,S: Shelled,18.1,Collected In Both 2016 and 2019
+Central,PIGEONPEA(NANDOLO),PAIL (LARGE),5,S: Shelled,17.084999,Collected In Both 2016 and 2019
+South,PIGEONPEA(NANDOLO),PAIL (LARGE),5,S: Shelled,18,Collected In Both 2016 and 2019
+South,PIGEONPEA(NANDOLO),PAIL (LARGE),5,U: Unshelled,11.025186,Collected in Only 2016
+Central,COTTON,BALE,10,Not Applicable,80,Collected in Only 2016
+South,COTTON,BALE,10,Not Applicable,91,Collected In Both 2016 and 2019
+Central,COTTON,50 KG BAG,2,Not Applicable,29,Collected in Only 2016
+South,COTTON,50 KG BAG,2,Not Applicable,18.025,Collected In Both 2016 and 2019
+North,COTTON,90 KG BAG,3,Not Applicable,52.200001,Collected in Only 2016
+South,COTTON,90 KG BAG,3,Not Applicable,52.200001,Collected in Only 2016
+North,SUNFLOWER,KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+Central,SUNFLOWER,KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+South,SUNFLOWER,KILOGRAM,1,S: Shelled,1,Collected in Only 2019
+North,SUNFLOWER,PAIL (MEDIUM),14,S: Shelled,5.473,Collected in Only 2019
+Central,SUNFLOWER,PAIL (MEDIUM),14,S: Shelled,4.3874998,Collected in Only 2019
+South,SUNFLOWER,PAIL (MEDIUM),14,S: Shelled,5.0939999,Collected in Only 2019
+North,SUNFLOWER,50 KG BAG,2,S: Shelled,28,Collected in Only 2019
+Central,SUNFLOWER,50 KG BAG,2,S: Shelled,33.662498,Collected in Only 2019
+South,SUNFLOWER,50 KG BAG,2,S: Shelled,36,Collected in Only 2019
+North,SUNFLOWER,PAIL (SMALL),4,S: Shelled,2.947,Collected in Only 2019
+Central,SUNFLOWER,PAIL (SMALL),4,S: Shelled,3.2862501,Collected in Only 2019
+South,SUNFLOWER,PAIL (SMALL),4,S: Shelled,2.9100001,Collected in Only 2019
+North,SUNFLOWER,PAIL (LARGE),5,S: Shelled,11.128,Collected in Only 2019
+Central,SUNFLOWER,PAIL (LARGE),5,S: Shelled,9.8675003,Collected in Only 2019
+South,SUNFLOWER,PAIL (LARGE),5,S: Shelled,9.3859997,Collected in Only 2019
+Central,SUGAR CANE,OX-CART,12,Not Applicable,610,Collected In Both 2016 and 2019
+South,SUGAR CANE,OX-CART,12,Not Applicable,631.40002,Collected in Only 2016
+North,SUGAR CANE,BUNDLE  SMALL,31A,Not Applicable,8.5634995,Collected in Only 2019
+Central,SUGAR CANE,BUNDLE  SMALL,31A,Not Applicable,6.8499999,Collected in Only 2019
+South,SUGAR CANE,BUNDLE  SMALL,31A,Not Applicable,9,Collected in Only 2019
+North,SUGAR CANE,BUNDLE  MEDIUM,31B,Not Applicable,14,Collected in Only 2019
+Central,SUGAR CANE,BUNDLE  MEDIUM,31B,Not Applicable,12,Collected in Only 2019
+South,SUGAR CANE,BUNDLE  MEDIUM,31B,Not Applicable,14,Collected in Only 2019
+North,SUGAR CANE,BUNDLE  LARGE,31C,Not Applicable,21,Collected in Only 2019
+Central,SUGAR CANE,BUNDLE  LARGE,31C,Not Applicable,15.811251,Collected in Only 2019
+South,SUGAR CANE,BUNDLE  LARGE,31C,Not Applicable,19.25,Collected in Only 2019
+North,SUGAR CANE,PIECE,9,Not Applicable,1.6059999,Collected in Only 2019
+Central,SUGAR CANE,PIECE,9,Not Applicable,1.7225001,Collected In Both 2016 and 2019
+South,SUGAR CANE,PIECE,9,Not Applicable,1.699,Collected In Both 2016 and 2019
+South,CABBAGE,BASKET (DENGU),11,Not Applicable,13.25,Collected in Only 2016
+North,CABBAGE,50 KG BAG,2,Not Applicable,47.956001,Collected in Only 2019
+Central,CABBAGE,50 KG BAG,2,Not Applicable,35,Collected in Only 2019
+South,CABBAGE,50 KG BAG,2,Not Applicable,38,Collected in Only 2019
+North,CABBAGE,PIECE,9,Not Applicable,1.798,Collected in Only 2019
+Central,CABBAGE,PIECE,9,Not Applicable,1.65,Collected in Only 2019
+South,CABBAGE,PIECE,9,Not Applicable,1.6470001,Collected in Only 2019
+South,TANAPOSI,BASKET (DENGU),11,Not Applicable,16.145,Collected in Only 2016
+North,NKHWANI,BASKET (DENGU),11,Not Applicable,9.810833,Collected in Only 2016
+Central,NKHWANI,BASKET (DENGU),11,Not Applicable,11.231667,Collected in Only 2016
+South,NKHWANI,BASKET (DENGU),11,Not Applicable,8.3900003,Collected in Only 2016
+North,NKHWANI,PAIL (MEDIUM),14,Not Applicable,3.2420001,Collected in Only 2019
+Central,NKHWANI,PAIL (MEDIUM),14,Not Applicable,1.8199999,Collected in Only 2019
+South,NKHWANI,PAIL (MEDIUM),14,Not Applicable,1.72,Collected in Only 2019
+North,NKHWANI,50 KG BAG,2,Not Applicable,23.700001,Collected In Both 2016 and 2019
+Central,NKHWANI,50 KG BAG,2,Not Applicable,13,Collected in Only 2016
+South,NKHWANI,50 KG BAG,2,Not Applicable,13.5,Collected In Both 2016 and 2019
+South,NKHWANI,90 KG BAG,3,Not Applicable,21.338999,Collected in Only 2016
+North,NKHWANI,PAIL (SMALL),4,Not Applicable,.98400003,Collected In Both 2016 and 2019
+Central,NKHWANI,PAIL (SMALL),4,Not Applicable,1.2,Collected In Both 2016 and 2019
+South,NKHWANI,PAIL (SMALL),4,Not Applicable,.97600001,Collected In Both 2016 and 2019
+North,NKHWANI,PAIL (LARGE),5,Not Applicable,7.4460001,Collected In Both 2016 and 2019
+Central,NKHWANI,PAIL (LARGE),5,Not Applicable,3.7550001,Collected In Both 2016 and 2019
+South,NKHWANI,PAIL (LARGE),5,Not Applicable,3.0929999,Collected In Both 2016 and 2019
+North,NKHWANI,BUNCH,8,Not Applicable,.11833333,Collected in Only 2016
+Central,NKHWANI,BUNCH,8,Not Applicable,.31600001,Collected in Only 2016
+South,NKHWANI,BUNCH,8,Not Applicable,.17937499,Collected in Only 2016
+North,NKHWANI,PIECE,9,Not Applicable,.043500002,Collected in Only 2016
+Central,NKHWANI,PIECE,9,Not Applicable,.039999999,Collected in Only 2016
+South,NKHWANI,PIECE,9,Not Applicable,.16020833,Collected in Only 2016
+North,NKHWANI,HEAP,98,Not Applicable,.149,Collected in Only 2019
+Central,NKHWANI,HEAP,98,Not Applicable,.19499999,Collected in Only 2019
+South,NKHWANI,HEAP,98,Not Applicable,.1655,Collected in Only 2019
+Central,THERERE/OKRA,BASKET (DENGU),11,Not Applicable,6.8800001,Collected in Only 2016
+South,THERERE/OKRA,BASKET (DENGU),11,Not Applicable,6.3599997,Collected in Only 2016
+North,THERERE/OKRA,PAIL (MEDIUM),14,Not Applicable,6.1240001,Collected in Only 2019
+Central,THERERE/OKRA,PAIL (MEDIUM),14,Not Applicable,3.7925,Collected in Only 2019
+South,THERERE/OKRA,PAIL (MEDIUM),14,Not Applicable,4.1040001,Collected in Only 2019
+North,THERERE/OKRA,50 KG BAG,2,Not Applicable,29.549999,Collected in Only 2019
+Central,THERERE/OKRA,50 KG BAG,2,Not Applicable,39.700001,Collected in Only 2016
+South,THERERE/OKRA,50 KG BAG,2,Not Applicable,39.5,Collected In Both 2016 and 2019
+North,THERERE/OKRA,PAIL (SMALL),4,Not Applicable,2.642,Collected in Only 2019
+Central,THERERE/OKRA,PAIL (SMALL),4,Not Applicable,2.73,Collected in Only 2019
+South,THERERE/OKRA,PAIL (SMALL),4,Not Applicable,2.4000001,Collected in Only 2019
+North,THERERE/OKRA,PAIL (LARGE),5,Not Applicable,10.33,Collected in Only 2019
+Central,THERERE/OKRA,PAIL (LARGE),5,Not Applicable,9.7799997,Collected in Only 2019
+South,THERERE/OKRA,PAIL (LARGE),5,Not Applicable,8.2999992,Collected in Only 2019
+North,TOMATO,BASKET (DENGU),11,Not Applicable,11.443333,Collected in Only 2016
+Central,TOMATO,BASKET (DENGU),11,Not Applicable,7.8309999,Collected in Only 2016
+South,TOMATO,BASKET (DENGU),11,Not Applicable,10.552,Collected in Only 2016
+North,TOMATO,PAIL (MEDIUM),14,Not Applicable,8.6639996,Collected in Only 2019
+Central,TOMATO,PAIL (MEDIUM),14,Not Applicable,7.1525002,Collected in Only 2019
+South,TOMATO,PAIL (MEDIUM),14,Not Applicable,7.5799999,Collected in Only 2019
+North,TOMATO,PAIL (SMALL),4,Not Applicable,4.3299999,Collected in Only 2019
+Central,TOMATO,PAIL (SMALL),4,Not Applicable,4.6809998,Collected in Only 2019
+South,TOMATO,PAIL (SMALL),4,Not Applicable,4.5255003,Collected in Only 2019
+North,TOMATO,PAIL (LARGE),5,Not Applicable,17.4,Collected In Both 2016 and 2019
+Central,TOMATO,PAIL (LARGE),5,Not Applicable,14.755,Collected In Both 2016 and 2019
+South,TOMATO,PAIL (LARGE),5,Not Applicable,15,Collected In Both 2016 and 2019
+North,ONION,PAIL (MEDIUM),14,Not Applicable,7.9980001,Collected in Only 2019
+Central,ONION,PAIL (MEDIUM),14,Not Applicable,6.086,Collected in Only 2019
+South,ONION,PAIL (MEDIUM),14,Not Applicable,5.3150001,Collected in Only 2019
+North,ONION,50 KG BAG,2,Not Applicable,44,Collected in Only 2019
+Central,ONION,50 KG BAG,2,Not Applicable,47.25,Collected In Both 2016 and 2019
+South,ONION,50 KG BAG,2,Not Applicable,38,Collected in Only 2019
+North,ONION,90 KG BAG,3,Not Applicable,90.650002,Collected in Only 2019
+Central,ONION,90 KG BAG,3,Not Applicable,75,Collected In Both 2016 and 2019
+South,ONION,90 KG BAG,3,Not Applicable,93,Collected in Only 2019
+North,ONION,PAIL (SMALL),4,Not Applicable,4.1999998,Collected in Only 2019
+Central,ONION,PAIL (SMALL),4,Not Applicable,4.1437502,Collected in Only 2019
+South,ONION,PAIL (SMALL),4,Not Applicable,3.464,Collected in Only 2019
+North,ONION,PAIL (LARGE),5,Not Applicable,16.4,Collected in Only 2019
+Central,ONION,PAIL (LARGE),5,Not Applicable,13.675,Collected in Only 2019
+South,ONION,PAIL (LARGE),5,Not Applicable,9.6819992,Collected in Only 2019
+Central,PEAS,KILOGRAM,1,Not Applicable,1,Collected in Only 2019
+South,PEAS,KILOGRAM,1,Not Applicable,1,Collected in Only 2019
+North,PEAS,PAIL (MEDIUM),14,Not Applicable,5.5100002,Collected in Only 2019
+Central,PEAS,PAIL (MEDIUM),14,Not Applicable,4.3105001,Collected in Only 2019
+South,PEAS,PAIL (MEDIUM),14,Not Applicable,4.9169998,Collected in Only 2019
+North,PEAS,50 KG BAG,2,Not Applicable,36.5,Collected in Only 2019
+Central,PEAS,50 KG BAG,2,Not Applicable,36.200001,Collected in Only 2019
+South,PEAS,50 KG BAG,2,Not Applicable,35,Collected in Only 2019
+North,PEAS,PAIL (SMALL),4,Not Applicable,4.0640001,Collected in Only 2019
+Central,PEAS,PAIL (SMALL),4,Not Applicable,2.9130001,Collected in Only 2019
+South,PEAS,PAIL (SMALL),4,Not Applicable,5.1599998,Collected in Only 2019
+North,PEAS,PAIL (LARGE),5,Not Applicable,12.5,Collected in Only 2019
+Central,PEAS,PAIL (LARGE),5,Not Applicable,8.8999996,Collected in Only 2019
+South,PEAS,PAIL (LARGE),5,Not Applicable,9.4090004,Collected in Only 2019

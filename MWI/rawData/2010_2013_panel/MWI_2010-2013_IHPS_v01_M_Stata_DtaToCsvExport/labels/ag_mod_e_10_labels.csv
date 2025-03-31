@@ -1,0 +1,54 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,ag_e0a,byte,1,%8.0g,AG_E0A,Anyone in HH obtain any input coupons during[RS]regardless of how obtained/used?
+7,ag_e0c,byte,1,%8.0g,,HH Roster ID Code
+8,ag_e0d,byte,1,%22.0g,AG_E0D,Coupon Type
+9,ag_e0d_os,str3,0,%9s,,Coupon Type (Other Specify)
+10,ag_e01,byte,1,%8.0g,,"During[RS],#[TYPE]coupons[NAME]obtained thru official channels/purchases/gifts?"
+11,ag_e02a,str3,0,%9s,,From whom did[NAME]obtain[TYPE]coupons? (1ST SOURCE)
+12,ag_e02b,str3,0,%9s,,From whom did[NAME]obtain[TYPE]coupons? (2ND SOURCE)
+13,ag_e03,byte,1,%8.0g,AG_E03,Did [NAME] have to pay anyone to get [TYPE] coupons?
+14,ag_e04,int,1,%12.0g,,How much did [NAME] pay to get  [TYPE] coupons?
+15,ag_e05a,byte,1,%9.0g,AG_E05A,When did [NAME] receive [TYPE] coupons? (MONTH)
+16,ag_e05b,int,1,%8.0g,,When did [NAME] receive [TYPE] coupons? (YEAR)
+17,ag_e06,byte,1,%8.0g,,How many[TYPE]coupons did [NAME] redeem for inputs during the [RS]?
+18,ag_e07,byte,1,%35.0g,AG_E07,What type of input did [NAME] purchase with [TYPE] coupons?
+19,ag_e07_os,str16,0,%16s,,What type of input did [NAME] purchase with [TYPE] coupons? (Other Specify)
+20,ag_e08a,float,1,%9.0g,,What was the quantity of input purchased with [TYPE] coupons?(QUANT)
+21,ag_e08b,byte,1,%15.0g,UNIT,What was the quantity of input purchased with [TYPE] coupons?(UNIT)
+22,ag_e08b_os,byte,1,%9.0g,,What was the quantity of input purchased with [TYPE] coupons?(UNIT)(O/S)
+23,ag_e09,byte,1,%8.0g,AG_E09,Any input purchased w/[TYPE]coupons exchanged w/fellow farmer for another input?
+24,ag_e10a,float,1,%9.0g,,How much of input purchased w/[TYPE]coupons was exchanged for another?(QUANT)
+25,ag_e10b,byte,1,%15.0g,UNIT,How much of the input purchased w/[TYPE]coupons was exchanged for another?(UNIT)
+26,ag_e10b_os,byte,1,%9.0g,,How much of the input purchased w/[TYPE]coupons was exchanged...?(UNIT)(O/S)
+27,ag_e10c,byte,1,%35.0g,AG_E10C,"In return, how much and what type of input was received?(TYPE)"
+28,ag_e10c_os,str1,0,%9s,,"In return, how much and what type of input was received?(TYPE)(Other Specify)"
+29,ag_e10d,float,1,%9.0g,,"In return, how much and what type of input was received?(QUANT)"
+30,ag_e10e,byte,1,%15.0g,UNIT,"In return, how much and what type of input was received?(UNIT)"
+31,ag_e10e_os,byte,1,%9.0g,,"In return, how much and what type of input was received?(UNIT)(O/S)"
+32,ag_e11,byte,1,%8.0g,AG_E11,Was any of input purchased w/[TYPE]coupons shared w/a fellow farmer for nothing?
+33,ag_e12a,float,1,%9.0g,,Amt of[INPUT]purchased w/[TYPE]coupons shared w/a fellow farmer for nothing?(Q)
+34,ag_e12b,byte,1,%15.0g,UNIT,Amt of[INPUT]purchased w/[TYPE]coupons shared w/a fellow farmer for nothing?(U)
+35,ag_e12b_os,byte,1,%9.0g,,Amt of[INPUT]purchased w/[TYPE]coupons shared...?(UNIT)(O/S)
+36,ag_e13,byte,1,%21.0g,AG_E13,Main mode used to transport the input that[NAME]purchased w/[TYPE]coupon?
+37,ag_e13_os,str32,0,%32s,,Main mode used to transport the input that[NAME]purchased w/[TYPE]coupon?(O/S)
+38,ag_e14,int,1,%12.0g,,Amt[NAME]paid for transportation to acquire the input purchased w/[TYPE]coupons?
+39,ag_e15,int,1,%12.0g,,What was the cost of inputs purchased by redeeming [TYPE] coupons?
+40,ag_e16a,str3,0,%9s,,From whom did[NAME]purchase the inputs by redeeming[TYPE]coupons?(ID CODE #1)
+41,ag_e16b,str3,0,%9s,,From whom did[NAME]purchase the inputs by redeeming[TYPE]coupons?(ID CODE #2)
+42,ag_e17,byte,1,%8.0g,AG_E17,ENUMERATOR: Is the number in Question 6 equal to the number in Question 1?
+43,ag_e18,byte,1,%8.0g,AG_E18,Did[NAME]sell any[TYPE]coupons that[NAME]obtained during the[RS]?
+44,ag_e19,byte,1,%8.0g,,How many [TYPE] coupons did [NAME] sell?
+45,ag_e20,int,1,%12.0g,,How much did [NAME] receive from [TYPE] coupon sales?
+46,ag_e21a,str3,0,%9s,,To whom did[NAME]sell[TYPE]coupons?(ID CODE #1)
+47,ag_e21b,str1,0,%9s,,To whom did[NAME]sell[TYPE]coupons?(ID CODE #2)
+48,ag_e22,byte,1,%8.0g,AG_E22,Did[NAME]give away any[TYPE]coupons obtained during the[RS]to non-HH for free?
+49,ag_e23,byte,1,%8.0g,,How many [TYPE] coupons did [NAME] give to non-household members?
+50,ag_e24,byte,1,%8.0g,AG_E24,Were any[TYPE]coupons that[NAME]obtained during the[RS]lost or stolen?
+51,ag_e25,byte,1,%8.0g,,How many [TYPE] coupons were lost or stolen?
+52,ag_e26a,byte,1,%48.0g,AG_E26A,Why did [NAME] not redeem all [TYPE] coupons that [NAME] received? (1ST)
+53,ag_e26b,byte,1,%48.0g,AG_E26B,Why did [NAME] not redeem all [TYPE] coupons that [NAME] received? (2ND)

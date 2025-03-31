@@ -1,0 +1,52 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_l0a,byte,1,%8.0g,AG_P0A,Did you or anyone in your household cultivate any plots during the 2013 dry (dim
+6,ag_l0b,int,1,%29.0g,AG_P0B,Input ID
+7,ag_l00b,str25,0,%25s,,Input Description
+8,ag_l0c,str22,0,%22s,,Input Name
+9,ag_l0d,byte,1,%34.0g,AG_P0D,Input Code
+10,ag_l01a,float,1,%9.0g,,ENUMERATOR: FILL THIS COLUMN WITH THE SUM OF EACH INPUT ACROSS ALL PLOTS CULTIVA
+11,ag_l01b,byte,1,%15.0g,AG_P01B,ENUMERATOR: FILL THIS COLUMN WITH THE SUM OF EACH INPUT ACROSS ALL PLOTS CULTIVA
+12,ag_l02,byte,1,%29.0g,AG_P02,ENUMERATOR: ASK THE FARMER WHETHER THE FIGURES FROM QUESTION 1 CORRESPOND TO THE
+13,ag_l03,byte,1,%8.0g,AG_P03,"During the 2013 dry (dimba) season, did all of this [INPUT] come from purchases"
+14,ag_l04,byte,1,%8.0g,AG_P04,"During the 2013 dry (dimba) season, did you purchase any [INPUT] without coupons"
+15,ag_l15,str3,0,%9s,,Who/Which institution was the FIRST SOURCE of the [INPUT] that you purchased wit
+16,ag_l16a,float,1,%9.0g,,How much of the [INPUT] was purchased without coupons / vouchers or purchased on
+17,ag_l16b,byte,1,%15.0g,AG_P06B,How much of the [INPUT] was purchased without coupons / vouchers or purchased on
+18,ag_l17,byte,1,%21.0g,AG_P07,What was the main mode of transportation used to bring back the input that you p
+19,ag_l18,int,1,%12.0g,,How much did you pay for transportation to acquire the [INPUT] that you purchase
+20,ag_l19,long,1,%12.0g,,What was the value of the [INPUT] that you purchased without coupons / vouchers
+21,ag_l20,byte,1,%32.0g,AG_P10,How did you finance this [INPUT] purchase from [FIRST SOURCE]?
+22,ag_l21,int,1,%12.0g,,How much did you pay up-front for this [INPUT] purchase?
+23,ag_l22,int,1,%12.0g,,How much did you repay/will you repay?
+24,ag_l23,str3,0,%9s,,What was the source of credit for this [INPUT] purchase?
+25,ag_l24,byte,1,%8.0g,AG_P14,Was there a SECOND SOURCE from whom you purchased any of the [INPUT] without cou
+26,ag_l25,str1,0,%9s,,Who/Which institution was the SECOND SOURCE of the [INPUT] that you purchased wi
+27,ag_l26a,byte,1,%9.0g,,How much of the [INPUT] was purchased without coupons / vouchers or purchased on
+28,ag_l26b,byte,1,%15.0g,AG_P16B,How much of the [INPUT] was purchased without coupons / vouchers or purchased on
+29,ag_l27,byte,1,%21.0g,AG_P17,What was the main mode of transportation used to bring back the input that you p
+30,ag_l28,byte,1,%12.0g,,How much did you pay for transportation to acquire the [INPUT] that you purchase
+31,ag_l29,byte,1,%12.0g,,What was the value of the [INPUT] that you purchased without coupons / vouchers
+32,ag_l30,byte,1,%32.0g,AG_P20,How did you finance this [INPUT] purchase from [SECOND SOURCE]?
+33,ag_l31,byte,1,%12.0g,,How much did you pay up-front for this [INPUT] purchase?
+34,ag_l32,byte,1,%12.0g,,How much did you repay/will you repay?
+35,ag_l33,str1,0,%9s,,What was the source of credit for this [INPUT] purchase?
+36,ag_l34,byte,1,%8.0g,AG_P24,Was there a THIRD SOURCE from whom you purchased any of the [INPUT] without coup
+37,ag_l35,str1,0,%9s,,Who/Which institution was the THIRD SOURCE of the [INPUT] that you purchased wit
+38,ag_l36a,byte,1,%9.0g,,How much of the [INPUT] was purchased without coupons / vouchers or purchased on
+39,ag_l36b,byte,1,%15.0g,AG_P26B,How much of the [INPUT] was purchased without coupons / vouchers or purchased on
+40,ag_l37,byte,1,%8.0g,AG_P27,Did you receive any of the [INPUT] for free  during the 2013 dry (dimba) season?
+41,ag_l38a,int,1,%9.0g,,How much of the [INPUT] did you receive in total for free during the 2013 dry (d
+42,ag_l38b,byte,1,%15.0g,AG_P28B,How much of the [INPUT] did you receive in total for free during the 2013 dry (d
+43,ag_l39a,str3,0,%9s,,"During the 2013 dry (dimba) season, from whom did you receive most of the [INPUT"
+44,ag_l39b,str1,0,%9s,,"During the 2013 dry (dimba) season, from whom did you receive most of the [INPUT"
+45,ag_l40,int,1,%12.0g,,How much did you pay for transportation in total to acquire all [INPUT] that you
+46,ag_l41,byte,1,%8.0g,AG_P31,Was any of the [INPUT] that you used during the 2013 dry (dimba) season left ove
+47,ag_l42a,float,1,%9.0g,,How much of the [INPUT] that you used during the 2013 dry (dimba) season left ov
+48,ag_l42b,byte,1,%15.0g,AG_P32B,How much of the [INPUT] that you used during the 2013 dry (dimba) season left ov
+49,ag_l43,byte,1,%8.0g,AG_P33,Did you use any ORGANIC FERTILIZER out of own-production or own animals during t
+50,ag_l44a,float,1,%9.0g,,How much of the ORGANIC FERTILIZER was used out of own-production or own animals
+51,ag_l44b,byte,1,%15.0g,AG_P34B,How much of the ORGANIC FERTILIZER was used out of own-production or own animals

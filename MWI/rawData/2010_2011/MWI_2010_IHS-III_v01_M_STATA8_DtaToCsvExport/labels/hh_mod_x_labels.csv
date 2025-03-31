@@ -1,0 +1,20 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,hh_x01,byte,1,%8.0g,HH_X01,Enumerator: is this a panel household?
+5,hh_x02,byte,1,%8.0g,HH_X02,Enumerator: what was the last completed rainy season?
+6,hh_x03,byte,1,%8.0g,HH_X03,Did you or anyone in your household own or cultivate a plot during the [LAST COM
+7,hh_x04,byte,1,%8.0g,HH_X04,Enumerator: what was the last completed dry (dimba) season?
+8,hh_x05,byte,1,%8.0g,HH_X05,Did you or anyone in your household own or cultivate any plot during the  [LAST
+9,hh_x06,byte,1,%8.0g,HH_X06,"Did you or anyone in your household produce any cassava, tea, coffee or any othe"
+10,hh_x07,byte,1,%8.0g,HH_X07,Did you or anyone in your household own any livestock in the last 12 months?
+11,hh_x08,byte,1,%8.0g,HH_X08,Enumerator: should the agriculture questionnaire be administered?
+12,hh_x09,byte,1,%8.0g,HH_X09,Did you or anyone in this household do any fishing or fish trading in the last 1
+13,hh_x10,byte,1,%8.0g,HH_X10,Did you or anyone in your household own or cultivate a plot during the 2009/2010
+14,hh_x11,byte,1,%8.0g,HH_X11,Did you or anyone in your household own any livestock in the last 12 months?
+15,hh_x12,byte,1,%8.0g,HH_X12,Enumerator: should the agriculture visit 1 questionnaire be administered?
+16,hh_x13,byte,1,%8.0g,HH_X13,"Did you or anyone in your household produce any cassava, tea, coffee or any othe"
+17,hh_x14,byte,1,%8.0g,HH_X14,"Do you or anyone in your household plan to harvest any cassava, tea, coffee or o"
+18,hh_x15,byte,1,%8.0g,HH_X15,Enumerator: mark 'yes' if respondent said 'yes' to one of HH_X13 or HH_X14
+19,hh_x16,byte,1,%8.0g,HH_X16,Did you or anyone in this household do any fishing or fish trading in the last 1

@@ -1,0 +1,18 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_s01,byte,1,%8.0g,HH_S01,"Over the past 12 months, did you or anyone else in this household borrow on cred"
+6,hh_s02,byte,1,%8.0g,,LOAN NUMBER
+7,hh_s04,byte,1,%24.0g,HH_S04,CREDIT SOURCE CODE
+8,hh_s05a,byte,1,%8.0g,,Which household member was responsible for the laoan? (1st)
+9,hh_s05b,byte,1,%8.0g,,Which household member was responsible for the laoan? (2nd)
+10,hh_s06,byte,1,%43.0g,HH_S06,What was main reason for obtaining loan?
+11,hh_s07,long,1,%10.0g,,How much was borrowed?
+12,hh_s08a,byte,1,%9.0g,HH_S08A,When did you get the loan? (month)
+13,hh_s08b,int,1,%8.0g,,When did you get the loan? (year)
+14,hh_s09,byte,1,%8.0g,HH_S09,Is the loan repaid?
+15,hh_s10a,byte,1,%9.0g,HH_S10A,Approximately when did you expect to pay back the money? (month)
+16,hh_s10b,int,1,%8.0g,,Approximately when did you expect to pay back the money? (year)
+17,hh_s11,long,1,%10.0g,,How much did you pay (do you expect to have paid) in total when you will have pa

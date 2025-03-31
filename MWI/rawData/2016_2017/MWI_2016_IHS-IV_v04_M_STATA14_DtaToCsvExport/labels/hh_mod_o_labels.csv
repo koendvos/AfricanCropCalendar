@@ -1,0 +1,39 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_o0a,byte,1,%8.0g,hh_o,..Any children who are 15 years..do not live in this HH?
+4,hh_o0b,byte,1,%8.0g,,Line Number
+5,hh_o02,byte,1,%8.0g,,Age
+6,hh_o03,byte,1,%8.0g,hh_o03,Sex
+7,hh_o04,byte,1,%8.0g,hh_o04,What is the highest grade [NAME] has completed in school?
+8,hh_o05,byte,1,%8.0g,hh_o05,Has [NAME] ever lived in this household?
+9,hh_o06,int,1,%8.0g,,In which year did [NAME] leave the household?
+10,hh_o07a,byte,1,%8.0g,hh_o07a,Where does [NAME] currently live?
+11,hh_o07b,int,1,%8.0g,hh_o07b,NAME OF THE DISTRICT OF CURRENT RESIDENCE
+12,hh_o07c,int,1,%8.0g,hh_o07c,NAME OF THE COUNTRY OF CURRENT RESIDENCE
+13,hh_o07c_oth,str7,0,%7s,,"Please, specify the Name of Country of Current Residence"
+14,hh_o08a,byte,1,%8.0g,hh_o08a,For how long has [NAME] lived in this DISTRICT/ COUNTRY
+15,hh_o08b,int,1,%8.0g,,For how many %hh_o08a%s has [NAME] lived in this DISTRICT/ COUNTRY
+16,hh_o09,byte,1,%8.0g,hh_o09,What is [NAME]'s current activity status?
+17,hh_o09_oth,strL,0,%39s,,Specify [NAME]'s current activity status.
+18,hh_o10a,strL,0,%71s,,What is the current main occupation of [NAME]?
+19,hh_o10b,strL,0,%38s,,What is the current main occupation of [NAME]?
+20,hh_o11,byte,1,%8.0g,hh_o11,Did [NAME] send any cash to this HH at any point during the last l2 months
+21,hh_o12,byte,1,%8.0g,hh_o12,At what frequency did [NAME] send cash to this HH during the last l2 months
+22,hh_o12_oth,str19,0,%19s,,Specify at what frequency did [NAME] send cash to this household
+23,hh_o13,long,1,%12.0g,,How much cash did [NAME] send to this household each month during last l2 months
+24,hh_o13_1a,byte,1,%8.0g,,Who in the HH kept/ decided on the use of this income? (ID 1)
+25,hh_o13_1b,byte,1,%8.0g,,Who in the HH kept/ decided on the use of this income? (ID 2)
+26,hh_o14,long,1,%12.0g,,How much cash did [NAME] send to this household in total during last l2 months
+27,hh_o14_1a,byte,1,%8.0g,,Who in the HH kept/ decided on the use of this income? (ID 1)
+28,hh_o14_1b,byte,1,%8.0g,,Who in the HH kept/ decided on the use of this income? (ID 2)
+29,hh_o14_2,byte,1,%8.0g,hh_o14_2,Of the Cash.. did any of it come through other means other than a bank?
+30,hh_o14_3,byte,1,%8.0g,hh_o14_3,In what currency was the cash?
+31,hh_o14_3oth,str18,0,%18s,,Please specify the other type of currency.
+32,hh_o14_4a,long,1,%12.0g,,Amt cash sent through other means other than the bank..12 months?
+33,hh_o15,byte,1,%8.0g,hh_o15,Did [NAME] send any in-kind assistance to this household at any point
+34,hh_o16,byte,1,%8.0g,hh_o16,At what frequency did [NAME] send in-kind assistance to this household
+35,hh_o16_oth,str19,0,%19s,,Specify frequency [NAME] sent in-kind assistance to this HH..12months
+36,hh_o17,long,1,%12.0g,,Total cash value of all food and other in-kind assistance[NAME] sent to this HH.
+37,hh_o18a,byte,1,%8.0g,,Who in the HH kept/ decided on the use of this in-kind assistance? (ID 1)
+38,hh_o18b,byte,1,%8.0g,,Who in the HH kept/ decided on the use of this in-kind assistance? (ID 2)

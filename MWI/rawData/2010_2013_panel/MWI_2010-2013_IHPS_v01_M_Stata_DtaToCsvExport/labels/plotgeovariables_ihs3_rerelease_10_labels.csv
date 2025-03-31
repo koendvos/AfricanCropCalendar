@@ -1,0 +1,63 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,plot_id,str3,0,%9s,,Plot ID
+4,dist_hh,float,1,%8.0g,,Plot Distance in (KMs) to HH
+5,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+6,reside,byte,1,%8.0g,reside1,Baseline Rural/Urban Identifier
+7,stratum,byte,1,%14.0g,STRATUM,Baseline Stratum - Region x Urban/Rural
+8,hh_wgt,float,1,%9.0g,,Baseline Sampling Weight
+9,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+10,hh_a01,int,1,%13.0g,HH_A01,DISTRICT
+11,hh_a02,byte,1,%8.0g,,TA
+12,hh_a02b,int,1,%22.0g,HH_A02B,DIS+TA
+13,hh_a11,byte,1,%8.0g,HH_A11,Does this HH replace another sample HH chosen for the survey?
+14,hh_a13,byte,1,%46.0g,HH_A13,Why was originally selected HH replaced?
+15,hh_a22_1,int,1,%8.0g,,Enumerator Code (Visit 1)
+16,hh_a22_2,int,1,%8.0g,,Enumerator Code (Visit 2)
+17,hh_a23_1,int,1,%d,,Interview Date [MDY] (Visit 1)
+18,hh_a23a_1,byte,1,%10.0g,,Day of Interview (Visit 1)
+19,hh_a23b_1,byte,1,%10.0g,,Month of Interview (Visit 1)
+20,hh_a23c_1,int,1,%10.0g,,Year of Interview (Visit 1)
+21,hh_a23_2,int,1,%d,,Interview Date [MDY] (Visit 2)
+22,hh_a23a_2,byte,1,%10.0g,,Day of Interview (Visit 2)
+23,hh_a23b_2,byte,1,%10.0g,,Month of Interview (Visit 2)
+24,hh_a23c_2,int,1,%10.0g,,Year of Interivew (Visit 2)
+25,hh_a25_1,int,1,%8.0g,,Field Supervisor Code (Visit 1)
+26,hh_a25_2,int,1,%8.0g,,Field Supervisor Code (Visit 2)
+27,hh_a26_1,int,1,%d,,Field Supervisor Qx Inspection [MDY] (Visit 1)
+28,hh_a26a_1,byte,1,%10.0g,,Day of Questionnaire Inspection (Visit 1)
+29,hh_a26b_1,byte,1,%10.0g,,Month of Questionnaire Inspection (Visit 1)
+30,hh_a26c_1,int,1,%10.0g,,Year of Questionnaire Inspection (Visit 1)
+31,hh_a26_2,int,1,%d,,Field Supervisor Qx Inspection [MDY] (Visit 2)
+32,hh_a26a_2,byte,1,%10.0g,,Day of Questionnaire Inspection (Visit 2)
+33,hh_a26b_2,byte,1,%10.0g,,Month of Questionnaire Inspection (Visit 2)
+34,hh_a26c_2,int,1,%10.0g,,Year of Questionnaire Inspection (Visit 2)
+35,hh_a31_1,int,1,%8.0g,,Data Entry Clerk Code (Visit 1)
+36,hh_a31_2,int,1,%8.0g,,Data Entry Clerk Code (Visit 2)
+37,hh_a32_1,int,1,%d,,1st Data Entry Date [MDY] (Visit 1)
+38,hh_a32a_1,byte,1,%10.0g,,Day of Data Entry (Visit 1)
+39,hh_a32b_1,byte,1,%10.0g,,Month of Data Entry (Visit 1)
+40,hh_a32c_1,int,1,%10.0g,,Year of Data Entry (Visit 1)
+41,hh_a32_2,long,1,%d,,1st Data Entry Date [MDY] (Visit 2)
+42,hh_a32a_2,byte,1,%10.0g,,Day of Data Entry (Visit 2)
+43,hh_a32b_2,byte,1,%10.0g,,Month of Data Entry (Visit 2)
+44,hh_a32c_2,int,1,%10.0g,,Year of Data Entry (Visit 2)
+45,hh_a34_1,byte,1,%8.0g,,Data Validation Clerk Code (Visit 1)
+46,hh_a34_2,byte,1,%8.0g,,Data Validation Clerk Code (Visit 2)
+47,hh_a35_1,int,1,%d,,Validation Entry Data [MDY] (Visit 1)
+48,hh_a35a_1,byte,1,%10.0g,,Day of Data Validation (Visit 1)
+49,hh_a35b_1,byte,1,%10.0g,,Month of Data Validation (Visit 1)
+50,hh_a35c_1,int,1,%10.0g,,Year of Data Validation (Visit 1)
+51,hh_a35_2,int,1,%d,,Validation Entry Data [MDY] (Visit 2)
+52,hh_a35a_2,byte,1,%10.0g,,Day of Data Validation (Visit 2)
+53,hh_a35b_2,byte,1,%10.0g,,Month of Data Validation (Visit 2)
+54,hh_a35c_2,int,1,%10.0g,,Year of Data Validation (Visit 2)
+55,hh_g09,byte,1,%8.0g,HH_G09,"Over the past one week (7 days), did any people that you did not list as househo"
+56,hh_m00,byte,1,%8.0g,HH_M00,"Did your household own or rent any farm implements, machinery and/or structures,"
+57,hh_o00,byte,1,%8.0g,HH_O00,Does the household head or spouse have any biological sons and/or daughters who
+58,hh_s01,byte,1,%8.0g,HH_S01,"Over the past 12 months, did you or anyone else in this household borrow on cred"
+59,hh_w01,byte,1,%8.0g,HH_W01,"Over the past two years, did any member of your household die, including any inf"
+60,int_outcome_1,byte,1,%12.0g,INT_OUTCOME,Interview Outcome (Visit 1)
+61,int_outcome_2,byte,1,%12.0g,INT_OUTCOME,Interview Outcome (Visit 2)
+62,_merge,byte,1,%32.0g,__MERGE,

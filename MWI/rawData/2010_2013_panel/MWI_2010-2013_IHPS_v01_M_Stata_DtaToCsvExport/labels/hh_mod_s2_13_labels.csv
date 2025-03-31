@@ -1,0 +1,16 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_s12,byte,1,%8.0g,HH_S12,During the last 12 months did you try to borrow from someone outside the househo
+6,hh_s13a,byte,1,%24.0g,HH_S13A,Who turned you down? (1st)
+7,hh_s13b,byte,1,%24.0g,HH_S13B,Who turned you down? (2nd)
+8,hh_s14,byte,1,%43.0g,HH_S14,What was main reason for trying to obtain the loan?
+9,hh_s15,byte,1,%8.0g,HH_S15,Are you awaiting word on a loan that you applied for during the last 12 months?
+10,hh_s16a,byte,1,%24.0g,HH_S16A,From whom or which institution are you awaiting word on a loan? (1st)
+11,hh_s16b,byte,1,%24.0g,HH_S16B,From whom or which institution are you awaiting word on a loan? (2nd)
+12,hh_s17,byte,1,%43.0g,HH_S17,What was main reason for trying to obtain the loan?
+13,hh_s18,byte,1,%49.0g,HH_S18,"ENUMERATOR: WAS THE ANSWER TO QUESTIONS S01, S12 AND S15 ALWAYS 'NO'?"
+14,hh_s19a,byte,1,%36.0g,HH_S19A,Why did you not attempt to borrow in the last 12 months? (1st)
+15,hh_s19b,byte,1,%36.0g,HH_S19B,Why did you not attempt to borrow in the last 12 months? (2nd)

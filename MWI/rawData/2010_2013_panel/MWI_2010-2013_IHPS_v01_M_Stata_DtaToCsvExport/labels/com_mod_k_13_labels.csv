@@ -1,0 +1,9 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrance Sequence for O/S Merge
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,com_ck00a,str4,0,%9s,,ITEM CODE
+4,com_ck00b,str20,0,%20s,,ITEM DESCRIPTION
+5,com_ck00c,byte,1,%8.0g,,Is [ITEM] available for sale in your community or nearby at the present time?
+6,com_ck00b1,long,1,%12.0g,,What is the price for the item? (MK)
+7,com_ck00b2,int,1,%8.0g,,What is the price for the item? (NUMBER OF UNITS)
+8,com_ck00b3,int,1,%8.0g,,What is the price for the item? (UNIT CODES)

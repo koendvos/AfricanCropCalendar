@@ -1,0 +1,74 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,region,byte,1,%8.0f,region_1,IHS5 2019 Region location
+4,district,int,1,%18.0g,district,District
+5,ea_id,str8,0,%9s,,Unique Enumeration Area Code
+6,TA,int,1,%10.0g,,TA CODE
+7,area,byte,1,%12.0g,urban_region_l,Rural/Urban division by region
+8,urban,byte,1,%9.0g,reside,Urban/rural
+9,sdate,byte,1,%10.0g,,Day of month for interview
+10,smonth,float,1,%10.0g,month_l,Month of interview
+11,syear,float,1,%10.0g,,Year of interview
+12,hhsize,byte,1,%9.0g,,Household size
+13,adulteq,double,1,%9.0g,,Adult equivalence
+14,hh_wgt,double,1,%10.0g,,Household Sampling Weight
+15,rexp_cat021,float,1,%9.0g,,"Alcohol, real(April 2019 price) annual consumption"
+16,rexp_cat111,float,1,%9.0g,,"Vendors/Cafes/Restaurants, real(April 2019 price) annual consumption"
+17,rexp_cat011,float,1,%9.0g,,"Food, real(April 2019 price) annual consumption"
+18,rexp_cat101,float,1,%9.0g,,"Education, real(April 2019 price) annual consumption"
+19,rexp_cat061,float,1,%9.0g,,"Health drugs, real(April 2019 price) annual consumption"
+20,rexp_cat062,float,1,%9.0g,,"Health out-patient, real(April 2019 price) annual consumption"
+21,rexp_cat063,float,1,%9.0g,,"Health hospitalization, real(April 2019 price) annual consumption"
+22,rexp_cat083,float,1,%9.0g,,"Phone and fax services, real(April 2019 price) annual consumption"
+23,rexp_cat044,float,1,%9.0g,,(sum) exp_cat044
+24,rexp_cat022,float,1,%9.0g,,"Tobacco, real(April 2019 price) annual consumption"
+25,rexp_cat073,float,1,%9.0g,,"Transport, real(April 2019 price) annual consumption"
+26,rexp_cat121,float,1,%9.0g,,"Personal care, real(April 2019 price) annual consumption"
+27,rexp_cat081,float,1,%9.0g,,"Postal services, real(April 2019 price) annual consumption"
+28,rexp_cat072,float,1,%9.0g,,"Operation of vehicles, real(April 2019 price) annual consumption"
+29,rexp_cat093,float,1,%9.0g,,"Other recreational items, pets, real(April 2019 price) annual consumption"
+30,rexp_cat031,float,1,%9.0g,,"Clothing, real(April 2019 price) annual consumption"
+31,rexp_cat032,float,1,%9.0g,,"Footwear, real(April 2019 price) annual consumption"
+32,rexp_cat054,float,1,%9.0g,,"Dishes, real(April 2019 price) annual consumption"
+33,rexp_cat123,float,1,%9.0g,,"Personal effects, real(April 2019 price) annual consumption"
+34,rexp_cat094,float,1,%9.0g,,"Recreational services, real(April 2019 price) annual consumption"
+35,rexp_cat112,float,1,%9.0g,,"Accommodation services, real(April 2019 price) annual consumption"
+36,rexp_cat052,float,1,%9.0g,,"Household textiles, real(April 2019 price) annual consumption"
+37,rexp_cat092,float,1,%9.0g,,"Major durables for rec, real(April 2019 price) annual consumption"
+38,rexp_cat071,float,1,%9.0g,,"Vehicles, real(April 2019 price) annual consumption"
+39,rexp_cat041,float,1,%9.0g,,"Actual rents for housing, real(April 2019 price) annual consumption"
+40,rexp_cat042,float,1,%9.0g,,"Estimated rents for housing, real(April 2019 price) annual consumption"
+41,rexp_cat012,float,1,%9.0g,,"Beverage, real(April 2019 price) annual consumption"
+42,rexp_cat045,float,1,%9.0g,,"Electricity, gas, other fuels, real(April 2019 price) annual consumption"
+43,rexp_cat051,float,1,%9.0g,,"Decorations, carpets, real(April 2019 price) annual consumption"
+44,rexp_cat053,float,1,%9.0g,,"Appliances, real(April 2019 price) annual consumption"
+45,rexp_cat055,float,1,%9.0g,,"Tools/equipment for home, real(April 2019 price) annual consumption"
+46,rexp_cat056,float,1,%9.0g,,"Routine Home maintenance, real(April 2019 price) annual consumption"
+47,rexp_cat091,float,1,%9.0g,,"Audio-visual, real(April 2019 price) annual consumption"
+48,rexp_cat095,float,1,%9.0g,,"Newspapers, books, stationery, real(April 2019 price) annual consumption"
+49,rexp_cat01,float,1,%9.0g,,"Food/Bev, real(April 2019 price) annual consumption"
+50,rexp_cat02,float,1,%9.0g,,"Alc/Tobacco, real(April 2019 price) annual consumption"
+51,rexp_cat03,float,1,%9.0g,,"Clothing/Footwear, real(April 2019 price) annual consumption"
+52,rexp_cat04,float,1,%9.0g,,"Housing/Utilities, real(April 2019 price) annual consumption"
+53,rexp_cat05,float,1,%9.0g,,"Furnishings, real(April 2019 price) annual consumption"
+54,rexp_cat06,float,1,%9.0g,,"Health, real(April 2019 price) annual consumption"
+55,rexp_cat07,float,1,%9.0g,,"Transport, real(April 2019 price) annual consumption"
+56,rexp_cat08,float,1,%9.0g,,"Communication, real(April 2019 price) annual consumption"
+57,rexp_cat09,float,1,%9.0g,,"Recreation, real(April 2019 price) annual consumption"
+58,rexp_cat10,float,1,%9.0g,,"Education, real(April 2019 price) annual consumption"
+59,rexp_cat11,float,1,%9.0g,,"Hotels and restaurants, real(April 2019 price) annual consumption"
+60,rexp_cat12,float,1,%9.0g,,"Misc Goods & Services, real(April 2019 price) annual consumption"
+61,price_indexL,float,1,%9.0g,,Laspeyres monthly Spatial and Temporal Price Index (Base National April 2019)
+62,expagg,float,1,%9.0g,,Total nominal annual consumption per household
+63,rexpagg,float,1,%9.0g,,Total real annual consumption per household
+64,expaggpc,float,1,%9.0g,,Total nominal annual per capita consumption
+65,rexpaggpc,float,1,%9.0g,,Total real annual per capita consumption
+66,upline,double,1,%9.0g,,Food Poverty line in April 2019 prices
+67,pline,float,1,%9.0g,,Poverty line in April 2019 prices
+68,poor,float,1,%9.0g,poor,Dummy for poor households below national poverty line
+69,upoor,float,1,%14.0g,upoor,Dummy for ultra-poor households below national food poverty line
+70,gap_poor,float,1,%9.0g,,Gap poor
+71,gap_ultra,float,1,%9.0g,,Gap ultra poor
+72,gap2_poor,float,1,%9.0g,,Severity poor
+73,gap2_ultra,float,1,%9.0g,,Severity ultra poor

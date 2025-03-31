@@ -1,0 +1,21 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,hh_u0a,int,1,%101.0g,HH_U0A,Code of distress events
+7,hh_u0a_os,str43,0,%43s,,Distress Event (Other Specify)
+8,hh_u01,byte,1,%8.0g,HH_U01,"During the last 12 months, was your household affected negatively by any of the"
+9,hh_u02,byte,1,%18.0g,HH_U02,Rank the three most significant shocks you experienced
+10,hh_u03a,byte,1,%14.0g,HH_U03A,"As a result of this [SHOCK], did your income"
+11,hh_u03b,byte,1,%14.0g,HH_U03B,"As a result of this [SHOCK], did your assets"
+12,hh_u03c,byte,1,%14.0g,HH_U03C,"As a result of this [SHOCK], did your food production"
+13,hh_u03d,byte,1,%14.0g,HH_U03D,"As a result of this [SHOCK], did your food stock"
+14,hh_u03e,byte,1,%14.0g,HH_U03E,"As a result of this [SHOCK], did your food purchases"
+15,hh_u04a,byte,1,%72.0g,HH_U04A,1st household response to this [SHOCK]
+16,hh_u04a_os,str41,0,%41s,,1st household response to this [SHOCK] (Other Specify)
+17,hh_u04b,byte,1,%72.0g,HH_U04B,2nd household response to this [SHOCK]
+18,hh_u04b_os,str33,0,%33s,,2nd household response to this [SHOCK] (Other Specify)
+19,hh_u04c,byte,1,%72.0g,HH_U04C,3rd household response to this [SHOCK]
+20,hh_u04c_os,str18,0,%18s,,3rd household response to this [SHOCK] (Other Specify)

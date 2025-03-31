@@ -1,0 +1,11 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,ag_t0a,int,1,%8.0g,W0A,code
+5,ag_t0a_os,str42,0,%42s,,Code (Other Specify)
+6,ag_t01,byte,1,%8.0g,W01,"During the[RS],did you or anyone in your HH receive any advice on..."
+7,ag_t02,byte,1,%8.0g,W02A,What was the main source of the advice on the [TOPIC]?
+8,ag_t02_os,str38,0,%38s,,What was the main source of the advice on [TOPIC]?(Other Specify)
+9,ag_t03,byte,1,%8.0g,,ENUMERATOR: IS THIS A CROSS - SECTIONAL HOUSEHOLD?
+10,ag_t04,byte,1,%8.0g,AG_T03,"On average, how useful was the advice?"

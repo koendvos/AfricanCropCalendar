@@ -1,0 +1,47 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_h0a,int,1,%8.0g,,Seed ID
+6,ag_h0c,byte,1,%25.0g,AG_H0C,SEED TYPE CODE
+7,ag_h01a,float,1,%9.0g,,"ENUMERATOR: REFER TO AG-MODULE G, QUESTION 4 (PAGES 27-28). FOR EACH TYPE OF SEE"
+8,ag_h01b,byte,1,%8.0g,AG_H01B,"ENUMERATOR: REFER TO AG-MODULE G, QUESTION 4 (PAGES 27-28). FOR EACH TYPE OF SEE"
+9,ag_h02,byte,1,%28.0g,AG_H02,ENUMERATOR: ASK THE FARMER WHETHER THE FIGURES FROM QUESTION 1 CORRESPOND TO THE
+10,ag_h03,byte,1,%8.0g,AG_H03,"During the 2012/2013 rainy season, did all of this [SEED] come from purchases by"
+11,ag_h04,byte,1,%8.0g,AG_H04,"During the 2012/2013 rainy season, did you purchase any [SEED] without coupons/"
+12,ag_h15,str3,0,%9s,,Who/Which firm/ institution was the FIRST SOURCE of the [SEED] that you purchase
+13,ag_h16a,float,1,%9.0g,,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+14,ag_h16b,byte,1,%15.0g,AG_H06B,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+15,ag_h17,byte,1,%21.0g,AG_H07,What was the main mode of transportation used to bring back the [SEED] that you
+16,ag_h18,int,1,%12.0g,,How much did you pay for transportation to acquire the [SEED] that you purchased
+17,ag_h19,long,1,%12.0g,,What was the value of the [SEED] that you purchased without coupons / vouchers o
+18,ag_h20,byte,1,%32.0g,AG_H10,How did you finance this [SEED] purchase from [FIRST SOURCE]?
+19,ag_h21,int,1,%12.0g,,How much did you pay up-front for this [SEED] purchase?
+20,ag_h22,int,1,%12.0g,,How much did you repay/will you repay?
+21,ag_h23,str3,0,%9s,,What was the source of credit for the [SEED] purchase?
+22,ag_h24,byte,1,%8.0g,AG_H14,Was there a SECOND SOURCE from whom you purchased any of the [SEED] without coup
+23,ag_h25,str3,0,%9s,,Who/Which firm/ institution was the SECOND SOURCE of the [SEED] that you purchas
+24,ag_h26a,byte,1,%12.0g,,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+25,ag_h26b,byte,1,%15.0g,AG_H16B,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+26,ag_h27,byte,1,%21.0g,AG_H17,What was the main mode of transportation used to bring back the [SEED] that you
+27,ag_h28,byte,1,%12.0g,,How much did you pay for transportation to acquire the [SEED] that you purchased
+28,ag_h29,int,1,%10.0g,,What was the value of the [SEED] that you purchased without coupons / vouchers o
+29,ag_h30,byte,1,%32.0g,AG_H20,How did you finance this [SEED] purchase from [SECOND SOURCE]?
+30,ag_h31,byte,1,%12.0g,,How much did you pay up-front for this [SEED] purchase?
+31,ag_h32,byte,1,%12.0g,,How much did you repay/will you repay?
+32,ag_h33,str1,0,%9s,,What was the source of credit for this [SEED] purchase?
+33,ag_h34,byte,1,%8.0g,AG_H24,Was there a THIRD SOURCE from whom you purchased any of the [SEED] without coupo
+34,ag_h35,str1,0,%9s,,Who/Which firm/ institution was the THIRD SOURCE of the [SEED] that you purchase
+35,ag_h36a,byte,1,%12.0g,,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+36,ag_h36b,byte,1,%15.0g,AG_H26B,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+37,ag_h37,byte,1,%8.0g,AG_H27,Did you receive any of the [SEED] for free during the 2012/2013 rainy season?
+38,ag_h38a,int,1,%12.0g,,How much of the [SEED] did you receive in total for free during the 2012/2013 ra
+39,ag_h38b,byte,1,%15.0g,AG_H28B,How much of the [SEED] did you receive in total for free during the 2012/2013 ra
+40,ag_h39a,str3,0,%9s,,"During the 2012/2013 rainy season, from whom did you receive the [SEED] for free"
+41,ag_h39b,str3,0,%9s,,"During the 2012/2013 rainy season, from whom did you receive the [SEED] for free"
+42,ag_h40,int,1,%12.0g,,How much did you pay for transportation in total to acquire all of the [SEED] th
+43,ag_h41,byte,1,%8.0g,AG_H31,Was any of the [SEED] that you used during the 2012/2013 rainy season left over
+44,ag_h42a,int,1,%12.0g,,How much of the [SEED] that you used during the 2012/2013 rainy season left over
+45,ag_h42b,byte,1,%15.0g,AG_H32B,How much of the [SEED] that you used during the 2012/2013 rainy season left over
+46,ag_h43,byte,1,%41.0g,AG_H33,Why did you choose to use this [SEED]?

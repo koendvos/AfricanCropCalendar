@@ -1,0 +1,20 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_r0a,int,1,%8.0g,safety_net,SOURCE CODE
+4,hh_r01,byte,1,%8.0g,hh_r01,Received
+5,hh_r01_specify,strL,0,%42s,,Specify
+6,hh_r02a,long,1,%12.0g,,"..last 12 months,total assistance received from [PROGRAMME]? CASH MK"
+7,hh_r02b,long,1,%12.0g,,"..last 12 months,total assistance received from [PROGRAMME]?IN-KIND (CASH VALUE-"
+8,hh_r02c,long,1,%12.0g,,"..last 12 months,total assistance received from [PROGRAMME]?MAIZE- KG"
+9,hh_r03,byte,1,%8.0g,hh_r03,Was the assistance give to ...
+10,hh_r04a,byte,1,%8.0g,,Which HH members received this assistance in the last 12 months?(ID 1)
+11,hh_r04b,byte,1,%8.0g,,Which HH members received this assistance in the last 12 months?(ID 2)
+12,hh_r04c,byte,1,%8.0g,,Which HH members received this assistance in the last 12 months?(ID 3)
+13,hh_r04d,byte,1,%8.0g,,Which HH members received this assistance in the last 12 months?(ID 4)
+14,hh_r04e,byte,1,%8.0g,,Which HH members received this assistance in the last 12 months?(ID 5)
+15,hh_r05a,byte,1,%8.0g,,Who in your HH controls/decides on the use of assistance from [PROG] (ID 1)
+16,hh_r05b,byte,1,%8.0g,,Who in your HH controls/decides on the use of assistance from [PROG] (ID 2)
+17,hh_r06,byte,1,%8.0g,,"In the last 12 months, for how many months did your household receive assistance"
+18,hh_r07a,byte,1,%8.0g,hh_r7a,When was the last time your household received this assistance? MONTH
+19,hh_r07b,int,1,%8.0g,,When was the last time your household received this assistance?  YEAR

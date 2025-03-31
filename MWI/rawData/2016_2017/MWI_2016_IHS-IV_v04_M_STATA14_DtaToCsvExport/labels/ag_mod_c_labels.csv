@@ -1,0 +1,14 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%4s,,Garden ID
+4,plotid,str3,0,%3s,,Plot ID
+5,ag_c04a,double,1,%12.0g,,Self Reported Area of Plot
+6,ag_c04b,byte,1,%8.0g,ag_c04b,Units of Area Reported
+7,ag_c04b_oth,str12,0,%12s,,Other Specified Units of Area Reported
+8,ag_c04c,double,1,%12.0g,,Area of Plot Measured with GPS
+9,ag_c05e,byte,1,%8.0g,ag_c05c,Reason GPS Coordinates not recorded
+10,ag_c05e_oth,strL,0,%41s,,Other Reason GPS not taken
+11,ag_c06,int,1,%8.0g,,Number of Tracked Sattelites on GPS
+12,ag_c06_1,byte,1,%8.0g,,GPS Accuracy
+13,ag_c07,byte,1,%8.0g,ag_c07,Weather Conditions at time of measurement

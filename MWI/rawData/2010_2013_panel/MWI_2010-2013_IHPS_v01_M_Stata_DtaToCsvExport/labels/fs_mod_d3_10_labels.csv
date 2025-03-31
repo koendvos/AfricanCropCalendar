@@ -1,0 +1,22 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,Unique HH Identifier
+3,visit,byte,1,%9.0g,,Panel Visit
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,fs_d15,byte,1,%8.0g,FS_D15,Did you pay these workers a fixed wage?
+6,fs_d16a,int,1,%12.0g,,What was each paid per week? MK/ADULT/WEEK
+7,fs_d16b,int,1,%12.0g,,What was each paid per week? MK/CHILD/WEEK
+8,fs_d17,byte,1,%8.0g,FS_D17,"As part of the remuneration for hired workers, did you pay these hired workers w"
+9,fs_d18a,byte,1,%12.0g,,"On average per week, what quantity of fish did you pay to each hired workers dur"
+10,fs_d18b,byte,1,%14.0g,FS_D18B,"On average per week, what quantity of fish did you pay to each hired workers dur"
+11,fs_d18c,byte,1,%12.0g,,"On average per week, what quantity of fish did you pay to each hired workers dur"
+12,fs_d18d,byte,1,%14.0g,FS_D18D,"On average per week, what quantity of fish did you pay to each hired workers dur"
+13,fs_d19,byte,1,%8.0g,FS_D19,"As part of the remuneration for hired workers, did you pay these hired workers w"
+14,fs_d20a,int,1,%12.0g,,On average per week what share of the boat revenue did you pay to each hired wor
+15,fs_d20b,byte,1,%12.0g,,On average per week what share of the boat revenue did you pay to each hired wor
+16,fs_d21a,int,1,%12.0g,,"During the last HIGH fishing season, did you pay the hired workers any other in"
+17,fs_d21b,byte,1,%12.0g,,"During the last HIGH fishing season, did you pay the hired workers any other in"
+18,fs_d22,byte,1,%8.0g,FS_D22,Have there been other types of costs related to fishing activities during the la
+19,fs_d23,str94,0,%94s,,Describe what these costs were for?
+20,fs_d24a,int,1,%12.0g,,What were the total costs during the HIGH season? (Amount)
+21,fs_d24b,byte,1,%8.0g,FS_D24B,What were the total costs during the HIGH season? (Period)

@@ -1,0 +1,11 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%8s,,Unique EA Identifier
+2,com_cj0b,int,1,%8.0g,COM_CJ0B,code
+3,com_cj0b_os,str28,0,%28s,,Group Code (Other Specify)
+4,com_cj01,byte,1,%8.0g,COM_CJ01,Which of the following organizations exist in the community?
+5,com_cj02,byte,1,%8.0g,,How many [GROUP]s are there in the community?
+6,com_cj03,byte,1,%8.0g,COM_CJ03A,How often do the members of the [GROUP] meet?
+7,com_cj03_os,str28,0,%28s,,How often do the members of the [GROUP] meet?(OTHER SPECIFY)
+8,com_cj04,int,1,%8.0g,,How many members does the [GROUP] have?
+9,com_cj05,int,1,%8.0g,,How many female members does the [GROUP] have?
+10,com_cj06,int,1,%8.0g,,How many members under the age of 30 does the [GROUP] have?

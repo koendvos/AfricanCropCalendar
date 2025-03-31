@@ -1,0 +1,59 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_q0b,byte,1,%22.0g,AG_V0B,TREE/PERMANENT CROP CODE
+6,ag_q0c,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID
+7,ag_q01,byte,1,%8.0g,AG_V01,Did you sell any of the harvested [TREE/ PERMANENT CROP] during the last 12 mont
+8,ag_q02a,float,1,%9.0g,,How much of the harvested [TREE/ PERMANENT CROP] was sold in total during the la
+9,ag_q02b,byte,1,%15.0g,AG_V02B,How much of the harvested [TREE/ PERMANENT CROP] was sold in total during the la
+10,ag_q03,long,1,%12.0g,,What was the total value of all [TREE/ PERMANENT CROP] sales during the last 12
+11,ag_q11,str3,0,%9s,,Who/What was the [LARGEST BUYER/OUTLET] for your [TREE/PERMANENT CROP] sales dur
+12,ag_q12a,int,1,%12.0g,,How much of the harvested [TREE/ PERMANENT CROP] was sold to [LARGEST BUYER/OUTL
+13,ag_q12b,byte,1,%15.0g,AG_V05B,How much of the harvested [TREE/ PERMANENT CROP] was sold to [LARGEST BUYER/OUTL
+14,ag_q12_1a,byte,1,%8.0g,,Who in your household is responsible for negotiating the sale of [TREE/PERMANENT
+15,ag_q12_1b,byte,1,%8.0g,,Who in your household is responsible for negotiating the sale of [TREE/PERMANENT
+16,ag_q13,long,1,%12.0g,,What was the total value of [TREE/PERMANENT CROP] sales to [LARGEST BUYER/OUTLET
+17,ag_q14a,byte,1,%8.0g,,Who in your household kept/decided what to do with these earnings? (ID CODE 1)
+18,ag_q14b,byte,1,%8.0g,,Who in your household kept/decided what to do with these earnings? (ID CODE 2)
+19,ag_q15a,byte,1,%9.0g,AG_V08A,When was most of [TREE/ PERMANENT CROP] sold during the last 12 months? (Month)
+20,ag_q15b,int,1,%8.0g,,When was most of [TREE/ PERMANENT CROP] sold during the last 12 months? (Year)
+21,ag_q16,byte,1,%8.0g,,Approximately how many transactions took place while selling [TREE/ PERMANENT CR
+22,ag_q17,byte,1,%24.0g,AG_V10,What was the main mode of transportation associated with the [TREE/ PERMANENT CR
+23,ag_q18,int,1,%12.0g,,What was the total cost of transportation associated with the [TREE/ PERMANENT C
+24,ag_q19,byte,1,%8.0g,AG_V12,Was there another buyer/outlet to whom you sold [TREE/PERMANENT CROP] during the
+25,ag_q20,str3,0,%9s,,Who/What was the [SECOND LARGEST BUYER/OUTLET] for your [TREE/PERMANENT CROP] sa
+26,ag_q21a,byte,1,%12.0g,,How much of the harvested [TREE/ PERMANENT CROP] was sold to [SECOND LARGEST BUY
+27,ag_q21b,byte,1,%15.0g,AG_V14B,How much of the harvested [TREE/ PERMANENT CROP] was sold to [SECOND LARGEST BUY
+28,ag_q21_1a,byte,1,%8.0g,,Who in your household is responsible for negotiating the sale of [TREE/PERMANENT
+29,ag_q21_1b,byte,1,%8.0g,,Who is your household is responsible for negotiating the sale of [TREE/PERMANENT
+30,ag_q22,int,1,%12.0g,,What was the total value of [TREE/PERMANENT CROP] sales to [SECOND LARGEST BUYER
+31,ag_q23a,byte,1,%8.0g,,Who in your household kept/decided what to do with these earnings? (ID CODE 1)
+32,ag_q23b,byte,1,%8.0g,,Who in your household kept/decided what to do with these earnings? (ID CODE 2)
+33,ag_q24a,byte,1,%9.0g,AG_V17A,When was most of [TREE/ PERMANENT CROP] sold during the last 12 months? (Month)
+34,ag_q24b,int,1,%8.0g,,When was most of [TREE/ PERMANENT CROP] sold during the last 12 months? (Year)
+35,ag_q25,byte,1,%8.0g,,Approximately how many transactions took place while selling [TREE/ PERMANENT CR
+36,ag_q26,byte,1,%24.0g,AG_V19,What was the main mode of transportation associated with the [TREE/ PERMANENT CR
+37,ag_q27,byte,1,%12.0g,,What was the total cost of transportation associated with the [TREE/ PERMANENT C
+38,ag_q31a,float,1,%9.0g,,How much of the harvested [CROP] during the last 12 months was given out as gift
+39,ag_q31b,byte,1,%15.0g,AG_V24B,How much of the harvested [CROP] during the last 12 months was given out as gift
+40,ag_q32a,int,1,%9.0g,,How much of the harvested [TREE/ PERMANENT CROP] during the last 12 months was g
+41,ag_q32b,byte,1,%15.0g,AG_V25B,How much of the harvested [TREE/ PERMANENT CROP] during the last 12 months was g
+42,ag_q33a,byte,1,%9.0g,,How much of the harvested [CROP] during the last 12 months was used as input for
+43,ag_q33b,byte,1,%15.0g,AG_V26B,How much of the harvested [CROP] during the last 12 months was used as input for
+44,ag_q34a,int,1,%9.0g,,How much of the harvested [TREE/ PERMANENT CROP] during the last 12 months was s
+45,ag_q34b,byte,1,%15.0g,AG_V27B,How much of the harvested [TREE/ PERMANENT CROP] during the last 12 months was s
+46,ag_q35a,float,1,%9.0g,,How much of the the harvested [TREE/ PERMANENT CROP] during the last 12 months w
+47,ag_q35b,byte,1,%15.0g,AG_V28B,How much of the the harvested [TREE/ PERMANENT CROP] during the last 12 months w
+48,ag_q35c,byte,1,%8.0g,,How much of the the harvested [TREE/ PERMANENT CROP] during the last 12 months w
+49,ag_q36a,byte,1,%13.0g,AG_V29A,What was the reason for loss? (1ST)
+50,ag_q36b,byte,1,%13.0g,AG_V29B,What was the reason for loss? (2ND)
+51,ag_q37,byte,1,%8.0g,AG_V30,Do you have any of the harvested [TREE/ PERMANENT CROP] in storage now?
+52,ag_q38,byte,1,%19.0g,AG_V31,What is your main method of storage for this crop?
+53,ag_q39a,float,1,%9.0g,,How much of the harvested [TREE/ PERMANENT CROP] during the last 12 months is be
+54,ag_q39b,byte,1,%15.0g,AG_V32B,How much of the harvested [TREE/ PERMANENT CROP] during the last 12 months is be
+55,ag_q40a,byte,1,%17.0g,AG_V33A,What did you do to protect the stored [TREE/ PERMANENT CROP]? (1ST)
+56,ag_q40b,byte,1,%17.0g,AG_V33B,What did you do to protect the stored [TREE/ PERMANENT CROP]? (2ND)
+57,ag_q41a,byte,1,%29.0g,AG_V34A,"In general, when you store [TREE/ PERMANENT CROP], what is usually the main purp"
+58,ag_q41b,byte,1,%29.0g,AG_V34B,"In general, when you store [TREE/ PERMANENT CROP], what is usually the main purp"

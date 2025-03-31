@@ -1,0 +1,12 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,ag_r00,byte,1,%8.0g,AG_I00,Did you or anyone in your household own any livestock in the last 12 months?
+7,ag_r27,long,1,%12.0g,,Amt HH spent in total on...hired labor for all types of livestock owned by HH
+8,ag_r28,long,1,%12.0g,,...animal feed for all types of livestock owned by HH
+9,ag_r29,int,1,%12.0g,,...medicine & vaccinations for all types of livestock owned by HH
+10,ag_r30,int,1,%12.0g,,"..other veterinary services incl. dipping,deworming&artificial insemination"
+11,ag_r31,int,1,%12.0g,,..housing equipment/feeding utensils/any other input for all types of livestock

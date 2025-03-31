@@ -1,0 +1,9 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,Unique HH Identifier
+3,visit,byte,1,%9.0g,,Panel Visit
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,fs_i0a,byte,1,%28.0g,FS_I0A,GEAR ID
+6,fs_i14,byte,1,%8.0g,FS_I14,"During the last LOW fishing season,  did your household rent out any [GEAR] to o"
+7,fs_i15,byte,1,%8.0g,,How many [GEAR] did your household rent out during the last LOW fishing season?
+8,fs_i16,int,1,%12.0g,,For how much in TOTAL did your household rent these [GEAR] out to other fishers

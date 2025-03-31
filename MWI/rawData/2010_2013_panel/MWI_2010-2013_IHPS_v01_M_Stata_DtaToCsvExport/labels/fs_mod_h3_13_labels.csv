@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,fs_h14,byte,1,%8.0g,,ROW ID
+6,fs_h14a,byte,1,%8.0g,,How many fishing men and/or children did you hire during the last LOW fishing se
+7,fs_h14b,byte,1,%8.0g,,How many weeks did each of these labourers work for you during the last LOW fish
+8,fs_h14c,byte,1,%8.0g,,How many fishing men and/or children did you hire during the last LOW fishing se
+9,fs_h14d,byte,1,%8.0g,,How many weeks did each of these labourers work for you during the last LOW fish

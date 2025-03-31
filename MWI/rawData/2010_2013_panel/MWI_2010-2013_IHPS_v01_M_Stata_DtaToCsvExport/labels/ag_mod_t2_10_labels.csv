@@ -1,0 +1,19 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,ag_t0c,byte,1,%38.0g,W0C,CODE
+7,ag_t0e,str1,0,%9s,,MARK WITH 'X' ALL SOURCES IDENTIFIED ON THE PREVIOUS PAGE
+8,ag_t05a,byte,1,%8.0g,,Who in HH received advice/info through[SOURCE]during the last 12 mnths?(ID #1)
+9,ag_t05b,byte,1,%8.0g,,Who in HH received advice/info through[SOURCE]during the last 12 mnths?(ID #2)
+10,ag_t05c,byte,1,%8.0g,,Who in HH received advice/info through[SOURCE]during the last 12 mnths?(ID #3)
+11,ag_t05d,byte,1,%8.0g,,Who in HH received advice/info through[SOURCE]during the last 12 mnths?(ID #4)
+12,ag_t06a,byte,1,%8.0g,,# of times someone from[SOURCE]visited your farm during the last 12 months?
+13,ag_t06b,byte,1,%8.0g,,How many of these visits were solicited?
+14,ag_t07,byte,1,%8.0g,,# of times HH member visited/met w/[SOURCE](besides at your dwelling/plots)?
+15,ag_t08,byte,1,%8.0g,,# of times you or HH member attended[SOURCE]in the last 12 months?
+16,ag_t09,byte,1,%8.0g,W07,Did any HH member pay anything to receive any type of info/advice from[SOURCE]?
+17,ag_t10,byte,1,%8.0g,,How much in total did HH pay to receive any type of info/advice from[SOURCE]?
+18,ag_t11,byte,1,%15.0g,W09,"On average,how useful was the advice/info received from [SOURCE]?"

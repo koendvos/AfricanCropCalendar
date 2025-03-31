@@ -1,0 +1,20 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,id_code,byte,1,%8.0g,,HOUSEHOLD MEMBER ID CODE
+3,visit,byte,1,%8.0g,,Panel Visit
+4,ea_id,str8,0,%8s,,Unique EA Identifier
+5,hh_v01,byte,1,%8.0g,,ID code
+6,hh_v02,str1,0,%1s,,Put an 'X' for all individuals who are aged under six months or older than exact
+7,hh_v03,byte,1,%8.0g,,Record the ID of the mother/guardian of the child in the household
+8,hh_v04a,byte,1,%8.0g,,How old is [name] (years)?
+9,hh_v04b,byte,1,%8.0g,,How old is [name] (months)?
+10,hh_v05,byte,1,%8.0g,HH_V05,Was [name] measured?
+11,hh_v06,byte,1,%8.0g,HH_V06,Why not measured?
+12,hh_v07,byte,1,%8.0g,HH_V07,Is the answer to HH_V05 'No'?
+13,hh_v08,float,1,%9.0g,,Weight of child
+14,hh_v09,float,1,%9.0g,,Height of child
+15,hh_v10,byte,1,%8.0g,HH_V10,Height/length measured with child standing or lying down
+16,hh_v11,byte,1,%8.0g,HH_V11,Was the measurement of the child done in a normal manner or was measurement diff
+17,hh_v12,byte,1,%8.0g,HH_V12,Ask of the mother/guardian: Does the child participate in a nutrition programme?
+18,hh_v13,byte,1,%8.0g,HH_V13,Ask of the mother/guardian: Does the child participate in an underfive clinic?
+19,hh_v14,byte,1,%8.0g,HH_V14,Did child appear to have oedema (swelling that is not normal)?

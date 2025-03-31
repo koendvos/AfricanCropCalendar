@@ -1,0 +1,7 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,CostsID,byte,1,%8.0g,,Costs Id
+4,fs_f04,byte,1,%8.0g,fs_f4,..any costs for [ITEM] in relation..fish trading activities during last HIGH sea
+5,fs_f04_oth,str18,0,%18s,,Any Other Cost
+6,fs_f05,long,1,%12.0g,,Amt your HH have to pay for [ITEM] on a weekly basis during the last HIGH season

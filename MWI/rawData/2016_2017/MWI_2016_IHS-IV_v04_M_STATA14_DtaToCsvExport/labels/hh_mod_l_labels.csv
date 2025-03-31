@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_l01,byte,1,%8.0g,hh_l01,Purchased Item?
+4,hh_l02,int,1,%8.0g,set,Item Code
+5,hh_l03,byte,1,%8.0g,,How many [ITEM]s do you own?
+6,hh_l04,byte,1,%8.0g,,What is the age of this [ITEM]?
+7,hh_l05,long,1,%12.0g,,"If you wanted to sell one of this [ITEM] today, how much would you recieve"
+8,hh_l06,byte,1,%8.0g,hh_l06,Did you purchase or pay for any [ITEM] in the last 12 months?
+9,hh_l07,long,1,%12.0g,,How much in total did pay for [ITEM] in the last 12 months?

@@ -1,0 +1,55 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_b0a,byte,1,%8.0g,AG_B0A,Did you or anyone in your household plant any crops during the 2011/2012 rainy s
+6,ag_b0c,byte,1,%25.0g,AG_B0C,CROP CODE
+7,ag_b01a,float,1,%9.0g,,What was the area planted during the 2011/2012 rainy season? (AREA)
+8,ag_b01b,byte,1,%15.0g,AG_B01B,What was the area planted during the 2011/2012 rainy season? (UNIT)
+9,ag_b02,byte,1,%8.0g,AG_B02,Was the area harvested less than area planted or were there any loses of [CROP]
+10,ag_b03a,byte,1,%19.0g,AG_B03A,Why was the area harvested less than area planted? (1ST)
+11,ag_b03b,byte,1,%19.0g,AG_B03B,Why was the area harvested less than area planted? (2ND)
+12,ag_b04a,float,1,%9.0g,,How much [CROP] did you harvest during the 2011/2012 rainy season? (QUANTITY)
+13,ag_b04b,byte,1,%15.0g,AG_B04B,How much [CROP] did you harvest during the 2011/2012 rainy season? (UNIT)
+14,ag_b04c,byte,1,%14.0g,AG_B04C,How much [CROP] did you harvest during the 2011/2012 rainy (S/U)
+15,ag_b05a,byte,1,%9.0g,AG_B05A,What were the months when the harvest started and ended? (START MONTH)
+16,ag_b05b,byte,1,%9.0g,AG_B05B,What were the months when the harvest started and ended? (END MONTH)
+17,ag_b06,byte,1,%8.0g,AG_B06,Did you sell any of the harvested [CROP]?
+18,ag_b07a,float,1,%9.0g,,How much of the harvested [CROP] was sold in total? (QUANTITY)
+19,ag_b07b,byte,1,%15.0g,AG_B07B,How much of the harvested [CROP] was sold in total? (UNIT)
+20,ag_b07c,byte,1,%14.0g,AG_B07C,How much of the harvested [CROP] was sold in total? (S/U)
+21,ag_b08,long,1,%12.0g,,What was the total value of all [CROP] sales?
+22,ag_b09a,byte,1,%8.0g,,Who in your household kept/decided what to do with the earnings from all [CROP]
+23,ag_b09b,byte,1,%8.0g,,Who in your household kept/decided what to do with the earnings from all [CROP]
+24,ag_b10,long,1,%12.0g,,What was the total cost of transportation associated with all [CROP] sales durin
+25,ag_b11a,int,1,%12.0g,,How much of the harvested [CROP] during the 2011/2012 rainy season was given out
+26,ag_b11b,byte,1,%15.0g,AG_B11B,How much of the harvested [CROP] during the 2011/2012 rainy season was given out
+27,ag_b11c,byte,1,%14.0g,AG_B11C,How much of the harvested [CROP] during the 2011/2012 rainy season was given out
+28,ag_b12a,int,1,%12.0g,,How much of the harvested [CROP] during the 2011/2012 rainy season was given out
+29,ag_b12b,byte,1,%15.0g,AG_B12B,How much of the harvested [CROP] during the 2011/2012 rainy season was given out
+30,ag_b12c,byte,1,%14.0g,AG_B12C,How much of the harvested [CROP] during the 2011/2012 rainy season was given out
+31,ag_b13a,byte,1,%12.0g,,How much of the harvested [CROP] during the 2011/2012 rainy season was used for
+32,ag_b13b,byte,1,%15.0g,AG_B13B,How much of the harvested [CROP] during the 2011/2012 rainy season was used for
+33,ag_b13c,byte,1,%14.0g,AG_B13C,How much of the harvested [CROP] during the 2011/2012 rainy season was used for
+34,ag_b14a,int,1,%12.0g,,How much of the harvested [CROP] during the 2011/2012 rainy season was used as i
+35,ag_b14b,byte,1,%15.0g,AG_B14B,How much of the harvested [CROP] during the 2011/2012 rainy season was used as i
+36,ag_b14c,byte,1,%14.0g,AG_B14C,How much of the harvested [CROP] during the 2011/2012 rainy season was used as i
+37,ag_b15a,int,1,%12.0g,,How much of the harvested [CROP] during the 2011/2012 rainy season was saved for
+38,ag_b15b,byte,1,%15.0g,AG_B15B,How much of the harvested [CROP] during the 2011/2012 rainy season was saved for
+39,ag_b15c,byte,1,%14.0g,AG_B15C,How much of the harvested [CROP] during the 2011/2012 rainy season was saved for
+40,ag_b16a,int,1,%12.0g,,How much of the the harvested [CROP] during the 2011/2012 rainy season was lost
+41,ag_b16b,byte,1,%15.0g,AG_B16B,How much of the the harvested [CROP] during the 2011/2012 rainy season was lost
+42,ag_b16c,byte,1,%14.0g,AG_B16C,How much of the the harvested [CROP] during the 2011/2012 rainy season was lost
+43,ag_b16d,byte,1,%8.0g,,How much of the the harvested [CROP] during the 2011/2012 rainy season was lost
+44,ag_b17a,byte,1,%15.0g,AG_B17A,What was the reason for loss? (1st)
+45,ag_b17b,byte,1,%15.0g,AG_B17B,What was the reason for loss? (2nd)
+46,ag_b18,byte,1,%8.0g,AG_B18,Do you have any of the harvested [CROP] in storage now?
+47,ag_b19,byte,1,%19.0g,AG_B19,What is your main method of storage for this crop?
+48,ag_b20a,byte,1,%12.0g,,How much of the harvested [CROP] during the 2011/2012 rainy season is being stor
+49,ag_b20b,byte,1,%15.0g,AG_B20B,How much of the harvested [CROP] during the 2011/2012 rainy season is being stor
+50,ag_b20c,byte,1,%14.0g,AG_B20C,How much of the harvested [CROP] during the 2011/2012 rainy season is being stor
+51,ag_b21a,byte,1,%17.0g,AG_B21A,Did you do anything to protect the stored [CROP]? (1st)
+52,ag_b21b,byte,1,%17.0g,AG_B21B,Did you do anything to protect the stored [CROP]? (2nd)
+53,ag_b22a,byte,1,%29.0g,AG_B22A,"In general, when you store [CROP], what is usually the main purpose for storing"
+54,ag_b22b,byte,1,%29.0g,AG_B22B,"In general, when you store [CROP], what is usually the main purpose for storing"

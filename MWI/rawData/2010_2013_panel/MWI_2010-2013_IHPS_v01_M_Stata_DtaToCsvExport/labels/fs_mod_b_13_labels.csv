@@ -1,0 +1,18 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,fs_b01a,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+6,fs_b01b,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+7,fs_b01c,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+8,fs_b01d,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+9,fs_b01e,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+10,fs_b01f,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+11,fs_b01g,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+12,fs_b01h,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+13,fs_b01i,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+14,fs_b01j,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+15,fs_b01k,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+16,fs_b01l,str1,0,%9s,,"ENUMERATOR: RECORD STATUS OF EACH MONTH AS H (HIGH), L (LOW) or N (NO FISHING) ("
+17,fs_b02,byte,1,%8.0g,,"ENUMERATOR: FOR THE MONTHS THAT ANY FISHING TOOK PLACE IN THE COMMUNITY, WAS THE"

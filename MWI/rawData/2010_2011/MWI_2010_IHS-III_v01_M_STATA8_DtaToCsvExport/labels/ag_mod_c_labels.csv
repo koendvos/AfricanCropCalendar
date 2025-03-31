@@ -1,0 +1,12 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,ea_id,str8,0,%8s,,Unique EA Identifier
+3,visit,byte,1,%8.0g,,Panel Visit
+4,ag_c0a,byte,1,%8.0g,,"Enumerator: refer to the household questionnaire, module x. What was the last co"
+5,ag_c00,str3,0,%3s,,Plot ID
+6,ag_c01,byte,1,%8.0g,AG_C01,"During the [RS],did you or any HH member own any land or cultivate any land?"
+7,ag_c02,str25,0,%25s,,Plot Name
+8,ag_c04a,float,1,%9.0g,,What is the area of this [PLOT]? (Area)
+9,ag_c04b,byte,1,%8.0g,AG_C04B,What is the area of this [PLOT]? (Unit)
+10,ag_c04c,float,1,%9.0g,,What is the area of this [PLOT]? (Area in Acres)
+11,ag_c05d_os,str43,0,%43s,,Reason GPS not taken

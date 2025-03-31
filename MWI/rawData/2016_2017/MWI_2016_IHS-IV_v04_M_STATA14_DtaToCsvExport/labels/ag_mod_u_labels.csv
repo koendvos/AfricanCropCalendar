@@ -1,0 +1,22 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,ag_u0a,byte,1,%8.0g,ag_u0a,"..HH sold,given away/lost any GARDENS(both agric & non-agric) in last 10 years?"
+4,landcode,byte,1,%8.0g,,Land ID
+5,ag_u01,byte,1,%8.0g,ag_u01,How did your household acquire this [GARDEN]?
+6,ag_u01_oth,str27,0,%27s,,Please specify the other way your household acquired this garden.
+7,ag_u01_1,int,1,%8.0g,,In what year did your household acquire this [GARDEN]?
+8,ag_u02a,byte,1,%8.0g,,From Whom did you Acquire this Garden? NWID 1
+9,ag_u02b,byte,1,%8.0g,,From Whom did you Acquire this Garden? NWID 2
+10,ag_u03a,byte,1,%8.0g,,Who in this Household Owned this Garden? HHID 1
+11,ag_u03b,byte,1,%8.0g,,Who in this Household Owned this Garden? HHID 2
+12,ag_u04,int,1,%8.0g,,"..year did your household sell, give away, or lose this garden [GARDEN]?"
+13,ag_u05,byte,1,%8.0g,ag_u05,What kind of land is or was this [GARDEN]?
+14,ag_u05_oth,strL,0,%32s,,Please specify the other kind of land
+15,ag_u06a,double,1,%12.0g,,What is the area of this [GARDEN]?
+16,ag_u06b,byte,1,%8.0g,ag_u06b,unit
+17,ag_u06b_oth,str1,0,%1s,,UNIT_oth. Please specify the other unit
+18,ag_u07,byte,1,%8.0g,ag_u07,How did your household part with this [GARDEN]?
+19,ag_u07_oth,strL,0,%35s,,Please specify how else your household parted with this garden
+20,ag_u08a,byte,1,%8.0g,,"Who purchased, received, or took this Garden? NWID 1"
+21,ag_u08b,byte,1,%8.0g,,"Who purchased, received, or took this Garden? NWID 2"

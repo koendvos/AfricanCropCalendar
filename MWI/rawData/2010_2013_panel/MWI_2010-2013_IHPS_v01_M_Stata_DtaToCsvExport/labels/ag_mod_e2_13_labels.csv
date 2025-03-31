@@ -1,0 +1,49 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_e0a,byte,1,%8.0g,AG_E01,Did you or anyone in your household obtain any input coupons during the 2012/201
+6,ag_e0e,int,1,%8.0g,,Coupon ID
+7,ag_e0g,byte,1,%8.0g,,HH Roster ID Code
+8,ag_e01_1,byte,1,%18.0g,AG_E01_1,Coupon Type
+9,ag_e02,str3,0,%9s,,From whom did [NAME] obtain the [COUPON]?
+10,ag_e03,byte,1,%8.0g,AG_E03,Did [NAME] have to pay anyone to get the [COUPON]?
+11,ag_e04,int,1,%12.0g,,How much did [NAME] pay to get the [COUPON]?
+12,ag_e05a,byte,1,%9.0g,AG_E05A,When did [NAME] obtain the [COUPON]? (Month)
+13,ag_e05b,int,1,%8.0g,,When did [NAME] obtain the [COUPON]? (Year)
+14,ag_e05_1,byte,1,%8.0g,AG_E06,Did [NAME] redeem [COUPON] for inputs?
+15,ag_e07,byte,1,%26.0g,AG_E07,What type of input did [NAME] purchase with [TYPE] coupons?
+16,ag_e08a,float,1,%9.0g,,What was the quantity of input purchased with [TYPE] coupons? (QUANTITY)
+17,ag_e08b,byte,1,%15.0g,AG_E08B,What was the quantity of input purchased with [TYPE] coupons? (UNIT)
+18,ag_e08_1a,byte,1,%9.0g,AG_E08_1A,When did [NAME] redeem the coupon? (MONTH)
+19,ag_e08_1b,int,1,%8.0g,,When did [NAME] redeem the coupon? (YEAR)
+20,ag_e08_2a,byte,1,%8.0g,,How long did [NAME] have to wait at ADMAC or other input supplier to redeem the
+21,ag_e08_2b,byte,1,%8.0g,AG_E08_2B,How long did [NAME] have to wait at ADMAC or other input supplier to redeem the
+22,ag_e09,byte,1,%8.0g,AG_E09,Was any of the input purchased with [TYPE] coupons exchanged with a fellow farme
+23,ag_e10a,byte,1,%9.0g,,How much of the input purchased with [TYPE] coupons was exchanged for another? I
+24,ag_e10b,byte,1,%15.0g,AG_E10B,How much of the input purchased with [TYPE] coupons was exchanged for another? I
+25,ag_e10c,byte,1,%35.0g,AG_E10C,How much of the input purchased with [TYPE] coupons was exchanged for another? I
+26,ag_e10d,byte,1,%9.0g,,How much of the input purchased with [TYPE] coupons was exchanged for another? I
+27,ag_e10e,byte,1,%15.0g,AG_E10E,How much of the input purchased with [TYPE] coupons was exchanged for another? I
+28,ag_e11,byte,1,%8.0g,AG_E11,Was any of the input purchased with [TYPE] coupons shared with a fellow farmer f
+29,ag_e11_1,byte,1,%32.0g,AG_E11_1,Who proposed the sharing agreement?
+30,ag_e12a,float,1,%9.0g,,How much of the input purchased with [TYPE] coupons was shared with a fellow far
+31,ag_e12b,byte,1,%15.0g,AG_E12B,How much of the input purchased with [TYPE] coupons was shared with a fellow far
+32,ag_e13,byte,1,%21.0g,AG_E13,What was the main mode of transportation used to bring back the input that [NAME
+33,ag_e13_1,byte,1,%8.0g,AG_E13_1,Was any other coupon redeemed during the same trip as refered to in the previous
+34,ag_e13_2a,int,1,%8.0g,,Which [COUPONS] were redeemed? (1st)
+35,ag_e13_2b,int,1,%8.0g,,Which [COUPONS] were redeemed? (2nd)
+36,ag_e13_2c,int,1,%8.0g,,Which [COUPONS] were redeemed? (3rd)
+37,ag_e13_2d,byte,1,%8.0g,,Which [COUPONS] were redeemed? (4th)
+38,ag_e14,int,1,%12.0g,,How much did [NAME] pay for transportation to acquire the input that [NAME] purc
+39,ag_e15,int,1,%12.0g,,What was the cost of inputs purchased by redeeming the [COUPON]?
+40,ag_e15_1,int,1,%12.0g,,How much did [MEMEBR] pay in bribes or other side payments while redeeming [COUP
+41,ag_e16,str3,0,%9s,,From whom or which firm/institution did [NAME] purchase the inputs by redeeming
+42,ag_e18,byte,1,%8.0g,AG_E18,Did [NAME] sell the [COUPON] that [NAME] obtained during the 2012/2013 rainy sea
+43,ag_e20,int,1,%12.0g,,How much did [NAME] receive from the sale of the [COUPON]?
+44,ag_e21,str3,0,%9s,,To whom did [NAME] sell the [COUPON]?
+45,ag_e22,byte,1,%8.0g,AG_E22,Did [NAME] give  away [COUPON] to non-household members (family / friends) for f
+46,ag_e24,byte,1,%8.0g,AG_E24,Was the [COUPON] lost or stolen?
+47,ag_e26a,byte,1,%48.0g,AG_E26A,Why did [NAME] not redeem the [COUPON]? (1st)
+48,ag_e26b,byte,1,%48.0g,AG_E26B,Why did [NAME] not redeem the [COUPON]? (2nd)

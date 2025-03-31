@@ -1,0 +1,33 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_g0a,byte,1,%8.0g,AG_G0A,Did you or anyone in your household plant any crops during the 2012/2013 rainy s
+6,ag_g00,str3,0,%9s,,Plot ID
+7,ag_g0b,byte,1,%25.0g,AG_G0D,CROP CODE
+8,ag_g0e,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID
+9,ag_g01,byte,1,%11.0g,AG_G01,What type of crop stand is on the [PLOT]?
+10,ag_g02,byte,1,%8.0g,AG_G02,Was the [CROP] planted in the entire area of the plot?
+11,ag_g03,byte,1,%13.0g,AG_G03,"Approximately, how much of the [PLOT] is under [CROP]?"
+12,ag_g04a,float,1,%9.0g,,How much seed did you plant for the [CROP] on this [PLOT] during the 2012/2013 r
+13,ag_g04b,byte,1,%15.0g,AG_G04B,How much seed did you plant for the [CROP] on this [PLOT] during the 2012/2013 r
+14,ag_g05a,byte,1,%9.0g,AG_G05A,When did you plant the seeds for the [CROP] on this [PLOT] during the 2012/2013
+15,ag_g05b,int,1,%8.0g,,When did you plant the seeds for the [CROP] on this [PLOT] during the 2012/2013
+16,ag_g07,byte,1,%8.0g,AG_G06,Have you completed the harvest of the [CROP] from this [PLOT]?
+17,ag_g08a,float,1,%9.0g,,How much [CROP] do you expect to harvest from this [PLOT] during the 2012/ 2013
+18,ag_g08b,byte,1,%15.0g,AG_G07B,How much [CROP] do you expect to harvest from this [PLOT] during the 2012/ 2013
+19,ag_g08c,byte,1,%14.0g,AG_G07C,How much [CROP] do you expect to harvest from this [PLOT] during the 2012/ 2013
+20,ag_g09a,float,1,%9.0g,,How much [CROP] did you harvest from this [PLOT] during the 2012/ 2013 rainy sea
+21,ag_g09b,byte,1,%15.0g,AG_G08B,How much [CROP] did you harvest from this [PLOT] during the 2012/ 2013 rainy sea
+22,ag_g09c,byte,1,%14.0g,AG_G08C,How much [CROP] did you harvest from this [PLOT] during the 2012/ 2013 rainy sea
+23,ag_g10,byte,1,%8.0g,AG_L01,Was the area harvested less than the area planted?
+24,ag_g11a,byte,1,%19.0g,AG_L02A,Why was the area harvested less than the area planted? (1ST)
+25,ag_g11b,byte,1,%19.0g,AG_L02B,Why was the area harvested less than the area planted? (2ND)
+26,ag_g13a,int,1,%12.0g,,How much [CROP] did you harvest from this [PLOT] during the 2012/2013 rainy seas
+27,ag_g13b,byte,1,%15.0g,AG_L03B,How much [CROP] did you harvest from this [PLOT] during the 2012/2013 rainy seas
+28,ag_g13c,byte,1,%14.0g,AG_L03C,How much [CROP] did you harvest from this [PLOT] during the 2012/2013 rainy seas
+29,ag_g12a,byte,1,%9.0g,AG_L04A,What were the months when the harvest started and ended? (START)
+30,ag_g12b,byte,1,%9.0g,AG_L04B,What were the months when the harvest started and ended? (END)
+31,ag_g14a,byte,1,%8.0g,,Who in the household makes the decision concerning the use of [CROP] output from
+32,ag_g14b,byte,1,%8.0g,,Who in the household makes the decision concerning the use of [CROP] output from

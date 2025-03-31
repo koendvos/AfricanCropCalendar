@@ -1,0 +1,17 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%32s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%4s,,Garden ID
+4,plotid,str3,0,%3s,,Plot ID
+5,ag_j04_1,double,1,%1.0g,ag_j04_1,WAS THIS PLOT PART OF...
+6,ag_j04_2a,str2,0,%1s,,RECORD RAINY SEASON GARDEN THAT THE PLOT IS A PART OF.
+7,ag_j04_2b,str2,0,%2s,,RECORD DIMBA SEASON GARDEN THAT THE PLOT IS A PART OF.
+8,ag_j05a,double,1,%7.2g,,What is the <u>area</u> of this plot (%rostertitle%)? ENUMERATOR: ASK THE
+9,ag_j05b,double,1,%1.0g,ag_j05b,UNIT
+10,ag_j05b_oth,str43,0,%43s,,SPECIFY UNIT
+11,ag_j05c,double,1,%4.2g,,What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE
+12,ag_j06e,double,1,%1.0g,ag_j06e,"IF YOU DID NOT RECORD THE GPS COORDINATES, PLEASE SPECIFY REASON."
+13,ag_j06e_oth,str317,0,%317s,,Please specify the reason you did not record the GPS coordinates
+14,ag_j07,double,1,%2.0g,,ENUMERATOR: RECORD NUMBER OF SATELLITES GPS TRACKED TO CAPTURE PLOT COORDIN...
+15,ag_j07_1,double,1,%1.0g,,ENUMERATOR: RECORD GPS ACCURACY
+16,ag_j08,double,1,%1.0g,ag_j08,RECORD THE WEATHER CONDITIONS AT TIME OF MEASUREMENT

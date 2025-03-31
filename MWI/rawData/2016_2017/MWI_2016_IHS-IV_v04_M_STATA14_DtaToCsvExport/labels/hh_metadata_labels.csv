@@ -1,0 +1,132 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,moduleB_start_date,str10,0,%10s,,ENUMERATOR: RECORD <u>VISIT 1</u> START DATE & TIME FOR <u>MODULE B:</u>
+4,moduleB_startHr,byte,1,%8.0g,,HOUR:
+5,moduleB_startMin,byte,1,%8.0g,,MINUTES:
+6,moduleB_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR <u>MODULE B</u>:
+7,moduleF_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE & TIME FOR <u>MODULE F</u>
+8,moduleF_startHr,byte,1,%8.0g,,hour
+9,moduleF_startMin,byte,1,%8.0g,,minutes
+10,moduleF_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD PRIMARY RESPONDENT ID FOR MODULE F:
+11,moduleF_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE F</u><br><br> HOUR
+12,moduleF_endMin,byte,1,%8.0g,,minutes
+13,moduleG_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE FOR <u>MODULE G</u>
+14,moduleG_startHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD START TIME FOR <u>MODULE G</u><br><br>HOUR
+15,moduleG_startMin,byte,1,%8.0g,,minutes
+16,moduleG_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD PRIMARY RESPONDENT ID FOR <u>MODULE G</u>:
+17,moduleG_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE G</u><br><br> HOUR
+18,moduleG_endMin,byte,1,%8.0g,,minutes
+19,moduleH_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE AND FOR <u>MODULE H</u>
+20,moduleH_startHr,byte,1,%8.0g,,hour
+21,moduleH_startMin,byte,1,%8.0g,,minutes
+22,moduleH_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD PRIMARY RESPONDENT ID FOR <u>MODULE H</u>:
+23,moduleH_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE H</u><br><br> HOUR
+24,moduleH_endMin,byte,1,%8.0g,,minutes
+25,moduleI_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE FOR <u>MODULE I</u>
+26,moduleI_startHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD START TIME FOR <u>MODULE I</u><br><br>HOUR
+27,moduleI_startMin,byte,1,%8.0g,,mintues
+28,moduleI_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD PRIMARY RESPONDENT ID FOR <u>MODULE I</u>:
+29,moduleI_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE I</u><br><br> HOUR
+30,moduleI_endMin,byte,1,%8.0g,,minutes
+31,moduleJ_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE AND TIME FOR <u>MODULE J</u>
+32,moduleJ_startHr,byte,1,%8.0g,,hour
+33,moduleJ_startMin,byte,1,%8.0g,,minutes
+34,moduleJ_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD PRIMARY RESPONDENT ID FOR <u>MODULE J</u>:
+35,moduleJ_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE J</u><br><br> HOUR
+36,moduleJ_endMin,byte,1,%8.0g,,minutes
+37,moduleK_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE AND TIME FOR <u>MODULE K</u>
+38,moduleK_startHr,byte,1,%8.0g,,hour
+39,moduleK_startMin,byte,1,%8.0g,,minutes
+40,moduleK_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD PRIMARY RESPONDENT ID FOR <u>MODULE K</u>:
+41,moduleK_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE K</u><br><br> HOUR
+42,moduleK_endMin,int,1,%8.0g,,minutes
+43,moduleL_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE AND TIME FOR <u>MODULE L</u>
+44,moduleL_startHr,byte,1,%8.0g,,hour
+45,moduleL_startMin,byte,1,%8.0g,,minutes
+46,moduleL_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD PRIMARY RESPONDENT ID FOR <u>MODULE L</u>:
+47,moduleL_endHr,int,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE L</u><br><br> HOUR
+48,moduleL_endMin,byte,1,%8.0g,,MINUTES:
+49,moduleM_start_date,str10,0,%10s,,<b>ENUMERATOR:</b> RECORD START DATE & TIME FOR <u>MODULE M</u>:
+50,moduleM_startHr,byte,1,%8.0g,,hour
+51,moduleM_startMin,byte,1,%8.0g,,mintues
+52,moduleM_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD PRIMARY RESPONDENT ID FOR <u>MODULE M</u>:
+53,moduleM_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE M</u><br><br> HOUR
+54,moduleM_endMin,byte,1,%8.0g,,minutes
+55,moduleN_start_date,str10,0,%10s,,<b>ENUMERATOR:</b> RECORD START DATE & TIME FOR <u>MODULE N</u>
+56,moduleN_startHr,byte,1,%8.0g,,hour
+57,moduleN_startMin,byte,1,%8.0g,,mintues
+58,moduleN_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR MODULE N:
+59,moduleN_endHr,byte,1,%8.0g,,ENUMERATOR: RECORD END TIME FOR MODULE N:
+<br><br>
+HOURS
+60,moduleN_endMin,byte,1,%8.0g,,ENUMERATOR: RECORD END TIME FOR MODULE N:
+<br><br>
+MINUTES
+61,moduleO_start_date,str10,0,%10s,,<b>ENUMERATOR:</b> RECORD START DATE & TIME FOR <u>MODULE O</u>:
+62,moduleO_startHr,byte,1,%8.0g,,hour
+63,moduleO_startMin,byte,1,%8.0g,,mintues
+64,moduleO_endHr,byte,1,%8.0g,,ENUMERATOR: RECORD END TIME FOR MODULE O:
+<br><br>
+HOURS
+65,moduleO_endMin,byte,1,%8.0g,,minutes
+66,moduleP_start_date,str10,0,%10s,,<b>ENUMERATOR:</b> RECORD START DATE & TIME FOR <u>MODULE P</u>
+67,moduleP_startHr,byte,1,%8.0g,,hour
+68,moduleP_startMin,byte,1,%8.0g,,minutes
+69,moduleP_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD PRIMARY RESPONDENT ID FOR <u>MODULE P</u>:
+70,moduleP_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE P</u><br><br> HOUR
+71,moduleP_endMin,byte,1,%8.0g,,minutes
+72,moduleQ_start_date,str10,0,%10s,,ENUMERATOR:RECORD START DATE & TIME FOR MODULE Q:
+<br><br>
+73,moduleQ_startHr,byte,1,%8.0g,,hours
+74,moduleQ_startMin,byte,1,%8.0g,,minutes
+75,moduleQ_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR MODULE Q:
+76,moduleQ_endHr,byte,1,%8.0g,,ENUMERATOR:RECORD END TIME FOR MODULE Q:
+<br><br>
+HOUR
+77,moduleQ_endMin,byte,1,%8.0g,,minutes
+78,moduleR_start_date,str10,0,%10s,,ENUMERATOR: RECORD START DATE & TIME FOR MODULE R:
+79,moduleR_startHr,byte,1,%8.0g,,hour
+80,moduleR_startMin,byte,1,%8.0g,,minutes
+81,moduleR_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR MODULE R:
+82,moduleR_endHr,byte,1,%8.0g,,ENUMERATOR: RECORD END TIME FOR MODULE R:<br><br>HOUR
+83,moduleR_endMin,byte,1,%8.0g,,minutes
+84,moduleS_start_date,str10,0,%10s,,ENUMERATOR: RECORD START DATE & TIME FOR MODULE S:
+85,moduleS_startHr,byte,1,%8.0g,,hour
+86,moduleS_startMin,int,1,%8.0g,,minutes
+87,moduleS_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD PRIMARY RESPONDENT ID FOR <u>MODULE S</u>:
+88,moduleS_endHr,int,1,%8.0g,,<b>ENUMERATOR:</b> RECORD END TIME FOR <u>MODULE S</u>:<br><br> HOUR
+89,moduleS_endMin,int,1,%8.0g,,minutes
+90,moduleT_start_date,str10,0,%10s,,<b>ENUMERATOR:</b> RECORD START DATE & TIME FOR <u>MODULE T</u>:
+91,moduleT_startHr,byte,1,%8.0g,,hour
+92,moduleT_startMin,byte,1,%8.0g,,minutes
+93,moduleT_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR MODULE T:
+94,moduleT_endHr,byte,1,%8.0g,,ENUMERATOR: RECORD END TIME FOR MODULE T:<br><br>HOUR
+95,moduleT_endMin,byte,1,%8.0g,,minutes
+96,moduleU_start_date,str10,0,%10s,,ENUMERATOR:RECORD START DATE & TIME FOR MODULE U:
+<br><br>
+97,moduleU_startHr,byte,1,%8.0g,,hours
+98,moduleU_startMin,byte,1,%8.0g,,minutes
+99,moduleU_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR MODULE U:
+100,moduleU_endHr,byte,1,%8.0g,,ENUMERATOR:RECORD END TIME FOR MODULE U:
+<br><br>
+HOUR
+101,moduleU_endMin,byte,1,%8.0g,,minutes
+102,moduleV_start_date,str10,0,%10s,,ENUMERATOR:RECORD START DATE & TIME FOR MODULE V:
+<br><br>
+103,moduleV_startHr,byte,1,%8.0g,,hours
+104,moduleV_startMin,byte,1,%8.0g,,minutes
+105,moduleV_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR MODULE V:
+106,moduleV_endHr,byte,1,%8.0g,,ENUMERATOR:RECORD END TIME FOR MODULE V:
+<br><br>
+HOUR
+107,moduleV_endMin,byte,1,%8.0g,,minutes
+108,moduleX_start_date,str10,0,%10s,,ENUMERATOR:RECORD START DATE & TIME FOR MODULE X:
+<br><br>
+109,moduleX_startHr,byte,1,%8.0g,,hours
+110,moduleX_startMin,byte,1,%8.0g,,minutes
+111,moduleX_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR MODULE X:
+112,moduleX_endHr,byte,1,%8.0g,,ENUMERATOR:RECORD END TIME FOR MODULE X:
+<br><br>
+HOUR
+113,moduleX_endMin,byte,1,%8.0g,,minutes

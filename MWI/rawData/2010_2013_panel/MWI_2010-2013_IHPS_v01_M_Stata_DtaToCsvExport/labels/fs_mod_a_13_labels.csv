@@ -1,0 +1,52 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+4,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+5,interview_status,byte,1,%24.0g,stat,Household Interview Status
+6,fs_a21,int,1,%9.0g,,Visit 1 - Enumerator Code
+7,fs_a23a_1,byte,1,%8.0g,,Visit 1 - Interview Date (Day) (Attempt 1)
+8,fs_a23a_2,byte,1,%8.0g,,Visit 1 - Interview Date (Month)
+9,fs_a23a_3,int,1,%8.0g,,Visit 1 - Interview Date (Year) (Attempt 1)
+10,fs_a23a_4,byte,1,%8.0g,,Visit 1 - Time Interview Start (Hour) (Attempt 1)
+11,fs_a23a_5,byte,1,%8.0g,,Visit 1 - Time Interview Start (Minute) (Attempt 1)
+12,fs_a23a_6,byte,1,%8.0g,,Visit 1 - Time Interview End (Hour) (Attempt 1)
+13,fs_a23a_7,byte,1,%8.0g,,Visit 1 - Time Interview End (Minute) (Attempt 1)
+14,fs_a23a_8,str11,0,%11s,,Visit 1 - Modules Complete (Attempt 1)
+15,fs_a24,int,1,%9.0g,,Visit 1 - Field Supervisor's Code
+16,fs_a26a,byte,1,%8.0g,,Visit 1 - Questionnaire Inspection Date (Day)
+17,fs_a26b,byte,1,%8.0g,,Visit 1 - Questionnaire Inspection Date (Month)
+18,fs_a26c,int,1,%8.0g,,Visit 1 - Questionnaire Inspection Date (Year)
+19,fs_a27,int,1,%9.0g,,Visit 1 - Data Entry Clerk Code
+20,fs_a29a,byte,1,%8.0g,,Visit 1 - Data Entry Date (Day)
+21,fs_a29b,byte,1,%8.0g,,Visit 1 - Data Entry Date (Month)
+22,fs_a29c,int,1,%8.0g,,Visit 1 - Data Entry Date (Year)
+23,fs_a35,int,1,%9.0g,,Visit 2 - Enumerator Code
+24,fs_a37a_1,byte,1,%8.0g,,Visit 2 - Interview Date (Day) (Attempt 1)
+25,fs_a37a_2,byte,1,%8.0g,,Visit 2 - Interview Date (Month) (Attempt 1)
+26,fs_a37a_3,int,1,%8.0g,,Visit 2 - Interview Date (Year) (Attempt 1)
+27,fs_a37a_4,byte,1,%8.0g,,Visit 2 - Time Interview Start (Hour) (Attempt 1)
+28,fs_a37a_5,byte,1,%8.0g,,Visit 2 - Time Interview Start (Minute) (Attempt 1)
+29,fs_a37a_6,byte,1,%8.0g,,Visit 2 - Time Interview End (Hour) (Attempt 1)
+30,fs_a37a_7,byte,1,%8.0g,,Visit 2 - Time Interview End (Minute) (Attempt 1)
+31,fs_a37a_8,str11,0,%11s,,Visit 2 - Modules Completed (Attempt 1)
+32,fs_a40a,byte,1,%8.0g,,Visit 2 - Questionnaire Inspection Date (Day)
+33,fs_a40b,byte,1,%8.0g,,Visit 2 - Questionnaire Inspection Date (Month)
+34,fs_a40c,int,1,%8.0g,,Visit 2 - Questionnaire Inspection Date (Year)
+35,fs_a41,int,1,%9.0g,,Visit 2 - Data Entry Clerk Code
+36,fs_a43a,byte,1,%8.0g,,Visit 2 - Data Entry Date (Day)
+37,fs_a43b,byte,1,%8.0g,,Visit 2 - Data Entry Date (Month)
+38,fs_a43c,int,1,%8.0g,,Visit 2 - Data Entry Date (Year)
+39,fs_a44,int,1,%9.0g,,Data Validation Clerk Code
+40,fs_a46a,byte,1,%8.0g,,Data Validation Date (Day)
+41,fs_a46b,byte,1,%8.0g,,Data Validation Date (Month)
+42,fs_a46c,int,1,%8.0g,,Data Validation Date (Year)
+43,fs_a47,byte,1,%8.0g,FS_A47,Visit 1 - Interview Notes
+44,fs_a48,byte,1,%8.0g,FS_A48,Visit 2 - Interview Notes
+45,fs_b02,byte,1,%8.0g,,"ENUMERATOR: FOR THE MONTHS THAT ANY FISHING TOOK PLACE IN THE COMMUNITY, WAS THE"
+46,fs_e01,byte,1,%8.0g,FS_E01,ENUMERATOR: CHECK MODULE C. WERE ANY HOUSEHOLD MEMBERS ENGAGED IN FISHING (Q1 OR
+47,fs_f00,byte,1,%8.0g,FS_F00,ENUMERATOR: CHECK MODULE C. WERE ANY HOUSEHOLD MEMBERS ENGAGED IN FISH TRADING I
+48,fs_f06,byte,1,%8.0g,FS_F06,ENUMERATOR: REFER TO MODULE B: FISHERIES CALENDAR. IS THE ANSWER TO QUESTION 2 '
+49,fs_f07,byte,1,%8.0g,FS_F07,Did you or anyone in your household do any fishing or fish trading during the la
+50,fs_i01,byte,1,%8.0g,FS_I01,ENUMERATOR: CHECK MODULE G. WERE ANY HOUSEHOLD MEMBERS ENGAGED IN FISHING (Q1 or
+51,fs_j00,byte,1,%8.0g,FS_J00,ENUMERATOR: CHECK MODULE G. WERE ANY HOUSEHOLD MEMBERS ENGAGED IN FISH TRADING I

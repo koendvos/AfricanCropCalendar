@@ -1,0 +1,117 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_f01,byte,1,%8.0g,hh_f01,"Do you own or are purchasing this property, is it provided to you by an emp"
+4,hh_f01_1a,byte,1,%8.0g,,Who in this household owns this property? (ID 1)
+5,hh_f01_1b,byte,1,%8.0g,,Who in this household owns this property? (ID 2)
+6,hh_f01_1c,byte,1,%8.0g,,Who in this household owns this property? (ID 3)
+7,hh_f01_1d,byte,1,%8.0g,,Who in this household owns this property? (ID 4)
+8,hh_f01_1filter,byte,1,%8.0g,hh_f01_1filter,Is there anyone else OUTSIDE the household who owns this property?
+9,hh_f01_1b__0,byte,1,%8.0g,,Who outside the household owns this property? (ID 1)
+10,hh_f01_1b__1,byte,1,%8.0g,,Who outside the household owns this property? (ID 2)
+11,hh_f01_2,byte,1,%8.0g,hh_f01_2,Type of ownership doc.... on which this property is located?
+12,hh_f01_2_oth,str20,0,%20s,,Please specify what other type of ownership document
+13,hh_f01_3,byte,1,%8.0g,hh_f01_3,ENUMERATOR: WAS RESPONDENT ABLE TO PROVIDE DOCUMENTATION?
+14,hh_f01_4a,byte,1,%8.0g,,..names are listed as owners on the ownership doc. where property is located? (I
+15,hh_f01_4b,byte,1,%8.0g,,..names are listed as owners on the ownership doc. where property is located? (I
+16,hh_f01_4c,byte,1,%8.0g,,..names are listed as owners on the ownership doc. where property is located? (I
+17,hh_f01_4d,byte,1,%8.0g,,..names are listed as owners on the ownership doc. where property is located? (I
+18,hh_f01_5a,byte,1,%8.0g,,"With regards to this property, who within this HH has the right to sell it? (ID"
+19,hh_f01_5b,byte,1,%8.0g,,"With regards to this property, who within this HH has the right to sell it? (ID"
+20,hh_f01_5c,byte,1,%8.0g,,"With regards to this property, who within this HH has the right to sell it? (ID"
+21,hh_f01_5d,byte,1,%8.0g,,"With regards to this property, who within this HH has the right to sell it? (ID"
+22,hh_f01_5filter,byte,1,%8.0g,hh_f01_5filter,Is there anyone OUTSIDE this HH who has the right to sell this property?
+23,hh_f01_5b__0,byte,1,%8.0g,,Who outside the HH has the right to sell this property? (ID 1)
+24,hh_f01_5b__1,byte,1,%8.0g,,Who outside the HH has the right to sell this property? (ID 2)
+25,hh_f01_6a,byte,1,%8.0g,,"As regards to this property, who within this HH has the right to bequeath it? (I"
+26,hh_f01_6b,byte,1,%8.0g,,"As regards to this property, who within this HH has the right to bequeath it? (I"
+27,hh_f01_6c,byte,1,%8.0g,,"As regards to this property, who within this HH has the right to bequeath it? (I"
+28,hh_f01_6d,byte,1,%8.0g,,"As regards to this property, who within this HH has the right to bequeath it? (I"
+29,hh_f01_6b__0,byte,1,%8.0g,,"As regards to this property, who outside this HH has the right to bequeath it? ("
+30,hh_f01_6b__1,byte,1,%8.0g,,"As regards to this property, who outside this HH has the right to bequeath it? ("
+31,hh_f02,long,1,%12.0g,,"If you sold this property today, how much would you receive for it?"
+32,hh_f03a,long,1,%12.0g,,F03a. Estimate the rent you could receive if you rented this property?
+33,hh_f03b,byte,1,%8.0g,hh_f03b,TIME UNIT
+34,hh_f04_1,byte,1,%8.0g,hh_f04_1,Is there any land that is considered part of this property besides the dwelling
+35,hh_f04_2a_1,double,1,%12.0g,,What is the area of this property?
+36,hh_f04_2a_2,byte,1,%8.0g,hh_f04_2a_2,unit
+37,hh_f04_2b_1,double,1,%12.0g,,What is the area of this property? GPS MEASURE
+38,hh_f04_2b_2,byte,1,%8.0g,hh_f04_2b_2,unit
+39,hh_f04_3,byte,1,%8.0g,hh_f04_3,Do you have to pay land rent on this property?
+40,hh_f04_4,long,1,%12.0g,,What was the total amount paid in the form of land rent during the past tax year
+41,hh_f04_5,byte,1,%8.0g,hh_f04_5,Do you have to pay property tax on this property?
+42,hh_f04_6,long,1,%12.0g,,What was the total amount paid in the form of property tax during the past tax y
+43,hh_f04a,long,1,%12.0g,,How much do you pay to rent this property?<br><br>MK
+44,hh_f04b,byte,1,%8.0g,hh_f04b,TIME UNIT
+45,hh_f05,int,1,%8.0g,,How many years ago was this dwelling built? How old is it?<br><br> YEARS
+46,hh_f06,byte,1,%8.0g,hh_f06,WHAT GENERAL TYPE OF CONSTRUCTION MATERIALS ARE USED FOR THE DWELLING?
+47,hh_f07,byte,1,%8.0g,hh_f07,OUTER WALLS OF THE MAIN DWELLING OF THE HH ARE PREDOMINANTLY MADE OF WHAT MATERI
+48,hh_f07_oth,str19,0,%19s,,SPECIFY MATERIAL THE OUTER WALLS OF THE MAIN DWELLING OF THE HH ARE PREDOMINANTL
+49,hh_f08,byte,1,%8.0g,hh_f08,THE ROOF OF THE MAIN DWELLING IS PREDOMINANTLY MADE OF WHAT MATERIAL
+50,hh_f08_oth,str9,0,%9s,,SPECIFY WHAT MATERIAL THE ROOF OF THE MAIN DWELLING IS PREDOMINANTLY MADE OF
+51,hh_f09,byte,1,%8.0g,hh_f09,THE FLOOR OF THE MAIN DWELLING IS PREDOMINANTLY MADE OF WHAT MATERIAL?
+52,hh_f09_oth,str9,0,%9s,,SPECIFY WHAT MATERIAL THE FLOOR OF THE MAIN DWELLING IS PREDOMINANTLY MADE OF
+53,hh_f10,byte,1,%8.0g,,How many separate rooms do the members of your household occupy?
+54,hh_f11,byte,1,%8.0g,hh_f11,What is your main source of lighting fuel?
+55,hh_f11_oth,str16,0,%16s,,Specify your main source of lighting fuel
+56,hh_f12,byte,1,%8.0g,hh_f12,What is your main source of cooking fuel?
+57,hh_f12_oth,str10,0,%10s,,Specify your main source of cooking fuel.
+58,hh_f13,byte,1,%8.0g,hh_f13,Do you ever use firewood for fuel?
+59,hh_f14,byte,1,%8.0g,hh_f14,Do you ever collect firewood?
+60,hh_f15,byte,1,%8.0g,hh_f15,Where do you go to collect firewood?
+61,hh_f15_oth,str28,0,%28s,,Specify where you go to collect firewood.
+62,hh_f16a,int,1,%8.0g,,Time it takes to walk from your dwelling to where you usually go to collect fire
+63,hh_f16b,byte,1,%8.0g,hh_f16b,Time it takes to walk from your dwelling to where you usually go to collect fire
+64,hh_f17,byte,1,%8.0g,hh_f17,"Of the firewood you used in the past week, how much of it did you purchase?"
+65,hh_f18,int,1,%8.0g,,"Total value of the firewood you used in the past week, whether gathered or purch"
+66,hh_f19,byte,1,%8.0g,hh_f19,Do you have  electricity working in your dwelling?
+67,hh_f20a,byte,1,%8.0g,hh_f20a,"In the event of a black out, what source of energy do you use for LIGHTING?"
+68,hh_f20a_oth,str11,0,%11s,,Specify what source of energy do you use for LIGHTING in the event of a black ou
+69,hh_f20b,byte,1,%8.0g,hh_f20b,"In the event of a black out, what source of energy do you use for COOKING?"
+70,hh_f20b_oth,str11,0,%11s,,Specify what source of energy do you use for COOKING in the event of a black.
+71,hh_f21,byte,1,%8.0g,hh_f21,Do you get your electricity via ESCOM?
+72,hh_f22,int,1,%8.0g,,...how many weeks did you have to wait for your connection to be in working orde
+73,hh_f23,byte,1,%8.0g,hh_f23,Did you have to pay an unofficial fee to get a connection?
+74,hh_f24,byte,1,%8.0g,hh_f24,"In the last 12 months, how frequently did you experience blackouts in your area?"
+75,hh_f25,long,1,%12.0g,,How much did you last pay for electricity?
+76,hh_f26_1,byte,1,%8.0g,hh_f26_1,agree or disagree: On the whole ESCOM is responsive to the needs of HH like mine
+77,hh_f26_2,byte,1,%8.0g,hh_f26_2,How satisfied are you with ESCOM?
+78,hh_f26a,byte,1,%8.0g,,To what length of time does this cost for electricity refer?
+79,hh_f26b,byte,1,%8.0g,hh_f26b,To what length of time does this cost for electricity refer?
+80,hh_f27,byte,1,%8.0g,hh_f27,"Although you do not have electricity in your dwelling, does your village /"
+81,hh_f29,byte,1,%8.0g,hh_f29,What is the main reason for your household not to have access to electricity?
+82,hh_f29_oth,str28,0,%28s,,Specify the main reason for your household not to have access to electricity.
+83,hh_f30,int,1,%8.0g,,How many weeks have you been waiting for?
+84,hh_f31,byte,1,%8.0g,hh_f31,Is there a MTL telephone in working condition in the dwelling unit?
+85,hh_f32,int,1,%8.0g,,Total cost for MTL telephone service in the HH over the last period?
+86,hh_f33a,byte,1,%8.0g,,To what length of time does this MTL telephone cost refer?
+87,hh_f33b,byte,1,%8.0g,hh_f33b,To what length of time does this MTL telephone cost refer?
+88,hh_f34,byte,1,%8.0g,,How many working cell phones in total does your household own?
+89,hh_f35,long,1,%12.0g,,Estimate the total cost for all cell phone service for all household
+90,hh_f36,byte,1,%8.0g,hh_f36,What is your main source of drinking water?
+91,hh_f36_oth,str23,0,%23s,,Specify your main source of drinking water.
+92,hh_f37,long,1,%12.0g,,What was the total cost of drinking water for your household last month?
+93,hh_f38a,int,1,%8.0g,,Amt of time it takes to walk (ONE WAY) to the main water source from dwelling
+94,hh_f38b,byte,1,%8.0g,hh_f38b,Unit of time it takes to walk (ONE WAY) to the main water source from dwelling
+95,hh_f39,byte,1,%8.0g,hh_f39,Do you use the main water source...
+96,hh_f40,byte,1,%8.0g,hh_f40,What is your main source of drinking water in the other season?
+97,hh_f41,byte,1,%8.0g,hh_f41,What kind of toilet facility does your household use?
+98,hh_f41_oth,strL,0,%36s,,Specify what kind of toilet facility your household uses
+99,hh_f42,byte,1,%8.0g,hh_f42,Is this toilet facility for the use of:
+100,hh_f43,byte,1,%8.0g,hh_f43,What kind of rubbish disposal facilities does your household use?
+101,hh_f43_oth,str31,0,%31s,,Specify the kind of rubbish disposal facilities your household uses.
+102,hh_f44,byte,1,%8.0g,hh_f44,Do any members of your HH sleep under a bed net... during the year?
+103,hh_f45,byte,1,%8.0g,hh_f45,Has/have the bed net(s) ever been dipped in insecticide against mosqui-toes
+104,hh_f47,byte,1,%8.0g,hh_f47,Do the children under 5 in the household sleep under a bed net ...
+105,hh_f48,byte,1,%8.0g,hh_f48,"Does HH member or someone outside your household, currently have an account?"
+106,hh_f49,byte,1,%8.0g,,ENUMERATOR: RECORD THE HOUSEHOLD ROSTER ID OF THE RESPONDENT.
+107,hh_f50,byte,1,%8.0g,hh_f50,Does any other member of your household... currently have an account?
+108,hh_f51a,byte,1,%8.0g,,"RECORD THE HH ROSTER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDING THE RESPONDENT ("
+109,hh_f51b,byte,1,%8.0g,,"RECORD THE HH ROSTER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDING THE RESPONDENT ("
+110,hh_f51c,byte,1,%8.0g,,"RECORD THE HH ROSTER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDING THE RESPONDENT ("
+111,hh_f52,byte,1,%8.0g,hh_f52,...have you used an account.. of someone else in your HH or your community?
+112,hh_f53,byte,1,%8.0g,,ENUMERATOR: RECORD THE HOUSEHOLD ROSTER ID OF THE RESPONDENT.
+113,hh_f54,byte,1,%8.0g,hh_f54,..other member of your HH used an account.. of someone else in your HH/your comm
+114,hh_f55a,byte,1,%8.0g,,"RECORD ROSTER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDING THE RESPONDENT(ID 1)"
+115,hh_f55b,byte,1,%8.0g,,"RECORD ROSTER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDING THE RESPONDENT(ID 2)"
+116,hh_f55c,byte,1,%8.0g,,"RECORD ROSTER ID CODE FOR UP TO 3 INDIVIDUALS, EXCLUDING THE RESPONDENT(ID 3)"

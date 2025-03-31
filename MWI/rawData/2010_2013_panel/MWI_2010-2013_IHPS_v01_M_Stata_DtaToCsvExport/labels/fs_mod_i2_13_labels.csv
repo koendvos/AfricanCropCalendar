@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,fs_i0b,byte,1,%28.0g,FS_I0B,GEAR ID
+6,fs_i0c,str20,0,%20s,,GEAR
+7,fs_i14,byte,1,%8.0g,FS_I14,"During the last LOW fishing season,  did your household rent out any [GEAR] to o"
+8,fs_i15,byte,1,%8.0g,,How many [GEAR] did your household rent out during the last LOW fishing season?
+9,fs_i16,byte,1,%12.0g,,For how much in TOTAL did your household rent these [GEAR] out to other fishers

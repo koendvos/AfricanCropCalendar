@@ -1,0 +1,8 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%8s,,Unique EA Identifier
+2,com_ck00a,byte,1,%8.0g,COM_CK00A,item
+3,com_ck00c,byte,1,%8.0g,COM_CK00C,Is [ITEM] available for sale in your community or nearby at the present time?
+4,com_ck00b1,long,1,%12.0g,,What is the price for the item? (MK)
+5,com_ck00b2,int,1,%8.0g,,What is the price for the item? (NUMBER OF UNITS)
+6,com_ck00b3,byte,1,%8.0g,COM_CK00B3A,What is the price for the item? (UNIT CODES)
+7,com_ck00b3_os,str21,0,%21s,,What is the price for the item? (UNIT CODES/OTHER SPECIFY)

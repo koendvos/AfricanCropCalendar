@@ -1,0 +1,19 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,hh_t01,byte,1,%8.0g,HH_T01,"Concerning your household's food consumption, over the past months which of the"
+5,hh_t02,byte,1,%8.0g,HH_T02,Concerning your housing which of the following is true?
+6,hh_t03,byte,1,%8.0g,HH_T03,"Concerning your household's clothing, which of the following is true?"
+7,hh_t04,byte,1,%8.0g,HH_T04,Concerning the standard of health care you receive for household members which o
+8,hh_t05,byte,1,%8.0g,,On which step are you today?
+9,hh_t06,byte,1,%8.0g,,On which step are most of your neighbors today?
+10,hh_t07,byte,1,%8.0g,,On which step are most of your friends today?
+11,hh_t08,byte,1,%8.0g,HH_T08,Which of the following is true?  Your current income ...
+12,hh_t09,int,1,%8.0g,,How many changes of clothes do you (HH head) own?
+13,hh_t10,byte,1,%8.0g,HH_T10,What do you (HH head) sleep on?
+14,hh_t10_os,str30,0,%30s,,What do you (HH head) sleep on? (Other Specify)
+15,hh_t11,byte,1,%8.0g,HH_T11,What do you (HH head) sleep under in the cold season (July)?
+16,hh_t11_os,str21,0,%21s,,What do you (HH head) sleep under in the cold season (July)? (Other Specify)
+17,hh_t12,byte,1,%8.0g,HH_T12,What do you (HH head) sleep under in the hot season (October)?
+18,hh_t12_os,str23,0,%23s,,What do you (HH head) sleep under in the hot season (October)? (Other Specify)

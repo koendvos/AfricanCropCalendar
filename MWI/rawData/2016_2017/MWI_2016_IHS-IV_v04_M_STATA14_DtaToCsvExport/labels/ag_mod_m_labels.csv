@@ -1,0 +1,36 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%4s,,Garden ID
+4,plotid,str3,0,%3s,,Plot ID
+5,ag_m0a,byte,1,%8.0g,ag_mA,A. Did you or anyone in your household plant any crops during the reference dimb
+6,crop_code,byte,1,%8.0g,crop,Crop ID
+7,ag_m0d,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID
+8,ag_m0e,int,1,%8.0g,ag_m0a,What is the primary variety of [CROP] being cultivated on this [PLOT
+9,ag_m0e_oth,str14,0,%14s,,Please specify other variety
+10,ag_m0f,byte,1,%8.0g,ag_m0b,"Is the primary variety of [CROP] local, composite, or hybrid?"
+11,ag_m0g,byte,1,%8.0g,ag_m0c,Is the variety recyclable?
+12,ag_m0h,int,1,%8.0g,,"when, [which year] did you last buy the seed you planted on this plot?"
+13,ag_m01,byte,1,%8.0g,ag_m01,What type of crop stand was on the PLOT?READ RESPONSES
+14,ag_m02,byte,1,%8.0g,ag_m02,Was the crop ([CROP]) planted in the entire area of the plot?
+15,ag_m03,byte,1,%8.0g,ag_m03,"Approximately, how much of the [PLOT] is under crop [CROP]?"
+16,ag_m04a,double,1,%12.0g,,How much seed did you plant for the [CROP] on this [PLOT] during the[RS]?(UNIT)
+17,ag_m04b,byte,1,%8.0g,ag_m04b,unit
+18,ag_m04b_oth,str24,0,%24s,,SPECIFY UNIT
+19,ag_m05_1,byte,1,%8.0g,ag_m05_1,"Approximately, how much of the [PLOT] is under crop [CROP]?"
+20,ag_m05a,byte,1,%8.0g,ag_m05a,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(MONTH)
+21,ag_m05b,int,1,%8.0g,, YEAR (4 DIGIT)
+22,ag_m09,byte,1,%8.0g,ag_m09,Was the area harvested less than the area planted?
+23,ag_m10a,byte,1,%8.0g,ag_m10,Why was the area harvested less than the area planted? (1ST)
+24,ag_m10b,byte,1,%8.0g,ag_m10,Why was the area harvested less than the area planted? (1ST)
+25,ag_m10_oth,strL,0,%36s,,Why was the area harvested less than the area planted? (OTHER)
+26,ag_m10_1,byte,1,%8.0g,ag_m10_1,What was the main disease affecting the plants in the [PLOT]?
+27,ag_m10_1oth,str17,0,%17s,,What was the other main disease affecting the plants in the [PLOT]?
+28,ag_m11a,double,1,%12.0g,,How much [CROP] did you harvest from this [PLOT] during the [RS]? (QUANT)
+29,ag_m11b,byte,1,%8.0g,ag_m11b,How much [CROP] did you harvest from this [PLOT] during the [RS]? (UNIT)
+30,ag_m11b_oth,str20,0,%20s,,How much [CROP] did you harvest from this [PLOT]......? (OTHER)
+31,ag_m11c,byte,1,%8.0g,ag_m11c,How much [CROP] did you harvest from this [PLOT] during the [RS]? (S/U)
+32,ag_m12a,byte,1,%8.0g,ag_m12a, What were the months when the harvest started and ended? (START)
+33,ag_m12b,byte,1,%8.0g,ag_m12b,What were the months when the harvest started and ended? (END)
+34,ag_m13a,byte,1,%8.0g,,..HH makes decisions concerning the use of the (CROP)output from [PLOT]?(ID 1)
+35,ag_m13b,byte,1,%8.0g,,..HH makes decisions concerning the use of the (CROP)output from [PLOT]?(ID 2)

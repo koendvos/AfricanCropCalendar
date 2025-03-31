@@ -1,0 +1,36 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%9s,,Unique EA Identifier
+2,com_cc01,byte,1,%6.0f,cc1,"In the last five years, have there been more people who moved into this communit"
+3,com_cc02,long,1,%6.0f,,What is the population of this community?
+4,com_cc03,int,1,%6.0f,,How many households are found in this community?
+5,com_cc03_1,int,1,%6.0f,,How many child-headed households are found in this community?
+6,com_cc04a,byte,1,%14.0g,religion,What are the religions practiced by residents of this community?(1st)
+7,com_cc04b,int,1,%9.0g,,Number of Households Practising religion listed in A
+8,com_cc04c,byte,1,%14.0g,religion,What are the religions practiced by residents of this community?(2nd)
+9,com_cc04d,int,1,%9.0g,,Number of Households Practising religion listed in C
+10,com_cc04e,byte,1,%14.0g,religion,What are the religions practiced by residents of this community?(3rd)
+11,com_cc04f,int,1,%9.0g,,Number of Households Practising religion listed in E
+12,com_cc04a_oth,str14,0,%14s,,Specify the religion practiced by residents of this community.
+13,com_cc05a,byte,1,%9.0g,language,What are the languages spoken at home by residents of this community? (1st)
+14,com_cc05b,int,1,%9.0g,,Number of households that speak language in A
+15,com_cc05c,byte,1,%9.0g,language,What are the languages spoken at home by residents of this community? (2nd)
+16,com_cc05d,int,1,%9.0g,,Number of households that speak language in C
+17,com_cc05e,byte,1,%9.0g,language,What are the languages spoken at home by residents of this community? (3rd)
+18,com_cc05f,int,1,%9.0g,,Number of households that speak language in E
+19,com_cc05a_oth,str11,0,%9s,,Specify the other language spoken by residents of this community.
+20,com_cc06,byte,1,%6.0f,cc6,"CC6. Do individuals in this community trace their descent through their father,"
+21,com_cc07a,byte,1,%39.0g,marriage,First common type of marriage witnessed in this community?
+22,com_cc07b,int,1,%9.0g,,Number of Households United through type of marriage in A
+23,com_cc07c,byte,1,%39.0g,marriage,Second common type of marriage witnessed in this community?
+24,com_cc07d,int,1,%9.0g,,Number of Households United through type of marriage in C
+25,com_cc07e,byte,1,%39.0g,marriage,Third common type of marriage witnessed in this community?
+26,com_cc07f,int,1,%9.0g,,Number of Households United through type of marriage in E
+27,com_cc07a_oth,str71,0,%9s,,Specify the other type of marriage witnessed in the community
+28,com_cc08,int,1,%6.0f,,How many polygamous house-holds are found in this community?
+29,com_cc09,byte,1,%6.0f,cc9,What is the most common use of land in this community?
+30,com_cc09_oth,str31,0,%9s,,Specify other use of land in the community
+31,com_cc10,byte,1,%6.0f,cc10,Is the land of the community...
+32,com_cc11,byte,1,%6.0f,cc11,What share of the land in your community is in bush?
+33,com_cc12,byte,1,%6.0f,cc12,What share of the agricultural land in your community is in estates?
+34,com_cc13,byte,1,%6.0f,cc13,"What share of the land in your community is in forest, and not used for agricult"
+35,com_cc14,byte,1,%6.0f,cc14,What share of the registered voters from this community voted in the 2014

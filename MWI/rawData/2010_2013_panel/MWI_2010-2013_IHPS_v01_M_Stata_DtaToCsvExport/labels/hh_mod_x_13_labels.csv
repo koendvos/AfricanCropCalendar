@@ -1,0 +1,18 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_x10,byte,1,%8.0g,HH_X10,Did you or anyone in your household own or cultivate a plot during the 2012/2013
+6,hh_x11,byte,1,%8.0g,HH_X11,Did you or anyone in your household own any livestock in the last 12 months?
+7,hh_x11_1,byte,1,%8.0g,HH_X11_1,ENUMERATOR: SHOULD THE AGRICULTURE QUESTIONNAIRE BE ADMINISTERED?
+8,hh_x12_1,byte,1,%8.0g,HH_X12_1,ENUMERATOR: IS THIS A PANEL A HOUSEHOLD?
+9,hh_x16,byte,1,%8.0g,HH_X16,Did you or anyone in this household do any fishing or fish trading in the last 1
+10,hh_x16_1,byte,1,%8.0g,HH_X16_1,ENUMERATOR: SHOULD THE FISHERY QUESTIONNAIRE BE ADMINISTERED?
+11,hh_x17,byte,1,%8.0g,HH_X17,ENUMERATOR: DID HOUSEHOLD SAY 'YES' TO X10?
+12,hh_x18,byte,1,%8.0g,HH_X18,Did you or anyone in your household cultivate a plot during the 2013 dry season?
+13,hh_x19,byte,1,%8.0g,HH_X19,"Did you or anyone in your household harvest any cassava, tea, coffee or any othe"
+14,hh_x20,byte,1,%8.0g,HH_X20,ENUMERATOR: SHOULD THE VISIT 2 AGRICULTURE QUESTIONNAIRE BE ADMINISTERED?
+15,hh_x21,byte,1,%8.0g,HH_X21,ENUMERATOR: IS THIS A PANEL B HOUSEHOLD?
+16,hh_x22,byte,1,%8.0g,HH_X22,Did you or anyone in this household do any fishing or fish trading in the last 1
+17,hh_x23,byte,1,%8.0g,HH_X23,ENUMERATOR: SHOULD THE FISHERY QUESTIONNAIRE BE ADMINISTERED?

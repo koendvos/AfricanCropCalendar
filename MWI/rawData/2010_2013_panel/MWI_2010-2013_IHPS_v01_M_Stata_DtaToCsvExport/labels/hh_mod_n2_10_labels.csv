@@ -1,0 +1,115 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,hh_n09a,byte,1,%8.0g,,Enterprise ID
+7,hh_n09b,str25,0,%25s,,Please provide details on the main product or service of each [ENTERPRISE] that
+8,hh_n09c,byte,1,%8.0g,,Please provide details on the main product or service of each [ENTERPRISE] that
+9,hh_n10a,byte,1,%8.0g,,'Who in the household manages this enterprise or is most familiar with it? (MANA
+10,hh_n10b,byte,1,%8.0g,,'Who in the household manages this enterprise or is most familiar with it?  (MAN
+11,hh_n11,byte,1,%8.0g,,"RECORD THE ID OF THE RESPONDENT, FOR THIS [ENTERPRISE]."
+12,hh_n12a,byte,1,%8.0g,,'Who in the household owns this [ENTERPRISE]? (OWNER 1)
+13,hh_n12b,byte,1,%8.0g,,'Who in the household owns this [ENTERPRISE]? (OWNER 2)
+14,hh_n13a,byte,1,%8.0g,,'How many individuals outside of the household are co-owners of this [ENTERPRISE
+15,hh_n13b,byte,1,%8.0g,,'How many individuals outside of the household are co-owners of this [ENTERPRISE
+16,hh_n14,byte,1,%15.0g,HH_N14,"What share of the profits from this [ENTERPRISE] is kept by your household, rath"
+17,hh_n15a,byte,1,%8.0g,,When was this [ENTERPRISE] first started? (MONTH)
+18,hh_n15b,int,1,%8.0g,,When was this [ENTERPRISE] first started? (YEAR)
+19,hh_n16a,byte,1,%54.0g,HH_N16A,What weres the sources of start-up capital for this enterprise? (1ST)
+20,hh_n16a_os,str40,0,%40s,,What were the sources of start-up capital for this enterprise? (1st) (Other Spec
+21,hh_n16b,byte,1,%54.0g,HH_N16B,What weres the sources of start-up capital for this enterprise? (2ND)
+22,hh_n16b_os,str32,0,%32s,,What were the sources of start-up captial for this enterprise? (2nd) (Other Spec
+23,hh_n17,byte,1,%24.0g,HH_N17,Where do you operate this [ENTERPRISE]?
+24,hh_n18,byte,1,%8.0g,HH_N18,Does this [ENTERPRISE] have access to working electricity?
+25,hh_n19,byte,1,%15.0g,HH_N19,What is the main source of electricity for this [ENTERPRISE]?
+26,hh_n20a,byte,1,%41.0g,HH_N20A,To whom do you mostly sell your products or services? (1ST)
+27,hh_n20b,byte,1,%41.0g,HH_N20B,To whom do you mostly sell your products or services? (2ND)
+28,hh_n21a,byte,1,%8.0g,HH_N21A,Is this [ENTERPRISE] officially registered with the Register of Companies?
+29,hh_n21b,byte,1,%8.0g,HH_N21B,Is this [ENTERPRISE] officially registered with the Malawi Revenue Authority?
+30,hh_n21c,byte,1,%8.0g,HH_N21C,Is this [ENTERPRISE] officially registered with the Local Assembly?
+31,hh_n22,byte,1,%8.0g,HH_N22,Does this [ENTERPRISE] or any of this owners or managers belong to any registere
+32,hh_n23,byte,1,%8.0g,HH_N23,ENUMERATOR: DOES THIS BUSINESS PROVIDE FOREST-BASED PRODUCTS?
+33,hh_n24,byte,1,%27.0g,HH_N24,What is the source of the forest-based product sold by this [ENTERPRISE]?
+34,hh_n24_os,str32,0,%32s,,What is the source of the forest-based product sold by this [ENTERPRISE]? (Other
+35,hh_n25a,byte,1,%21.0g,HH_N25C,"Was [ENTERPRISE] operational in (March 2009), and if so, were your sales high, a"
+36,hh_n25b,byte,1,%21.0g,HH_N25D,"Was [ENTERPRISE] operational in (April 2009), and if so, were your sales high, a"
+37,hh_n25c,byte,1,%21.0g,HH_N25E,"Was [ENTERPRISE] operational in (May 2009), and if so, were your sales high, ave"
+38,hh_n25d,byte,1,%21.0g,HH_N25F,"Was [ENTERPRISE] operational in (June 2009), and if so, were your sales high, av"
+39,hh_n25e,byte,1,%21.0g,HH_N25G,"Was [ENTERPRISE] operational in (July 2009), and if so, were your sales high, av"
+40,hh_n25f,byte,1,%21.0g,HH_N25H,"Was [ENTERPRISE] operational in (August 2009), and if so, were your sales high,"
+41,hh_n25g,byte,1,%21.0g,HH_N25I,"Was [ENTERPRISE] operational in (September 2009), and if so, were your sales hig"
+42,hh_n25h,byte,1,%21.0g,HH_N25J,"Was [ENTERPRISE] operational in (October 2009), and if so, were your sales high,"
+43,hh_n25i,byte,1,%21.0g,HH_N25K,"Was [ENTERPRISE] operational in (November 2009), and if so, were your sales high"
+44,hh_n25j,byte,1,%21.0g,HH_N25L,"Was [ENTERPRISE] operational in (December 2009), and if so, were your sales high"
+45,hh_n25k,byte,1,%21.0g,HH_N25M,"Was [ENTERPRISE] operational in (January 2010), and if so, were your sales high,"
+46,hh_n25l,byte,1,%21.0g,HH_N25N,"Was [ENTERPRISE] operational in (February 2010), and if so, were your sales high"
+47,hh_n25m,byte,1,%21.0g,HH_N25O,"Was [ENTERPRISE] operational in (March 2010), and if so, were your sales high, a"
+48,hh_n25n,byte,1,%21.0g,HH_N25P,"Was [ENTERPRISE] operational in (April 2010), and if so, were your sales high, a"
+49,hh_n25o,byte,1,%21.0g,HH_N25Q,"Was [ENTERPRISE] operational in (May 2010), and if so, were your sales high, ave"
+50,hh_n25p,byte,1,%21.0g,HH_N25R,"Was [ENTERPRISE] operational in (June 2010), and if so, were your sales high, av"
+51,hh_n25q,byte,1,%21.0g,HH_N25S,"Was [ENTERPRISE] operational in (July 2010), and if so, were your sales high, av"
+52,hh_n25r,byte,1,%21.0g,HH_N25T,"Was [ENTERPRISE] operational in (August 2010), and if so, were your sales high,"
+53,hh_n25s,byte,1,%21.0g,HH_N25U,"Was [ENTERPRISE] operational in (September 2010), and if so, were your sales hig"
+54,hh_n25t,byte,1,%21.0g,HH_N25V,"Was [ENTERPRISE] operational in (October 2010), and if so, were your sales high,"
+55,hh_n25u,byte,1,%21.0g,HH_N25W,"Was [ENTERPRISE] operational in (November 2010), and if so, were your sales high"
+56,hh_n25v,byte,1,%21.0g,HH_N25X,"Was [ENTERPRISE] operational in (December 2010), and if so, were your sales high"
+57,hh_n25w,byte,1,%21.0g,HH_N25Y,"Was [ENTERPRISE] operational in (Januaray 2010), and if so, were your sales high"
+58,hh_n25x,byte,1,%21.0g,HH_N25Z,"Was [ENTERPRISE] operational in (February 2011), and if so, were your sales high"
+59,hh_n25y,byte,1,%21.0g,HH_N25A,"Was [ENTERPRISE] operational in (March 2011), and if so, were your sales high, a"
+60,hh_n26a,byte,1,%46.0g,HH_N26A,Why was this [ENTERPRISE] was not in operation for all year long? (1ST)
+61,hh_n26a_os,str44,0,%44s,,Why was this [ENTERPRISE] not in operation for all year long? (1st) (Other Speci
+62,hh_n26b,byte,1,%46.0g,HH_N26B,Why was this [ENTERPRISE] was not in operation for all year long? (2ND)
+63,hh_n26b_os,str21,0,%21s,,Why was this [ENTERPRISE] not in operation for all year long? (2nd) (Other Speci
+64,hh_n27,byte,1,%8.0g,HH_N27,Enumerator: refer to HH_N25. Was this [enterprise] in operaton in the last month
+65,hh_n28,byte,1,%8.0g,HH_N28,Are you planning to resume the operations of this [ENTERPRISE] in the near futur
+66,hh_n29a,byte,1,%46.0g,HH_N29A,Why not? (1ST)
+67,hh_n29a_os,str29,0,%29s,,Why not? (1st) (Other Specify)
+68,hh_n29b,byte,1,%46.0g,HH_N29B,Why not? (2ND)
+69,hh_n29b_os,str28,0,%28s,,Why not? (2nd) (Other Specify)
+70,hh_n30a1,byte,1,%8.0g,,"During the last month of operation, 1ST members worked for this [ENTERPRISE]?"
+71,hh_n30a2,byte,1,%8.0g,,"During the last month of operation in the past 12 months, how many days did 1ST"
+72,hh_n30a3,float,1,%9.0g,,"During those days, approximately, how many hours did 1ST member work for this [E"
+73,hh_n30a4,byte,1,%8.0g,,"During the last 12 months, how many months did 1ST member work for this [ENTERPR"
+74,hh_n30b1,byte,1,%8.0g,,"During the last month of operation, 2ND members worked for this [ENTERPRISE]?"
+75,hh_n30b2,byte,1,%8.0g,,"During the last month of operation in the past 12 months, how many days did 2ND"
+76,hh_n30b3,int,1,%9.0g,,"During those days, approximately, how many hours did 2ND member work for this [E"
+77,hh_n30b4,byte,1,%8.0g,,"During the last 12 months, how many months did 2ND member work for this [ENTERPR"
+78,hh_n30c1,byte,1,%8.0g,,"During the last month of operation, 3RD members worked for this [ENTERPRISE]?"
+79,hh_n30c2,byte,1,%8.0g,,"During the last month of operation in the past 12 months, how many days did 3RD"
+80,hh_n30c3,float,1,%9.0g,,"During those days, approximately, how many hours did 3RD member work for this [E"
+81,hh_n30c4,byte,1,%8.0g,,"During the last 12 months, how many months did 3RD member work for this [ENTERPR"
+82,hh_n30d1,byte,1,%8.0g,,"During the last month of operation, 4TH members worked for this [ENTERPRISE]?"
+83,hh_n30d2,byte,1,%8.0g,,"During the last month of operation in the past 12 months, how many days did 4TH"
+84,hh_n30d3,int,1,%9.0g,,"During those days, approximately, how many hours did 4TH member work for this [E"
+85,hh_n30d4,byte,1,%8.0g,,"During the last 12 months, how many months did 4TH member work for this [ENTERPR"
+86,hh_n31a1,byte,1,%8.0g,,"During the last month of operation in the past 12 months, how many non-household"
+87,hh_n31a2,byte,1,%8.0g,,"During the last month of operation in the past 12 months, how many days did a ty"
+88,hh_n31a3,byte,1,%9.0g,,During the days of employment in the last month of operation in the past 12 mont
+89,hh_n31a4,long,1,%12.0g,,"During the last month of operation in the past 12 months, what was the total exp"
+90,hh_n31b1,byte,1,%8.0g,,"During the last month of operation in the past 12 months, how many non-household"
+91,hh_n31b2,byte,1,%8.0g,,"During the last month of operation in the past 12 months, how many days did a ty"
+92,hh_n31b3,byte,1,%9.0g,,During the days of employment in the last month of operation in the past 12 mont
+93,hh_n31b4,long,1,%12.0g,,"During the last month of operation in the past 12 months, what was the total exp"
+94,hh_n31c1,byte,1,%8.0g,,"During the last month of operation in the past 12 months, how many non-household"
+95,hh_n31c2,byte,1,%8.0g,,"During the last month of operation in the past 12 months, how many days did a ty"
+96,hh_n31c3,byte,1,%9.0g,,During the days of employment in the last month of operation in the past 12 mont
+97,hh_n31c4,int,1,%12.0g,,"During the last month of operation in the past 12 months, what was the total exp"
+98,hh_n32,long,1,%12.0g,,"During the last month of operation, what was the value of total sales of product"
+99,hh_n33,byte,1,%13.0g,HH_N33,Enumerator: refer to question 25. Was the last month of operation a month of...
+100,hh_n34,long,1,%12.0g,,"During the last month of average sales, what was the value of total sales (zogul"
+101,hh_n35,long,1,%12.0g,,"During the last month of high sales, what was the value of total sales (zogulits"
+102,hh_n36,long,1,%12.0g,,"During the last month of low sales, what was the value of total sales (zogulitsa"
+103,hh_n37,long,1,%12.0g,,"During the last month of high sales, what was the value of total sales (zogulits"
+104,hh_n38,long,1,%12.0g,,"During the last month of low sales, what was the value of total sales (zogulitsa"
+105,hh_n39,long,1,%12.0g,,"During the last month of average sales, what was the value of total sales (zogul"
+106,hh_n40,long,1,%12.0g,,"During the last month of operation, what was the profit (phindu)of this [ENTERPR"
+107,hh_n41a,long,1,%12.0g,,"Last operating month, total expenditure on Raw Materials"
+108,hh_n41b,long,1,%12.0g,,"Last operating month, total expenditure on Purchase of Goods for Sale (Inventory"
+109,hh_n41c,long,1,%12.0g,,"Last operating month, total expenditure on Freight / Transport"
+110,hh_n41d,long,1,%12.0g,,"Last operating month, total expenditure on Fuel / Oil"
+111,hh_n41e,long,1,%12.0g,,"Last operating month, total expenditure on Electricity"
+112,hh_n41f,int,1,%12.0g,,"Last operating month, total expenditure on Water"
+113,hh_n41g,long,1,%12.0g,,"Last operating month, total expenditure on Insurance"
+114,hh_n41h,long,1,%12.0g,,"Last operating month, total expenditure on Other"

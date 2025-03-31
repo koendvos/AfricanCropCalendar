@@ -1,0 +1,17 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrance Sequence for O/S Merge
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,com_cf28,byte,1,%8.0g,COM_CF28,Are there any agriculture-based projects operating in the community?
+4,com_cf00,int,1,%8.0g,,PROJECT ID CODE
+5,com_cf29,str25,0,%25s,,"ENUMERATOR: FOR EACH AGRICULTURE-BASED PROJECT OPERATING IN THE COMMUNITY, RECOR"
+6,com_cf30,byte,1,%36.0g,COM_CF30,What is the main focus of the project?
+7,com_cf31,int,1,%12.0g,,How many farmers participate?
+8,com_cf32a,byte,1,%8.0g,,When was the project  established?
+9,com_cf32b,int,1,%8.0g,,When was the project  established?
+10,com_cf33,byte,1,%26.0g,COM_CF33,How is the project funded?
+11,com_cf34,byte,1,%18.0g,COM_CF34,Primary external funding source
+12,com_cf35a,byte,1,%8.0g,COM_CF35A,Types of benefits provided: Training/Farmer Field schools
+13,com_cf35b,byte,1,%8.0g,COM_CF35B,Types of benefits provided: Free Inputs
+14,com_cf35c,byte,1,%8.0g,COM_CF35C,Types of benefits provided: Provides Credit
+15,com_cf35d,byte,1,%8.0g,COM_CF35D,Types of benefits provided: Provides cash in return for undertaking certain agri
+16,com_cf35e,byte,1,%8.0g,COM_CF35E,Types of benefits provided: Other (Specify)

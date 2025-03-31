@@ -1,0 +1,8 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%8s,,Unique EA Identifier
+2,com_cg35a,str1,0,%1s,,Code of Events
+3,com_cg35b,strL,0,%112s,,Description of Events
+4,com_cg35c,byte,1,%8.0g,cg35b_code,CODE FOR EVENT
+5,com_cg35c_oth,strL,0,%33s,,"Please, specify Other Good"
+6,com_cg36,int,1,%8.0g,,In what year did this event occur?
+7,com_cg37,byte,1,%8.0g,cg37,What share of the community was affected?

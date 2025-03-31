@@ -1,0 +1,33 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_o0a,byte,1,%8.0g,,Respondent ID
+6,hh_o00,byte,1,%8.0g,HH_O00,Does the household head or spouse have any biological sons and/or daughters who
+7,hh_o01_2,byte,1,%8.0g,,"IF THIS MEMBER WAS PRESENT AT LAST SURVEY, ENTER Y1 ROSTER ID NUMBER FROM TRACKI"
+8,hh_o02,byte,1,%8.0g,,Age
+9,hh_o03,byte,1,%8.0g,HH_O03,Gender
+10,hh_o04,byte,1,%18.0g,HH_O04,What is the highest grade has completed in the school?
+11,hh_o05,byte,1,%8.0g,HH_O05,Did [NAME] ever lived in this household?
+12,hh_o06,int,1,%8.0g,,In which year did [NAME] leave the household?
+13,hh_o07a,str16,0,%16s,,Where does [NAME] currently live (District/Country)?
+14,hh_o07b,int,1,%30.0g,HH_O07B,Where does [NAME] currently live (Code)?
+15,hh_o08a,byte,1,%8.0g,,For how long has [NAME] lived in this location (Length)?
+16,hh_o08b,byte,1,%8.0g,HH_O08B,For how long has [NAME] lived in this location (Unit)?
+17,hh_o09,byte,1,%15.0g,HH_O09,What is [NAME]'s current activity status?
+18,hh_o10a,str25,0,%25s,,What is the current main occupation of [NAME]? (Description)
+19,hh_o10b,byte,1,%8.0g,,What is the current main occupation of [NAME]? (Code)
+20,hh_o11,byte,1,%8.0g,HH_O11,Did [NAME] send any cash to this household at any point during the last 12 month
+21,hh_o12,byte,1,%23.0g,HH_O12,At what frequency did [NAME] send cash to this household during the last 12 mont
+22,hh_o13,long,1,%12.0g,,How much cash did [NAME] send to this household each month during the last 12 mo
+23,hh_o13_1a,byte,1,%8.0g,,Who in the household kept / decided on the use of this income? (1st)
+24,hh_o13_1b,byte,1,%8.0g,,Who in the household kept / decided on the use of this income? (2nd)
+25,hh_o14,long,1,%12.0g,,How much cash did [NAME] send to this household in total during the last 12 mont
+26,hh_o14_1a,byte,1,%8.0g,,Who in the householdkept / decided on the use of thsi income? (1st)
+27,hh_o14_1b,byte,1,%8.0g,,Who in the householdkept / decided on the use of thsi income? (2nd)
+28,hh_o15,byte,1,%8.0g,HH_O15,Did [NAME] send any in-kind assistance  to this household at any point during th
+29,hh_o16,byte,1,%23.0g,HH_O16,At what frequency did [NAME] send in-kind assistance to this household during th
+30,hh_o17,long,1,%12.0g,,What was the total estimated cash value of all food that [NAME] sent to this hou
+31,hh_o18a,byte,1,%8.0g,,Who in the household kept / decided on the use of this in-kind assistance? (1st)
+32,hh_o18b,byte,1,%8.0g,,Who in the household kept / decided on the use of this in-kind assistance? (2nd)

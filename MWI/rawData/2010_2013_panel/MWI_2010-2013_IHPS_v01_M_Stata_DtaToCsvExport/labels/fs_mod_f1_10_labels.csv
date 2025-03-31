@@ -1,0 +1,28 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,Unique HH Identifier
+3,visit,byte,1,%9.0g,,Panel Visit
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,fs_f00,byte,1,%8.0g,,"HH members engaged in fish trading, last HIGH season, according to quesion 4?"
+6,fs_f01,byte,1,%15.0g,FS_F01,Main species sold during the last HIGH fishing season.
+7,fs_f01_os,str8,0,%9s,,Main species sold during the last HIGH fishing season. (Other Specify)
+8,fs_f02a,float,1,%9.0g,,How much [SPECIES] purchased per week as part of trade business? (Quantity #1)
+9,fs_f02b,byte,1,%15.0g,FS_F02B,How much [SPECIES] purchased per week as part of trade business? (Packaging #1)
+10,fs_f02c,byte,1,%15.0g,FS_F02C,How much [SPECIES] purchased per week as part of trade business? (Processing #1)
+11,fs_f02d,long,1,%12.0g,,How much [SPECIES] purchased per week as part of trade business? (Price MK #1)
+12,fs_f02e,byte,1,%9.0g,,How much [SPECIES] purchased per week as part of trade business? (Quantity #2)
+13,fs_f02f,byte,1,%15.0g,FS_F02F,How much [SPECIES] purchased per week as part of trade business? (Packaging #2)
+14,fs_f02g,byte,1,%15.0g,FS_F02G,How much [SPECIES] purchased per week as part of trade business? (Processing #2)
+15,fs_f02h,int,1,%12.0g,,How much [SPECIES] purchased per week as part of trade business? (Price MK #2)
+16,fs_f03a,float,1,%9.0g,,How much [SPECIES] sell per week as part of trade business? (Quantity #1)
+17,fs_f03b,byte,1,%15.0g,FS_F03B,How much [SPECIES] sell per week as part of trade business? (Packaging #1)
+18,fs_f03b_os,str28,0,%28s,,How much [SPECIES] sell per week as part of trade business? (Packaging #1)
+19,fs_f03c,byte,1,%15.0g,FS_F03C,How much [SPECIES] sell per week as part of trade business? (Processing #1)
+20,fs_f03c_os,str19,0,%19s,,How much [SPECIES] sell per week as part of trade business? (Processing #1)
+21,fs_f03d,long,1,%12.0g,,How much [SPECIES] sell per week as part of trade business? (Price MK#1)
+22,fs_f03e,int,1,%9.0g,,How much [SPECIES] sell per week as part of trade business? (Quantity #2)
+23,fs_f03f,byte,1,%15.0g,FS_F03F,How much [SPECIES] sell per week as part of trade business? (Packaging #2)
+24,fs_f03f_os,str16,0,%16s,,How much [SPECIES] sell per week as part of trade business? (Packaging #2)
+25,fs_f03g,byte,1,%15.0g,FS_F03G,How much [SPECIES] sell per week as part of trade business? (Processing #2)
+26,fs_f03g_os,str7,0,%9s,,How much [SPECIES] sell per week as part of trade business? (Processing #2)
+27,fs_f03h,int,1,%12.0g,,How much [SPECIES] sell per week as part of trade business? (Price MK #2)

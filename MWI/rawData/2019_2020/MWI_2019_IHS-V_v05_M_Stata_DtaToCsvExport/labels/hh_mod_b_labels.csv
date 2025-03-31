@@ -1,0 +1,54 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%36s,,Survey Solutions Unique HH Identifier
+3,PID,byte,1,%6.0f,,ID Code
+4,hh_b03,byte,1,%6.0f,hh_b03,Sex
+5,hh_b04,byte,1,%6.0f,hh_b04,Relationship to Head
+6,hh_b04a,byte,1,%6.0f,hh_b06_4,B04a. Does [NAME] have a working cell phone?
+7,hh_b05_2,byte,1,%6.0f,hh_b05_2,B05_2. Does [NAME] have a birth certificate/ immunization card?
+8,hh_b05_2_1,byte,1,%6.0f,hh_b05_2_1,ENUMERATOR: Did you verify age of [NAME] on birth certificate?
+9,hh_b05a,int,1,%6.0f,,B05a. How old is [NAME] (year)? Visit1
+10,hh_b05b,byte,1,%6.0f,,B05b. How old is [NAME] (month)? Visit1
+11,hh_b06a,byte,1,%6.0f,hh_b06a,B06a. When was [NAME] born?
+12,hh_b06b,int,1,%6.0f,,Year
+13,hh_b07,byte,1,%6.0f,,For how many months during the past 12 months since...
+14,hh_b08,byte,1,%6.0f,,B08. How many days did [NAME] eat in this household in the past 7 days?
+15,hh_b09,byte,1,%6.0f,hh_b09,B09. Where was [NAME] born?
+16,hh_b10a,int,1,%6.0f,hh_b10a,B10a. In which district was [NAME] born?
+17,hh_b10b,int,1,%6.0f,hh_b10b,B10b. In which country was [NAME] born?
+18,hh_b10_oth,str14,0,%14s,,B10b_oth. Specify in which country was [NAME] born.
+19,hh_b11,byte,1,%6.0f,hh_b11,B11. Has [NAME] always lived in this village or urban location?
+20,hh_b12,byte,1,%6.0f,,"How long is it since [NAME] came to stay here, in this village..."
+21,hh_b13,byte,1,%6.0f,hh_b13,B13. What was the main reason that [NAME] moved here?
+22,hh_b13_oth,str85,0,%85s,,B13_oth. Specify the main reason that [NAME] moved here.
+23,hh_b14,byte,1,%6.0f,hh_b14,B14. Where did [NAME] move from?
+24,hh_b15a,int,1,%6.0f,hh_b15a,B15a. From which district did [NAME] move from?
+25,hh_b15b,int,1,%6.0f,hh_b15b,B15b. From which country did [NAME] move from?
+26,hh_b15b_oth,str7,0,%9s,,B15b_oth. Specify from which country did [NAME] move from.
+27,hh_b16a,byte,1,%6.0f,hh_b16a,B16a. Where is [NAME]'s father?
+28,hh_b16b,byte,1,%6.0f,,"If member of household, copy ID"
+29,hh_b17,byte,1,%6.0f,,B17. What was [NAME]'s age when his/her father died? YEARS
+30,hh_b18,byte,1,%6.0f,hh_b18,B18. What was the highest educational qualification acquired by [NAME]
+31,hh_b19a,byte,1,%6.0f,hh_b19a,B19a. Where is [NAME]'s mother?
+32,hh_b19b,byte,1,%6.0f,,"If member of household, copy ID"
+33,hh_b20,byte,1,%6.0f,,B20. What was [NAME]'s age when his/her mother died?YEARS
+34,hh_b21,byte,1,%6.0f,hh_b21,B21. What was the highest educational qualification acquired by [NAME]
+35,hh_b22,byte,1,%6.0f,hh_b22,Ask of only HH Head: What language do you speak at home?
+36,hh_b22_oth,str17,0,%17s,,Specify what language do you speak at home
+37,hh_b23,byte,1,%6.0f,hh_b23,"B23. What religion, if any, does [NAME] practice?"
+38,hh_b23_oth,str29,0,%29s,,B23_oth. Please specify the other religion.
+39,hh_b24,byte,1,%6.0f,hh_b24,B24. What is [NAME]'s present marital status?
+40,hh_b24_1,byte,1,%6.0f,hh_b24_1,Under what type of marriage custom did [NAME] marry ...
+41,hh_b24_1_oth,str40,0,%40s,,Other marital status
+42,hh_b24_2,byte,1,%6.0f,hh_b24_2,Upon marriage does [NAME] stay in his or her own village or move...
+43,hh_b25,byte,1,%6.0f,hh_b25,B25. Does [NAME]'s spouse live in this household now?
+44,hh_b26a,byte,1,%6.0f,,Copy the ID Code of the wife/husband
+45,hh_b26a_1,int,1,%6.0f,,B26b. In what year did [NAME] marry or form a consenual union?
+46,hh_b26b,byte,1,%6.0f,,Copy the ID Code of the wife/husband
+47,hh_b26b_1,int,1,%6.0f,,B26e. In what year did [NAME] marry or form a consenual union?
+48,hh_b26b_2,byte,1,%6.0f,hh_b26c,B26c. Does [NAME] have another spouse that lives in this household now?
+49,hh_b26c,byte,1,%6.0f,,Copy the ID Code of the wife/husband
+50,hh_b26c_1,int,1,%6.0f,,B26h. In what year did [NAME] marry or form a consenual union?
+51,hh_b26c_2,byte,1,%6.0f,hh_b26f,B26f. Does [NAME] have another spouse that lives in this household now?
+52,hh_b27,byte,1,%6.0f,hh_b27,B27. Does [NAME] have a spouse living outside of this household now?
+53,hh_b28,byte,1,%6.0f,,B28. How many spouses does [NAME] have who are residing else-where?

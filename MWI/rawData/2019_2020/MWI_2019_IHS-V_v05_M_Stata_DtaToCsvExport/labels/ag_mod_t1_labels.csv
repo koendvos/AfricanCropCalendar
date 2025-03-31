@@ -1,0 +1,9 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,ag_t0a,int,1,%27.0g,ag_t0a,TOPIC CODE
+4,ag_t01,byte,1,%6.0f,ag_t01,Received Advice?
+5,ag_t01_oth,str77,0,%77s,,Specify the other topic you or anyone in your household receive any advice on.
+6,ag_t02,byte,1,%6.0f,ag_t02,What was the main source of the advice on [TOPIC]?
+7,ag_t02_1,str36,0,%9s,,Please specify the other main source of the advice on [TOPIC]?
+8,ag_t03,byte,1,%6.0f,ag_t03,Did you follow the advice received on [TOPIC]?

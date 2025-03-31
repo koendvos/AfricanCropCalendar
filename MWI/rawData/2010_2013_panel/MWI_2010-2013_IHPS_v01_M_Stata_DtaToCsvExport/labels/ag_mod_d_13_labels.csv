@@ -1,0 +1,192 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_d00,str3,0,%9s,,Plot ID
+6,ag_d01,byte,1,%8.0g,,"Who in the household makes the decisions concerning crops to be planted, input u"
+7,ag_d01_1,byte,1,%8.0g,AG_D01_1,Are there other household members that the primary decision maker consults regar
+8,ag_d01_2a,byte,1,%8.0g,,Who are the other decision makers on the [PLOT]? (1ST)
+9,ag_d01_2b,byte,1,%8.0g,,Who are the other decision makers on the [PLOT]? (2ND)
+10,ag_d02,byte,1,%8.0g,,ENUMERATOR: RECORD THE ID OF THE RESPONDENT.
+11,ag_d03,byte,1,%24.0g,AG_D03,How did your household acquire this [PLOT]?
+12,ag_d03_1,byte,1,%8.0g,AG_D03_1,Does your household currently have a title for this [PLOT]?
+13,ag_d03_2a,byte,1,%8.0g,,Who in the household is listed on the title as owner of this [PLOT]? (1ST)
+14,ag_d03_2b,byte,1,%8.0g,,Who in the household is listed on the title as owner of this [PLOT]? (2ND)
+15,ag_d04a,byte,1,%8.0g,,Who in this household owns this [PLOT]? (1ST)
+16,ag_d04b,byte,1,%8.0g,,Who in this household owns this [PLOT]? (2ND)
+17,ag_d04_1,byte,1,%8.0g,AG_D04_1,Does the owner(s) have the right to sell this [PLOT] or use it as collateral?
+18,ag_d04_2a,byte,1,%8.0g,,Who in the household can decide whether to sell this [PLOT] or use it as collate
+19,ag_d04_2b,byte,1,%8.0g,,Who in the household can decide whether to sell this [PLOT] or use it as collate
+20,ag_d04_3,byte,1,%8.0g,AG_D04_3,Have you ever been concerned that somebody might dispute your ownership of this
+21,ag_d05,long,1,%12.0g,,"If you were to sell this [PLOT] today, how much could you sell it for?"
+22,ag_d06,long,1,%12.0g,,"If you were to rent out this [PLOT] today for 12 months, how much could you rent"
+23,ag_d10a,byte,1,%25.0g,AG_D07A,"How much output from this [PLOT] are you supposed to give as rent, if any, in th"
+24,ag_d10b,byte,1,%9.0g,,"How much output from this [PLOT] are you supposed to give as rent, if any, in th"
+25,ag_d10c,byte,1,%15.0g,AG_D07C,"How much output from this [PLOT] are you supposed to give as rent, if any, in th"
+26,ag_d10d,byte,1,%14.0g,AG_D07D,"How much output from this [PLOT] are you supposed to give as rent, if any, in th"
+27,ag_d11a,long,1,%12.0g,,How much did you already pay the owner for the use of [PLOT] in the 2012/2013 ra
+28,ag_d11b,int,1,%12.0g,,How much did you already pay the owner for the use of [PLOT] in the 2012/2013 ra
+29,ag_d11c,long,1,%12.0g,,How much do you still have to pay the owner for the use of [PLOT] in the 2012/20
+30,ag_d11d,int,1,%12.0g,,How much do you still have to pay the owner for the use of [PLOT] in the 2012/20
+31,ag_d12,byte,1,%33.0g,AG_D09,What period of time did this payment cover?
+32,ag_d13a,str3,0,%9s,,Who owns this [PLOT]? (1ST)
+33,ag_d13b,str3,0,%9s,,Who owns this [PLOT]? (2ND)
+34,ag_d13_1a,byte,1,%8.0g,,Who in the household has the use rights to [PLOT]? (1ST)
+35,ag_d13_1b,byte,1,%8.0g,,Who in the household has the use rights to [PLOT]? (2ND)
+36,ag_d14,byte,1,%17.0g,AG_D11,"During the 2012/2013 rainy season, is this [PLOT]…"
+37,ag_d18a,byte,1,%25.0g,AG_D12A,"How much output from this [PLOT] are you supposed to receive as rent, if any, in"
+38,ag_d18b,byte,1,%9.0g,,"How much output from this [PLOT] are you supposed to receive as rent, if any, in"
+39,ag_d18c,byte,1,%15.0g,AG_D12C,"How much output from this [PLOT] are you supposed to receive as rent, if any, in"
+40,ag_d18d,byte,1,%14.0g,AG_D12D,"How much output from this [PLOT] are you supposed to receive as rent, if any, in"
+41,ag_d19a,long,1,%12.0g,,How much did you already receive from renting out this [PLOT] in the 2012/2013 r
+42,ag_d19b,int,1,%12.0g,,How much did you already receive from renting out this [PLOT] in the 2012/2013 r
+43,ag_d19c,byte,1,%12.0g,,How much are you still supposed to receive from renting out this [PLOT] in the 2
+44,ag_d19d,byte,1,%12.0g,,How much are you still supposed to receive from renting out this [PLOT] in the 2
+45,ag_d20a,byte,1,%25.0g,AG_D14A,What crops were planted on this [PLOT] during the 2012/2013 rainy season? (1ST)
+46,ag_d20b,byte,1,%25.0g,AG_D14B,What crops were planted on this [PLOT] during the 2012/2013 rainy season? (2ND)
+47,ag_d20c,byte,1,%25.0g,AG_D14C,What crops were planted on this [PLOT] during the 2012/2013 rainy season? (3RD)
+48,ag_d20d,byte,1,%25.0g,AG_D14D,What crops were planted on this [PLOT] during the 2012/2013 rainy season? (4TH)
+49,ag_d20e,byte,1,%25.0g,AG_D14E,What crops were planted on this [PLOT] during the 2012/2013 rainy season? (5TH)
+50,ag_d21,byte,1,%20.0g,AG_D15,What is the predominant soil type of this [PLOT]?
+51,ag_d22,byte,1,%8.0g,AG_D16,What is the soil quality of [PLOT]?
+52,ag_d23,byte,1,%10.0g,AG_D17,How would you rate the extent of erosion on this [PLOT]?
+53,ag_d24a,byte,1,%15.0g,AG_D18A,What are the causes of these erosion problems? (1ST)
+54,ag_d24b,byte,1,%15.0g,AG_D18B,What are the causes of these erosion problems? (2ND)
+55,ag_d25a,byte,1,%21.0g,AG_D19A,What type of erosion control/water harvesting facilities were on this [PLOT]? (1
+56,ag_d25b,byte,1,%21.0g,AG_D19B,What type of erosion control/water harvesting facilities were on this [PLOT]? (2
+57,ag_d25_1a,byte,1,%25.0g,AG_D19_1A,When was the investment in [STRUCTURE] made? (1ST)
+58,ag_d25_1b,byte,1,%25.0g,AG_D19_1B,When was the investment in [STRUCTURE] made? (2ND)
+59,ag_d25_2a,byte,1,%46.0g,AG_D19_2A,What are the main reasons you have not invested in soil and water conservation s
+60,ag_d25_2b,byte,1,%46.0g,AG_D19_2B,What are the main reasons you have not invested in soil and water conservation s
+61,ag_d26,byte,1,%14.0g,AG_D20,What is the slope of this [PLOT]?
+62,ag_d27,byte,1,%8.0g,AG_D21,Is this [PLOT] swamp / wetland?
+63,ag_d28a,byte,1,%21.0g,AG_D22A,"What systems of irrigation, if any, are on this [PLOT]? (1ST)"
+64,ag_d28b,byte,1,%21.0g,AG_D22B,"What systems of irrigation, if any, are on this [PLOT]? (2ND)"
+65,ag_d29,byte,1,%15.0g,AG_D23,What is the method of obtaining water for this [PLOT]?
+66,ag_d30,byte,1,%15.0g,AG_D24,What is the source of water on this [PLOT]?
+67,ag_d31,byte,1,%8.0g,AG_D25,ENUMERATOR: REFER TO QUESTION 11. WAS THIS PLOT LEFT FALLOW DURING THE 2012/2013
+68,ag_d32,int,1,%8.0g,,What was the most recent year in which this [PLOT] was left fallow?
+69,ag_d33,byte,1,%8.0g,,For how many years was it left fallow?
+70,ag_d34a,byte,1,%25.0g,AG_D28A,Why was this [PLOT] left fallow? (1ST)
+71,ag_d34b,byte,1,%25.0g,AG_D28B,Why was this [PLOT] left fallow? (2ND)
+72,ag_d35,byte,1,%8.0g,AG_D29,ENUMERATOR: IS THIS [PLOT] 'CULTIVATED' ACCORDING TO QUESTION 14?
+73,ag_d35_1a,byte,1,%9.0g,AG_D29_1A,When did you finish planting this plot? (MONTH)
+74,ag_d35_1b,byte,1,%8.0g,AG_D29_1B,When did you finish planting this plot? (WEEK)
+75,ag_d36,byte,1,%8.0g,AG_D30,Did you use any organic fertilizer on this [PLOT] during the 2012/2013 rainy sea
+76,ag_d37a,int,1,%12.0g,,How much organic fertilizer did you apply to this [PLOT]? (QUANTITY)
+77,ag_d37b,byte,1,%15.0g,AG_D31B,How much organic fertilizer did you apply to this [PLOT]? (UNIT)
+78,ag_d38,byte,1,%8.0g,AG_D32,Did you use any inorganic fertilizer on this [PLOT] during the 2012/2013 rainy s
+79,ag_d39a,byte,1,%26.0g,AG_D33A,How much inorganic fertilizer did you apply to this [PLOT]? When did you apply i
+80,ag_d39b,float,1,%9.0g,,How much inorganic fertilizer did you apply to this [PLOT]? When did you apply i
+81,ag_d39c,byte,1,%15.0g,AG_D33C,How much inorganic fertilizer did you apply to this [PLOT]? When did you apply i
+82,ag_d39d,int,1,%12.0g,,How much inorganic fertilizer did you apply to this [PLOT]? When did you apply i
+83,ag_d39e,byte,1,%8.0g,,How much inorganic fertilizer did you apply to this [PLOT]? When did you apply i
+84,ag_d39f,byte,1,%26.0g,AG_D33F,How much inorganic fertilizer did you apply to this [PLOT]? When did you apply i
+85,ag_d39g,float,1,%9.0g,,How much inorganic fertilizer did you apply to this [PLOT]? When did you apply i
+86,ag_d39h,byte,1,%15.0g,AG_D33H,How much inorganic fertilizer did you apply to this [PLOT]? When did you apply i
+87,ag_d39i,int,1,%12.0g,,How much inorganic fertilizer did you apply to this [PLOT]? When did you apply i
+88,ag_d39j,byte,1,%8.0g,,How much inorganic fertilizer did you apply to this [PLOT]? When did you apply i
+89,ag_d39_1,byte,1,%8.0g,,How many complete weedings did you do on this [PLOT]?
+90,ag_d39_2,byte,1,%8.0g,,How many weeks after planting did you finish the 1st weeding on this [PLOT]?
+91,ag_d40,byte,1,%8.0g,AG_D34,Did you use any pesticides/ herbicides on this [PLOT] during the 2012/2013 rainy
+92,ag_d41a,byte,1,%34.0g,AG_D35A,How much pesticides/ herbicides did you apply to this [PLOT]? (TYPE)
+93,ag_d41b,float,1,%9.0g,,How much pesticides/ herbicides did you apply to this [PLOT]? (QUANTITY)
+94,ag_d41c,byte,1,%15.0g,AG_D35C,How much pesticides/ herbicides did you apply to this [PLOT]? (UNIT)
+95,ag_d41d,byte,1,%34.0g,AG_D35D,How much pesticides/ herbicides did you apply to this [PLOT]? (TYPE)
+96,ag_d41e,int,1,%12.0g,,How much pesticides/ herbicides did you apply to this [PLOT]? (QUANTITY)
+97,ag_d41f,byte,1,%15.0g,AG_D35F,How much pesticides/ herbicides did you apply to this [PLOT]? (UNIT)
+98,ag_d42a,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+99,ag_d42b,byte,1,%8.0g,,How many weeks did each household member work?
+100,ag_d42c,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+101,ag_d42d,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+102,ag_d42e,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+103,ag_d42f,byte,1,%8.0g,,How many weeks did each household member work?
+104,ag_d42g,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+105,ag_d42h,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+106,ag_d42i,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+107,ag_d42j,byte,1,%8.0g,,How many weeks did each household member work?
+108,ag_d42k,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+109,ag_d42l,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+110,ag_d42m,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+111,ag_d42n,byte,1,%8.0g,,How many weeks did each household member work?
+112,ag_d42o,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+113,ag_d42p,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+114,ag_d43a,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+115,ag_d43b,byte,1,%8.0g,,How many weeks did each household member work?
+116,ag_d43c,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+117,ag_d43d,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+118,ag_d43e,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+119,ag_d43f,byte,1,%8.0g,,How many weeks did each household member work?
+120,ag_d43g,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+121,ag_d43h,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+122,ag_d43i,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+123,ag_d43j,byte,1,%8.0g,,How many weeks did each household member work?
+124,ag_d43k,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+125,ag_d43l,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+126,ag_d43m,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+127,ag_d43n,byte,1,%8.0g,,How many weeks did each household member work?
+128,ag_d43o,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+129,ag_d43p,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+130,ag_d44a,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+131,ag_d44b,byte,1,%8.0g,,How many weeks did each household member work?
+132,ag_d44c,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+133,ag_d44d,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+134,ag_d44e,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+135,ag_d44f,byte,1,%8.0g,,How many weeks did each household member work?
+136,ag_d44g,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+137,ag_d44h,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+138,ag_d44i,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+139,ag_d44j,byte,1,%8.0g,,How many weeks did each household member work?
+140,ag_d44k,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+141,ag_d44l,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+142,ag_d44m,byte,1,%8.0g,,"During the 2012/2013 rainy season, please list for me the household members that"
+143,ag_d44n,byte,1,%8.0g,,How many weeks did each household member work?
+144,ag_d44o,byte,1,%8.0g,,"During those weeks, approximately how many days did each household member work p"
+145,ag_d44p,byte,1,%8.0g,,"During those days, approximately how many hours did each household member work p"
+146,ag_d47a,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did you hire men for any and al"
+147,ag_d47b,long,1,%12.0g,,What was the average daily wage paid to men hired for any and all non-harvest ac
+148,ag_d47c,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did you hire women for any and"
+149,ag_d47d,int,1,%12.0g,,What was the average daily wage paid to women hired for any and all non-harvest
+150,ag_d47e,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did you hire children (<15 year"
+151,ag_d47f,int,1,%12.0g,,What was the average daily wage paid to children hired for any and all non-harve
+152,ag_d47g,byte,1,%25.0g,AG_D38G,How much crop did you give in total to all workers hired for any and all non-har
+153,ag_d47h,int,1,%12.0g,,How much crop did you give in total to all workers hired for any and all non-har
+154,ag_d47i,byte,1,%15.0g,AG_D38I,How much crop did you give in total to all workers hired for any and all non-har
+155,ag_d47j,byte,1,%14.0g,AG_D38J,How much crop did you give in total to all workers hired for any and all non-har
+156,ag_d48a,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did you hire men to work on thi"
+157,ag_d48b,long,1,%12.0g,,What was the average daily wage paid to men hired for harvesting?
+158,ag_d48c,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did you hire women to work on t"
+159,ag_d48d,int,1,%12.0g,,What was the average daily wage paid to women hired for harvesting?
+160,ag_d48e,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did you hire children (<15 year"
+161,ag_d48f,int,1,%12.0g,,What was the average daily wage paid to children (<15 years of age) hired for ha
+162,ag_d48g,byte,1,%25.0g,AG_K04G,How much crop did you give in total to all workers hired for harvesting? (TYPE)
+163,ag_d48h,int,1,%12.0g,,How much crop did you give in total to all workers hired for harvesting? (QUANTI
+164,ag_d48i,byte,1,%15.0g,AG_K04I,How much crop did you give in total to all workers hired for harvesting? (UNIT)
+165,ag_d48j,byte,1,%14.0g,AG_K04J,How much crop did you give in total to all workers hired for harvesting? (S/U)
+166,ag_d52a,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did men, women or children (<15"
+167,ag_d52b,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did men, women or children (<15"
+168,ag_d52c,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did men, women or children (<15"
+169,ag_d53a,str3,0,%9s,,From whose household did the exchange/free labour come to work on [PLOT] for any
+170,ag_d53b,str3,0,%9s,,From whose household did the exchange/free labour come to work on [PLOT] for any
+171,ag_d53c,str3,0,%9s,,From whose household did the exchange/free labour come to work on [PLOT] for any
+172,ag_d54a,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did men from other households w"
+173,ag_d54b,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did women from other households"
+174,ag_d54c,byte,1,%8.0g,,"During the 2012/2013 rainy season, how many days did children (<15 years of age)"
+175,ag_d55a,str3,0,%9s,,From whose household did the exchange/free labour come to work on [THIS PLOT] fo
+176,ag_d55b,str3,0,%9s,,From whose household did the exchange/free labour come to work on [THIS PLOT] fo
+177,ag_d55c,str3,0,%9s,,From whose household did the exchange/free labour come to work on [THIS PLOT] fo
+178,ag_d56,int,1,%8.0g,,How many trees were removed in the past year from [PLOT]? (INCLUDING BORDER)
+179,ag_d57,byte,1,%8.0g,AG_D42,Did you cultivate this plot during the 2011/12 rainy season?
+180,ag_d58,byte,1,%8.0g,AG_D43,At the end of the 2011/12 rainy season (before planting season for the 2012/13 r
+181,ag_d59,byte,1,%16.0g,AG_D44,What type of cover crop was left on [PLOT]?
+182,ag_d60,byte,1,%69.0g,AG_D45,What did you do with the crop residues from this [PLOT] after the 2011/12 harves
+183,ag_d61,byte,1,%9.0g,AG_D46,In what month during 2012 was [PLOT] burned?
+184,ag_d62,byte,1,%44.0g,AG_D47,How did you prepare land for planting on [PLOT] during the 2012/2013 rainy seaso
+185,ag_d63a,byte,1,%25.0g,AG_D48A,What implements did you use to prepare land for planting on [PLOT] during the 20
+186,ag_d63b,byte,1,%25.0g,AG_D48B,What implements did you use to prepare land for planting on [PLOT] during the 20
+187,ag_d64,byte,1,%25.0g,AG_D49,In what year did you first begin using the [PREPARATION PRACTICE] practice on [P
+188,ag_d65,byte,1,%8.0g,,How many of your neighbors and relatives have invested in agro-forestry?
+189,ag_d66,byte,1,%8.0g,,How many of your neighbors and relatives have ever practiced zero or minimum til
+190,ag_d67,byte,1,%8.0g,,How many of your neighbors and relatives use cover crops or mulches?
+191,ag_d68,byte,1,%8.0g,,How many of your neighbors and relatives have invested in soil and water erosion

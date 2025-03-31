@@ -1,0 +1,113 @@
+country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,dataset_doi
+Ethiopia,2011-12,hhID,household_id,Household ID unique,0,0,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,fieldID,parcel_id,Parcel ID,0,0,"not based on fieldID, but on parcelID",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plotID,field_id,Field ID,0,0,"plot_ID may not be unique, based on fieldID",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,crop,crop_name,Crop Name,11.116840572676535,0,crop_name and crop_id don't match,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",65.38461538461539,61.07377971825221,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),25.6855132249454,16.434150833987108,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),25.84020868721184,16.60811133472047,range: 0 - 8000,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_month_begin,ph_s9q13_a,What were the months when the harvest started and ended? (Start Month),87.84882310118903,48.30967741935484,"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), values up to 23",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_month_end,ph_s9q13_b,What were the months when the harvest started and ended? (End Month),87.95195340936665,48.748387096774195,"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), values up to 23",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm1,region,Region,0,0,no region 14,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm2,zonename,Zone Name,16.910337296772628,17.48551272360796,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm3,woredaname,Woreda Name,25.47318611987382,27.05971277399849,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,lat,LAT_DD_MOD,EA Latitude (WGS84) Modified,0.3033244358165494,0,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,lon,LON_DD_MOD,EA Longitude (WGS84) Modified,0.3033244358165494,0,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,GPS_level,NA,NA,0.3033244358165494,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plot_area_reported_localUnit,pp_s3q02_d,What is the area of [Field]? (Total Area),11.45656394079107,1.0179547228727557,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),11.45049745207474,0.9992193598750976,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plot_area_measured_ha,pp_s3q05_c,GPS measured area of [Field] (Total Square Meters),26.35282698374181,18.451209992193597,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plot_area_reported_ha,NA,NA,37.59099733074496,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,season,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_month,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_year,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_year_begin,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_year_end,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm4,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,dataset_name,NA,NA,0,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,country,NA,NA,0,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,dataset_doi,NA,NA,0,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2013-14,hhID,household_id2,Unique HH ID in wave 2,0,0,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,fieldID,parcel_id,Parcel ID,0,0,"not based on fieldID, but on parcelID",ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,plotID,field_id,Field ID,0,0,"plot_ID may not be unique, based on fieldID",ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,crop,"pp_s4q01_a, ph_s9q0d",Crop Name,0.9016633573125874,0,crop_name and crop_id don't match,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",59.92968978874386,59.54415954415955,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),27.86042121024706,27.699011228422993,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),27.88646202923082,27.725825372884195,year 2204 included,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_month_begin,ph_s9q07_a,What were the months when the harvest started ?,12.981348263402884,11.43141153081511,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_month_end,ph_s9q07_b,What were the months when the harvest ended?,13.12131766544058,11.573889993373095,"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), some months are 0",ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,adm1,region,Region Name,0.26691839458350963,0,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,adm2,zonename,Zone Name,15.640766902119072,28.031166856708477,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,adm3,woredaname,Woreda Name,24.465349435239737,43.48156594450779,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,lat,lat_dd_mod,lat_dd_mod,0,0.11348590883298658,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,lon,lon_dd_mod,lon_dd_mod,0,0.11348590883298658,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,GPS_level,NA,NA,0,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,plot_area_reported_localUnit,pp_s3q02_a,What is the area of [Field]? (Area),1.995377754630383,0.3559899840106193,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),2.005143061749292,0.3559899840106193,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,plot_area_measured_ha,pp_s3q05_a,Area of [Field] (Square Meters),5.315582175059406,6.199656077473074,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,plot_area_reported_ha,NA,NA,43.05523908726929,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,season,NA,NA,100,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_month,NA,NA,100,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_year,NA,NA,100,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_year_begin,NA,NA,100,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,harvest_year_end,NA,NA,100,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,adm4,NA,NA,100,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,dataset_name,NA,NA,0,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,country,NA,NA,0,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2013-14,dataset_doi,NA,NA,0,NA,NA,ETH_2013_ESS_v03_M,https://doi.org/10.48529/mccp-y123
+Ethiopia,2015-16,hhID,household_id2,Unique HH ID in wave 2,0.0032628556512659802,0,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,fieldID,parcel_id,Parcel ID,0,0,"not based on fieldID, but on parcelID",ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plotID,field_id,Field ID,0,0,"plot_ID may not be unique, based on fieldID",ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,crop,"pp_s4q01_a, crop_name",Crop Name,1.0016966849386582,0,crop_name and crop_id don't match,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",60.74784651527017,60.35727233776078,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),47.50065257113025,46.96944728255496,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),47.51370399373532,46.98263076365314,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_month_begin,ph_s9q07_a,What were the months when the harvest started ?,15.3876272513704,14.50432029549502,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_month_end,ph_s9q07_b,What were the months when the harvest ended?,15.3876272513704,14.50432029549502,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm1,region,Region Name,0.6329939963456017,0,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm2,zonename,Zone Name,13.713782302270946,26.96810658054098,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm3,woredaname,Woreda Name,21.69799008091882,41.74404521598708,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,lat,lat_dd_mod,EA Latitude (WGS84) Modified,0.6329939963456017,0,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,lon,lon_dd_mod,EA Longitude (WGS84) Modified,0.6329939963456017,0,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,GPS_level,NA,NA,0.6329939963456017,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plot_area_reported_localUnit,pp_s3q02_a,What is the area of [Field]? (Area),1.093056643174106,0.05404593904819096,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),1.132210910989298,0.11709953460441376,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plot_area_measured_ha,pp_s3q05_a,Area of [Field] (Square Meters),2.411250326285565,2.251914127007957,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plot_area_reported_ha,NA,NA,52.11433046202036,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,season,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_month,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_year,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_year_begin,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_year_end,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm4,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,dataset_name,NA,NA,0,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,country,NA,NA,0,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,dataset_doi,NA,NA,0,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2018-19,hhID,household_id,Unique Household Indentifier,0,0,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,fieldID,parcel_id,Unique Parcel Identifier,0,0,"not based on fieldID, but on parcelID",ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plotID,field_id,Unique Field Identifier,0,0,"plot_ID may not be unique, based on fieldID",ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,crop,"s4q01b, s9q00b","1b.CROP CODE, 1.Crop code",0,0,"white cumin and white lumin may be the same crop, crop_name and crop_id don't match",ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,crop_area_share,s4q03,"3.Approximately, how much of [FIELD] was planted with [CROP]?",64.2332334097455,64.02175841069,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,planting_month,s4q13a,13_a.When did you plant the seeds for the [Crop] on [FIELD]? (Month),33.23340974548874,32.838644829421156,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,planting_year,s4q13b,13_b.When did you plant the seeds for the [Crop] on [FIELD]? (Year),33.23340974548874,32.838644829421156,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_month_begin,s9q08a,8a.What was the month when the harvesting of [CROP] on [FIELD] started?,39.887145124316696,36.88984881209503,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_month_end,s9q08b,8b.What was the month when the harvesting of [CROP] on [FIELD] ended?,39.887145124316696,36.88984881209503,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm1,region,Region,3.1387762299418096,0,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm2,zonename,Zone Name,31.052724387233297,48.655834564254064,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm3,woredaname,Woreda Name,64.53888203138777,82.3781388478582,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,lat,lat_mod,Latitude Modified,0.1645800270381473,2.4544385655496765,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,lon,lon_mod,Longitude Modified,0.1645800270381473,2.4544385655496765,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,GPS_level,NA,NA,0.1645800270381473,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plot_area_reported_localUnit,s3q02a,2a.ASK HOLDER: What is the area of [FIELD]?,4.808087932757303,0.00517089818501473,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,localUnit_area,s3q02b,2b. Unit of measurement,4.808087932757303,0.00517089818501473,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plot_area_measured_ha,s3q08,8.RECORD AREA OF THE FIELD USING GPS.,5.090225121965556,0.5067480221314442,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plot_area_reported_ha,NA,NA,51.55469346969964,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,season,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_month,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_year,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_year_begin,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_year_end,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm4,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,dataset_name,NA,NA,0,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,country,NA,NA,0,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,dataset_doi,NA,NA,0,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548

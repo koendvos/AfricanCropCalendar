@@ -1,0 +1,30 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,hh_o00,byte,1,%8.0g,HH_O00,Does the household head or spouse have any biological sons and/or daughters who
+7,hh_o0a,byte,1,%8.0g,,Respondent ID
+8,hh_o0b,byte,1,%15.0g,HH_M0A,Item
+9,hh_o02,byte,1,%8.0g,,Age
+10,hh_o03,byte,1,%8.0g,HH_O03,Gender
+11,hh_o04,byte,1,%18.0g,HH_O04,What is the highest grade has completed in the school?
+12,hh_o05,byte,1,%8.0g,HH_O05,Did [NAME] ever lived in this household?
+13,hh_o06,int,1,%8.0g,,In which year did [NAME] leave the household?
+14,hh_o07a,str24,0,%24s,,Where does [NAME] currently live (District/Country)?
+15,hh_o07b,int,1,%30.0g,HH_O07B,Where does [NAME] currently live (Code)?
+16,hh_o08a,byte,1,%8.0g,,For how long has [NAME] lived in this location (Lenght)?
+17,hh_o08b,byte,1,%8.0g,HH_O08B,For how long has [NAME] lived in this location (Unit)?
+18,hh_o09,byte,1,%15.0g,HH_O09,What is [NAME]'s current activity status?
+19,hh_o09_os,str20,0,%20s,,What is [NAME]'s current activity status? (Other Specify)
+20,hh_o10a,str25,0,%25s,,Description of the current main occupation of [NAME]
+21,hh_o10b,int,1,%8.0g,,Code of the current main occupation of [NAME]
+22,hh_o11,byte,1,%8.0g,HH_O11,Did [NAME] send any cash to this household at any point during the last 12 month
+23,hh_o12,byte,1,%23.0g,HH_O12,At what frequency did [NAME] send cash to this household during the last 12 mont
+24,hh_o13,long,1,%12.0g,,How much cash did [NAME] send to this household each month during the last 12 mo
+25,hh_o14,long,1,%12.0g,,How much cash did [NAME] send to this household in total during the last 12 mont
+26,hh_o15,byte,1,%8.0g,HH_O15,Did [NAME] send any in-kind assistance  to this household at any point during th
+27,hh_o16,byte,1,%23.0g,HH_O16,At what frequency did [NAME] send in-kind assistance to this household during th
+28,hh_o16_os,str13,0,%13s,,At what frequency did [NAME] send in-kind assistance to this household during th
+29,hh_o17,long,1,%12.0g,,What was the total estimated cash value of all food that [NAME] sent to this hou

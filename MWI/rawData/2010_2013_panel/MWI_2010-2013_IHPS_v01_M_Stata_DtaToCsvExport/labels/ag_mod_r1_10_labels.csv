@@ -1,0 +1,43 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,ag_r00,byte,1,%8.0g,AG_I00,Did you or anyone in your household own any livestock in the last 12 months?
+7,ag_r0a,int,1,%15.0g,AG_I0A,LIVESTOCK CODE
+8,ag_r0a_os,str19,0,%19s,,Livestock Code (Other Specify)
+9,ag_r01,byte,1,%8.0g,AG_I01,"During the last 12 months,have you or any member of your HH raised or owned any"
+10,ag_r02,int,1,%12.0g,,How many [LIVESTOCK] are owned by your HH now (present at your farm or away)?
+11,ag_r03,int,1,%12.0g,,How many of the [LIVESTOCK] owned are  improved/ exotic?
+12,ag_r04,long,1,%12.0g,,"If you sold one of the[LIVESTOCK]today,how much would you receive from the sale?"
+13,ag_r05a,byte,1,%8.0g,,Who in your household owns [LIVESTOCK]? ID CODE #1
+14,ag_r05b,byte,1,%8.0g,,Who in your household owns [LIVESTOCK]? ID CODE #2
+15,ag_r06a,byte,1,%8.0g,,Who in your HH is responsible for feeding/taking care of [LIVESTOCK]?ID CODE #1
+16,ag_r06b,byte,1,%8.0g,,Who in your HH is responsible for feeding/taking care of [LIVESTOCK]?ID CODE #2
+17,ag_r07,int,1,%12.0g,,How many [LIVESTOCK]did your HH own exactly 12 months ago?
+18,ag_r08,byte,1,%12.0g,,During the last 12 months...how many [LIVESTOCK]were born?
+19,ag_r09,byte,1,%12.0g,,...how many[LIVESTOCK]did HH receive as gifts or payment for services rendered?
+20,ag_r10,int,1,%12.0g,,...how many [LIVESTOCK] did your HH buy to raise?
+21,ag_r11,long,1,%12.0g,,...what was the total value of[LIVESTOCK]purchases?
+22,ag_r12a,str3,0,%9s,,...from whom did your HH buy most[LIVESTOCK]purchased?ID CODE #1
+23,ag_r12b,str3,0,%9s,,...from whom did your HH buy most[LIVESTOCK]purchased?ID CODE #2
+24,ag_r13,byte,1,%12.0g,,...how many[LIVESTOCK]did your HH receive from NGOs?
+25,ag_r14,byte,1,%12.0g,,...how many[LIVESTOCK]did HH give away as gifts or payment for services rendered
+26,ag_r15,byte,1,%12.0g,,...how many[LIVESTOCK]got lost or stolen?
+27,ag_r16,int,1,%12.0g,,...how many [LIVESTOCK] have you sold alive?
+28,ag_r17,long,1,%12.0g,,...what was the total value of[LIVESTOCK]sales?
+29,ag_r18a,str3,0,%9s,,...to whom did your HH sell most[LIVESTOCK]purchased?ID CODE #1
+30,ag_r18b,str3,0,%9s,,...to whom did your HH sell most[LIVESTOCK]purchased?ID CODE #2
+31,ag_r19,int,1,%12.0g,,...how many[LIVESTOCK]did your HH slaughter for sales or consumption?
+32,ag_r22,byte,1,%8.0g,AG_I20,...did any[LIVESTOCK]suffer from any disease?
+33,ag_r23a,byte,1,%18.0g,AG_I21A,...what kind of diseases did[LIVESTOCK]suffer?DISEASE CODE #1
+34,ag_r23b,byte,1,%12.0g,,...how many[LIVESTOCK]were lost to disease?DISEASE #1?
+35,ag_r23c,byte,1,%18.0g,AG_I21C,...what kind of diseases did[LIVESTOCK]suffer?DISEASE CODE #2
+36,ag_r23d,byte,1,%12.0g,,...how many[LIVESTOCK]were lost to disease?DISEASE #2?
+37,ag_r24,int,1,%12.0g,,How many of your [LIVESTOCK] are currently vaccinated?
+38,ag_r25a,str3,0,%9s,,Who provided the vaccination services? (ID CODE #1)
+39,ag_r25b,str1,0,%9s,,Who provided the vaccination services? (ID CODE #2)
+40,ag_r26a,byte,1,%18.0g,AG_I24A,Against which disease did you vaccinate your [LIVESTOCK] ? (#1)
+41,ag_r26b,byte,1,%18.0g,AG_I24B,Against which disease did you vaccinate your [LIVESTOCK] ? (#2)
+42,ag_r26c,byte,1,%18.0g,AG_I24C,Against which disease did you vaccinate your [LIVESTOCK] ? (#3)

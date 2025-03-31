@@ -1,0 +1,39 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_r00,byte,1,%8.0g,AG_I00,Did you or anyone in your household own any livestock in the last 12 months?
+6,ag_r0a,int,1,%29.0g,AG_I0A,LIVESTOCK CODE
+7,ag_r0c,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID
+8,ag_r01,byte,1,%8.0g,AG_I01,"During the last 12 months, have you or any member of your household raised or ow"
+9,ag_r01_1a,byte,1,%33.0g,AG_I01_1A,What are the household's major purposes for owning/keeping [LIVESTOCK]? (1ST)
+10,ag_r01_1b,byte,1,%33.0g,AG_I01_1B,What are the household's major purposes for owning/keeping [LIVESTOCK]? (2ND)
+11,ag_r02,int,1,%8.0g,,How many [LIVESTOCK] are owned by your household now (present at your farm or aw
+12,ag_r03,byte,1,%8.0g,,How many of the [LIVESTOCK] owned are  improved/ exotic?
+13,ag_r04,long,1,%12.0g,,"If you would sell one of the [LIVESTOCK] today, how much would you receive from"
+14,ag_r05a,byte,1,%8.0g,,Who in your household owns [LIVESTOCK]? (ID CODE 1)
+15,ag_r05b,byte,1,%8.0g,,Who in your household owns [LIVESTOCK]? (ID CODE 2)
+16,ag_r06a,byte,1,%8.0g,,Who in your household is responsible for feeding/taking care of [LIVESTOCK]? (ID
+17,ag_r06b,byte,1,%8.0g,,Who in your household is responsible for feeding/taking care of [LIVESTOCK]? (ID
+18,ag_r07,int,1,%8.0g,,How many [LIVESTOCK] did your household own exactly 12 months ago?
+19,ag_r08,int,1,%12.0g,,"During the last 12 months, how many [LIVESTOCK] were born?"
+20,ag_r09_1,byte,1,%12.0g,,"During the last 12 months, how many [LIVESTOCK] did your household receive as gi"
+21,ag_r10,int,1,%12.0g,,"During the last 12 months, how many [LIVESTOCK]  did your household buy to raise"
+22,ag_r11,long,1,%12.0g,,What was the total value of [LIVESTOCK] purchases during the last 12 months?
+23,ag_r12a,str3,0,%9s,,From whom did your household purchase most [LIVESTOCK] purchased during the last
+24,ag_r12b,str3,0,%9s,,From whom did your household purchase most [LIVESTOCK] purchased during the last
+25,ag_r14,byte,1,%12.0g,,"During the last 12 months, how many [LIVESTOCK] did your household give away as"
+26,ag_r15,int,1,%12.0g,,"During the last 12 months, how many [LIVESTOCK] got lost or stolen?"
+27,ag_r16,int,1,%12.0g,,"During the last 12 months, how many have you sold alive?"
+28,ag_r17,long,1,%12.0g,,What was the total value of [LIVESTOCK] sales during the last 12 months?
+29,ag_r18a,str3,0,%9s,,To whom did your household sell most of [LIVESTOCK] sold during the last 12 mont
+30,ag_r18b,str3,0,%9s,,To whom did your household sell most of [LIVESTOCK] sold during the last 12 mont
+31,ag_r19,int,1,%12.0g,,"During the last 12 months, how many [LIVESTOCK]  did your household slaughter fo"
+32,ag_r22,byte,1,%8.0g,AG_I20,"During the last 12 months, did any [LIVESTOCK] suffer from any disease?"
+33,ag_r23a,byte,1,%19.0g,AG_I21A,"During the last 12 months, what was the main disease [LIVESTOCK] suffered from?"
+34,ag_r23b,byte,1,%8.0g,,"During the last 12 months, what was the main disease [LIVESTOCK] suffered from?"
+35,ag_r24,int,1,%8.0g,,How many of your [LIVESTOCK] are currently vaccinated?
+36,ag_r25a,str3,0,%9s,,Who provided the vaccination services for [LIVESTOCK]? (1ST)
+37,ag_r25b,str1,0,%9s,,Who provided the vaccination services for [LIVESTOCK]? (2ND)
+38,ag_r26,byte,1,%19.0g,AG_I24,Against which main disease did your household vaccinate [LIVESTOCK]?

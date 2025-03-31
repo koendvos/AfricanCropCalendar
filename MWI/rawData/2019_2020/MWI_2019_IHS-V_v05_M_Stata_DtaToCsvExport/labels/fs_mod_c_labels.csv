@@ -1,0 +1,21 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Unique Household Identification IHS5
+3,PID,byte,1,%6.0f,,Individual Id
+4,fs_c00,byte,1,%6.0f,fs_c00,Was [NAME] involved in fishing during the last HIGH fishing season.
+5,fs_c00f,byte,1,%6.0f,fs_c00f,Was [NAME] engaged in full time fishing?
+6,fs_c01a,byte,1,%6.0f,,How many weeks was [NAME] a full-time fisher during last HIGH fishing season?
+7,fs_c01b,byte,1,%6.0f,,"During those weeks, approximately how many days per week did [NAME] fish?"
+8,fs_c01c,byte,1,%6.0f,,"During those days, approximately how many hours per day did [NAME] fish?"
+9,fs_c00f1,byte,1,%6.0f,fs_c00f1,Was [NAME] engaged in part time fishing?
+10,fs_c02a,byte,1,%6.0f,,How many weeks was [NAME] a part-time fisher during last HIGH fishing season?
+11,fs_c02b,byte,1,%6.0f,,"During those weeks, approx. how many days per week did [NAME] part time fish?"
+12,fs_c02c,byte,1,%6.0f,,"During those days, approx. how many hours per day did [NAME] part time fish?"
+13,fs_c00f2,byte,1,%6.0f,fs_c00f2,Was [NAME] engaged in fish processing?
+14,fs_c03a,byte,1,%6.0f,,How many weeks [NAME]engaged in fish processing during last HIGH fishing season?
+15,fs_c03b,byte,1,%6.0f,,"During those weeks, approx. how many days per week did [NAME] process fish?"
+16,fs_c03c,byte,1,%6.0f,,"During those days, approximately how many hours per day did [NAME] process fish?"
+17,fs_c00f3,byte,1,%6.0f,fs_c00f3,Was [NAME] engaged in fish trading?
+18,fs_c04a,byte,1,%6.0f,,How many weeks[NAME] engaged in fish trading during last HIGH fishing season?
+19,fs_c04b,byte,1,%6.0f,,"During those weeks, approximately how many days per week did [NAME] trade fish?"
+20,fs_c04c,byte,1,%6.0f,,"During those days, approximately how many hours per day did [NAME] trade fish?"

@@ -1,0 +1,28 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,hh_o00,byte,1,%8.0g,HH_O00,Does the household head or spouse have any biological sons and/or daughters who
+5,hh_o0a,byte,1,%8.0g,,Respondent ID
+6,hh_o0b,byte,1,%8.0g,HH_M0A,Item
+7,hh_o02,byte,1,%8.0g,,Age
+8,hh_o03,byte,1,%8.0g,HH_O03,Gender
+9,hh_o04,byte,1,%8.0g,HH_O04,What is the highest grade has completed in the school?
+10,hh_o05,byte,1,%8.0g,HH_O05,Did [NAME] ever lived in this household?
+11,hh_o06,int,1,%8.0g,,In which year did [NAME] leave the household?
+12,hh_o07a,str24,0,%24s,,Where does [NAME] currently live (District/Country)?
+13,hh_o07b,int,1,%8.0g,HH_O07B,Where does [NAME] currently live (Code)?
+14,hh_o08a,byte,1,%8.0g,,For how long has [NAME] lived in this location (Lenght)?
+15,hh_o08b,byte,1,%8.0g,HH_O08B,For how long has [NAME] lived in this location (Unit)?
+16,hh_o09,byte,1,%8.0g,HH_O09,What is [NAME]'s current activity status?
+17,hh_o09_os,str20,0,%20s,,What is [NAME]'s current activity status? (Other Specify)
+18,hh_o10a,str25,0,%25s,,Description of the current main occupation of [NAME]
+19,hh_o10b,int,1,%8.0g,,Code of the current main occupation of [NAME]
+20,hh_o11,byte,1,%8.0g,HH_O11,Did [NAME] send any cash to this household at any point during the last 12 month
+21,hh_o12,byte,1,%8.0g,HH_O12,At what frequency did [NAME] send cash to this household during the last 12 mont
+22,hh_o13,long,1,%12.0g,,How much cash did [NAME] send to this household each month during the last 12 mo
+23,hh_o14,long,1,%12.0g,,How much cash did [NAME] send to this household in total during the last 12 mont
+24,hh_o15,byte,1,%8.0g,HH_O15,Did [NAME] send any in-kind assistance  to this household at any point during th
+25,hh_o16,byte,1,%8.0g,HH_O16,At what frequency did [NAME] send in-kind assistance to this household during th
+26,hh_o16_os,str13,0,%13s,,At what frequency did [NAME] send in-kind assistance to this household during th
+27,hh_o17,long,1,%12.0g,,What was the total estimated cash value of all food that [NAME] sent to this hou

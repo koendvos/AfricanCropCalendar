@@ -1,0 +1,6 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,ag_b101,float,1,%9.0g,yesno,"During the [RS], did you OR any member of your HH own OR cultivate any land ?"
+4,ag_i101b,float,1,%9.0g,yesno,"During the [DS], did you OR any member of your HH own OR cultivate any land ?"
+5,ag_s01,byte,1,%6.0f,yesno,Did your household produce any [PRODUCT] during the last 12 months?

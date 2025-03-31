@@ -1,0 +1,52 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,y2_hhid,str8,0,%9s,,Unique HH Identifier
+2,dist_road,byte,1,%10.0g,,HH Distance in (KMs) to Nearest Road
+3,dist_popcenter,int,1,%10.0g,,"HH Distance in (KMs) to Nearest Population Center with +20,000"
+4,dist_admarc,byte,1,%10.0g,,HH Distance in (KMs) to Nearest ADMARC Outlet
+5,dist_auction,int,1,%10.0g,,HH Distance in (KMs) to Nearest Tobacco Auction Floor
+6,dist_boma,int,1,%10.0g,,HH Distance in (KMs) to the Boma of Current District of Residence
+7,dist_borderpost,int,1,%10.0g,,HH Distance in (KMs) to Nearest Border Post
+8,dist_agmrkt,byte,1,%10.0g,,HH Distance in (KMs) to Nearest Agricultural Market
+9,popdensity,str9,0,%9s,,2010 Population Density Range (people per KM2)
+10,af_bio_1,int,1,%10.0g,,Annual Mean Temperature (°C * 10)
+11,af_bio_8,int,1,%10.0g,,Mean Temperature of Wettest Quarter (°C * 10)
+12,af_bio_12,int,1,%10.0g,,Annual Precipitation (mm)
+13,af_bio_13,int,1,%10.0g,,Precipitation of Wettest Month (mm)
+14,af_bio_16,int,1,%10.0g,,Precipitation of Wettest Quarter
+15,fsrad3_agpct,byte,1,%10.0g,,Percent agriculture within approx 1 km buffer
+16,fsrad3_lcmaj,int,1,%91.0g,fs_lab,Majority landcover class within approx 1 km buffer
+17,ssa_aez09,int,1,%24.0g,ssa_lab,Agro-ecological Zones
+18,srtm_1k,int,1,%10.0g,,Elevation (m)
+19,twi_mwi,byte,1,%10.0g,,Potential Wetness Index
+20,srtm_mwi_5_15,byte,1,%27.0g,srtm_lab,Terrain Roughness
+21,sq1,byte,1,%23.0g,sq1_lab,Nutrient availability
+22,sq2,byte,1,%23.0g,sq1_lab,Nutrient retention capacity
+23,sq3,byte,1,%23.0g,sq1_lab,Rooting conditions
+24,sq4,byte,1,%23.0g,sq1_lab,Oxygen availability to roots
+25,sq5,byte,1,%23.0g,sq1_lab,Excess salts
+26,sq6,byte,1,%23.0g,sq1_lab,Toxicity
+27,sq7,byte,1,%23.0g,sq1_lab,Workability (constraining field management)
+28,anntot_avg,int,1,%10.0g,,Avg 12-month total rainfall(mm) for July-June
+29,wetQ_avg,int,1,%10.0g,,Avg total rainfall in wettest quarter(mm) within 12-month periods from July-June
+30,wetQ_avgstart,byte,1,%10.0g,,"Avg start of wettest quarter in dekads 1-36, where first week of July =1"
+31,h2012_tot,int,1,%10.0g,,"12-month total rainfall (mm) in July-June, starting July 2011"
+32,h2012_wetQ,int,1,%10.0g,,Total rainfall in wettest quarter (mm) within 12-month period starting July 2011
+33,h2012_wetQstart,byte,1,%10.0g,,"Start of wettest quarter in dekads 1-36, where first week of July 2011 =1"
+34,h2013_tot,int,1,%10.0g,,"12-month total rainfall (mm) in July-June, starting July 2012"
+35,h2013_wetQ,int,1,%10.0g,,Total rainfall in wettest quarter(mm) within 12-month periods starting July 2012
+36,h2013_wetQstart,byte,1,%10.0g,,"Start of wettest quarter in dekads 1-36, where first week of July 2012 =1"
+37,eviarea_avg,double,1,%10.0g,,Avg change in greenness(integral of daily EVI values)w/in primary growing season
+38,grn_avg,int,1,%10.0g,,"Avg onset of greenness increase in day of year 1-356,where 7/1=1,avg by district"
+39,sen_avg,int,1,%10.0g,,"Avg onset of greenness decrease in day of year 1-356,where 7/1=1,avg by district"
+40,evimax_avg,double,1,%10.0g,,Avg EVI value at peak of greenness w/in growing season
+41,h2012_eviarea,double,1,%10.0g,,"Total change in greenness w/in primary growing season for 7/11-6/12,avg by dist"
+42,h2012_grn,int,1,%10.0g,,"Onset of greenness increase in day of year 1-356,starting 7/1/11,avg by district"
+43,h2012_sen,int,1,%10.0g,,"Onset of greenness decrease in day of year 1-356,starting 7/1/11,avg by district"
+44,h2012_evimax,double,1,%10.0g,,"EVI value at peak of greenness within growing season,starting 7/1/11"
+45,h2013_eviarea,double,1,%10.0g,,"Total change in greenness w/in primary growing season for 7/12-6/13,avg by dist"
+46,h2013_grn,int,1,%10.0g,,"Onset of greenness increase in day of year 1-356,starting 7/1/12,avg by district"
+47,h2013_sen,int,1,%10.0g,,"Onset of greenness decrease in day of year 1-356,starting 7/1/12,avg by district"
+48,h2013_evimax,double,1,%10.0g,,"EVI value at peak of greenness within growing season,starting 7/1/12"
+49,LAT_DD_MOD,double,1,%10.0g,,GPS Latitude Modified
+50,LON_DD_MOD,double,1,%10.0g,,GPS Longitude Modified
+51,distY1Y2,double,1,%10.0g,,Distance to Y1 location

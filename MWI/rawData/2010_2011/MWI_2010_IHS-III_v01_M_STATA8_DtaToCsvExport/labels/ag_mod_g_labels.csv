@@ -1,0 +1,37 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,ag_g0a,byte,1,%8.0g,AG_G0A,Did you or anyone in your household plant any crops in the 2009/2010 rainy seaso
+5,ag_g0b,str2,0,%2s,,PLOT ID
+6,ag_g0d,byte,1,%8.0g,L0C,CROP CODE
+7,ag_g0d_os,str13,0,%13s,,Crop Code (Other Specify)
+8,ag_g01,byte,1,%8.0g,AG_G01,What type of crop stand is on the [PLOT]?
+9,ag_g02,byte,1,%8.0g,AG_G02,Was the [CROP] planted in the entire area of the plot?
+10,ag_g03,byte,1,%8.0g,AG_G03,"Approximately, how much of the [PLOT] is under [CROP]?"
+11,ag_g04a,float,1,%9.0g,,How much seed did you plant for the [CROP] on this [PLOT] during the[RS]?(QUANT)
+12,ag_g04b,byte,1,%8.0g,AG_G04B,How much seed did you plant for the [CROP] on this [PLOT] during the[RS]?(UNIT)
+13,ag_g04b_os,str25,0,%25s,,How much seed did you plant for the [CROP] on this [PLOT]...?(UNIT)(O/S)
+14,ag_g05a,byte,1,%8.0g,AG_G05A,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(MONTH)
+15,ag_g05b,int,1,%8.0g,,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(YEAR)
+16,ag_g06,byte,1,%8.0g,,ENUMERATOR: IS THIS A CROSS - SECTIONAL HOUSEHOLD?
+17,ag_g07,byte,1,%8.0g,AG_G06,Have you completed the harvest of the [CROP] from this [PLOT]?
+18,ag_g08a,float,1,%9.0g,,How much [CROP] do you expect to harvest from this[PLOT]during the [RS]? (QUANT)
+19,ag_g08b,byte,1,%8.0g,AG_G07B,How much [CROP] do you expect to harvest from this[PLOT]during the [RS]? (UNIT)
+20,ag_g08b_os,str27,0,%27s,,How much [CROP] do you expect to harvest from this[PLOT]...? (UNIT)(O/S)
+21,ag_g08c,byte,1,%8.0g,AG_G07C,How much [CROP] do you expect to harvest from this[PLOT]during the [RS]? (S/U)
+22,ag_g09a,float,1,%9.0g,,How much [CROP] did you harvest from this [PLOT] during the [RS]? (QUANT)
+23,ag_g09b,byte,1,%8.0g,AG_G08B,How much [CROP] did you harvest from this [PLOT] during the [RS]? (UNIT)
+24,ag_g09b_os,str30,0,%30s,,How much [CROP] did you harvest from this [PLOT]... (Unit) (Other Specify)
+25,ag_g09c,byte,1,%8.0g,AG_G08C,How much [CROP] did you harvest from this [PLOT] during the [RS]? (S/U)
+26,ag_g10,byte,1,%8.0g,L01,Was the area harvested less than the area planted?
+27,ag_g11a,byte,1,%8.0g,L02A,Why was the area harvested less than the area planted? (1ST)
+28,ag_g11a_os,str48,0,%48s,,Why was the area harvested less than the area planted? (1st) (Other Specify)
+29,ag_g11b,byte,1,%8.0g,L02B,Why was the area harvested less than the area planted? (2ND)
+30,ag_g11b_os,str39,0,%39s,,Why was the area harvested less than the area planted? (2ND)(Other Specify)
+31,ag_g12a,byte,1,%8.0g,L04A,What were the months when the harvest started and ended? (START)
+32,ag_g12b,byte,1,%8.0g,L04B,What were the months when the harvest started and ended? (END)
+33,ag_g13a,float,1,%9.0g,,How much [CROP] did you harvest from this [PLOT] during the [RS]? (QUANT)
+34,ag_g13b,byte,1,%8.0g,L03B,How much [CROP] did you harvest from this [PLOT] during the [RS]? (UNIT)
+35,ag_g13b_os,str24,0,%24s,,How much [CROP] did you harvest from this [PLOT]... (Unit) (Other Specify)
+36,ag_g13c,byte,1,%8.0g,L03C,How much [CROP] did you harvest from this [PLOT] during the [RS]? (S/U)

@@ -1,0 +1,31 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Unique Household Identification IHS5
+3,fs_j01,byte,1,%10.0g,species,..list up to 5 main species of fish that..your household sold as part of your fi
+4,fs_j01_oth,str98,0,%98s,,Please specify the other fish species.
+5,fs_j02a,long,1,%6.0f,,"..last HIGH fishing season, how much [FISH SPECIES] did you or any purchase"
+6,fs_j02b,byte,1,%6.0f,fs_j02b,Identify form of packaging for [FISH SPECIES].
+7,fs_j02c,str23,0,%23s,,Specify other form of packaging.
+8,fs_j02d,byte,1,%6.0f,fs_j02d,Identify form of processing for [FISH SPECIES].
+9,fs_j02e,str5,0,%9s,,Specify other form of processing.
+10,fs_j02f,long,1,%6.0f,,"During the weeks of operation,..average price per packaging unit"
+11,fs_02filter,byte,1,%6.0f,fs_02filter,Was there any other form of processing of the fish?
+12,fs_j02h,byte,1,%6.0f,,"..last HIGH fishing season,Amt [FISH SPECIES] did you or any purchase"
+13,fs_j02i,byte,1,%6.0f,fs_j02i,Identify form of packaging for [FISH SPECIES].
+14,fs_j02j,str1,0,%9s,,Specify other type of packaging.
+15,fs_j02k,byte,1,%6.0f,fs_j02k,Identify form of processing for [FISH SPECIES].
+16,fs_j02l,str5,0,%9s,,Specify other form of processing.
+17,fs_j02m,int,1,%6.0f,,"During the weeks of operation,..average price per packaging unit"
+18,fs_j03a,long,1,%6.0f,,"..last HIGH fishing season, how much [FISH SPECIES] did you or any member of sel"
+19,fs_j03b,byte,1,%6.0f,fs_j03b,Identify type of packaging for [FISH SPECIES].
+20,fs_j03c,str23,0,%23s,,Specify other type of packaging.
+21,fs_j03d,byte,1,%6.0f,fs_j03d,Identify form of processing for [FISH SPECIES].
+22,fs_j03e,str10,0,%10s,,Specify other form of processing.
+23,fs_j03f,long,1,%6.0f,,"During the weeks of operation,..average price per packaging unit"
+24,fs_j03filter,byte,1,%6.0f,fs_j03filter,Was there any other form of processing of the fish?
+25,fs_j03g,long,1,%6.0f,,"..last HIGH fishing season, Amt [FISH SPECIES] did you or any member of sell"
+26,fs_j03h,byte,1,%6.0f,fs_j03h,Identify type of packaging for [FISH SPECIES].
+27,fs_j03i,str15,0,%15s,,Specify other type of packaging.
+28,fs_j03j,byte,1,%6.0f,fs_j03j,Identify form of processing for [FISH SPECIES].
+29,fs_j03k,str5,0,%9s,,Specify other form of processing.
+30,fs_j03l,long,1,%6.0f,,"During the weeks of operation,..average price per packaging unit"

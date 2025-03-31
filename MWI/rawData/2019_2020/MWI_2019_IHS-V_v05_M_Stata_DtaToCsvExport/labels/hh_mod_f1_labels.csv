@@ -1,0 +1,112 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%9s,,Garden ID
+4,hh_f102a_1,double,1,%6.2f,,What is the area of this [GARDEN]?
+5,hh_f102a_2,byte,1,%6.0f,hh_f_1_02b,UNIT
+6,hh_f102a_oth,str95,0,%95s,,Specify the unit for the area of this [GARDEN]
+7,hh_f102b,double,1,%6.2f,,ENUMERATOR: GPS Measure Area in Acres
+8,hh_f102_1,byte,1,%6.0f,,Specify the HH member that identified and walked around [GARDEN]
+9,hh_f102_2a,byte,1,%6.0f,,Specify the HH members whom the GPS based area for [GARDEN] was shared... (ID 1)
+10,hh_f102_2b,byte,1,%6.0f,,Specify the HH members whom the GPS based area for [GARDEN] was shared... (ID 2)
+11,hh_f102_2c,byte,1,%6.0f,,Specify the HH members whom the GPS based area for [GARDEN] was shared... (ID 3)
+12,hh_f102e,byte,1,%6.0f,hh_f_1_02e,"IF YOU DID NOT RECORD THE GPS COORDINATES, PLEASE SPECIFY REASON"
+13,hh_f102e_oth,str320,0,%320s,,PLEASE SPECIFY REASON YOU DID NOT RECORD GPS.
+14,hh_f102f,long,1,%6.0f,,ENUMERATOR: RECORD NUMBER OF SATELLITES GPS TRACKED TO CAPTURE PLOT LOCATION
+15,hh_f102g,byte,1,%6.0f,,ENUMERATOR: RECORD GPS ACCURACY
+16,hh_f102h,byte,1,%6.0f,hh_f_1_02h,RECORD THE WEATHER CONDITION AT THE TIME OF MEASUREMENT
+17,hh_f103,byte,1,%6.0f,hh_f_1_03,How was the [GARDEN] acquired?
+18,hh_f103oth,str88,0,%88s,,Please specify other way your household acquired this garden (%rostertitle%)
+19,hh_f103_3,byte,1,%6.0f,hh_f_1_03_3,Is this [GARDEN] the same piece of land on which the dwelling is located?
+20,hh_f104,byte,1,%6.0f,hh_f_1_04,Under which tenure systen is this [GARDEN]?
+21,hh_f105a_oth,str114,0,%114s,,Specify other primary use.
+22,hh_f105filter,byte,1,%6.0f,hh_f_1_05filter,Is there a secondary use of this %rostertitle%?
+23,hh_f105b,byte,1,%6.0f,hh_f_1_05b,What is the secondary use of this [GARDEN]?
+24,hh_f105b_oth,str15,0,%15s,,Specify other secondary use.
+25,hh_f105a,byte,1,%6.0f,hh_f_1_05a,What is the primary current use of this [GARDEN]?
+26,hh_f105_1,byte,1,%6.0f,hh_f_1_05_1,Was this [GARDEN] cultivated in the rainy season?
+27,hh_f105_2,byte,1,%6.0f,hh_f_1_05_2,Was this [GARDEN] cultivated in the dry season?
+28,hh_f105_3,byte,1,%6.0f,hh_f_1_05_3,Was this [GARDEN] cultivated with tree/permanent crops?
+29,hh_f106_1,byte,1,%6.0f,,Who in the HH [owns/holds use rights to] this [GARDEN] (ID 1)?
+30,hh_f106_2,byte,1,%6.0f,,Who in the HH [owns/holds use rights to] this [GARDEN] (ID 2)?
+31,hh_f106_3,byte,1,%6.0f,,Who in the HH [owns/holds use rights to] this [GARDEN] (ID 3)?
+32,hh_f106_4,byte,1,%6.0f,,Who in the HH [owns/holds use rights to] this [GARDEN] (ID 4)?
+33,hh_f106b,byte,1,%6.0f,hh_f_1_06b,Is there anyone outside the household [owns/ holds use rights to] this %rosterti
+34,hh_f106c,byte,1,%6.0f,,Who OUTSIDE the HH [owns/holds use rights to] this [GARDEN]?
+35,hh_f107,byte,1,%6.0f,hh_f_1_07,Does your HH have a documents for this [GARDEN]?
+36,hh_f108_doc_1,byte,1,%6.0f,hh_f_1_08roster__id,Formal Document Type 1
+37,hh_f108_oth_doc_1,str40,0,%40s,,Please specify other.
+38,hh_f108_id1_doc_1,byte,1,%6.0f,,ID of person in doc 1
+39,hh_f108_id2_doc_1,byte,1,%6.0f,,ID of person in doc 2
+40,hh_f108_id3_doc_1,byte,1,%6.0f,,ID of person in doc 3
+41,hh_f108_id4_doc_1,byte,1,%6.0f,,ID of person in doc 4
+42,hh_f108_doc_2,byte,1,%20.0f,hh_f_1_08roster__id,Formal Document Type 2
+43,hh_f108_oth_doc_2,str40,0,%40s,,Please specify other.
+44,hh_f108_id1_doc_2,byte,1,%6.0f,,ID of person in doc 1
+45,hh_f108_id2_doc_2,byte,1,%6.0f,,ID of person in doc 2
+46,hh_f108_id3_doc_2,byte,1,%6.0f,,ID of person in doc 3
+47,hh_f108_id4_doc_2,byte,1,%6.0f,,ID of person in doc 4
+48,hh_f108_doc_3,byte,1,%20.0f,hh_f_1_08roster__id,Formal Document Type 3
+49,hh_f108_oth_doc_3,str40,0,%40s,,Please specify other.
+50,hh_f108_id1_doc_3,byte,1,%6.0f,,ID of person in doc 1
+51,hh_f108_id2_doc_3,byte,1,%6.0f,,ID of person in doc 2
+52,hh_f108_id3_doc_3,byte,1,%6.0f,,ID of person in doc 3
+53,hh_f108_id4_doc_3,byte,1,%6.0f,,ID of person in doc 4
+54,hh_f108_doc_4,byte,1,%6.0f,hh_f_1_08roster__id,Formal Document Type 4
+55,hh_f108_oth_doc_4,str40,0,%40s,,Please specify other.
+56,hh_f108_id1_doc_4,byte,1,%6.0f,,ID of person in doc 1
+57,hh_f108_id2_doc_4,byte,1,%6.0f,,ID of person in doc 2
+58,hh_f108_id3_doc_4,byte,1,%6.0f,,ID of person in doc 3
+59,hh_f108_id4_doc_4,byte,1,%6.0f,,ID of person in doc 4
+60,hh_f108b_doc_1,byte,1,%6.0f,hh_f_1_08broster__id,Informal Document Type 1
+61,hh_f108b_oth_doc_1,str40,0,%40s,,Please specify other.
+62,hh_f108b_id1_doc_1,byte,1,%6.0f,,ID of person in doc 1
+63,hh_f108b_id2_doc_1,byte,1,%6.0f,,ID of person in doc 2
+64,hh_f108b_id3_doc_1,byte,1,%6.0f,,ID of person in doc 3
+65,hh_f108b_id4_doc_1,byte,1,%6.0f,,ID of person in doc 4
+66,hh_f108b_doc_2,byte,1,%17.0f,hh_f_1_08broster__id,Informal Document Type 2
+67,hh_f108b_oth_doc_2,str40,0,%40s,,Please specify other.
+68,hh_f108b_id1_doc_2,byte,1,%6.0f,,ID of person in doc 1
+69,hh_f108b_id2_doc_2,byte,1,%6.0f,,ID of person in doc 2
+70,hh_f108b_id3_doc_2,byte,1,%6.0f,,ID of person in doc 3
+71,hh_f108b_id4_doc_2,byte,1,%6.0f,,ID of person in doc 4
+72,hh_f108b_doc_3,byte,1,%17.0f,hh_f_1_08broster__id,Informal Document Type 3
+73,hh_f108b_oth_doc_3,str40,0,%40s,,Please specify other.
+74,hh_f108b_id1_doc_3,byte,1,%6.0f,,ID of person in doc 1
+75,hh_f108b_id2_doc_3,byte,1,%6.0f,,ID of person in doc 2
+76,hh_f108b_id3_doc_3,byte,1,%6.0f,,ID of person in doc 3
+77,hh_f108b_id4_doc_3,byte,1,%6.0f,,ID of person in doc 4
+78,hh_f108b_doc_4,byte,1,%6.0f,hh_f_1_08broster__id,Informal Document Type 4
+79,hh_f108b_oth_doc_4,str40,0,%40s,,Please specify other.
+80,hh_f108b_id1_doc_4,byte,1,%6.0f,,ID of person in doc 1
+81,hh_f108b_id2_doc_4,byte,1,%6.0f,,ID of person in doc 2
+82,hh_f108b_id3_doc_4,byte,1,%6.0f,,ID of person in doc 3
+83,hh_f108b_id4_doc_4,byte,1,%6.0f,,ID of person in doc 4
+84,hh_f108b_doc_5,byte,1,%6.0f,hh_f_1_08broster__id,Informal Document Type 5
+85,hh_f108b_oth_doc_5,str40,0,%40s,,Please specify other.
+86,hh_f108b_id1_doc_5,byte,1,%6.0f,,ID of person in doc 1
+87,hh_f108b_id2_doc_5,byte,1,%6.0f,,ID of person in doc 2
+88,hh_f108b_id3_doc_5,byte,1,%6.0f,,ID of person in doc 3
+89,hh_f108b_id4_doc_5,byte,1,%6.0f,,ID of person in doc 4
+90,hh_f109,byte,1,%6.0f,hh_f_1_09,Does anyone in the HH have the right to sell the [GARDEN]?
+91,hh_f110a_1,byte,1,%6.0f,,Who in the HH has the rights to sell this [GARDEN] (ID 1)?
+92,hh_f110a_2,byte,1,%6.0f,,Who in the HH has the rights to sell this [GARDEN] (ID 2)?
+93,hh_f110a_3,byte,1,%6.0f,,Who in the HH has the rights to sell this [GARDEN] (ID 3)?
+94,hh_f110a_4,byte,1,%6.0f,,Who in the HH has the rights to sell this [GARDEN] (ID 4)?
+95,hh_f110b,byte,1,%6.0f,hh_f_1_10b,Is there anyone outside the household that can decide whether to sell %rostertit
+96,hh_f110c,byte,1,%6.0f,,Who OUTSIDE the HH has the rights to sell this [GARDEN]?
+97,hh_f111,byte,1,%6.0f,hh_f_1_11,Does anyone in the HH have the right to bequeath this [GARDEN]?
+98,hh_f112a_1,byte,1,%6.0f,,Who in the HH has the rights to bequeath this [GARDEN] (ID 1)?
+99,hh_f112a_2,byte,1,%6.0f,,Who in the HH has the rights to bequeath this [GARDEN] (ID 2)?
+100,hh_f112a_3,byte,1,%6.0f,,Who in the HH has the rights to bequeath this [GARDEN] (ID 3)?
+101,hh_f112a_4,byte,1,%6.0f,,Who in the HH has the rights to bequeath this [GARDEN] (ID 4)?
+102,hh_f112b,byte,1,%6.0f,hh_f_1_12b,Is there anyone outside the household that can decide whether to bequeath %roste
+103,hh_f112c,byte,1,%6.0f,,Who OUTSIDE the HH has the rights to bequeath this [GARDEN]?
+104,hh_f113a_1,byte,1,%6.0f,,Individual 1
+105,hh_f113b_1,byte,1,%6.0f,hh_f_1_13,"..scale from 1 to 5, how likely is [Individual 1] to involutarily lose ownership"
+106,hh_f113a_2,byte,1,%6.0f,,Individual 2
+107,hh_f113b_2,byte,1,%6.0f,hh_f_1_13,"..scale from 1 to 5, how likely is [Individual 2] to involutarily lose ownership"
+108,hh_f113a_3,byte,1,%6.0f,,Individual 3
+109,hh_f113b_3,byte,1,%6.0f,hh_f_1_13,"..scale from 1 to 5, how likely is [Individual 3] to involutarily lose ownership"
+110,hh_f113a_4,byte,1,%6.0f,,Individual 4
+111,hh_f113b_4,byte,1,%6.0f,hh_f_1_13,"..scale from 1 to 5, how likely is [Individual 4] to involutarily lose ownership"

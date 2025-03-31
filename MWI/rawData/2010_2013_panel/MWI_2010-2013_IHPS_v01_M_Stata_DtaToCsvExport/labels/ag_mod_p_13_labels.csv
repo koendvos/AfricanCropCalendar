@@ -1,0 +1,22 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_p00,str3,0,%9s,,Plot ID
+6,ag_p0c,byte,1,%22.0g,AG_U0C,TREE/PERMANENT CROP CODE
+7,ag_p01,byte,1,%10.0g,AG_U01,Is the [TREE / PERMANENT CROP] cultivation in a plantation or scattered in the f
+8,ag_p02a,float,1,%9.0g,,What is the area of the plantation? (AREA)
+9,ag_p02b,byte,1,%15.0g,AG_U02B,What is the area of the plantation? (UNIT)
+10,ag_p03,int,1,%8.0g,,How many plants/trees for the [TREE / PERMANENT CROP] do you own on this [PLOT]?
+11,ag_p04,int,1,%8.0g,,In what year were most of these plants/ trees planted? (YEAR)
+12,ag_p05,int,1,%8.0g,,How many plants/trees were planted during the last 12 months? (NUMBER)
+13,ag_p06a,byte,1,%9.0g,AG_U06A,What was the last completed production period for the [TREE / PERMANENT CROP? (B
+14,ag_p06b,int,1,%8.0g,,What was the last completed production period for the [TREE / PERMANENT CROP? (B
+15,ag_p06c,byte,1,%9.0g,AG_U06C,What was the last completed production period for the [TREE / PERMANENT CROP? (E
+16,ag_p06d,int,1,%8.0g,,What was the last completed production period for the [TREE / PERMANENT CROP? (E
+17,ag_p07,byte,1,%8.0g,AG_U07,Were there any losses of [TREE / PERMANENT CROP] before harvest?
+18,ag_p08a,byte,1,%19.0g,AG_U08A,Why were there losses before the harvest? (1ST)
+19,ag_p08b,byte,1,%19.0g,AG_U08B,Why were there losses before the harvest? (2ND)
+20,ag_p09a,byte,1,%8.0g,,How much [TREE / PERMANENT CROP] did you harvest during the last 12 months? (QUA
+21,ag_p09b,byte,1,%15.0g,AG_U09B,How much [TREE / PERMANENT CROP] did you harvest during the last 12 months? (UNI

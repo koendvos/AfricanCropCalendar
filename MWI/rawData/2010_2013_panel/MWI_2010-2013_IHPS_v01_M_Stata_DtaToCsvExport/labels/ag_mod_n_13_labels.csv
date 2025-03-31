@@ -1,0 +1,47 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_n0a,int,1,%8.0g,,Seed ID
+6,ag_n0c,byte,1,%25.0g,AG_R0C,SEED TYPE CODE
+7,ag_n01a,float,1,%9.0g,,"ENUMERATOR: FOR EACH TYPE OF SEED, COMPUTE THE TOTAL AMOUNT PLANTED ACROSS PLOTS"
+8,ag_n01b,byte,1,%8.0g,AG_R01B,"ENUMERATOR: FOR EACH TYPE OF SEED, COMPUTE THE TOTAL AMOUNT PLANTED ACROSS PLOTS"
+9,ag_n02,byte,1,%29.0g,AG_R02,ENUMERATOR: ASK THE FARMER WHETHER THE FIGURES FROM QUESTION 1 CORRESPOND TO THE
+10,ag_n03,byte,1,%8.0g,AG_R03,"During the 2013 dry (dimba) season, did all of this [SEED] come from purchases b"
+11,ag_n04,byte,1,%8.0g,AG_R04,"During the 2013 dry (dimba) season, did you purchase any [SEED] without coupons/"
+12,ag_n15,str3,0,%9s,,Who/Which firm/institution was the FIRST SOURCE of the [SEED] that you purchased
+13,ag_n16a,float,1,%9.0g,,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+14,ag_n16b,byte,1,%15.0g,AG_R06B,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+15,ag_n17,byte,1,%21.0g,AG_R07,What was the main mode of transportation used to bring back the [SEED] that you
+16,ag_n18,int,1,%12.0g,,How much did you pay for transportation to acquire the [SEED] that you purchased
+17,ag_n19,int,1,%12.0g,,What was the value of the [SEED] that you purchased without coupons / vouchers o
+18,ag_n20,byte,1,%32.0g,AG_R10,How did you finance this [SEED] purchase from [FIRST SOURCE]?
+19,ag_n21,byte,1,%12.0g,,How much did you pay up-front for this [SEED] purchase?
+20,ag_n22,int,1,%12.0g,,How much did you repay/will you repay?
+21,ag_n23,str3,0,%9s,,What was the source of credit for this [SEED] purchase?
+22,ag_n24,byte,1,%8.0g,AG_R14,Was there a SECOND SOURCE from whom you purchased any of the [SEED] without coup
+23,ag_n25,str3,0,%9s,,Who/Which firm/institution was the SECOND SOURCE of the [SEED] that you purchase
+24,ag_n26a,byte,1,%9.0g,,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+25,ag_n26b,byte,1,%15.0g,AG_R16B,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+26,ag_n27,byte,1,%21.0g,AG_R17,What was the main mode of transportation used to bring back the [SEED] that you
+27,ag_n28,byte,1,%12.0g,,How much did you pay for transportation to acquire the [SEED] that you purchased
+28,ag_n29,int,1,%12.0g,,What was the value of the [SEED] that you purchased without coupons / vouchers o
+29,ag_n30,byte,1,%32.0g,AG_R20,How did you finance this [SEED] purchase?
+30,ag_n31,byte,1,%12.0g,,How much did you pay up-front for this [SEED] purchase?
+31,ag_n32,byte,1,%12.0g,,How much did you repay/will you repay?
+32,ag_n33,str1,0,%9s,,What was the source of credit for the [SEED] purchase?
+33,ag_n34,byte,1,%8.0g,AG_R24,Was there a THIRD SOURCE from whom you purchased any of the [SEED] without coupo
+34,ag_n35,str3,0,%9s,,Who/Which firm/institution was the THIRD SOURCE of the [SEED] that you purchased
+35,ag_n36a,byte,1,%9.0g,,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+36,ag_n36b,byte,1,%15.0g,AG_R26B,How much of the [SEED] was purchased without coupons / vouchers or purchased on
+37,ag_n37,byte,1,%8.0g,AG_R27,Did you receive any of the [SEED] for free  during the 2013 dry (dimba) season?
+38,ag_n38a,float,1,%9.0g,,How much of the [SEED] did you receive in total for free during the 2013 dry (di
+39,ag_n38b,byte,1,%15.0g,AG_R28B,How much of the [SEED] did you receive in total for free during the 2013 dry (di
+40,ag_n39a,str3,0,%9s,,"During the 2013 dry (dimba) season, from whom did you receive the [SEED] for fre"
+41,ag_n39b,str3,0,%9s,,"During the 2013 dry (dimba) season, from whom did you receive the [SEED] for fre"
+42,ag_n40,int,1,%12.0g,,How much did you pay for transportation in total to acquire all of the [SEED] th
+43,ag_n41,byte,1,%8.0g,AG_R31,Was any of the [SEED] that you used during the 2013 dry (dimba) season left over
+44,ag_n42a,float,1,%9.0g,,How much of the [SEED] that you used during the 2013 dry (dimba) season left ove
+45,ag_n42b,byte,1,%15.0g,AG_R32B,How much of the [SEED] that you used during the 2013 dry (dimba) season left ove
+46,ag_n43,byte,1,%37.0g,AG_R33,Why did you choose to use this [SEED]?

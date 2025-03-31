@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_l01,byte,1,%8.0g,HH_L01,Does your household own a [ITEM]?
+6,hh_l02,int,1,%32.0g,HH_L02,Durable Good Code
+7,hh_l03,int,1,%8.0g,,How many [ITEM]s do you own?
+8,hh_l04,byte,1,%8.0g,,What is the age of this [ITEM]
+9,hh_l05,double,1,%10.0g,,"If you wanted to sell one of this [ITEM] today, how much would you receive?"

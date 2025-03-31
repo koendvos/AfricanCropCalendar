@@ -1,0 +1,8 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrance Sequence for O/S Merge
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,com_cg35a,str1,0,%9s,,IDS
+4,com_cg35b,str35,0,%35s,,Please describe important events that have taken place in this community since [
+5,com_cg35c,byte,1,%30.0g,COM_CG35C,Please describe important events that have taken place in this community since [
+6,com_cg36,int,1,%8.0g,,In what year did this event occur?
+7,com_cg37,byte,1,%11.0g,COM_CG37,What share of the community was affected?

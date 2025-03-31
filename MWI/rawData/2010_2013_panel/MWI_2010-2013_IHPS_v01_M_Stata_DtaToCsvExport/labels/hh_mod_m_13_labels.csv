@@ -1,0 +1,13 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_m00,byte,1,%8.0g,HH_M00,"Did your household own or rent any farm implements, machinery and/or structures,"
+6,hh_m0b,int,1,%15.0g,HH_M0B,Item
+7,hh_m0c,byte,1,%8.0g,HH_M0C,Does your household currently own [ITEM] ?
+8,hh_m01,byte,1,%8.0g,,How many [ITEM] does your household currently own?
+9,hh_m06,long,1,%12.0g,,How much did your household spend on [ITEM]s during the last 12 month?
+10,hh_m10,byte,1,%8.0g,HH_M10,Did your household use the [ITEM] during the last 12 months?
+11,hh_m12,byte,1,%8.0g,HH_M12,Did your household rent or borrow any [ITEM] during the last 12 months?
+12,hh_m14,int,1,%12.0g,,How much did your household pay to rent or borrow [ITEM] last 12 months?

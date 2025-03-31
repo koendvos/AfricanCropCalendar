@@ -1,0 +1,14 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_o101,byte,1,%8.0g,AG_S101,"In addition to the gardens discussed so far, were there any other (additional) g"
+6,ag_o100a,str4,0,%9s,,Garden (Munda) ID
+7,ag_o102,str25,0,%25s,,Garden (Munda) name
+8,ag_o104a,float,1,%9.0g,,What is the area of this [GARDEN]? (AREA)
+9,ag_o104b,byte,1,%15.0g,AG_S104B,What is the area of this [GARDEN]? (UNIT)
+10,ag_o104c,float,1,%9.0g,,What is the area of this [GARDEN]? (GPS AREA IN ACRES)
+11,ag_o105e,byte,1,%17.0g,AG_S105E,REASON DID NOT RECORD GPS COORDINATES
+12,ag_o106,byte,1,%8.0g,,ENUMERATOR: RECORD NUMBER OF SATELLITES GPS TRACKED TO CAPTURE GARDEN COORDINATE
+13,ag_o107,byte,1,%39.0g,AG_S107,ENUMERATOR: RECORD THE WEATHER CONDITIONS AT TIME OF MEASUREMENT

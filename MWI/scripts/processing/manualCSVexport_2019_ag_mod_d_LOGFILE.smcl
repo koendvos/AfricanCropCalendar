@@ -1,0 +1,33 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/datadisk2/Scientific/Study_PhD/07_papers/2022.04_shortVars/LSMS_MWI/manualCSVexport_2019_ag_mod_d_LOGFILE.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}29 Apr 2022, 13:25:36
+{txt}
+{com}. 
+. 
+. // cd to folder of input dta-files
+. cd "`data_path'/LSMS/MWI/2019/data/MWI_2019_IHS-V_v04_M_Stata"
+{res}/datadisk1/GIS_data/LSMS/MWI/2019/data/MWI_2019_IHS-V_v04_M_Stata
+{txt}
+{com}. 
+. 
+. // load Stata dta-file
+. use ag_mod_d.dta
+{txt}
+{com}. 
+. // drop malformatted variable
+. drop ag_d21
+{txt}
+{com}. 
+. // export dataset
+. export delimited using "`data_path'/LSMS/MWI/2019/data/MWI_2019_IHS-V_v04_M_Stata_csvExport/ag_mod_d_modified.csv", replace
+{res}{txt}(note: file /datadisk1/GIS_data/LSMS/MWI/2019/data/MWI_2019_IHS-V_v04_M_Stata_csvExport/ag_mod_d_modified.csv not found)
+{txt}file /datadisk1/GIS_data/LSMS/MWI/2019/data/MWI_2019_IHS-V_v04_M_Stata_csvExport/ag_mod_d_modified.csv saved
+
+{com}. 
+{txt}end of do-file
+
+
+{com}. exit, clear

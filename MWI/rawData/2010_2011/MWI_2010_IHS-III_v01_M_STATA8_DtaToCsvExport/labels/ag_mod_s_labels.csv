@@ -1,0 +1,31 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,ag_s0a,int,1,%8.0g,AG_J0A,PRODUCT CODE
+5,ag_s0a_os,str13,0,%13s,,Product Code (Other Specify)
+6,ag_s01,byte,1,%8.0g,AG_J01,Did your household produce any [PRODUCT] during the last 12 months?
+7,ag_s02,byte,1,%8.0g,,"During the last 12 months,how many months did your HH produce any [PRODUCT]?"
+8,ag_s03a,float,1,%9.0g,,"During this time,what was the average quantity of[PRODUCT]produced?(QUANT/MONTH)"
+9,ag_s03b,byte,1,%8.0g,AG_J03B,"During this time,what was the average quantity of[PRODUCT]produced?(UNIT)"
+10,ag_s03b_os,str29,0,%29s,,"During this time,what was the average quantity of[PRODUCT]produced?(UNIT(O/S)"
+11,ag_s04,byte,1,%8.0g,AG_J04,Did you sell any of the [PRODUCT] that you produced in the last 12 months?
+12,ag_s05a,float,1,%9.0g,,How much of the [PRODUCT] produced did you sell in the last 12 months?(QUANT)
+13,ag_s05b,byte,1,%8.0g,AG_J05B,How much of the [PRODUCT] produced did you sell in the last 12 months?(UNIT)
+14,ag_s05b_os,str16,0,%16s,,How much of the [PRODUCT] produced did you sell in... (Unit) (Other Specify)
+15,ag_s06,long,1,%12.0g,,What was the total value of sales of [PRODUCT] in the last 12 months?
+16,ag_s07a,byte,1,%8.0g,,Who in your HH kept/decided what to do with the earnings from[PRODUCT]?(ID #1)
+17,ag_s07b,byte,1,%8.0g,,Who in your HH kept/decided what to do with the earnings from[PRODUCT]?(ID #2)
+18,ag_s08a,str3,0,%3s,,To whom did you sell most [PRODUCT] that you sold? ( ID CODE #1)
+19,ag_s08b,str3,0,%3s,,To whom did you sell most [PRODUCT] that you sold? ( ID CODE #2)
+20,ag_s09a,float,1,%9.0g,,How much of the [PRODUCT] produced did...HH consume in last 12 months?(QUANT)?
+21,ag_s09b,byte,1,%8.0g,AG_J09B,...HH consume in last 12 months?(UNIT)?
+22,ag_s09b_os,str29,0,%29s,,...HH consume in last 12 months?(UNIT)(Other Specify)?
+23,ag_s10a,float,1,%9.0g,,"...HH give out as gifts/reimbursements for land,labor or other service?(QUANT)"
+24,ag_s10b,byte,1,%8.0g,AG_J10B,"...HH give out as gifts/reimbursements for land,labor or other service?(UNIT)"
+25,ag_s10b_os,str12,0,%12s,,"...HH give out as gift/reimbursements for land, labor of other service?(UNIT O/S"
+26,ag_s11a,float,1,%9.0g,,...HH give out as reimbursements for inputs borrowed or acquired on credit?QUANT
+27,ag_s11b,byte,1,%8.0g,AG_J11B,...HH give out as reimbursements for inputs borrowed or acquired on credit?UNIT
+28,ag_s11b_os,str1,0,%1s,,...HH give out as reimbursements for inputs borrowed or acquired on credit?U O/S
+29,ag_s12,byte,1,%8.0g,AG_J12,"Incur any expenses(labor costs,add'l input,transport)in production of[PRODUCT]?"
+30,ag_s13,long,1,%12.0g,,What was the total value of these additional expenses?

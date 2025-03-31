@@ -1,0 +1,160 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%36s,,Survey Solutions Unique HH Identifier
+3,PID,byte,1,%6.0f,,Person Identifier in HH Roster
+4,hh_e03,byte,1,%6.0f,hh_e03,IS THE INFORMATION SELF-REPORTED OR IS IT BEING PROVIDED BY ANOTHER HH MEMBER
+5,hh_e04,byte,1,%6.0f,,WHO IS RESPONDING ON BEHALF OF [NAME]?
+6,hh_e05,double,1,%6.2f,,How many hours did [NAME] spend yesterday collecting water?
+7,hh_e06,double,1,%6.2f,,..hours did [NAME]spend yesterday collecting firewood(or other fuel materials)?
+8,hh_e06_1a,byte,1,%6.0f,hh_e06_1a,..12 months did you work on HH farming activities even if only for 1 hour?
+9,hh_e06_1b,byte,1,%6.0f,hh_e06_1b,..12 months did [NAME] work on HH livestock activities even if only for 1 hour?
+10,hh_e06_1c,byte,1,%6.0f,hh_e06_1c,..12 months did [NAME] work on HH fishing activities even if only for 1 hour?
+11,hh_e06_2,byte,1,%6.0f,hh_e06_2,"In the last 12 months, did [NAME] run a non-farm business of anysort"
+12,hh_e06_3,byte,1,%6.0f,hh_e06_3,..12 months did [NAME] help in..non-farm business run by this HH..?
+13,hh_e06_4,byte,1,%6.0f,hh_e06_4,"..last 12 months, did [NAME] work as an employee for a wage,salary or commission"
+14,hh_e06_5,byte,1,%6.0f,hh_e06_5,"..12 months,did [NAME] engage in an unpaid apprenticeship.."
+15,hh_e06_6,byte,1,%6.0f,hh_e06_6,"..12 months, did [NAME] engage in casual,part-time/ganyu labour..?"
+16,hh_e06_8a,float,1,%31.0g,economic_activity,..economic activity did [NAME]spent most time in the last 12 months (ACT 1)
+17,hh_e06_8b,float,1,%31.0g,economic_activity,..economic activity did [NAME]spent most time in the last 12 months (ACT 2)
+18,hh_e07a,double,1,%6.2f,,Amt hours in the last7 days did [NAME] spend on HH agric activities?
+19,hh_e07a_1,byte,1,%6.0f,hh_e07a_1,Thinking about the products obtained from your family farming...
+20,hh_e07b,long,1,%6.2f,,Amt hours in the last 7 days did you spend on household livestock activ
+21,hh_e07c,int,1,%6.2f,,How many hours in the last seven days did [NAME] spend on housedold fishing...
+22,hh_e08,double,1,%6.2f,,Amt hours in last 7 days [NAME]ran or do any kind of non-agric/non-fishing HH bu
+23,hh_e09,double,1,%6.2f,,Amt hours in last 7 days [NAME]helped in any of the HH's non-agric/ non-fishing
+24,hh_e10,double,1,%6.2f,,"Amt hours in the last 7 days [NAME]engaged in casual, part-time/ganyu labour?"
+25,hh_e11,double,1,%6.2f,,Amt hours in last 7 days [NAME]worked for a wage/salary/commission excluding gan
+26,hh_e12,double,1,%6.2f,,Amt hours in the last 7 days [NAME]..unpaid apprenticeship for anyone not a memb
+27,hh_e13_1a,float,1,%31.0g,economic_activity,..economic activity did [NAME] spent most time in the last7 days (Econ 1)
+28,hh_e13_1b,float,1,%31.0g,economic_activity,..economic activity did [NAME] spent most time in the last7 days (Econ 2)
+29,hh_e14,byte,1,%6.0f,hh_e14,"..did not do any activities in the last seven days,do you have a job to return t"
+30,hh_e15,byte,1,%6.0f,hh_e15,..main reason [NAME] did not work at this activ during the last 7 days?
+31,hh_e15_oth,str84,0,%84s,,..main reason [NAME] did not work at this activ during the last 7 days.
+32,hh_e15_1,byte,1,%6.0f,hh_e15_1,"Including the first time that [NAME] have been absent, will [NAME] return to tha"
+33,hh_e15_2,byte,1,%6.0f,hh_e15_2,"During the low or off-season, do [NAME] continue to do some work for that..."
+34,hh_e15_3,byte,1,%6.0f,hh_e15_3,"Was [NAME]'s work in family farming, lifestock or fishing"
+35,hh_e15_4,byte,1,%6.0f,hh_e15_4,"Thinking about the products obtained from [NAME]'s family farming, livestock or"
+36,hh_e17_1,byte,1,%6.0f,hh_e17_1,"During the last four weeks, did [NAME] do anything to find a paid job?"
+37,hh_e17_2,byte,1,%6.0f,hh_e17_2,Or did [NAME] try to start a business?
+38,hh_e17_3,byte,1,%6.0f,hh_e17_3,What did [NAME] mainly do in the last four weeks to find a paid job or start a b
+39,hh_e17_3_oth,str35,0,%35s,,Please specify what [NAME] mainly did the last four weeks.
+40,hh_e17_4,byte,1,%6.0f,hh_e17_4,For how long has [NAME] been without work and trying to find a job or start a bu
+41,hh_e17_5,byte,1,%6.0f,hh_e17_5,At present does [NAME] want to work?
+42,hh_e17_6,byte,1,%6.0f,hh_e17_6,What is the main reason [NAME] did not try to find a paid job or start a busines
+43,hh_e17_6_oth,str39,0,%39s,,Please specify other.
+44,hh_e17_7,byte,1,%6.0f,hh_e17_7,"If a job or business opportunity had been available, could [NAME] have started w"
+45,hh_e17_8,byte,1,%6.0f,hh_e17_8,Or could [NAME] start working within the next 2 weeks?
+46,hh_e17_9,byte,1,%6.0f,hh_e17_9,Why are [NAME] not available to start working?
+47,hh_e17_10,byte,1,%6.0f,hh_e17_10,Which of the following best describes what you are mainly doing at present?
+48,hh_e19a,str111,0,%111s,,Describe [NAME]'s main wage job over the last 12 months.
+49,hh_e19b,byte,1,%6.0f,,Describe [NAME]'s main wage job over the last 12 months.
+50,hh_e20a,str112,0,%112s,,Describe what kind of trade/business [NAME]'s main wage job over last 12 months
+51,hh_e20b,int,1,%10.0g,,Describe what kind of trade or business [NAME] main wage job
+52,hh_e21,byte,1,%6.0f,hh_e21,Is [NAME]'s employer for [NAME]'s main wage job over the last 12 months…
+53,hh_e21_oth,str43,0,%43s,,Specify [NAME]'s employer for his/her main wage job over the last 12 months
+54,hh_e21_1,byte,1,%6.0f,hh_e21_1,What type of position is [NAME]'s main wage job?
+55,hh_e21_2,byte,1,%6.0f,hh_e21_2,Does this wage job have a contract?
+56,hh_e21_3a,byte,1,%6.0f,,Does the job offer paid annual leave?
+57,hh_e21_3b,byte,1,%6.0f,,Does the job offer paid maternity of parental leave?
+58,hh_e21_3c,byte,1,%6.0f,,Does the job offer paid medical/sick leave?
+59,hh_e21_3d,byte,1,%6.0f,,Does the job offer health insurance benefits?
+60,hh_e21_3e,byte,1,%6.0f,,Does the job offer old-age pension?
+61,hh_e21_3f,byte,1,%6.0f,,Does the job offer disability pension?
+62,hh_e21_3g,byte,1,%6.0f,,Does the job offer paid/subsidized meals at work?
+63,hh_e21_3h,byte,1,%6.0f,,Does the job offer transport subsidy?
+64,hh_e21_3i,byte,1,%6.0f,,Does the job offer other benefits?
+65,hh_e21_3_oth,str70,0,%70s,,Please specify other benefits.
+66,hh_e21_4a,byte,1,%6.0f,,Has [NAME] experience: difficulty getting a promotion?
+67,hh_e21_4b,byte,1,%6.0f,,Has [NAME] experience: difficulty getting a raise in salary?
+68,hh_e21_4c,byte,1,%6.0f,,Has [NAME] experience: being harassed at work?
+69,hh_e21_4d,byte,1,%6.0f,,Has [NAME] experience: difficulty traveling to/from work?
+70,hh_e21_4e,byte,1,%6.0f,,Has [NAME] experience: being assigned tasks below level of education?
+71,hh_e22,long,1,%6.0f,,"In how many months over the last 12 months, did [NAME] work at this wage job?"
+72,hh_e23,byte,1,%6.0f,," During these months,how many weeks per month did [NAME] work at this wage job?"
+73,hh_e24,int,1,%6.0f,,"During these weeks,how many hours per week did [NAME] work at this wage job?"
+74,hh_e24_1,int,1,%6.0f,,"..the last 7 days,approximately Amt hours did [NAME] work at this wage job?"
+75,hh_e25,long,1,%6.0f,,How much was y[NAME]'s last payment for wages/salary?
+76,hh_e26a,long,1,%6.0f,,What period of time does each of [NAME]'s salary payments cover?
+77,hh_e26b,byte,1,%6.0f,hh_e26b,What period of time does each of [NAME]'s salary payments cover?
+78,hh_e26_1a,byte,1,%6.0f,,..HH controls/decides on the use of [NAME's]salary payment? (ID 1)
+79,hh_e26_1b,byte,1,%6.0f,,..HH controls/decides on the use of [NAME's]salary payment? (ID 2)
+80,hh_e27,long,1,%6.0f,,How much does [NAME] usually receive in <u>allowances or gratuities...
+81,hh_e28a,int,1,%6.0f,,..period of time is [NAME] reporting his/her allowances & gratuity payments?
+82,hh_e28b,byte,1,%6.0f,hh_e28b,..period of time is [NAME] reporting his/her allowances & gratuity payments?
+83,hh_e28_1a,byte,1,%6.0f,,..HH controls/decides on the use of [NAME's]allowances/gratuities? (ID 1)
+84,hh_e28_1b,byte,1,%6.0f,,..HH controls/decides on the use of [NAME's]allowances/gratuities? (ID 2)
+85,hh_e29,byte,1,%6.0f,hh_e29,Is this wage job considered an apprenticeship?
+86,hh_e30,byte,1,%6.0f,hh_e30,Has [NAME] made any payments to [NAME]'s employer for your apprenticeship?
+87,hh_e31,long,1,%10.0g,,Amt in total has [NAME] paid over the last 12 months for his/her apprenticeship?
+88,hh_e32,byte,1,%6.0f,hh_e32,"At any time over the last 12 months, was [NAME] employed for a second wage job"
+89,hh_e33,str50,0,%50s,,Describe [NAME]'s secondary wage job over the last 12 months.
+90,hh_e33_code,byte,1,%10.0g,,Describe [NAME]'s secondary wage job over the last 12 months.
+91,hh_e34,str74,0,%9s,,Describe what kind of trade or business [NAME]'s secondary wage job
+92,hh_e34_code,byte,1,%10.0g,,Describe what kind of trade or business [NAME]'s secondary wage
+93,hh_e35,byte,1,%6.0f,hh_e35,Is [NAME]'s employer for his/her secondary wage job over the last 12 months...
+94,hh_e35_oth,str10,0,%10s,,Specify [NAME]'s employer for his/her secon wage job over last 12 months...
+95,hh_e35_1,byte,1,%6.0f,hh_e35_1,What type of position is [NAME]'s secondary wage job?
+96,hh_e35_2,byte,1,%6.0f,hh_e35_2,Does this wage job have a contract?
+97,hh_e35_3a,byte,1,%6.0f,,Does the 2nd job offer paid annual leave?
+98,hh_e35_3b,byte,1,%6.0f,,Does the 2nd job offer paid maternity of parental leave?
+99,hh_e35_3c,byte,1,%6.0f,,Does the 2nd job offer paid medical/sick leave?
+100,hh_e35_3d,byte,1,%6.0f,,Does the 2nd job offer health insurance benefits?
+101,hh_e35_3e,byte,1,%6.0f,,Does the 2nd job offer old-age pension?
+102,hh_e35_3f,byte,1,%6.0f,,Does the 2nd job offer disability pension?
+103,hh_e35_3g,byte,1,%6.0f,,Does the 2nd job offer paid/subsidized meals at work?
+104,hh_e35_3h,byte,1,%6.0f,,Does the 2nd job offer transport subsidy?
+105,hh_e35_3i,byte,1,%6.0f,,Does the 2nd job offer other benefits?
+106,hh_e35_3_oth,str7,0,%9s,,Please specify other benefits.
+107,hh_e35_4a,byte,1,%6.0f,,Has [NAME] experience in 2nd: difficulty getting a promotion?
+108,hh_e35_4b,byte,1,%6.0f,,Has [NAME] experience in 2nd: difficulty getting a raise in salary?
+109,hh_e35_4c,byte,1,%6.0f,,Has [NAME] experience in 2nd: being harassed at work?
+110,hh_e35_4d,byte,1,%6.0f,,Has [NAME] experience in 2nd: difficulty traveling to/from work?
+111,hh_e35_4e,byte,1,%6.0f,,Has [NAME] experience in 2nd: being assigned tasks below level of education?
+112,hh_e36,byte,1,%10.0g,,"In how many months over the last 12 months, did [NAME] work at this wage job?"
+113,hh_e37,byte,1,%10.0g,,"During these months, Amt weeks per month did [NAME] work at this wage job?"
+114,hh_e38,int,1,%10.0g,,"During these weeks, Amt hours per week did [NAME] work at this wage job?"
+115,hh_e38_1,byte,1,%10.0g,,"..last 7 days, how many hours did [NAME] work at this wage job?"
+116,hh_e39,long,1,%10.0g,,How much was [NAME]'s last payment for wages/salary?
+117,hh_e40a,str1,0,%9s,,What period of time does each of [NAME]'s salary payments cover?
+118,hh_e40b,byte,1,%6.0f,hh_e40b,What period of time does each of [NAME]'s salary payments cover?
+119,hh_e40_1a,byte,1,%6.0f,,..HH controls/decides on the use of [NAME's]salary payments? (ID 1)
+120,hh_e40_1b,byte,1,%6.0f,,..HH controls/decides on the use of [NAME's]salary payments? (ID 2)
+121,hh_e41,str5,0,%9s,,How much does [NAME] usually receive in allowances or gratuities...
+122,hh_e42a,byte,1,%10.0g,,..period of time is [NAME] reporting [NAME]'s allowances and gratuity payments?
+123,hh_e42b,byte,1,%6.0f,hh_e42b,..period of time is [NAME] reporting your allowances & gratuity payments?
+124,hh_e42_1a,byte,1,%6.0f,,..HH controls/decides on the use of [NAME's]allowances/gratuities? (1D 1)
+125,hh_e42_1b,byte,1,%6.0f,,..HH controls/decides on the use of [NAME's]allowances/gratuities? (1D 2)
+126,hh_e43,byte,1,%6.0f,hh_e43,Is this wage job considered an apprenticeship?
+127,hh_e44,byte,1,%6.0f,hh_e44,Have you made any payments to your employer to for your apprenticeship?
+128,hh_e45,byte,1,%10.0g,,Amt in total has [NAME] paid over the last 12 months for his/her apprenticeship?
+129,hh_e47a,str66,0,%66s,,Describe [NAME]'s unpaid apprenticeship over the last 12 months?
+130,hh_e47b,byte,1,%10.0g,,Describe [NAME]'s unpaid apprenticeship over the last 12 months
+131,hh_e48a,str104,0,%104s,,Describe what kind of trade or business [NAME]'s unpaid apprenticeship
+132,hh_e48b,byte,1,%6.0f,,Describe what kind of trade or business [NAME]'s unpaid apprenticeship
+133,hh_e49,byte,1,%6.0f,hh_e49,Is [NAME]'s employer for your unpaid apprenticeship over the last 12 months…
+134,hh_e49_oth,str29,0,%29s,,..employer for [NAME]'s unpaid apprenticeship over the last 12 months…
+135,hh_e50,byte,1,%6.0f,,"In how many months over the last 12 months, did [NAME] work at this unpaid appre"
+136,hh_e51,byte,1,%6.0f,,"..months, weeks per month did [NAME] work at this unpaid apprenticeship?"
+137,hh_e52,byte,1,%6.0f,,"..weeks, number of hours per week did [NAME] work at this unpaid apprenticeship?"
+138,hh_e52_1,byte,1,%6.0f,,"..last 7 days, approximately Amt hours[NAME] worked at this unpaid apprenticeshi"
+139,hh_e53,byte,1,%6.0f,hh_e53,Has [NAME] made any payments to your employer for his/her unpaid apprenticeship?
+140,hh_e54,long,1,%10.0g,,Amt in total has [NAME] paid over the last 12 months for his/her unpaid apprenti
+141,hh_e56,byte,1,%6.0f,,"In how many months over the last 12 months, did [NAME] do ganyu labour"
+142,hh_e57,byte,1,%6.0f,,"During these months,how many weeks per month did [NAME]do ganyu labour?"
+143,hh_e58,byte,1,%6.0f,,"During these weeks,how many days per week did [NAME] do ganyu labour?"
+144,hh_e59,long,1,%6.0f,,"..average daily wage,in cash/in kind,NAME] received for days worked at ganyu?"
+145,hh_e59_1a,str2,0,%9s,,..HH controls/decides on the use of [NAME's]ganyu earnings? (ID 1)
+146,hh_e59_1b,str2,0,%9s,,..HH controls/decides on the use of [NAME's]ganyu earnings? (ID 2)
+147,hh_e60,byte,1,%6.0f,hh_e60,"..over last 12 months,did [NAME] work for other HH's, as exchange labourers?"
+148,hh_e61,byte,1,%6.0f,,"..last 12 months, for how many HH's in total did [NAME] work as exchange laboure"
+149,hh_e62,byte,1,%6.0f,,Number of HH's of relatives did [NAME] worked as exchange laborer?
+150,hh_e63,byte,1,%6.0f,,Number of HH's of friends/neighbors did [NAME] worked as exchange laborer?
+151,hh_e64,byte,1,%6.0f,hh_e64,..HH of the village headman among the HH's for whom [NAME] worked as exchange la
+152,hh_e65,int,1,%6.0f,,"..12 months,Amt many days in total did [NAME] work for other HH'ss as exchange l"
+153,hh_e66,byte,1,%6.0f,hh_e66,"During the last four weeks, did [NAME] looked for additional paid work?"
+154,hh_e67,byte,1,%6.0f,hh_e67,Would [NAME] want to work more hours per week than usual?
+155,hh_e68,byte,1,%6.0f,hh_e68,Could [NAME] start working more hours within the next two weeks?
+156,hh_e69,double,1,%6.2f,,How many additional hours per week could [NAME] work?
+157,hh_e70,byte,1,%6.0f,hh_e70,Does [NAME] want to change his/her current employment situation?
+158,hh_e71,byte,1,%6.0f,hh_e71,What is the main reason why [NAME] wants to change his/her employment?
+159,hh_e71_oth,str89,0,%89s,,Specify Other Reason why %rostertitle% wants to change his/her employment situat

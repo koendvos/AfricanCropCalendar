@@ -1,0 +1,33 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,hh_g00_1,byte,1,%6.0f,,Who in the HH is most knowledgable about food consumption in the HH?
+4,hh_g00_2,byte,1,%6.0f,,Who in the household is reporting information on food consumption in this househ
+5,hh_g01,byte,1,%6.0f,yes_no,"Over the past one week, did you or others in your household consume any [ITEM]?"
+6,hh_g01_oth,str44,0,%44s,,Specify other
+7,hh_g02,int,1,%51.0g,item_labels,ITEM CODE
+8,hh_g03a,double,1,%6.2f,,How much in total did your household consume in the past week? Quantity
+9,hh_g03b,str3,0,%9s,,UNIT
+10,hh_g03b_label,byte,1,%23.0f,hh_g03b,UNIT
+11,hh_g03b_oth,str51,0,%51s,,Specify the UNIT for how much in total did your household consume in the househo
+12,hh_g03c,byte,1,%6.0f,hh_g03c,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM. REFER TO PHOTO AID.
+13,hh_g03c_1,byte,1,%6.0f,hh_g03c_4,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM.
+14,hh_g04a,double,1,%6.2f,,How much came from purchases? QUANTITY
+15,hh_g04b,str3,0,%9s,,UNIT
+16,hh_g04b_label,byte,1,%23.0f,hh_g04b,UNIT
+17,hh_g04b_oth,str29,0,%29s,,Specify the UNIT for how much in total did your household consume in the househo
+18,hh_g04c,byte,1,%6.0f,hh_g04c,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM. REFER TO PHOTO AID.
+19,hh_g04c_1,byte,1,%6.0f,hh_g04c_4,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM.
+20,hh_g05,long,1,%6.0f,,How much did you spend? MK
+21,hh_g06a,double,1,%6.2f,,How much came from own-production? QUANTITY
+22,hh_g06b,str3,0,%9s,,UNIT
+23,hh_g06b_label,byte,1,%23.0f,hh_g06b,UNIT
+24,hh_g06b_oth,str25,0,%25s,,Specify the UNIT for how much in total did your household consume in the househo
+25,hh_g06c,byte,1,%6.0f,hh_g06c,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM. REFER TO PHOTO AID.
+26,hh_g06c_1,byte,1,%6.0f,hh_g06c_4,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM.
+27,hh_g07a,double,1,%6.2f,,How much came from gifts and other sources?
+28,hh_g07b,str3,0,%9s,,UNIT
+29,hh_g07b_label,byte,1,%23.0f,hh_g07b,UNIT
+30,hh_g07b_oth,str26,0,%26s,,Specify the UNIT for how much in total did your household consume in the househo
+31,hh_g07c,byte,1,%6.0f,hh_g07c,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM. REFER TO PHOTO AID.
+32,hh_g07c_1,byte,1,%6.0f,hh_g07c_4,ENUMERATOR: PLEASE SPECIFY SUB-UNIT CODE FOR ITEM.

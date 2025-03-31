@@ -1,0 +1,40 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,pid,byte,1,%8.0g,,ID Code
+4,hh_c03,byte,1,%8.0g,hh_c03,IS THE INFORMATION SELF-REPORTED OR IS IT BEING PROVIDED BY ANOTHER HH MEMBER
+5,hh_c04,byte,1,%8.0g,,WHO IS REPORTING THE INFORMATION FOR THE INDIVIDUAL? LIST FROM HH
+6,hh_c05a,byte,1,%8.0g,hh_c05a,Is [NAME] able to read and write in Chichewa languages?
+7,hh_c05b,byte,1,%8.0g,hh_c05b,Is [NAME] able to read and write in English languages?
+8,hh_c06,byte,1,%8.0g,hh_c06,Has [NAME] ever attended school?
+9,hh_c07a,byte,1,%8.0g,reason,What was the reason [NAME] never attended school? (1ST REASON)
+10,hh_c07b,byte,1,%8.0g,reason,What was the reason [NAME] never attended school? (2ND REASON)
+11,hh_c07_oth,strL,0,%41s,,Specify the reason [NAME] never attended school.
+12,hh_c08,byte,1,%8.0g,hh_c08,What class is [NAME] in or what was the highest class level [NAME] ever attended
+13,hh_c09,byte,1,%8.0g,hh_c09,What is the highest educational qualification [NAME] has acquired
+14,hh_c10,byte,1,%8.0g,,How old was [NAME] when he/she started school? YEARS
+15,hh_c11,byte,1,%8.0g,hh_c11,Did [NAME] attend school in the last completed academic year?
+16,hh_c12,byte,1,%8.0g,hh_c12,What class was [NAME] in during the last completed academic year?
+17,hh_c13,byte,1,%8.0g,hh_c13,"Are you currently attending school or, if school is not now in session, did you"
+18,hh_c14,byte,1,%8.0g,hh_c14,Why did [NAME] not continue his/her education?
+19,hh_c14_oth,strL,0,%40s,,Specify why [NAME] did not continue his/her education.
+20,hh_c15,int,1,%8.0g,,In which calendar year did [NAME] last attend school?
+21,hh_c16,byte,1,%8.0g,hh_c16,What type of school does [NAME] attend?
+22,hh_c17,byte,1,%8.0g,hh_c17,Is [NAME] a day scholar or a boarder at the school?
+23,hh_c18,byte,1,%8.0g,hh_c18,How does [NAME] get to school each day?
+24,hh_c18_oth,str15,0,%15s,,Specify how [NAME] gets to school each day.
+25,hh_c19a,byte,1,%8.0g,,How long does it usually take [NAME] to get to school by this means
+26,hh_c19b,byte,1,%8.0g,hh_c19b,How long does it usually take [NAME] to get to school by this means
+27,hh_c20,byte,1,%8.0g,hh_c20,"At any time in the past 12 months, did you ever temporarily withdraw from school"
+28,hh_c21,byte,1,%8.0g,hh_c21,What was the main reason [NAME] temporarily withdrew from school?
+29,hh_c21_oth,str31,0,%31s,,Specify the main reason rostertitle temporarily withdrew from school.
+30,hh_c22a,long,1,%12.0g,,"Tuition, including any extra tuition fees"
+31,hh_c22b,long,1,%12.0g,, Expenditures on after school programs & tutoring
+32,hh_c22c,long,1,%12.0g,,School books and other materials
+33,hh_c22d,long,1,%12.0g,,School uniform clothing
+34,hh_c22e,long,1,%12.0g,,Boarding fees
+35,hh_c22f,long,1,%12.0g,,Contribution for school building or maintainance
+36,hh_c22g,long,1,%12.0g,,Transport
+37,hh_c22h,int,1,%8.0g,,Parent association & other school related fees
+38,hh_c22i,long,1,%12.0g,,Other
+39,hh_c22j,long,1,%12.0g,,total

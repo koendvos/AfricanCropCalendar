@@ -1,0 +1,26 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Unique Household Identification IHS5
+3,fs_d14a,byte,1,%6.0f,,How many fishing men did you hire during the last HIGH season?
+4,fs_d14b,long,1,%6.0f,,How many weeks each labourers worked for you during last HIGH season
+5,fs_d14c,byte,1,%6.0f,,How many fishing children did you hire during the last HIGH season?
+6,fs_d14d,byte,1,%6.0f,,How many weeks each of these laborers worked for you during last HIGH season
+7,fs_d15,byte,1,%6.0f,fs_d15,Did you pay these workers a fixed wage?
+8,fs_d16a,str5,0,%9s,,What was each of the workers paid per week?
+9,fs_d16b,int,1,%10.0g,,What was each of the workers paid per week?
+10,fs_d17,byte,1,%6.0f,fs_d17,....did you pay these hired workers with fish as a share of the boat catch?
+11,fs_d18a,byte,1,%6.2f,,..quantity of fish did you pay to each hired workers..last HIGH fishing season?
+12,fs_d18b,byte,1,%6.0f,fs_d18b,Identify type of packaging for the fish
+13,fs_d18c,str15,0,%15s,,Specify other fish form of packaging to pay adult hired labour.
+14,fs_18d,byte,1,%6.2f,,"On average per week, what quantity of fish did you pay to ea"
+15,fs_d18e,byte,1,%6.0f,fs_d18e,Identify type of packaging for the fish
+16,fs_d18f,str14,0,%14s,,Specify other fish form of packaging to pay child hired labour.
+17,fs_d19,byte,1,%6.0f,fs_d19,..did you pay these hired workers with cash as a share of the boat revenue?
+18,fs_d20a,long,1,%6.0f,,..amt of the boat revenue did you pay to each hired worker..last HIGH fishing se
+19,fs_d20b,byte,1,%6.0f,,..amt of the boat revenue did you pay to each hired worker..last HIGH fishing se
+20,fs_d21a,long,1,%6.0f,,"..HIGH fishing season, did you pay the hired workers any other in kind benefit?"
+21,fs_d21b,int,1,%6.0f,,"..HIGH fishing season, did you pay the hired workers any other in kind benefit?"
+22,fs_d22,byte,1,%6.0f,fs_d22,..other types of costs related to fishing activities..last HIGH fishing season?
+23,fs_d23,str38,0,%38s,,Describe what these costs were for?
+24,fs_d24a,long,1,%6.0f,,What were the total costs during the HIGH season?
+25,fs_d24b,byte,1,%6.0f,fs_d24b,UNIT

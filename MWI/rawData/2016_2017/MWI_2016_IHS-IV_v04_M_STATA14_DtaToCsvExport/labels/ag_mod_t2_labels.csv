@@ -1,0 +1,18 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,ag_t0c,byte,1,%8.0g,ag_t0c,SOURCE CODE
+4,ag_t0d,byte,1,%8.0g,ag_t0d,Received Advice from this Source?
+5,ag_t02b_oth,strL,0,%39s,,Specify other source
+6,ag_t05a,byte,1,%8.0g,,Who in your household received advice? HHID 1
+7,ag_t05b,byte,1,%8.0g,,Who in your household received advice? HHID 2
+8,ag_t05c,byte,1,%8.0g,,Who in your household received advice? HHID 3
+9,ag_t05d,byte,1,%8.0g,,Who in your household received advice? HHID 4
+10,ag_t05_1,byte,1,%8.0g,ag_t05_1,Did the HH member(s)  request/otherwise demand the advice from this [SOURCE]
+11,ag_t06a,byte,1,%8.0g,,# solicited visits did someone from [SOURCE]visit your farm during the last 12 m
+12,ag_t06b,byte,1,%8.0g,,NUMBER OF UNSOLICITED VISITS
+13,ag_t07,byte,1,%8.0g,,# of times HH member visited/met w/[SOURCE](besides at your dwelling/plots)?
+14,ag_t08,byte,1,%8.0g,,# of times you or HH member attended[SOURCE]in the last 12 months?
+15,ag_t09,byte,1,%8.0g,ag_t09,Did any HH member pay anything to receive any type of info/advice from[SOURCE]?
+16,ag_t10,int,1,%8.0g,,How much in total did HH pay to receive any type of info/advice from[SOURCE]?
+17,ag_t11,byte,1,%8.0g,ag_t11,"On average,how useful was the advice/info received from [SOURCE]?"

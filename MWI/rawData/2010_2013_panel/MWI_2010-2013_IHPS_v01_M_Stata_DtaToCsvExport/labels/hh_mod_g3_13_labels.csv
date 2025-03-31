@@ -1,0 +1,9 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_g09,byte,1,%8.0g,HH_G09,"Over the past one week (7 days), did any people that you did not list as househo"
+6,hh_g10a,byte,1,%27.0g,HH_G10A,ITEM CODE
+7,hh_g10c,byte,1,%8.0g,,What was the total number of days in which any meal was shared with people […]?
+8,hh_g11,byte,1,%8.0g,,What was the total number of meals that were shared over past 7 days with […]?

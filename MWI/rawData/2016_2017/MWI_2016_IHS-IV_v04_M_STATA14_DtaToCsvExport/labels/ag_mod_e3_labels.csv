@@ -1,0 +1,24 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,ag_e27a,byte,1,%8.0g,obtain,Did hh obtain any FERTILIZER coupons in :2011/2012?
+4,ag_e27b,byte,1,%8.0g,obtain,Did hh obtain any FERTILIZER coupons in :2012/2013?
+5,ag_e27c,byte,1,%8.0g,obtain,Did hh obtain any FERTILIZER coupons in :2013/2014?
+6,ag_e27d,byte,1,%8.0g,obtain,Did hh obtain any FERTILIZER coupons in :2014/2015?
+7,ag_e27e,byte,1,%8.0g,obtain,Did hh obtain any MAIZE SEED coupons in :2011/2012?
+8,ag_e27f,byte,1,%8.0g,obtain,Did hh obtain any MAIZE SEED coupons in :2012/2013?
+9,ag_e27g,byte,1,%8.0g,obtain,Did hh obtain any MAIZE SEED coupons in :2013/2014?
+10,ag_e27h,byte,1,%8.0g,obtain,Did hh obtain any MAIZE SEED coupons in :2014/2015?
+11,ag_e28,byte,1,%8.0g,ag_e28,"E28. Did any members of this village <u>obtain any fertilizer, maize or flexi se"
+12,ag_e29a,byte,1,%8.0g,ag_e29a,Open Forum Allocn used in alloc & distri Fertilizer coupons in the [RS]?
+13,ag_e29b,byte,1,%8.0g,ag_e29b,Open Forum Distri used in alloc & distri Fertilizer coupons in the [RS]?
+14,ag_e29c,byte,1,%8.0g,ag_e29c,Redistribution Following Open Forum used in alloc & distri Fertilizer couponsin
+15,ag_e29d,byte,1,%8.0g,ag_e29d,Later Supplementary Allocations used in alloc & distrib Fertilizer coupons in th
+16,ag_e29e,byte,1,%8.0g,ag_e29e,Open Forum Allocation used in allocating & distributing Maize seed coupons in th
+17,ag_e29f,byte,1,%8.0g,ag_e29f,Open Forum Distribution used in alloc & distrib Maize seed coupons in the [RS]?
+18,ag_e29g,byte,1,%8.0g,ag_e29g,Redistribution Following Open Forum used in alloc & distri Maize seed coupons in
+19,ag_e29h,byte,1,%8.0g,ag_e29h,Later Supplementary Alloc used in alloc & distri Maize seed coupons in [RS]?
+20,ag_e29i,byte,1,%8.0g,ag_e29i,Open Forum Allocation used in alloc & distri Flexi seed coupons in the [RS]?
+21,ag_e29j,byte,1,%8.0g,ag_e29j,Open Forum Distribution used in alloc & distri Flexi seed coupons in the [RS]?
+22,ag_e29k,byte,1,%8.0g,ag_e29k,Redistribution Follow.. Open Forum used in alloc&distri Flexi seedcoupons in [RS
+23,ag_e29l,byte,1,%8.0g,ag_e29l,Later Supple.. Alloca used in alloc & distri Flexi seed coupons in the [RS]?

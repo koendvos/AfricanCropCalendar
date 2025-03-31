@@ -1,0 +1,41 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%8s,,Unique EA Identifier
+2,com_ch0b,int,1,%8.0g,COM_CH0B,code
+3,com_ch0b_os,str39,0,%39s,,item
+4,com_ch01,byte,1,%8.0g,COM_CH01,"In past 5 yrs,have any comm members expressed a need for[ITEM]in comm to leaders"
+5,com_ch02,byte,1,%8.0g,COM_CH02,"In past 5 yrs,have leaders organized community members to discuss need for[ITEM]"
+6,com_ch03,byte,1,%8.0g,COM_CH03,ENUMERATOR: IS THE ANSWER 'YES' TO EITHER QUESTION CH1 OR QUESTION CH2?
+7,com_ch04,byte,1,%8.0g,COM_CH04,"In past 5 yrs,did comm members meet to find ways to address need for[ITEM]?"
+8,com_ch05,byte,1,%8.0g,COM_CH05A,Under whose leadership was the meeting(s) organized?
+9,com_ch05a,str33,0,%33s,,Under whose leadership was the meeting(s) organized?(OTHER SPECIFY)
+10,com_ch06,byte,1,%8.0g,COM_CH06,Was the meeting(s)successful in determining how to address need for [ITEM]?
+11,com_ch07a,byte,1,%8.0g,COM_CH07A,To address need for[ITEM]did community...[mobilize manpower among comm members]?
+12,com_ch07b,byte,1,%8.0g,COM_CH07B,...[mobilize financial resources among community members]?
+13,com_ch07c,byte,1,%8.0g,COM_CH07C,...[submit a Proposal to be funded through MASAF/Local Development Fund(LDF)]?
+14,com_ch07d,byte,1,%8.0g,COM_CH07D,...[seek resources through the traditional authority]?
+15,com_ch07e,byte,1,%8.0g,COM_CH07E,...[seek resources through the City/District/Assembly/Commissioner]?
+16,com_ch07f,byte,1,%8.0g,COM_CH07F,...[seek resources through the Relevant MP]?
+17,com_ch07g,byte,1,%8.0g,COM_CH07G,...[seek resources through Other Influential Person]?
+18,com_ch07h,byte,1,%8.0g,COM_CH07H,...[seek resources through NGO/Religious/International Organization]?
+19,com_ch07i,byte,1,%8.0g,COM_CH07I,...[Other (Specify)- TEXT]?
+20,com_ch07i_os,str29,0,%29s,,"To address the need for [ITEM], did the community…[Other (Specify)/Text]"
+21,com_ch08,byte,1,%8.0g,COM_CH08,ENUMERATOR:DID COMM TAKE ACTION TO ADDRESS NEED FOR[ITEM] AS REPORTED IN CH7?
+22,com_ch09,byte,1,%8.0g,COM_CH09,Was the need for [ITEM] addressed?
+23,com_ch10,long,1,%12.0g,,What was/will be the total funding for [ITEM]?(MK)
+24,com_ch11,long,1,%12.0g,,What was/will be the total amount of money contributed by community members?(MK)
+25,com_ch12,byte,1,%8.0g,COM_CH12A,How were/will be the contributions raised?
+26,com_ch12_os,str25,0,%25s,,How were/will be the contributions raised?(OTHER SPECIFY)
+27,com_ch13a,byte,1,%8.0g,COM_CH13A,To address need for[ITEM]did community members...[supply manual labour]?
+28,com_ch13b,byte,1,%8.0g,COM_CH13B,...[serve in the project committee]?
+29,com_ch13c,byte,1,%8.0g,COM_CH13C,...[provide material input such as bricks & sand]?
+30,com_ch13d,byte,1,%8.0g,COM_CH13D,...[supply other in-kind contribution]?
+31,com_ch13d_os,str25,0,%25s,,...[supply other in-kind contribution/OTHER SPECIFY]?
+32,com_ch14,byte,1,%8.0g,COM_CH14A,Who chose the members of the [ITEM] project committee?
+33,com_ch14_os,str30,0,%30s,,Who chose the members of the [ITEM] project committee?(OTHER SPECIFY)
+34,com_ch15,byte,1,%8.0g,COM_CH15,Was/Is the need for[ITEM]going to be addressed w/out need for community action?
+35,com_ch16a,byte,1,%8.0g,COM_CH16A,What was/will be the source of the funds for [ITEM]? (1ST)
+36,com_ch16a_os,str31,0,%31s,,What was/will be the source of the funds for [ITEM]? (1ST/OTHER SPECIFY)
+37,com_ch16b,byte,1,%8.0g,COM_CH16C,What was/will be the source of the funds for [ITEM]? (2ND)
+38,com_ch16b_os,str25,0,%25s,,What was/will be the source of the funds for [ITEM]? (2ND/OTHER SPECIFY)
+39,com_ch16c,byte,1,%8.0g,COM_CH16E,What was/will be the source of the funds for [ITEM]? (3RD)
+40,com_ch16c_os,str14,0,%14s,,What was/will be the source of the funds for [ITEM]? (3RD/OTHER SPECIFY)

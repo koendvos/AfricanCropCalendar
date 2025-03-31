@@ -1,0 +1,12 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,ea_id,str8,0,%9s,,Unique EA Identifier
+4,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+5,ag_c0a,byte,1,%9.0g,AG_B0A,"ENUM:Refer to HH Questionnaire Mod X, what was the last completed rainy season?"
+6,ag_c01,byte,1,%8.0g,AG_B01,"During the [LAST COMPLETED RAINY SEASON - USE THE ANSWER ABOVE], did you OR any"
+7,ag_j0a,byte,1,%9.0g,AG_I0A,"ENUM:Refer to HH Questionnaire Mod X, what was the last completed dimba season?"
+8,ag_j01,byte,1,%8.0g,AG_I01,"During the [LAST COMPLETED DRY (DIMBA) SEASON - USE THE ANSWER ABOVE], did you O"
+9,ag_j02,byte,1,%8.0g,AG_I02,Any plots that your HH owned/cultivated during the last completed dimba season?
+10,ag_s00,byte,1,%8.0g,AG_R00,Did you or anyone in your household own any livestock in the last 12 months?
+11,_merge,byte,1,%32.0g,__MERGE,

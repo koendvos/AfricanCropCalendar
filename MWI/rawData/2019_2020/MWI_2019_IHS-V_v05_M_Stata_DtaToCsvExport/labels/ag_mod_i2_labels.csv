@@ -1,0 +1,41 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%9s,,Garden ID
+4,ag_i202,byte,1,%6.0f,,ENUMERATOR: RECORD THE ID OF THE RESPONDENT.
+5,ag_i203_1a,byte,1,%6.0f,,From whom did you acquire this [GARDEN]? (1)
+6,ag_i203_1b,byte,1,%6.0f,,From whom did you acquire this [GARDEN]? (2)
+7,ag_i203_2,int,1,%6.0f,,In which year was this [GARDEN] acquired?
+8,ag_i204_9,byte,1,%6.0f,ag_i_2_04_9,Have you ever been concerned that somebody might dispute your ownership
+9,ag_i205,long,1,%6.0f,,"If you were to sell this [GARDEN] today, how much could you sell this for?"
+10,ag_i206,long,1,%6.0f,,"If you were to rent out this [GARDEN] today for 12 months, how much..."
+11,ag_i208a,byte,1,%6.0f,ag_i_2_08a,CROP TYPE
+12,ag_i208a_oth,str4,0,%9s,,Specify the crops planted.
+13,ag_i208b,byte,1,%6.0f,,"How much output from this [GARDEN] did you give as rent,..."
+14,ag_i208c,byte,1,%6.0f,ag_i_2_08c,UNIT
+15,ag_i208c_oth,str5,0,%9s,,Please specify the other unit of output given as rent
+16,ag_i208d,byte,1,%6.0f,ag_i_2_08d,SHELLED / UNSHELLED
+17,ag_i209a,long,1,%6.0f,,How much did you pay the owner for the use of [GARDEN] in the [RS]...
+18,ag_i209b,long,1,%6.0f,,IN-KIND
+
+MK
+19,ag_i212,byte,1,%6.0f,ag_i_2_b12,What period of time did this payment cover?
+20,ag_i212_oth,str33,0,%9s,,Please specify other period of payment
+21,ag_i213a,byte,1,%6.0f,,Who owns this garden? (1)
+22,ag_i213b,byte,1,%6.0f,,Who owns this garden? (2)
+23,ag_i213_1a,byte,1,%6.0f,,Who in the HH has the use right to this [GARDEN]? (1)
+24,ag_i213_1b,byte,1,%6.0f,,Who in the HH has the use right to this [GARDEN]? (2)
+25,ag_i214,byte,1,%6.0f,ag_i_2_14,"During the [RS], what is the status of this [GARDEN]?"
+26,ag_i214_oth,str1,0,%9s,,Please specify cultivation status of the garden
+27,ag_i216a,byte,1,%6.0f,ag_i_2_16a,CROP TYPE
+28,ag_i216a_oth,str1,0,%9s,,Specify the crops planted.
+29,ag_i216b,byte,1,%6.0f,,"How much output from this [GARDEN] did you receive as rent, if any, in..."
+30,ag_i216c,byte,1,%6.0f,ag_i_2_16c,UNIT
+31,ag_i216c_oth,str1,0,%9s,,Please specify the other  unit of output received as rent
+32,ag_i216d,byte,1,%6.0f,ag_i_2_16d,SHELLED / UNSHELLED
+33,ag_i217a,int,1,%6.0f,,How much did you receive from renting out this [GARDEN] in the [RS]...
+34,ag_i217b,int,1,%6.0f,,IN-KINDMK
+35,ag_i_2_20,byte,1,%6.0f,ag_i_2_20,I_2_20. What period of time did this payment cover?
+
+READ ANSWERS
+36,ag_i_2_20Oth,str12,0,%12s,,I_2_20Oth. Specify period of time did this payment cover?

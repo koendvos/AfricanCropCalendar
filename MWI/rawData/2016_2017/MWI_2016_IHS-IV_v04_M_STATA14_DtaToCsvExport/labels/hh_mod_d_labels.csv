@@ -1,0 +1,50 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,pid,byte,1,%8.0g,,ID Code
+4,hh_d02,byte,1,%8.0g,hh_d02,IS THE INFORMATION SELF REPORTED OR IS IT BEING PROVIDED BY ANOTHER HH MEMBER?
+5,hh_d03,byte,1,%8.0g,,WHO IS REPORTING THE INFORMATION FOR THE INDIVIDUAL?
+6,hh_d04,byte,1,%8.0g,hh_d04, During the past 2 weeks has [NAME] suffered from an illness or injury
+7,hh_d05a,byte,1,%8.0g,illness,Illness 1
+8,hh_d05b,byte,1,%8.0g,illness,Illness 2
+9,hh_d05_oth,str29,0,%29s,,Specify what Other illness or injury you suffered during the past 2 weeks
+10,hh_d06a,byte,1,%8.0g,hh_d06a,Who diagnosed the first illness?
+11,hh_d06a_oth,strL,0,%38s,,Specify who diagnosed the first illness.
+12,hh_d06b,byte,1,%8.0g,hh_d06b,Who diagnosed the second illness?
+13,hh_d06b_oth,str26,0,%26s,,Specify diagnosed the second illness.
+14,hh_d07a,byte,1,%8.0g,hh_d07a,What action did [NAME] take to find relief for his/her 1st Illness
+15,hh_d07a_oth,strL,0,%52s,,Specify the action [NAME] took to find relief for first illness.
+16,hh_d07b,byte,1,%8.0g,hh_d07b,What action did [NAME] take to find relief for his/her 2nd Illness
+17,hh_d07b_oth,strL,0,%40s,,Specify the action [NAME] took to find relief for second illness.
+18,hh_d08,byte,1,%8.0g,,"During past 2 weeks, days [NAME] had to stop normal activities due to illness"
+19,hh_d09,byte,1,%8.0g,,"..2 weeks, for how many days..HH have to stop normal activities to care for [NAM"
+20,hh_d10,long,1,%12.0g,,Amt [NAME] spent in the past 4 weeks  for all illnesses and injuries?
+21,hh_d11,long,1,%12.0g,,Amt in total did [NAME]spent...for medical care not related to an illness?
+22,hh_d12,long,1,%12.0g,,Amt in total did [NAME]spent..for nonprescription medicines?
+23,hh_d12_1,long,1,%12.0g,,How much in total did [NAME] spend..for medical insurance?
+24,hh_d13,byte,1,%8.0g,hh_d13,"..12 months, was [NAME] hospitalized/had an overnight stay in a medical facility"
+25,hh_d14,long,1,%12.0g,,..total cost of [NAME] hospitalization/overnight stay(s)..last 12 months?
+26,hh_d15,long,1,%12.0g,,D15. How much in total did %rostertitle% spend to travel to the medical facility
+27,hh_d16,long,1,%12.0g,,Amt[NAME] spent on food during overnight stay(s) at the medical facility..
+28,hh_d17,byte,1,%8.0g,hh_d17,Did [NAME]..HH have to borrow money or sell assets in order to pay..?
+29,hh_d18,byte,1,%8.0g,hh_d18,"..last 12 months,did [NAME] stay overnight at a traditional healer's..dwelling?"
+30,hh_d19,int,1,%8.0g,,..total cost of [NAME] stay(s) at the traditional healer's..dwelling..
+31,hh_d20,int,1,%8.0g,,total amt[NAME] spent on travel to traditional healer's..overnight stay(s)..
+32,hh_d21,int,1,%8.0g,,Amt[NAME] spent on food during overnight stay(s) at the traditional healer's..dw
+33,hh_d22,byte,1,%8.0g,hh_d22,Did [NAME] or other members of the HH have to borrow money or sell assets in ord
+34,hh_d33,byte,1,%8.0g,hh_d33,Does [NAME] suffer from a chronic illness?
+35,hh_d34_oth,str27,0,%27s,,Specify the chronic illness [NAME]'s suffer from.
+36,hh_d34a,byte,1,%8.0g,chronicillness,What chronic illness does [NAME] suffer from? (ILLNESS 1)
+37,hh_d34b,byte,1,%8.0g,chronicillness,What chronic illness does [NAME] suffer from? (ILLNESS 2)
+38,hh_d35a,byte,1,%8.0g,,How long has [NAME] suffered from this illness (these illnesses)?
+39,hh_d35b,int,1,%8.0g,,How long has [NAME] suffered from this illness (these illnesses)?
+40,hh_d36a,byte,1,%8.0g,hh_d36a,Who diagnosed the first illness?
+41,hh_d36a_oth,str19,0,%19s,,Who diagnosed the second illness?
+42,hh_d36b,byte,1,%8.0g,hh_d36b,Who diagnosed the second illness?
+43,hh_d36b_oth,str1,0,%1s,,Specify who diagnosed the second illness.
+44,hh_d38,byte,1,%8.0g,hh_d38,What did [NAME] have for breakfast yesterday?
+45,hh_d38_oth,str26,0,%26s,,"Please, specify Other"
+46,hh_d45,byte,1,%8.0g,hh_d45,Where was this child delivered?
+47,hh_d45_oth,strL,0,%39s,,Specify where this child was delivered.
+48,hh_d46,byte,1,%8.0g,hh_d46,Who assisted in delivering this child?
+49,hh_d46_oth,str18,0,%18s,,Specify who assisted in delivering this child.

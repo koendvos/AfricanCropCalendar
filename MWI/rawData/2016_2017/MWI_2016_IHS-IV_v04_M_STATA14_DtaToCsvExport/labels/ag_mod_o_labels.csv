@@ -1,0 +1,60 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,crop_code,byte,1,%8.0g,crops,CROP CODE
+4,ag_o01,byte,1,%8.0g,ag_o01,Did you <u>sell</u> any of the harvested crop (%rostertitle%)?
+5,ag_o02a,long,1,%12.0g,,How much of the harvested crop (%rostertitle%) was <u>sold in total</u>?<b
+6,ag_o02b,byte,1,%8.0g,ag_o02b,unit
+7,ag_o02c,byte,1,%8.0g,ag_o02c,S/U
+8,ag_o03,long,1,%12.0g,,What was the total value of all crop sales? MK
+9,ag_o05a,byte,1,%8.0g,,Who/What were the main buyers/outlets for your[CROP]sales?(ID CODE #1)
+10,ag_o05b,byte,1,%8.0g,,Who/What were the main buyers/outlets for your[CROP]sales?(ID CODE #2)
+11,ag_o06a,byte,1,%8.0g,,Who in your HH kept/decided what to do with these earning?(ID CODE #1)
+12,ag_o06b,byte,1,%8.0g,,Who in your HH kept/decided what to do with these earning?(ID CODE #2)
+13,ag_o07a,byte,1,%8.0g,ag_o07a,When was most of the crop sold? Month
+14,ag_o07b,int,1,%8.0g,,YEAR (4-DIGIT)
+15,ag_o08,byte,1,%8.0g,,Approximately how many transactions took place while selling crop
+16,ag_o09,byte,1,%8.0g,ag_o09,What was the main mode of transportation associated with all [CROP] sales?
+17,ag_o09_oth,str7,0,%7s,,Specify the main mode of transportation.
+18,ag_o10,long,1,%12.0g,,What was the total cost of transportation associaed with all sales?
+19,ag_o31a,float,1,%9.0g,,Amt of harvested[CROP]during[RS]given as gifts/reimbursements for  land/labor?(Q
+20,ag_o31b,byte,1,%8.0g,ag_o31b,unit
+21,ag_o31b_oth,str25,0,%25s,,SPECIFY UNIT
+22,ag_o31c,byte,1,%8.0g,ag_o31c,S/U
+23,ag_o32a,byte,1,%8.0g,,Amt of [CROP]given as reimbursements for inputs borrowed/acquired on credit?(Q)
+24,ag_o32b,byte,1,%8.0g,ag_o32b,unit
+25,ag_o32b_oth,str1,0,%1s,,SPECIFY UNIT
+26,ag_o32c,byte,1,%8.0g,ag_o32c,S/U
+27,ag_o33a,byte,1,%8.0g,,Amt of harvested[CROP]used for animal feed?(QUANT)
+28,ag_o33b,byte,1,%8.0g,ag_o33b,unit
+29,ag_o33b_oth,str11,0,%11s,,SPECIFY UNIT
+30,ag_o33c,byte,1,%8.0g,ag_o33c,S/U
+31,ag_o34a,byte,1,%8.0g,,Amt[CROP]used as input for[CROP]by-products that HH sold for cash/in-kind G/S(Q)
+32,ag_o34b,byte,1,%8.0g,ag_o34b,unit
+33,ag_o34b_oth,str7,0,%7s,,SPECIFY UNIT
+34,ag_o34c,byte,1,%8.0g,ag_o34c,S/U
+35,ag_o35a,double,1,%12.0g,,Amt of harvested[CROP]saved for seed?(QUANT)
+36,ag_o35b,byte,1,%8.0g,ag_o35b,unit
+37,ag_o35b_oth,str24,0,%24s,,SPECIFY UNIT
+38,ag_o35c,byte,1,%8.0g,ag_o35c,S/U
+39,ag_o36a,double,1,%12.0g,,"Amt of[CROP]lost to rotting,insects,rodents,theft in post-harvest period?(Q)"
+40,ag_o36b,byte,1,%8.0g,ag_o36b,OPTION 1 UNIT
+41,ag_o36b_oth,str24,0,%24s,,SPECIFY UNIT
+42,ag_o36c,byte,1,%8.0g,ag_o36c,OPTION 1 S/U
+43,ag_o36d,byte,1,%8.0g,,OPTION 2 PERCENTAGE
+44,ag_o37a,byte,1,%8.0g,ag_o37,What was the reason for loss?(1ST)
+45,ag_o37b,byte,1,%8.0g,ag_o37,What was the reason for loss?(2ND)
+46,ag_o37_oth,str26,0,%26s,,Specify the <u>reason</u> for loss.
+47,ag_o38,byte,1,%8.0g,ag_o38,Do you have any of the harvested crop (%rostertitle%) <u>in storage</u> now
+48,ag_o39,byte,1,%8.0g,ag_o39,What is your <u>main method</u> of storage for this crop?
+49,ag_o39_oth,str11,0,%11s,,Specify your main method of storage for this crop.
+50,ag_o40a,int,1,%8.0g,,Amt of harvested[CROP]being stored by HH?(QUANT)
+51,ag_o40b,byte,1,%8.0g,ag_o40b,unit
+52,ag_o40b_oth,str5,0,%5s,,SPECIFY UNIT
+53,ag_o40c,byte,1,%8.0g,ag_o40c,S/U
+54,ag_o41a,byte,1,%8.0g,actions,What did you do to protect the stored [CROP]?(1ST)
+55,ag_o41b,byte,1,%8.0g,actions,What did you do to protect the stored [CROP]?(2ND)
+56,ag_o41_oth,str29,0,%29s,,Specify what is usually the main purpose of storing the crop
+57,ag_o42a,byte,1,%8.0g,purpose,"When you store[CROP],what is usually the main purpose for storing it?(1ST)"
+58,ag_o42b,byte,1,%8.0g,purpose,"When you store[CROP],what is usually the main purpose for storing it?(2ND)"
+59,ag_o42_oth,str21,0,%21s,,Specify what you do to the stored crop

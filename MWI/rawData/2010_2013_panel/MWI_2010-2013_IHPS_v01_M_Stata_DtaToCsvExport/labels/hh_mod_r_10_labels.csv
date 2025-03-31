@@ -1,0 +1,23 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,hh_r0a,int,1,%84.0g,HH_R0A,Program Code
+7,hh_r0a_os,str48,0,%48s,,Program Code (Other Specify)
+8,hh_r01,byte,1,%8.0g,HH_R01,"In the last 12 months, has any member of your household received cash, food, or"
+9,hh_r02a,long,1,%12.0g,,"In the last 12 months, what was the total assistance received from [PROGRAMME] i"
+10,hh_r02b,long,1,%12.0g,,"In the last 12 months, what was the total assistance received from [PROGRAMME] i"
+11,hh_r02c,int,1,%8.0g,,"In the last 12 months, what was the total assistance received from [PROGRAMME] i"
+12,hh_r03,byte,1,%26.0g,HH_R03,Was the assistance given to
+13,hh_r04a,byte,1,%8.0g,,1st household members received this assistance in the last 12 months
+14,hh_r04b,byte,1,%8.0g,,2nd household members received this assistance in the last 12 months
+15,hh_r04c,byte,1,%8.0g,,3rd household members received this assistance in the last 12 months
+16,hh_r04d,byte,1,%8.0g,,4th household members received this assistance in the last 12 months
+17,hh_r04e,byte,1,%8.0g,,5th household members received this assistance in the last 12 months
+18,hh_r05a,byte,1,%8.0g,,1st household members who controls/decides on the use of assistance from [PROGRA
+19,hh_r05b,byte,1,%8.0g,,2nd household members who controls/decides on the use of assistance from [PROGRA
+20,hh_r06,byte,1,%8.0g,,"In the last 12 months, for how many months did your household receive assistance"
+21,hh_r07a,byte,1,%8.0g,,When was the last time your household received this assistance (Month)
+22,hh_r07b,int,1,%8.0g,,When was the last time your household received this assistance (Year)

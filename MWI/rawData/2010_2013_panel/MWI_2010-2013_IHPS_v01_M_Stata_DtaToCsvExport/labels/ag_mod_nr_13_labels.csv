@@ -1,0 +1,8 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_nr00,str3,0,%9s,,NETWORK ROSTER ID
+6,ag_nr02,byte,1,%32.0g,AG_NR02,CODE
+7,ag_nr03,byte,1,%30.0g,AG_NR03,LOCATION

@@ -1,0 +1,8 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,Unique HH Identifier
+3,visit,byte,1,%9.0g,,Panel Visit
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,fs_j0a,byte,1,%15.0g,FS_J0A,COST ID
+6,fs_j04,byte,1,%8.0g,FS_J04,Did your household have any costs for [COST ITEM] in relation to your fish tradi
+7,fs_j05,int,1,%12.0g,,How much did your household have to pay for [COST ITEM] on a weekly basis during

@@ -1,0 +1,16 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,ag_i101,byte,1,%8.0g,AG_M101,"During the 2013 dry (dimba) season, did you OR any member of your household cult"
+6,ag_i102,byte,1,%8.0g,AG_M102,"ENUMERATOR: In addition to the gardens you already mentioned, were there ANY OTH"
+7,ag_i102_1,byte,1,%8.0g,AG_M102_1,ENUMERATOR: ASK THE FOLLOWING IF THE RESPONDENT DID NOT LIST ANY GARDENS OWNED O
+8,ag_i100a,str4,0,%9s,,Garden (Munda) ID
+9,ag_i103,str25,0,%25s,,Garden (Munda) name
+10,ag_i105a,float,1,%9.0g,,What is the area of this [GARDEN]? (AREA)
+11,ag_i105b,byte,1,%15.0g,AG_M105B,What is the area of this [GARDEN]? (UNIT)
+12,ag_i105c,float,1,%9.0g,,What is the area of this [GARDEN]? (GPS AREA IN ACRES)
+13,ag_i106e,byte,1,%17.0g,AG_M106E,REASON DID NOT RECORD GPS COORDINATES
+14,ag_i107,byte,1,%8.0g,,ENUMERATOR: RECORD NUMBER OF SATELLITES GPS TRACKED TO CAPTURE GARDEN COORDINATE
+15,ag_i108,byte,1,%39.0g,AG_M108,ENUMERATOR: RECORD THE WEATHER CONDITIONS AT TIME OF MEASUREMENT

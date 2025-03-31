@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Unique HH Identifier
+3,xy_src,str9,0,%9s,,Source module for coordinates
+4,gardenid,str4,0,%4s,,Garden ID
+5,plotid,str3,0,%3s,,Plot ID
+6,dist_hh,double,1,%12.0g,,Plot Distance in (KMs) to HH
+7,slope,byte,1,%8.0g,,Plot Slope (percent)
+8,elevation,int,1,%8.0g,,Plot Elevation (m)
+9,twi,byte,1,%8.0g,,Plot Potential Wetness Index

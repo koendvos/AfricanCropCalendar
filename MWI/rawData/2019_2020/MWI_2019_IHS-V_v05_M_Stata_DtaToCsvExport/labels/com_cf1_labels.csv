@@ -1,0 +1,31 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%9s,,Unique EA Identifier
+2,com_cf01,byte,1,%6.0f,cf1,Do any households farm crops or keep livestock in this community?
+3,com_cf02,byte,1,%6.0f,cf2,"..in most years, in which half of which month..normally plant their maize?"
+4,com_cf03,byte,1,%6.0f,cf3,"..in most years, in which half of which month..normally harvest their maize?"
+5,com_cf03_1,byte,1,%6.0f,cf03_1,"In most years, what proportion of cropland is burned post-harvest?"
+6,com_cf03_2,byte,1,%6.0f,cf3_2,Which system best describes the use of cropland post-harvest?
+7,com_cf07,byte,1,%6.0f,cf7,..Assist. Agricultural Extension Development Officer live in this community?
+8,com_cf08a,int,1,%6.0f,,Distance to.. the nearest Assist. Agric Extension Dev't Officer?
+9,com_cf08b,byte,1,%6.0f,cf8b,UNIT
+10,com_cf09,byte,1,%6.0f,cf9,Is there an irrigation scheme in this community?
+11,com_cf10,int,1,%6.0f,,How many farmers from the community in total farm in the irrigation scheme?
+12,com_cf11,byte,1,%6.0f,,How many sellers of fertilizer are there in the community?NUMBER
+13,com_cf12,byte,1,%6.0f,,How many sellers of hybrid maize seed are there in the community?NUMBER
+14,com_cf13,byte,1,%6.0f,cf13,..local warehouse that the community could use to store crops prior sale?
+15,com_cf17a,byte,1,%6.0f,cf17a,..community residents expected to pay the vil..headman when they purchase land?
+16,com_cf17b,byte,1,%6.0f,cf17b,..community residents expected to pay the vi..headman when they sell land?
+17,com_cf17c,byte,1,%6.0f,cf17c,..community residents..to pay vil..headman when granted access to communal land?
+18,com_cf18a,double,1,%6.2f,,"Among households that own land, what is the average landholding size?NUMBER"
+19,com_cf18b,byte,1,%6.0f,cf18b,UNIT
+20,com_cf19a,double,1,%6.2f,,"CF19. Among households that own land, what is the smallest landholding size?NUMB"
+21,com_cf19b,byte,1,%6.0f,cf19b,UNIT
+22,com_cf20a,int,1,%6.0f,,"Among households that own land, what is the largest landholding size?NUMBER"
+23,com_cf20b,byte,1,%6.0f,cf20b,UNIT
+24,com_cf22,int,1,%6.0f,,About how many households in the community practice zero tillage?
+25,com_cf23,int,1,%6.0f,,About how many households in the community practice sow seeds in planting
+26,com_cf24,int,1,%6.0f,,About how many households in the community practice have earth or stone bunds?
+27,com_cf25,int,1,%6.0f,,About how many households in the community practice terraces?
+28,com_cf26,int,1,%6.0f,,About how many households in the community practice practice agro-forestry
+29,com_cf27,int,1,%6.0f,,About how many households in the community practice plant legume cover crops?
+30,com_cf28,byte,1,%6.0f,cf28,CF28. Are there any agriculture-based projects operating in the community?

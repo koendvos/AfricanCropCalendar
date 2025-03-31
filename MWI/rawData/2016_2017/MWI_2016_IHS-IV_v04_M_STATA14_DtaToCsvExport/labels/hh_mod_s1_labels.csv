@@ -1,0 +1,19 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_s01,byte,1,%8.0g,hh_s01,..did you or anyone else in this HH borrow on credit...?
+4,hh_s02,byte,1,%8.0g,,LOAN NUMBER
+5,hh_s04,byte,1,%8.0g,source,CODE SOURCE OF LOAN
+6,hh_s04_oth,str27,0,%27s,,SPECIFY SOURCE OF LOAN
+7,hh_s05a,byte,1,%8.0g,,Which household member was responsible for the loan? (ID 1)
+8,hh_s05b,byte,1,%8.0g,,Which household member was responsible for the loan? (ID 2)
+9,hh_s06,byte,1,%8.0g,hh_s06,What was the main reason for obtaining loan?
+10,hh_s06_oth,str29,0,%29s,,Specify the main reason for obtaining loan.
+11,hh_s07,long,1,%12.0g,,How much was borrowed?
+12,hh_s08a,byte,1,%8.0g,hh_s08a,When did you get the loan within the past 12 months?
+13,hh_s08b,int,1,%8.0g,,What year did you get the loan?
+14,hh_s09,byte,1,%8.0g,hh_s09,Is the loan repaid?
+15,hh_s09_1,strL,0,%93s,,Why is the loan not repaid?
+16,hh_s10a,byte,1,%8.0g,hh_s10a,Approximately in what month do you expect to pay back the money?
+17,hh_s10b,long,1,%12.0g,,Approximately in what year do you expect to pay back the money?
+18,hh_s11,long,1,%12.0g,,Total Payment when you (will have) paid off this loan (interest + principal)?

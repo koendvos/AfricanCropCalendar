@@ -1,0 +1,5 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,ea_id,str8,0,%8s,,Unique EA Identifier
+3,plot_id,str3,0,%3s,,Plot ID
+4,dist_hh,float,1,%9.0g,,Plot Distance in (KMs) to HH

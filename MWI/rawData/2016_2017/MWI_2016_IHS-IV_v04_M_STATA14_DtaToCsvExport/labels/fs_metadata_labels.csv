@@ -1,0 +1,39 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,fs_b_start_date,str10,0,%10s,,fs_moduleB_start_date
+4,fs_b_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR MODULE B:
+5,fs_b_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE B</u><br>
+HOUR:
+6,fs_c_start_date,str10,0,%10s,,<b>ENUMERATOR:</b> RECORD START DATE AND TIME FOR <u>MODULE C:</u>
+7,fs_c_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR MODULE C:
+8,fs_c_endHr,byte,1,%8.0g,,ENUMERATOR:RECORD END TIME FOR <u>MODULE C</u>
+<br>HOUR:
+9,fs_d_start_date,str10,0,%10s,,<b>ENUMERATOR:</b> RECORD START DATE AND TIME FOR <u>MODULE D</u>
+10,fs_d_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD PRIMARY RESPONDENT ID FOR MODULE D:
+11,fs_d_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END DATE AND TIME FOR <u>MODULE D</u><br>
+HOUR:
+12,fs_e_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE AND TIME FOR <u>MODULE E</u>
+13,fs_e_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE I</u><br>
+HOUR:
+14,fs_f_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD PRIMARY RESPONDENT ID FOR <u>MODULE F:</u>
+15,fs_f_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD END TIME FOR MODULE F:
+<br>HOUR
+16,fs_f_endMin,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD END TIME FOR MODULE F:
+<br>MINUTES
+17,fs_g_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE AND TIME FOR<u> MODULE G</u>
+18,fs_g_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD PRIMARY RESPONDENT ID FOR MODULE G:
+19,fs_g_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD END TIME FOR MODULE G <br>
+HOUR:
+20,fs_h_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE AND TIME FOR <u>MODULE H:</u>
+21,fs_h_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR MODULE D:
+22,fs_h_end_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD END DATE AND TIME FOR <u>MODULE D</u>
+23,fs_i_start_date,str10,0,%10s,,<b>ENUMERATOR:</b>RECORD START DATE AND TIME FOR <u>MODULE I</u>
+24,fs_i_respondent,byte,1,%8.0g,,ENUMERATOR: RECORD PRIMARY RESPONDENT ID FOR <u>MODULE I:</u>
+25,fs_i_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b>RECORD END TIME FOR <u>MODULE I</u><br>
+HOUR:
+26,fs_j_respondent,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD PRIMARY RESPONDENT ID FOR <u>MODULE J:</u>
+27,fs_j_endHr,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD END TIME FOR MODULE J:
+<br>HOUR:
+28,fs_j_endMin,byte,1,%8.0g,,<b>ENUMERATOR:</b> RECORD END TIME FOR MODULE J:
+<br>MINUTES:

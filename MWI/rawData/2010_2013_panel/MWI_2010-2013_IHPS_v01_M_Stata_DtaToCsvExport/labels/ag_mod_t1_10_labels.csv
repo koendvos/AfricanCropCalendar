@@ -1,0 +1,11 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B, Cross-Sectional)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,ag_t0a,int,1,%29.0g,W0A,CODE
+7,ag_t0a_os,str42,0,%42s,,Code (Other Specify)
+8,ag_t01,byte,1,%8.0g,W01,"During the[RS],did you or anyone in your HH receive any advice on..."
+9,ag_t02,byte,1,%38.0g,W02A,What was the main source of the advice on the [TOPIC]?
+10,ag_t02_os,str38,0,%38s,,What was the main source of the advice on [TOPIC]?(Other Specify)

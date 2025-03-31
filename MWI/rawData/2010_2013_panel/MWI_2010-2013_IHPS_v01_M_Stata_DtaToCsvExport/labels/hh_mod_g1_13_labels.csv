@@ -1,0 +1,16 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,int,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,hh_g01,byte,1,%8.0g,HH_G01,Consumed item?
+6,hh_g02,int,1,%48.0g,HH_G02,Item Code
+7,hh_g03a,float,1,%9.0g,,How much in total did your household consume in the past week? (Quantity)
+8,hh_g03b,str3,0,%9s,,How much in total did your household consume in the past week? (Unit)
+9,hh_g04a,float,1,%9.0g,,How much came from purchases? (Quantity)
+10,hh_g04b,str3,0,%9s,,How much came from purchases? (Unit)
+11,hh_g05,long,1,%12.0g,,How much did you spend?
+12,hh_g06a,float,1,%9.0g,,How much came from own-production? (Quantity)
+13,hh_g06b,str3,0,%9s,,How much came from own-production? (Unit)
+14,hh_g07a,float,1,%9.0g,,How much came from gifts and other sources? (Quantity)
+15,hh_g07b,str3,0,%9s,,How much came from gifts and other sources? (Unit)

@@ -1,0 +1,8 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Unique Household Identification IHS5
+3,fs_b02,byte,1,%6.0f,fs_b02,"ENUMERATOR: FOR THE MONTHS THAT ANY FISHING TOOK PLACE IN THE COMMUNITY, WAS THE"
+4,fs_e01,byte,1,%6.0f,fs_e01,ENUMERATOR: CHECK MODULE C WERE ANY HOUSEHOLD MEMBER
+5,fs_f00,byte,1,%9.0g,yesno,Did any household member engage in any fishing activity?
+6,fs_i01,byte,1,%6.0f,fs_i01,ENUMERATOR: CHECK MODULE C WERE ANY HOUSEHOLD MEMBER
+7,fs_j00,byte,1,%9.0g,yesno,Did any household member engage in fish trading?

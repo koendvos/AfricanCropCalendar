@@ -1,0 +1,90 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+4,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+5,interview_status,byte,1,%24.0g,stat,Household Interview Status
+6,ag_a21,int,1,%9.0g,,Visit 1 - Enumerator Code
+7,ag_a23a_1,byte,1,%8.0g,,Visit 1 - Interview Date (Day) (Attempt 1)
+8,ag_a23a_2,byte,1,%8.0g,,Visit 1 - Interview Date (Month)
+9,ag_a23a_3,int,1,%8.0g,,Visit 1 - Interview Date (Year) (Attempt 1)
+10,ag_a23a_4,byte,1,%8.0g,,Visit 1 - Time Interview Start (Hour) (Attempt 1)
+11,ag_a23a_5,byte,1,%8.0g,,Visit 1 - Time Interview Start (Minute) (Attempt 1)
+12,ag_a23a_6,byte,1,%8.0g,,Visit 1 - Time Interview End (Hour) (Attempt 1)
+13,ag_a23a_7,byte,1,%8.0g,,Visit 1 - Time Interview End (Minute) (Attempt 1)
+14,ag_a23a_8,str17,0,%17s,,Visit 1 - Modules Complete (Attempt 1)
+15,ag_a23b_1,byte,1,%8.0g,,Visit 1 - Interview Date (Day) (Attempt 2)
+16,ag_a23b_2,byte,1,%8.0g,,Visit 1 - Interview Date (Month) (Attempt 2)
+17,ag_a23b_3,int,1,%8.0g,,Visit 1 - Interview Date (Year) (Attempt 2)
+18,ag_a23b_4,byte,1,%8.0g,,Visit 1 - Time Interview Start (Hour) (Attempt 2)
+19,ag_a23b_5,byte,1,%8.0g,,Visit 1 - Time Interview Start (Minute) (Attempt 2)
+20,ag_a23b_6,byte,1,%8.0g,,Visit 1 - Time Interview End (Hour) (Attempt 2)
+21,ag_a23b_7,byte,1,%8.0g,,Visit 1 - Time Intervew End (Minute) (Attempt 2)
+22,ag_a23b_8,str9,0,%9s,,Visit 1 - Modules Complete (Attempt 2)
+23,ag_a23c_1,byte,1,%8.0g,,Visit 1 - Interview Date (Day) (Attempt 3)
+24,ag_a23c_2,byte,1,%8.0g,,Visit 1 - Interview Date (Month) (Attempt 3)
+25,ag_a23c_3,int,1,%8.0g,,Visit 1 - Interview Date (Year) (Attempt 3)
+26,ag_a23c_4,byte,1,%8.0g,,Visit 1 - Time Interview Start (Hour) (Attempt 3)
+27,ag_a23c_5,byte,1,%8.0g,,Visit 1 - Time Interview Start (Minute) (Attempt 3)
+28,ag_a23c_6,byte,1,%8.0g,,Visit 1 - Time Interview End (Hour) (Attempt 3)
+29,ag_a23c_7,byte,1,%8.0g,,Visit 1 - Time Interview End (Minute) (Attempt 3)
+30,ag_a23c_8,str3,0,%9s,,Visit 1 - Modules Complete (Attempt 3)
+31,ag_a24,int,1,%9.0g,,Visit 1 - Field Supervisor's Code
+32,ag_a26a,byte,1,%8.0g,,Visit 1 - Questionnaire Inspection Date (Day)
+33,ag_a26b,byte,1,%8.0g,,Visit 1 - Questionnaire Inspection Date (Month)
+34,ag_a26c,int,1,%8.0g,,Visit 1 - Questionnaire Inspection Date (Year)
+35,ag_a27,int,1,%9.0g,,Visit 1 - Data Entry Clerk Code
+36,ag_a29a,byte,1,%8.0g,,Visit 1 - Data Entry Date (Day)
+37,ag_a29b,byte,1,%8.0g,,Visit 1 - Data Entry Date (Month)
+38,ag_a29c,int,1,%8.0g,,Visit 1 - Data Entry Date (Year)
+39,ag_a35,int,1,%9.0g,,Visit 2 - Enumerator Code
+40,ag_a37a_1,byte,1,%8.0g,,Visit 2 - Interview Date (Day) (Attempt 1)
+41,ag_a37a_2,byte,1,%8.0g,,Visit 2 - Interview Date (Month) (Attempt 1)
+42,ag_a37a_3,int,1,%8.0g,,Visit 2 - Interview Date (Year) (Attempt 1)
+43,ag_a37a_4,byte,1,%8.0g,,Visit 2 - Time Interview Start (Hour) (Attempt 1)
+44,ag_a37a_5,byte,1,%8.0g,,Visit 2 - Time Interview Start (Minute) (Attempt 1)
+45,ag_a37a_6,byte,1,%8.0g,,Visit 2 - Time Interview End (Hour) (Attempt 1)
+46,ag_a37a_7,byte,1,%8.0g,,Visit 2 - Time Interview End (Minute) (Attempt 1)
+47,ag_a37a_8,str20,0,%20s,,Visit 2 - Modules Completed (Attempt 1)
+48,ag_a37b_1,byte,1,%8.0g,,Visit 2 - Interview Date (Day) (Attempt 2)
+49,ag_a37b_2,byte,1,%8.0g,,Visit 2 - Interview Date (Month) (Attempt 2)
+50,ag_a37b_3,int,1,%8.0g,,Visit 2 - Interview Date (Year) (Attempt 2)
+51,ag_a37b_4,byte,1,%8.0g,,Visit 2 - Time Interview Start (Hour) (Attempt 2)
+52,ag_a37b_5,byte,1,%8.0g,,Visit 2 - Time Interview Start (Minute) (Attempt 2)
+53,ag_a37b_6,byte,1,%8.0g,,Visit 2 - Time Interview End (Hour) (Attempt 2)
+54,ag_a37b_7,byte,1,%8.0g,,Visit 2 - Time Interview End (Minute) (Attempt 2)
+55,ag_a37b_8,str15,0,%15s,,Visit 2 - Modules Completed (Attempt 2)
+56,ag_a38,int,1,%9.0g,,Visit 2 - Field Supervisor's Code
+57,ag_a37c_1,byte,1,%8.0g,,Visit 2 - Interview Date (Day) (Attempt 3)
+58,ag_a37c_2,byte,1,%8.0g,,Visit 2 - Interview Date (Month) (Attempt 3)
+59,ag_a37c_3,int,1,%8.0g,,Visit 2 - Interview Date (Year) (Attempt 3)
+60,ag_a37c_4,byte,1,%8.0g,,Visit 2 - Time Interview Start (Hour) (Attempt 3)
+61,ag_a37c_5,byte,1,%8.0g,,Visit 2 - Time Interview Start (Minute) (Attempt 3)
+62,ag_a37c_6,byte,1,%8.0g,,Visit 2 - Time Interview End (Hour) (Attempt 3)
+63,ag_a37c_7,byte,1,%8.0g,,Visit 2 - Time Interview End (Minute) (Attempt 3)
+64,ag_a37c_8,str7,0,%9s,,Visit 2 - Modules Completed (Attempt 3)
+65,ag_a40a,byte,1,%8.0g,,Visit 2 - Questionnaire Inspection Date (Day)
+66,ag_a40b,byte,1,%8.0g,,Visit 2 - Questionnaire Inspection Date (Month)
+67,ag_a40c,int,1,%8.0g,,Visit 2 - Questionnaire Inspection Date (Year)
+68,ag_a41,int,1,%9.0g,,Visit 2 - Data Entry Clerk Code
+69,ag_a43a,byte,1,%8.0g,,Visit 2 - Data Entry Date (Day)
+70,ag_a43b,byte,1,%8.0g,,Visit 2 - Data Entry Date (Month)
+71,ag_a43c,int,1,%8.0g,,Visit 2 - Data Entry Date (Year)
+72,ag_a44,int,1,%9.0g,,Data Validation Clerk Code
+73,ag_a46a,byte,1,%8.0g,,Data Validation Date (Day)
+74,ag_a46b,byte,1,%8.0g,,Data Validation Date (Month)
+75,ag_a46c,int,1,%8.0g,,Data Validation Date (Year)
+76,ag_b0a,byte,1,%8.0g,AG_B0A,Did you or anyone in your household plant any crops during the 2011/2012 rainy s
+77,ag_b101,byte,1,%8.0g,AG_B101,"During the 2012/2013 rainy season, did you OR any member of your household own a"
+78,ag_e01,byte,1,%8.0g,AG_E01,Did you or anyone in your household obtain any input coupons during the 2012/201
+79,ag_f0a,byte,1,%8.0g,AG_F0A,Did you or anyone in your household cultivate any plots during the 2012/2013 rai
+80,ag_g0a,byte,1,%8.0g,AG_G0A,Did you or anyone in your household plant any crops during the 2012/2013 rainy s
+81,ag_i00,byte,1,%8.0g,AG_I00,Did you or anyone in your household own any livestock in the last 12 months?
+82,ag_k0a,byte,1,%8.0g,AG_K0A,ENUMERATOR: DID THE HOUSEHOLD CULTIVATE ANY PLOTS DURING THE 2012/2013 RAINY SEA
+83,ag_m101,byte,1,%8.0g,AG_M101,"During the 2013 dry (dimba) season, did you OR any member of your household cult"
+84,ag_m102,byte,1,%8.0g,AG_M102,"ENUMERATOR: In addition to the gardens you already mentioned, were there ANY OTH"
+85,ag_m102_1,byte,1,%8.0g,AG_M102_1,ENUMERATOR: ASK THE FOLLOWING IF THE RESPONDENT DID NOT LIST ANY GARDENS OWNED O
+86,ag_p0a,byte,1,%8.0g,AG_P0A,Did you or anyone in your household cultivate any plots during the 2013 dry (dim
+87,ag_q0a,byte,1,%8.0g,AG_Q0A,Did you or anyone in your household plant any crops during the 2013 dry (dimba)
+88,ag_s101,byte,1,%8.0g,AG_S101,"In addition to the gardens discussed so far, were there any other (additional) g"
+89,ag_t01,byte,1,%8.0g,AG_T01,Were there any additional plots that you may have cultivated with tree/permanent

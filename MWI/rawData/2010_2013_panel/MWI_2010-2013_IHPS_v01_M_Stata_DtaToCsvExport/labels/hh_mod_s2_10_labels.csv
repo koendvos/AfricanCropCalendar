@@ -1,0 +1,22 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,IHS3 Baseline case_id as in IHS3 Public Data
+3,qx_type,str7,0,%9s,,"Sample Group (Panel A, Panel B)"
+4,visit,byte,1,%9.0g,,Panel Visit
+5,ea_id,str8,0,%9s,,Unique EA Identifier
+6,hh_s01,byte,1,%8.0g,HH_S01,"Over the past 12 months, did you or anyone else in this household borrow on cred"
+7,hh_s12,byte,1,%8.0g,HH_S12,During the last 12 months did you try to borrow from someone outside the househo
+8,hh_s13a,byte,1,%23.0g,HH_S13A,Who turned you down (1)?
+9,hh_s13b,byte,1,%23.0g,HH_S13B,Who turned you down (2)?
+10,hh_s14,byte,1,%43.0g,HH_S14,What was main reason for trying to obtain the loan?
+11,hh_s14_os,str37,0,%37s,,What was main reason for trying to obtain the loan? (Other Specify)
+12,hh_s15,byte,1,%8.0g,HH_S15,Are you awaiting word on a loan that you applied for during the last 12 months?
+13,hh_s16a,byte,1,%23.0g,HH_S16A,1st institution that you are awaiting word on a loan
+14,hh_s16b,byte,1,%23.0g,HH_S16B,2nd institution that you are awaiting word on a loan
+15,hh_s17,byte,1,%43.0g,HH_S17,What was main reason for trying to obtain the loan?
+16,hh_s17_os,str39,0,%39s,,What was main reason for trying to obtain the loan? (Other Specify)
+17,hh_s18,byte,1,%8.0g,HH_S18,"Was the answer to questions HH_S01, HH_S12 and HH_S15 always 'no'?"
+18,hh_s19a,byte,1,%36.0g,HH_S19A,1st reason you did not attempt to borrow in the last 12 months
+19,hh_s19a_os,str48,0,%48s,,1st reason you did not attempt to borrow in the last 12 months (Other Specify)
+20,hh_s19b,byte,1,%36.0g,HH_S19B,2nd reason you did not attempt to borrow in the last 12 months
+21,hh_s19b_os,str48,0,%48s,,2nd reason you did not attempt to borrow in the last 12 months (Other Specify)

@@ -1,0 +1,16 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%9s,,Unique EA Identifier
+2,com_cf00,int,1,%6.0f,,Project ID
+3,com_cf29,str61,0,%9s,,ENUMERATOR: RECORD ON A SEPARATE ROW THE NAME FOR EACH AGRIC-BASED PROJECT
+4,com_cf30,byte,1,%6.0f,cf30,What is the main focus of the project?
+5,com_cf31,int,1,%6.0f,,How many farmers participate?
+6,com_cf32a,byte,1,%6.0f,cf32a,When was the project established?
+7,com_cf32b,int,1,%6.0f,,YEAR
+8,com_cf33,byte,1,%6.0f,cf33,How is the project funded?
+9,com_cf34,byte,1,%6.0f,cf34,Primary external funding source:
+10,com_cf35_oth,str111,0,%9s,,Specify other type of benefit provided
+11,com_cf35a,byte,1,%6.0f,benefits,Types of benefits provided:Training/ Farmer Field Schools
+12,com_cf35b,byte,1,%6.0f,benefits,Types of benefits provided:Free inputs
+13,com_cf35c,byte,1,%6.0f,benefits,Types of benefits provided:Provides credit
+14,com_cf35d,byte,1,%6.0f,benefits,Types of benefits provided:Provides cash in return for undertaking certain
+15,com_cf35e,byte,1,%6.0f,benefits,Types of benefits provided:Other (specify)

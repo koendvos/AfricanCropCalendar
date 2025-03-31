@@ -1,0 +1,14 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrence Sequence for O/S Merge
+2,y2_hhid,str8,0,%9s,,Unique Household Identification IHPS
+3,qx_type,byte,1,%8.0g,HH_A02,"Sample Group (Panel A, Panel B)"
+4,interview_status,byte,1,%24.0g,stat,Household Interview Status
+5,fs_h0c,byte,1,%15.0g,FS_H0C,Boat/Engine ID
+6,fs_h0d,str15,0,%15s,,Boat/Engine
+7,fs_h07,byte,1,%8.0g,FS_H07,Did your household use any [BOAT \ENGINE] during the last LOW fishing season?
+8,fs_h08,byte,1,%8.0g,,How many [BOAT/ ENGINE] were operated during the last LOW fishing season?
+9,fs_h09,byte,1,%8.0g,,How many of [BOAT/  ENGINE] are owned to your household?
+10,fs_h10,long,1,%12.0g,,If you or any household member engaged in fishing had to purchase a [BOAT / ENGI
+11,fs_h11,byte,1,%8.0g,,How many units of [BOAT/ENGINE] did you or any member of the household purchase
+12,fs_h12,byte,1,%12.0g,,How much did your household pay to rent [BOAT/ ENGINE] for use in the last LOW s
+13,fs_h13,long,1,%12.0g,,"What have been the costs of fuel, oil and maintenance (altogether) per week for"

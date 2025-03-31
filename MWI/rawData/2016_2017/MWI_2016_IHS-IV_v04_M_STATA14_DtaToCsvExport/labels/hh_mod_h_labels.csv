@@ -1,0 +1,42 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_h01,byte,1,%8.0g,hh_h01,..did you worry that your HH would not have enough food?
+4,hh_h02a,byte,1,%8.0g,,..how many days has your HH Reled on less preferred and/or less expensive foods?
+5,hh_h02b,byte,1,%8.0g,,"In the past 7 days, ...? (Limit portion size at meal times)"
+6,hh_h02c,byte,1,%8.0g,,"In the past 7 days, ...? (Reduce number of meals eaten in a day)"
+7,hh_h02d,byte,1,%8.0g,,"In the past 7 days, ...? (Restrict consumption by adults in order for small chil"
+8,hh_h02e,byte,1,%8.0g,,"In the past 7 days ...? (Borrow food, or rely on help from a friend or relative)"
+9,hh_h03a,byte,1,%8.0g,,"How many meals, including b/fast are taken per day in household? (Adults)"
+10,hh_h03b,byte,1,%8.0g,,"How many meals, including b/fast are taken per day in HH(Children 5-17yrs)"
+11,hh_h03c,byte,1,%8.0g,,"How many meals, including b/fast are taken per day in HH(Children 6-59months)"
+12,hh_h04,byte,1,%8.0g,hh_h04,..12 months..faced with a situation when didnot have enough food to feed the hh?
+13,hh_h05a,str1,0,%1s,, When did you experience this incident in the last 12 months?:April 2015
+14,hh_h05b,str1,0,%1s,, When did you experience this incident in the last 12 months?:May 2015
+15,hh_h05c,str1,0,%1s,, When did you experience this incident in the last 12 months?:June 2015
+16,hh_h05d,str1,0,%1s,, When did you experience this incident in the last 12 months?:July 2015
+17,hh_h05e,str1,0,%1s,, When did you experience this incident in the last 12 months?:August 2015
+18,hh_h05f,str1,0,%1s,, When did you experience this incident in the last 12 months?:September 2015
+19,hh_h05g,str1,0,%1s,, When did you experience this incident in the last 12 months?:October 2015
+20,hh_h05h,str1,0,%1s,, When did you experience this incident in the last 12 months?:November 2015
+21,hh_h05i,str1,0,%1s,, When did you experience this incident in the last 12 months?:December 2015
+22,hh_h05j,str1,0,%1s,, When did you experience this incident in the last 12 months?:January 2016
+23,hh_h05k,str1,0,%1s,, When did you experience this incident in the last 12 months?:February 2016
+24,hh_h05l,str1,0,%1s,, When did you experience this incident in the last 12 months?:March 2016
+25,hh_h05m,str1,0,%1s,, When did you experience this incident in the last 12 months?:April 2016
+26,hh_h05n,str1,0,%1s,, When did you experience this incident in the last 12 months?:May 2016
+27,hh_h05o,str1,0,%1s,, When did you experience this incident in the last 12 months?:June 2016
+28,hh_h05p,str1,0,%1s,, When did you experience this incident in the last 12 months?:July 2016
+29,hh_h05q,str1,0,%1s,, When did you experience this incident in the last 12 months?:August 2016
+30,hh_h05r,str1,0,%1s,, When did you experience this incident in the last 12 months?:September 2016
+31,hh_h05s,str1,0,%1s,, When did you experience this incident in the last 12 months?:October 2016
+32,hh_h05t,str1,0,%1s,, When did you experience this incident in the last 12 months?:November 2016
+33,hh_h05u,str1,0,%1s,, When did you experience this incident in the last 12 months?:December 2016
+34,hh_h05v,str1,0,%1s,, When did you experience this incident in the last 12 months?:January 2017
+35,hh_h05w,str1,0,%1s,, When did you experience this incident in the last 12 months?:February 2017
+36,hh_h05x,str1,0,%1s,, When did you experience this incident in the last 12 months?:March 2017
+37,hh_h05y,str1,0,%1s,, When did you experience this incident in the last 12 months?:April 2017
+38,hh_h06a,byte,1,%8.0g,causes,What was the cause of this situation? (Reason 1)
+39,hh_h06b,byte,1,%8.0g,causes,What was the cause of this situation? (Reason 2)
+40,hh_h06c,byte,1,%8.0g,causes,What was the cause of this situation? (Reason 3)
+41,hh_h06_oth,strL,0,%160s,,H06_oth. Specify what was the cause of this situation.

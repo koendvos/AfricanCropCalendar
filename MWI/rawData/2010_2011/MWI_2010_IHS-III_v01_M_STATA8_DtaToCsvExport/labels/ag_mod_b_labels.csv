@@ -1,0 +1,95 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique HH Identifier
+2,visit,byte,1,%8.0g,,Panel Visit
+3,ea_id,str8,0,%8s,,Unique EA Identifier
+4,ag_b0a,byte,1,%8.0g,AG_B0A,Did you or anyone in your HH plant any crops during the 2008/2009 rainy season?
+5,ag_b0c,byte,1,%8.0g,AG_B0C,Crop Code
+6,ag_b0c_os,str10,0,%10s,,Crop Code (Other Specify)
+7,ag_b01a,float,1,%9.0g,,What was the area planted in the 2008/2009 rainy season? (AMOUNT)
+8,ag_b01b,byte,1,%8.0g,AG_B01B,What was the area planted in the 2008/2009 rainy season? (UNIT)
+9,ag_b02,byte,1,%8.0g,AG_B02,Was area harvested < area planted/were there any losses of[CROP]before harvest?
+10,ag_b03a,byte,1,%8.0g,AG_B03A,Why was the area harvested less than the area planted? (1st)
+11,ag_b03a_os,str48,0,%48s,,Why was the area harvested less than the area planted? (1st) (Other Specify)
+12,ag_b03b,byte,1,%8.0g,AG_B03B,Why was the area harvested less than the area planted? (2nd)
+13,ag_b03b_os,str24,0,%24s,,Why was the area harvested less than the area planted?(2nd)(Other Specify)
+14,ag_b04a,float,1,%9.0g,,How much [CROP] did you harvest during the 2008/2009 rainy season? [QUANTITY]
+15,ag_b04b,byte,1,%8.0g,AG_B04B,How much [CROP] did you harvest during the 2008/2009 rainy season? [UNIT]
+16,ag_b04b_os,str7,0,%7s,,How much [CROP] did you harvest during the 2008/2009 rainy season?[UNIT](O/S)
+17,ag_b04c,byte,1,%8.0g,AG_B04C,How much [CROP] did you harvest during the 2008/2009 rainy season?[S/U]
+18,ag_b05a,byte,1,%8.0g,AG_B05A,What were the months when the harvest started and ended? (START MONTH)
+19,ag_b05b,byte,1,%8.0g,AG_B05B,What were the months when the harvest started and ended? (END MONTH)
+20,ag_b06,byte,1,%8.0g,AG_B06,Did you sell any of the harvested [CROP]?
+21,ag_b07a,float,1,%9.0g,,How much of the harvested [CROP] was sold in total? (QUANTITY)
+22,ag_b07b,byte,1,%8.0g,AG_B07B,How much of the harvested [CROP] was sold in total? (UNIT)
+23,ag_b07b_os,str5,0,%5s,,How much of the harvested [CROP] was sold in total? (UNIT) (Other Specify)
+24,ag_b07c,byte,1,%8.0g,AG_B07C,How much of the harvested [CROP] was sold in total? (S/U)
+25,ag_b08,long,1,%12.0g,,What was the total value of [CROP] sales?
+26,ag_b09a,byte,1,%8.0g,,Who in your household kept/decided what to do with the earnings? (ID CODE #1)
+27,ag_b09b,byte,1,%8.0g,,Who in your household kept/decided what to do with the earnings? (ID CODE #2)
+28,ag_b10,long,1,%12.0g,,Total cost of transportation associated with all[CROP]sales during [RS]
+29,ag_b11a,float,1,%9.0g,,"Amt of harvested[CROP]given out as gifts/reimbursements for land,labor?(QUANT)"
+30,ag_b11b,byte,1,%8.0g,AG_B11B,"Amt of harvested[CROP]given out as gifts/reimbursements for land,labor?(UNIT)"
+31,ag_b11b_os,byte,1,%8.0g,,Amt of harvested[CROP]given out as gifts/reimbursements...?(UNIT)(O/S)
+32,ag_b11c,byte,1,%8.0g,AG_B11C,"Amt of harvested[CROP]...given out as gifts/reimbursements for land,labor?(S/U)"
+33,ag_b12a,float,1,%9.0g,,...given out as reimbursements for inputs borrowed or acquired on credit?(QUANT)
+34,ag_b12b,byte,1,%8.0g,AG_B12B,...given out as reimbursements for inputs borrowed or acquired on credit?(UNIT)
+35,ag_b12b_os,byte,1,%8.0g,,...given out as reimbursements for inputs borrowed or acquired on credit?(UNIT)(
+36,ag_b12c,byte,1,%8.0g,AG_B12C,...given out as reimbursements for inputs borrowed or acquired on credit?(S/U)
+37,ag_b13a,int,1,%8.0g,,...used for animal feed?(QUANT)
+38,ag_b13b,byte,1,%8.0g,AG_B13B,...used for animal feed?(UNIT)
+39,ag_b13b_os,byte,1,%8.0g,,...used for animal feed?(UNIT)(O/S)
+40,ag_b13c,byte,1,%8.0g,AG_B13C,...used for animal feed?(S/U)
+41,ag_b14a,byte,1,%8.0g,,...used as input for[CROP]by-products that HH sold for cash/in-kind G/S?(QUANT)
+42,ag_b14b,byte,1,%8.0g,AG_B14B,...used as input for[CROP]by-products that HH sold for cash/in-kind G/S?(UNIT)
+43,ag_b14b_os,byte,1,%8.0g,,...used as input for[CROP]by-products that HH sold for...?(UNIT)(O/S)
+44,ag_b14c,byte,1,%8.0g,AG_B14C,...used as input for[CROP]by-products that HH sold for cash/in-kind G/S?(S/U)
+45,ag_b15a,float,1,%9.0g,,...saved for seed?(QUANT)
+46,ag_b15b,byte,1,%8.0g,AG_B15B,...saved for seed?(UNIT)
+47,ag_b15b_os,byte,1,%8.0g,,...saved for seed?(UNIT)(O/S)
+48,ag_b15c,byte,1,%8.0g,AG_B15C,...saved for seed?(S/U)
+49,ag_b16a,float,1,%9.0g,,"...lost to rotting,insects,rodents,theft,etc in post-harvest period?(QUANT)"
+50,ag_b16b,byte,1,%8.0g,AG_B16B,"...lost to rotting,insects,rodents,theft,etc in post-harvest period?(UNIT)"
+51,ag_b16b_os,str12,0,%12s,,"...lost to rotting,insects,rodents,theft,etc in post-harvest period?(UNIT)(O/S)"
+52,ag_b16c,byte,1,%8.0g,AG_B16C,"...lost to rotting,insects,rodents,theft,etc in post-harvest period?(S/U)"
+53,ag_b16d,int,1,%8.0g,,"...lost to rotting,insects,rodents,theft,etc in post-harvest period?(%)"
+54,ag_b17a,byte,1,%8.0g,AG_B17A,What was the reason for loss?(1st)
+55,ag_b17a_os,byte,1,%8.0g,,What was the reason for loss?(1st)(O/S)
+56,ag_b17b,byte,1,%8.0g,AG_B17B,What was the reason for loss?(2nd)
+57,ag_b17b_os,byte,1,%8.0g,,What was the reason for loss?(2nd)(O/S)
+58,ag_b18,byte,1,%8.0g,AG_B18,Do you have any of the harvested [CROP] in storage now?
+59,ag_b19,byte,1,%8.0g,AG_B19,What is your main method of storage for this crop?
+60,ag_b19_os,str11,0,%11s,,What is your main method of storage for this crop?(Other Specify)
+61,ag_b20a,float,1,%9.0g,,How much of the harvested[CROP]is being stored by your HH?(QUANT)
+62,ag_b20b,byte,1,%8.0g,AG_B20B,How much of the harvested[CROP]is being stored by your HH?(UNIT)
+63,ag_b20b_os,byte,1,%8.0g,,How much of the harvested[CROP]is being stored by your HH?(UNIT)(O/S)
+64,ag_b20c,byte,1,%8.0g,AG_B20C,How much of the harvested[CROP]is being stored by your HH?(S/U)
+65,ag_b21a,byte,1,%8.0g,AG_B21A,Did you do anything to protect the stored [CROP]?(1st)
+66,ag_b21a_os,str24,0,%24s,,Did you do anything to protect the stored [CROP]?(1st)(Other Specify)
+67,ag_b21b,byte,1,%8.0g,AG_B21B,Did you do anything to protect the stored [CROP]?(2nd)
+68,ag_b21b_os,byte,1,%8.0g,,Did you do anything to protect the stored [CROP]?(2nd)(O/S)
+69,ag_b22a,byte,1,%8.0g,AG_B22A,"When you store[CROP],what is usually the main purpose of storing it?(1st)"
+70,ag_b22a_os,str38,0,%38s,,"When you store[CROP],what is usually the main purpose of storing it?(1st)(O/S)"
+71,ag_b22b,byte,1,%8.0g,AG_B22B,"When you store[CROP],what is usually the main purpose of storing it?(2nd)"
+72,ag_b22b_os,str21,0,%21s,,"When you store[CROP],what is usually the main purpose of storing it?(2nd)(O/S)"
+73,ag_b23,byte,1,%8.0g,AG_B23,"ENUM:Is[CROP]a maize variety,i.e. local,composite/OPV,hybrid,hybrid recycled?"
+74,ag_b24a,float,1,%9.0g,,How much[CROP]did you buy between the end of harvest period & Sept 2009?(QUANT)
+75,ag_b24b,byte,1,%8.0g,AG_B24B,How much[CROP]did you buy between the end of harvest period & Sept 2009?(UNIT)
+76,ag_b24b_os,byte,1,%8.0g,,How much[CROP]did you buy between the end of harvest period...?(UNIT)(O/S)
+77,ag_b24c,byte,1,%8.0g,AG_B24C,How much[CROP]did you buy between the end of harvest period & Sept 2009?(S/U)
+78,ag_b25a,float,1,%9.0g,,How much[CROP]did you buy in the period of Oct 2009 - Jan 2010?(QUANT)
+79,ag_b25b,byte,1,%8.0g,AG_B25B,How much[CROP]did you buy in the period of Oct 2009 - Jan 2010?(UNIT)
+80,ag_b25b_os,byte,1,%8.0g,,How much[CROP]did you buy in the period of Oct 2009 - Jan 2010?(UNIT)(O/S)
+81,ag_b25c,byte,1,%8.0g,AG_B25C,How much[CROP]did you buy in the period of Oct 2009 - Jan 2010?(S/U)
+82,ag_b26,byte,1,%8.0g,AG_B26,Did you complete harvest for the 2009/2010 rainy season?
+83,ag_b27a,float,1,%9.0g,,How much[CROP]bought since end of Jan '10 to harvest of 09/10 season?(QUANT)
+84,ag_b27b,byte,1,%8.0g,AG_B27B,How much[CROP]bought since end of Jan '10 to harvest of 09/10 season?(UNIT)
+85,ag_b27b_os,byte,1,%8.0g,,How much[CROP]bought since end of Jan '10 to harvest of 09/10 season?(UNIT)(O/S)
+86,ag_b27c,byte,1,%8.0g,AG_B27C,How much[CROP]bought since end of Jan '10 to harvest of 09/10 season?(S/U)
+87,ag_b28a,float,1,%9.0g,,How much[CROP]did you buy since the end of Jan 2010?(QUANT)
+88,ag_b28b,byte,1,%8.0g,AG_B28B,How much[CROP]did you buy since the end of Jan 2010?(UNIT)
+89,ag_b28b_os,byte,1,%8.0g,,How much[CROP]did you buy since the end of Jan 2010?(UNIT)(O/S)
+90,ag_b28c,byte,1,%8.0g,AG_B28C,How much[CROP]did you buy since the end of Jan 2010?(S/U)
+91,ag_b29a,float,1,%9.0g,,How much[CROP]are you planning to buy from now until the 09/10 harvest?(QUANT)
+92,ag_b29b,byte,1,%8.0g,AG_B29B,How much[CROP]are you planning to buy from now until the 09/10 harvest?(UNIT)
+93,ag_b29b_os,byte,1,%8.0g,,How much[CROP]are you planning to buy from now until the...?(UNIT)(O/S)
+94,ag_b29c,byte,1,%8.0g,AG_B29C,How much[CROP]are you planning to buy from now until the 09/10 harvest?(S/U)

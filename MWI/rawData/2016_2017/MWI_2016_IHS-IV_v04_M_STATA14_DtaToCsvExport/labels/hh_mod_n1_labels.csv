@@ -1,0 +1,11 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,hhid,strL,0,%32s,,Survey Solutions Unique HH Identifier
+3,hh_n01,byte,1,%8.0g,hh_n01,Owned a non-agricultural business or provided a non-agricultural service from ho
+4,hh_n02,byte,1,%8.0g,hh_n02,"Processed and sold any agricultural by-products, including flour, starch, juice,"
+5,hh_n03,byte,1,%8.0g,hh_n03,Owned a trading business on a street or in a market?
+6,hh_n04,byte,1,%8.0g,hh_n04,"Offered any service or sold anything on a street or in a market, including firew"
+7,hh_n05,byte,1,%8.0g,hh_n05,Owned a professional office or offered professional services from home as a doct
+8,hh_n06,byte,1,%8.0g,hh_n06,Drove a household-owned taxi or pick-up truck to provide transportation or movin
+9,hh_n07,byte,1,%8.0g,hh_n07,Owned a bar or restaurant?
+10,hh_n08,byte,1,%8.0g,hh_n08,"Owned any other non-agricultural business, even if it is a small business run fr"

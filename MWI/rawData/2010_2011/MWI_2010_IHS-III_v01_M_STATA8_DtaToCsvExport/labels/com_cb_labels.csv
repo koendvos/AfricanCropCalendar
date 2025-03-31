@@ -1,0 +1,10 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,ea_id,str8,0,%8s,,Unique EA Identifier
+2,com_cb01,byte,1,%8.0g,,ID CODE
+3,com_cb03,byte,1,%8.0g,COM_CB03,Informant Sex
+4,com_cb04,byte,1,%8.0g,,How old are you?
+5,com_cb05a,byte,1,%8.0g,COM_CB05A,What position do you currently have in this community?
+6,com_cb05a_os,str33,0,%33s,,What position do you currently have in this community?(OTHER SPECIFY)
+7,com_cb06,byte,1,%8.0g,,For how many years have you lived in this community?
+8,com_cb07,byte,1,%8.0g,COM_CB07,What is the highest educational qualification attained?
+9,com_cb08,byte,1,%8.0g,COM_CB08,What language do you speak at home?

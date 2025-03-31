@@ -1,0 +1,33 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,occ,byte,1,%9.0g,,Case Section Roster / Line Occurrance Sequence for O/S Merge
+2,ea_id,str8,0,%9s,,Unique EA Identifier
+3,com_cc01,byte,1,%31.0g,COM_CC01,"In the last five years, have there been more people who moved into this communit"
+4,com_cc02,long,1,%12.0g,,What is the population of this community?
+5,com_cc03,int,1,%12.0g,,How many house-holds are found in this commu-nity?
+6,com_cc04a,byte,1,%14.0g,COM_CC04A,What are the religions practiced by residents of this community?(1ST)
+7,com_cc04b,int,1,%8.0g,,Approximately how many households practice each?
+8,com_cc04c,byte,1,%14.0g,COM_CC04C,What are the religions practiced by residents of this community?(2ND)
+9,com_cc04d,int,1,%8.0g,,Approximately how many households practice each?
+10,com_cc04e,byte,1,%14.0g,COM_CC04E,What are the religions practiced by residents of this community?(3RD)
+11,com_cc04f,int,1,%8.0g,,Approximately how many households practice each?
+12,com_cc05a,byte,1,%8.0g,COM_CC05A,What are the languages spoken at home by residents of this community?(1ST)
+13,com_cc05b,int,1,%8.0g,,Approximately how many households speak each at home?
+14,com_cc05c,byte,1,%8.0g,COM_CC05C,What are the languages spoken at home by residents of this community?(2ND)
+15,com_cc05d,int,1,%8.0g,,Approximately how many households speak each at home?
+16,com_cc05e,byte,1,%8.0g,COM_CC05E,What are the languages spoken at home by residents of this community?(3RD)
+17,com_cc05f,int,1,%8.0g,,Approximately how many households speak each at home?
+18,com_cc06,byte,1,%8.0g,COM_CC06,"Do individuals in this community trace their descent through their father, their"
+19,com_cc07a,byte,1,%39.0g,COM_CC07A,What are the common types of marriages witnessed in this community?(1ST)
+20,com_cc07b,int,1,%8.0g,,Approximately how many households are united through each type of marriage?
+21,com_cc07c,byte,1,%39.0g,COM_CC07C,What are the common types of marriages witnessed in this community?(2ND)
+22,com_cc07d,int,1,%8.0g,,Approximately how many households are united through each type of marriage?
+23,com_cc07e,byte,1,%39.0g,COM_CC07E,What are the common types of marriages witnessed in this community?(3RD)
+24,com_cc07f,int,1,%8.0g,,Approximately how many households are united through each type of marriage?
+25,com_cc08,int,1,%12.0g,,How many polyga-mous house-holds are found in this commu-nity?
+26,com_cc09,byte,1,%23.0g,COM_CC09,What is the most common use of land in this community?
+27,com_cc10,byte,1,%19.0g,COM_CC10,Is the land of the community . . .
+28,com_cc11,byte,1,%11.0g,COM_CC11,"What share of the land in your community is in bush?  That is, land that was far"
+29,com_cc12,byte,1,%11.0g,COM_CC12,"What share of the agricultural land in your community is in estates?  That is, i"
+30,com_cc13,byte,1,%11.0g,COM_CC13,"What share of the land in your community is in forest, and not used for agricult"
+31,com_cc14,byte,1,%11.0g,COM_CC14,What share of the registered voters from this community voted  in the 2009 Presi
+32,com_cc15,byte,1,%8.0g,COM_CC15,Is the community generally able to prioritize its needs before taking action or

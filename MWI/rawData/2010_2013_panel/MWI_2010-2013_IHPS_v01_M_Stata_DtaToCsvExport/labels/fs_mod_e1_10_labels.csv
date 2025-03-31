@@ -1,0 +1,55 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,HHID,int,1,%10.0g,,Assigned Unique Serial Number for IHS3 Baseline Household
+2,case_id,str12,0,%12s,,Unique HH Identifier
+3,visit,byte,1,%9.0g,,Panel Visit
+4,ea_id,str8,0,%9s,,Unique EA Identifier
+5,fs_e01,byte,1,%8.0g,FS_E01,"HH members engaged in fishing, last HIGH season, according to quesion 1 or 2?"
+6,fs_e02,byte,1,%15.0g,FS_E02,Main species landed during the last HIGH fishing season.
+7,fs_e02_os,str16,0,%16s,,Main species landed during the last HIGH fishing season. (Other Specify)
+8,fs_e03,byte,1,%8.0g,,Weeks landed [FISH SPECIES] during the last HIGH season?
+9,fs_e04a,float,1,%9.0g,,How much caught per week during the last HIGH fishing season? (Quantity #1)
+10,fs_e04b,byte,1,%15.0g,FS_E04B,How much caught per week during the last HIGH fishing season? (Packaging #1)
+11,fs_e04b_os,str23,0,%23s,,How much caught per week during the last HIGH fishing season? (Packaging #1)
+12,fs_e04c,byte,1,%15.0g,FS_E04C,How much caught per week during the last HIGH fishing season? (Processing #1)
+13,fs_e04c_os,str10,0,%10s,,How much caught per week during the last HIGH fishing season? (Processing #1)
+14,fs_e04d,int,1,%9.0g,,How much caught per week during the last HIGH fishing season? (Quantity #2)
+15,fs_e04e,byte,1,%15.0g,FS_E04E,How much caught per week during the last HIGH fishing season? (Packaging #2)
+16,fs_e04f,byte,1,%15.0g,FS_E04F,How much caught per week during the last HIGH fishing season? (Processing #2)
+17,fs_e05a,float,1,%12.0g,,Amount landed by the total number of weeks of fishing. (Processing #1)
+18,fs_e05b,int,1,%12.0g,,Amount landed by the total number of weeks of fishing. (Processing #2)
+19,fs_e06a,int,1,%9.0g,,Total [FISH SPECIES] caught during the last HIGH fishing season. (Quantity #1)
+20,fs_e06b,byte,1,%15.0g,FS_E06B,Total [FISH SPECIES] caught during the last HIGH fishing season. (Packaging #1)
+21,fs_e06b_os,str21,0,%21s,,Total [FISH SPECIES] caught during the last HIGH fishing season. (Packaging #1)
+22,fs_e06c,byte,1,%15.0g,FS_E06C,Total [FISH SPECIES] caught during the last HIGH fishing season. (Processing #1)
+23,fs_e06c_os,str10,0,%10s,,Total [FISH SPECIES] caught during the last HIGH fishing season. (Processing #1)
+24,fs_e06d,int,1,%9.0g,,Total [FISH SPECIES] caught during the last HIGH fishing season. (Quantity #2)
+25,fs_e06e,byte,1,%15.0g,FS_E06E,Total [FISH SPECIES] caught during the last HIGH fishing season. (Packaging #2)
+26,fs_e06f,byte,1,%15.0g,FS_E06F,Total [FISH SPECIES] caught during the last HIGH fishing season. (Processing #2)
+27,fs_e07,byte,1,%29.0g,FS_E07,ENUMERATOR: ARE THE FIGURES IN QUESTIONS 5 AND 6 CONSISTENT?
+28,fs_e07_os,str48,0,%48s,,ENUMERATOR: ARE THE FIGURES IN QUESTIONS 5 AND 6 CONSISTENT? WHY NOT?
+29,fs_e08a,float,1,%9.0g,,How much sold per week during the last HIGH fishing season? (Quantity #1)
+30,fs_e08b,byte,1,%15.0g,FS_E08B,How much sold per week during the last HIGH fishing season? (Packaging #1)
+31,fs_e08b_os,str21,0,%21s,,How much sold per week during the last HIGH fishing season? (Packaging #1)
+32,fs_e08c,byte,1,%15.0g,FS_E08C,How much sold per week during the last HIGH fishing season? (Processing #1)
+33,fs_e08c_os,str10,0,%10s,,How much sold per week during the last HIGH fishing season? (Processing #1)
+34,fs_e08d,long,1,%12.0g,,How much sold per week during the last HIGH fishing season? (Price MK #1)
+35,fs_e08e,int,1,%9.0g,,How much sold per week during the last HIGH fishing season? (Quantity #2)
+36,fs_e08f,byte,1,%15.0g,FS_E08F,How much sold per week during the last HIGH fishing season? (Packaging #2)
+37,fs_e08f_os,str10,0,%10s,,How much sold per week during the last HIGH fishing season? (Packaging #2)
+38,fs_e08g,byte,1,%15.0g,FS_E08G,How much sold per week during the last HIGH fishing season? (Processing #2)
+39,fs_e08h,int,1,%12.0g,,How much sold per week during the last HIGH fishing season? (Price MK #2)
+40,fs_e09,byte,1,%8.0g,,How many weeks did you sell [FISH SPECIES] during last HIGH fishing season?
+41,fs_e10,byte,1,%8.0g,FS_E10,ENUMERATOR: NUMBER OF WEEKS IN 9 DIFFERENT FROM THE NUMBER OF WEEKS IN 3?
+42,fs_e10_os,str48,0,%48s,,ENUMERATOR: NUMBER OF WEEKS IN 9 DIFFERENT FROM THE NUMBER OF WEEKS IN 3? WHY?
+43,fs_e11a,float,1,%9.0g,,How much [FISH SPECIES] kept per week for household consumption? (Quantity #1)
+44,fs_e11b,byte,1,%15.0g,FS_E11B,How much [FISH SPECIES] kept per week for household consumption? (Packaging #1)
+45,fs_e11b_os,str23,0,%23s,,How much [FISH SPECIES] kept per week for household consumption? (Packaging #1)
+46,fs_e11c,byte,1,%15.0g,FS_E11C,How much [FISH SPECIES] kept per week for household consumption? (Processing #1)
+47,fs_e11c_os,str10,0,%10s,,How much [FISH SPECIES] kept per week for household consumption? (Processing #1)
+48,fs_e11d,float,1,%9.0g,,How much [FISH SPECIES] kept per week for household consumption? (Quantity #2)
+49,fs_e11e,byte,1,%15.0g,FS_E11E,How much [FISH SPECIES] kept per week for household consumption? (Packaging #2)
+50,fs_e11e_os,str10,0,%10s,,How much [FISH SPECIES] kept per week for household consumption? (Packaging #2)
+51,fs_e11f,byte,1,%15.0g,FS_E11F,How much [FISH SPECIES] kept per week for household consumption? (Processing #2)
+52,fs_e12,byte,1,%11.0g,FS_E12,Total [FISH SPECIES] catch kept for your own family consumption?
+53,fs_e13,byte,1,%29.0g,FS_E13,ENUMERATOR: AMOUNT LANDED/WEEK = THE AMOUNT SOLD PER WEEK + SELF-CONSUMED PER WE
+54,fs_e13_os,str46,0,%46s,,ENUMERATOR: AMOUNT LANDED/WEEK = THE AMOUNT SOLD PER WEEK + SELF-CONSUMED PER WE

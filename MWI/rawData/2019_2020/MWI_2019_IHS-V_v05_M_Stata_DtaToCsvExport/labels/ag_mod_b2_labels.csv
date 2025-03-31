@@ -1,0 +1,46 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,case_id,str12,0,%12s,,Unique Household Identifier
+2,HHID,str32,0,%9s,,Survey Solutions Unique HH Identifier
+3,gardenid,str4,0,%9s,,Garden ID
+4,ag_b202,byte,1,%6.0f,,ENUMERATOR: RECORD THE ID OF THE RESPONDENT
+5,ag_b203_1a,byte,1,%6.0f,,From whom outside the HH did you acquire [GARDEN]? (#ID 1)
+6,ag_b203_1b,byte,1,%6.0f,,From whom outside the HH did you acquire [GARDEN]? (#ID 2)
+7,ag_b203_2,int,1,%6.0f,,In which year was this [GARDEN] acquired?
+8,ag_b205,long,1,%6.0f,,"...sell this [GARDEN] today, how much could you sell it for?"
+9,ag_b206,long,1,%6.0f,,"..rent out this [GARDEN] today for 12 months, how much could you rent it for?"
+10,ag_b206a,byte,1,%6.0f,ag_b_2_06a,"If [GARDEN] were to be sold/rented out today,..other HH member decide how money"
+11,ag_b206b__0,byte,1,%6.0f,,"..parcel were to be sold/rented out, who in HH would decide how money is used?"
+12,ag_b206b__1,byte,1,%6.0f,,"..parcel were to be sold/rented out, who in HH would decide how money is used?"
+13,ag_b206b__2,byte,1,%6.0f,,"..parcel were to be sold/rented out, who in HH would decide how money is used?"
+14,ag_b206b__3,byte,1,%6.0f,,"..parcel were to be sold/rented out, who in HH would decide how money is used?"
+15,ag_b206c,byte,1,%6.0f,ag_b_2_06c,..anyone outside the HH who would decide how money is used..parcel were to be so
+16,ag_b206d__0,byte,1,%6.0f,,"..parcel were to be sold/rented out, who out HH would decide how money is used?"
+17,ag_b206d__1,byte,1,%6.0f,,"..parcel were to be sold/rented out, who out HH would decide how money is used?"
+18,ag_b208a,byte,1,%6.0f,ag_b_2_08a,CROP TYPE
+19,ag_b208a_oth,str14,0,%14s,,Specify the crops planted.
+20,ag_b208b,byte,1,%6.0f,,How much output from this [GARDEN] did you give as rent if any...
+21,ag_b208c,byte,1,%6.0f,ag_b_2_08c,UNIT
+22,ag_b208c_oth,str9,0,%9s,,Please specify the other unit of output given as rent
+23,ag_b208d,byte,1,%6.0f,ag_b_2_08d,SHELLED/UNSHELLED
+24,ag_b209a,long,1,%6.0f,,How much did you pay the owner for the use of [GARDEN] in the [RS]? (CASH)
+25,ag_b209b,long,1,%6.0f,,How much did you pay the owner for the use of [GARDEN] in the [RS]? (IN-KIND)
+26,ag_b212,byte,1,%6.0f,ag_b_2_12,What period of time did this payment cover?
+27,ag_b212_oth,str37,0,%37s,,Please specify other period of payment
+28,ag_b213__0,byte,1,%6.0f,,Who owns this [GARDEN]? (#ID 1)
+29,ag_b213__1,byte,1,%6.0f,,Who owns this [GARDEN]? (#ID 2)
+30,ag_b213_1__0,byte,1,%6.0f,,Who in the household has the use rights to [GARDEN]? (#ID 1)
+31,ag_b213_1__1,byte,1,%6.0f,,Who in the household has the use rights to [GARDEN]? (#ID 2)
+32,ag_b214,byte,1,%6.0f,ag_b_2_14,"During the [RS], usage status of garden"
+33,ag_b214_oth,str52,0,%52s,,Please specify Other cultivation status of the garden
+34,ag_b216a,byte,1,%6.0f,ag_b_2_16a,"How much output from this [GARDEN] did you receive as rent, if any, in the [RS]?"
+35,ag_b216a_oth,str1,0,%9s,,Specify the crops planted
+36,ag_b216b,byte,1,%6.0f,,QUANTITY
+37,ag_b216c,byte,1,%6.0f,ag_b_2_16c,UNIT
+38,ag_b216c_oth,str1,0,%9s,,Please specify the other  unit of output received as rent
+39,ag_b216d,byte,1,%6.0f,ag_b_2_16d,SHELLED/UNSHELLED
+40,ag_b217a,long,1,%6.0f,,How much did you receive from renting out this [GARDEN] in the [RS]?
+41,ag_b217b,long,1,%6.0f,,IN-KIND MK
+42,ag_b220,byte,1,%6.0f,ag_b_2_20,B_2_20. What period of time did this payment cover?
+
+READ ANSWERS
+43,ag_b220_oth,str25,0,%25s,,B_2_20Oth. Specify period of time did this payment cover?
