@@ -114,6 +114,7 @@ ca <- read_csv(paste0(data.mli,area.file)) %>%
          plot_area_reported = s1bq10)%>%
   dplyr::select(hhID,fieldID,plotID,plot_area_measured,plot_area_reported)
 ca[ca == Inf]=NA
+ca[ca == 99] = NA
 
 #Joining cropping information with plot information
 c = c %>%
@@ -224,6 +225,10 @@ ca <- read_csv(paste0(data.mli,area.file)) %>%
   dplyr::select(hhID,fieldID,plotID,plot_area_measured,plot_area_reported)
 ca[ca == Inf]=NA
 
+#Some observations did not have the right flag for reported area unit (also compared to measured area)
+ca = ca %>%
+  mutate(plot_area_reported = ifelse(plot_area_reported > 1000, plot_area_reported/10000, plot_area_reported))
+
 c = c %>%
   left_join(ca,by=c("hhID","fieldID","plotID")) %>%
   mutate(season = NA) %>%
@@ -282,3 +287,9 @@ file = rbind(wave1,wave2)
 write_csv(wave1,paste0(path.mli,"out/mali_w1.csv"))
 write_csv(wave2,paste0(path.mli,"out/mali_w2.csv"))
 write_csv(file, paste0(path.mli,"out/mali.csv"))
+
+out_folder = paste0(dirname(path.mli),"/out")
+write_csv(wave1, paste0(out_folder,"/MLI_2014_2015.csv"))
+write_csv(wave2, paste0(out_folder,"/MLI_2017-2018.csv"))
+write_csv(file,paste0(out_folder,"/MLI_allWaves.csv"))
+                    
