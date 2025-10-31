@@ -1,35 +1,267 @@
+#This script merges the individual country and survey data files, 
+#inspects and cleans them to create a harmonized dataset
+#authors: Uwe Grewer (initially dataMerge.py, later translated to dataMerge.R),
+#Sophie Rötzer and Katharina Waha
+################################################################################
+
 rm(list=ls(all=TRUE))
 gc()
+
+# Load libraries ----------------------------------------------------------
 
 library(dplyr)
 library(tidyverse)
 library(haven)
 library(finalfit)
 library(readr)
+library(lubridate)
+library(sf)
+library(arrow)
+library(geosphere)
+library(ggplot2)
+library(stats)
+library(data.table)
+library(stringi)
 
-in.path <- "C:/Users/wahakath/Documents/Research/multiple cropping/"
-#in.path <- "C:/Users/roetzeso/Documents/
-in.path.ppd <- paste0(in.path, "LSMS_multiplecropping/PostProcess/")
-METADATA.file <- "metadata_merged.csv" 
-DATA.file <- "data_merged.csv" 
-dates_file <- "data_collection_dates.csv"
-DATA <- read_csv(paste0(in.path.ppd, DATA.file))
-METADATA.file <- read_csv(paste0(in.path.ppd, METADATA.file))
-data_collection_dates <- read_delim((paste0(in.path.ppd, dates_file)), delim = ";")
+# 1 Define project folder path and set working directory to project  --------
+in.path <- "C:/Users/wahakath/Documents/Research/multiple cropping/LSMS_multiplecropping"
+#in.path <- "C:/Users/roetzeso/Documents/LSMS_multiplecropping"
+#in.path <- "C:/Users/U8017882/OneDrive - USQ/Documents/01_projects/02_LSMS_cropSeasons/LSMS_multiplecropping"
+#in.path.ppd <- paste0(in.path, "LSMS_multiplecropping/PostProcess/")
+setwd(in.path)
 
-BEFORE <- ff_glimpse (DATA)
+# 2 Load individual country/survey datasets --------------
+
+# directory containing final datasets 
+outData_dir <- file.path(in.path, 'out')
+
+# crop group lookup table
+lookup_data <- read.csv2("PostProcess/crop_lookup.csv")
+
+# data collection dates lookup table
+data_collection_dates <- read.csv("PostProcess/data_collection_dates.csv", sep = ";")
+
+
+# load datasets into list
+dataset_dct <- list(
+  ETH_all_pd = read.csv(file.path(outData_dir, 'ETH_allWaves.csv')),
+  MLI_all_pd = read.csv(file.path(outData_dir, 'MLI_allWaves.csv')),
+  MWI_all_pd = read.csv(file.path(outData_dir, 'MWI_allWaves.csv')),
+  UGA_many_pd = read.csv(file.path(outData_dir, 'UGA_allWaves.csv')),
+  UGA_2011_pd = read.csv(file.path(outData_dir, 'uganda11-12.csv')),
+  UGA_2013_pd = read.csv(file.path(outData_dir, 'uganda13-14.csv')),
+  NIG_2015_pd = read.csv(file.path(outData_dir, 'Nigeria_GHS_W3_results.csv')),
+  NIG_2018_pd = read.csv(file.path(outData_dir, 'Nigeria_GHS_W4_results.csv')),
+  NER_2011_pd = read.csv(file.path(outData_dir, 'Niger11-12.csv')),
+  NER_2014_pd = read.csv(file.path(outData_dir, 'NER_2014-15.csv'))
+)
+
+# dataset template
+dataset_template_pd <- read.csv(file.path(in.path, 'documentation/dataset_template/dataset_template.csv'))
+
+# target columns list
+targetCols_dataset_lst <- colnames(dataset_template_pd)
+
+# 3 Inspect datasets --------------------------------------------------------
+
+# dictionary with descriptive information
+datasetsInspect_dct <- list()
+
+# add keys to dictionary
+for (key in names(dataset_dct)) {
+  datasetsInspect_dct[[substr(key, 1, nchar(key) - 3)]] <- list()
+}
+
+# inspect missing columns
+
+# loop over datasets
+for (df_string in names(dataset_dct)) {
+  df <- dataset_dct[[df_string]]
+  
+  # print variable type for selected variables
+  print(paste0(df_string, " :GPS level is numeric: ", is.numeric(df$GPS_level)))
+  
+  # list of missing columns
+  missingCols_lst_tmp <- c()
+  # list of additional, non-target columns
+  nontargetCols_dataset_lst_tmp <- c()
+  
+  # loop over target columns
+  for (targetCol in targetCols_dataset_lst) {
+    # check if dataset contains target column
+    if (!(targetCol %in% colnames(df))) {
+      # if missing: record column-name as missing
+      missingCols_lst_tmp <- c(missingCols_lst_tmp, targetCol)
+    }
+  }
+  
+  # loop over dataset columns
+  for (datasetCol in colnames(df)) {
+    # check if dataset-column is part of target columns
+    if (!(datasetCol %in% targetCols_dataset_lst)) {
+      nontargetCols_dataset_lst_tmp <- c(nontargetCols_dataset_lst_tmp, datasetCol)
+    }
+  }
+  
+  # store list of missing columns to descriptive dictionary
+  datasetsInspect_dct[[substr(df_string, 1, nchar(df_string) - 3)]]$missingCols_lst <- missingCols_lst_tmp
+  # store list of additional, non-target columns to descriptive dictionary
+  datasetsInspect_dct[[substr(df_string, 1, nchar(df_string) - 3)]]$nontargetCols_dataset_lst <- nontargetCols_dataset_lst_tmp
+}
+
+# 4 Harmonize datasets (Niger, Nigeria, Uganda) -------------------------------
+
+# Correct GPS level to be an integer between 1 and 3
+for (df_string in names(dataset_dct)) {
+  df <- dataset_dct[[df_string]]
+  DATA <- dataset_dct[[df_string]]
+  DATA <- DATA %>%
+  mutate(GPS_level = case_when(
+    GPS_level == "3.0" ~ 3,
+    GPS_level == "3" ~ 3,
+    GPS_level == "Household" ~ 2,
+    GPS_level == "EA" ~ 3,
+    GPS_level == "adm4" ~ NA,
+    GPS_level == "Grappe" ~ 3
+    #.default = as.numeric(GPS_level)
+  ))
+  dataset_dct[[df_string]] <- DATA
+}
+
+# rename variables to correspond to template
+dataset_dct[['NER_2011_pd']] <- dataset_dct[['NER_2011_pd']] %>%
+  rename(
+    lon = long,
+    harvest_month = harvesting_month,
+    harvest_year = harvesting_year,
+    dataset_name = source
+  )
+
+### Niger (2011)
+
+# set variables genuinely missing in original dataset to NaN
+dataset_dct[['NER_2011_pd']]$adm3 <- NA
+dataset_dct[['NER_2011_pd']]$adm4 <- NA
+dataset_dct[['NER_2011_pd']]$harvest_month_begin <- NA
+dataset_dct[['NER_2011_pd']]$harvest_year_begin <- NA
+dataset_dct[['NER_2011_pd']]$harvest_month_end <- NA
+dataset_dct[['NER_2011_pd']]$harvest_year_end <- NA
+
+# drop redundant variables
+dataset_dct[['NER_2011_pd']] <- dataset_dct[['NER_2011_pd']] %>%
+  select(-grappe, -plotNbr, -cropID)
+
+# preliminarily, set outstanding variables to NaN
+dataset_dct[['NER_2011_pd']]$season <- NA
+
+### Nigeria (2015)
+
+# drop redundant variables
+dataset_dct[['NIG_2015_pd']] <- dataset_dct[['NIG_2015_pd']] %>%
+  select(-wave, -dm_gender, -gps_meas)
+
+# set variables genuinely missing in original dataset to NaN
+dataset_dct[['NIG_2015_pd']]$fieldID <- NA
+
+# set redundant variables to NaN
+dataset_dct[['NIG_2015_pd']]$harvest_year <- NA
+dataset_dct[['NIG_2015_pd']]$harvest_month <- NA
+
+### Nigeria (2018)
+
+# rename variables to correspond to template
+dataset_dct[['NIG_2018_pd']] <- dataset_dct[['NIG_2018_pd']] %>%
+  rename(
+    lon = longitude,
+    lat = latitude
+  )
+
+# drop redundant variables
+dataset_dct[['NIG_2018_pd']] <- dataset_dct[['NIG_2018_pd']] %>%
+  select(-wave, -dm_gender, -gps_meas)
+
+# set variables genuinely missing in original dataset to NaN
+dataset_dct[['NIG_2018_pd']]$fieldID <- NA
+
+# set redundant variables to NaN
+dataset_dct[['NIG_2018_pd']]$harvest_year <- NA
+dataset_dct[['NIG_2018_pd']]$harvest_month <- NA
+
+### Uganda (2011)
+
+# rename variables to correspond to template
+dataset_dct[['UGA_2011_pd']] <- dataset_dct[['UGA_2011_pd']] %>%
+  rename(
+    lon = longitude,
+    lat = latitude
+    #dataset_name = source
+  )
+
+# set variables genuinely missing in original dataset to NaN
+dataset_dct[['UGA_2011_pd']]$fieldID <- NA
+
+### Uganda (2013)
+
+# rename variables to correspond to template
+dataset_dct[['UGA_2013_pd']] <- dataset_dct[['UGA_2013_pd']] %>%
+  rename(
+    lon = longitude,
+    lat = latitude,
+    dataset_name = source
+  )
+
+# set variables genuinely missing in original dataset to NaN
+dataset_dct[['UGA_2013_pd']]$fieldID <- NA
+
+# correct variable name of fully missing variable to correspond to template
+dataset_dct[['UGA_2013_pd']] <- dataset_dct[['UGA_2013_pd']] %>%
+  rename(
+    plot_area_measured_ha = plot_area_measured
+  )
+
+# correct variable data types
+for (df_string in names(dataset_dct)) {
+  dataset_dct[[df_string]]$hhID <- as.character(dataset_dct[[df_string]]$hhID)
+  dataset_dct[[df_string]]$fieldID <- as.character(dataset_dct[[df_string]]$fieldID)
+  dataset_dct[[df_string]]$plotID <- as.character(dataset_dct[[df_string]]$plotID)
+  dataset_dct[[df_string]]$planting_year <- as.character(dataset_dct[[df_string]]$planting_year)
+}
+
+
+
+# 5 Merge datasets ----------------------------------------------------------
+
+# load all individual dataframes into single dataframe
+allData_pd <- bind_rows(dataset_dct)
+
+# make planting year a numeric again
+allData_pd$planting_year <- as.numeric(allData_pd$planting_year)
+
+# drop rows that are NaN across all columns
+#allData_pd <- allData_pd %>%
+#  drop_na(everything())
+
+# only keep rows with at least one non-NA value
+allData_pd <- allData_pd %>% 
+  filter_all(any_vars(!is.na(.)))
+                             
+# 6 Begin data correction ---------------------------------------------------
+
+#Descriptive statistics for dataframe before any further manipulation
+BEFORE <- ff_glimpse (allData_pd)
 CONT_BEFORE <- BEFORE$Continuous
 CAT_BEFORE <- BEFORE$Categorical
 
-############################### crop list #############################################
+# 7 Fix crop names ----------------------------------------------------------
+
 #change all uppercase letters to lowercase (reducing the unique variables: 326->252)
-DATA <- mutate(DATA, crop = tolower(crop))
+allData_pd <- mutate(allData_pd, crop = tolower(crop))
 
 #all unique crop names - alphabetically (can be deleted later on)
-unique_crop_1 <- sort(unique(DATA$crop)) #901 crops
+unique_crop_1 <- sort(unique(allData_pd$crop)) #901 crops
 
 #start cleaning crop names
-DATA <- DATA %>% 
+allData_pd <- allData_pd %>% 
   mutate (crop = str_replace_all(crop, "agbono\\(oro seed\\)", "agbono \\(oro seed\\)")) %>%
   mutate (crop = str_replace_all(crop, "avacoda", "avocado")) %>%
   mutate (crop = str_replace_all(crop, "avocado pear", "avocado")) %>%
@@ -148,13 +380,13 @@ numbers_to_na <- c("1", "1 50 kg bag", "1 acre", "1 mango tree", "1 pail", "tree
                    "35", "350", "39", "4", "40", "5", "5 pail", "50 kg", "rg01", "rg01t01",
                    "6", "7", "8", "9", "9999", "t04", "to 1", "to1", "one 50 kg bag", "no tree have been harvested so far", "r01 ", "r01", "rg011" )
 
-DATA <- DATA %>% mutate(crop = ifelse(crop %in% numbers_to_na, NA, crop))%>%
+allData_pd <- allData_pd %>% mutate(crop = ifelse(crop %in% numbers_to_na, NA, crop))%>%
   mutate(crop = gsub('\"', '', crop))  %>% 
   mutate(crop = gsub('t0|r01 |t01 |t01|t01-|t01_|t02 |t02|t03 |t03|t04 |t04|t05 |t05|to1 |tg01 |tg01t01 |tg02- |tg01| plot|d01 |||||||', '', crop))%>% 
   mutate(crop = gsub('^\\s+|\\s+$|\\.+$', '', crop))%>% 
   mutate(crop = gsub('\\s+', ' ', crop))
 
-DATA <- DATA %>% 
+allData_pd <- allData_pd %>% 
   mutate (crop = str_replace_all(crop, "- munda wa ku buyo", "munda wa ku buyo)")) %>%
   mutate (crop = str_replace_all(crop, "aavocado|acocado|avocado crop|avocado trees|avocando|avogadro|avodaco|avocadons|avocado tree", "avocado")) %>%
   mutate (crop = str_replace_all(crop, "acacias|accacia|acecia|acassia|accacias|aceicia|alcasia|alcacia|acacia tree|acacia trees|acacia land dwelling|cacia|acacia|aacacia", "acacia")) %>%
@@ -248,7 +480,7 @@ DATA <- DATA %>%
   mutate (crop = str_replace_all(crop, "mexican apples", "apples (mexican)")) %>%
   mutate (crop = str_replace_all(crop, "mbundumale cassava", "cassava (mbundumale)"))
   
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   mutate(crop = ifelse(grepl("^poza$", crop), "poza (custard apple)", crop))%>%
   mutate(crop = ifelse(grepl("^eucalyptus globus|eucalyptus globus(blue gum)|blue gum$", crop), "blue gum (eucalyptus globus)", crop))%>%
   mutate(crop = ifelse(grepl("^fruit trees|fruits$", crop), "fruit", crop))%>%
@@ -285,7 +517,7 @@ DATA <- DATA %>%
   mutate(crop = ifelse(grepl("^m'bawa$", crop), "mbawa", crop))%>%
   mutate(crop = ifelse(grepl("^plums$", crop), "plum", crop)) 
 
-DATA <- DATA %>% 
+allData_pd <- allData_pd %>% 
   mutate (crop = str_replace_all(crop, "celcius|calcius", "calcius"))%>% 
   mutate (crop = str_replace_all(crop, "chavwanga cassava for", "cassava"))%>% 
   mutate (crop = str_replace_all(crop, "glicidia|glisidia|glylicidia", "glylicidia"))%>% 
@@ -294,209 +526,95 @@ DATA <- DATA %>%
   mutate (crop = str_replace_all(crop, "sindileya|sendeleya|senderera|cindirela", "sendeleya"))%>% 
   mutate (crop = str_replace_all(crop, "mpakasa", "mphakasa"))
 
-DATA$crop[DATA$crop == ""] <- NA
+allData_pd$crop[allData_pd$crop == ""] <- NA
 
-unique_crop <- sort(unique(DATA$crop)) #445 unique crop names after cleaning
-
-############################### MWI pltId and fieldID #############################################
-original_na_rows <- which(is.na(DATA$fieldID))
-
-DATA <- DATA %>%
-  mutate(plotID = case_when(
-    plotID %in% c("d01", "d1") ~ 11,
-    plotID %in% c("d00", "d0") ~ 10,
-    plotID %in% c("d02", "d2") ~ 12,
-    plotID %in% c("d03", "d3") ~ 13,
-    plotID %in% c("d04", "d4") ~ 14,
-    plotID %in% c("d05", "d5") ~ 15,
-    plotID %in% c("d06", "d6") ~ 16,
-    plotID %in% c("d07", "d7") ~ 17,
-    plotID %in% c("d08", "d8") ~ 18,
-    plotID %in% c("d09", "d9") ~ 19,
-    plotID %in% c("r01", "r1") ~ 11,
-    plotID %in% c("r00", "r0") ~ 10,
-    plotID %in% c("r02", "r2") ~ 22,
-    plotID %in% c("r03", "r3") ~ 23,
-    plotID %in% c("r04", "r4") ~ 24,
-    plotID %in% c("r05", "r5") ~ 25,
-    plotID %in% c("r06", "r6") ~ 26,
-    plotID %in% c("r07", "r7") ~ 27,
-    plotID %in% c("r08", "r8") ~ 28,
-    plotID %in% c("r09", "r9") ~ 29,
-    plotID %in% c("t01", "t1") ~ 31,
-    plotID %in% c("t00", "t0") ~ 30,
-    plotID %in% c("t02", "t2") ~ 32,
-    plotID %in% c("t03", "t3") ~ 33,
-    plotID %in% c("t04", "t4") ~ 34,
-    plotID %in% c("t05", "t5") ~ 35,
-    plotID %in% c("t06", "t6") ~ 36,
-    plotID %in% c("t07", "t7") ~ 37,
-    plotID %in% c("t08", "t8") ~ 38,
-    plotID %in% c("t09", "t9") ~ 39,
-    TRUE ~ as.numeric(plotID)  # Keep other values intact
-  ))
+unique_crop <- sort(unique(allData_pd$crop)) #445 unique crop names after cleaning
 
 
-DATA <- DATA %>%
-  mutate(fieldID = case_when(
-    fieldID %in% c("dg01", "d1") ~ 101,
-    fieldID %in% c("dg11", "d0") ~ 111,
-    fieldID %in% c("dg12", "d0") ~ 112,
-    fieldID %in% c("dg13", "d0") ~ 113,
-    fieldID %in% c("dg14", "d0") ~ 114,
-    fieldID %in% c("dg02", "d2") ~ 102,
-    fieldID %in% c("dg03", "d3") ~ 103,
-    fieldID %in% c("dg04", "d4") ~ 104,
-    fieldID %in% c("dg05", "d5") ~ 105,
-    fieldID %in% c("dg06", "d6") ~ 106,
-    fieldID %in% c("dg07", "d7") ~ 107,
-    fieldID %in% c("dg08", "d8") ~ 108,
-    fieldID %in% c("dg09", "d9") ~ 109,
-    fieldID %in% c("dg10", "d9") ~ 100,
-    fieldID %in% c("rg01", "d1") ~ 201,
-    fieldID %in% c("rg11", "d0") ~ 211,
-    fieldID %in% c("rg12", "d0") ~ 212,
-    fieldID %in% c("rg13", "d0") ~ 213,
-    fieldID %in% c("rg14", "d0") ~ 214,
-    fieldID %in% c("rg02", "d2") ~ 202,
-    fieldID %in% c("rg03", "d3") ~ 203,
-    fieldID %in% c("rg04", "d4") ~ 204,
-    fieldID %in% c("rg05", "d5") ~ 205,
-    fieldID %in% c("rg06", "d6") ~ 206,
-    fieldID %in% c("rg07", "d7") ~ 207,
-    fieldID %in% c("rg08", "d8") ~ 208,
-    fieldID %in% c("rg09", "d9") ~ 209,
-    fieldID %in% c("rg10", "d9") ~ 200,
-    fieldID %in% c("tg01", "d1") ~ 301,
-    fieldID %in% c("tg11", "d0") ~ 311,
-    fieldID %in% c("tg12", "d0") ~ 312,
-    fieldID %in% c("tg13", "d0") ~ 313,
-    fieldID %in% c("tg14", "d0") ~ 314,
-    fieldID %in% c("tg02", "d2") ~ 302,
-    fieldID %in% c("tg03", "d3") ~ 303,
-    fieldID %in% c("tg04", "d4") ~ 304,
-    fieldID %in% c("tg05", "d5") ~ 305,
-    fieldID %in% c("tg06", "d6") ~ 306,
-    fieldID %in% c("tg07", "d7") ~ 307,
-    fieldID %in% c("tg08", "d8") ~ 308,
-    fieldID %in% c("tg09", "d9") ~ 309,
-    fieldID %in% c("tg10", "d9") ~ 300,
-    TRUE ~ as.numeric(fieldID)  # Keep other values intact
-  ))
+# 8 Clean plotID and fieldID in Malawi surveys ------------------------------
 
-new_nas <- which(is.na(DATA$fieldID))
+original_na_rows <- which(is.na(allData_pd$fieldID))
+
+new_nas <- which(is.na(allData_pd$fieldID))
 new_na_rows <- setdiff(new_nas, original_na_rows)
 print(new_na_rows)
 
-############################### ETH month #############################################
+# 9 Correct months and years in Ethiopia surveys ----------------------------
+
 # recoding month 13 as September in Ethiopia
- 
-DATA <- DATA %>%
+
+allData_pd <- allData_pd %>%
   mutate(planting_year = case_when(
     country == "Ethiopia" ~ planting_year + 7,
     TRUE ~ planting_year
   ))
 
-DATA <- DATA %>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 13, 9, harvest_month_begin)) %>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 13, 9, planting_month)) %>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 13, 9, harvest_month_end)) %>%
-  mutate(harvest_month = if_else(country == "Ethiopia" & harvest_month == 13, 9, harvest_month))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 1, 9, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 2, 10, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 3, 11, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 4, 12, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 5, 1, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 6, 2, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 7, 3, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 8, 4, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 9, 5, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 10, 6, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 11, 7, harvest_month_begin))%>%
-  mutate(harvest_month_begin = if_else(country == "Ethiopia" & harvest_month_begin == 12, 8, harvest_month_begin))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 1, 9, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 2, 10, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 3, 11, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 4, 12, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 5, 1, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 6, 2, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 7, 3, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 8, 4, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 9, 5, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 10, 6, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 11, 7, harvest_month_end))%>%
-  mutate(harvest_month_end = if_else(country == "Ethiopia" & harvest_month_end == 12, 8, harvest_month_end))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 1, 9, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 2, 10, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 3, 11, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 4, 12, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 5, 1, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 6, 2, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 7, 3, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 8, 4, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 9, 5, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 10, 6, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 11, 7, planting_month))%>%
-  mutate(planting_month = if_else(country == "Ethiopia" & planting_month == 12, 8, planting_month))
+allData_pd <- allData_pd %>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 13, 9, harvest_month_begin)) %>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 13, 9, planting_month)) %>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 13, 9, harvest_month_end)) %>%
+  mutate(harvest_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month == 13, 9, harvest_month))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 1, 9, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 2, 10, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 3, 11, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 4, 12, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 5, 1, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 6, 2, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 7, 3, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 8, 4, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 9, 5, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 10, 6, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 11, 7, harvest_month_begin))%>%
+  mutate(harvest_month_begin = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_begin == 12, 8, harvest_month_begin))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 1, 9, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 2, 10, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 3, 11, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 4, 12, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 5, 1, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 6, 2, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 7, 3, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 8, 4, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 9, 5, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 10, 6, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 11, 7, harvest_month_end))%>%
+  mutate(harvest_month_end = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & harvest_month_end == 12, 8, harvest_month_end))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 1, 9, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 2, 10, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 3, 11, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 4, 12, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 5, 1, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 6, 2, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 7, 3, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 8, 4, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 9, 5, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 10, 6, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 11, 7, planting_month))%>%
+  mutate(planting_month = if_else(country == "Ethiopia" & dataset_name != "ETH_2018_ESS_v03_M" & planting_month == 12, 8, planting_month))
 
-############################### crop_area_share ############################### 
+
+
+# 10 Correct crop area share -------------------------------------------------
+
 #crop_area_share set to a value between 0 and 100 otherwise NA
-DATA <- DATA %>%
-  mutate(crop_area_share = if_else(crop_area_share >= 0 & crop_area_share <= 100, crop_area_share, NA_integer_))
+allData_pd <- allData_pd %>%
+  mutate(crop_area_share = 
+           if_else(crop_area_share >= 0 & crop_area_share <= 100, 
+                   crop_area_share, NA_integer_))
   
-############################### dates ############################### 
-# set years and months recorded as 0 to nan/ set years referencing the future (e.g., year 8000) to nan
-# unrealisitische Jahre weg
-# unrealistische Jahre in den Umfragen ausschließen
-# wie bei eth 13 -> für jede studie zeitraum angeben (code)
-#set planting/harvest months and years outside a predefined time window to NA
-#(bitte die definierten Zeiträume in Tabelle 1 auflisten)
+
+# 11 Correct planting and harvesting dates -----------------------------------
 
 #NAs before 
-na_before_hyb <- sum(is.na(DATA[["harvest_year_begin"]]))
-na_before_hye <- sum(is.na(DATA[["harvest_year_end"]]))
-na_before_hmb <- sum(is.na(DATA[["harvest_month_begin"]]))
-na_before_hme <- sum(is.na(DATA[["harvest_month_end"]]))
-na_before_py <- sum(is.na(DATA[["planting_year"]]))
-na_before_pm <- sum(is.na(DATA[["planting_month"]]))
+na_before_hyb <- sum(is.na(allData_pd[["harvest_year_begin"]]))
+na_before_hye <- sum(is.na(allData_pd[["harvest_year_end"]]))
+na_before_hmb <- sum(is.na(allData_pd[["harvest_month_begin"]]))
+na_before_hme <- sum(is.na(allData_pd[["harvest_month_end"]]))
+na_before_py <- sum(is.na(allData_pd[["planting_year"]]))
+na_before_pm <- sum(is.na(allData_pd[["planting_month"]]))
 
-####################### UGA umrechnen - first try ##############
+# 12 Cleaning for Uganda surveys ---------------------------------------------
 
-# subset_DATA <- DATA %>%
-#   filter(country == "Uganda" & harvest_month_begin >= 13 & harvest_month_begin <= 24)
-# unique(subset_DATA$dataset_name)
-# subset_DATA <- DATA %>%
-#   filter(country == "Uganda" & harvest_month_end >= 13 & harvest_month_end <= 24)
-# unique(subset_DATA$dataset_name)
-# subset_DATA <- DATA %>%
-#   filter(country == "Uganda" & planting_month >= 13 & planting_month <= 24)
-# unique(subset_DATA$dataset_name)
-##### --> only 2015 UGA
-
-#first try
-# #dataframe mit den Daten für harvest_month begin
-# df <- data.frame(
-#   number = 1:27,
-#   month_name = c(
-#     1, 2, 3, 4, 5,
-#     6, 7, 8, 9, 10,
-#     11, 12, 1, 2,
-#     3, 4, 5, 6, 7,
-#     8, 9, 10, 11, 12,
-#     1, 2, 3
-#   ),
-#   year = c(
-#     rep(2014, 12), rep(2015, 12), rep(2016, 3)
-#   )
-# )
-# 
-# DATA_extended <- DATA %>%
-#   left_join(df, by = c("harvest_month_begin" = "number"))
-
-
-####################### UGA umrechnen - second try ##############
-
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   # Create logical vectors for each condition
   mutate(
     condition_1 = dataset_name == "UGA_2015_UNPS_v02_M" &
@@ -529,15 +647,15 @@ DATA <- DATA %>%
                                 ifelse(condition_4, NA_real_,
                                        ifelse(condition_5, NA_real_, harvest_year_begin))))
 
-# # Remove the helper columns
-DATA <- DATA %>%
+# Remove the helper columns
+allData_pd <- allData_pd %>%
   select(-condition_1, -condition_2, -condition_3, -condition_4, -condition_5)
 
-subset_DATA <- DATA %>%
+subset_allData_pd <- allData_pd %>%
   filter(country == "Uganda" & harvest_month_begin >= 13 & harvest_month_begin <= 24)
-unique(subset_DATA$dataset_name)
+unique(subset_allData_pd$dataset_name)
 
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   # Create logical vectors for each condition
   mutate(
     condition_1 = dataset_name == "UGA_2015_UNPS_v02_M" &
@@ -570,28 +688,33 @@ DATA <- DATA %>%
                                 ifelse(condition_4, NA_real_,
                                        ifelse(condition_5, NA_real_, harvest_year_end))))
 
-# # Remove the helper columns
-DATA <- DATA %>%
+# Remove the helper columns
+allData_pd <- allData_pd %>%
   select(-condition_1, -condition_2, -condition_3, -condition_4, -condition_5)
 
-subset_DATA <- DATA %>%
+subset_allData_pd <- allData_pd %>%
   filter(country == "Uganda" & harvest_month_end >= 13 & harvest_month_end <= 24)
-unique(subset_DATA$dataset_name)
+unique(subset_allData_pd$dataset_name)
 
-################################ xxxxxxxxxxxx #####################
 
-#for simplicity of the join
+# 13 General cleaning of dates -----------------------------------------------
+
+# add begin and end of survey
 data_collection_dates <- data_collection_dates %>%
   select (-dataset_name, -country)
 
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   left_join(data_collection_dates, by = "dataset_doi")
 
-################## New code - date correction ###############
+# set years and months recorded as 0 to na
+# set years referencing the future (e.g., year 8000) to na
+# no planting dates after the harvest dates
+# no planting or harvesting years before 1900 
+# no planting and harvest year after end of the survey
 
 #planting year
 
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   # Create logical vectors for each condition
   mutate(
     condition_1 = planting_year < 1900 & !is.na(planting_year) , #py, pm raus
@@ -632,12 +755,12 @@ DATA <- DATA %>%
     )
 
 # # Remove the helper columns
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   select(-condition_1, -condition_2, -condition_3, -condition_4, -condition_5, -condition_6)
 
 
 # harvest_year_begin
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   # Create logical vectors for each condition
   mutate(
     condition_1 = harvest_year_begin < 1900 & !is.na(harvest_year_begin), #hyb, hmb raus
@@ -665,13 +788,13 @@ DATA <- DATA %>%
                                 if_else(condition_6, NA_real_,harvest_month_end))
   )
 
-# # Remove the helper columns
-DATA <- DATA %>%
+# Remove the helper columns
+allData_pd <- allData_pd %>%
   select(-condition_1, -condition_3, -condition_4, -condition_6)
 
 
 # harvest_year_end
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   # Create logical vectors for each condition
   mutate(
     condition_1 = harvest_year_end < 1900 & !is.na(harvest_year_end), #hye, hme raus !!!!!!!!!!!!!!!!!!!! #weil Malawi oft 2008
@@ -686,80 +809,18 @@ DATA <- DATA %>%
   )
 
 # # Remove the helper columns
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   select(-condition_1, -condition_4)
 
-################### OLD CODE ############################
-#check years if outside the range
-# DATA <- DATA %>%
-#   mutate(harvest_year = if_else(harvest_year > End_year | harvest_year < Begin_year, NA_real_, harvest_year)) %>%
-#   mutate(harvest_year_begin = if_else(harvest_year_begin > End_year | harvest_year_begin < Begin_year, NA_real_, harvest_year_begin)) %>%
-#   mutate(harvest_year_end = if_else(harvest_year_end > End_year | harvest_year_end < Begin_year, NA_real_, harvest_year_end))%>%
-#   mutate(planting_year = if_else(planting_year > End_year | planting_year < 1900, NA_real_, planting_year))
+# 14 Checking NAs for dates --------------------------------------------------
 
-###################################!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!####################################
-# #was, wenn harvest_year_end vor begin liegt
-# filtered_df <- DATA %>%
-#   filter(harvest_year_begin > harvest_year_end)
-# 
-# cat("Number of occurences where harvest_year_begin is greater than harvest_year_end is:", nrow(filtered_df), "\n")
-# unique(filtered_df$dataset_name)
-# 
-# #was, wenn harvest_year_end gleich begin liegt, aber harvest_month_begin > harvest_month_end
-# filtered_df_2 <- DATA %>%
-#   filter(harvest_year_begin == harvest_year_end)%>%
-#   filter(harvest_month_begin > harvest_month_end)
-# 
-# cat("Number of occurences where harvest_month_begin is later than harvest_month_end is:", nrow(filtered_df_2), "\n")
-# unique(filtered_df_2$dataset_name)
-# 
-# #was, wenn planting_year vor harvest_year_begin liegt 
-# filtered_df_3 <- DATA %>%
-#   filter(planting_year > harvest_year_begin)
-# 
-# cat("Number of occurences where harvest_year_begin is before planting_year", nrow(filtered_df_3), "\n")
-# unique(filtered_df_3$dataset_name)
-# #nur UGA, außer 4 alle 2015
-# 
-# #was, wenn planting_year vor harvest_year_begin liegt 
-# filtered_df_4 <- DATA %>%
-#   filter(planting_year == harvest_year_begin)%>%
-#   filter(harvest_month_begin < planting_month)
-# 
-# cat("Number of occurences where planting_month is after harvest_month_begin", nrow(filtered_df_4), "\n")
-# unique(filtered_df_4$dataset_name)
-# 
-# filtered_df_5 <- DATA %>%
-#   filter(planting_month > End_month & planting_year == End_year)
-# cat("Number of occurences where planting date  is after End date of survey", nrow(filtered_df_5), "\n")
-# unique(filtered_df_5$dataset_name)
-
-
-###################################!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!####################################
-
-################### OLD CODE ########################
-
-# #check the months in the years available
-# #planting
-# DATA <- DATA %>%
-#   mutate(planting_month = if_else((planting_month > End_month & planting_year == End_year) | (planting_month < Begin_month & planting_year == Begin_year), NA_real_, planting_month),
-#          planting_year = if_else((planting_month > End_month & planting_year == End_year) | (planting_month < Begin_month & planting_year == Begin_year), NA_real_, planting_year))
-# 
-# #harvest
-# DATA <- DATA %>%
-#   mutate(harvest_month_end = if_else((harvest_month_end > End_month & harvest_year_end == End_year), NA_real_, harvest_month_end),
-#          harvest_year_end = if_else((harvest_month_end > End_month & harvest_year_end == End_year), NA_real_, harvest_year_end),
-#          harvest_month_begin = if_else((harvest_month_begin < Begin_month & harvest_year_begin == Begin_year), NA_real_, harvest_month_begin),
-#          harvest_year_begin = if_else((harvest_month_begin < Begin_month & harvest_year_begin == Begin_year), NA_real_, harvest_year_begin))
-
-################## checking NA for dates################
 #NAs after this
-na_after_hyb <- sum(is.na(DATA[["harvest_year_begin"]]))
-na_after_hye <- sum(is.na(DATA[["harvest_year_end"]]))
-na_after_hmb <- sum(is.na(DATA[["harvest_month_begin"]]))
-na_after_hme <- sum(is.na(DATA[["harvest_month_end"]]))
-na_after_py <- sum(is.na(DATA[["planting_year"]]))
-na_after_pm <- sum(is.na(DATA[["planting_month"]]))
+na_after_hyb <- sum(is.na(allData_pd[["harvest_year_begin"]]))
+na_after_hye <- sum(is.na(allData_pd[["harvest_year_end"]]))
+na_after_hmb <- sum(is.na(allData_pd[["harvest_month_begin"]]))
+na_after_hme <- sum(is.na(allData_pd[["harvest_month_end"]]))
+na_after_py <- sum(is.na(allData_pd[["planting_year"]]))
+na_after_pm <- sum(is.na(allData_pd[["planting_month"]]))
 
 #the difference
 na_difference_hyb <- na_after_hyb - na_before_hyb
@@ -768,8 +829,6 @@ na_difference_hmb <- na_after_hmb - na_before_hmb
 na_difference_hme <- na_after_hme - na_before_hme
 na_difference_py <- na_after_py - na_before_py
 na_difference_pm <- na_after_pm - na_before_pm
-
-
 
 # Print the result
 cat("Number of NAs in column harvest_year_begin raises from", na_before_hyb, "to", na_after_hyb, "\n")
@@ -786,9 +845,10 @@ cat("Number of NAs in column planting_month raises from", na_before_pm, "to", na
 cat("The difference of NAs is", na_difference_pm, "\n")
 
 
-# # set month >12 or <1 to nan
-#
-DATA <- DATA %>%
+# 15 Correct harvest and planting months -------------------------------------
+
+# set month >12 or <1 to nan
+allData_pd <- allData_pd %>%
   mutate(harvest_month_begin = if_else(harvest_month_begin >= 1 & harvest_month_begin <= 12, harvest_month_begin, NA_integer_)) %>%
   mutate(harvest_month_end = if_else(harvest_month_end >= 1 & harvest_month_end <= 12, harvest_month_end, NA_integer_)) %>%
   mutate(harvest_month = if_else(harvest_month >= 1 & harvest_month <= 12, harvest_month, NA_integer_)) %>%
@@ -796,9 +856,9 @@ DATA <- DATA %>%
 
 #after more months were excluded
 #NAs after this
-na_end_hmb <- sum(is.na(DATA[["harvest_month_begin"]]))
-na_end_hme <- sum(is.na(DATA[["harvest_month_end"]]))
-na_end_pm <- sum(is.na(DATA[["planting_month"]]))
+na_end_hmb <- sum(is.na(allData_pd[["harvest_month_begin"]]))
+na_end_hme <- sum(is.na(allData_pd[["harvest_month_end"]]))
+na_end_pm <- sum(is.na(allData_pd[["planting_month"]]))
 
 #the difference
 na_difference2_hmb <- na_end_hmb - na_before_hmb
@@ -821,23 +881,15 @@ cat("Number of NAs in column planting_month raises from", na_after_pm, "to", na_
 cat("The difference of NAs is", na_difference2_pm, "\n")
 cat("The difference of NAs in step 2 is", na_difference3_pm, "\n")
 
-
-
-# Remove the additional columns from the join
-DATA <- DATA %>%
+# Remove the additional columns from the join with data_collection_dates
+allData_pd <- allData_pd %>%
   select(-End_year, -End_month, -Begin_year , -Begin_month)
 
-############################### Missing value identifier ############################### 
+# 16 Harmonize missing value identifier --------------------------------------
+
 # set likely missing value identifiers for all variables to nan (99, 9999, 999999, 99.9999)
-# 
 
-# filere_df <- DATA %>%
-#   filter(plot_area_reported_ha == 9900.0)
-# 
-# dataset_name_counts <- filere_df %>%
-#   count(dataset_name)
-
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   mutate(
     adm2 = if_else(adm2 == "9999" & country == 'Uganda', NA, adm2),
     adm4 = if_else(adm4 == "9999" & country == 'Uganda', NA, adm4),
@@ -851,47 +903,47 @@ DATA <- DATA %>%
     plot_area_reported_localUnit = if_else(plot_area_reported_localUnit == 999999 & country == 'Niger' , NA, plot_area_reported_localUnit)
   )
 
-############################### negative areas ############################### 
+
+# 17 Correct plot_area_measured ----------------------------------------------
+
 # set negative areas to nan (if any)
+allData_pd <- allData_pd %>%
+  mutate(plot_area_measured_ha=ifelse(plot_area_measured_ha < 0, 
+                                      NA, plot_area_measured_ha))
 
 
-DATA <- DATA %>%
-  mutate(plot_area_measured_ha=ifelse(plot_area_measured_ha < 0, NA, plot_area_measured_ha))
+# 18 Correct lat and lon -----------------------------------------------------
 
-############################### lat & lon = 0 ############################### 
 # set lat/lon 0/0 or nan/0 or 0/nan to missing
-#
-sum(is.na(DATA[["lon"]]))/nrow(DATA) * 100
-sum(is.na(DATA[["lat"]]))/nrow(DATA) * 100
+sum(is.na(allData_pd[["lon"]]))/nrow(allData_pd) * 100
+sum(is.na(allData_pd[["lat"]]))/nrow(allData_pd) * 100
 
-DATA <- DATA %>%
+allData_pd <- allData_pd %>%
   mutate(lat = if_else(lat == 0 & lon == 0, NA_real_, lat),
          lon = if_else(lat == 0 & lon == 0, NA_real_, lon))
 
 #NA_percentage
-na_lon <- sum(is.na(DATA[["lon"]]))/nrow(DATA) * 100
-na_lat <- sum(is.na(DATA[["lat"]]))/nrow(DATA) * 100
-# na_lon
-# na_lat
+na_lon <- sum(is.na(allData_pd[["lon"]]))/nrow(allData_pd) * 100
+na_lat <- sum(is.na(allData_pd[["lat"]]))/nrow(allData_pd) * 100
 
 print("NA percentage of lon and lat")
-sum(is.na(DATA[["lon"]]))/nrow(DATA) * 100
-sum(is.na(DATA[["lat"]]))/nrow(DATA) * 100
+sum(is.na(allData_pd[["lon"]]))/nrow(allData_pd) * 100
+sum(is.na(allData_pd[["lat"]]))/nrow(allData_pd) * 100
 
 # first adm then NA
 print("percentage of lat-NAs with adm3 values")
-filtered_df <- DATA[!is.na(DATA[["adm3"]]), ]
+filtered_df <- allData_pd[!is.na(allData_pd[["adm3"]]), ]
 sum(is.na(filtered_df[["lat"]])) / nrow(filtered_df)*100
 print("percentage of lat-NAs with adm4 values")
-filtered_df <- DATA[!is.na(DATA[["adm4"]]), ]
+filtered_df <- allData_pd[!is.na(allData_pd[["adm4"]]), ]
 sum(is.na(filtered_df[["lat"]])) / nrow(filtered_df)*100
 print("percentage of lat-NAs with adm2 values")
-filtered_df <- DATA[!is.na(DATA[["adm2"]]), ]
+filtered_df <- allData_pd[!is.na(allData_pd[["adm2"]]), ]
 sum(is.na(filtered_df[["lat"]])) / nrow(filtered_df)*100
 
 #first NA, then adm
 print("percentage of lat-NAs with adm2 values")
-filtered_df <- DATA[is.na(DATA[["lat"]]), ]
+filtered_df <- allData_pd[is.na(allData_pd[["lat"]]), ]
 sum(!is.na(filtered_df[["adm2"]])) / nrow(filtered_df)*100
 print("percentage of lat-NAs with adm3 values")
 sum(!is.na(filtered_df[["adm3"]])) / nrow(filtered_df)*100
@@ -899,19 +951,13 @@ print("percentage of lat-NAs with adm4 values")
 sum(!is.na(filtered_df[["adm4"]])) / nrow(filtered_df)*100
 
 ## adm3 = NA, but not adm4
-filtered_df <- DATA[is.na(DATA[["adm3"]]) & !is.na(DATA[["adm4"]]), ]
+filtered_df <- allData_pd[is.na(allData_pd[["adm3"]]) & !is.na(allData_pd[["adm4"]]), ]
 nrow(filtered_df)
 # -> only in UGA 2011
 
-
-############################### seasons ############################### 
-# remove season variable for now, too inconsistent and not always reported from individual countries
-# as an alternative we can try to harmonize season values 
-DATA <- DATA %>% select(-season)
-
-############################### localUnit_area ############################### 
-DATA <- mutate(DATA, localUnit_area = tolower(localUnit_area))
-DATA <- DATA %>% 
+# 19 Harmonize localUnit_area ------------------------------------------------
+allData_pd <- mutate(allData_pd, localUnit_area = tolower(localUnit_area))
+allData_pd <- allData_pd %>% 
   mutate (localUnit_area = case_when(
     localUnit_area %in% c("acres", "acre") ~ "acres",
     localUnit_area %in% c("square metre", "square metres", "square meters") ~ "square metres",
@@ -921,94 +967,79 @@ DATA <- DATA %>%
     grepl("rope\\(gemed\\)", localUnit_area) ~ "rope (gemed)",
     TRUE ~ localUnit_area
   ))
-unique(sort(DATA$localUnit_area))
+unique(sort(allData_pd$localUnit_area))
 
-############################### adm4 in Nigeria & GPS levels ############################### 
+# 20 Correct adm4 and GPS level in Nigeria -----------------------------------
+
 # Set all values of 'adm4' to NA where 'country' is "Nigeria"
-DATA$adm4[DATA$country == "Nigeria"] <- NA
+# as unclear codes were used
+allData_pd$adm4[allData_pd$country == "Nigeria"] <- NA
 
-# > unique(DATA$GPS_level)
-# [1] "3.0"       NA          "3"         "EA"        "Household"
-
-# filere_df <- DATA %>%
-#   filter(GPS_level == "Household")
-# 
-# dataset_name_counts <- filere_df %>%
-#   count(dataset_name)
-# 
-# filtered_df <- DATA %>%
-#   filter(dataset_name == "UGA_2011_UNPS_v01_M")
-
-DATA <- DATA %>%
-  mutate(GPS_level = case_when(
-    GPS_level == "3.0" ~ "3",
-    GPS_level == "3" ~ "3",
-    GPS_level == "Household" ~ "2",
-    GPS_level == "EA" ~ "3"
-  ))
-
-# count_occurrences <- DATA %>%
-#   filter(!is.na(lat) & !is.na(lon) & is.na(GPS_level)) %>%
-#   summarise(count = n())
-filtered_DATA <- DATA %>%
+# show surveys with non-NA lat/lon coordinates but unknown GPS level
+filtered_allData_pd <- allData_pd %>%
   filter(!is.na(lat) & !is.na(lon) & is.na(GPS_level))
-unique(filtered_DATA$dataset_name)
+unique(filtered_allData_pd$dataset_name)
 
-# Set all values of 'adm4' to NA where 'country' is "Nigeria"
-# DATA$GPS_level[DATA$country == "Nigeria"] <- NA
-# DATA$GPS_level <- as.character(DATA$GPS_level)
-DATA <- DATA %>%
-  mutate(GPS_level = if_else(country == "Nigeria" & !is.na(lat) & !is.na(lon), "4", GPS_level))
+# Set all values of 'GPS_level' to 4 (unknown) where 'country' is "Nigeria"
+# allData_pd$GPS_level[allData_pd$country == "Nigeria"] <- NA
+# allData_pd$GPS_level <- as.character(allData_pd$GPS_level)
+allData_pd <- allData_pd %>%
+  mutate(GPS_level = if_else(country == "Nigeria" & 
+                               !is.na(lat) & !is.na(lon), 4, GPS_level))
+
+# 21 Set all names to lowercase letters without french spelling adm1, adm2, adm3, adm4  -----------------------------------
+allData_pd$adm1 <- tolower(allData_pd$adm1)          
+allData_pd$adm1 <- stri_trans_general(allData_pd$adm1, "Latin-ASCII") 
+# 170
+
+allData_pd$adm2 <- tolower(allData_pd$adm2)
+allData_pd$adm2 <- stri_trans_general(allData_pd$adm2, "Latin-ASCII") 
+# 1007
+
+allData_pd$adm3 <- tolower(allData_pd$adm3)                         
+allData_pd$adm3 <- stri_trans_general(allData_pd$adm3, "Latin-ASCII") 
+# 2622
+
+allData_pd$adm4 <- tolower(allData_pd$adm4)                         
+allData_pd$adm4 <- stri_trans_general(allData_pd$adm4, "Latin-ASCII") 
 
 
-############################### columns without observations ############################### 
+# 22 Remove columns and rows without observations ----------------------------
 
-
-#remove columns without any values:
-#
-DATA <- DATA %>%
+# remove columns without any values - does not exist, no columns removed
+allData_pd <- allData_pd %>%
   select(where(~!all(is.na(.))))
 
+# only keep rows with minimum valid data
+# valid = has to have crop type or crop area share or planting month 
+# or planting year or harvest month or harvest year
+allData_pd <- allData_pd %>%
+  filter(!is.na(crop) | !is.na(crop_area_share) | !is.na(planting_month) | 
+             !is.na(planting_year) | !is.na(harvest_month_begin) | 
+             !is.na(harvest_month_end) | !is.na(plot_area_reported_localUnit) | 
+             !is.na(localUnit_area) | !is.na(plot_area_measured_ha) | 
+             !is.na(harvest_year_end) | !is.na(plot_area_reported_ha) | 
+             !is.na(harvest_year_begin))
 
-DATA <- DATA %>%
-  filter(!(is.na(crop) & is.na(crop_area_share) & is.na(planting_month) & is.na(planting_year) & is.na(harvest_month_begin)& is.na(harvest_month_end)& is.na(plot_area_reported_localUnit)& is.na(localUnit_area)& is.na(plot_area_measured_ha)& is.na(harvest_year_end)& is.na(plot_area_reported_ha)& is.na(harvest_year_begin)))
-DATA_filtered_2 <- DATA %>%
-  filter(is.na(crop) & is.na(crop_area_share) & is.na(planting_month) & is.na(planting_year) & is.na(harvest_month_begin)& is.na(harvest_month_end)& is.na(plot_area_reported_localUnit)& is.na(localUnit_area)& is.na(plot_area_measured_ha)& is.na(harvest_year_end)& is.na(plot_area_reported_ha)& is.na(harvest_year_begin))
-
-
-############################### mwi  AND ner dataset names ############################### 
-DATA <- DATA %>%
+# 23 Correct dataset names for Malawi ----------------------------------------
+allData_pd <- allData_pd %>%
   mutate(dataset_name = case_when(
     dataset_name == "mwi_2010_ihs-iii_v01_m" ~ "MWI_2010_IHS-III_v01_M",
     dataset_name == "mwi_2010-2013_ihps_v01_m" ~ "MWI_2010-2013_IHPS_v01_M",
     dataset_name == "mwi_2016_ihs-iv_v04_m" ~ "MWI_2016_IHS-IV_v04_M",
     dataset_name == "mwi_2019_ihs-v_v05_m" ~ "MWI_2019_IHS-V_v05_M",
-    dataset_name == "NER_2011_ECVMA_V01_M" ~ "NER_2011_ECVMA_v01_M",
     TRUE ~ dataset_name  # Keep other values unchanged
   ))
+unique(allData_pd$dataset_name)
 
+# 24 Remove rows without crop names ------------------------------------------
 
-unique(DATA$dataset_name)
+# removes about 24.000 rows without crop names
+allData_pd <- allData_pd %>% filter(!is.na(crop))
 
-############################### lat & lon for countries without data ############################### 
-#not yet:
-# set lat/lon to missing if referencing datapoints far away from the reference country (but not if just outside of reference country; e.g. in Malawi, a larger number of datapoints was collected from just across the border when using FAO-GAUL boundaries, but we should not judge where a country ends or exclude data when its genuinely referencing a location just outside a country)
-
-############################### rows without crops: deleted ############################### 
-
-DATA <- DATA %>% filter(!is.na(crop))
-
-############################### output ############################### 
-
-AFTER <- ff_glimpse (DATA)
-
+# 25 Write output ------------------------------------------------------------
+AFTER <- ff_glimpse (allData_pd)
 CONT_AFTER <- AFTER$Continuous
 CAT_AFTER <- AFTER$Categorical
-# 
-# 
-# CONT_BEFORE[3:12] <- lapply(CONT_BEFORE[3:12], as.numeric)
-# CONT_AFTER[3:12] <- lapply(CONT_AFTER[3:12], as.numeric)
-# Difference <- CONT_BEFORE[,3:12] - CONT_AFTER[,3:12]
-
-write_csv(DATA, "PostProcess/postprocessed_data.csv")
+write_csv(allData_pd, "PostProcess/postprocessed_data.csv")
 
