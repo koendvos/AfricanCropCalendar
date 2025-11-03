@@ -291,4 +291,4 @@ META <- META %>%
 
 # Write output  -----------------------------------------------------------
 
-write_csv(META, "PostProcess/postprocessed_metadata.csv")
+write_csv(META, "/PostProcess/postprocessed_metadata.csv")

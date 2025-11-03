@@ -1,5 +1,5 @@
 # authors: Sophie Rötzer and Katharina Waha
-# create lookup table for adm2
+# create lookup table for adm2 names
 
 rm(list=ls(all=TRUE))
 gc()
@@ -17,7 +17,7 @@ in.path <- "C:/Users/roetzeso/Documents/LSMS_multiplecropping"
 setwd(in.path)
 
 
-data <- read.csv("PostProcess/postprocessed_data.csv")
+data <- read.csv("PostProcess/AfricanCropCalendar.csv")
 # unique(data$adm1) # 298 -> no abbreviations
 # unique(data$adm2) # 1475 -> n'guigmi, gaya {added may/04, 07}, samia-bugwe
 # unique(data$adm3)  # 3358 -> as adm3 and gadougou 1, bassa (plateau state), nyendo/senyange
@@ -127,4 +127,4 @@ lookup_table <- data.joined %>%
   distinct()
 
 
-write.csv(lookup_table, "PostProcess/coordinates_lookup.csv")
+write.csv(lookup_table, "Coordinates_lookup.csv")

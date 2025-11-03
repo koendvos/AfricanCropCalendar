@@ -35,9 +35,6 @@ setwd(in.path)
 # directory containing final datasets 
 outData_dir <- file.path(in.path, 'out')
 
-# crop group lookup table
-lookup_data <- read.csv2("PostProcess/crop_lookup.csv")
-
 # data collection dates lookup table
 data_collection_dates <- read.csv("PostProcess/data_collection_dates.csv", sep = ";")
 
@@ -1041,5 +1038,5 @@ allData_pd <- allData_pd %>% filter(!is.na(crop))
 AFTER <- ff_glimpse (allData_pd)
 CONT_AFTER <- AFTER$Continuous
 CAT_AFTER <- AFTER$Categorical
-write_csv(allData_pd, "PostProcess/postprocessed_data.csv")
+write_csv(allData_pd, "AfricanCropCalendar.csv")
 
