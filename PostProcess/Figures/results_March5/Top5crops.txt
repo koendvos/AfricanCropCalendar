@@ -1,6 +1,0 @@
-Uganda: bean, maize, cassava, banana, sweet potato
-Mali: groundnut, millet, sorghum, corn, rice
-Niger: millet, cowpea, sorghum, groundnut, sorrel
-Nigeria: maize, cassava, cowpea, cassava, millet
-Ethiopia: maize, sorghum, teff, coffee, enset
-Malawi: maize, pumpkin, pigeon pea, groundnut, mango
