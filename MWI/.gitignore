@@ -1,0 +1,6 @@
+# ignore irrelevant raw data files of large size (>100MB)
+/rawData/2010_2011/MWI_2010_IHS-III_v01_M_STATA8/hh_mod_g1.dta
+/rawData/2016_2017/MWI_2016_IHS-IV_v04_M_STATA14/hh_mod_g1.dta
+/rawData/2016_2017/MWI_2016_IHS-IV_v04_M_STATA14_DtaToCsvExport/hh_mod_g1.csv
+/rawData/2019_2020/MWI_2019_IHS-V_v05_M_Stata/HH_MOD_G1.dta
+/rawData/2019_2020/MWI_2019_IHS-V_v05_M_Stata_DtaToCsvExport/hh_mod_g1.csv

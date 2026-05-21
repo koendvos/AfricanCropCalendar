@@ -1,0 +1,29 @@
+country,year,varName_harmonized,dataset_name,dataset_doi,varName_source,varLabel_source,comment
+Nigeria,2018,wave,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,,,The wave indicates the first year of the respective GHS data-collection that typically extended into the subsequent calendar year.
+Nigeria,2018,country,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,,,
+Nigeria,2018,adm1,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,zone,Zone code,
+Nigeria,2018,adm2,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,state,State code,
+Nigeria,2018,adm3,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,lga,LGA code,
+Nigeria,2018,adm4,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,ea,EA CODE,
+Nigeria,2018,lat,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,lat_dd_mod,Latitude Modified,
+Nigeria,2018,lon,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,lon_dd_mod,Longitude Modified,
+Nigeria,2018,GPS_level,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,,,EA centroid
+Nigeria,2018,hhID,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,hhid,hhid,
+Nigeria,2018,plotID,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,plotid,"Id in ""plot_roster""",
+Nigeria,2018,crop,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,cropcode,Id in Sec11f_crops,Code is available to combine crops into simpler categories but not used to generate the current dataset
+Nigeria,2018,season,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,n/a,n/a,"Only one agricultural season is tracked in Nigeria; labeled as ""main season"""
+Nigeria,2018,plot_area_measured_ha,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,s11aq4c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE,
+Nigeria,2018,plot_area_reported_ha,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,,,Generated from WB conversion table
+Nigeria,2018,plot_area_reported_localUnit,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,s11aq4b,What is the unit of [PLOT],
+Nigeria,2018,localUnit_area,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,s11aq4aa,What is the area of [PLOT]?,
+Nigeria,2018,crop_area_share,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,s11fq1/s11fq4,"Approximately what percent of [PLOT] is planted with [CROP]?/Approximately, what percent of [PLOT] was planted with [TREE/PERMANENT CROP]?",Note that the sum of areas planted frequently adds up to more than the total measured or reported area of the plot; code is availble to rescale these areas down to the plot area
+Nigeria,2018,planting_year,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,s11fq3_2,When did you plant the seeds for [CROP] on [PLOT]? (YEAR),
+Nigeria,2018,planting_month,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,s11fq3_1,When was most of the [CROP] seeds palnted on [PLOT] this agricultural season?,
+Nigeria,2018,harvest_year_begin,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,sa3iq4a2,When did household start the harvest of [CROP] from [PLOT]? (YEAR),
+Nigeria,2018,harvest_month_begin,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,sa3iq4a1,When did household start the harvest of [CROP] from [PLOT]? (MONTH),
+Nigeria,2018,harvest_year_end,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,sa3iq6c2,When did your household complete harvest of [CROP] from [PLOT]? (YEAR),
+Nigeria,2018,harvest_month_end,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,sa3iq6c1,When did your household complete harvest of [CROP] from [PLOT]? (MONTH),
+Nigeria,2018,harvest_year,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,n/a,,
+Nigeria,2018,harvest_month,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,n/a,,
+Nigeria,2018,dataset_name,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,,,
+Nigeria,2018,dataset_doi,NGA_2018_GHSP-W4_v03,https://doi.org/10.48529/1hgw-dq47,,,

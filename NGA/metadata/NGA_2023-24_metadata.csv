@@ -1,0 +1,29 @@
+country,year,varName_harmonized,dataset_name,dataset_doi,varName_source,varLabel_source,comment
+Nigeria,2018,wave,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj25,,,The wave indicates the first year of the respective GHS data-collection that typically extended into the subsequent calendar year.
+Nigeria,2018,country,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj26,,,
+Nigeria,2018,adm1,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj27,zone,Zone code,
+Nigeria,2018,adm2,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj28,state,State code,
+Nigeria,2018,adm3,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj29,lga,LGA code,
+Nigeria,2018,adm4,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj30,ea,EA CODE,
+Nigeria,2018,lat,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj31,N/A,Latitude Modified,Not available in this wave
+Nigeria,2018,lon,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj32,N/A,Longitude Modified,Not available in this wave
+Nigeria,2018,GPS_level,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj33,N/A,,Not available in this wave
+Nigeria,2018,hhID,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj34,hhid,hhid,
+Nigeria,2018,plotID,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj35,plotid,"Id in ""plot_roster""",
+Nigeria,2018,crop,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj36,cropcode,Id in Sec11f_crops,Code is available to combine crops into simpler categories but not used to generate the current dataset
+Nigeria,2018,season,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj37,n/a,n/a,"Only one agricultural season is tracked in Nigeria; labeled as ""main season"""
+Nigeria,2018,plot_area_measured_ha,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj38,s11aq4c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE,
+Nigeria,2018,plot_area_reported_ha,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj39,,,Generated from WB conversion table
+Nigeria,2018,plot_area_reported_localUnit,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj40,s11aq4b,What is the unit of [PLOT],
+Nigeria,2018,localUnit_area,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj41,s11aq4aa,What is the area of [PLOT]?,
+Nigeria,2018,crop_area_share,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj42,s11fq1/s11fq4,"Approximately what percent of [PLOT] is planted with [CROP]?/Approximately, what percent of [PLOT] was planted with [TREE/PERMANENT CROP]?",Note that the sum of areas planted frequently adds up to more than the total measured or reported area of the plot; code is available to rescale these areas down to the plot area
+Nigeria,2018,planting_year,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj43,s11fq11_year; sa3iq5a,When did you plant the seeds for [CROP] on [PLOT]? (YEAR),
+Nigeria,2018,planting_month,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj44,s11fq11_month; sa3iq5b,"When was most of the [CROP] seeds planted on [PLOT] this agricultural season? (Trees/Field crops, respectively)",
+Nigeria,2018,harvest_year_begin,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj45,s11fq20b; sa3iq5b; sa3iiiiq18b,When did household start the harvest of [CROP] from [PLOT]? (YEAR) (First item is last production period if not in most recent year),
+Nigeria,2018,harvest_month_begin,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj46,s11fq20a; sa3iq5a; sa3iiiiq18a,When did household start the harvest of [CROP] from [PLOT]? (MONTH),
+Nigeria,2018,harvest_year_end,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj47,sa3iiiq22b; s11fq20d; sa3iq14b,When did your household complete harvest of [CROP] from [PLOT]? (YEAR),
+Nigeria,2018,harvest_month_end,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj48,sa3iiiq22a; s11fq20c; sa3iq14a,When did your household complete harvest of [CROP] from [PLOT]? (MONTH),
+Nigeria,2018,harvest_year,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj49,N/A,,
+Nigeria,2018,harvest_month,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj50,N/A,,
+Nigeria,2018,dataset_name,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj51,,,
+Nigeria,2018,dataset_doi,NGA_2023_GHSP-W5_v01_M ,https://doi.org/10.48529/zd5s-tj52,,,

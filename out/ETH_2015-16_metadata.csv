@@ -1,0 +1,29 @@
+country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,dataset_doi
+Ethiopia,2015-16,hhID,household_id2,Unique HH ID in wave 2,0.003262855651265988,0,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,fieldID,parcel_id,Parcel ID,0,0,"not based on fieldID, but on parcelID",ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plotID,field_id,Field ID,0,0,"plot_ID may not be unique, based on fieldID",ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,crop,"pp_s4q01_a, crop_name",Crop Name,1.0016966849386582,0,crop_name and crop_id don't match,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",60.74784651527017,60.35727233776078,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),47.50065257113025,46.96944728255496,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),47.51370399373532,46.98263076365314,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_month_begin,ph_s9q07_a,What were the months when the harvest started ?,15.3876272513704,14.50432029549502,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_month_end,ph_s9q07_b,What were the months when the harvest ended?,15.3876272513704,14.50432029549502,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm1,region,Region Name,0.6329939963456017,0,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm2,zonename,Zone Name,13.713782302270946,26.96810658054098,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm3,woredaname,Woreda Name,21.69799008091882,41.74404521598708,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,lat,lat_dd_mod,EA Latitude (WGS84) Modified,0.6329939963456017,0,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,lon,lon_dd_mod,EA Longitude (WGS84) Modified,0.6329939963456017,0,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,GPS_level,NA,NA,0.6329939963456017,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plot_area_reported_localUnit,pp_s3q02_a,What is the area of [Field]? (Area),1.093056643174106,0.05404593904819096,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),1.132210910989298,0.11709953460441376,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plot_area_measured_ha,pp_s3q05_a,Area of [Field] (Square Meters),2.411250326285565,2.251914127007957,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,plot_area_reported_ha,NA,NA,52.11433046202036,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,season,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_month,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_year,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_year_begin,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,harvest_year_end,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,adm4,NA,NA,100,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,dataset_name,NA,NA,0,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,country,NA,NA,0,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988
+Ethiopia,2015-16,dataset_doi,NA,NA,0,NA,NA,ETH_2015_ESS_v03_M,https://doi.org/10.48529/ampf-7988

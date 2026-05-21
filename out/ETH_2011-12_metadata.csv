@@ -1,0 +1,29 @@
+country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,dataset_doi
+Ethiopia,2011-12,hhID,household_id,Household ID unique,0,0,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,fieldID,parcel_id,Parcel ID,0,0,"not based on fieldID, but on parcelID",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plotID,field_id,Field ID,0,0,"plot_ID may not be unique, based on fieldID",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,crop,crop_name,Crop Name,11.116840572676535,0,crop_name and crop_id don't match,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",65.38461538461539,61.07377971825221,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),25.6855132249454,16.434150833987108,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),25.84020868721184,16.60811133472047,range: 0 - 8000,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_month_begin,ph_s9q13_a,What were the months when the harvest started and ended? (Start Month),87.84882310118903,48.30967741935484,"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), values up to 23",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_month_end,ph_s9q13_b,What were the months when the harvest started and ended? (End Month),87.95195340936665,48.748387096774195,"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), values up to 23",ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm1,region,Region,0,0,no region 14,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm2,zonename,Zone Name,16.910337296772628,17.48551272360796,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm3,woredaname,Woreda Name,25.47318611987382,27.05971277399849,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,lat,LAT_DD_MOD,EA Latitude (WGS84) Modified,0.3033244358165494,0,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,lon,LON_DD_MOD,EA Longitude (WGS84) Modified,0.3033244358165494,0,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,GPS_level,NA,NA,0.3033244358165494,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plot_area_reported_localUnit,pp_s3q02_d,What is the area of [Field]? (Total Area),11.45656394079107,1.0179547228727557,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),11.450497452074739,0.9992193598750976,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plot_area_measured_ha,pp_s3q05_c,GPS measured area of [Field] (Total Square Meters),26.35282698374181,18.451209992193597,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,plot_area_reported_ha,NA,NA,37.59099733074496,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,season,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_month,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_year,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_year_begin,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,harvest_year_end,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,adm4,NA,NA,100,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,dataset_name,NA,NA,0,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,country,NA,NA,0,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68
+Ethiopia,2011-12,dataset_doi,NA,NA,0,NA,NA,ETH_2011_ERSS_v02_M,https://doi.org/10.48529/80xt-9m68

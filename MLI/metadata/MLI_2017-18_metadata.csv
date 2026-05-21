@@ -1,0 +1,27 @@
+country;year;varName_harmonized;varName_source;varLabel_source;pctMissing_harmonized;pctMissing_source;comment;dataset_name;dataset_doi
+Mali;2017-2018;hhID;grappe, exploitation;Grappe, Exploitation;0;0;combination of both grappe and exploitation;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;lat;lat_dd_mod;GPS Latitude Modified;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;lon;lon_dd_mod;GPS Longitude Modified;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;GPS_level;;;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;country;;;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;adm1;s0q01;Région;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;adm2;s0q02;Cercle;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;adm3;s0q03;Commune;0,1283697;0,6436234;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;adm4;;;0;0;not present in dataset;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;fieldID;s11bq01,s11cq01;Numéro du bloc;0;0;different variables indicating bloc ID;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;plotID;s11bq02, s11cq02;Numéro de la parcelle dans le bloc;0;0;different variables indicating parcelle ID;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;crop;s11cq03;Code de la culture;0;0,0490657;based on crop code description;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;season;;;0;0;not present in dataset;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;plot_area_reported_ha;s11bq11b;Unité de mesure de la superficie de la parcelle par le paysan;1,4160783;1,4804124;converted m to hectares - accounted for crop_area_share;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;plot_area_measured_ha;s11bq07;Superficie de la parcelle en ha selon les mesures GPS;1,4241014;1,7319588;accounted for crop_area_share;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;plot_area_reported_localUnit;;;0;0;not present in dataset;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;localUnit_area;;;0;0;not present in dataset;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;crop_area_share;s11cq07;Pourcentage de la superficie occupée par la culture sur la parcelle;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;planting_month;s11cq14b;Date de commencement du semis ou repiquage pour la culture-Mois;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;harvest_month;;;0;0;NA;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;harvest_month_begin;s7fq05b;Date de début de la récolte de la culture-Mois;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;harvest_month_end;s7fq12b;Date de fin de la recolte de la culture-Mois;4,7657253;4,8166169;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;planting_year;;;0;0;calculated by considering the harvest month + year;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;harvest_year;;;0;0;NA;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;harvest_year_begin;s7fq05c;Date de début de la récolte de la culture-Année;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966
+Mali;2017-2018;harvest_year_end;s7fq12c;Date de fin de la recolte de la culture-Année;0;0;;MLI_2017_EAC-I_v03_M;https://doi.org/10.48529/0v50-h966

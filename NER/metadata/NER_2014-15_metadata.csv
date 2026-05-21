@@ -1,0 +1,27 @@
+country;year;varName_harmonized;varName_source;varLabel_source;pctMissing_harmonized;pctMissing_source;comment;dataset_name;dataset_doi
+Niger;2014-2015;hhID;grappe, exploitation;grappe, exploitation;0;0;combination of both grappe and exploitation;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;lat;LAT_DD_MOD;EA Latitude (WGS84 Modified);0;0;taken from earlier wave (NER_2011_ECVMA_v01_M);NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;lon;LON_DD_MOD;EA Longirude (WGS84 Modified);0;0;taken from earlier wave (NER_2011_ECVMA_v01_M);NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;GPS_level;;;0;0;set to 3, as coordinates are at community level;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;country;;;0;0;set to Niger;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;adm1;MS00Q10;Region;0;0;region code, modified to region name using lookup data (see wave documentation report);NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;adm2;MS00Q11;Département;0;0;department code, modified to department name using lookup table (see wave report);NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;adm3;MS00Q12;Commune/Canton;0;82,93425;community code, modified to commune name using lookup table;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;adm4;;;100;0;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;fieldID;AS01Q01;Numéro du champ;0;0,1005484;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;plotID;AS01Q03;Numéro de la Parcelle;0;0;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;crop;AS02BQ06, CULTURE;Code culture;1,72;0;based on crop code description;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;season;AS02EQ04;Cette parcelle est exploitée pendant la saison des pluies;18,2;0;based on indication of plot being cultivated in the rainy season;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;plot_area_reported_ha;AS02BQ08;Surface cultivée consacrée à chaque culture;1,71974;0;although the variable indicates the area dedicated to each crop (surface consacrée à chaque culture), the areas were often similar between crops and equal in terms of magnitude as the GPS-measured area. Hence, this area is considered to be the reported plot area rather than the crop-specific area.;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;plot_area_measured_ha;AS01Q07;Superficie de la parcelle GPS (en mètre carré);9,89;0;converted from m² to ha;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;plot_area_reported_localUnit;;;100;0;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;localUnit_area;;;100;0;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;crop_area_share;AS02BQ08, AS01Q07;;3,628734;0;determined by the dedicated crop area to the total in each plot. Remark: the areas of each crop are often similar within the same plot - hence this is likely an indication of the plot area rather than the crop-specific area. ;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;planting_month;AS02BQ11;Mois au cours duquel vous avez planté ce produit pour la première fois cette saison;1,71974;1,8;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;harvest_month;;;100;0;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;harvest_month_begin;AS02EQ06A;Mois de début de la récolte;23,89533;0;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;harvest_month_end;AS02EQ06B;Mois de fin de la récolte;24,0023;8;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;planting_year;;;0;0;based on planting_month;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;harvest_year;;;100;0;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;harvest_year_begin;;;23,89533;0;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96
+Niger;2014-2015;harvest_year_end;;;24,0023;0;;NER_2014_ECVMA-II_v02_M;https://doi.org/10.48529/3xnb-sd96

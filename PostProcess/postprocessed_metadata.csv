@@ -1,0 +1,511 @@
+country,year,varName_harmonized,varName_source,varLabel_source,comment,pctMissing
+Ethiopia,2011-12,hhID,household_id,Household ID unique,NA,0
+Ethiopia,2011-12,fieldID,parcel_id,Parcel ID,"not based on fieldID, but on parcelID",0
+Ethiopia,2011-12,plotID,field_id,Field ID,"plot_ID may not be unique, based on fieldID",0
+Ethiopia,2011-12,crop,crop_name,Crop Name,crop_name and crop_id don't match,0
+Ethiopia,2011-12,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",NA,61.058594683138246
+Ethiopia,2011-12,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),16.41470156639252
+Ethiopia,2011-12,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),range: 0 - 8000,16.595570419410983
+Ethiopia,2011-12,harvest_month_begin,ph_s9q13_a,What were the months when the harvest started and ended? (Start Month),"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), values up to 23",89.42429102822237
+Ethiopia,2011-12,harvest_month_end,ph_s9q13_b,What were the months when the harvest started and ended? (End Month),"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), values up to 23",89.51301914479745
+Ethiopia,2011-12,adm1,region,Region,no region 14,0
+Ethiopia,2011-12,adm2,zonename,Zone Name,NA,16.21335699416442
+Ethiopia,2011-12,adm3,woredaname,Woreda Name,NA,23.738183803706107
+Ethiopia,2011-12,lat,LAT_DD_MOD,EA Latitude (WGS84) Modified,NA,0.2627717298570112
+Ethiopia,2011-12,lon,LON_DD_MOD,EA Longitude (WGS84) Modified,NA,0.2627717298570112
+Ethiopia,2011-12,GPS_level,NA,NA,NA,0.2627717298570112
+Ethiopia,2011-12,plot_area_reported_localUnit,pp_s3q02_d,What is the area of [Field]? (Total Area),NA,0.43340272327065493
+Ethiopia,2011-12,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),NA,0.4265774835341091
+Ethiopia,2011-12,plot_area_measured_ha,pp_s3q05_c,GPS measured area of [Field] (Total Square Meters),NA,17.18595365662219
+Ethiopia,2011-12,plot_area_reported_ha,NA,NA,NA,29.822885028836637
+Ethiopia,2011-12,harvest_year_begin,NA,NA,NA,100
+Ethiopia,2011-12,harvest_year_end,NA,NA,NA,100
+Ethiopia,2011-12,adm4,NA,NA,NA,100
+Ethiopia,2011-12,dataset_name,NA,NA,NA,NA
+Ethiopia,2011-12,dataset_doi,NA,NA,NA,0
+Ethiopia,2013-14,hhID,household_id2,Unique HH ID in wave 2,NA,0
+Ethiopia,2013-14,fieldID,parcel_id,Parcel ID,"not based on fieldID, but on parcelID",0
+Ethiopia,2013-14,plotID,field_id,Field ID,"plot_ID may not be unique, based on fieldID",0
+Ethiopia,2013-14,crop,"pp_s4q01_a, ph_s9q0d",Crop Name,crop_name and crop_id don't match,0
+Ethiopia,2013-14,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",NA,59.59230642774946
+Ethiopia,2013-14,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),27.210258096334044
+Ethiopia,2013-14,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),year 2204 included,27.236560907446982
+Ethiopia,2013-14,harvest_month_begin,ph_s9q07_a,What were the months when the harvest started ?,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),12.97386158145652
+Ethiopia,2013-14,harvest_month_end,ph_s9q07_b,What were the months when the harvest ended?,"The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years), some months are 0",13.121814893966793
+Ethiopia,2013-14,adm1,region,Region Name,NA,0.2696038139076114
+Ethiopia,2013-14,adm2,zonename,Zone Name,NA,15.633733355252344
+Ethiopia,2013-14,adm3,woredaname,Woreda Name,NA,24.356403090580304
+Ethiopia,2013-14,lat,lat_dd_mod,lat_dd_mod,NA,0
+Ethiopia,2013-14,lon,lon_dd_mod,lon_dd_mod,NA,0
+Ethiopia,2013-14,GPS_level,NA,NA,NA,0
+Ethiopia,2013-14,plot_area_reported_localUnit,pp_s3q02_a,What is the area of [Field]? (Area),NA,1.9398323195791551
+Ethiopia,2013-14,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),NA,1.9496958737465067
+Ethiopia,2013-14,plot_area_measured_ha,pp_s3q05_a,Area of [Field] (Square Meters),NA,5.267137925365774
+Ethiopia,2013-14,plot_area_reported_ha,NA,NA,NA,42.824264343251684
+Ethiopia,2013-14,harvest_year_begin,NA,NA,NA,100
+Ethiopia,2013-14,harvest_year_end,NA,NA,NA,100
+Ethiopia,2013-14,adm4,NA,NA,NA,100
+Ethiopia,2013-14,dataset_name,NA,NA,NA,NA
+Ethiopia,2013-14,dataset_doi,NA,NA,NA,0
+Ethiopia,2015-16,hhID,household_id2,Unique HH ID in wave 2,NA,0
+Ethiopia,2015-16,fieldID,parcel_id,Parcel ID,"not based on fieldID, but on parcelID",0
+Ethiopia,2015-16,plotID,field_id,Field ID,"plot_ID may not be unique, based on fieldID",0
+Ethiopia,2015-16,crop,"pp_s4q01_a, crop_name",Crop Name,crop_name and crop_id don't match,0
+Ethiopia,2015-16,crop_area_share,pp_s4q03,"Approximately, how much of the [Field] was planted with [Crop]?",NA,60.35068059721169
+Ethiopia,2015-16,planting_month,pp_s4q12_a,When did you plant the seeds for the [Crop] on this [Field]? (Month),The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),46.9727431528295
+Ethiopia,2015-16,planting_year,pp_s4q12_b,When did you plant the seeds for the [Crop] on this [Field]? (EC Year),NA,46.98592663392769
+Ethiopia,2015-16,harvest_month_begin,ph_s9q07_a,What were the months when the harvest started ?,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),14.673214462278764
+Ethiopia,2015-16,harvest_month_end,ph_s9q07_b,What were the months when the harvest ended?,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),14.673214462278764
+Ethiopia,2015-16,adm1,region,Region Name,NA,0.3229952869055074
+Ethiopia,2015-16,adm2,zonename,Zone Name,NA,13.463630071520386
+Ethiopia,2015-16,adm3,woredaname,Woreda Name,NA,21.502257671138064
+Ethiopia,2015-16,lat,lat_dd_mod,EA Latitude (WGS84) Modified,NA,0.3229952869055074
+Ethiopia,2015-16,lon,lon_dd_mod,EA Longitude (WGS84) Modified,NA,0.3229952869055074
+Ethiopia,2015-16,GPS_level,NA,NA,NA,0.3229952869055074
+Ethiopia,2015-16,plot_area_reported_localUnit,pp_s3q02_a,What is the area of [Field]? (Area),NA,1.09422893114927
+Ethiopia,2015-16,localUnit_area,pp_s3q02_c,What is the area of [Field]? (Unit),NA,1.1337793744438218
+Ethiopia,2015-16,plot_area_measured_ha,pp_s3q05_a,Area of [Field] (Square Meters),NA,2.3664348571240237
+Ethiopia,2015-16,plot_area_reported_ha,NA,NA,NA,51.97917009986487
+Ethiopia,2015-16,harvest_year_begin,NA,NA,NA,100
+Ethiopia,2015-16,harvest_year_end,NA,NA,NA,100
+Ethiopia,2015-16,adm4,NA,NA,NA,100
+Ethiopia,2015-16,dataset_name,NA,NA,NA,NA
+Ethiopia,2015-16,dataset_doi,NA,NA,NA,0
+Ethiopia,2018-19,hhID,household_id,Unique Household Indentifier,NA,0
+Ethiopia,2018-19,fieldID,parcel_id,Unique Parcel Identifier,"not based on fieldID, but on parcelID",0
+Ethiopia,2018-19,plotID,field_id,Unique Field Identifier,"plot_ID may not be unique, based on fieldID",0
+Ethiopia,2018-19,crop,"s4q01b, s9q00b","1b.CROP CODE, 1.Crop code","white cumin and white lumin may be the same crop, crop_name and crop_id don't match",0
+Ethiopia,2018-19,crop_area_share,s4q03,"3.Approximately, how much of [FIELD] was planted with [CROP]?",NA,64.2332334097455
+Ethiopia,2018-19,planting_month,s4q13a,13_a.When did you plant the seeds for the [Crop] on [FIELD]? (Month),The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),33.832951272556286
+Ethiopia,2018-19,planting_year,s4q13b,13_b.When did you plant the seeds for the [Crop] on [FIELD]? (Year),NA,33.23340974548874
+Ethiopia,2018-19,harvest_month_begin,s9q08a,8a.What was the month when the harvesting of [CROP] on [FIELD] started?,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),39.93416798918474
+Ethiopia,2018-19,harvest_month_end,s9q08b,8b.What was the month when the harvesting of [CROP] on [FIELD] ended?,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),40.028213718920824
+Ethiopia,2018-19,adm1,region,Region,NA,3.1387762299418096
+Ethiopia,2018-19,adm2,zonename,Zone Name,NA,31.052724387233294
+Ethiopia,2018-19,adm3,woredaname,Woreda Name,NA,64.53888203138777
+Ethiopia,2018-19,lat,lat_mod,Latitude Modified,NA,0.1645800270381473
+Ethiopia,2018-19,lon,lon_mod,Longitude Modified,NA,0.1645800270381473
+Ethiopia,2018-19,GPS_level,NA,NA,NA,0.1645800270381473
+Ethiopia,2018-19,plot_area_reported_localUnit,s3q02a,2a.ASK HOLDER: What is the area of [FIELD]?,NA,4.808087932757303
+Ethiopia,2018-19,localUnit_area,s3q02b,2b. Unit of measurement,NA,4.808087932757303
+Ethiopia,2018-19,plot_area_measured_ha,s3q08,8.RECORD AREA OF THE FIELD USING GPS.,NA,5.090225121965556
+Ethiopia,2018-19,plot_area_reported_ha,NA,NA,NA,51.55469346969964
+Ethiopia,2018-19,harvest_year_begin,NA,NA,NA,100
+Ethiopia,2018-19,harvest_year_end,NA,NA,NA,100
+Ethiopia,2018-19,adm4,NA,NA,NA,100
+Ethiopia,2018-19,dataset_name,NA,NA,NA,NA
+Ethiopia,2018-19,dataset_doi,NA,NA,NA,0
+Mali,2014-2015,hhID,"grappe, menage","Grappe, Ménage","paste of grappe and menage ""G_M""",0
+Mali,2014-2015,lat,lat_dd_mod,GPS Latitude Modified,,0
+Mali,2014-2015,lon,lon_dd_mod,GPS Longitude Modified,,0
+Mali,2014-2015,GPS_level,type,Type de questionnaire,"set to 3 based on ""type""",0
+Mali,2014-2015,adm1,s0aq01,Région,,0
+Mali,2014-2015,adm2,s0aq02,Cercle,,0.3083963390370076
+Mali,2014-2015,adm3,s0aq03,Commune,,0
+Mali,2014-2015,adm4,,,not present in dataset,100
+Mali,2014-2015,fieldID,"s1cq01,s1bq01",Numéro du bloc,,0
+Mali,2014-2015,plotID,"s1cq02,s1bq02",Numéro de la parcelle,,0
+Mali,2014-2015,crop,s1cq03,Code de la culture,,0
+Mali,2014-2015,plot_area_reported_ha,s1bq10,Superficie de la parcelle (en HA) selon le paysan,value 99 is indicated as NoData,9.281734978113807
+Mali,2014-2015,plot_area_measured_ha,s1bq05a,Superficie de la parcelle (en hectare) selon les mesures GPS,value 99 is indicated as NoData,4.4369279745324315
+Mali,2014-2015,plot_area_reported_localUnit,,,not present in dataset,100
+Mali,2014-2015,localUnit_area,,,not present in dataset,100
+Mali,2014-2015,crop_area_share,s1cq06,Pourcentage de la superficie occupée par cette culture,,87.71388778352566
+Mali,2014-2015,planting_month,s1cq11b,Mois de début de sémis ou de repiquage pour la culture,,0
+Mali,2014-2015,harvest_month_begin,s3aq04b,Mois de début de récolte de la culture,,4.566255471547951
+Mali,2014-2015,harvest_month_end,s3aq07b,Mois de fin de récolte de la culture,,6.58575407879029
+Mali,2014-2015,planting_year,,,calculated by considering the harvest month + year,100
+Mali,2014-2015,harvest_year_begin,,,calculated based on survey date and reported planting month,100
+Mali,2014-2015,harvest_year_end,,,calculated based on survey date and reported planting month,100
+Mali,2017-2018,hhID,"grappe, exploitation","Grappe, Exploitation",combination of both grappe and exploitation,0
+Mali,2017-2018,lat,lat_dd_mod,GPS Latitude Modified,,0
+Mali,2017-2018,lon,lon_dd_mod,GPS Longitude Modified,,0
+Mali,2017-2018,GPS_level,,,,0
+Mali,2017-2018,adm1,s0q01,Région,,0
+Mali,2017-2018,adm2,s0q02,Cercle,,0
+Mali,2017-2018,adm3,s0q03,Commune,,0.1283800048142502
+Mali,2017-2018,adm4,,,not present in dataset,100
+Mali,2017-2018,fieldID,"s11bq01,s11cq01",Numéro du bloc,different variables indicating bloc ID,0
+Mali,2017-2018,plotID,"s11bq02, s11cq02",Numéro de la parcelle dans le bloc,different variables indicating parcelle ID,0
+Mali,2017-2018,crop,s11cq03,Code de la culture,based on crop code description,0
+Mali,2017-2018,plot_area_reported_ha,s11bq11b,Unité de mesure de la superficie de la parcelle par le paysan,converted m to hectares - accounted for crop_area_share,1.4161919281071973
+Mali,2017-2018,plot_area_measured_ha,s11bq07,Superficie de la parcelle en ha selon les mesures GPS,accounted for crop_area_share,1.424215678408088
+Mali,2017-2018,plot_area_reported_localUnit,,,not present in dataset,100
+Mali,2017-2018,localUnit_area,,,not present in dataset,100
+Mali,2017-2018,crop_area_share,s11cq07,Pourcentage de la superficie occupée par la culture sur la parcelle,,0
+Mali,2017-2018,planting_month,s11cq14b,Date de commencement du semis ou repiquage pour la culture-Mois,,0
+Mali,2017-2018,harvest_month_begin,s7fq05b,Date de début de la récolte de la culture-Mois,,0
+Mali,2017-2018,harvest_month_end,s7fq12b,Date de fin de la recolte de la culture-Mois,,4.7620958035785925
+Mali,2017-2018,planting_year,,,calculated by considering the harvest month + year,100
+Mali,2017-2018,harvest_year_begin,s7fq05c,Date de début de la récolte de la culture-Année,,31.144186792907004
+Mali,2017-2018,harvest_year_end,s7fq12c,Date de fin de la recolte de la culture-Année,,34.27344941025435
+Malawi,2013,GPS_level,,,,0
+Malawi,2013,adm1,region,IHPS 2013 Region Location,,0
+Malawi,2013,adm2,district,IHPS 2013 District Location,Second-level administrative divisions identify Local Government Areas as defined by the Local Government Act of Malawi and used for reporting by the National Statistical Office of Malawi.,0
+Malawi,2013,adm3,,,,100
+Malawi,2013,adm4,,,,100
+Malawi,2013,crop,ag_g0b; ag_m0c; ag_p0c,CROP CODE; TREE/PERMANENT CROP CODE,"Crop names were harmonized for spelling. Crop names in Chichewa for which the English translation was known, were converted to their English name.",0
+Malawi,2013,crop_area_share,ag_g03; ag_m03,"Approximately, how much of the [PLOT] is under [CROP]?","The percentage of plot area cultivated by a crop was assumed as: 12.5 % if indicated ""less than 1/4"", 25 % if indicated ""1/4"", 37.5 % if indicated ""less than 1/2"", 50 % if indicated ""1/2"", 62.5 % if indicated ""less than 3/4"", 75 % if indicated ""3/4"", 87.5 % if indicated ""more than 3/4"", 100 % if indicated as fully occupied by a single crop. For many plots, any indication on whether the crop was fully cultivated by a single crop is missing: Whenever a plot is not intercropped and not indicated as only partially being cropped, then we assume that the plot is fully under the target crop.",90.31585006115547
+Malawi,2013,dataset_doi,,,"Of the Malawian panel dataset ""MWI_2010-2013_IHPS_v01_M"", which includes data for both the 2010 and 2013 survey waves, we exclusively considered data from the 2013 survey wave. Data for the 2010 survey wave was instead sourced separately from the cross-sectional dataset “MWI_2010_IHS-III_v01_M”. For the 2013 survey wave, no cross-sectional dataset is available.",0
+Malawi,2013,dataset_name,,,,NA
+Malawi,2013,fieldID,ag_c03_2; ag_o03_2,2012/2013 GARDEN ID OF THE GARDEN THAT THE PLOT IS A PART OF.; ENUMERATOR: RECORD THE 2012/13 GARDEN ID OF THE GARDEN THAT THE PLOT IS A PART O,,9.015037053025397
+Malawi,2013,harvest_month_begin,ag_g12a; ag_m12a; ag_p06a,What were the months when the harvest started and ended? (START); What were the months when the harvest started and ended?; What was the last completed production period for the [TREE / PERMANENT CROP? (B,,12.08000575580977
+Malawi,2013,harvest_month_end,ag_g12b; ag_m12b; ag_p06c,What were the months when the harvest started and ended? (END); What were the months when the harvest started and ended?; What was the last completed production period for the [TREE / PERMANENT CROP? (E,,11.979279084826247
+Malawi,2013,harvest_year_begin,ag_p06b,What was the last completed production period for the [TREE / PERMANENT CROP? (B,"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",81.53824016116268
+Malawi,2013,harvest_year_end,ag_p06d,What was the last completed production period for the [TREE / PERMANENT CROP? (E,"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",81.35837110583495
+Malawi,2013,hhID,case_id,IHS3 Baseline case_id as in IHS3 Public Data,,0
+Malawi,2013,lat,lat_dd_mod,GPS Latitude Modified,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,0
+Malawi,2013,localUnit_area,ag_c04b; ag_j05b; ag_o04b,What is the area of this [PLOT]? (UNIT),,3.1153320382761347
+Malawi,2013,lon,lon_dd_mod,GPS Longitude Modified,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,0
+Malawi,2013,planting_month,ag_g05a; ag_m05a,When did you plant the seeds for the [CROP] on this [PLOT] during the 2012/2013 rainy season? (Month); When did you plant the seeds for the [CROP] on this [PLOT] during the 2013 dry (dimba) season? (Month),,19.670479890639612
+Malawi,2013,planting_year,ag_g05b; ag_m05b; ag_p04,When did you plant the seeds for the [CROP] on this [PLOT] during the 2012/2013 rainy season? (YEAR 4-DIGIT); When did you plant the seeds for the [CROP] on this [PLOT] during the 2013 dry (dimba) season? (YEAR 4-DIGIT),,3.547017771062667
+Malawi,2013,plotID,ag_c00; ag_g00; ag_j00; ag_m00; ag_o00; ag_p00,Plot ID,,0
+Malawi,2013,plot_area_measured_ha,ag_c04c; ag_j05c; ag_o04c,What is the area of this [PLOT]? (GPS AREA IN ACRES); What is the area of this [PLOT]? (Area in Acres); What is the area of this [PLOT]? (Area in Acres),"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",7.252320310813727
+Malawi,2013,plot_area_reported_ha,ag_c04a; ag_j05a; ag_o04a,What is the area of this [PLOT]? (AREA),"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",3.1153320382761347
+Malawi,2013,plot_area_reported_localUnit,ag_c04a; ag_j05a; ag_o04a,What is the area of this [PLOT]? (AREA),,2.856320598604216
+Malawi,2010,GPS_level,,,,0
+Malawi,2010,adm1,,,,0
+Malawi,2010,adm2,hh_a01,district,Second-level administrative divisions identify Local Government Areas as defined by the Local Government Act of Malawi and used for reporting by the National Statistical Office of Malawi.,0
+Malawi,2010,adm3,,,,100
+Malawi,2010,adm4,,,,100
+Malawi,2010,crop,ag_g0d; ag_m0d; ag_p0d,CROP CODE; TREE/PERMANENT CROP CODE,"Crop names were harmonized for spelling. Crop names in Chichewa for which the English translation was known, were converted to their English name.",0
+Malawi,2010,crop_area_share,ag_g03; ag_m03,"Approximately, how much of the [PLOT] is under [CROP]?; Approximately how much of the [PLOT] is under [CROP]?","The percentage of plot area cultivated by a crop was assumed as: 12.5 % if indicated ""less than 1/4"", 25 % if indicated ""1/4"", 37.5 % if indicated ""less than 1/2"", 50 % if indicated ""1/2"", 62.5 % if indicated ""less than 3/4"", 75 % if indicated ""3/4"", 87.5 % if indicated ""more than 3/4"", 100 % if indicated as fully occupied by a single crop. For many plots, any indication on whether the crop was fully cultivated by a single crop is missing: Whenever a plot is not intercropped and not indicated as only partially being cropped, then we assume that the plot is fully under the target crop.",93.0711188693057
+Malawi,2010,dataset_doi,,,,0
+Malawi,2010,dataset_name,,,,NA
+Malawi,2010,fieldID,,,The 2010 survey wave of the IHS did not record any field-identifiers but exclusively used plot-identifiers.,100
+Malawi,2010,harvest_month_begin,ag_g12a; ag_m12a; ag_p06a,What were the months when the harvest started and ended? (START); What was the last completed production period for[TREE/PERM CROP]?(START MONTH),,2.533926459823188
+Malawi,2010,harvest_month_end,ag_g12b; ag_m12b; ag_p06c,What were the months when the harvest started and ended? (END); What was the last completed production period for[TREE/PERM CROP]?(END MONTH),,2.4832479306267246
+Malawi,2010,harvest_year_begin,ag_p06b,What was the last completed production period for[TREE/PERM CROP]?(START YEAR),"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",84.11509657075285
+Malawi,2010,harvest_year_end,ag_p06d,What was the last completed production period for[TREE/PERM CROP]?(END YEAR),"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",83.9884002477617
+Malawi,2010,hhID,case_id,Unique HH Identifier,,0
+Malawi,2010,lat,lat_modified,EA Latitude Modified,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,0
+Malawi,2010,localUnit_area,ag_c04b; ag_j05b; ag_p02b,What is the area of this [PLOT]? (Unit); What is the area of this [PLOT]? (FARMER ESTIMATION/UNIT); What is the area of the plantation?(UNIT),,13.99853595360099
+Malawi,2010,lon,lon_modified,EA Longitude Modified,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,0
+Malawi,2010,planting_month,ag_g05a; ag_m05a,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(MONTH),,17.430598569739285
+Malawi,2010,planting_year,ag_g05b; ag_m05b; ag_p04,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(YEAR); In what year were most of these plants/trees planted?,,6.196857931189819
+Malawi,2010,plotID,ag_c00; ag_g0b; ag_j00; ag_m0b; ag_p0b,Plot ID,,0
+Malawi,2010,plot_area_measured_ha,ag_c04c; ag_j05c,What is the area of this [PLOT]? (Area in Acres); What is the area of this [PLOT]? (GPS MEASURE/AREA IN ACRES),"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",14.941719691424066
+Malawi,2010,plot_area_reported_ha,ag_c04a; ag_j05a; ag_p02a,What is the area of this [PLOT]? (Area); What is the area of this [PLOT]? (FARMER ESTIMATION/AREA); What is the area of the plantation?(AREA),"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",14.001351427445238
+Malawi,2010,plot_area_reported_localUnit,ag_c04a; ag_j05a; ag_p02a,What is the area of this [PLOT]? (Area); What is the area of this [PLOT]? (FARMER ESTIMATION/AREA); What is the area of the plantation?(AREA),,13.860577735232841
+Malawi,2016,GPS_level,,,,0
+Malawi,2016,adm1,region,IHS4 2016 Region location,,0
+Malawi,2016,adm2,district,IHS4 2016 District Location,Second-level administrative divisions identify Local Government Areas as defined by the Local Government Act of Malawi and used for reporting by the National Statistical Office of Malawi.,0
+Malawi,2016,adm3,,,,100
+Malawi,2016,adm4,,,,100
+Malawi,2016,crop,crop_code_collapsed; crop_code; ag_p0_crops,"Collapsed CC maize,gn,tob,rice; Crop ID; FOR EACH PLOT, LIST ALL TREE/PERMANENT CROPS HARVESTED BY HH IN LAST 12MONTHS","Crop names were harmonized for spelling. Crop names in Chichewa for which the English translation was known, were converted to their English name.",0
+Malawi,2016,crop_area_share,ag_g03; ag_m03,"Approximately, how much of the [PLOT] is under [CROP]?; Approximately, how much of the [PLOT] is under crop [CROP]?","The percentage of plot area cultivated by a crop was assumed as: 12.5 % if indicated ""less than 1/4"", 25 % if indicated ""1/4"", 37.5 % if indicated ""less than 1/2"", 50 % if indicated ""1/2"", 62.5 % if indicated ""less than 3/4"", 75 % if indicated ""3/4"", 87.5 % if indicated ""more than 3/4"", 100 % if indicated as fully occupied by a single crop. For many plots, any indication on whether the crop was fully cultivated by a single crop is missing: Whenever a plot is not intercropped and not indicated as only partially being cropped, then we assume that the plot is fully under the target crop.",37.54531001589825
+Malawi,2016,dataset_doi,,,,0
+Malawi,2016,dataset_name,,,,NA
+Malawi,2016,fieldID,gardenid,Garden ID,,0.01271860095389507
+Malawi,2016,harvest_month_begin,ag_g12a; ag_m12a; ag_p06a,What months did the harvest start?;  What were the months when the harvest started and ended? (START); What was the last completed production period for the tree/permanent crop,,2.4069952305246423
+Malawi,2016,harvest_month_end,ag_g12b; ag_m12b; ag_p06c,What months did the harvest end?; What were the months when the harvest started and ended? (END);  END MONTH,,1.109697933227345
+Malawi,2016,harvest_year_begin,ag_p06b,BEGIN YEAR (4-DIGIT),"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",88.87440381558028
+Malawi,2016,harvest_year_end,ag_p06d,END YEAR (4-DIGIT),"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",87.58664546899841
+Malawi,2016,hhID,case_id,Unique Household Identifier,,0
+Malawi,2016,lat,lat_modified,GPS Latitude Modified,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,0.01271860095389507
+Malawi,2016,localUnit_area,ag_c04b; ag_j05b; ag_o04b,Units of Area Reported; unit; unit,,2.6454689984101747
+Malawi,2016,lon,lon_modified,GPS Longitude Modified,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,0.01271860095389507
+Malawi,2016,planting_month,ag_g05a; ag_m05a,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(MONTH),,12.81717011128776
+Malawi,2016,planting_year,ag_g05b; ag_m05b; ag_p04,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(YEAR);  YEAR (4 DIGIT); In what year were most of these plants/ trees planted?,,3.29093799682035
+Malawi,2016,plotID,plotid,Plot ID,,0.05405405405405406
+Malawi,2016,plot_area_measured_ha,ag_c04c; ag_j05c; ag_o04c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE; What is the area of this [PLOT]?  [GPS],"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",11.85691573926868
+Malawi,2016,plot_area_reported_ha,ag_c04a; ag_j05a; ag_o04a,Self Reported Area of Plot; What is the <u>area</u> of this plot (%rostertitle%)? ENUMERATOR: ASK THE;  What is the area of this [PLOT]?,"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",2.7217806041335453
+Malawi,2016,plot_area_reported_localUnit,ag_c04a; ag_j05a; ag_o04a,Self Reported Area of Plot; What is the <u>area</u> of this plot (%rostertitle%)? ENUMERATOR: ASK THE;  What is the area of this [PLOT]?,,2.588235294117647
+Malawi,2019,GPS_level,,,,0
+Malawi,2019,adm1,region,IHS5 2019 Region location,,0
+Malawi,2019,adm2,district,IHS5 2019 District Location,Second-level administrative divisions identify Local Government Areas as defined by the Local Government Act of Malawi and used for reporting by the National Statistical Office of Malawi.,0
+Malawi,2019,adm3,,,,100
+Malawi,2019,adm4,,,,100
+Malawi,2019,crop,crop_code; ag_p0_crops,"Crop ID; FOR EACH PLOT, LIST ALL TREE/PERMANENT CROPS HARVESTED BY HH IN LAST 12MONTHS","Crop names were harmonized for spelling. Crop names in Chichewa for which the English translation was known, were converted to their English name.",0
+Malawi,2019,crop_area_share,ag_g03; ag_m03,"Approximately, how much of the [PLOT] is under [CROP]?; Approximately how much of the [PLOT] is under [CROP]?","The percentage of plot area cultivated by a crop was assumed as: 12.5 % if indicated ""less than 1/4"", 25 % if indicated ""1/4"", 37.5 % if indicated ""less than 1/2"", 50 % if indicated ""1/2"", 62.5 % if indicated ""less than 3/4"", 75 % if indicated ""3/4"", 87.5 % if indicated ""more than 3/4"", 100 % if indicated as fully occupied by a single crop. For many plots, any indication on whether the crop was fully cultivated by a single crop is missing: Whenever a plot is not intercropped and not indicated as only partially being cropped, then we assume that the plot is fully under the target crop.",37.88254186740078
+Malawi,2019,dataset_doi,,,,0
+Malawi,2019,dataset_name,,,,NA
+Malawi,2019,fieldID,gardenid,Garden ID,,0
+Malawi,2019,harvest_month_begin,ag_g12a; ag_m12a; ag_p06a,What months did the harvest start?; What were the months when the harvest started and ended? (START); What was the last completed production period for the tree/permanent crop,,4.306033493920624
+Malawi,2019,harvest_month_end,ag_g12b; ag_m12b; ag_p06c,What months did the harvest end?; What were the months when the harvest started and ended? (END); END MONTH,,3.1910988758889656
+Malawi,2019,harvest_year_begin,ag_p06b,BEGIN YEAR (4-DIGIT),"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",85.76967194310622
+Malawi,2019,harvest_year_end,ag_p06d,END YEAR (4-DIGIT),"The IHS surveys collected data on the harvesting year exclusively for tree and perennial crops, but not for annual crops.",84.65244322092222
+Malawi,2019,hhID,case_id,Unique Household Identifier,,0
+Malawi,2019,lat,ea_lat_mod,Latitude Modified,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,0.8740536820371644
+Malawi,2019,localUnit_area,ag_c04b; ag_j05b; ag_o04b,Units of Self Reprted Area; UNIT; UNIT,,0.9727001605872907
+Malawi,2019,lon,ea_lon_mod,Longitude Modified,Geo-coordinates have been set to missing for reported values of 0N/0E or when one coordinate was reported as 0 and the other coordinate as missing.,0.8740536820371644
+Malawi,2019,planting_month,ag_g05a; ag_m05a,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(MONTH),,17.90777701307639
+Malawi,2019,planting_year,ag_g05b; ag_m05b; ag_p04,When did you plant the seeds for the [CROP] on this [PLOT]during the[RS]?(YEAR); YEAR; In what year were most of these plants/ trees planted?,,5.597614131681579
+Malawi,2019,plotID,plotid,Plot ID,,0
+Malawi,2019,plot_area_measured_ha,ag_c04c; ag_j05c; ag_o04c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE; What is the area of this [PLOT]?  [GPS],"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",7.4833677448956175
+Malawi,2019,plot_area_reported_ha,ag_c04a; ag_j05a; ag_o04a,Self Reported Area of Plot; What is the <u>area</u> of this plot (%rostertitle%)? ENUMERATOR: ASK THE; What is the area of this [PLOT]?,"For conversion of various area units to hectare, the following parameters have been used: 4046.9 (sqm in an acre), 2.471 (acres in a ha), 11959.9 (yards in a ha).",1.0300527643955035
+Malawi,2019,plot_area_reported_localUnit,ag_c04a; ag_j05a; ag_o04a,Self Reported Area of Plot; What is the <u>area</u> of this plot (%rostertitle%)? ENUMERATOR: ASK THE; What is the area of this [PLOT]?,,0.9658178481303051
+Uganda,2011-2012,hhID,HHID,HH identifier,,0
+Uganda,2011-2012,plotID,plotID,plot name,,0
+Uganda,2011-2012,plot_area_reported_localUnit,"a4aq7,a4bq7",What was the total area of plot planted,,2.3816175443497696
+Uganda,2011-2012,localUnit_area,NA,NA,,2.33272803464171
+Uganda,2011-2012,plot_area_reported_ha,NA,NA,,2.3816175443497696
+Uganda,2011-2012,crop_area_share,"a4aq9,a4bq9",What percentage of the plot area was under this crop,100 if pure stand,2.3344740885598547
+Uganda,2011-2012,planting_month,"Crop_Planted_Month,Crop_Planted_Month2",month crop planted,,2.33272803464171
+Uganda,2011-2012,planting_year,"Crop_Planted_Year,Crop_Planted_Year",year crop planted,,3.5043302137169996
+Uganda,2011-2012,crop,cropID,Crop Name,,0
+Uganda,2011-2012,harvest_month_begin,"a5aq6e, a5bq6e",In what month did the harvest begin,,80.09673138706523
+Uganda,2011-2012,harvest_month_end,"a5aq6f, a5bq6f",In what month did the harvest end,,80.09673138706523
+Uganda,2011-2012,harvest_year_begin,NA,NA,,100
+Uganda,2011-2012,harvest_year_end,NA,NA,,100
+Uganda,2011-2012,adm1,h1aq1,District,,8.97471713926526
+Uganda,2011-2012,adm2,h1aq2,County/Municipality,,9.028844810727756
+Uganda,2011-2012,adm3,h1aq3,"Sub-county/Division,Town Council",,9.97171392652605
+Uganda,2011-2012,adm4,h1aq4,Parish/Ward,,9.165037016343065
+Uganda,2011-2012,lat,lat_mod,"latitude in degrees, modified (wgs84)",,6.397541556083251
+Uganda,2011-2012,lon,lon_mod,"longitude in degrees, modified (wgs84)",,6.397541556083251
+Uganda,2011-2012,GPS_level,source,location type used in generating modified coordinates,,6.397541556083251
+Uganda,2011-2012,plot_area_measured_ha,NA,NA,,100
+Uganda,2011-2012,dataset_name,NA,NA,,NA
+Uganda,2013-2014,hhID,HHID,household ID,,0
+Uganda,2013-2014,plotID,plotID,plot identifier,,0.018706449048309405
+Uganda,2013-2014,plot_area_reported_localUnit,a4aq7,Total area of plot planted,,8.941682645091896
+Uganda,2013-2014,localUnit_area,NA,NA,acres,8.890239910209043
+Uganda,2013-2014,plot_area_reported_ha,NA,NA,,8.941682645091896
+Uganda,2013-2014,crop_area_share,a4aq9,what percentage of the plot area was under this crop?,100 if pure stand,30.201561988495534
+Uganda,2013-2014,planting_month,a4aq9_1,Month crop planted,,10.18566150680447
+Uganda,2013-2014,planting_year,a4aq9_2,Year crop planted,,10.241780853949399
+Uganda,2013-2014,crop,cropID,Crop Name,,0
+Uganda,2013-2014,harvest_month_begin,a5aq6e,in what month did harvest begin,,27.428330917083667
+Uganda,2013-2014,harvest_month_end,a5aq6f,in what month did harvest end,,27.31609222279381
+Uganda,2013-2014,harvest_year_begin,a5aq6e_1,in what year did harvest begin,,27.428330917083667
+Uganda,2013-2014,harvest_year_end,a5aq6f_1,in what year did harvest end,,27.31609222279381
+Uganda,2013-2014,adm1,region,Region,,0
+Uganda,2013-2014,adm2,district_name,L1_name,,0
+Uganda,2013-2014,adm3,subcounty_name,L2_name,,0
+Uganda,2013-2014,adm4,parish_name,L3_name,,0
+Uganda,2013-2014,lat,NA,NA,,100
+Uganda,2013-2014,lon,NA,NA,,100
+Uganda,2013-2014,GPS_level,NA,NA,,100
+Uganda,2013-2014,plot_area_measured_ha,NA,NA,,100
+Uganda,2013-2014,dataset_name,NA,NA,,NA
+Uganda,2019-20,hhID,hhid,Unique household identifier in 2019/20/ Unique 32-character long identifier of the interview,"hhid was changed again since 2018/19, the old ones are available in the raw data",0
+Uganda,2019-20,plotID,pltid,Plot identifier,may not be unique,0
+Uganda,2019-20,plot_area_reported_localUnit,"s4aq07, s4bq07",7.What was the total area of %rostertitle% planted?,NA,0.39626897518746573
+Uganda,2019-20,crop_area_share,"s4aq09, s4bq09",9. Approximately what percentage of the plot area was under this %rostertitle%?,NA,47.1499116015363
+Uganda,2019-20,planting_month,"s4aq09_1, s4bq09_1",9.1. What month was the crop planted?,NA,10.315186246418339
+Uganda,2019-20,planting_year,"s4aq09_2, s4bq09_2",9.2. What year was the crop planted?(YYYY),value 9998 for planting year,10.315186246418339
+Uganda,2019-20,fieldID,parcelID,Parcel identifier,NA,0
+Uganda,2019-20,plot_area_reported_ha,NA,NA,NA,0.39626897518746573
+Uganda,2019-20,localUnit_area,NA,NA,according to The Uganda National Panel Survey 2019/20 Agriculture Questionnaire,0.39626897518746573
+Uganda,2019-20,crop,cropID,Id in crop_code,NA,0
+Uganda,2019-20,harvest_month_begin,"s5aq06e_1, s5bq06e_1","6e. Month harvest began (2018, full harvest, condition1)",NA,28.34237639456197
+Uganda,2019-20,harvest_year_begin,"s5aq06e_1_1, s5bq06e_1_1","6e1. Year harvest began (2018, full harvest, condition1)",range 20 to 2819,28.34237639456197
+Uganda,2019-20,harvest_month_end,"s5aq06f_1, s5bq06f_1","6f. Month harvest ended (2018, full harvest, condition1)",NA,27.81198561238798
+Uganda,2019-20,harvest_year_end,"s5aq06f_1_1, s5bq06f_1_1","6f1. Year harvest ended (2018, full harvest, condition1)",range 24 to 2819,27.824178503932206
+Uganda,2019-20,adm1,district,District Name,NA,0.02438578308845943
+Uganda,2019-20,adm2,s1aq03a,3. Sub-County/Division/Town Council,NA,0.02438578308845943
+Uganda,2019-20,adm3,s1aq04a,4. Parish/Ward,NA,0.02438578308845943
+Uganda,2019-20,lat,NA,NA,NA,100
+Uganda,2019-20,lon,NA,NA,NA,100
+Uganda,2019-20,GPS_level,NA,NA,NA,100
+Uganda,2019-20,plot_area_measured_ha,NA,NA,NA,100
+Uganda,2019-20,adm4,NA,NA,no village name,100
+Uganda,2019-20,dataset_name,NA,NA,NA,NA
+Uganda,2019-20,dataset_doi,NA,NA,NA,0
+Uganda,2015-16,hhID,HHID,Household number,NA,0
+Uganda,2015-16,plotID,plotID,Plot identifier,"plotID may not be unique, not all rows in the original dataset are unique",0.021942335542195112
+Uganda,2015-16,plot_area_reported_localUnit,"a4aq7, a4bq7",total area of plot planted,sometimes 0.000,1.5096326853030237
+Uganda,2015-16,crop_area_share,"a4aq9, a4bq9","what percentage of the plot area was under this crop?, approximately what percentage of the plot area was under this crop?",NA,27.182165269671305
+Uganda,2015-16,planting_month,"a4aq9_1, a4bq9_1",Month crop planted,"Values recorded as 99, which were used for the answer >>Don't know<< to the question in which month the crop was planted in the source data, were converted to missing values",71.90942203888181
+Uganda,2015-16,planting_year,"a4aq9_2, a4bq9_2",Year crop planted,NA,62.83407205862992
+Uganda,2015-16,fieldID,parcelID,Parcel identifier,NA,0
+Uganda,2015-16,plot_area_reported_ha,NA,NA,NA,1.5096326853030237
+Uganda,2015-16,localUnit_area,NA,NA,"acres, according to The Uganda National Panel Survey 2015/16: Agriculture & Livestock Questionnaire",1.5096326853030237
+Uganda,2015-16,crop,cropID,"Crop name, Crop_code2:crop name",NA,0
+Uganda,2015-16,harvest_month_begin,"a5aq6e, a5bq6e",in what month did the harvest begin?,up to month 26,78.29903014876903
+Uganda,2015-16,harvest_year_begin,"a5aq6e_1, a5bq6e_1",in what year did the harvest begin?,year 216 included,78.29903014876903
+Uganda,2015-16,harvest_month_end,"a5aq6f, a5bq6f",in what month did the harvest end?,up to month 26,75.97314258129634
+Uganda,2015-16,harvest_year_end,"a5aq6f_1, a5bq6f_1",in what year did the harvest end?,NA,75.97314258129634
+Uganda,2015-16,adm1,district_name,L1name,NA,1.4964672839777067
+Uganda,2015-16,adm2,subcounty_name,L2name,NA,1.4964672839777067
+Uganda,2015-16,adm3,parish_name,L3name,NA,1.4964672839777067
+Uganda,2015-16,adm4,village_name,L4name,NA,1.4964672839777067
+Uganda,2015-16,lat,NA,NA,NA,100
+Uganda,2015-16,lon,NA,NA,NA,100
+Uganda,2015-16,GPS_level,NA,NA,NA,100
+Uganda,2015-16,plot_area_measured_ha,NA,NA,NA,100
+Uganda,2015-16,dataset_name,NA,NA,NA,NA
+Uganda,2015-16,dataset_doi,NA,NA,NA,0
+Uganda,2018-19,hhID,hhid,Unique household identifier in 2018/19/ InterviewId,"hhid was changed since 2016, both are available in the raw data",0
+Uganda,2018-19,plotID,pltid,Plot identifier,plotID may not be unique,0
+Uganda,2018-19,plot_area_reported_localUnit,"s4aq07, s4bq07",7.What was the total area of %rostertitle% planted?,sometimes 0.00,1.1422769386978042
+Uganda,2018-19,crop_area_share,"s4aq09, s4bq09",9. Approximately what percentage of the plot area was under this %rostertitle%?,NA,30.955705038710494
+Uganda,2018-19,planting_month,"s4aq09_1, s4bq09_1",9.1. What month was the crop planted?,NA,12.850615560350299
+Uganda,2018-19,planting_year,"s4aq09_2, s4bq09_2",9.2. What year was the crop planted?(YYYY),range: 2 to 20186,12.837923594364767
+Uganda,2018-19,fieldID,parcelID,Parcel identifier,NA,0
+Uganda,2018-19,plot_area_reported_ha,NA,NA,NA,1.1422769386978042
+Uganda,2018-19,localUnit_area,NA,NA,"according to the Uganda National Panel Survey 2018-2019, Agriculture Questionnaire",1.1422769386978042
+Uganda,2018-19,crop,cropID,Roster instance identifier,NA,0
+Uganda,2018-19,harvest_month_begin,"s5aq06e_1, s5bq06e_1",6e. In what month did the harvest begin?,NA,22.12209671278081
+Uganda,2018-19,harvest_year_begin,"s5aq06e_1_1, s5bq06e_1_1",6e_1. In what year did the harvest begin? (YY),range: 0 to 20186,22.12209671278081
+Uganda,2018-19,harvest_month_end,"s5aq06f_1, s5bq06f_1","6f. In what month did the harvest end?,",NA,21.785759614164235
+Uganda,2018-19,harvest_year_end,"s5aq06f_1_1, s5bq06f_1_1",6f_1. In what year did the harvest end? (YY),range: 201 to 2818,21.792105597157
+Uganda,2018-19,adm1,district_2018/ distirct_name,District name,different label in study documentation and .csv file,0.9328594999365402
+Uganda,2018-19,adm2,subcounty_2018/ subcounty_name,Sub country name,different label in study documentation and .csv file,0.9328594999365402
+Uganda,2018-19,adm3,parish_2018/ parish_name,Parish Code,different label in study documentation and .csv file,0.9328594999365402
+Uganda,2018-19,adm4,village/ ???,NA,label non existent in study documentary,0.9328594999365402
+Uganda,2018-19,lat,NA,NA,NA,100
+Uganda,2018-19,lon,NA,NA,NA,100
+Uganda,2018-19,GPS_level,NA,NA,NA,100
+Uganda,2018-19,plot_area_measured_ha,NA,NA,NA,100
+Uganda,2018-19,dataset_name,NA,NA,NA,NA
+Uganda,2018-19,dataset_doi,NA,NA,NA,0
+Nigeria,2015,adm1,zone,Zone code,,0
+Nigeria,2015,adm2,state,State code,,0
+Nigeria,2015,adm3,lga,LGA code,,0
+Nigeria,2015,adm4,ea,EA CODE,,100
+Nigeria,2015,lat,lat_dd_mod,Latitude Modified,,0.17781541066892462
+Nigeria,2015,lon,lon_dd_mod,Longitude Modified,,0.17781541066892462
+Nigeria,2015,GPS_level,,,EA centroid,0.17781541066892462
+Nigeria,2015,hhID,hhid,hhid,,0
+Nigeria,2015,plotID,plotid,"Id in ""plot_roster""",,0
+Nigeria,2015,crop,cropcode,Id in Sec11f_crops,Code is available to combine crops into simpler categories but not used to generate the current dataset,0
+Nigeria,2015,plot_area_measured_ha,s11aq4c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE,,15.410668924640136
+Nigeria,2015,plot_area_reported_ha,,,Generated from WB conversion table,1.380186282811177
+Nigeria,2015,plot_area_reported_localUnit,s11aq4b,What is the unit of [PLOT],,1.3463166807790008
+Nigeria,2015,localUnit_area,s11aq4aa,What is the area of [PLOT]?,,1.380186282811177
+Nigeria,2015,crop_area_share,sa3iq5c,WHAT WAS THE LAND AREA OF [CROP] HARVESTED? (PERCENT OF PLOT AREA),"Generated from farmer-reported area planted for tree/permanet crops, including cassava (see s11fq4a/sa3iq5a) when proportion of area planted was not available. Note that the sum of reported area planted for multiple crops sometimes is greater than the plot area; code is available to rescale to plot area ",1.1685012701100763
+Nigeria,2015,planting_year,s11fq3_2,When did you plant the seeds for [CROP] on [PLOT]? (YEAR),,9.110922946655377
+Nigeria,2015,planting_month,s11fq3_1,When was most of the [CROP] seeds palnted on [PLOT] this agricultural season?,,9.11939034716342
+Nigeria,2015,harvest_year_begin,sa3iq4a2,When did household start the harvest of [CROP] from [PLOT]? (YEAR),,15.901778154106688
+Nigeria,2015,harvest_month_begin,sa3iq4a1,When did household start the harvest of [CROP] from [PLOT]? (MONTH),,15.901778154106688
+Nigeria,2015,harvest_year_end,sa3iq6c2,When did your household complete harvest of [CROP] from [PLOT]? (YEAR),,23.446232006773922
+Nigeria,2015,harvest_month_end,sa3iq6c1,When did your household complete harvest of [CROP] from [PLOT]? (MONTH),,23.471634208298052
+Nigeria,2015,dataset_name,n/a,,,NA
+Nigeria,2015,dataset_doi,n/a,,,0
+Nigeria,2018,adm1,zone,Zone code,,0
+Nigeria,2018,adm2,state,State code,,0
+Nigeria,2018,adm3,lga,LGA code,,0
+Nigeria,2018,adm4,ea,EA CODE,,100
+Nigeria,2018,lat,lat_dd_mod,Latitude Modified,,0
+Nigeria,2018,lon,lon_dd_mod,Longitude Modified,,0
+Nigeria,2018,GPS_level,,,EA centroid,0
+Nigeria,2018,hhID,hhid,hhid,,0
+Nigeria,2018,plotID,plotid,"Id in ""plot_roster""",,0
+Nigeria,2018,crop,cropcode,Id in Sec11f_crops,Code is available to combine crops into simpler categories but not used to generate the current dataset,0
+Nigeria,2018,plot_area_measured_ha,s11aq4c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE,,16.47810461866099
+Nigeria,2018,plot_area_reported_ha,,,Generated from WB conversion table,0
+Nigeria,2018,plot_area_reported_localUnit,s11aq4b,What is the unit of [PLOT],,0
+Nigeria,2018,localUnit_area,s11aq4aa,What is the area of [PLOT]?,,0
+Nigeria,2018,crop_area_share,s11fq1/s11fq4,"Approximately what percent of [PLOT] is planted with [CROP]?/Approximately, what percent of [PLOT] was planted with [TREE/PERMANENT CROP]?",Note that the sum of areas planted frequently adds up to more than the total measured or reported area of the plot; code is availble to rescale these areas down to the plot area,3.8267003859976043
+Nigeria,2018,planting_year,s11fq3_2,When did you plant the seeds for [CROP] on [PLOT]? (YEAR),,5.8032743245041924
+Nigeria,2018,planting_month,s11fq3_1,When was most of the [CROP] seeds palnted on [PLOT] this agricultural season?,,5.8032743245041924
+Nigeria,2018,harvest_year_begin,sa3iq4a2,When did household start the harvest of [CROP] from [PLOT]? (YEAR),,27.3392785837881
+Nigeria,2018,harvest_month_begin,sa3iq4a1,When did household start the harvest of [CROP] from [PLOT]? (MONTH),,27.3392785837881
+Nigeria,2018,harvest_year_end,sa3iq6c2,When did your household complete harvest of [CROP] from [PLOT]? (YEAR),,34.080926394249964
+Nigeria,2018,harvest_month_end,sa3iq6c1,When did your household complete harvest of [CROP] from [PLOT]? (MONTH),,34.080926394249964
+Nigeria,2018,dataset_name,,,,NA
+Nigeria,2018,dataset_doi,,,,0
+Niger,2011-2012,hhID,hid,Household identifier,,NA
+Niger,2011-2012,adm1,ms00q10,Region,,NA
+Niger,2011-2012,adm2,ms00q11,Departement,,NA
+Niger,2011-2012,lat,LAT_DD_MOD,EA Latitude (WGS84) Modified,,NA
+Niger,2011-2012,lon,LON_DD_MOD,EA Longitude (WGS84) Modified,,NA
+Niger,2011-2012,GPS_level,,,coordinates of the grappe (cluster),NA
+Niger,2011-2012,fieldID,as02bq01,Field number,,NA
+Niger,2011-2012,plotID,as01qn,id number,in case parcel number is wrong,NA
+Niger,2011-2012,plot_area_reported_ha,,,converted from m2 to Ha,NA
+Niger,2011-2012,plot_area_reported_localUnit,as02bq08,How much area was given to the cultivation of each crop?(square meters),,NA
+Niger,2011-2012,localUnit_area,as02bq08,How much area was given to the cultivation of each crop?(square meters),,NA
+Niger,2011-2012,planting_month,as02bq11,In which month did you plant this produce for the first time this season?,,NA
+Niger,2011-2012,crop,as02bq06,Crop code,the actual souce value,NA
+Niger,2011-2012,planting_year,NA,NA,missing,NA
+Niger,2011-2012,crop_area_share,,"Surface cultivée consacrée à chaque culture, Superficie de la parcelle GPS (en mètre carré)",missing,NA
+Niger,2011-2012,plot_area_measured_ha,,,missing,NA
+Niger,2011-2012,dataset_name,NA,NA,,NA
+Niger,2014-2015,hhID,"grappe, exploitation","grappe, exploitation",combination of both grappe and exploitation,0
+Niger,2014-2015,lat,LAT_DD_MOD,EA Latitude (WGS84 Modified),taken from earlier wave (NER_2011_ECVMA_v01_M),0
+Niger,2014-2015,lon,LON_DD_MOD,EA Longirude (WGS84 Modified),taken from earlier wave (NER_2011_ECVMA_v01_M),0
+Niger,2014-2015,GPS_level,,,"set to 3, as coordinates are at community level",0
+Niger,2014-2015,adm1,MS00Q10,Region,"region code, modified to region name using lookup data (see wave documentation report)",0
+Niger,2014-2015,adm2,MS00Q11,Département,"department code, modified to department name using lookup table (see wave report)",0
+Niger,2014-2015,adm3,MS00Q12,Commune/Canton,"community code, modified to commune name using lookup table",82.9286671131949
+Niger,2014-2015,adm4,,,,100
+Niger,2014-2015,fieldID,AS01Q01,Numéro du champ,,0
+Niger,2014-2015,plotID,AS01Q03,Numéro de la Parcelle,,0
+Niger,2014-2015,crop,"AS02BQ06, CULTURE",Code culture,based on crop code description,0
+Niger,2014-2015,plot_area_reported_ha,AS02BQ08,Surface cultivée consacrée à chaque culture,"although the variable indicates the area dedicated to each crop (surface consacrée à chaque culture), the areas were often similar between crops and equal in terms of magnitude as the GPS-measured area. Hence, this area is considered to be the reported plot area rather than the crop-specific area.",2.4279973208305425
+Niger,2014-2015,plot_area_measured_ha,AS01Q07,Superficie de la parcelle GPS (en mètre carré),converted from m² to ha,9.862692565304755
+Niger,2014-2015,plot_area_reported_localUnit,,,,100
+Niger,2014-2015,localUnit_area,,,,100
+Niger,2014-2015,crop_area_share,"AS02BQ08, AS01Q07",,determined by the dedicated crop area to the total in each plot. Remark: the areas of each crop are often similar within the same plot - hence this is likely an indication of the plot area rather than the crop-specific area. ,2.813127930341594
+Niger,2014-2015,planting_month,AS02BQ11,Mois au cours duquel vous avez planté ce produit pour la première fois cette saison,,0
+Niger,2014-2015,harvest_month_begin,AS02EQ06A,Mois de début de la récolte,,22.56363027461487
+Niger,2014-2015,harvest_month_end,AS02EQ06B,Mois de fin de la récolte,,22.672471533824513
+Niger,2014-2015,planting_year,,,based on planting_month,100
+Niger,2014-2015,harvest_year_begin,,,,100
+Niger,2014-2015,harvest_year_end,,,,100
+Mali,2014-15,NA,NA,NA,NA,NA
+Mali,2017-18,NA,NA,NA,NA,NA
+Niger,2014-15,NA,NA,NA,NA,NA
+NA,NA,season,NA,NA,NA,100
+NA,NA,country,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,100
+NA,NA,country,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,100
+NA,NA,country,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,100
+NA,NA,country,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,100
+NA,NA,country,NA,NA,NA,0
+NA,NA,dataset_doi,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,100
+NA,NA,country,NA,NA,NA,0
+NA,NA,dataset_doi,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,19.353910353262822
+NA,NA,country,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,16.31848640126133
+NA,NA,country,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,12.585055643879173
+NA,NA,country,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,17.871071346639138
+NA,NA,country,NA,NA,NA,0
+NA,NA,hhID,NA,NA,NA,0
+NA,NA,fieldID,NA,NA,NA,0
+NA,NA,plotID,NA,NA,NA,0.03949447077409163
+NA,NA,crop,NA,NA,NA,0
+NA,NA,crop_area_share,NA,NA,NA,100
+NA,NA,planting_month,NA,NA,NA,0
+NA,NA,planting_year,NA,NA,NA,100
+NA,NA,harvest_month_begin,NA,NA,NA,100
+NA,NA,harvest_month_end,NA,NA,NA,100
+NA,NA,adm1,NA,NA,NA,0
+NA,NA,adm2,NA,NA,NA,0
+NA,NA,adm3,NA,NA,NA,100
+NA,NA,lat,NA,NA,NA,0
+NA,NA,lon,NA,NA,NA,0
+NA,NA,GPS_level,NA,NA,NA,0
+NA,NA,plot_area_reported_localUnit,NA,NA,NA,1.1848341232227488
+NA,NA,localUnit_area,NA,NA,NA,0
+NA,NA,plot_area_measured_ha,NA,NA,NA,100
+NA,NA,plot_area_reported_ha,NA,NA,NA,1.1848341232227488
+NA,NA,season,NA,NA,NA,100
+NA,NA,harvest_year_begin,NA,NA,NA,100
+NA,NA,harvest_year_end,NA,NA,NA,100
+NA,NA,adm4,NA,NA,NA,100
+NA,NA,country,NA,NA,NA,0
+NA,NA,dataset_doi,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,16.769926322839922
+NA,NA,country,NA,NA,NA,0
+NA,NA,dataset_doi,NA,NA,NA,0
+NA,NA,fieldID,NA,NA,NA,100
+NA,NA,season,NA,NA,NA,0
+NA,NA,country,NA,NA,NA,0
+NA,NA,fieldID,NA,NA,NA,100
+NA,NA,season,NA,NA,NA,0
+NA,NA,country,NA,NA,NA,0
+NA,NA,fieldID,NA,NA,NA,100
+NA,NA,season,NA,NA,NA,0
+NA,NA,country,NA,NA,NA,0
+NA,NA,dataset_doi,NA,NA,NA,0
+NA,NA,fieldID,NA,NA,NA,100
+NA,NA,season,NA,NA,NA,0
+NA,NA,country,NA,NA,NA,0
+NA,NA,dataset_doi,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,0
+NA,NA,country,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,0
+NA,NA,country,NA,NA,NA,0
+NA,NA,season,NA,NA,NA,0
+NA,NA,country,NA,NA,NA,0

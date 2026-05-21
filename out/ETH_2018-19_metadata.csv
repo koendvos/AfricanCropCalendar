@@ -1,0 +1,29 @@
+country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,dataset_doi
+Ethiopia,2018-19,hhID,household_id,Unique Household Indentifier,0,0,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,fieldID,parcel_id,Unique Parcel Identifier,0,0,"not based on fieldID, but on parcelID",ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plotID,field_id,Unique Field Identifier,0,0,"plot_ID may not be unique, based on fieldID",ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,crop,"s4q01b, s9q00b","1b.CROP CODE, 1.Crop code",0,0,"white cumin and white lumin may be the same crop, crop_name and crop_id don't match",ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,crop_area_share,s4q03,"3.Approximately, how much of [FIELD] was planted with [CROP]?",64.2332334097455,64.02175841069,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,planting_month,s4q13a,13_a.When did you plant the seeds for the [Crop] on [FIELD]? (Month),33.23340974548874,32.838644829421156,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,planting_year,s4q13b,13_b.When did you plant the seeds for the [Crop] on [FIELD]? (Year),33.23340974548874,32.838644829421156,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_month_begin,s9q08a,8a.What was the month when the harvesting of [CROP] on [FIELD] started?,39.887145124316696,36.88984881209503,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_month_end,s9q08b,8b.What was the month when the harvesting of [CROP] on [FIELD] ended?,39.887145124316696,36.88984881209503,The value 13 describes the 13th month of the Ethiopian calendar Pagume (6th September - 10th September/ 11th Sepember in leap years),ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm1,region,Region,3.1387762299418096,0,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm2,zonename,Zone Name,31.052724387233294,48.655834564254064,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm3,woredaname,Woreda Name,64.53888203138777,82.3781388478582,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,lat,lat_mod,Latitude Modified,0.1645800270381473,2.4544385655496765,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,lon,lon_mod,Longitude Modified,0.1645800270381473,2.4544385655496765,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,GPS_level,NA,NA,0.1645800270381473,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plot_area_reported_localUnit,s3q02a,2a.ASK HOLDER: What is the area of [FIELD]?,4.808087932757303,0.005170898185014737,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,localUnit_area,s3q02b,2b. Unit of measurement,4.808087932757303,0.005170898185014737,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plot_area_measured_ha,s3q08,8.RECORD AREA OF THE FIELD USING GPS.,5.090225121965556,0.5067480221314442,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,plot_area_reported_ha,NA,NA,51.55469346969964,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,season,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_month,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_year,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_year_begin,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,harvest_year_end,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,adm4,NA,NA,100,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,dataset_name,NA,NA,0,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,country,NA,NA,0,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548
+Ethiopia,2018-19,dataset_doi,NA,NA,0,NA,NA,ETH_2018_ESS_v03_M,https://doi.org/10.48529/k739-c548

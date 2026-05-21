@@ -1,0 +1,1010 @@
+"","adm2","adm2.hdx","country","lat.hdx","lon.hdx"
+"1","north western tigray",NA,"Ethiopia",NA,NA
+"2","central tigray",NA,"Ethiopia",NA,NA
+"3","eastern tigray",NA,"Ethiopia",NA,NA
+"4","south tigray",NA,"Ethiopia",NA,NA
+"5","western tigray",NA,"Ethiopia",NA,NA
+"6","north gondar","north gondar","Ethiopia",13.2286458601374,38.0655869181872
+"7","south gondar","south gondar","Ethiopia",11.748347838019,38.1205225725111
+"8","north wollo",NA,"Ethiopia",NA,NA
+"9","south wolo",NA,"Ethiopia",NA,NA
+"10","north shewa",NA,"Ethiopia",NA,NA
+"11","east gojjam","east gojam","Ethiopia",10.5057676949891,37.930953315899
+"12","west gojjam","west gojam","Ethiopia",11.0809698366555,37.2130306353483
+"13","wag himra",NA,"Ethiopia",NA,NA
+"14","awi","awi","Ethiopia",11.1946942600997,36.5970811505316
+"15","oromiya","oromia","Ethiopia",10.7406891772303,40.0107300228982
+"16","west wellega","west wellega","Ethiopia",9.33492889819328,35.3011029783575
+"17","east wellega","east wellega","Ethiopia",9.40466345692432,36.6173127022048
+"18","ilu aba bora","ilu aba bora","Ethiopia",8.26198155756749,35.486374677766
+"19","jimma","jimma","Ethiopia",7.91870599500271,36.834945022939
+"20","west shewa","west shewa","Ethiopia",9.17449776245522,37.8188746395105
+"21","east shewa","east shewa","Ethiopia",8.49452707793664,39.1680673918271
+"22","arsi","arsi","Ethiopia",7.93683791474398,39.6823632647787
+"23","west hararge","west hararge","Ethiopia",8.66998016912279,40.7732406485474
+"24","east hararge","east hararge","Ethiopia",8.8374670729726,42.0000246696421
+"25","bale","bale","Ethiopia",6.36006504197746,40.1150135253691
+"26","borena","borena","Ethiopia",4.46312206182138,38.2681073420985
+"27","south west shewa","south west shewa","Ethiopia",8.57938869856556,38.1384114041998
+"28","guji","guji","Ethiopia",5.56570810540431,39.1945633475587
+"29","west arsi","west arsi","Ethiopia",7.05871186049767,38.9802986686365
+"30","qeleme wellega",NA,"Ethiopia",NA,NA
+"31","horo gudru wellega","horo gudru wellega","Ethiopia",9.70967073138076,37.1972712515631
+"32","shinile",NA,"Ethiopia",NA,NA
+"33","jijjiga",NA,"Ethiopia",NA,NA
+"34","liben",NA,"Ethiopia",NA,NA
+"35","metekel","metekel","Ethiopia",11.0009620990386,35.7694090338425
+"36","assosa","assosa","Ethiopia",10.2249448057327,34.7121047914583
+"37","kamashi","kamashi","Ethiopia",9.91670636554386,35.7995861821153
+"38","mao komo",NA,"Ethiopia",NA,NA
+"39","hadiya","hadiya","Ethiopia",7.51464210244157,37.7581908481202
+"40","kembata timbaro","kembata tembaro","Ethiopia",7.2884646720975,37.7448731877057
+"41","sidama","sidama","Ethiopia",6.66413715584049,38.5458731117656
+"42","wolayita","wolayita","Ethiopia",6.86277331130538,37.7235714106058
+"43","south omo","south omo","Ethiopia",5.38025033318085,36.3774745476246
+"44","sheka","sheka","Ethiopia",7.5375117986437,35.4127400869609
+"45","kefa","kefa","Ethiopia",7.22761835899923,36.0780949603626
+"46","gamo gofa",NA,"Ethiopia",NA,NA
+"47","bench maji",NA,"Ethiopia",NA,NA
+"48","amaro special",NA,"Ethiopia",NA,NA
+"49","burji special",NA,"Ethiopia",NA,NA
+"50","konso special",NA,"Ethiopia",NA,NA
+"51","derashe lyiu wereda",NA,"Ethiopia",NA,NA
+"52","basketo","basketo","Ethiopia",6.28173836355782,36.5597976112744
+"53","alaba",NA,"Ethiopia",NA,NA
+"54","agnewak","agnewak","Ethiopia",7.54728631838161,34.4556118099526
+"55","mejenger",NA,"Ethiopia",NA,NA
+"56","none",NA,"Ethiopia",NA,NA
+"57","kayes","kayes","Mali",14.5230481049819,-11.4739356723726
+"58","bafoulabe","bafoulabe","Mali",13.7071183717099,-10.5714685201196
+"59","diema","diema","Mali",14.5900925673214,-9.17860904140922
+"60","kenieba","kenieba","Mali",12.7035404184783,-11.0160527839213
+"61","kita","kita","Mali",13.2277774265515,-9.43400453492344
+"62","nioro","nioro","Mali",15.0697415349165,-9.60348547171106
+"63","yelimane","yelimane","Mali",15.1014377838744,-10.5390345935515
+"64","koulikoro","koulikoro","Mali",13.1626498985085,-7.36672906822719
+"65","banamba","banamba","Mali",13.856991754948,-7.30835202005964
+"66","diolia",NA,"Mali",NA,NA
+"67","kangaba","kangaba","Mali",11.9355438134132,-8.5832836888062
+"68","kati","kati","Mali",12.519799699887,-8.12805573738711
+"69","kolokani","kolokani","Mali",13.7761687465742,-8.15847336587307
+"70","nara","nara","Mali",14.9355318400018,-7.52673882294701
+"71","sikasso","sikasso","Mali",11.5028347430748,-5.91117511432454
+"72","bougouni","bougouni","Mali",11.3213863137774,-7.36461656156327
+"73","kadiolo","kadiolo","Mali",10.6307775309333,-5.85060688312826
+"74","kolondieba","kolondieba","Mali",10.9079045970665,-6.74822470526995
+"75","koutiala","koutiala","Mali",12.3910905486397,-5.55456373501367
+"76","yanfolila","yanfolila","Mali",10.9515601943811,-8.08982201198697
+"77","yorosso","yorosso","Mali",12.3424604435526,-4.77619011465015
+"78","segou","segou","Mali",13.6770053630614,-6.19054044986886
+"79","baroueli","baraoueli","Mali",13.0455282884442,-6.65334244345811
+"80","bla","bla","Mali",12.9411099429986,-5.78502588285389
+"81","macina","macina","Mali",13.9941128834832,-5.37065232667496
+"82","niono","niono","Mali",14.870521973047,-5.89689824004085
+"83","san","san","Mali",13.1750856114119,-4.94540907167832
+"84","tominian","tominian","Mali",13.28185030181,-4.38188372438755
+"85","mopti","mopti","Mali",14.7550142174887,-4.10104700277929
+"86","bandiagara","bandiagara","Mali",14.4913352142472,-3.61375297639549
+"87","bankass","bankass","Mali",13.655561465243,-3.61111977565016
+"88","djenne","djenne","Mali",13.9663815294357,-4.57078230258575
+"89","douentza","douentza","Mali",15.1130020207605,-2.44228090200564
+"90","koro","koro","Mali",14.2943736514718,-2.82095352030363
+"91","tenenkou","tenenkou","Mali",14.6712386194809,-4.9575182640163
+"92","tombouctou","tombouctou","Mali",21.1648302258776,-3.30478088021499
+"93","dire","dire","Mali",16.2488538153652,-3.31291110766665
+"94","goundam","goundam","Mali",18.5897970810739,-4.99559493337689
+"95","gourma-rharous","gourma-rharous","Mali",16.0820461996065,-1.8139162178795
+"96","niafunke","niafunke","Mali",15.8334053132441,-4.16837354289328
+"97","gao","gao","Mali",16.4433539585352,0.295171806047139
+"98","ansongo","ansongo","Mali",15.7625811346812,0.899123093023863
+"99","bourem","bourem","Mali",17.7153880024401,-0.384571237749282
+"100","bamako","bamako","Mali",12.6092076448213,-7.98004037067277
+"101","dioila","dioila","Mali",12.363955434167,-6.77765335498447
+"102","youwarou","youwarou","Mali",15.4006907542307,-4.50226395872941
+"103","menaka","menaka","Mali",15.7847619861927,2.17089825963057
+"104","anderaboukane","anderamboukane","Mali",15.6764855953038,3.32269707147063
+"105","commune i - bamako",NA,"Mali",NA,NA
+"106","commune iii - bamako",NA,"Mali",NA,NA
+"107","commune vi - bamako",NA,"Mali",NA,NA
+"108","chitipa","chitipa","Malawi",-9.97025731137716,33.5052093252597
+"109","karonga","karonga","Malawi",-10.0869055754581,33.8826124658592
+"110","nkhatabay","nkhatabay","Malawi",-11.6745498041159,34.0418296633901
+"111","rumphi","rumphi","Malawi",-10.8263732324382,33.8139648767001
+"112","mzimba","mzimba","Malawi",-11.7766767905724,33.6334056818816
+"113","mzuzu city","mzuzu city","Malawi",-11.4390890334758,34.0066187751544
+"114","kasungu","kasungu","Malawi",-12.9827767962627,33.3868600587151
+"115","nkhotakota","nkhotakota","Malawi",-12.8441158882995,34.0862940907593
+"116","ntchisi","ntchisi","Malawi",-13.300966533733,33.9192940698211
+"117","dowa","dowa","Malawi",-13.5723746346934,33.7881586058326
+"118","salima","salima","Malawi",-13.7394140261865,34.3822669376727
+"119","lilongwe","lilongwe","Malawi",-14.0272842431253,33.6801910759248
+"120","mchinji","mchinji","Malawi",-13.6967417921604,33.0548569382371
+"121","dedza","dedza","Malawi",-14.2673216319753,34.2287805980935
+"122","ntcheu","ntcheu","Malawi",-14.8126027297587,34.7151476618976
+"123","lilongwe city","lilongwe city","Malawi",-13.9203162505535,33.7776755508141
+"124","mangochi","mangochi","Malawi",-14.3440297217319,35.1862471112513
+"125","machinga","machinga","Malawi",-14.9095638588574,35.5177057037498
+"126","zomba","zomba","Malawi",-15.4283079415833,35.342083661784
+"127","chiradzulu","chiradzulu","Malawi",-15.7475959266019,35.2141738501503
+"128","blantyre","blantyre","Malawi",-15.6568604757203,34.9323295650709
+"129","mwanza","mwanza","Malawi",-15.667732972361,34.5217040024125
+"130","thyolo","thyolo","Malawi",-16.1052598734454,35.1451508216199
+"131","mulanje","mulanje","Malawi",-15.9382939708774,35.5104393294799
+"132","phalombe","phalombe","Malawi",-15.6952392699698,35.6825833397022
+"133","chikwawa","chikwawa","Malawi",-16.1655006815178,34.7084222233857
+"134","nsanje","nsanje","Malawi",-16.7512428163714,35.1430162189865
+"135","balaka","balaka","Malawi",-15.0389171823211,35.0559756802301
+"136","neno","neno","Malawi",-15.4597449611656,34.6946838559118
+"137","zomba city","zomba city","Malawi",-15.392301614197,35.3295157795991
+"138","blantyre city","blantyre city","Malawi",-15.7899696346601,35.0506800822683
+"139","nkhata bay","nkhatabay","Malawi",-11.6745498041159,34.0418296633901
+"140","likoma","likoma","Malawi",-12.0611475023799,34.7158195542668
+"141","zomba non-city",NA,"Malawi",NA,NA
+"142","okwerodot",NA,"Uganda",NA,NA
+"143","aboke",NA,"Uganda",NA,NA
+"144","alebtong town council",NA,"Uganda",NA,NA
+"145","kalwana",NA,"Uganda",NA,NA
+"146","lotome",NA,"Uganda",NA,NA
+"147","birere",NA,"Uganda",NA,NA
+"148","zirobwe",NA,"Uganda",NA,NA
+"149","bala",NA,"Uganda",NA,NA
+"150","buteba",NA,"Uganda",NA,NA
+"151","kibatsi",NA,"Uganda",NA,NA
+"152","lobule",NA,"Uganda",NA,NA
+"153","loroo",NA,"Uganda",NA,NA
+"154","bulaago",NA,"Uganda",NA,NA
+"155","ibuje",NA,"Uganda",NA,NA
+"156","rubaare",NA,"Uganda",NA,NA
+"157","nyabuharwa",NA,"Uganda",NA,NA
+"158","ntuusi",NA,"Uganda",NA,NA
+"159","kyebe",NA,"Uganda",NA,NA
+"160","malongo",NA,"Uganda",NA,NA
+"161","bobi",NA,"Uganda",NA,NA
+"162","kabweeza kyegegwa",NA,"Uganda",NA,NA
+"163","muduuma",NA,"Uganda",NA,NA
+"164","bukooma",NA,"Uganda",NA,NA
+"165","pakwach","pakwach","Uganda",2.49312147127429,31.3702381304565
+"166","mugusu",NA,"Uganda",NA,NA
+"167","kalungu","kalungu","Uganda",-0.102090886985661,31.8026632487893
+"168","koro","koro","Uganda",14.2943736514718,-2.82095352030363
+"169","merikit",NA,"Uganda",NA,NA
+"170","abongomola",NA,"Uganda",NA,NA
+"171","buyinja",NA,"Uganda",NA,NA
+"172","ntungamo","ntungamo","Uganda",-0.942121783134586,30.2722426768486
+"173","kyanamukaaka",NA,"Uganda",NA,NA
+"174","bugoye",NA,"Uganda",NA,NA
+"175","kirika",NA,"Uganda",NA,NA
+"176","kikandwa",NA,"Uganda",NA,NA
+"177","bubaare",NA,"Uganda",NA,NA
+"178","kamdini",NA,"Uganda",NA,NA
+"179","nakapiripirit town council",NA,"Uganda",NA,NA
+"180","bushiribo",NA,"Uganda",NA,NA
+"181","ruyonza",NA,"Uganda",NA,NA
+"182","budondo",NA,"Uganda",NA,NA
+"183","magale town council",NA,"Uganda",NA,NA
+"184","wairasa",NA,"Uganda",NA,NA
+"185","ishongororo town council",NA,"Uganda",NA,NA
+"186","ongongoja",NA,"Uganda",NA,NA
+"187","adeknino",NA,"Uganda",NA,NA
+"188","alerek",NA,"Uganda",NA,NA
+"189","ngarama",NA,"Uganda",NA,NA
+"190","buwalasi",NA,"Uganda",NA,NA
+"191","lwamaggwa",NA,"Uganda",NA,NA
+"192","bukokho",NA,"Uganda",NA,NA
+"193","kapeeka",NA,"Uganda",NA,NA
+"194","nyarubuye",NA,"Uganda",NA,NA
+"195","bugaya",NA,"Uganda",NA,NA
+"196","kanyum",NA,"Uganda",NA,NA
+"197","kasambya",NA,"Uganda",NA,NA
+"198","southern division",NA,"Uganda",NA,NA
+"199","rwentuuha town council",NA,"Uganda",NA,NA
+"200","buwama",NA,"Uganda",NA,NA
+"201","metu",NA,"Uganda",NA,NA
+"202","kisekka",NA,"Uganda",NA,NA
+"203","kagulu",NA,"Uganda",NA,NA
+"204","kapir",NA,"Uganda",NA,NA
+"205","ngetta",NA,"Uganda",NA,NA
+"206","kyesiiga",NA,"Uganda",NA,NA
+"207","pakanyi",NA,"Uganda",NA,NA
+"208","kayunga town council",NA,"Uganda",NA,NA
+"209","bungatira",NA,"Uganda",NA,NA
+"210","busedde",NA,"Uganda",NA,NA
+"211","ongino",NA,"Uganda",NA,NA
+"212","lusha",NA,"Uganda",NA,NA
+"213","ogur",NA,"Uganda",NA,NA
+"214","kirumba",NA,"Uganda",NA,NA
+"215","ngoma",NA,"Uganda",NA,NA
+"216","kagamba",NA,"Uganda",NA,NA
+"217","sidok",NA,"Uganda",NA,NA
+"218","kikaatsi",NA,"Uganda",NA,NA
+"219","baitambogwe",NA,"Uganda",NA,NA
+"220","central division",NA,"Uganda",NA,NA
+"221","minakulu",NA,"Uganda",NA,NA
+"222","itula",NA,"Uganda",NA,NA
+"223","apala",NA,"Uganda",NA,NA
+"224","magale",NA,"Uganda",NA,NA
+"225","obongi town council",NA,"Uganda",NA,NA
+"226","soroti","soroti","Uganda",1.77107675996871,33.5909522833729
+"227","vurra",NA,"Uganda",NA,NA
+"228","kaharo",NA,"Uganda",NA,NA
+"229","lwebitakuli",NA,"Uganda",NA,NA
+"230","yivu",NA,"Uganda",NA,NA
+"231","ssekanyonyi",NA,"Uganda",NA,NA
+"232","abim","abim","Uganda",2.70296132341731,33.753104268612
+"233","kyamulibwa town council",NA,"Uganda",NA,NA
+"234","ojwina division",NA,"Uganda",NA,NA
+"235","rukiri",NA,"Uganda",NA,NA
+"236","kyangwali",NA,"Uganda",NA,NA
+"237","kisojo",NA,"Uganda",NA,NA
+"238","bwikara",NA,"Uganda",NA,NA
+"239","akoromit",NA,"Uganda",NA,NA
+"240","kagango division",NA,"Uganda",NA,NA
+"241","kaabong west",NA,"Uganda",NA,NA
+"242","mitooma town council",NA,"Uganda",NA,NA
+"243","namboko",NA,"Uganda",NA,NA
+"244","bumalimba",NA,"Uganda",NA,NA
+"245","akokoro",NA,"Uganda",NA,NA
+"246","nyankwanzi",NA,"Uganda",NA,NA
+"247","nagembe division",NA,"Uganda",NA,NA
+"248","bireere",NA,"Uganda",NA,NA
+"249","kyanamira",NA,"Uganda",NA,NA
+"250","gweri",NA,"Uganda",NA,NA
+"251","kacheera",NA,"Uganda",NA,NA
+"252","acaba",NA,"Uganda",NA,NA
+"253","kitwe town council",NA,"Uganda",NA,NA
+"254","molo",NA,"Uganda",NA,NA
+"255","buyende","buyende","Uganda",1.2605019119286,33.1468767013741
+"256","nyenga division",NA,"Uganda",NA,NA
+"257","eastern division",NA,"Uganda",NA,NA
+"258","nebbi","nebbi","Uganda",2.43022542597867,31.1774161292214
+"259","aromo",NA,"Uganda",NA,NA
+"260","kashambya",NA,"Uganda",NA,NA
+"261","bileafe",NA,"Uganda",NA,NA
+"262","lira palwo",NA,"Uganda",NA,NA
+"263","kei",NA,"Uganda",NA,NA
+"264","arapai",NA,"Uganda",NA,NA
+"265","kiyuni",NA,"Uganda",NA,NA
+"266","ariwa",NA,"Uganda",NA,NA
+"267","kumi tc",NA,"Uganda",NA,NA
+"268","mulanda",NA,"Uganda",NA,NA
+"269","pager division",NA,"Uganda",NA,NA
+"270","nansololo",NA,"Uganda",NA,NA
+"271","buwunga",NA,"Uganda",NA,NA
+"272","rugyeyo",NA,"Uganda",NA,NA
+"273","kyazanga",NA,"Uganda",NA,NA
+"274","kasawo",NA,"Uganda",NA,NA
+"275","northern divison",NA,"Uganda",NA,NA
+"276","omugo",NA,"Uganda",NA,NA
+"277","lake katwe",NA,"Uganda",NA,NA
+"278","bugangari",NA,"Uganda",NA,NA
+"279","kikwaya",NA,"Uganda",NA,NA
+"280","chegere",NA,"Uganda",NA,NA
+"281","alito",NA,"Uganda",NA,NA
+"282","kathile",NA,"Uganda",NA,NA
+"283","ttamu division",NA,"Uganda",NA,NA
+"284","maanyi",NA,"Uganda",NA,NA
+"285","rwengwe",NA,"Uganda",NA,NA
+"286","busanza",NA,"Uganda",NA,NA
+"287","kotomol",NA,"Uganda",NA,NA
+"288","bukusu",NA,"Uganda",NA,NA
+"289","bugambe",NA,"Uganda",NA,NA
+"290","pece division",NA,"Uganda",NA,NA
+"291","ndeija",NA,"Uganda",NA,NA
+"292","iceme",NA,"Uganda",NA,NA
+"293","kachumbala",NA,"Uganda",NA,NA
+"294","buyende town council",NA,"Uganda",NA,NA
+"295","mazinga",NA,"Uganda",NA,NA
+"296","ajia",NA,"Uganda",NA,NA
+"297","logiri",NA,"Uganda",NA,NA
+"298","nyakishana",NA,"Uganda",NA,NA
+"299","kayunga","kayunga","Uganda",0.981893643288335,32.8925534425164
+"300","sisuni",NA,"Uganda",NA,NA
+"301","lwengo","lwengo","Uganda",-0.413365259165642,31.4258627951362
+"302","kikyenkye",NA,"Uganda",NA,NA
+"303","nakalama",NA,"Uganda",NA,NA
+"304","bulamogi",NA,"Uganda",NA,NA
+"305","kibiito",NA,"Uganda",NA,NA
+"306","rugando",NA,"Uganda",NA,NA
+"307","buhanika",NA,"Uganda",NA,NA
+"308","amugu",NA,"Uganda",NA,NA
+"309","kakoba division",NA,"Uganda",NA,NA
+"310","kikyusa",NA,"Uganda",NA,NA
+"311","bukabooli",NA,"Uganda",NA,NA
+"312","bugondo",NA,"Uganda",NA,NA
+"313","loro",NA,"Uganda",NA,NA
+"314","awei",NA,"Uganda",NA,NA
+"315","kathile south",NA,"Uganda",NA,NA
+"316","katooke",NA,"Uganda",NA,NA
+"317","karugutu",NA,"Uganda",NA,NA
+"318","lorengedwat",NA,"Uganda",NA,NA
+"319","kuluba",NA,"Uganda",NA,NA
+"320","kameke",NA,"Uganda",NA,NA
+"321","binyiny",NA,"Uganda",NA,NA
+"322","kyondo",NA,"Uganda",NA,NA
+"323","western division",NA,"Uganda",NA,NA
+"324","rubaya",NA,"Uganda",NA,NA
+"325","kibiga",NA,"Uganda",NA,NA
+"326","lwamata",NA,"Uganda",NA,NA
+"327","paidha town council",NA,"Uganda",NA,NA
+"328","nama",NA,"Uganda",NA,NA
+"329","kawolo division",NA,"Uganda",NA,NA
+"330","nyarusiza",NA,"Uganda",NA,NA
+"331","ikumbya",NA,"Uganda",NA,NA
+"332","loyoro",NA,"Uganda",NA,NA
+"333","butagaya",NA,"Uganda",NA,NA
+"334","kisozi",NA,"Uganda",NA,NA
+"335","nyabubare",NA,"Uganda",NA,NA
+"336","mahyoro",NA,"Uganda",NA,NA
+"337","bisheshe division",NA,"Uganda",NA,NA
+"338","bigasa",NA,"Uganda",NA,NA
+"339","kitoba",NA,"Uganda",NA,NA
+"340","midia",NA,"Uganda",NA,NA
+"341","kyengera town council",NA,"Uganda",NA,NA
+"342","kachonga",NA,"Uganda",NA,NA
+"343","aroi",NA,"Uganda",NA,NA
+"344","lwabenge",NA,"Uganda",NA,NA
+"345","bugweri town council",NA,"Uganda",NA,NA
+"346","namwendwa",NA,"Uganda",NA,NA
+"347","aputi",NA,"Uganda",NA,NA
+"348","kigandalo",NA,"Uganda",NA,NA
+"349","atyak",NA,"Uganda",NA,NA
+"350","dokolo tc",NA,"Uganda",NA,NA
+"351","bududa","bududa","Uganda",1.03198379048067,34.4078627752934
+"352","nyakitunda",NA,"Uganda",NA,NA
+"353","bujumbura division",NA,"Uganda",NA,NA
+"354","ndagwe",NA,"Uganda",NA,NA
+"355","kitumbi",NA,"Uganda",NA,NA
+"356","abia",NA,"Uganda",NA,NA
+"357","oleba",NA,"Uganda",NA,NA
+"358","kitimbwa",NA,"Uganda",NA,NA
+"359","paya",NA,"Uganda",NA,NA
+"360","isingiro town council",NA,"Uganda",NA,NA
+"361","adekokwok",NA,"Uganda",NA,NA
+"362","abanga",NA,"Uganda",NA,NA
+"363","nadunget",NA,"Uganda",NA,NA
+"364","bufunda division",NA,"Uganda",NA,NA
+"365","omot",NA,"Uganda",NA,NA
+"366","lwakhakha town council",NA,"Uganda",NA,NA
+"367","bugembe town council",NA,"Uganda",NA,NA
+"368","namasagali",NA,"Uganda",NA,NA
+"369","northern division",NA,"Uganda",NA,NA
+"370","kyazanga town council",NA,"Uganda",NA,NA
+"371","butunduzi town council",NA,"Uganda",NA,NA
+"372","kabonera",NA,"Uganda",NA,NA
+"373","adumi",NA,"Uganda",NA,NA
+"374","ssi-bukunja",NA,"Uganda",NA,NA
+"375","mpigi town council",NA,"Uganda",NA,NA
+"376","lunyo",NA,"Uganda",NA,NA
+"377","laroo division",NA,"Uganda",NA,NA
+"378","rhino camp",NA,"Uganda",NA,NA
+"379","kyere",NA,"Uganda",NA,NA
+"380","ishongororo",NA,"Uganda",NA,NA
+"381","kalamba",NA,"Uganda",NA,NA
+"382","njeru division",NA,"Uganda",NA,NA
+"383","katrini",NA,"Uganda",NA,NA
+"384","magamaga town council",NA,"Uganda",NA,NA
+"385","odupi",NA,"Uganda",NA,NA
+"386","lugusulu",NA,"Uganda",NA,NA
+"387","kamion",NA,"Uganda",NA,NA
+"388","muterere",NA,"Uganda",NA,NA
+"389","kakindu",NA,"Uganda",NA,NA
+"390","olilim",NA,"Uganda",NA,NA
+"391","kamuda",NA,"Uganda",NA,NA
+"392","nakatsi",NA,"Uganda",NA,NA
+"393","toroma",NA,"Uganda",NA,NA
+"394","nyakyera",NA,"Uganda",NA,NA
+"395","adok",NA,"Uganda",NA,NA
+"396","kalagala","kalangala","Uganda",-0.578501938422876,32.4417817317532
+"397","kigulya division",NA,"Uganda",NA,NA
+"398","nyero",NA,"Uganda",NA,NA
+"399","zombo town council",NA,"Uganda",NA,NA
+"400","ngogwe",NA,"Uganda",NA,NA
+"401","morulem",NA,"Uganda",NA,NA
+"402","sironko town council",NA,"Uganda",NA,NA
+"403","wakiso","wakiso","Uganda",0.220381338087328,32.4460328579468
+"404","otwal",NA,"Uganda",NA,NA
+"405","agulu division",NA,"Uganda",NA,NA
+"406","kanoni",NA,"Uganda",NA,NA
+"407","nabukalu",NA,"Uganda",NA,NA
+"408","lukaya town council",NA,"Uganda",NA,NA
+"409","rubanda town council",NA,"Uganda",NA,NA
+"410","chawente",NA,"Uganda",NA,NA
+"411","arocha division",NA,"Uganda",NA,NA
+"412","kalangaalo",NA,"Uganda",NA,NA
+"413","maracha town council",NA,"Uganda",NA,NA
+"414","industrial divison",NA,"Uganda",NA,NA
+"415","kyotera town council",NA,"Uganda",NA,NA
+"416","angangura",NA,"Uganda",NA,NA
+"417","bulesa",NA,"Uganda",NA,NA
+"418","laguti",NA,"Uganda",NA,NA
+"419","nyamarwa",NA,"Uganda",NA,NA
+"420","rigbo",NA,"Uganda",NA,NA
+"421","losilang division",NA,"Uganda",NA,NA
+"422","kyalulangira",NA,"Uganda",NA,NA
+"423","tubur",NA,"Uganda",NA,NA
+"424","kashozi division",NA,"Uganda",NA,NA
+"425","kanyumu",NA,"Uganda",NA,NA
+"426","kisiita",NA,"Uganda",NA,NA
+"427","kidongole",NA,"Uganda",NA,NA
+"428","omodoi",NA,"Uganda",NA,NA
+"429","agwingiri",NA,"Uganda",NA,NA
+"430","rubongi",NA,"Uganda",NA,NA
+"431","kaabong town council",NA,"Uganda",NA,NA
+"432","kawempe division",NA,"Uganda",NA,NA
+"433","nansana division",NA,"Uganda",NA,NA
+"434","lira","lira","Uganda",2.30353027027528,32.9634597605623
+"435","karambi",NA,"Uganda",NA,NA
+"436","kibalinga",NA,"Uganda",NA,NA
+"437","bweyogerere division",NA,"Uganda",NA,NA
+"438","kijomoro",NA,"Uganda",NA,NA
+"439","aii-vu",NA,"Uganda",NA,NA
+"440","bumwoni",NA,"Uganda",NA,NA
+"441","kasodo",NA,"Uganda",NA,NA
+"442","bwambara",NA,"Uganda",NA,NA
+"443","agwata",NA,"Uganda",NA,NA
+"444","bubutu",NA,"Uganda",NA,NA
+"445","namutumba","namutumba","Uganda",0.868653419695941,33.681733137114
+"446","nyakishenyi",NA,"Uganda",NA,NA
+"447","keihangara",NA,"Uganda",NA,NA
+"448","kiboga town council",NA,"Uganda",NA,NA
+"449","bunabwana",NA,"Uganda",NA,NA
+"450","moyo","moyo","Uganda",3.64280921888219,31.7658532944449
+"451","adwari",NA,"Uganda",NA,NA
+"452","kateta",NA,"Uganda",NA,NA
+"453","pabo",NA,"Uganda",NA,NA
+"454","bukedea","bukedea","Uganda",1.36227594229644,34.1243081473034
+"455","nakawa division",NA,"Uganda",NA,NA
+"456","nkozi",NA,"Uganda",NA,NA
+"457","muhokya",NA,"Uganda",NA,NA
+"458","serere town council",NA,"Uganda",NA,NA
+"459","sigulu island",NA,"Uganda",NA,NA
+"460","bisheshe",NA,"Uganda",NA,NA
+"461","paidha",NA,"Uganda",NA,NA
+"462","aloi",NA,"Uganda",NA,NA
+"463","kasaali",NA,"Uganda",NA,NA
+"464","galiraya",NA,"Uganda",NA,NA
+"465","hakibaale",NA,"Uganda",NA,NA
+"466","nabweru division",NA,"Uganda",NA,NA
+"467","aber",NA,"Uganda",NA,NA
+"468","buwenge",NA,"Uganda",NA,NA
+"469","myene",NA,"Uganda",NA,NA
+"470","nyamwamba division",NA,"Uganda",NA,NA
+"471","ntwetwe town council",NA,"Uganda",NA,NA
+"472","kucwinyi",NA,"Uganda",NA,NA
+"473","nyenga",NA,"Uganda",NA,NA
+"474","butenga",NA,"Uganda",NA,NA
+"475","nyabbani",NA,"Uganda",NA,NA
+"476","buhimba",NA,"Uganda",NA,NA
+"477","moruita",NA,"Uganda",NA,NA
+"478","malera",NA,"Uganda",NA,NA
+"479","katine",NA,"Uganda",NA,NA
+"480","nakaseke","nakaseke","Uganda",1.04872185522222,32.1692659289844
+"481","kassanda","kassanda","Uganda",0.538221612506688,31.7548034402898
+"482","bbaale",NA,"Uganda",NA,NA
+"483","kibaale town council",NA,"Uganda",NA,NA
+"484","southern divison",NA,"Uganda",NA,NA
+"485","awere",NA,"Uganda",NA,NA
+"486","kagadi town council",NA,"Uganda",NA,NA
+"487","karujubu division",NA,"Uganda",NA,NA
+"488","kasangati town council",NA,"Uganda",NA,NA
+"489","bwikarra",NA,"Uganda",NA,NA
+"490","mutunda",NA,"Uganda",NA,NA
+"491","kapeke",NA,"Uganda",NA,NA
+"492","masuliita",NA,"Uganda",NA,NA
+"493","patiko",NA,"Uganda",NA,NA
+"494","bukiro",NA,"Uganda",NA,NA
+"495","lwankoni",NA,"Uganda",NA,NA
+"496","rugashari",NA,"Uganda",NA,NA
+"497","ngoleriet",NA,"Uganda",NA,NA
+"498","osukuru",NA,"Uganda",NA,NA
+"499","kidera",NA,"Uganda",NA,NA
+"500","dadamu",NA,"Uganda",NA,NA
+"501","busunju town council",NA,"Uganda",NA,NA
+"502","ssisa",NA,"Uganda",NA,NA
+"503","bitsya",NA,"Uganda",NA,NA
+"504","mijwala",NA,"Uganda",NA,NA
+"505","unyama",NA,"Uganda",NA,NA
+"506","nambieso",NA,"Uganda",NA,NA
+"507","opwateta",NA,"Uganda",NA,NA
+"508","pajulu",NA,"Uganda",NA,NA
+"509","kakiri",NA,"Uganda",NA,NA
+"510","kalisizo",NA,"Uganda",NA,NA
+"511","goma division",NA,"Uganda",NA,NA
+"512","nakapiripirit","nakapiripirit","Uganda",1.78100726023047,34.6079841676076
+"513","ogwette",NA,"Uganda",NA,NA
+"514","nkandwa",NA,"Uganda",NA,NA
+"515","ngai",NA,"Uganda",NA,NA
+"516","bukhulo",NA,"Uganda",NA,NA
+"517","padibe west",NA,"Uganda",NA,NA
+"518","olok",NA,"Uganda",NA,NA
+"519","kyegegwa town council",NA,"Uganda",NA,NA
+"520","najjembe division",NA,"Uganda",NA,NA
+"521","tara",NA,"Uganda",NA,NA
+"522","barr",NA,"Uganda",NA,NA
+"523","chema",NA,"Uganda",NA,NA
+"524","kenshunga",NA,"Uganda",NA,NA
+"525","namokora",NA,"Uganda",NA,NA
+"526","adropi",NA,"Uganda",NA,NA
+"527","nabigasa",NA,"Uganda",NA,NA
+"528","ndhew",NA,"Uganda",NA,NA
+"529","akisim",NA,"Uganda",NA,NA
+"530","nabitende",NA,"Uganda",NA,NA
+"531","bobbi",NA,"Uganda",NA,NA
+"532","kamukuzi division",NA,"Uganda",NA,NA
+"533","usuk",NA,"Uganda",NA,NA
+"534","awach",NA,"Uganda",NA,NA
+"535","bukasakya",NA,"Uganda",NA,NA
+"536","mwizi",NA,"Uganda",NA,NA
+"537","paidha tc",NA,"Uganda",NA,NA
+"538","sangar",NA,"Uganda",NA,NA
+"539","lii",NA,"Uganda",NA,NA
+"540","kambuga",NA,"Uganda",NA,NA
+"541","kisinga",NA,"Uganda",NA,NA
+"542","kyampisi",NA,"Uganda",NA,NA
+"543","kira division",NA,"Uganda",NA,NA
+"544","kijongo",NA,"Uganda",NA,NA
+"545","pakwach town council",NA,"Uganda",NA,NA
+"546","mafubira",NA,"Uganda",NA,NA
+"547","arwotcek",NA,"Uganda",NA,NA
+"548","ruhinda",NA,"Uganda",NA,NA
+"549","lodonga",NA,"Uganda",NA,NA
+"550","buheesi town council",NA,"Uganda",NA,NA
+"551","wobulenzi town council",NA,"Uganda",NA,NA
+"552","kashare",NA,"Uganda",NA,NA
+"553","okwang",NA,"Uganda",NA,NA
+"554","mucwini",NA,"Uganda",NA,NA
+"555","itojo",NA,"Uganda",NA,NA
+"556","mateete",NA,"Uganda",NA,NA
+"557","gimara",NA,"Uganda",NA,NA
+"558","bihanga",NA,"Uganda",NA,NA
+"559","lagoro",NA,"Uganda",NA,NA
+"560","kakindo",NA,"Uganda",NA,NA
+"561","katabi town council",NA,"Uganda",NA,NA
+"562","balawoli",NA,"Uganda",NA,NA
+"563","amudat","amudat","Uganda",1.8027406989184,34.8763192040115
+"564","nyamarebe",NA,"Uganda",NA,NA
+"565","nankoma",NA,"Uganda",NA,NA
+"566","wadelai",NA,"Uganda",NA,NA
+"567","ludara",NA,"Uganda",NA,NA
+"568","kakuuto",NA,"Uganda",NA,NA
+"569","atik division",NA,"Uganda",NA,NA
+"570","buwasa",NA,"Uganda",NA,NA
+"571","rwenshande",NA,"Uganda",NA,NA
+"572","mukuju",NA,"Uganda",NA,NA
+"573","nyapea",NA,"Uganda",NA,NA
+"574","rengen",NA,"Uganda",NA,NA
+"575","kicheche",NA,"Uganda",NA,NA
+"576","atanga",NA,"Uganda",NA,NA
+"577","buswale",NA,"Uganda",NA,NA
+"578","makindye division",NA,"Uganda",NA,NA
+"579","masulita town council",NA,"Uganda",NA,NA
+"580","kasanje",NA,"Uganda",NA,NA
+"581","ntwetwe tc",NA,"Uganda",NA,NA
+"582","ntwete",NA,"Uganda",NA,NA
+"583","kakooge",NA,"Uganda",NA,NA
+"584","busukuma",NA,"Uganda",NA,NA
+"585","kitanda",NA,"Uganda",NA,NA
+"586","kyamulibwa",NA,"Uganda",NA,NA
+"587","bweyale tc",NA,"Uganda",NA,NA
+"588","mubende  town  council",NA,"Uganda",NA,NA
+"589","mityana town council",NA,"Uganda",NA,NA
+"590","kigando",NA,"Uganda",NA,NA
+"591","malangala",NA,"Uganda",NA,NA
+"592","bukuya",NA,"Uganda",NA,NA
+"593","busimbi",NA,"Uganda",NA,NA
+"594","nalutuntu",NA,"Uganda",NA,NA
+"595","lugazi town council",NA,"Uganda",NA,NA
+"596","kawolo",NA,"Uganda",NA,NA
+"597","buikwe","buikwe","Uganda",0.305758454834455,33.0403984147865
+"598","njeru town council",NA,"Uganda",NA,NA
+"599","najjembe",NA,"Uganda",NA,NA
+"600","kyannamukaaka",NA,"Uganda",NA,NA
+"601","kimaanya/kyabakuza",NA,"Uganda",NA,NA
+"602","lyantonde","lyantonde","Uganda",-0.223133795803925,31.1880741141116
+"603","lwamagwa",NA,"Uganda",NA,NA
+"604","ntusi",NA,"Uganda",NA,NA
+"605","mateete tc",NA,"Uganda",NA,NA
+"606","kira town council",NA,"Uganda",NA,NA
+"607","nansana town council",NA,"Uganda",NA,NA
+"608","katabi",NA,"Uganda",NA,NA
+"609","nsangi",NA,"Uganda",NA,NA
+"610","buhemba",NA,"Uganda",NA,NA
+"611","buyanga",NA,"Uganda",NA,NA
+"612","busakira",NA,"Uganda",NA,NA
+"613","banda",NA,"Uganda",NA,NA
+"614","sigulu islands",NA,"Uganda",NA,NA
+"615","bulamagi",NA,"Uganda",NA,NA
+"616","masese/walukuba",NA,"Uganda",NA,NA
+"617","buyengo",NA,"Uganda",NA,NA
+"618","kamuli town council",NA,"Uganda",NA,NA
+"619","nawampiti",NA,"Uganda",NA,NA
+"620","nabwigulu",NA,"Uganda",NA,NA
+"621","nkondo",NA,"Uganda",NA,NA
+"622","nawaikoke",NA,"Uganda",NA,NA
+"623","bulopa",NA,"Uganda",NA,NA
+"624","nawandala",NA,"Uganda",NA,NA
+"625","atutur",NA,"Uganda",NA,NA
+"626","mukongoro",NA,"Uganda",NA,NA
+"627","nakatsi.",NA,"Uganda",NA,NA
+"628","bushiribo.",NA,"Uganda",NA,NA
+"629","kibale","kibaale","Uganda",0.802204754661336,31.0673523815565
+"630","imanyiro",NA,"Uganda",NA,NA
+"631","sironko tc",NA,"Uganda",NA,NA
+"632","apac tc",NA,"Uganda",NA,NA
+"633","apac","apac","Uganda",1.87061032081552,32.4293917484081
+"634","puranga",NA,"Uganda",NA,NA
+"635","nambeiso",NA,"Uganda",NA,NA
+"636","koboko tc",NA,"Uganda",NA,NA
+"637","uriama",NA,"Uganda",NA,NA
+"638","pawor",NA,"Uganda",NA,NA
+"639","nyadri",NA,"Uganda",NA,NA
+"640","maracha  town council",NA,"Uganda",NA,NA
+"641","manibe",NA,"Uganda",NA,NA
+"642","udupi",NA,"Uganda",NA,NA
+"643","arivu",NA,"Uganda",NA,NA
+"644","paimol",NA,"Uganda",NA,NA
+"645","koch goma",NA,"Uganda",NA,NA
+"646","labongo layamo",NA,"Uganda",NA,NA
+"647","omiya anyima",NA,"Uganda",NA,NA
+"648","padibe  west",NA,"Uganda",NA,NA
+"649","kitgum tc",NA,"Uganda",NA,NA
+"650","kotido","kotido","Uganda",3.02408551374868,33.9881267403178
+"651","kotido tc",NA,"Uganda",NA,NA
+"652","ojwina",NA,"Uganda",NA,NA
+"653","central","central","Uganda",13.9698339371025,38.8914793926642
+"654","kaberamaido town council",NA,"Uganda",NA,NA
+"655","moyo tc",NA,"Uganda",NA,NA
+"656","arinyapi",NA,"Uganda",NA,NA
+"657","lefori",NA,"Uganda",NA,NA
+"658","nebbi town council",NA,"Uganda",NA,NA
+"659","zombo tc",NA,"Uganda",NA,NA
+"660","kashenshero town council",NA,"Uganda",NA,NA
+"661","kiyanga",NA,"Uganda",NA,NA
+"662","kyeizooba",NA,"Uganda",NA,NA
+"663","bumbaire",NA,"Uganda",NA,NA
+"664","kagango",NA,"Uganda",NA,NA
+"665","bugongi",NA,"Uganda",NA,NA
+"666","kyangyenyi",NA,"Uganda",NA,NA
+"667","kamukuzi",NA,"Uganda",NA,NA
+"668","muhorro t-council",NA,"Uganda",NA,NA
+"669","ikumba",NA,"Uganda",NA,NA
+"670","kagadi tc",NA,"Uganda",NA,NA
+"671","kyaterekera",NA,"Uganda",NA,NA
+"672","ndaiga",NA,"Uganda",NA,NA
+"673","nyabwishenya",NA,"Uganda",NA,NA
+"674","karujubu",NA,"Uganda",NA,NA
+"675","kakoba",NA,"Uganda",NA,NA
+"676","ibanda town council",NA,"Uganda",NA,NA
+"677","kazo tc",NA,"Uganda",NA,NA
+"678","ntara",NA,"Uganda",NA,NA
+"679","ishongororo tc",NA,"Uganda",NA,NA
+"680","kabingo",NA,"Uganda",NA,NA
+"681","kakiika",NA,"Uganda",NA,NA
+"682","bugamba",NA,"Uganda",NA,NA
+"683","shuuku",NA,"Uganda",NA,NA
+"684","nyakayojo",NA,"Uganda",NA,NA
+"685","ruhaama",NA,"Uganda",NA,NA
+"686","muko",NA,"Uganda",NA,NA
+"687","kabweeza-kyegegwa",NA,"Uganda",NA,NA
+"688","kyegegwa tc",NA,"Uganda",NA,NA
+"689","kyarusozi",NA,"Uganda",NA,NA
+"690","nabweru",NA,"Uganda",NA,NA
+"691","nyendo-ssenyange",NA,"Uganda",NA,NA
+"692","galiraaya",NA,"Uganda",NA,NA
+"693","nangabo",NA,"Uganda",NA,NA
+"694","kalangalo",NA,"Uganda",NA,NA
+"695","ssi bukunja",NA,"Uganda",NA,NA
+"696","agule",NA,"Uganda",NA,NA
+"697","busolwe town council",NA,"Uganda",NA,NA
+"698","industrial division",NA,"Uganda",NA,NA
+"699","bududa.","bududa","Uganda",1.03198379048067,34.4078627752934
+"700","nawanyingi",NA,"Uganda",NA,NA
+"701","kalapata",NA,"Uganda",NA,NA
+"702","alebtong tc",NA,"Uganda",NA,NA
+"703","olilm",NA,"Uganda",NA,NA
+"704","kigaraale",NA,"Uganda",NA,NA
+"705","kicwamba",NA,"Uganda",NA,NA
+"706","kayonza",NA,"Uganda",NA,NA
+"707","butunduzi tc",NA,"Uganda",NA,NA
+"708","kasiita",NA,"Uganda",NA,NA
+"709","mpasaana",NA,"Uganda",NA,NA
+"710","iriiri",NA,"Uganda",NA,NA
+"711","kahoora divison",NA,"Uganda",NA,NA
+"712","mazimasa",NA,"Uganda",NA,NA
+"713","kagadi  town council",NA,"Uganda",NA,NA
+"714","moyo town council",NA,"Uganda",NA,NA
+"715","apo",NA,"Uganda",NA,NA
+"716","lyantonde town council",NA,"Uganda",NA,NA
+"717","kakomongole",NA,"Uganda",NA,NA
+"718","pandwond division",NA,"Uganda",NA,NA
+"719","engari",NA,"Uganda",NA,NA
+"720","rubindi",NA,"Uganda",NA,NA
+"721","masajja division",NA,"Uganda",NA,NA
+"722","kimaanya-kyabakuza division",NA,"Uganda",NA,NA
+"723","lorengecora",NA,"Uganda",NA,NA
+"724","buseruka",NA,"Uganda",NA,NA
+"725","kasangombe",NA,"Uganda",NA,NA
+"726","kasenda",NA,"Uganda",NA,NA
+"727","semuto town council",NA,"Uganda",NA,NA
+"728","mukura town council",NA,"Uganda",NA,NA
+"729","rubaga division",NA,"Uganda",NA,NA
+"730","kiboga east",NA,"Uganda",NA,NA
+"731","kiboga west",NA,"Uganda",NA,NA
+"732","katikamu",NA,"Uganda",NA,NA
+"733","bamunanika",NA,"Uganda",NA,NA
+"734","masaka municipality",NA,"Uganda",NA,NA
+"735","bukomansimbi","bukomansimbi","Uganda",-0.129708048310211,31.6282562153666
+"736","bukoto",NA,"Uganda",NA,NA
+"737","gomba","gomba","Uganda",0.195673447138876,31.7026534513143
+"738","mawokota",NA,"Uganda",NA,NA
+"739","buwekula",NA,"Uganda",NA,NA
+"740","mityana","mityana","Uganda",0.443250358240915,32.0596446207879
+"741","mukono","mukono","Uganda",0.275595149524098,32.7735357316934
+"742","mukono municipality",NA,"Uganda",NA,NA
+"743","nakifuma",NA,"Uganda",NA,NA
+"744","nakasongola","nakasongola","Uganda",1.3519330731224,32.425646272528
+"745","kooki",NA,"Uganda",NA,NA
+"746","kyotera","kyotera","Uganda",-0.805726749476719,31.660359857394
+"747","lwemiyaga",NA,"Uganda",NA,NA
+"748","mawogola",NA,"Uganda",NA,NA
+"749","ntenjeru",NA,"Uganda",NA,NA
+"750","bbale",NA,"Uganda",NA,NA
+"751","entebbe municipality",NA,"Uganda",NA,NA
+"752","kyadondo",NA,"Uganda",NA,NA
+"753","busiro",NA,"Uganda",NA,NA
+"754","kabula",NA,"Uganda",NA,NA
+"755","busujju",NA,"Uganda",NA,NA
+"756","bukooli central & north",NA,"Uganda",NA,NA
+"757","bukooli south",NA,"Uganda",NA,NA
+"758","samia bugwe",NA,"Uganda",NA,NA
+"759","iganga municipality",NA,"Uganda",NA,NA
+"760","bugweri","bugweri","Uganda",0.626748405955344,33.6055818868262
+"761","kigulu",NA,"Uganda",NA,NA
+"762","luuka","luuka","Uganda",0.803925697835342,33.3384918276475
+"763","jinja municipality",NA,"Uganda",NA,NA
+"764","butembe",NA,"Uganda",NA,NA
+"765","kagoma",NA,"Uganda",NA,NA
+"766","bugabula",NA,"Uganda",NA,NA
+"767","budiope",NA,"Uganda",NA,NA
+"768","buzaaya",NA,"Uganda",NA,NA
+"769","tingey",NA,"Uganda",NA,NA
+"770","kumi","kumi","Uganda",1.47356100160131,33.9614350217952
+"771","ngora","ngora","Uganda",1.49634330967358,33.7544396888742
+"772","mbale municipality",NA,"Uganda",NA,NA
+"773","bungokho",NA,"Uganda",NA,NA
+"774","pallisa","pallisa","Uganda",1.23145340141809,33.6753105703805
+"775","kibuku","kibuku","Uganda",1.05344264875839,33.8011216310728
+"776","budaka","budaka","Uganda",1.05966723855268,33.9885649098156
+"777","soroti municipality",NA,"Uganda",NA,NA
+"778","kasilo",NA,"Uganda",NA,NA
+"779","serere","serere","Uganda",1.48811357397225,33.3723515568081
+"780","tororo","tororo","Uganda",0.724973369807783,34.0822455912454
+"781","tororo municipality",NA,"Uganda",NA,NA
+"782","west budama",NA,"Uganda",NA,NA
+"783","bunya",NA,"Uganda",NA,NA
+"784","budadiri",NA,"Uganda",NA,NA
+"785","bulambuli","bulambuli","Uganda",1.364455750312,34.3597145058692
+"786","amuria","amuria","Uganda",2.0079113560544,33.6380322459014
+"787","manjiya",NA,"Uganda",NA,NA
+"788","kongasis",NA,"Uganda",NA,NA
+"789","bunyole",NA,"Uganda",NA,NA
+"790","bubulo",NA,"Uganda",NA,NA
+"791","busiki",NA,"Uganda",NA,NA
+"792","east moyo",NA,"Uganda",NA,NA
+"793","kole","kole","Uganda",2.29152311745593,32.7662657421029
+"794","maruzi",NA,"Uganda",NA,NA
+"795","kwania","kwania","Uganda",1.91677113017111,32.7341448557395
+"796","arua municipality",NA,"Uganda",NA,NA
+"797","ayivu",NA,"Uganda",NA,NA
+"798","madi-okollo",NA,"Uganda",NA,NA
+"799","terego",NA,"Uganda",NA,NA
+"800","gulu municipality",NA,"Uganda",NA,NA
+"801","aswa",NA,"Uganda",NA,NA
+"802","omoro","omoro","Uganda",2.66760191195364,32.4681650340513
+"803","chua",NA,"Uganda",NA,NA
+"804","lamwo","lamwo","Uganda",3.55062400823639,32.7238128689167
+"805","dodoth",NA,"Uganda",NA,NA
+"806","jie",NA,"Uganda",NA,NA
+"807","lira municipality",NA,"Uganda",NA,NA
+"808","moroto","moroto","Uganda",2.64865464139199,34.6316902385041
+"809","otuke","otuke","Uganda",2.47492873146553,33.3825637329149
+"810","oyam","oyam","Uganda",2.37220572935822,32.4843674000166
+"811","erute",NA,"Uganda",NA,NA
+"812","bokora",NA,"Uganda",NA,NA
+"813","matheniko",NA,"Uganda",NA,NA
+"814","obongi","obongi","Uganda",3.3919915369081,31.556833381393
+"815","west moyo",NA,"Uganda",NA,NA
+"816","padyere",NA,"Uganda",NA,NA
+"817","okoro",NA,"Uganda",NA,NA
+"818","jonam",NA,"Uganda",NA,NA
+"819","chekwii",NA,"Uganda",NA,NA
+"820","pian",NA,"Uganda",NA,NA
+"821","upe",NA,"Uganda",NA,NA
+"822","aringa",NA,"Uganda",NA,NA
+"823","kioga",NA,"Uganda",NA,NA
+"824","kilak",NA,"Uganda",NA,NA
+"825","dokolo","dokolo","Uganda",1.9373397236685,33.075894356187
+"826","koboko","koboko","Uganda",3.52557480756652,31.0079741008374
+"827","maracha","maracha","Uganda",3.23693747076427,30.9269153224056
+"828","bwamba",NA,"Uganda",NA,NA
+"829","ntoroko","ntoroko","Uganda",1.01047077962197,30.3631830201092
+"830","bushenyi-ishaka",NA,"Uganda",NA,NA
+"831","buhweju","buhweju","Uganda",-0.32890927265232,30.3501768386094
+"832","bunyaruguru",NA,"Uganda",NA,NA
+"833","igara",NA,"Uganda",NA,NA
+"834","sheema","sheema","Uganda",-0.603638381409072,30.3266424095221
+"835","hoima municipality",NA,"Uganda",NA,NA
+"836","bugahya",NA,"Uganda",NA,NA
+"837","buhaguzi",NA,"Uganda",NA,NA
+"838","kabale municipality",NA,"Uganda",NA,NA
+"839","ndorwa",NA,"Uganda",NA,NA
+"840","rubanda","rubanda","Uganda",-1.17105980793804,29.8660205645385
+"841","rukiga","rukiga","Uganda",-1.15051739977413,30.0912563328607
+"842","fort portal municipality",NA,"Uganda",NA,NA
+"843","bunyangabu","bunyangabu","Uganda",0.494828083441448,30.1725271201283
+"844","burahya",NA,"Uganda",NA,NA
+"845","busongora",NA,"Uganda",NA,NA
+"846","bukonzo",NA,"Uganda",NA,NA
+"847","kasese municipality",NA,"Uganda",NA,NA
+"848","buyaga",NA,"Uganda",NA,NA
+"849","bugangaizi",NA,"Uganda",NA,NA
+"850","buyanja",NA,"Uganda",NA,NA
+"851","bufumbira",NA,"Uganda",NA,NA
+"852","masindi municipality",NA,"Uganda",NA,NA
+"853","buruli",NA,"Uganda",NA,NA
+"854","kibanda","ibanda","Uganda",-0.0791684428125081,30.4895286543083
+"855","mbarara municipality",NA,"Uganda",NA,NA
+"856","kashari",NA,"Uganda",NA,NA
+"857","rwampara","rwampara","Uganda",-0.746372612078986,30.4934603667712
+"858","ntungamo municipality",NA,"Uganda",NA,NA
+"859","kajara",NA,"Uganda",NA,NA
+"860","rushenyi",NA,"Uganda",NA,NA
+"861","rubabo",NA,"Uganda",NA,NA
+"862","rujumbura",NA,"Uganda",NA,NA
+"863","kitagwenda","kitagwenda","Uganda",0.0122231901498725,30.3411103798725
+"864","kinkinzi",NA,"Uganda",NA,NA
+"865","mwenge",NA,"Uganda",NA,NA
+"866","kyaka",NA,"Uganda",NA,NA
+"867","buliisa","buliisa","Uganda",1.95988358361373,31.3916516237161
+"868","ibanda","ibanda","Uganda",-0.0791684428125081,30.4895286543083
+"869","bukanga",NA,"Uganda",NA,NA
+"870","isingiro","isingiro","Uganda",-0.853240651828664,30.8776533732874
+"871","kazo","kazo","Uganda",0.0415187287263138,30.7923831897607
+"872","nyabushozi",NA,"Uganda",NA,NA
+"873","kampala central division",NA,"Uganda",NA,NA
+"874","fortpotal municipality",NA,"Uganda",NA,NA
+"875","bushenyi ishaka",NA,"Uganda",NA,NA
+"876","kiryandongo","kiryandongo","Uganda",2.02291677201874,32.0408528666398
+"877","bukoli south",NA,"Uganda",NA,NA
+"878","samia-bugwe",NA,"Uganda",NA,NA
+"879","nakawa",NA,"Uganda",NA,NA
+"880","amolatar","amolatar","Uganda",1.61987178785327,32.7358793798195
+"881","bushenyi municipality",NA,"Uganda",NA,NA
+"882","bujenje",NA,"Uganda",NA,NA
+"883","ssembabule","ssembabule","Uganda",-0.0264561054702553,31.339884809214
+"884","kalangala","kalangala","Uganda",-0.578501938422876,32.4417817317532
+"885","kampala","kampala","Uganda",0.315722349696044,32.596960460377
+"886","kiboga","kiboga","Uganda",0.840236670819514,31.9566499075071
+"887","kyankwanzi","kyankwanzi","Uganda",1.12140149119856,31.6415747872957
+"888","luwero","luwero","Uganda",0.828939964396549,32.5832534553823
+"889","masaka","masaka","Uganda",-0.491254774992301,31.8555834454913
+"890","mpigi","mpigi","Uganda",0.0670445534573124,32.1589699669341
+"891","mubende","mubende","Uganda",0.50403979285257,31.3790784472865
+"892","kyegegwa","kyegegwa","Uganda",0.450669830545865,31.0020844545687
+"893","rakai","rakai","Uganda",-0.707009202400446,31.3036616231725
+"894","bugiri","bugiri","Uganda",0.531283468659587,33.7744531189462
+"895","mayuge","mayuge","Uganda",-0.0884837301500205,33.5517825238851
+"896","busia","busia","Uganda",0.411840818663739,34.0053450987086
+"897","namayingo","namayingo","Uganda",-0.317363071540781,33.8045746026783
+"898","iganga","iganga","Uganda",0.727229460678729,33.4789340109678
+"899","jinja","jinja","Uganda",0.565489868655902,33.2127168367097
+"900","kamuli","kamuli","Uganda",0.937088303954334,33.1074936105215
+"901","kaliro","kaliro","Uganda",1.06758904023968,33.4833479356996
+"902","katakwi","katakwi","Uganda",1.92222269912019,34.0381329458185
+"903","manafwa","manafwa","Uganda",0.875101421078061,34.2709268835433
+"904","butaleja","butaleja","Uganda",0.883571363051397,33.9340556621602
+"905","sironko","sironko","Uganda",1.17158321291556,34.3187143847596
+"906","pader","pader","Uganda",2.9293699123034,32.8675164157763
+"907","arua","arua","Uganda",3.04093361941008,31.0526388979042
+"908","gulu","gulu","Uganda",2.97481710392409,32.3950986346505
+"909","agago","agago","Uganda",2.9101044785416,33.3460472343264
+"910","amuru","amuru","Uganda",3.05141956211666,31.9745474456287
+"911","kitgum","kitgum","Uganda",3.39802260825562,33.258048876452
+"912","kaabong","kaabong","Uganda",3.54328322074246,34.155670456669
+"913","alebtong","alebtong","Uganda",2.26668256896101,33.2557165537794
+"914","kaberamaido","kaberamaido","Uganda",1.69438290302018,33.1285078042223
+"915","napak","napak","Uganda",2.3922277136282,34.2638088459712
+"916","adjumani","adjumani","Uganda",3.22347218186945,31.769623971461
+"917","zombo","zombo","Uganda",2.51873707375689,30.8954349127993
+"918","yumbe","yumbe","Uganda",3.52051800811507,31.2887245327125
+"919","bushenyi","bushenyi","Uganda",-0.483757634491727,30.1518473778625
+"920","mitooma","mitooma","Uganda",-0.624297426418617,30.0225427259487
+"921","hoima","hoima","Uganda",1.5818395425181,31.2138931049569
+"922","kabale","kabale","Uganda",-1.33088008247273,30.0176806433364
+"923","kabarole","kabarole","Uganda",0.635938482042112,30.3345763561982
+"924","kasese","kasese","Uganda",0.117654771637153,30.0018750563071
+"925","kibaale","kibaale","Uganda",0.802204754661336,31.0673523815565
+"926","kisoro","kisoro","Uganda",-1.21724338665352,29.6801840458192
+"927","masindi","masindi","Uganda",1.74381968724169,31.7122977954665
+"928","mbarara","mbarara","Uganda",-0.49329335220382,30.606332992884
+"929","kiruhura","kiruhura","Uganda",-0.349676621717855,30.9148834746433
+"930","rukungiri","rukungiri","Uganda",-0.705908646234841,29.8890160790852
+"931","kanungu","kanungu","Uganda",-0.810175446629107,29.7258469383999
+"932","kyenjojo","kyenjojo","Uganda",0.656267763746172,30.6623682231385
+"933","butambala","butambala","Uganda",0.153688115542105,32.0747102158023
+"934","mbale","mbale","Uganda",1.01923800854601,34.1984172165254
+"935","kween","kween","Uganda",1.43663647885681,34.5695249517318
+"936","abia",NA,"Nigeria",NA,NA
+"937","akwa ibom",NA,"Nigeria",NA,NA
+"938","adamawa",NA,"Nigeria",NA,NA
+"939","taraba",NA,"Nigeria",NA,NA
+"940","anambra",NA,"Nigeria",NA,NA
+"941","bauchi","bauchi","Nigeria",10.2429983032971,9.93005534217433
+"942","bayelsa",NA,"Nigeria",NA,NA
+"943","benue",NA,"Nigeria",NA,NA
+"944","borno",NA,"Nigeria",NA,NA
+"945","cross river",NA,"Nigeria",NA,NA
+"946","nasarawa","nasarawa","Nigeria",12.0044569865314,8.5782623492209
+"947","nasarawa","nasarawa","Nigeria",8.30403441407275,7.7602719438996
+"948","ebonyi","ebonyi","Nigeria",6.54168915864248,8.12221957095312
+"949","delta",NA,"Nigeria",NA,NA
+"950","edo",NA,"Nigeria",NA,NA
+"951","ekiti","ekiti","Nigeria",8.10862080303445,5.33996513748066
+"952","enugu",NA,"Nigeria",NA,NA
+"953","gombe","gombe","Nigeria",10.2911334555767,11.1602903768572
+"954","imo",NA,"Nigeria",NA,NA
+"955","jigawa",NA,"Nigeria",NA,NA
+"956","kaduna",NA,"Nigeria",NA,NA
+"957","kano",NA,"Nigeria",NA,NA
+"958","zamfara",NA,"Nigeria",NA,NA
+"959","katsina","katsina","Nigeria",13.012128190688,7.61327848538011
+"960","kebbi",NA,"Nigeria",NA,NA
+"961","kogi","kogi","Nigeria",8.14642445849579,6.86502957381049
+"962","kwara",NA,"Nigeria",NA,NA
+"963","osun",NA,"Nigeria",NA,NA
+"964","lagos",NA,"Nigeria",NA,NA
+"965","sokoto",NA,"Nigeria",NA,NA
+"966","niger",NA,"Nigeria",NA,NA
+"967","ogun",NA,"Nigeria",NA,NA
+"968","ondo",NA,"Nigeria",NA,NA
+"969","oyo",NA,"Nigeria",NA,NA
+"970","plateau",NA,"Nigeria",NA,NA
+"971","rivers",NA,"Nigeria",NA,NA
+"972","yobe",NA,"Nigeria",NA,NA
+"973","fct abuja",NA,"Nigeria",NA,NA
+"974","fct",NA,"Nigeria",NA,NA
+"975","tchirozerine","tchirozerine","Niger",17.5102673972889,8.87641021794048
+"976","diffa","diffa","Niger",13.5242579171287,12.57068480356
+"977","n'guigmi","n'guigmi","Niger",14.1570205453182,12.8138975638357
+"978","maine-soroa",NA,"Niger",NA,NA
+"979","dosso","dosso","Niger",12.9295961968924,3.31280104851002
+"980","boboye","boboye","Niger",13.1249420314689,2.8192488895776
+"981","dogondoutchi","dogondoutchi","Niger",13.9541731379034,4.12281609645352
+"982","gaya {added may/04, 07}",NA,"Niger",NA,NA
+"983","loga","loga","Niger",13.6112412786554,3.44242852400637
+"984","madarounfa","madarounfa","Niger",13.2694411828911,7.15952262194603
+"985","aguie","aguie","Niger",13.5213810695816,7.63436961385793
+"986","dakoro","dakoro","Niger",14.3676498512237,7.00876867306379
+"987","tessaoua","tessaoua","Niger",13.8638917813614,8.1946568960971
+"988","guidan-roumdji","guidan roumdji","Niger",13.6422280755457,6.84767654095055
+"989","mayahi","mayahi","Niger",14.1177253742302,7.62511386696035
+"990","tahoua","tahoua","Niger",14.9470168952562,4.89830964305585
+"991","birni n'konni","birni n'konni","Niger",13.9144791385281,4.94937061099464
+"992","illela","illela","Niger",13.661443197212,5.34520863658946
+"993","keita","keita","Niger",14.7652254848768,5.84760489041896
+"994","madaoua","madaoua","Niger",14.0042100699897,6.11587723019418
+"995","bouza","bouza","Niger",14.4381531351068,6.09979432103178
+"996","tchin-tabaraden","tchintabaraden","Niger",15.9551933484912,5.68523973564952
+"997","tillaberi","tillaberi","Niger",14.3623036222142,1.46375849994716
+"998","filingue","filingue","Niger",14.2495715126741,3.19712251453825
+"999","ouallam","ouallam","Niger",14.5036893839622,2.12649669239838
+"1000","tera","tera","Niger",14.3250402304918,0.69525552266385
+"1001","kollo","kollo","Niger",13.4488018926539,2.2760027842281
+"1002","say","say","Niger",12.6610500194721,2.25106637382984
+"1003","mirriah","mirriah","Niger",13.5974246619055,9.07852850120241
+"1004","magaria","magaria","Niger",13.157264453965,8.96480230969705
+"1005","matameye",NA,"Niger",NA,NA
+"1006","goure","goure","Niger",14.0293632754541,10.1886659604346
+"1007","tanout","tanout","Niger",15.0543170754005,8.90958423663774
+"1008","niamey1",NA,"Niger",NA,NA
+"1009","arlit","arlit","Niger",19.1974736906251,7.13528667035705

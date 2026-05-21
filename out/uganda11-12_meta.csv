@@ -1,0 +1,27 @@
+country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,dataset_doi
+Uganda,2011-2012,hhID,HHID,HH identifier,0,0,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r373
+Uganda,2011-2012,plotID,plotID,plot name,0,0.02,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r374
+Uganda,2011-2012,plot_area_reported_localUnit,"a4aq7,a4bq7",What was the total area of plot planted,2.38,0.14,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r375
+Uganda,2011-2012,localUnit_area,NA,NA,2.33,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r376
+Uganda,2011-2012,plot_area_reported_ha,NA,NA,2.38,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r377
+Uganda,2011-2012,crop_area_share,"a4aq9,a4bq9",What percentage of the plot area was under this crop,2.33,43.92,100 if pure stand,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r378
+Uganda,2011-2012,planting_month,"Crop_Planted_Month,Crop_Planted_Month2",month crop planted,2.33,3.54,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r379
+Uganda,2011-2012,planting_year,"Crop_Planted_Year,Crop_Planted_Year",year crop planted,3.5,5.76,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r380
+Uganda,2011-2012,crop,cropID,Crop Name,0,0,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r381
+Uganda,2011-2012,harvest_month_begin,"a5aq6e, a5bq6e",In what month did the harvest begin,80,36.37,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r382
+Uganda,2011-2012,harvest_month_end,"a5aq6f, a5bq6f",In what month did the harvest end,80,49.83,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r383
+Uganda,2011-2012,harvest_year_begin,NA,NA,100,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r384
+Uganda,2011-2012,harvest_year_end,NA,NA,100,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r385
+Uganda,2011-2012,season,NA,NA,0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r386
+Uganda,2011-2012,adm1,h1aq1,District,8.97,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r387
+Uganda,2011-2012,adm2,h1aq2,County/Municipality,9.03,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r388
+Uganda,2011-2012,adm3,h1aq3,"Sub-county/Division,Town Council",9.97,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r389
+Uganda,2011-2012,adm4,h1aq4,Parish/Ward,9.16,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r390
+Uganda,2011-2012,latitude,lat_mod,"latitude in degrees, modified (wgs84)",6.39,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r391
+Uganda,2011-2012,longitude,lon_mod,"longitude in degrees, modified (wgs84)",6.39,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r392
+Uganda,2011-2012,GPS_level,source,location type used in generating modified coordinates,6.39,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r393
+Uganda,2011-2012,plot_area_measured,NA,NA,100,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r394
+Uganda,2011-2012,harvest_month,NA,NA,100,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r395
+Uganda,2011-2012,harvest_year,NA,NA,100,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r396
+Uganda,2011-2012,source,NA,NA,0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r397
+Uganda,2011-2012,country,NA,NA,0,,,UGA_2011_UNPS_v01_M,https://doi.org/10.48529/5cpp-r398

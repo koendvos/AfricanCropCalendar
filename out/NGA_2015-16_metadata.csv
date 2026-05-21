@@ -1,0 +1,29 @@
+country,year,varName_harmonized,dataset_name,dataset_doi,varName_source,varLabel_source,comment
+Nigeria,2015,wave,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,,,The wave indicates the first year of the respective GHS data-collection that typically extended into the subsequent calendar year.
+Nigeria,2015,country,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,,,
+Nigeria,2015,adm1,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,zone,Zone code,
+Nigeria,2015,adm2,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,state,State code,
+Nigeria,2015,adm3,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,lga,LGA code,
+Nigeria,2015,adm4,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,ea,EA CODE,
+Nigeria,2015,lat,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,lat_dd_mod,Latitude Modified,
+Nigeria,2015,lon,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,lon_dd_mod,Longitude Modified,
+Nigeria,2015,GPS_level,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,,,EA centroid
+Nigeria,2015,hhID,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,hhid,hhid,
+Nigeria,2015,plotID,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,plotid,"Id in ""plot_roster""",
+Nigeria,2015,crop,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,cropcode,Id in Sec11f_crops,Code is available to combine crops into simpler categories but not used to generate the current dataset
+Nigeria,2015,season,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,n/a,n/a,Only one agricultural season is tracked in Nigeria
+Nigeria,2015,plot_area_measured_ha,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,s11aq4c,Area of Plot Measured with GPS; What is the area of this plot (%rostertitle%)? ENUMERATOR: MEASURE THE ARE,
+Nigeria,2015,plot_area_reported_ha,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,,,Generated from WB conversion table
+Nigeria,2015,plot_area_reported_localUnit,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,s11aq4b,What is the unit of [PLOT],
+Nigeria,2015,localUnit_area,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,s11aq4aa,What is the area of [PLOT]?,
+Nigeria,2015,crop_area_share,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,sa3iq5c,,"Generated from farmer-reported area planted for tree/permanet crops, including cassava (see s11fq4a/sa3iq5a) when proportion of area planted was not available. Note that the sum of reported area planted for multiple crops sometimes is greater than the plot area; code is available to rescale to plot area "
+Nigeria,2015,planting_year,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,s11fq3_2,When did you plant the seeds for [CROP] on [PLOT]? (YEAR),
+Nigeria,2015,planting_month,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,s11fq3_1,When was most of the [CROP] seeds palnted on [PLOT] this agricultural season?,
+Nigeria,2015,harvest_year_begin,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,sa3iq4a2,When did household start the harvest of [CROP] from [PLOT]? (YEAR),
+Nigeria,2015,harvest_month_begin,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,sa3iq4a1,When did household start the harvest of [CROP] from [PLOT]? (MONTH),
+Nigeria,2015,harvest_year_end,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,sa3iq6c2,When did your household complete harvest of [CROP] from [PLOT]? (YEAR),
+Nigeria,2015,harvest_month_end,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,sa3iq6c1,When did your household complete harvest of [CROP] from [PLOT]? (MONTH),
+Nigeria,2015,harvest_year,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,n/a,,
+Nigeria,2015,harvest_month,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,n/a,,
+Nigeria,2015,dataset_name,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,n/a,,
+Nigeria,2015,dataset_doi,NGA_2015_GHSP-W3_v02_M,https://doi.org/10.48529/7xmj-q133,n/a,,

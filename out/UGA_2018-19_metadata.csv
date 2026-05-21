@@ -1,0 +1,29 @@
+country,year,varName_harmonized,varName_source,varLabel_source,pctMissing_harmonized,pctMissing_source,comment,dataset_name,dataset_doi
+Uganda,2018-19,hhID,hhid,Unique household identifier in 2018/19/ InterviewId,0,0,"hhid was changed since 2016, both are available in the raw data",UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plotID,pltid,Plot identifier,0,0,plotID may not be unique,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plot_area_reported_localUnit,"s4aq07, s4bq07",7.What was the total area of %rostertitle% planted?,1.1422769386978042,0.9028347749226593,sometimes 0.00,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,crop_area_share,"s4aq09, s4bq09",9. Approximately what percentage of the plot area was under this %rostertitle%?,30.955705038710494,31.308794747143125,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,planting_month,"s4aq09_1, s4bq09_1",9.1. What month was the crop planted?,1.6372636121335196,2.1402866342572135,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,planting_year,"s4aq09_2, s4bq09_2",9.2. What year was the crop planted?(YYYY),1.5293819012565046,2.032956626049624,range: 2 to 20186,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,fieldID,parcelID,Parcel identifier,0,0,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plot_area_reported_ha,NA,NA,1.1422769386978042,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,localUnit_area,NA,NA,1.1422769386978042,NA,"according to the Uganda National Panel Survey 2018-2019, Agriculture Questionnaire ",UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,crop,cropID,Roster instance identifier,0,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_month_begin,"s5aq06e_1, s5bq06e_1",6e. In what month did the harvest begin?,12.152557431146084,0.04931661265323376,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_year_begin,"s5aq06e_1_1, s5bq06e_1_1",6e_1. In what year did the harvest begin? (YY),12.152557431146084,0.04931661265323376,range: 0 to 20186,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_month_end,"s5aq06f_1, s5bq06f_1","6f. In what month did the harvest end?,",12.222363244066505,0.1268141468226011,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_year_end,"s5aq06f_1_1, s5bq06f_1_1",6f_1. In what year did the harvest end? (YY),12.228709227059271,0.1338593772016345,range: 201 to 2818,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,season,NA,NA,0,NA,two visits approximately six months apart based on the two cropping seasons,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm1,district_2018/ distirct_name,District name,0.9328594999365402,0,different label in study documentation and .csv file,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm2,subcounty_2018/ subcounty_name,Sub country name,0.9328594999365402,0,different label in study documentation and .csv file,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm3,parish_2018/ parish_name,Parish Code,0.9328594999365402,0,different label in study documentation and .csv file,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,adm4,village/ ???,NA,0.9328594999365402,0,label non existent in study documentary,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,lat,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,lon,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,GPS_level,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,plot_area_measured_ha,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_month,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,harvest_year,NA,NA,100,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,dataset_name,NA,NA,0,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,country,NA,NA,0,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
+Uganda,2018-19,dataset_doi,NA,NA,0,NA,NA,UGA_2018_UNPS_v02_M,https://doi.org/10.48529/ttyg-m774
