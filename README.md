@@ -8,6 +8,6 @@ AfricanCropCalendar_data.csv
 
 Raw data per country and the code used to extract the required variables can be found in the dedicated country folders: [Ethiopia](ETH), [Mali](MLI), [Malawi](MWI), [Niger](NER), [Nigeria](NGA), and [Uganda](UGA)
 
-Harmonized files and metadata per country can be found in the /out folder per survey wave.
+    Harmonized files and metadata per country can be found in [out](out) per survey wave.
 
 Scripts and additional checks performed to integrate the individual countries into a single database can be found in the /PostProcess folder.
